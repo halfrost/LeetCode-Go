@@ -143,7 +143,7 @@
 |85|[Maximal Rectangle](./Algorithms/85.maximal-rectangle)|29%|Hard|[❤](https://leetcode.com/list/oussv5j)|
 |86|[Partition List](./Algorithms/86.partition-list)|33%|Medium||
 |87|[Scramble String](./Algorithms/87.scramble-string)|29%|Hard|[❤](https://leetcode.com/list/oussv5j)|
-|88|[Merge Sorted Array](./Algorithms/88.Merge Sorted Array)|32%|Easy||
+|88|[Merge Sorted Array](./Algorithms/88.Merge-Sorted-Array)|32%|Easy||
 |89|[Gray Code](./Algorithms/89.gray-code)|42%|Medium||
 |90|[Subsets II](./Algorithms/90.subsets-ii)|38%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |91|[Decode Ways](./Algorithms/91.decode-ways)|20%|Medium|[❤](https://leetcode.com/list/oussv5j)|
@@ -357,7 +357,7 @@
 |407|[Trapping Rain Water II](./Algorithms/407.trapping-rain-water-ii)|37%|Hard||
 |409|[Longest Palindrome](./Algorithms/409.longest-palindrome)|45%|Easy||
 |410|[Split Array Largest Sum](./Algorithms/410.split-array-largest-sum)|39%|Hard||
-|412|[Fizz Buzz](./Algorithms/412.Fizz Buzz)|58%|Easy||
+|412|[Fizz Buzz](./Algorithms/412.Fizz-Buzz)|58%|Easy||
 |413|[Arithmetic Slices](./Algorithms/413.arithmetic-slices)|54%|Medium||
 |414|[Third Maximum Number](./Algorithms/414.third-maximum-number)|28%|Easy||
 |415|[Add Strings](./Algorithms/415.add-strings)|41%|Easy||
