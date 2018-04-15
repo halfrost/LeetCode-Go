@@ -178,7 +178,7 @@
 |122|[Best Time to Buy and Sell Stock II](./Algorithms/122.best-time-to-buy-and-sell-stock-ii)|47%|Easy||
 |123|[Best Time to Buy and Sell Stock III](./Algorithms/123.best-time-to-buy-and-sell-stock-iii)|30%|Hard||
 |124|[Binary Tree Maximum Path Sum](./Algorithms/124.binary-tree-maximum-path-sum)|27%|Hard|[❤](https://leetcode.com/list/oussv5j)|
-|125|[Valid Palindrome](./Algorithms/125.valid-palindrome)|26%|Easy||
+|125|[Valid Palindrome](./Algorithms/125.Valid-Palindrome)|26%|Easy||
 |126|[Word Ladder II](./Algorithms/126.word-ladder-ii)|14%|Hard|[❤](https://leetcode.com/list/oussv5j)|
 |127|[Word Ladder](./Algorithms/127.word-ladder)|20%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |128|[Longest Consecutive Sequence](./Algorithms/128.longest-consecutive-sequence)|38%|Hard||
