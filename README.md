@@ -75,7 +75,7 @@
 |17|[Letter Combinations of a Phone Number](./Algorithms/17.letter-combinations-of-a-phone-number)|36%|Medium||
 |18|[4Sum](./Algorithms/18.4sum)|27%|Medium||
 |19|[Remove Nth Node From End of List](./Algorithms/19.remove-nth-node-from-end-of-list)|33%|Medium||
-|20|[Valid Parentheses](./Algorithms/20.valid-parentheses)|33%|Easy||
+|20|[Valid Parentheses](./Algorithms/20.Valid-Parentheses)|33%|Easy||
 |21|[Merge Two Sorted Lists](./Algorithms/21.merge-two-sorted-lists)|41%|Easy||
 |22|[Generate Parentheses](./Algorithms/22.generate-parentheses)|48%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |23|[Merge k Sorted Lists](./Algorithms/23.merge-k-sorted-lists)|28%|Hard||
@@ -178,7 +178,7 @@
 |122|[Best Time to Buy and Sell Stock II](./Algorithms/122.best-time-to-buy-and-sell-stock-ii)|47%|Easy||
 |123|[Best Time to Buy and Sell Stock III](./Algorithms/123.best-time-to-buy-and-sell-stock-iii)|30%|Hard||
 |124|[Binary Tree Maximum Path Sum](./Algorithms/124.binary-tree-maximum-path-sum)|27%|Hard|[❤](https://leetcode.com/list/oussv5j)|
-|125|[Valid Palindrome](./Algorithms/125.Valid-Palindrome)|26%|Easy||
+|125|[Valid Palindrome](./Algorithms/125.Valid-Palindrome)|27.0%|Easy||
 |126|[Word Ladder II](./Algorithms/126.word-ladder-ii)|14%|Hard|[❤](https://leetcode.com/list/oussv5j)|
 |127|[Word Ladder](./Algorithms/127.word-ladder)|20%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |128|[Longest Consecutive Sequence](./Algorithms/128.longest-consecutive-sequence)|38%|Hard||
