@@ -96,7 +96,7 @@
 |38|[Count and Say](./Algorithms/38.count-and-say)|36%|Easy||
 |39|[Combination Sum](./Algorithms/39.combination-sum)|41%|Medium||
 |40|[Combination Sum II](./Algorithms/40.combination-sum-ii)|35%|Medium||
-|41|[First Missing Positive](./Algorithms/41.first-missing-positive)|25%|Hard||
+|41|[First Missing Positive](./Algorithms/41.First-Missing-Positive)|25%|Hard||
 |42|[Trapping Rain Water](./Algorithms/42.trapping-rain-water)|37%|Hard||
 |43|[Multiply Strings](./Algorithms/43.multiply-strings)|28%|Medium||
 |44|[Wildcard Matching](./Algorithms/44.wildcard-matching)|21%|Hard|[❤](https://leetcode.com/list/oussv5j)|
