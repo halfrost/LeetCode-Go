@@ -226,7 +226,7 @@
 |203|[Remove Linked List Elements](./Algorithms/203.remove-linked-list-elements)|33%|Easy||
 |204|[Count Primes](./Algorithms/204.count-primes)|26%|Easy|[❤](https://leetcode.com/list/oussv5j)|
 |205|[Isomorphic Strings](./Algorithms/205.isomorphic-strings)|34%|Easy|[❤](https://leetcode.com/list/oussv5j)|
-|206|[Reverse Linked List](./Algorithms/206.reverse-linked-list)|46%|Easy||
+|206|[Reverse Linked List](./Algorithms/206.Reverse-Linked-List)|46%|Easy||
 |207|[Course Schedule](./Algorithms/207.course-schedule)|33%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |208|[Implement Trie (Prefix Tree)](./Algorithms/208.implement-trie-prefix-tree)|30%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |209|[Minimum Size Subarray Sum](./Algorithms/209.minimum-size-subarray-sum)|32%|Medium||
