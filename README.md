@@ -79,8 +79,8 @@
 |21|[Merge Two Sorted Lists](./Algorithms/21.merge-two-sorted-lists)|41%|Easy||
 |22|[Generate Parentheses](./Algorithms/22.generate-parentheses)|48%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |23|[Merge k Sorted Lists](./Algorithms/23.merge-k-sorted-lists)|28%|Hard||
-|24|[Swap Nodes in Pairs](./Algorithms/24.swap-nodes-in-pairs)|39%|Medium|[❤](https://leetcode.com/list/oussv5j)|
-|25|[Reverse Nodes in k-Group](./Algorithms/25.reverse-nodes-in-k-group)|31%|Hard|[❤](https://leetcode.com/list/oussv5j)|
+|24|[Swap Nodes in Pairs](./Algorithms/24.Swap-Nodes-In-Pairs)|39%|Medium|[❤](https://leetcode.com/list/oussv5j)|
+|25|[Reverse Nodes in k-Group](./Algorithms/25.Reverse-Nodes-In-k-Group)|31%|Hard|[❤](https://leetcode.com/list/oussv5j)|
 |26|[Remove Duplicates from Sorted Array](./Algorithms/26.remove-duplicates-from-sorted-array)|36%|Easy|[❤](https://leetcode.com/list/oussv5j)|
 |27|[Remove Element](./Algorithms/27.remove-element)|40%|Easy||
 |28|[Implement strStr()](./Algorithms/28.implement-strstr)|28%|Easy||
@@ -192,6 +192,8 @@
 |137|[Single Number II](./Algorithms/137.single-number-ii)|42%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |139|[Word Break](./Algorithms/139.word-break)|31%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |140|[Word Break II](./Algorithms/140.word-break-ii)|24%|Hard|[❤](https://leetcode.com/list/oussv5j)|
+|141|[Linked List Cycle](./Algorithms/140.Linked-List-Cycle)|24%|Hard|[❤](https://leetcode.com/list/oussv5j)|
+|142|[Linked List Cycle II](./Algorithms/140.Linked-List-Cycle-II)|24%|Hard|[❤](https://leetcode.com/list/oussv5j)|
 |143|[Reorder List](./Algorithms/143.reorder-list)|26%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |144|[Binary Tree Preorder Traversal](./Algorithms/144.binary-tree-preorder-traversal)|46%|Medium|[❤](https://leetcode.com/list/oussv5j)|
 |145|[Binary Tree Postorder Traversal](./Algorithms/145.binary-tree-postorder-traversal)|42%|Hard||
