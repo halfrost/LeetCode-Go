@@ -762,7 +762,7 @@
 [86. Partition List](https://leetcode.com/problems/partition-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/86.Partition%20List)| Medium | O(n)| O(1)|❤️|
 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/92.Reverse%20Linked%20List%20II)| Medium | O(n)| O(1)|❤️|
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/141.Linked%20List%20Cycle)| Easy | O(n)| O(1)|❤️|
-[143. Reorder List](https://leetcode.com/problems/reorder-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/141.Linked%20List%20Cycle)| Medium | O(n)| O(1)|❤️|
+[143. Reorder List](https://leetcode.com/problems/reorder-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/143.Reorder%20List)| Medium | O(n)| O(1)|❤️|
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Go](./LinkedList/ReverseLinkedList.Go)| Easy| O(n)| O(1)||
 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Go](./LinkedList/PalindromeLinkedList.Go)| Easy| O(n)| O(1)||
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Go](./LinkedList/SwapNodesInPairs.Go)| Easy| O(n)| O(1)||
