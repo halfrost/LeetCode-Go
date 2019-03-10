@@ -742,8 +742,8 @@
 
 - 巧妙的构造虚拟头结点。可以使遍历处理逻辑更加统一。
 - 灵活使用递归。构造递归条件，使用递归可以巧妙的解题。不过需要注意有些题目不能使用递归，因为递归深度太深会导致超时和栈溢出。
-- 链表区间逆序
-- 链表寻找中间节点
+- 链表区间逆序。
+- 链表寻找中间节点。
 - 链表排序，时间复杂度要求 O(n * log n)，空间复杂度 O(1)。
 
 
@@ -756,7 +756,13 @@
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/23.Merge%20k%20Sorted%20Lists)| Hard | O(log n)| O(1)||
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/24.Swap-Nodes-in-Pairs)| Medium | O(n)| O(1)||
 [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/25.Reverse%20Nodes%20in%20k%20Group)| Hard | O(log n)| O(1)|❤️|
-[61. Rotate List](https://leetcode.com/problems/rotate-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/61.Rotate%20List)| Medium | O(n)| O(1)|❤️|
+[61. Rotate List](https://leetcode.com/problems/rotate-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/61.Rotate%20List)| Medium | O(n)| O(1)||
+[82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/82.Remove%20Duplicates%20from%20Sorted%20List%20II)| Medium | O(n)| O(1)||
+[83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/83.Remove%20Duplicates%20from%20Sorted%20List)| Easy | O(n)| O(1)||
+[86. Partition List](https://leetcode.com/problems/partition-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/86.Partition%20List)| Medium | O(n)| O(1)|❤️|
+[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/92.Reverse%20Linked%20List%20II)| Medium | O(n)| O(1)|❤️|
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/141.Linked%20List%20Cycle)| Easy | O(n)| O(1)|❤️|
+[143. Reorder List](https://leetcode.com/problems/reorder-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/141.Linked%20List%20Cycle)| Medium | O(n)| O(1)|❤️|
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Go](./LinkedList/ReverseLinkedList.Go)| Easy| O(n)| O(1)||
 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Go](./LinkedList/PalindromeLinkedList.Go)| Easy| O(n)| O(1)||
 [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Go](./LinkedList/SwapNodesInPairs.Go)| Easy| O(n)| O(1)||
