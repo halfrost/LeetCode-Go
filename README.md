@@ -742,9 +742,12 @@
 
 - 巧妙的构造虚拟头结点。可以使遍历处理逻辑更加统一。
 - 灵活使用递归。构造递归条件，使用递归可以巧妙的解题。不过需要注意有些题目不能使用递归，因为递归深度太深会导致超时和栈溢出。
-- 链表区间逆序。
-- 链表寻找中间节点。
-- 链表排序，时间复杂度要求 O(n * log n)，空间复杂度 O(1)。
+- 链表区间逆序。第 92 题。
+- 链表寻找中间节点。第 876 题。
+- 合并 K 个有序链表。第 21 题，第 23 题。
+- 链表归类。第 86 题，第 328 题。
+- 链表排序，时间复杂度要求 O(n * log n)，空间复杂度 O(1)。只有一种做法，归并排序，至顶向下归并。第 148 题。
+- 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。
 
 
 
@@ -753,7 +756,7 @@
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/2.Add-Two-Number)| Medium | O(n)| O(1)||
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/19.Remove%20Nth%20Node%20From%20End%20of%20List)| Medium | O(n)| O(1)||
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/21.Merge%20Two%20Sorted%20Lists)| Easy | O(log n)| O(1)||
-[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/23.Merge%20k%20Sorted%20Lists)| Hard | O(log n)| O(1)||
+[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/23.Merge%20k%20Sorted%20Lists)| Hard | O(log n)| O(1)|❤️|
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/24.Swap-Nodes-in-Pairs)| Medium | O(n)| O(1)||
 [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/25.Reverse%20Nodes%20in%20k%20Group)| Hard | O(log n)| O(1)|❤️|
 [61. Rotate List](https://leetcode.com/problems/rotate-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/61.Rotate%20List)| Medium | O(n)| O(1)||
@@ -761,21 +764,23 @@
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/83.Remove%20Duplicates%20from%20Sorted%20List)| Easy | O(n)| O(1)||
 [86. Partition List](https://leetcode.com/problems/partition-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/86.Partition%20List)| Medium | O(n)| O(1)|❤️|
 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/92.Reverse%20Linked%20List%20II)| Medium | O(n)| O(1)|❤️|
+[109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [Go]()| Medium | O(log n)| O(n)||
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/141.Linked%20List%20Cycle)| Easy | O(n)| O(1)|❤️|
+[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Go]()| Medium | O(n)| O(1)|❤️|
 [143. Reorder List](https://leetcode.com/problems/reorder-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/143.Reorder%20List)| Medium | O(n)| O(1)|❤️|
-[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Go](./LinkedList/ReverseLinkedList.Go)| Easy| O(n)| O(1)||
-[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Go](./LinkedList/PalindromeLinkedList.Go)| Easy| O(n)| O(1)||
-[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [Go](./LinkedList/SwapNodesInPairs.Go)| Easy| O(n)| O(1)||
-[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [Go](./LinkedList/RemoveLinkedListElements.Go)| Easy| O(n)| O(1)||
-[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [Go](./LinkedList/RemoveDuplicatesFromSortedList.Go)| Easy| O(n)| O(1)||
-[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| [Go](./LinkedList/RemoveDuplicatesFromSortedListII.Go)| Medium| O(n)| O(1)||
-[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Go](./LinkedList/RemoveNthFromEnd.Go)| Easy| O(n)| O(1)||
-[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [Go](./LinkedList/OddEvenLinkedList.Go)| Medium| O(n)| O(1)||
-[Rotate List](https://leetcode.com/problems/rotate-list/)| [Go](./LinkedList/RotateList.Go)| Medium| O(n)| O(1)||
-[Reorder List](https://leetcode.com/problems/reorder-list/)| [Go](./LinkedList/ReorderList.Go)| Medium| O(n)| O(1)||
-[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Go](./LinkedList/MergeTwoSortedLists.Go)| Easy| O(n)| O(1)||
-[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Go](./LinkedList/MergeKSortedLists.Go)| Hard| O(mlogn)| O(1)||
-[Partition List](https://leetcode.com/problems/partition-list/)| [Go](./LinkedList/PartitionList.Go)| Medium| O(n)| O(1)||
+[147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)| [Go]()| Medium | O(n)| O(1)||
+[148. Sort List](https://leetcode.com/problems/sort-list/)| [Go]()| Medium | O(log n)| O(n)|❤️|
+[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [Go]()| Easy | O(n)| O(1)|❤️|
+[203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [Go]()| Easy | O(n)| O(1)||
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Go]()| Easy | O(n)| O(1)||
+[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)| [Go]()| Easy | O(n)| O(1)||
+[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)| [Go]()| Easy | O(n)| O(1)||
+[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [Go]()| Medium | O(n)| O(1)||
+[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)| [Go]()| Medium | O(n)| O(n)||
+[725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)| [Go]()| Medium | O(n)| O(1)||
+[817. Linked List Components](https://leetcode.com/problems/linked-list-components/)| [Go]()| Medium | O(n)| O(1)||
+[707. Design Linked List](https://leetcode.com/problems/design-linked-list/)| [Go]()| Easy | O(n)| O(1)||
+[876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)| [Go]()| Easy | O(n)| O(1)|❤️|
 
 ## Stack
 | Title | Solution | Difficulty | Time | Space |
