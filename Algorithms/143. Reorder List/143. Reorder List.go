@@ -64,3 +64,16 @@ func reorderList_1(head *ListNode) *ListNode {
 	}
 	return head
 }
+
+func listToArray(head *ListNode) []int {
+	array := []int{}
+	if head == nil {
+		return array
+	}
+	cur := head
+	for cur != nil {
+		array = append(array, cur.Val)
+		cur = cur.Next
+	}
+	return array
+}
