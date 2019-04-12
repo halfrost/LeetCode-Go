@@ -6,10 +6,13 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists:
 
+![](https://assets.leetcode.com/uploads/2018/12/13/160_statement.png)
 
 begin to intersect at node c1.
 
 Example 1:
+
+![](https://assets.leetcode.com/uploads/2018/12/13/160_example_1.png)
 
 ```c
 Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3
@@ -19,6 +22,8 @@ Input Explanation: The intersected node's value is 8 (note that this must not be
 
 Example 2:
 
+![](https://assets.leetcode.com/uploads/2018/12/13/160_example_2.png)
+
 ```c
 Input: intersectVal = 2, listA = [0,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 Output: Reference of the node with value = 2
@@ -27,6 +32,8 @@ Input Explanation: The intersected node's value is 2 (note that this must not be
 
 
 Example 3:
+
+![](https://assets.leetcode.com/uploads/2018/12/13/160_example_3.png)
 
 ```c
 Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
