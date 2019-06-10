@@ -28,7 +28,11 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 ## 题目大意
 
-后根遍历一颗树。递归的实现方法，见代码。
+后根遍历一颗树。
+
+## 解题思路
+
+递归的实现方法，见代码。
 
 
 

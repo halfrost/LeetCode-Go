@@ -32,6 +32,8 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 实现一个查找 substring 的函数。如果在母串中找到了子串，返回子串在母串中出现的下标，如果没有找到，返回 -1，如果子串是空串，则返回 0 。
 
+## 解题思路
+
 这一题比较简单，直接写即可。
 
 

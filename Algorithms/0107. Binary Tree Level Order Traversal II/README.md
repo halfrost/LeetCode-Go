@@ -29,7 +29,11 @@ return its bottom-up level order traversal as:
 
 ## 题目大意
 
-按层序从下到上遍历一颗树。用一个队列即可实现。
+按层序从下到上遍历一颗树。
+
+## 解题思路
+
+用一个队列即可实现。
 
 
 

@@ -19,4 +19,8 @@ For the purpose of this problem, we define empty string as valid palindrome.
 
 ## 题目大意
 
-判断所给的字符串是否是有效的回文串
+判断所给的字符串是否是有效的回文串。
+
+## 解题思路
+
+简单题，按照题意做即可。

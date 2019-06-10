@@ -43,6 +43,8 @@ You may assume pattern contains only lowercase letters, and str contains lowerca
 
 给定一个模式串，判断字符串是否和给定的模式串，是一样的模式。
 
+## 解题思路
+
 这道题用 2 个 map 即可。1 个 map 记录模式与字符串的匹配关系，另外一个 map 记录字符串和模式的匹配关系。为什么需要记录双向的关系呢？因为 Example 4 中，a 对应了 dog，这个时候 b 如果再对应 dog 是错误的，所以这里需要从 dog 查询它是否已经和某个模式匹配过了。所以需要双向的关系。
 
 

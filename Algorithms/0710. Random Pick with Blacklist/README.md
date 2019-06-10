@@ -59,6 +59,8 @@ The input is two lists: the subroutines called and their arguments. Solution's c
 
 给一个数字 N，再给一个黑名单 B，要求在 [0,N) 区间内随机输出一个数字，这个是不在黑名单 B 中的任意一个数字。
 
+## 解题思路
+
 这道题的 N 的范围特别大，最大是 10 亿。如果利用桶计数，开不出来这么大的数组。考虑到题目要求我们输出的数字是随机的，所以不需要存下所有的白名单的数字。
 
 假设 N=10, blacklist=[3, 5, 8, 9]

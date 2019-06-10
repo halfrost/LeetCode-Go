@@ -42,6 +42,8 @@ You may assume both s and t have the same length.
 
 给定一个初始字符串串，判断初始字符串是否可以通过字符映射的方式，映射到目标字符串，如果可以映射，则输出 true，反之输出 false。
 
+## 解题思路
+
 这道题做法和第 290 题基本一致。
 
 
