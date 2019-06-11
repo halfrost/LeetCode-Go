@@ -5,6 +5,7 @@ import (
 	"sort"
 )
 
+// 解法一 O(n^2)
 func threeSumClosest(nums []int, target int) int {
 	n, res, diff := len(nums), 0, math.MaxInt32
 	if n > 2 {
@@ -28,6 +29,7 @@ func threeSumClosest(nums []int, target int) int {
 	return res
 }
 
+// 解法二 暴力解法 O(n^3)
 func threeSumClosest_(nums []int, target int) int {
 	res, difference := 0, math.MaxInt16
 	for i := 0; i < len(nums); i++ {

@@ -47,30 +47,30 @@ func Test_Problem725(t *testing.T) {
 			ans725{[]int{}},
 		},
 
-		// question725{
-		// 	para725{[]int{1, 2, 3, 2, 3, 2, 3, 2}, 0},
-		// 	ans725{[]int{1, 2, 3, 2, 3, 2, 3, 2}},
-		// },
+		question725{
+			para725{[]int{1, 2, 3, 2, 3, 2, 3, 2}, 0},
+			ans725{[]int{1, 2, 3, 2, 3, 2, 3, 2}},
+		},
 
-		// question725{
-		// 	para725{[]int{1, 2, 3, 4, 5}, 5},
-		// 	ans725{[]int{1, 2, 3, 4}},
-		// },
+		question725{
+			para725{[]int{1, 2, 3, 4, 5}, 5},
+			ans725{[]int{1, 2, 3, 4}},
+		},
 
-		// question725{
-		// 	para725{[]int{}, 5},
-		// 	ans725{[]int{}},
-		// },
+		question725{
+			para725{[]int{}, 5},
+			ans725{[]int{}},
+		},
 
-		// question725{
-		// 	para725{[]int{1, 2, 3, 4, 5}, 10},
-		// 	ans725{[]int{1, 2, 3, 4, 5}},
-		// },
+		question725{
+			para725{[]int{1, 2, 3, 4, 5}, 10},
+			ans725{[]int{1, 2, 3, 4, 5}},
+		},
 
-		// question725{
-		// 	para725{[]int{1}, 1},
-		// 	ans725{[]int{}},
-		// },
+		question725{
+			para725{[]int{1}, 1},
+			ans725{[]int{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 725------------------------\n")

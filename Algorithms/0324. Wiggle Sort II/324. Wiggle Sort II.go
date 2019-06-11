@@ -4,6 +4,7 @@ import (
 	"sort"
 )
 
+// 解法一
 func wiggleSort(nums []int) {
 	if len(nums) < 2 {
 		return
@@ -64,6 +65,7 @@ func partition__324(a []int, lo, hi int) int {
 	return i + 1
 }
 
+// 解法二
 func wiggleSort_(nums []int) {
 	if len(nums) < 2 {
 		return

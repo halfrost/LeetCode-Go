@@ -7,6 +7,8 @@ package leetcode
  *     Next *ListNode
  * }
  */
+
+// 解法一 单链表
 func reorderList(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
@@ -43,6 +45,7 @@ func reorderList(head *ListNode) *ListNode {
 	return head
 }
 
+// 解法二 数组
 func reorderList_1(head *ListNode) *ListNode {
 	array := listToArray(head)
 	length := len(array)

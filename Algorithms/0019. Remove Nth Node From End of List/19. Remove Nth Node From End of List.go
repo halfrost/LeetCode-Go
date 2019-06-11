@@ -8,6 +8,7 @@ package leetcode
  * }
  */
 
+// 解法一
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	var fast, slow *ListNode
 	fast = head
@@ -27,6 +28,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	return head
 }
 
+// 解法二
 func removeNthFromEnd_(head *ListNode, n int) *ListNode {
 	if head == nil {
 		return nil

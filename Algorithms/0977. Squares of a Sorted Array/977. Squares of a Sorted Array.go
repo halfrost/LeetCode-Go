@@ -2,6 +2,7 @@ package leetcode
 
 import "sort"
 
+// 解法一
 func sortedSquares(A []int) []int {
 	ans := make([]int, len(A))
 	for i, k, j := 0, len(A)-1, len(ans)-1; i <= j; k-- {
@@ -16,6 +17,7 @@ func sortedSquares(A []int) []int {
 	return ans
 }
 
+// 解法二
 func sortedSquares_(A []int) []int {
 	for i, value := range A {
 		A[i] = value * value

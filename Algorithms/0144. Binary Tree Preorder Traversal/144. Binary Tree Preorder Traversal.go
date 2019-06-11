@@ -8,6 +8,8 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
+// 解法一
 func preorderTraversal(root *TreeNode) []int {
 	res := []int{}
 	if root != nil {
@@ -24,6 +26,7 @@ func preorderTraversal(root *TreeNode) []int {
 	return res
 }
 
+// 解法二
 func preorderTraversal_(root *TreeNode) []int {
 	var result []int
 	preorder(root, &result)

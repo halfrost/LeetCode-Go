@@ -7,6 +7,8 @@ package leetcode
  *     Next *ListNode
  * }
  */
+
+// 解法一 单链表
 func partition(head *ListNode, x int) *ListNode {
 	beforeHead := &ListNode{Val: 0, Next: nil}
 	before := beforeHead
@@ -34,6 +36,7 @@ type DoublyListNode struct {
 	Next *DoublyListNode
 }
 
+// 解法二 双链表
 func partition_(head *ListNode, x int) *ListNode {
 	if head == nil || head.Next == nil {
 		return head

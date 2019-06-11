@@ -2,6 +2,7 @@ package leetcode
 
 import "sort"
 
+// 解法一
 func findDuplicate(nums []int) int {
 	slow := nums[0]
 	fast := nums[nums[0]]
@@ -17,6 +18,7 @@ func findDuplicate(nums []int) int {
 	return walker
 }
 
+// 解法二
 func findDuplicate_(nums []int) int {
 	if len(nums) == 0 {
 		return 0

@@ -1,5 +1,6 @@
 package leetcode
 
+// 解法一
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -18,6 +19,7 @@ func removeDuplicates(nums []int) int {
 	return last + 1
 }
 
+// 解法二
 func removeDuplicates_(nums []int) int {
 	if len(nums) == 0 {
 		return 0

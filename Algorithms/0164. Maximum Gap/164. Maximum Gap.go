@@ -1,5 +1,6 @@
 package leetcode
 
+// 解法一
 func maximumGap(nums []int) int {
 	if len(nums) < 2 {
 		return 0
@@ -36,6 +37,7 @@ func quickSort__(a []int, lo, hi int) {
 	quickSort__(a, p+1, hi)
 }
 
+// 解法二
 func maximumGap_(nums []int) int {
 
 	if nums == nil || len(nums) < 2 {

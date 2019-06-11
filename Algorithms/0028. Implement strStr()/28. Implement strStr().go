@@ -2,6 +2,7 @@ package leetcode
 
 import "strings"
 
+// 解法一
 func strStr(haystack string, needle string) int {
 	for i := 0; ; i++ {
 		for j := 0; ; j++ {
@@ -18,6 +19,7 @@ func strStr(haystack string, needle string) int {
 	}
 }
 
+// 解法二
 func strStr_(haystack string, needle string) int {
 	return strings.Index(haystack, needle)
 }

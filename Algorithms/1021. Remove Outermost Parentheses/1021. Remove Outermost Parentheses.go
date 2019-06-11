@@ -1,7 +1,7 @@
 package leetcode
 
+// 解法一
 func removeOuterParentheses(S string) string {
-
 	now, current, ans := 0, "", ""
 	for _, char := range S {
 		if string(char) == "(" {
@@ -18,6 +18,7 @@ func removeOuterParentheses(S string) string {
 	return ans
 }
 
+// 解法二
 func removeOuterParentheses_(S string) string {
 	stack, res, counter := []byte{}, "", 0
 	for i := 0; i < len(S); i++ {

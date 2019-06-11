@@ -1,6 +1,6 @@
 package leetcode
 
-// 这一题可以利用数组有序的特性
+// 解法一 这一题可以利用数组有序的特性
 func twoSum_(numbers []int, target int) []int {
 	i, j := 0, len(numbers)-1
 	for i < j {
@@ -15,7 +15,7 @@ func twoSum_(numbers []int, target int) []int {
 	return []int{-1, -1}
 }
 
-// 不管数组是否有序，空间复杂度比上一种解法要多 O(n)
+// 解法二 不管数组是否有序，空间复杂度比上一种解法要多 O(n)
 func twoSum__(numbers []int, target int) []int {
 	m := make(map[int]int)
 	for i := 0; i < len(numbers); i++ {

@@ -1,5 +1,6 @@
 package leetcode
 
+// 解法一
 func isAnagram(s string, t string) bool {
 	alphabet := make([]int, 26)
 	sBytes := []byte(s)
@@ -20,6 +21,8 @@ func isAnagram(s string, t string) bool {
 	}
 	return true
 }
+
+// 解法二
 func isAnagram_(s string, t string) bool {
 	if s == "" && t == "" {
 		return true
