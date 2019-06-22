@@ -8,6 +8,8 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
+// 解法一 BFS
 func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return [][]int{}
@@ -38,4 +40,24 @@ func levelOrder(root *TreeNode) [][]int {
 		}
 	}
 	return res
+}
+
+// 解法二 DFS
+func levelOrder_(root *TreeNode) [][]int {
+	levels := [][]int{}
+	dfsLevel(root, -1, &levels)
+	return levels
+}
+
+func dfsLevel(node *TreeNode, level int, res *[][]int) {
+	if node == nil {
+		return
+	}
+	currLevel := level + 1
+	for len(*res) <= currLevel {
+		*res = append(*res, []int{})
+	}
+	(*res)[currLevel] = append((*res)[currLevel], node.Val)
+	dfsLevel(node.Left, currLevel, res)
+	dfsLevel(node.Right, currLevel, res)
 }
