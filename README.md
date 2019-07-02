@@ -33,6 +33,7 @@
 * [Stack](#stack-已全部做完)
 * [Tree](#tree)
 * [Dynamic programming](#dynamic-programming)
+* [Backtracking](#backtracking-已全部做完)
 * [Depth-first search](#depth-first-search)
 * [Breadth-first Search](#breadth-first-search)
 * [Binary Search](#binary-search)
@@ -1286,6 +1287,8 @@
 
 ## Two Pointers (已全部做完)
 
+![](./Topics/Two_pointers.png)
+
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
 |[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0003.%20Longest%20Substring%20Without%20Repeating%20Characters)| Medium | O(n)| O(1)||
@@ -1336,14 +1339,14 @@
 |[986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0986.%20Interval%20List%20Intersections)| Medium | O(n)| O(1)||
 |[992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0992.%20Subarrays%20with%20K%20Different%20Integers)| Hard | O(n)| O(n) 
 |[1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1004.%20Max%20Consecutive%20Ones%20III)| Medium | O(n)| O(1) 
-
-
-
-
+|[1093. Statistics from a Large Sample](https://leetcode.com/problems/statistics-from-a-large-sample)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1093.%20Statistics%20from%20a%20Large%20Sample)| Medium | O(n)| O(1) 
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
 ## Linked List (已全部做完)
+
+![](./Topics/Linked_List.png)
+
 
 - 巧妙的构造虚拟头结点。可以使遍历处理逻辑更加统一。
 - 灵活使用递归。构造递归条件，使用递归可以巧妙的解题。不过需要注意有些题目不能使用递归，因为递归深度太深会导致超时和栈溢出。
@@ -1392,6 +1395,9 @@
 
 
 ## Stack (已全部做完)
+
+![](./Topics/Stack.png)
+
 
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
@@ -1513,7 +1519,17 @@
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
+## Backtracking (已全部做完)
 
+![](./Topics/Backtracking.png)
+
+
+| Title | Solution | Difficulty | Time | Space |收藏| 
+| ----- | :--------: | :----------: | :----: | :-----: | :-----: |
+
+
+
+|-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
 ## Depth-first Search
@@ -1678,6 +1694,8 @@
 
 
 ## Sort (已全部做完)
+
+![](./Topics/Sort.png)
 
 - 深刻的理解多路快排。第 75 题。
 - 链表的排序，插入排序(第 147 题)和归并排序(第 148 题)
