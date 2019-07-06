@@ -24,22 +24,22 @@
 
 ## Data Structures
 
-> 标识了 (已全部做完) 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的
+> 标识了 ✅ 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的
 
 * [Array](#array)
 * [String](#string)
-* [Two Pointers](#two-pointers-已全部做完)
-* [Linked List](#linked-list-已全部做完)
-* [Stack](#stack-已全部做完)
+* [Two Pointers ✅](#two-pointers)
+* [Linked List ✅](#linked-list)
+* [Stack ✅](#stack)
 * [Tree](#tree)
 * [Dynamic programming](#dynamic-programming)
-* [Backtracking](#backtracking-已全部做完)
+* [Backtracking ✅](#backtracking)
 * [Depth-first search](#depth-first-search)
 * [Breadth-first Search](#breadth-first-search)
 * [Binary Search](#binary-search)
 * [Math](#math)
 * [Hash Table](#hash-table)
-* [Sort](#sort-已全部做完)
+* [Sort ✅](#sort)
 
 
 | 数据结构 | 变种 | 相关题目 |
@@ -475,7 +475,8 @@
 | 0411 |  Minimum Unique Word Abbreviation                            |                                                                                                                                               | 35.10%      |  Hard       |            |
 | 0412 |  Fizz Buzz                                                   | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0412.%20Fizz-Buzz)                                                              | 59.70%      |  Easy       |            |
 | 0413 |  Arithmetic Slices                                           |                                                                                                                                               | 56.00%      |  Medium     |            |
-| 0414 |  Third Maximum Number                                        |                                                                                                                                               | 29.10%      |  Easy       |            |
+| 0414 |  Third Maximum Number                                        |
+[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0414.%20Third%20Maximum%20Number)                                                                                                                                               | 29.10%      |  Easy       |            |
 | 0415 |  Add Strings                                                 |                                                                                                                                               | 43.90%      |  Easy       |            |
 | 0416 |  Partition Equal Subset Sum                                  | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0416.%20Partition%20Equal%20Subset%20Sum)                                       | 40.90%      |  Medium     |            |
 | 0417 |  Pacific Atlantic Water Flow                                 |                                                                                                                                               | 37.60%      |  Medium     |            |
@@ -1140,7 +1141,7 @@
 | 1076 |  Project Employees II                                        |                                                                                                                                               | 52.80%      |  Easy       |            |
 | 1077 |  Project Employees III                                       |                                                                                                                                               | 76.90%      |  Medium     |            |
 | 1078 |  Occurrences After Bigram                                    |                                                                                                                                               | 67.40%      |  Easy       |            |
-| 1079 |  Letter Tile Possibilities                                   |                                                                                                                                               | 76.50%      |  Medium     |            |
+| 1079 |  Letter Tile Possibilities                                   |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1079.%20Letter%20Tile%20Possibilities)                                                                                                                                                | 76.50%      |  Medium     |            |
 | 1080 |  Insufficient Nodes in Root to Leaf Paths                    |                                                                                                                                               | 41.10%      |  Medium     |            |
 | 1081 |  Smallest Subsequence of Distinct Characters                 |                                                                                                                                               | 42.80%      |  Medium     |            |
 | 1082 |  Sales Analysis I                                            |                                                                                                                                               | 74.20%      |  Easy       |            |
@@ -1154,7 +1155,7 @@
 | 1090 |  Largest Values From Labels                                  |                                                                                                                                               | 56.00%      |  Medium     |            |
 | 1091 |  Shortest Path in Binary Matrix                              |                                                                                                                                               | 35.90%      |  Medium     |            |
 | 1092 |  Shortest Common Supersequence                               |                                                                                                                                               | 47.20%      |  Hard       |            |
-| 1093 |  Statistics from a Large Sample                              |                                                                                                                                               | 41.10%      |  Medium     |            |
+| 1093 |  Statistics from a Large Sample                              |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1093.%20Statistics%20from%20a%20Large%20Sample)                                                                                                                                                | 41.10%      |  Medium     |            |
 | 1094 |  Car Pooling                                                 |                                                                                                                                               | 57.10%      |  Medium     |            |
 | 1095 |  Find in Mountain Array                                      |                                                                                                                                               | 32.50%      |  Hard       |            |
 | 1096 |  Brace Expansion II                                          |                                                                                                                                               | 52.00%      |  Hard       |            |
@@ -1223,20 +1224,20 @@
 |[63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0063.%20Unique%20Paths%20II)| Medium | O(n^2)| O(n^2)||
 |[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0064.%20Minimum%20Path%20Sum)| Medium | O(n^2)| O(n^2)||
 |[75. Sort Colors](https://leetcode.com/problems/sort-colors/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0075.%20Sort%20Colors)| Medium| O(n)| O(1)|❤️|
-|[78. Subsets](https://leetcode.com/problems/subsets)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0078.%20Subsets)| Medium | O(n^2)| O(n)||
-|[79. Word Search](https://leetcode.com/problems/word-search)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0079.%20Word%20Search)| Medium | O(n^2)| O(n^2)||
+|[78. Subsets](https://leetcode.com/problems/subsets)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0078.%20Subsets)| Medium | O(n^2)| O(n)|❤️|
+|[79. Word Search](https://leetcode.com/problems/word-search)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0079.%20Word%20Search)| Medium | O(n^2)| O(n^2)|❤️|
 |[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0080.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)| Medium | O(n)| O(1||
 |[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0084.%20Largest%20Rectangle%20in%20Histogram)| Medium | O(n)| O(n)|❤️|
 |[88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0088.%20Merge-Sorted-Array)| Easy | O(n)| O(1)|❤️|
-|[90. Subsets II](https://leetcode.com/problems/subsets-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0090.%20Subsets%20II)| Medium | O(n^2)| O(n)||
+|[90. Subsets II](https://leetcode.com/problems/subsets-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0090.%20Subsets%20II)| Medium | O(n^2)| O(n)|❤️|
 |[120. Triangle](https://leetcode.com/problems/triangle)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0120.%20Triangle)| Medium | O(n^2)| O(n)||
 |[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)| Easy | O(n)| O(1)||
 |[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)| Easy | O(n)| O(1)||
-|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)||
+|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)|❤️|
 |[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0152.%20Maximum%20Product%20Subarray)| Medium | O(n)| O(1)||
 |[167. Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)| Easy | O(n)| O(1)||
 |[209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0209.%20Minimum%20Size%20Subarray%20Sum)| Medium | O(n)| O(1)||
-|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0216.%20Combination%20Sum%20III)| Medium | O(n)| O(1)||
+|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0216.%20Combination%20Sum%20III)| Medium | O(n)| O(1)|❤️|
 |[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0217.%20Contains%20Duplicate)| Easy | O(n)| O(n)||
 |[219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0219.%20Contains%20Duplicate%20II)| Easy | O(n)| O(n)||
 |[283. Move Zeroes](https://leetcode.com/problems/move-zeroes)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0283.%20Move%20Zeroes)| Easy | O(n)| O(1)||
@@ -1272,20 +1273,20 @@
 |[71. Simplify Path](https://leetcode.com/problems/simplify-path)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0071.%20Simplify%20Path)| Medium | O(n)| O(n)||
 |[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0076.%20Minimum%20Window%20Substring)| Hard | O(n)| O(n)|❤️|
 |[91. Decode Ways](https://leetcode.com/problems/decode-ways)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0091.%20Decode%20Ways)| Medium | O(n)| O(n)||
-|[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0093.%20Restore%20IP%20Addresses)| Medium | O(log n)| O(n)||
+|[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0093.%20Restore%20IP%20Addresses)| Medium | O(n)| O(n)|❤️|
 |[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0125.%20Valid-Palindrome)| Easy | O(n)| O(1)||
-|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)||
+|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)|❤️|
 |[344. Reverse String](https://leetcode.com/problems/reverse-string)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0344.%20Reverse%20String)| Easy | O(n)| O(1)||
 |[345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0345.%20Reverse%20Vowels%20of%20a%20String)| Easy | O(n)| O(1)||
 |[767. Reorganize String](https://leetcode.com/problems/reorganize-string/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0767.%20Reorganize%20String)| Medium | O(n log n)| O(log n)  |❤️|
-|[842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0842.%20Split%20Array%20into%20Fibonacci%20Sequence)| Medium | O(n^2)| O(1)||
+|[842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0842.%20Split%20Array%20into%20Fibonacci%20Sequence)| Medium | O(n^2)| O(1)|❤️|
 |[856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0856.%20Score%20of%20Parentheses)| Medium | O(n)| O(n)||
 |[925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0925.%20Long%20Pressed%20Name)| Easy | O(n)| O(1)||
 |[1003. Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1003.%20Check%20If%20Word%20Is%20Valid%20After%20Substitutions)| Medium | O(n)| O(1)||
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
-## Two Pointers (已全部做完)
+## Two Pointers
 
 ![](./Topics/Two_pointers.png)
 
@@ -1365,7 +1366,7 @@
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
-## Linked List (已全部做完)
+## Linked List
 
 ![](./Topics/Linked_List.png)
 
@@ -1416,7 +1417,7 @@
 
 
 
-## Stack (已全部做完)
+## Stack
 
 ![](./Topics/Stack.png)
 
@@ -1545,16 +1546,132 @@
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
-## Backtracking (已全部做完)
+## Backtracking
 
 ![](./Topics/Backtracking.png)
 
+- 排列问题 Permutations。第 46 题，第 47 题。第 60 题，第 526 题，第 996 题。
+- 组合问题 Combination。第 39 题，第 40 题，第 77 题，第 216 题。
+- 排列和组合杂交问题。第 1079 题。
+- N 皇后终极解法(二进制解法)。第 51 题，第 52 题。
+- 数独问题。第 37 题。
+- 四个方向搜索。第 79 题，第 212 题，第 980 题。
+- 子集合问题。第 78 题，第 90 题。
+- Trie。第 208 题，第 211 题。
+- BFS 优化。第 126 题，第 127 题。
+- DFS 模板。(只是一个例子，不对应任何题)
+
+```go
+func combinationSum2(candidates []int, target int) [][]int {
+	if len(candidates) == 0 {
+		return [][]int{}
+	}
+	c, res := []int{}, [][]int{}
+	sort.Ints(candidates)
+	findcombinationSum2(candidates, target, 0, c, &res)
+	return res
+}
+
+func findcombinationSum2(nums []int, target, index int, c []int, res *[][]int) {
+	if target == 0 {
+		b := make([]int, len(c))
+		copy(b, c)
+		*res = append(*res, b)
+		return
+	}
+	for i := index; i < len(nums); i++ {
+		if i > index && nums[i] == nums[i-1] { // 这里是去重的关键逻辑
+			continue
+		}
+		if target >= nums[i] {
+			c = append(c, nums[i])
+			findcombinationSum2(nums, target-nums[i], i+1, c, res)
+			c = c[:len(c)-1]
+		}
+	}
+}
+```
+- BFS 模板。(只是一个例子，不对应任何题)
+
+```go
+func updateMatrix_BFS(matrix [][]int) [][]int {
+	res := make([][]int, len(matrix))
+	if len(matrix) == 0 || len(matrix[0]) == 0 {
+		return res
+	}
+	queue := make([][]int, 0)
+	for i, _ := range matrix {
+		res[i] = make([]int, len(matrix[0]))
+		for j, _ := range res[i] {
+			if matrix[i][j] == 0 {
+				res[i][j] = -1
+				queue = append(queue, []int{i, j})
+			}
+		}
+	}
+	level := 1
+	for len(queue) > 0 {
+		size := len(queue)
+		for size > 0 {
+			size -= 1
+			node := queue[0]
+			queue = queue[1:]
+			i, j := node[0], node[1]
+			for _, direction := range [][]int{{-1, 0}, {1, 0}, {0, 1}, {0, -1}} {
+				x := i + direction[0]
+				y := j + direction[1]
+				if x < 0 || x >= len(matrix) || y < 0 || y >= len(matrix[0]) || res[x][y] < 0 || res[x][y] > 0 {
+					continue
+				}
+				res[x][y] = level
+				queue = append(queue, []int{x, y})
+			}
+		}
+		level++
+	}
+	for i, row := range res {
+		for j, cell := range row {
+			if cell == -1 {
+				res[i][j] = 0
+			}
+		}
+	}
+	return res
+}
+```
 
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
-
-
-
+|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)| Medium | O(log n)| O(1)||
+|[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0022.%20Generate%20Parentheses)| Medium | O(log n)| O(1)||
+|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0037.%20Sudoku%20Solver)| Hard | O(n^2)| O(n^2)|❤️|
+|[39. Combination Sum](https://leetcode.com/problems/combination-sum)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0039.%20Combination%20Sum)| Medium | O(n log n)| O(n)||
+|[40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0040.%20Combination%20Sum%20II)| Medium | O(n log n)| O(n)||
+|[46. Permutations](https://leetcode.com/problems/permutations)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0046.%20Permutations)| Medium | O(n)| O(n)|❤️|
+|[47. Permutations II](https://leetcode.com/problems/permutations-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0047.%20Permutations%20II)| Medium | O(n^2)| O(n)|❤️|
+|[51. N-Queens](https://leetcode.com/problems/n-queens)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0051.%20N-Queens)| Hard | O(n^2)| O(n)|❤️|
+|[52. N-Queens II](https://leetcode.com/problems/n-queens-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0052.%20N-Queens%20II)| Hard | O(n^2)| O(n)|❤️|
+|[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0060.%20Permutation%20Sequence)| Medium | O(n log n)| O(1)||
+|[77. Combinations](https://leetcode.com/problems/combinations)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0077.%20Combinations)| Medium | O(n)| O(n)|❤️|
+|[78. Subsets](https://leetcode.com/problems/subsets)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0078.%20Subsets)| Medium | O(n^2)| O(n)|❤️|
+|[79. Word Search](https://leetcode.com/problems/word-search)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0079.%20Word%20Search)| Medium | O(n^2)| O(n^2)|❤️|
+|[89. Gray Codes](https://leetcode.com/problems/gray-code)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0089.%20Gray%20Code)| Medium | O(n)| O(1)||
+|[90. Subsets II](https://leetcode.com/problems/subsets-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0090.%20Subsets%20II)| Medium | O(n^2)| O(n)|❤️|
+|[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0093.%20Restore%20IP%20Addresses)| Medium | O(n)| O(n)|❤️|
+|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)|❤️|
+|[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0131.%20Palindrome%20Partitioning)| Medium | O(n)| O(n^2)|❤️|
+|[211. Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design)| Medium | O(n)| O(n)|❤️|
+|[212. Word Search II](https://leetcode.com/problems/word-search-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0212.%20Word%20Search%20II)| Hard | O(n^2)| O(n^2)|❤️|
+|[216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0216.%20Combination%20Sum%20III)| Medium | O(n)| O(1)|❤️|
+|[306. Additive Number](https://leetcode.com/problems/additive-number)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0306.%20Additive%20Number)| Medium | O(n^2)| O(1)|❤️|
+|[357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0357.%20Count%20Numbers%20with%20Unique%20Digits)| Medium | O(1)| O(1)||
+|[401. Binary Watch](https://leetcode.com/problems/binary-watch)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0401.%20Binary%20Watch)| Easy | O(1)| O(1)||
+|[526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0526.%20Beautiful%20Arrangement)| Medium | O(n^2)| O(1)|❤️|
+|[784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0784.%20Letter%20Case%20Permutation)| Easy | O(n)| O(n)||
+|[842. Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0842.%20Split%20Array%20into%20Fibonacci%20Sequence)| Medium | O(n^2)| O(1)|❤️|
+|[980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0980.%20Unique%20Paths%20III)| Hard | O(n log n)| O(n)||
+|[996. Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0996.%20Number%20of%20Squareful%20Arrays)| Hard | O(n log n)| O(n) ||
+|[1079. Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1079.%20Letter%20Tile%20Possibilities)| Medium | O(n^2)| O(1)|❤️|
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
@@ -1585,7 +1702,7 @@
 |[394. Decode String](https://leetcode.com/problems/decode-string)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0394.%20Decode%20String)| Medium | O(n)| O(n)||
 |[515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row)| Medium | O(n)| O(n)||
 |[542. 01 Matrix](https://leetcode.com/problems/01-matrix)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0542.%2001%20Matrix)| Medium | O(n)| O(1)||
-|[980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0980.%20Unique%20Paths%20III)| Medium | O(n log n)| O(n)||
+|[980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0980.%20Unique%20Paths%20III)| Hard | O(n log n)| O(n)||
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
@@ -1603,7 +1720,7 @@
 |[103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)| Medium | O(n)| O(n)||
 |[107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0107.%20Binary%20Tree%20Level%20Order%20Traversal%20II)| Easy | O(n)| O(1)||
 |[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0111.%20Minimum%20Depth%20of%20Binary%20Tree)| Easy | O(n)| O(1)||
-|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)||
+|[126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0126.%20Word%20Ladder%20II)| Hard | O(n)| O(n^2)|❤️|
 |[127. Word Ladder](https://leetcode.com/problems/word-ladder)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0127.%20Word%20Ladder)| Medium | O(n)| O(n)||
 |[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0199.%20Binary%20Tree%20Right%20Side%20Views)| Medium | O(n)| O(1)||
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0200.%20Number%20of%20Islands)| Medium | O(n^2)| O(n^2)||
@@ -1687,7 +1804,7 @@
 |[18. 4Sum](https://leetcode.com/problems/4sum)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0018.%204Sum)| Medium | O(n^3)| O(n^2)|❤️|
 |[30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0030.%20Substring%20with%20Concatenation%20of%20All%20Words)| Hard | O(n)| O(n)|❤️|
 |[36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0036.%20Valid%20Sudoku)| Medium | O(n^2)| O(n^2)||
-|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0037.%20Sudoku%20Solver)| Hard | O(n^2)| O(n^2)||
+|[37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0037.%20Sudoku%20Solver)| Hard | O(n^2)| O(n^2)|❤️|
 |[49. Group Anagrams](https://leetcode.com/problems/group-anagrams)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0049.%20Group%20Anagrams)| Medium | O(n log n)| O(n)||
 |[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0076.%20Minimum%20Window%20Substring)| Hard | O(n)| O(n)|❤️|
 |[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0094.%20Binary%20Tree%20Inorder%20Traversal)| Medium | O(n)| O(1)||
@@ -1719,7 +1836,7 @@
 
 
 
-## Sort (已全部做完)
+## Sort
 
 ![](./Topics/Sort.png)
 
