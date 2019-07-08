@@ -58,10 +58,9 @@ func getMedian(w *list.List, k int) float64 {
 	}
 	if k%2 == 1 {
 		return float64(e.Value.(int))
-	} else {
-		p := e.Prev()
-		return (float64(e.Value.(int)) + float64(p.Value.(int))) / 2
 	}
+	p := e.Prev()
+	return (float64(e.Value.(int)) + float64(p.Value.(int))) / 2
 }
 
 // 解法二 用两个堆实现 时间复杂度 O(n * log k) 空间复杂度 O(k)
@@ -70,7 +69,7 @@ func getMedian(w *list.List, k int) float64 {
 // 如果 k 是偶数，那么两个堆都有 k/2 个元素，中间值就是两个堆顶的元素
 // 如果 k 是奇数，那么小顶堆比大顶堆多一个元素，中间值就是小顶堆的堆顶元素
 // 删除一个元素，元素都标记到删除的堆中，取 top 的时候注意需要取出没有删除的元素
-func medianSlidingWindow_(nums []int, k int) []float64 {
+func medianSlidingWindow1(nums []int, k int) []float64 {
 	ans := []float64{}
 	minH := MinHeapR{}
 	maxH := MaxHeapR{}
@@ -109,39 +108,57 @@ func medianSlidingWindow_(nums []int, k int) []float64 {
 	return ans
 }
 
+// IntHeap define
 type IntHeap struct {
 	data []int
 }
 
-func (h IntHeap) Len() int            { return len(h.data) }
-func (h IntHeap) Swap(i, j int)       { h.data[i], h.data[j] = h.data[j], h.data[i] }
+// Len define
+func (h IntHeap) Len() int { return len(h.data) }
+
+// Swap define
+func (h IntHeap) Swap(i, j int) { h.data[i], h.data[j] = h.data[j], h.data[i] }
+
+// Push define
 func (h *IntHeap) Push(x interface{}) { h.data = append(h.data, x.(int)) }
+
+// Pop define
 func (h *IntHeap) Pop() interface{} {
 	x := h.data[h.Len()-1]
 	h.data = h.data[0 : h.Len()-1]
 	return x
 }
+
+// Top defines
 func (h IntHeap) Top() int {
 	return h.data[0]
 }
 
+// MinHeap define
 type MinHeap struct {
 	IntHeap
 }
 
+// Less define
 func (h MinHeap) Less(i, j int) bool { return h.data[i] < h.data[j] }
 
+// MaxHeap define
 type MaxHeap struct {
 	IntHeap
 }
 
+// Less define
 func (h MaxHeap) Less(i, j int) bool { return h.data[i] > h.data[j] }
 
+// MinHeapR define
 type MinHeapR struct {
 	hp, hpDel MinHeap
 }
 
+// Len define
 func (h MinHeapR) Len() int { return h.hp.Len() - h.hpDel.Len() }
+
+// Top define
 func (h *MinHeapR) Top() int {
 	for h.hpDel.Len() > 0 && h.hp.Top() == h.hpDel.Top() {
 		heap.Pop(&h.hp)
@@ -149,19 +166,29 @@ func (h *MinHeapR) Top() int {
 	}
 	return h.hp.Top()
 }
+
+// Pop define
 func (h *MinHeapR) Pop() int {
 	x := h.Top()
 	heap.Pop(&h.hp)
 	return x
 }
-func (h *MinHeapR) Push(x int)   { heap.Push(&h.hp, x) }
+
+// Push define
+func (h *MinHeapR) Push(x int) { heap.Push(&h.hp, x) }
+
+// Remove define
 func (h *MinHeapR) Remove(x int) { heap.Push(&h.hpDel, x) }
 
+// MaxHeapR define
 type MaxHeapR struct {
 	hp, hpDel MaxHeap
 }
 
+// Len define
 func (h MaxHeapR) Len() int { return h.hp.Len() - h.hpDel.Len() }
+
+// Top define
 func (h *MaxHeapR) Top() int {
 	for h.hpDel.Len() > 0 && h.hp.Top() == h.hpDel.Top() {
 		heap.Pop(&h.hp)
@@ -169,10 +196,16 @@ func (h *MaxHeapR) Top() int {
 	}
 	return h.hp.Top()
 }
+
+// Pop define
 func (h *MaxHeapR) Pop() int {
 	x := h.Top()
 	heap.Pop(&h.hp)
 	return x
 }
-func (h *MaxHeapR) Push(x int)   { heap.Push(&h.hp, x) }
+
+// Push define
+func (h *MaxHeapR) Push(x int) { heap.Push(&h.hp, x) }
+
+// Remove define
 func (h *MaxHeapR) Remove(x int) { heap.Push(&h.hpDel, x) }

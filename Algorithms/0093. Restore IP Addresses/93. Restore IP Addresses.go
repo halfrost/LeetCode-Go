@@ -4,7 +4,7 @@ import (
 	"strconv"
 )
 
-func restoreIpAddresses(s string) []string {
+func restoreIPAddresses(s string) []string {
 	if s == "" {
 		return []string{}
 	}

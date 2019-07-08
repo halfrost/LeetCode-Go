@@ -52,7 +52,7 @@ type mark struct {
 	depth int
 }
 
-func isCousins_BFS(root *TreeNode, x int, y int) bool {
+func isCousinsBFS(root *TreeNode, x int, y int) bool {
 	if root == nil {
 		return false
 	}
@@ -83,7 +83,7 @@ func isCousins_BFS(root *TreeNode, x int, y int) bool {
 }
 
 // 解法三 DFS
-func isCousins_DFS(root *TreeNode, x int, y int) bool {
+func isCousinsDFS(root *TreeNode, x int, y int) bool {
 	var depth1, depth2, parent1, parent2 int
 	dfsCousins(root, x, 0, -1, &parent1, &depth1)
 	dfsCousins(root, y, 0, -1, &parent2, &depth2)

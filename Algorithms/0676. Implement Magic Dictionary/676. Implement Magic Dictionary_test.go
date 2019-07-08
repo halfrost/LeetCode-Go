@@ -7,7 +7,7 @@ import (
 
 func Test_Problem676(t *testing.T) {
 	dict := []string{"hello", "leetcode"}
-	obj := Constructor_676()
+	obj := Constructor676()
 	obj.BuildDict(dict)
 	fmt.Printf("obj = %v\n", obj)
 	fmt.Println(obj.Search("hello"))

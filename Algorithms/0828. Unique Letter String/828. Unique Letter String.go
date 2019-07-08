@@ -17,7 +17,7 @@ func uniqueLetterString(S string) int {
 }
 
 // 暴力解法，超时！时间复杂度 O(n^2)
-func uniqueLetterString_(S string) int {
+func uniqueLetterString1(S string) int {
 	if len(S) == 0 {
 		return 0
 	}

@@ -14,13 +14,13 @@ func removeDuplicates(nums []int) int {
 			}
 		}
 		nums[last+1] = nums[finder]
-		last += 1
+		last++
 	}
 	return last + 1
 }
 
 // 解法二
-func removeDuplicates_(nums []int) int {
+func removeDuplicates1(nums []int) int {
 	if len(nums) == 0 {
 		return 0
 	}
@@ -32,14 +32,14 @@ func removeDuplicates_(nums []int) int {
 			break
 		}
 		if nums[i+1] == nums[i] {
-			removeElement_(nums, i+1, nums[i])
+			removeElement1(nums, i+1, nums[i])
 			// fmt.Printf("此时 num = %v length = %v\n", nums, length)
 		}
 	}
 	return i + 1
 }
 
-func removeElement_(nums []int, start, val int) int {
+func removeElement1(nums []int, start, val int) int {
 	if len(nums) == 0 {
 		return 0
 	}

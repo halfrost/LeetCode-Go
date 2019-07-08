@@ -5,9 +5,9 @@ func removeOuterParentheses(S string) string {
 	now, current, ans := 0, "", ""
 	for _, char := range S {
 		if string(char) == "(" {
-			now += 1
+			now++
 		} else if string(char) == ")" {
-			now -= 1
+			now--
 		}
 		current += string(char)
 		if now == 0 {
@@ -19,7 +19,7 @@ func removeOuterParentheses(S string) string {
 }
 
 // 解法二
-func removeOuterParentheses_(S string) string {
+func removeOuterParentheses1(S string) string {
 	stack, res, counter := []byte{}, "", 0
 	for i := 0; i < len(S); i++ {
 		if counter == 0 && len(stack) == 1 && S[i] == ')' {
@@ -30,7 +30,6 @@ func removeOuterParentheses_(S string) string {
 			stack = append(stack, S[i])
 			continue
 		}
-
 		if len(stack) > 0 {
 			switch S[i] {
 			case '(':

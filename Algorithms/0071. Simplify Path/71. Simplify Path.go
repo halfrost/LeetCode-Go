@@ -23,13 +23,12 @@ func simplifyPath(path string) string {
 	}
 	if len(stack) == 0 {
 		return "/"
-	} else {
-		res = strings.Join(stack, "/")
 	}
+	res = strings.Join(stack, "/")
 	return "/" + res
 }
 
 // 解法二 golang 的官方库 API
-func simplifyPath_(path string) string {
+func simplifyPath1(path string) string {
 	return filepath.Clean(path)
 }

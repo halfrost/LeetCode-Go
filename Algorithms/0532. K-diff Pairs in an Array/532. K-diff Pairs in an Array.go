@@ -9,7 +9,7 @@ func findPairs(nums []int, k int) int {
 	for _, value := range nums {
 		m[value]++
 	}
-	for key, _ := range m {
+	for key := range m {
 		if k == 0 && m[key] > 1 {
 			count++
 			continue

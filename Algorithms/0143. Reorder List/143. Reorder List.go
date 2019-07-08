@@ -46,7 +46,7 @@ func reorderList(head *ListNode) *ListNode {
 }
 
 // 解法二 数组
-func reorderList_1(head *ListNode) *ListNode {
+func reorderList1(head *ListNode) *ListNode {
 	array := listToArray(head)
 	length := len(array)
 	if length == 0 {

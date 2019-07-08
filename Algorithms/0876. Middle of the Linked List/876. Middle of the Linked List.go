@@ -26,7 +26,6 @@ func middleNode(head *ListNode) *ListNode {
 	}
 	if length%2 == 0 {
 		return p1.Next
-	} else {
-		return p1
 	}
+	return p1
 }

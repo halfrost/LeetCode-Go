@@ -22,7 +22,7 @@ func maxSubArray(nums []int) int {
 }
 
 // 解法二 模拟
-func maxSubArray_(nums []int) int {
+func maxSubArray1(nums []int) int {
 	if len(nums) == 1 {
 		return nums[0]
 	}

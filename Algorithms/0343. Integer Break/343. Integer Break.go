@@ -1,7 +1,7 @@
 package leetcode
 
 func integerBreak(n int) int {
-	var dp []int = make([]int, n+1)
+	dp := make([]int, n+1)
 	dp[0], dp[1] = 1, 1
 	for i := 1; i <= n; i++ {
 		for j := 1; j < i; j++ {

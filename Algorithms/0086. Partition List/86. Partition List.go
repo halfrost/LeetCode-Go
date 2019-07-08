@@ -30,6 +30,7 @@ func partition(head *ListNode, x int) *ListNode {
 	return beforeHead.Next
 }
 
+// DoublyListNode define
 type DoublyListNode struct {
 	Val  int
 	Prev *DoublyListNode
@@ -37,7 +38,7 @@ type DoublyListNode struct {
 }
 
 // 解法二 双链表
-func partition_(head *ListNode, x int) *ListNode {
+func partition1(head *ListNode, x int) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}

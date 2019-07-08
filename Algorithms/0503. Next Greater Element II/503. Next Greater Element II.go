@@ -20,7 +20,7 @@ func nextGreaterElements(nums []int) []int {
 }
 
 // 解法二
-func nextGreaterElements_(nums []int) []int {
+func nextGreaterElements1(nums []int) []int {
 	if len(nums) == 0 {
 		return []int{}
 	}

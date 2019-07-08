@@ -52,7 +52,7 @@ func Test_Problem714(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans714, q.para714
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfit_714(p.one, p.f))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfit714(p.one, p.f))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -3,9 +3,8 @@ package leetcode
 func isLetter(char byte) bool {
 	if char >= 'a' && char <= 'z' {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
 
 func decodeAtIndex(S string, K int) string {
@@ -20,9 +19,8 @@ func decodeAtIndex(S string, K int) string {
 			if length*int(S[i]-'0') >= K {
 				if K%length != 0 {
 					return decodeAtIndex(S[:i], K%length)
-				} else {
-					return decodeAtIndex(S[:i], length)
 				}
+				return decodeAtIndex(S[:i], length)
 			}
 			length *= int(S[i] - '0')
 		}

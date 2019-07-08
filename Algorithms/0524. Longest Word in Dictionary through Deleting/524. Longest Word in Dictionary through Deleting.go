@@ -7,7 +7,7 @@ func findLongestWord(s string, d []string) string {
 		pointD := 0
 		for pointS < len(s) && pointD < len(d[i]) {
 			if s[pointS] == d[i][pointD] {
-				pointD += 1
+				pointD++
 			}
 			pointS++
 		}

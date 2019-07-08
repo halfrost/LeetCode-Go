@@ -5,12 +5,12 @@ import (
 )
 
 // 解法一 DP
-func maxProfit_309(prices []int) int {
+func maxProfit309(prices []int) int {
 	if len(prices) <= 1 {
 		return 0
 	}
 	buy, sell := make([]int, len(prices)), make([]int, len(prices))
-	for i, _ := range buy {
+	for i := range buy {
 		buy[i] = math.MinInt64
 	}
 	buy[0] = -prices[0]
@@ -24,7 +24,7 @@ func maxProfit_309(prices []int) int {
 }
 
 // 解法二 优化辅助空间的 DP
-func maxProfit_309_(prices []int) int {
+func maxProfit309_1(prices []int) int {
 	if len(prices) <= 1 {
 		return 0
 	}

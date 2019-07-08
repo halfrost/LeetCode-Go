@@ -18,7 +18,7 @@ func majorityElement(nums []int) int {
 }
 
 // 解法二 时间复杂度 O(n) 空间复杂度 O(n)
-func majorityElement_(nums []int) int {
+func majorityElement1(nums []int) int {
 	m := make(map[int]int)
 	for _, v := range nums {
 		m[v]++

@@ -61,7 +61,7 @@ func Test_Problem309(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans309, q.para309
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfit_309(p.one))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfit309(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

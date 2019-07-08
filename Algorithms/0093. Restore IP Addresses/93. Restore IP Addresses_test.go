@@ -46,7 +46,7 @@ func Test_Problem93(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans93, q.para93
-		fmt.Printf("【input】:%v       【output】:%v\n", p, restoreIpAddresses(p.s))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, restoreIPAddresses(p.s))
 	}
 	fmt.Printf("\n\n\n")
 }

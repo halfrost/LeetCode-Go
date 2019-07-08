@@ -21,7 +21,7 @@ func partitionLabels(S string) []int {
 }
 
 // 解法二
-func partitionLabels_(S string) []int {
+func partitionLabels1(S string) []int {
 	visit, counter, res, sum, lastLength := make([]int, 26), map[byte]int{}, []int{}, 0, 0
 	for i := 0; i < len(S); i++ {
 		counter[S[i]]++

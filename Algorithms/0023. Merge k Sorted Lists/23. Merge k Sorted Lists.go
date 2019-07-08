@@ -31,8 +31,7 @@ func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1.Val < l2.Val {
 		l1.Next = mergeTwoLists1(l1.Next, l2)
 		return l1
-	} else {
-		l2.Next = mergeTwoLists1(l1, l2.Next)
-		return l2
 	}
+	l2.Next = mergeTwoLists1(l1, l2.Next)
+	return l2
 }

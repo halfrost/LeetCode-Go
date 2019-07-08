@@ -6,7 +6,7 @@ type FreqStack struct {
 	maxfreq int
 }
 
-func Constructor_895() FreqStack {
+func Constructor895() FreqStack {
 	hash := make(map[int]int)
 	maxHash := make(map[int][]int)
 	return FreqStack{freq: hash, group: maxHash}

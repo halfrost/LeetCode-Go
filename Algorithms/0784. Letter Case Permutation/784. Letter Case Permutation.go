@@ -46,11 +46,11 @@ func findLetterCasePermutation(s string, pos []int, target, index int, c []int, 
 // 第二步：
 // [mqe Mqe mQe MQe] -> [mqe Mqe mQe MQe mqE MqE mQE MQE]
 
-func letterCasePermutation_(S string) []string {
+func letterCasePermutation1(S string) []string {
 	res := make([]string, 0, 1<<uint(len(S)))
 	S = strings.ToLower(S)
 	for k, v := range S {
-		if isLetter_784(byte(v)) {
+		if isLetter784(byte(v)) {
 			switch len(res) {
 			case 0:
 				res = append(res, S, toUpper(S, k))
@@ -67,7 +67,7 @@ func letterCasePermutation_(S string) []string {
 	return res
 }
 
-func isLetter_784(c byte) bool {
+func isLetter784(c byte) bool {
 	return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
 }
 

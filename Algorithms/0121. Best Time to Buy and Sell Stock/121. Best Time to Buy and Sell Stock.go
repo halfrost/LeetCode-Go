@@ -18,7 +18,7 @@ func maxProfit(prices []int) int {
 }
 
 // 解法二 单调栈
-func maxProfit_(prices []int) int {
+func maxProfit1(prices []int) int {
 	if len(prices) == 0 {
 		return 0
 	}

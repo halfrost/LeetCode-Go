@@ -12,7 +12,7 @@ func threeSumMulti(A []int, target int) int {
 	}
 
 	uniqNums := []int{}
-	for key, _ := range counter {
+	for key := range counter {
 		uniqNums = append(uniqNums, key)
 	}
 	sort.Ints(uniqNums)

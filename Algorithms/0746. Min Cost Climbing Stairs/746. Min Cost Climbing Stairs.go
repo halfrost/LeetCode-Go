@@ -11,7 +11,7 @@ func minCostClimbingStairs(cost []int) int {
 }
 
 // 解法二 DP 优化辅助空间
-func minCostClimbingStairs_(cost []int) int {
+func minCostClimbingStairs1(cost []int) int {
 	var cur, last int
 	for i := 2; i < len(cost)+1; i++ {
 		if last+cost[i-1] > cur+cost[i-2] {

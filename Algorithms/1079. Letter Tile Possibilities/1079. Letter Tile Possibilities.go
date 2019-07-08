@@ -4,7 +4,7 @@ package leetcode
 func numTilePossibilities(tiles string) int {
 	m := make(map[byte]int)
 	for i := range tiles {
-		m[tiles[i]] += 1
+		m[tiles[i]]++
 	}
 	arr := make([]int, 0)
 	for _, v := range m {
@@ -18,16 +18,16 @@ func numTileDFS(arr []int) (r int) {
 		if arr[i] == 0 {
 			continue
 		}
-		r += 1
-		arr[i] -= 1
+		r++
+		arr[i]--
 		r += numTileDFS(arr)
-		arr[i] += 1
+		arr[i]++
 	}
 	return
 }
 
 // 解法二 DFS 暴力解法
-func numTilePossibilities_(tiles string) int {
+func numTilePossibilities1(tiles string) int {
 	res, tmp, tMap, used := 0, []byte{}, make(map[string]string, 0), make([]bool, len(tiles))
 	findTile([]byte(tiles), tmp, &used, 0, &res, tMap)
 	return res

@@ -15,12 +15,11 @@ func isHappy(n int) bool {
 		if _, ok := record[res]; !ok {
 			if res == 1 {
 				return true
-			} else {
-				record[res] = res
-				num = res
-				res = 0
-				continue
 			}
+			record[res] = res
+			num = res
+			res = 0
+			continue
 		} else {
 			return false
 		}

@@ -18,7 +18,7 @@ func sortedSquares(A []int) []int {
 }
 
 // 解法二
-func sortedSquares_(A []int) []int {
+func sortedSquares1(A []int) []int {
 	for i, value := range A {
 		A[i] = value * value
 	}

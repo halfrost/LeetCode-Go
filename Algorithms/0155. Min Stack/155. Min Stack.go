@@ -1,15 +1,19 @@
 package leetcode
 
+// MinStack define
 type MinStack struct {
 	elements, min []int
 	l             int
 }
 
 /** initialize your data structure here. */
-func Constructor_155() MinStack {
+
+// Constructor155 define
+func Constructor155() MinStack {
 	return MinStack{make([]int, 0), make([]int, 0), 0}
 }
 
+// Push define
 func (this *MinStack) Push(x int) {
 	this.elements = append(this.elements, x)
 	if this.l == 0 {

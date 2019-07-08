@@ -22,7 +22,6 @@ func reverseVowels(s string) string {
 func isVowels(s byte) bool {
 	if s == 'a' || s == 'e' || s == 'i' || s == 'o' || s == 'u' || s == 'A' || s == 'E' || s == 'I' || s == 'O' || s == 'U' {
 		return true
-	} else {
-		return false
 	}
+	return false
 }

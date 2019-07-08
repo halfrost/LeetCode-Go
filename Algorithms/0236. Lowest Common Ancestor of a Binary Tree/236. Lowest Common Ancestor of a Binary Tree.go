@@ -8,12 +8,12 @@ package leetcode
  *     Right *ListNode
  * }
  */
-func lowestCommonAncestor_(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor236(root, p, q *TreeNode) *TreeNode {
 	if root == nil || root == q || root == p {
 		return root
 	}
-	left := lowestCommonAncestor_(root.Left, p, q)
-	right := lowestCommonAncestor_(root.Right, p, q)
+	left := lowestCommonAncestor236(root.Left, p, q)
+	right := lowestCommonAncestor236(root.Right, p, q)
 	if left != nil {
 		if right != nil {
 			return root

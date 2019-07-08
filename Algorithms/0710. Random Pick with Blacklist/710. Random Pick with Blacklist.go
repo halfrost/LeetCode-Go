@@ -7,7 +7,7 @@ type Solution struct {
 	BlackMap map[int]int
 }
 
-func Constructor_710(N int, blacklist []int) Solution {
+func Constructor710(N int, blacklist []int) Solution {
 	blackMap := map[int]int{}
 	for i := 0; i < len(blacklist); i++ {
 		blackMap[blacklist[i]] = 1

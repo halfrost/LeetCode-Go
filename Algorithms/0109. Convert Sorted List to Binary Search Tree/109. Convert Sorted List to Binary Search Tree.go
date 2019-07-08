@@ -16,6 +16,7 @@ package leetcode
  * }
  */
 
+// TreeNode define
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

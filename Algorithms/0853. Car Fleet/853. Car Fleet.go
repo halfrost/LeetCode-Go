@@ -9,6 +9,7 @@ type car struct {
 	position int
 }
 
+// ByPosition define
 type ByPosition []car
 
 func (a ByPosition) Len() int           { return len(a) }

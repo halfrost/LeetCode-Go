@@ -24,7 +24,7 @@ func singleNumberIIIII(nums []int) int {
 }
 
 // 解法二
-func singleNumberIIIII_(nums []int) int {
+func singleNumberIIIII1(nums []int) int {
 	twos, threes, ones := 0xffffffff, 0xffffffff, 0
 	for i := 0; i < len(nums); i++ {
 		threes = threes ^ (nums[i] & twos)

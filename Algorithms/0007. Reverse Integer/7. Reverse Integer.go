@@ -1,6 +1,6 @@
 package leetcode
 
-func reverse_7(x int) int {
+func reverse7(x int) int {
 	tmp := 0
 	for x != 0 {
 		tmp = tmp*10 + x%10

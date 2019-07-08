@@ -5,7 +5,7 @@ type MagicDictionary struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor_676() MagicDictionary {
+func Constructor676() MagicDictionary {
 	return MagicDictionary{rdict: make(map[int]string)}
 }
 

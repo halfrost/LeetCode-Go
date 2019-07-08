@@ -23,7 +23,7 @@ func findRepeatedDnaSequences(s string) []string {
 }
 
 // 解法二
-func findRepeatedDnaSequences_(s string) []string {
+func findRepeatedDnaSequences1(s string) []string {
 	if len(s) < 10 {
 		return []string{}
 	}
@@ -33,7 +33,7 @@ func findRepeatedDnaSequences_(s string) []string {
 		if cache[curr] == 1 {
 			ans = append(ans, curr)
 		}
-		cache[curr] += 1
+		cache[curr]++
 	}
 	return ans
 }

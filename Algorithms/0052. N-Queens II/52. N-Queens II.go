@@ -7,14 +7,14 @@ func totalNQueens(n int) int {
 }
 
 // 解法二，DFS 回溯法
-func totalNQueens_(n int) int {
+func totalNQueens1(n int) int {
 	col, dia1, dia2, row, res := make([]bool, n), make([]bool, 2*n-1), make([]bool, 2*n-1), []int{}, 0
-	putQueen_(n, 0, &col, &dia1, &dia2, &row, &res)
+	putQueen52(n, 0, &col, &dia1, &dia2, &row, &res)
 	return res
 }
 
 // 尝试在一个n皇后问题中, 摆放第index行的皇后位置
-func putQueen_(n, index int, col, dia1, dia2 *[]bool, row *[]int, res *int) {
+func putQueen52(n, index int, col, dia1, dia2 *[]bool, row *[]int, res *int) {
 	if index == n {
 		*res++
 		return
@@ -26,7 +26,7 @@ func putQueen_(n, index int, col, dia1, dia2 *[]bool, row *[]int, res *int) {
 			(*col)[i] = true
 			(*dia1)[index+i] = true
 			(*dia2)[index-i+n-1] = true
-			putQueen_(n, index+1, col, dia1, dia2, row, res)
+			putQueen52(n, index+1, col, dia1, dia2, row, res)
 			(*col)[i] = false
 			(*dia1)[index+i] = false
 			(*dia2)[index-i+n-1] = false

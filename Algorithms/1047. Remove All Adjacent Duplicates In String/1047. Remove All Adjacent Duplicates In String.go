@@ -1,6 +1,6 @@
 package leetcode
 
-func removeDuplicates_1047(S string) string {
+func removeDuplicates1047(S string) string {
 	stack := []rune{}
 	for _, s := range S {
 		if len(stack) == 0 || len(stack) > 0 && stack[len(stack)-1] != s {

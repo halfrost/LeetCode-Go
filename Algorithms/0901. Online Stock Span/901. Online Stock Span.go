@@ -13,7 +13,7 @@ type StockSpanner struct {
 	Item []Node
 }
 
-func Constructor_901() StockSpanner {
+func Constructor901() StockSpanner {
 	stockSpanner := StockSpanner{make([]Node, 0)}
 	return stockSpanner
 }

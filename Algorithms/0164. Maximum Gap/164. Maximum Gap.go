@@ -5,7 +5,7 @@ func maximumGap(nums []int) int {
 	if len(nums) < 2 {
 		return 0
 	}
-	quickSort__(nums, 0, len(nums)-1)
+	quickSort164(nums, 0, len(nums)-1)
 
 	res := 0
 	for i := 0; i < len(nums)-1; i++ {
@@ -16,7 +16,7 @@ func maximumGap(nums []int) int {
 	return res
 }
 
-func partition__(a []int, lo, hi int) int {
+func partition164(a []int, lo, hi int) int {
 	pivot := a[hi]
 	i := lo - 1
 	for j := lo; j < hi; j++ {
@@ -28,17 +28,17 @@ func partition__(a []int, lo, hi int) int {
 	a[i+1], a[hi] = a[hi], a[i+1]
 	return i + 1
 }
-func quickSort__(a []int, lo, hi int) {
+func quickSort164(a []int, lo, hi int) {
 	if lo >= hi {
 		return
 	}
-	p := partition__(a, lo, hi)
-	quickSort__(a, lo, p-1)
-	quickSort__(a, p+1, hi)
+	p := partition164(a, lo, hi)
+	quickSort164(a, lo, p-1)
+	quickSort164(a, p+1, hi)
 }
 
 // 解法二
-func maximumGap_(nums []int) int {
+func maximumGap1(nums []int) int {
 
 	if nums == nil || len(nums) < 2 {
 		return 0

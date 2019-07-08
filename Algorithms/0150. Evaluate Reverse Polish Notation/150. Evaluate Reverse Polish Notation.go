@@ -17,28 +17,28 @@ func evalRPN(tokens []string) int {
 				sum := stack[top-2] + stack[top-1]
 				stack = stack[:top-2]
 				stack = append(stack, sum)
-				top -= 1
+				top--
 			}
 		case "-":
 			{
 				sub := stack[top-2] - stack[top-1]
 				stack = stack[:top-2]
 				stack = append(stack, sub)
-				top -= 1
+				top--
 			}
 		case "*":
 			{
 				mul := stack[top-2] * stack[top-1]
 				stack = stack[:top-2]
 				stack = append(stack, mul)
-				top -= 1
+				top--
 			}
 		case "/":
 			{
 				div := stack[top-2] / stack[top-1]
 				stack = stack[:top-2]
 				stack = append(stack, div)
-				top -= 1
+				top--
 			}
 		default:
 			{

@@ -29,7 +29,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 }
 
 // 解法二
-func removeNthFromEnd_(head *ListNode, n int) *ListNode {
+func removeNthFromEnd1(head *ListNode, n int) *ListNode {
 	if head == nil {
 		return nil
 	}

@@ -11,8 +11,8 @@ func pancakeSort(A []int) []int {
 	for right > 0 {
 		idx := find(A, right)
 		if idx != right-1 {
-			reverse_(A, 0, idx)
-			reverse_(A, 0, right-1)
+			reverse969(A, 0, idx)
+			reverse969(A, 0, right-1)
 			ans = append(ans, idx+1, right)
 		}
 		right--
@@ -21,7 +21,7 @@ func pancakeSort(A []int) []int {
 	return ans
 }
 
-func reverse_(nums []int, l, r int) {
+func reverse969(nums []int, l, r int) {
 	for l < r {
 		nums[l], nums[r] = nums[r], nums[l]
 		l++

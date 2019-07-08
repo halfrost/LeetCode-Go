@@ -3,7 +3,7 @@ package leetcode
 import "sort"
 
 // 解法一 排序，排序的方法反而速度是最快的
-func findKthLargest_(nums []int, k int) int {
+func findKthLargest1(nums []int, k int) int {
 	sort.Ints(nums)
 	return nums[len(nums)-k]
 }
@@ -17,13 +17,10 @@ func findKthLargest(nums []int, k int) int {
 }
 
 func selection(arr []int, l, r, k int) int {
-
 	if l == r {
 		return arr[l]
 	}
-
-	p := partition__(arr, l, r)
-
+	p := partition164(arr, l, r)
 	if k == p {
 		return arr[p]
 	} else if k < p {

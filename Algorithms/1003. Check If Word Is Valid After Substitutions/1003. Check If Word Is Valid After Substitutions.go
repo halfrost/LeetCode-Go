@@ -1,6 +1,6 @@
 package leetcode
 
-func isValid_(S string) bool {
+func isValid1003(S string) bool {
 	if len(S) < 3 {
 		return false
 	}

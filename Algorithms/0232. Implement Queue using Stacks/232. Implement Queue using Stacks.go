@@ -6,7 +6,7 @@ type MyQueue struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor_232() MyQueue {
+func Constructor232() MyQueue {
 	tmp1, tmp2 := []int{}, []int{}
 	return MyQueue{Stack: &tmp1, Queue: &tmp2}
 }

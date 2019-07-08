@@ -19,7 +19,7 @@ func minPathSum(grid [][]int) int {
 }
 
 // 解法二 最原始的方法，辅助空间 O(n^2)
-func minPathSum_(grid [][]int) int {
+func minPathSum1(grid [][]int) int {
 	if len(grid) == 0 {
 		return 0
 	}

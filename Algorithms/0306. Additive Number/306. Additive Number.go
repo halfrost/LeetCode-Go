@@ -35,7 +35,6 @@ func recursiveCheck(num string, x1 int, x2 int, left int) bool {
 	}
 	if strings.HasPrefix(num[left:], strconv.Itoa(x1+x2)) {
 		return recursiveCheck(num, x2, x1+x2, left+len(strconv.Itoa(x1+x2)))
-	} else {
-		return false
 	}
+	return false
 }

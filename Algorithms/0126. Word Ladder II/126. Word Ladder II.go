@@ -47,7 +47,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 			if len(result) > 0 {
 				return result
 			}
-			for k, _ := range levelMap {
+			for k := range levelMap {
 				delete(wordMap, k)
 			}
 			// clear levelMap

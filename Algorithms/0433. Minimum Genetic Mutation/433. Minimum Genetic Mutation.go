@@ -9,7 +9,7 @@ func minMutation(start string, end string, bank []string) int {
 		for i := 0; i < qlen; i++ {
 			word := que[0]
 			que = que[1:]
-			candidates := getCandidates_(word)
+			candidates := getCandidates433(word)
 			for _, candidate := range candidates {
 				if _, ok := wordMap[candidate]; ok {
 					if candidate == end {
@@ -24,7 +24,7 @@ func minMutation(start string, end string, bank []string) int {
 	return -1
 }
 
-func getCandidates_(word string) []string {
+func getCandidates433(word string) []string {
 	var res []string
 	for i := 0; i < 26; i++ {
 		for j := 0; j < len(word); j++ {
@@ -37,7 +37,7 @@ func getCandidates_(word string) []string {
 }
 
 // 解法二 DFS
-func minMutation_(start string, end string, bank []string) int {
+func minMutation1(start string, end string, bank []string) int {
 	endGene := convert(end)
 	startGene := convert(start)
 	m := make(map[uint32]struct{})
@@ -96,7 +96,7 @@ func check(val uint32) bool {
 }
 
 func convert(gene string) uint32 {
-	var v uint32 = 0
+	var v uint32
 	for _, c := range gene {
 		v <<= 2
 		switch c {

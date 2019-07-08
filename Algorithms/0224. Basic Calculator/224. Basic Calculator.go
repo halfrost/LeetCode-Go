@@ -41,7 +41,7 @@ func calculate(s string) int {
 }
 
 // 解法二
-func calculate_(s string) int {
+func calculate1(s string) int {
 	stack := []byte{}
 	for i := 0; i < len(s); i++ {
 		if s[i] == ' ' {

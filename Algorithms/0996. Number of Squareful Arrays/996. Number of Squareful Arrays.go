@@ -11,11 +11,11 @@ func numSquarefulPerms(A []int) int {
 	}
 	used, p, res := make([]bool, len(A)), []int{}, [][]int{}
 	sort.Ints(A) // 这里是去重的关键逻辑
-	generatePermutation_996(A, 0, p, &res, &used)
+	generatePermutation996(A, 0, p, &res, &used)
 	return len(res)
 }
 
-func generatePermutation_996(nums []int, index int, p []int, res *[][]int, used *[]bool) {
+func generatePermutation996(nums []int, index int, p []int, res *[][]int, used *[]bool) {
 	if index == len(nums) {
 		checkSquareful := true
 		for i := 0; i < len(p)-1; i++ {
@@ -41,7 +41,7 @@ func generatePermutation_996(nums []int, index int, p []int, res *[][]int, used 
 			}
 			(*used)[i] = true
 			p = append(p, nums[i])
-			generatePermutation_996(nums, index+1, p, res, used)
+			generatePermutation996(nums, index+1, p, res, used)
 			p = p[:len(p)-1]
 			(*used)[i] = false
 		}

@@ -24,7 +24,7 @@ func maximumProduct(nums []int) int {
 }
 
 // 解法二 模拟，时间复杂度 O(n)
-func maximumProduct_(nums []int) int {
+func maximumProduct1(nums []int) int {
 	n1, n2, n3 := -1<<63, -1<<63, -1<<63
 	n4, n5 := 0, 0
 	for _, v := range nums {
@@ -47,7 +47,6 @@ func maximumProduct_(nums []int) int {
 	}
 	if n2*n3 > n4*n5 {
 		return n1 * n2 * n3
-	} else {
-		return n1 * n4 * n5
 	}
+	return n1 * n4 * n5
 }

@@ -1,7 +1,7 @@
 package leetcode
 
 // 解法一 时间复杂度 O(n) 空间复杂度 O(1)
-func majorityElement_229(nums []int) []int {
+func majorityElement229(nums []int) []int {
 	// since we are checking if a num appears more than 1/3 of the time
 	// it is only possible to have at most 2 nums (>1/3 + >1/3 = >2/3)
 	count1, count2, candidate1, candidate2 := 0, 0, 0, 1
@@ -46,7 +46,7 @@ func majorityElement_229(nums []int) []int {
 }
 
 // 解法二 时间复杂度 O(n) 空间复杂度 O(n)
-func majorityElement_229_(nums []int) []int {
+func majorityElement229_1(nums []int) []int {
 	result, m := make([]int, 0), make(map[int]int)
 	for _, val := range nums {
 		if v, ok := m[val]; ok {

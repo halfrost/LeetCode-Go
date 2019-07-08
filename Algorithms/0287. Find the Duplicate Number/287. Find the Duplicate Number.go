@@ -19,7 +19,7 @@ func findDuplicate(nums []int) int {
 }
 
 // 解法二
-func findDuplicate_(nums []int) int {
+func findDuplicate1(nums []int) int {
 	if len(nums) == 0 {
 		return 0
 	}

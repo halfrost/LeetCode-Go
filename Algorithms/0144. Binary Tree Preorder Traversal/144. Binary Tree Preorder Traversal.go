@@ -27,7 +27,7 @@ func preorderTraversal(root *TreeNode) []int {
 }
 
 // 解法二
-func preorderTraversal_(root *TreeNode) []int {
+func preorderTraversal1(root *TreeNode) []int {
 	var result []int
 	preorder(root, &result)
 	return result

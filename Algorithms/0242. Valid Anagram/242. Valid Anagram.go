@@ -23,7 +23,7 @@ func isAnagram(s string, t string) bool {
 }
 
 // 解法二
-func isAnagram_(s string, t string) bool {
+func isAnagram1(s string, t string) bool {
 	if s == "" && t == "" {
 		return true
 	}

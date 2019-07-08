@@ -18,17 +18,17 @@ func sortList(head *ListNode) *ListNode {
 		return head
 	}
 
-	middleNode := middleNode_(head)
+	middleNode := middleNode1(head)
 	cur = middleNode.Next
 	middleNode.Next = nil
 	middleNode = cur
 
 	left := sortList(head)
 	right := sortList(middleNode)
-	return mergeTwoLists_(left, right)
+	return mergeTwoLists148(left, right)
 }
 
-func middleNode_(head *ListNode) *ListNode {
+func middleNode1(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
 		return head
 	}
@@ -41,7 +41,7 @@ func middleNode_(head *ListNode) *ListNode {
 	return p1
 }
 
-func mergeTwoLists_(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists148(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
 	}
@@ -51,8 +51,7 @@ func mergeTwoLists_(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1.Val < l2.Val {
 		l1.Next = mergeTwoLists(l1.Next, l2)
 		return l1
-	} else {
-		l2.Next = mergeTwoLists(l1, l2.Next)
-		return l2
 	}
+	l2.Next = mergeTwoLists(l1, l2.Next)
+	return l2
 }

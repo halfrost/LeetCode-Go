@@ -7,7 +7,7 @@ type WordFilter struct {
 	words map[string]int
 }
 
-func Constructor_745(words []string) WordFilter {
+func Constructor745(words []string) WordFilter {
 	wordsMap := make(map[string]int, len(words)*5)
 	for k := 0; k < len(words); k++ {
 		for i := 0; i <= 10 && i <= len(words[k]); i++ {

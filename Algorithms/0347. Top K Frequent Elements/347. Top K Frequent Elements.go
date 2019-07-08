@@ -19,6 +19,7 @@ func topKFrequent(nums []int, k int) []int {
 	return result
 }
 
+// Item define
 type Item struct {
 	key   int
 	count int
@@ -40,11 +41,13 @@ func (pq PriorityQueue) Swap(i, j int) {
 	pq[i], pq[j] = pq[j], pq[i]
 }
 
+// Push define
 func (pq *PriorityQueue) Push(x interface{}) {
 	item := x.(*Item)
 	*pq = append(*pq, item)
 }
 
+// Pop define
 func (pq *PriorityQueue) Pop() interface{} {
 	n := len(*pq)
 	item := (*pq)[n-1]

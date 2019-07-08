@@ -73,7 +73,7 @@ func Test_Problem36(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans36, q.para36
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isValidSudoku_(p.s))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, isValidSudoku1(p.s))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -15,7 +15,7 @@ func dailyTemperatures(T []int) []int {
 }
 
 // 解法二 单调栈
-func dailyTemperatures_(T []int) []int {
+func dailyTemperatures1(T []int) []int {
 	res := make([]int, len(T))
 	var toCheck []int
 	for i, t := range T {

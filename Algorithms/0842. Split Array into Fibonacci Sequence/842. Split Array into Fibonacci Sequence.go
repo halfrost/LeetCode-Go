@@ -49,10 +49,9 @@ func findRecursiveCheck(S string, x1 int, x2 int, left int, res *[]int, isComple
 		*res = append(*res, x1)
 		findRecursiveCheck(S, x2, x1+x2, left+len(strconv.Itoa(x1+x2)), res, isComplete)
 		return
-	} else {
-		if len(*res) > 0 && !*isComplete {
-			*res = (*res)[:len(*res)-1]
-		}
+	}
+	if len(*res) > 0 && !*isComplete {
+		*res = (*res)[:len(*res)-1]
 	}
 	return
 }

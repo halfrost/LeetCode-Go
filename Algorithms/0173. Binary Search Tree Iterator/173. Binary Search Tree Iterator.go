@@ -10,12 +10,15 @@ import "container/heap"
  *     Right *TreeNode
  * }
  */
+
+// BSTIterator define
 type BSTIterator struct {
 	pq    PriorityQueueOfInt
 	count int
 }
 
-func Constructor_173(root *TreeNode) BSTIterator {
+// Constructor173 define
+func Constructor173(root *TreeNode) BSTIterator {
 	result, pq := []int{}, PriorityQueueOfInt{}
 	postorder(root, &result)
 	for _, v := range result {

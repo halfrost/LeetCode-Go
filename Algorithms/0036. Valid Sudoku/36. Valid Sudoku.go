@@ -60,7 +60,7 @@ func isValidSudoku(board [][]byte) bool {
 }
 
 // 解法二 添加缓存，时间复杂度 O(n^2)
-func isValidSudoku_(board [][]byte) bool {
+func isValidSudoku1(board [][]byte) bool {
 	rowbuf, colbuf, boxbuf := make([][]bool, 9), make([][]bool, 9), make([][]bool, 9)
 	for i := 0; i < 9; i++ {
 		rowbuf[i] = make([]bool, 9)

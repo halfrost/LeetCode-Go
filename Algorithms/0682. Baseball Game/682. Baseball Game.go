@@ -13,16 +13,16 @@ func calPoints(ops []string) int {
 			last1 := stack[top-1]
 			last2 := stack[top-2]
 			stack[top] = last1 + last2
-			top += 1
+			top++
 		case "D":
 			last1 := stack[top-1]
 			stack[top] = last1 * 2
-			top += 1
+			top++
 		case "C":
-			top -= 1
+			top--
 		default:
 			stack[top], _ = strconv.Atoi(op)
-			top += 1
+			top++
 		}
 	}
 

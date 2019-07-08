@@ -23,7 +23,7 @@ type pair struct {
 }
 
 // 解法二 用两个单调栈
-func sumSubarrayMins_(A []int) int {
+func sumSubarrayMins1(A []int) int {
 	res, n, mod := 0, len(A), 1000000007
 	lefts, rights, leftStack, rightStack := make([]int, n), make([]int, n), []*pair{}, []*pair{}
 	for i := 0; i < n; i++ {
@@ -53,7 +53,7 @@ func sumSubarrayMins_(A []int) int {
 }
 
 // 解法三 暴力解法，中间很多重复判断子数组的情况
-func sumSubarrayMins__(A []int) int {
+func sumSubarrayMins2(A []int) int {
 	res, mod := 0, 1000000007
 	for i := 0; i < len(A); i++ {
 		stack := []int{}

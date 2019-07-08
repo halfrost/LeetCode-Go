@@ -1,6 +1,6 @@
 package leetcode
 
-func removeDuplicates_80(nums []int) int {
+func removeDuplicates80(nums []int) int {
 	if len(nums) == 0 {
 		return 0
 	}
@@ -22,7 +22,7 @@ func removeDuplicates_80(nums []int) int {
 			last += 2
 		} else {
 			nums[last+1] = nums[finder]
-			last += 1
+			last++
 		}
 		if finder == len(nums)-1 {
 			if nums[finder] != nums[last-1] {

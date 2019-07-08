@@ -1,7 +1,7 @@
 package leetcode
 
-// 解法一 暴力解法 O(nk):
-func maxSlidingWindow_(a []int, k int) []int {
+// 解法一 暴力解法 O(nk)
+func maxSlidingWindow1(a []int, k int) []int {
 	res := make([]int, 0, k)
 	n := len(a)
 	if n == 0 {

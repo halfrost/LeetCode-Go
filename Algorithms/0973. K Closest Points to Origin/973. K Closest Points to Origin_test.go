@@ -57,7 +57,7 @@ func Test_Problem973(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans973, q.para973
-		fmt.Printf("【input】:%v       【output】:%v\n", p, kClosest(p.one, p.two))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, KClosest(p.one, p.two))
 	}
 	fmt.Printf("\n\n\n")
 }

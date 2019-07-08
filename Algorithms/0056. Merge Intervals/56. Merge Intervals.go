@@ -8,12 +8,13 @@ package leetcode
  * }
  */
 
+// Interval define
 type Interval struct {
 	Start int
 	End   int
 }
 
-func merge_(intervals []Interval) []Interval {
+func merge56(intervals []Interval) []Interval {
 	if len(intervals) == 0 {
 		return intervals
 	}
@@ -35,17 +36,15 @@ func merge_(intervals []Interval) []Interval {
 func max(a int, b int) int {
 	if a > b {
 		return a
-	} else {
-		return b
 	}
+	return b
 }
 
 func min(a int, b int) int {
 	if a > b {
 		return b
-	} else {
-		return a
 	}
+	return a
 }
 
 func partitionSort(a []Interval, lo, hi int) int {

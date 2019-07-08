@@ -46,7 +46,7 @@ func Test_Problem435(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans435, q.para435
-		fmt.Printf("【input】:%v       【output】:%v\n", p, eraseOverlapIntervals_(p.one))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, eraseOverlapIntervals1(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

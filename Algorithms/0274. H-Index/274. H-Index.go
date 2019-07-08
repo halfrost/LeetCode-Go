@@ -22,8 +22,8 @@ func hIndex(citations []int) int {
 }
 
 // 解法二
-func hIndex_(citations []int) int {
-	quickSort__(citations, 0, len(citations)-1)
+func hIndex1(citations []int) int {
+	quickSort164(citations, 0, len(citations)-1)
 	hIndex := 0
 	for i := len(citations) - 1; i >= 0; i-- {
 		if citations[i] >= len(citations)-i {

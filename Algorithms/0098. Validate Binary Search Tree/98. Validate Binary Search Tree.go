@@ -24,7 +24,7 @@ func isValidbst(root *TreeNode, min, max float64) bool {
 }
 
 // 解法二，把 BST 按照左中右的顺序输出到数组中，如果是 BST，则数组中的数字是从小到大有序的，如果出现逆序就不是 BST
-func isValidBST_(root *TreeNode) bool {
+func isValidBST1(root *TreeNode) bool {
 	arr := []int{}
 	inOrder(root, &arr)
 	for i := 1; i < len(arr); i++ {

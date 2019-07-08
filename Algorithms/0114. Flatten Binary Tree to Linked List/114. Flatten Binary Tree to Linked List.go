@@ -23,7 +23,7 @@ func flatten(root *TreeNode) {
 }
 
 // 解法二 递归
-func flatten_1(root *TreeNode) {
+func flatten1(root *TreeNode) {
 	if root == nil || (root.Left == nil && root.Right == nil) {
 		return
 	}
@@ -37,7 +37,9 @@ func flatten_1(root *TreeNode) {
 	}
 	root.Right = currRight
 }
-func flatten_2(root *TreeNode) {
+
+// 解法三 递归
+func flatten2(root *TreeNode) {
 	if root == nil {
 		return
 	}

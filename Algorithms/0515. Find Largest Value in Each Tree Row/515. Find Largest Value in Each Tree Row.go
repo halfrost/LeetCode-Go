@@ -26,7 +26,7 @@ func largestValues(root *TreeNode) []int {
 }
 
 // 解法二 层序遍历二叉树，遍历过程中不断更新最大值
-func largestValues_(root *TreeNode) []int {
+func largestValues1(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}

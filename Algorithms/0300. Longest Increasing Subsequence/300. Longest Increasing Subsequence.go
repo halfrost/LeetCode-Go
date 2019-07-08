@@ -19,7 +19,7 @@ func lengthOfLIS(nums []int) int {
 }
 
 // 解法二 O(n log n) DP
-func lengthOfLIS_(nums []int) int {
+func lengthOfLIS1(nums []int) int {
 	dp := []int{}
 	for _, num := range nums {
 		i := sort.SearchInts(dp, num)

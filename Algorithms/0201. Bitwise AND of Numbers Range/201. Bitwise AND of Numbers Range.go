@@ -1,7 +1,7 @@
 package leetcode
 
 // 解法一
-func rangeBitwiseAnd_(m int, n int) int {
+func rangeBitwiseAnd1(m int, n int) int {
 	if m == 0 {
 		return 0
 	}

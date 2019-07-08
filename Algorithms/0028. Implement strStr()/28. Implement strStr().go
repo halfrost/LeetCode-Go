@@ -20,6 +20,6 @@ func strStr(haystack string, needle string) int {
 }
 
 // 解法二
-func strStr_(haystack string, needle string) int {
+func strStr1(haystack string, needle string) int {
 	return strings.Index(haystack, needle)
 }

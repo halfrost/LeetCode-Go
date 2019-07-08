@@ -1,7 +1,7 @@
 package leetcode
 
 // 解法一 DP
-func rob_(nums []int) int {
+func rob198(nums []int) int {
 	n := len(nums)
 	if n == 0 {
 		return 0
@@ -19,7 +19,7 @@ func rob_(nums []int) int {
 }
 
 // 解法二 DP 优化辅助空间，把迭代的值保存在 2 个变量中
-func rob__(nums []int) int {
+func rob198_1(nums []int) int {
 	n := len(nums)
 	if n == 0 {
 		return 0

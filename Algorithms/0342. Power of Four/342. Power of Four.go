@@ -6,7 +6,7 @@ func isPowerOfFour(num int) bool {
 }
 
 // 解法二 循环
-func isPowerOfFour_(num int) bool {
+func isPowerOfFour1(num int) bool {
 	for num >= 4 {
 		if num%4 == 0 {
 			num = num / 4

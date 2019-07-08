@@ -9,7 +9,7 @@ package leetcode
  */
 
 // 此题和 143 题 Reorder List 思路基本一致
-func isPalindrome_(head *ListNode) bool {
+func isPalindrome234(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return true
 	}
@@ -56,6 +56,7 @@ func isPalindrome_(head *ListNode) bool {
 	return res
 }
 
+// L2ss define
 func L2ss(head *ListNode) []int {
 	res := []int{}
 

@@ -6,7 +6,7 @@ type Trie struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor_208() Trie {
+func Constructor208() Trie {
 	return Trie{isWord: false, children: make(map[rune]*Trie)}
 }
 

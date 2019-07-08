@@ -5,15 +5,15 @@ import (
 )
 
 // 解法一 BFS
-func updateMatrix_BFS(matrix [][]int) [][]int {
+func updateMatrixBFS(matrix [][]int) [][]int {
 	res := make([][]int, len(matrix))
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return res
 	}
 	queue := make([][]int, 0)
-	for i, _ := range matrix {
+	for i := range matrix {
 		res[i] = make([]int, len(matrix[0]))
-		for j, _ := range res[i] {
+		for j := range res[i] {
 			if matrix[i][j] == 0 {
 				res[i][j] = -1
 				queue = append(queue, []int{i, j})
@@ -24,7 +24,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 	for len(queue) > 0 {
 		size := len(queue)
 		for size > 0 {
-			size -= 1
+			size--
 			node := queue[0]
 			queue = queue[1:]
 			i, j := node[0], node[1]
@@ -51,22 +51,22 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 }
 
 // 解法二 DFS
-func updateMatrix_DFS(matrix [][]int) [][]int {
+func updateMatrixDFS(matrix [][]int) [][]int {
 	result := [][]int{}
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return result
 	}
-	max_row, max_col := len(matrix), len(matrix[0])
-	for r := 0; r < max_row; r++ {
-		for c := 0; c < max_col; c++ {
+	maxRow, maxCol := len(matrix), len(matrix[0])
+	for r := 0; r < maxRow; r++ {
+		for c := 0; c < maxCol; c++ {
 			if matrix[r][c] == 1 && hasZero(matrix, r, c) == false {
 				// 将四周没有 0 的 1 特殊处理为最大值
 				matrix[r][c] = math.MaxInt64
 			}
 		}
 	}
-	for r := 0; r < max_row; r++ {
-		for c := 0; c < max_col; c++ {
+	for r := 0; r < maxRow; r++ {
+		for c := 0; c < maxCol; c++ {
 			if matrix[r][c] == 1 {
 				dfsMatrix(matrix, r, c, -1)
 			}
@@ -107,7 +107,7 @@ func dfsMatrix(matrix [][]int, row, col, val int) {
 }
 
 // 解法三 DP
-func updateMatrix_DP(matrix [][]int) [][]int {
+func updateMatrixDP(matrix [][]int) [][]int {
 	for i, row := range matrix {
 		for j, val := range row {
 			if val == 0 {

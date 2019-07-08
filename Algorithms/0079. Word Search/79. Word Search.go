@@ -13,7 +13,7 @@ func exist(board [][]byte, word string) bool {
 		visited[i] = make([]bool, len(board[0]))
 	}
 	for i, v := range board {
-		for j, _ := range v {
+		for j := range v {
 			if searchWord(board, visited, word, 0, i, j) {
 				return true
 			}

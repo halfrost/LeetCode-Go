@@ -62,7 +62,7 @@ func Test_Problem236(t *testing.T) {
 		rootOne := Ints2TreeNode(p.one)
 		rootTwo := Ints2TreeNode(p.two)
 		rootThr := Ints2TreeNode(p.thr)
-		fmt.Printf("【output】:%v      \n", lowestCommonAncestor_(rootOne, rootTwo, rootThr))
+		fmt.Printf("【output】:%v      \n", lowestCommonAncestor236(rootOne, rootTwo, rootThr))
 	}
 	fmt.Printf("\n\n\n")
 }

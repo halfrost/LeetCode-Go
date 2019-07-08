@@ -9,7 +9,7 @@ func wiggleSort(nums []int) {
 	if len(nums) < 2 {
 		return
 	}
-	median := findKthLargest_324(nums, (len(nums)+1)/2)
+	median := findKthLargest324(nums, (len(nums)+1)/2)
 	n, i, left, right := len(nums), 0, 0, len(nums)-1
 
 	for i <= right {
@@ -30,29 +30,29 @@ func indexMap(index, n int) int {
 	return (1 + 2*index) % (n | 1)
 }
 
-func findKthLargest_324(nums []int, k int) int {
+func findKthLargest324(nums []int, k int) int {
 	if len(nums) == 0 {
 		return 0
 	}
-	return selection_324(nums, 0, len(nums)-1, len(nums)-k)
+	return selection324(nums, 0, len(nums)-1, len(nums)-k)
 }
 
-func selection_324(arr []int, l, r, k int) int {
+func selection324(arr []int, l, r, k int) int {
 	if l == r {
 		return arr[l]
 	}
-	p := partition__324(arr, l, r)
+	p := partition324(arr, l, r)
 
 	if k == p {
 		return arr[p]
 	} else if k < p {
-		return selection_324(arr, l, p-1, k)
+		return selection324(arr, l, p-1, k)
 	} else {
-		return selection_324(arr, p+1, r, k)
+		return selection324(arr, p+1, r, k)
 	}
 }
 
-func partition__324(a []int, lo, hi int) int {
+func partition324(a []int, lo, hi int) int {
 	pivot := a[hi]
 	i := lo - 1
 	for j := lo; j < hi; j++ {
@@ -66,7 +66,7 @@ func partition__324(a []int, lo, hi int) int {
 }
 
 // 解法二
-func wiggleSort_(nums []int) {
+func wiggleSort1(nums []int) {
 	if len(nums) < 2 {
 		return
 	}

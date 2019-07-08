@@ -26,7 +26,7 @@ func find132pattern(nums []int) bool {
 }
 
 // 解法二 暴力解法，超时！
-func find132pattern_(nums []int) bool {
+func find132pattern1(nums []int) bool {
 	if len(nums) < 3 {
 		return false
 	}

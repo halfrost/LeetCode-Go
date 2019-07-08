@@ -43,7 +43,7 @@ func levelOrder(root *TreeNode) [][]int {
 }
 
 // 解法二 DFS
-func levelOrder_(root *TreeNode) [][]int {
+func levelOrder1(root *TreeNode) [][]int {
 	levels := [][]int{}
 	dfsLevel(root, -1, &levels)
 	return levels

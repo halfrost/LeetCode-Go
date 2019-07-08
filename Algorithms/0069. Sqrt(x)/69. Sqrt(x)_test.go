@@ -41,7 +41,7 @@ func Test_Problem69(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans69, q.para69
-		fmt.Printf("【input】:%v       【output】:%v\n", p, mySqrt_(p.one))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, mySqrt1(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

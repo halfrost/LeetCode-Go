@@ -7,7 +7,7 @@ package leetcode
  *     Next *ListNode
  * }
  */
-func addTwoNumbers_(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers445(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
 	}

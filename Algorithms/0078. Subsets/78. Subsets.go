@@ -28,7 +28,7 @@ func generateSubsets(nums []int, k, start int, c []int, res *[][]int) {
 }
 
 // 解法二
-func subsets_(nums []int) [][]int {
+func subsets1(nums []int) [][]int {
 	res := make([][]int, 1)
 	sort.Ints(nums)
 	for i := range nums {

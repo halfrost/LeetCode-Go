@@ -40,7 +40,7 @@ func push(d []byte) {
 }
 
 // 解法二
-func pushDominoes_(dominoes string) string {
+func pushDominoes1(dominoes string) string {
 	dominoes = "L" + dominoes + "R"
 	res := ""
 	for i, j := 0, 1; j < len(dominoes); j++ {

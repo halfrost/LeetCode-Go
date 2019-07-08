@@ -11,7 +11,7 @@ func eraseOverlapIntervals(intervals [][]int) int {
 	}
 	sort.Sort(Intervals(intervals))
 	dp, res := make([]int, len(intervals)), 0
-	for i, _ := range dp {
+	for i := range dp {
 		dp[i] = 1
 	}
 	for i := 1; i < len(intervals); i++ {
@@ -27,6 +27,7 @@ func eraseOverlapIntervals(intervals [][]int) int {
 	return len(intervals) - res
 }
 
+// Intervals define
 type Intervals [][]int
 
 func (a Intervals) Len() int {
@@ -49,7 +50,7 @@ func (a Intervals) Less(i, j int) bool {
 }
 
 // 解法二 贪心 O(n)
-func eraseOverlapIntervals_(intervals [][]int) int {
+func eraseOverlapIntervals1(intervals [][]int) int {
 	if len(intervals) == 0 {
 		return 0
 	}

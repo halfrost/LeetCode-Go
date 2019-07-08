@@ -32,7 +32,7 @@ func findPath(n *TreeNode, sum int, slice [][]int, stack []int) [][]int {
 }
 
 // 解法二
-func pathSum_(root *TreeNode, sum int) [][]int {
+func pathSum1(root *TreeNode, sum int) [][]int {
 	if root == nil {
 		return [][]int{}
 	}

@@ -5,7 +5,7 @@ import (
 )
 
 func reorganizeString(S string) string {
-	fs := frequencySort_(S)
+	fs := frequencySort767(S)
 	if fs == "" {
 		return ""
 	}
@@ -22,7 +22,7 @@ func reorganizeString(S string) string {
 	return ans
 }
 
-func frequencySort_(s string) string {
+func frequencySort767(s string) string {
 	if s == "" {
 		return ""
 	}

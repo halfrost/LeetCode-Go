@@ -59,7 +59,7 @@ func Test_Problem710(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans710, q.para710
 		fmt.Printf("【input】: n = %v blacklist = %v pick times = %v  ", p.n, p.blackList, p.times)
-		obj := Constructor_710(p.n, p.blackList)
+		obj := Constructor710(p.n, p.blackList)
 		fmt.Printf("【output】:")
 		for i := 0; i < p.times; i++ {
 			fmt.Printf(" %v ,", obj.Pick())

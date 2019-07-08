@@ -30,7 +30,7 @@ func threeSumClosest(nums []int, target int) int {
 }
 
 // 解法二 暴力解法 O(n^3)
-func threeSumClosest_(nums []int, target int) int {
+func threeSumClosest1(nums []int, target int) int {
 	res, difference := 0, math.MaxInt16
 	for i := 0; i < len(nums); i++ {
 		for j := i + 1; j < len(nums); j++ {

@@ -53,7 +53,7 @@ func flipGrayCode(num int) int {
 }
 
 // 解法二 直译
-func grayCode_(n int) []int {
+func grayCode1(n int) []int {
 	var l uint = 1 << uint(n)
 	out := make([]int, l)
 	for i := uint(0); i < l; i++ {

@@ -10,18 +10,18 @@ package leetcode
  */
 func kthSmallest(root *TreeNode, k int) int {
 	res, count := 0, 0
-	inorder_(root, k, &count, &res)
+	inorder230(root, k, &count, &res)
 	return res
 }
 
-func inorder_(node *TreeNode, k int, count *int, ans *int) {
+func inorder230(node *TreeNode, k int, count *int, ans *int) {
 	if node != nil {
-		inorder_(node.Left, k, count, ans)
+		inorder230(node.Left, k, count, ans)
 		*count++
 		if *count == k {
 			*ans = node.Val
 			return
 		}
-		inorder_(node.Right, k, count, ans)
+		inorder230(node.Right, k, count, ans)
 	}
 }

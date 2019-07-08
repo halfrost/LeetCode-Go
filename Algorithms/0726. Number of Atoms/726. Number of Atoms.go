@@ -98,23 +98,20 @@ func countOfAtoms(s string) string {
 func isDigital(v byte) bool {
 	if v >= '0' && v <= '9' {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
 
 func isUpperLetter(v byte) bool {
 	if v >= 'A' && v <= 'Z' {
 		return true
-	} else {
-		return false
 	}
+	return false
 }
 
 func isLowerLetter(v byte) bool {
 	if v >= 'a' && v <= 'z' {
 		return true
-	} else {
-		return false
 	}
+	return false
 }

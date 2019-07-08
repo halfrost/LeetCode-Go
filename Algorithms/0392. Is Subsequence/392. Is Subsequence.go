@@ -22,7 +22,7 @@ func isSubsequence(s string, t string) bool {
 }
 
 // 解法二 O(n)
-func isSubsequence_(s string, t string) bool {
+func isSubsequence1(s string, t string) bool {
 	for len(s) > 0 && len(t) > 0 {
 		if s[0] == t[0] {
 			s = s[1:]

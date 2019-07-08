@@ -51,7 +51,7 @@ func Test_Problem1003(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans1003, q.para1003
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isValid_(p.s))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, isValid1003(p.s))
 	}
 	fmt.Printf("\n\n\n")
 }
