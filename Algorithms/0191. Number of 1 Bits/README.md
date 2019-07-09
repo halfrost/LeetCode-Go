@@ -36,4 +36,4 @@ Write a function that takes an unsigned integer and return the number of '1' b
 
 - 求 uint32 数的二进制位中 1 的个数。
 - 这一题的解题思路就是利用二进制位操作。`X = X & ( X -1 )` 这个操作可以清除最低位的二进制位 1，利用这个操作，直至把数清零。操作了几次即为有几个二进制位 1 。
-
+- 最简单的方法即是直接调用库函数 `bits.OnesCount(uint(num))` 。
