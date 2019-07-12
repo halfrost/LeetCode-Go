@@ -40,6 +40,8 @@
 * [Math](#math)
 * [Hash Table](#hash-table)
 * [Sort ✅](#sort)
+* [Bit Manipulation ✅](#bit-manipulation)
+
 
 
 | 数据结构 | 变种 | 相关题目 |
@@ -68,7 +70,7 @@
 | 0004 |  Median of Two Sorted Arrays                                 |                                                                                                                                               | 26.60%      |  Hard       |            |
 | 0005 |  Longest Palindromic Substring                               |                                                                                                                                               | 27.50%      |  Medium     |            |
 | 0006 |  ZigZag Conversion                                           |                                                                                                                                               | 32.20%      |  Medium     |            |
-| 0007 |  Reverse Integer                                             |                                                                                                                                               | 25.40%      |  Easy       |            |
+| 0007 |  Reverse Integer                                             |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0007.%20Reverse%20Integer)                                                                                                                                               | 25.40%      |  Easy       |            |
 | 0008 |  String to Integer (atoi)                                    |                                                                                                                                               | 14.70%      |  Medium     |            |
 | 0009 |  Palindrome Number                                           |                                                                                                                                               | 43.70%      |  Easy       |            |
 | 0010 |  Regular Expression Matching                                 |                                                                                                                                               | 25.40%      |  Hard       |            |
@@ -197,8 +199,8 @@
 | 0133 |  Clone Graph                                                 |                                                                                                                                               | 27.00%      |  Medium     |            |
 | 0134 |  Gas Station                                                 |                                                                                                                                               | 34.10%      |  Medium     |            |
 | 0135 |  Candy                                                       |                                                                                                                                               | 28.60%      |  Hard       |            |
-| 0136 |  Single Number                                               |                                                                                                                                               | 60.50%      |  Easy       |            |
-| 0137 |  Single Number II                                            |                                                                                                                                               | 46.20%      |  Medium     |            |
+| 0136 |  Single Number                                               |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0136.%20Single%20Number)                                                                                                                                               | 60.50%      |  Easy       |            |
+| 0137 |  Single Number II                                            |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0137.%20Single%20Number%20II)                                                                                                                                               | 46.20%      |  Medium     |            |
 | 0138 |  Copy List with Random Pointer                               |                                                                                                                                               | 27.50%      |  Medium     |            |
 | 0139 |  Word Break                                                  |                                                                                                                                               | 35.60%      |  Medium     |            |
 | 0140 |  Word Break II                                               |                                                                                                                                               | 27.50%      |  Hard       |            |
@@ -230,7 +232,7 @@
 | 0166 |  Fraction to Recurring Decimal                               |                                                                                                                                               | 19.60%      |  Medium     |            |
 | 0167 |  Two Sum II - Input array is sorted                          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)                       | 50.60%      |  Easy       |            |
 | 0168 |  Excel Sheet Column Title                                    |                                                                                                                                               | 29.10%      |  Easy       |            |
-| 0169 |  Majority Element                                            |                                                                                                                                               | 53.00%      |  Easy       |            |
+| 0169 |  Majority Element                                            |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0169.%20Majority%20Element)                                                                                                                                               | 53.00%      |  Easy       |            |
 | 0170 |  Two Sum III - Data structure design                         |                                                                                                                                               | 30.60%      |  Easy       |            |
 | 0171 |  Excel Sheet Column Number                                   |                                                                                                                                               | 51.70%      |  Easy       |            |
 | 0172 |  Factorial Trailing Zeroes                                   |                                                                                                                                               | 37.40%      |  Easy       |            |
@@ -248,10 +250,10 @@
 | 0184 |  Department Highest Salary                                   |                                                                                                                                               | 29.40%      |  Medium     |            |
 | 0185 |  Department Top Three Salaries                               |                                                                                                                                               | 26.50%      |  Hard       |            |
 | 0186 |  Reverse Words in a String II                                |                                                                                                                                               | 38.10%      |  Medium     |            |
-| 0187 |  Repeated DNA Sequences                                      |                                                                                                                                               | 36.30%      |  Medium     |            |
+| 0187 |  Repeated DNA Sequences                                      |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0187.%20Repeated%20DNA%20Sequences)                                                                                                                                               | 36.30%      |  Medium     |            |
 | 0188 |  Best Time to Buy and Sell Stock IV                          |                                                                                                                                               | 26.40%      |  Hard       |            |
 | 0189 |  Rotate Array                                                |                                                                                                                                               | 30.50%      |  Easy       |            |
-| 0190 |  Reverse Bits                                                |                                                                                                                                               | 31.70%      |  Easy       |            |
+| 0190 |  Reverse Bits                                                |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0190.%20Reverse%20Bits)                                                                                                                                               | 31.70%      |  Easy       |            |
 | 0191 |  Number of 1 Bits                                            | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0191.%20Number%20of%201%20Bits)                                                 | 43.60%      |  Easy       |            |
 | 0192 |  Word Frequency                                              |                                                                                                                                               | 26.80%      |  Medium     |            |
 | 0193 |  Valid Phone Numbers                                         |                                                                                                                                               | 25.20%      |  Easy       |            |
@@ -262,7 +264,7 @@
 | 0198 |  House Robber                                                | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0198.%20House%20Robber)                                                         | 41.10%      |  Easy       |            |
 | 0199 |  Binary Tree Right Side View                                 | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0199.%20Binary%20Tree%20Right%20Side%20View)                                    | 48.30%      |  Medium     |            |
 | 0200 |  Number of Islands                                           | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0200.%20Number%20of%20Islands)                                                  | 41.90%      |  Medium     |            |
-| 0201 |  Bitwise AND of Numbers Range                                |                                                                                                                                               | 36.10%      |  Medium     |            |
+| 0201 |  Bitwise AND of Numbers Range                                |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0201.%20Bitwise%20AND%20of%20Numbers%20Range)                                                                                                                                               | 36.10%      |  Medium     |            |
 | 0202 |  Happy Number                                                | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0202.%20Happy%20Number)                                                         | 45.60%      |  Easy       |            |
 | 0203 |  Remove Linked List Elements                                 | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0203.%20Remove%20Linked%20List%20Elements)                                      | 35.90%      |  Easy       |            |
 | 0204 |  Count Primes                                                |                                                                                                                                               | 29.20%      |  Easy       |            |
@@ -290,7 +292,7 @@
 | 0226 |  Invert Binary Tree                                          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0226.%20Invert%20Binary%20Tree)                                                 | 58.50%      |  Easy       |            |
 | 0227 |  Basic Calculator II                                         |                                                                                                                                               | 33.70%      |  Medium     |            |
 | 0228 |  Summary Ranges                                              |                                                                                                                                               | 36.20%      |  Medium     |            |
-| 0229 |  Majority Element II                                         |                                                                                                                                               | 32.30%      |  Medium     |            |
+| 0229 |  Majority Element II                                         |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0229.%20Majority%20Element%20II)                                                                                                                                               | 32.30%      |  Medium     |            |
 | 0230 |  Kth Smallest Element in a BST                               | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0230.%20Kth%20Smallest%20Element%20in%20a%20BST)                                | 51.90%      |  Medium     |            |
 | 0231 |  Power of Two                                                | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0231.%20Power%20of%20Two)                                                       | 42.10%      |  Easy       |            |
 | 0232 |  Implement Queue using Stacks                                | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0232.%20Implement%20Queue%20using%20Stacks)                                     | 43.70%      |  Easy       |            |
@@ -321,7 +323,7 @@
 | 0257 |  Binary Tree Paths                                           | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0257.%20Binary%20Tree%20Paths)                                                  | 46.30%      |  Easy       |            |
 | 0258 |  Add Digits                                                  |                                                                                                                                               | 54.30%      |  Easy       |            |
 | 0259 |  3Sum Smaller                                                |                                                                                                                                               | 45.10%      |  Medium     |            |
-| 0260 |  Single Number III                                           |                                                                                                                                               | 57.30%      |  Medium     |            |
+| 0260 |  Single Number III                                           |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0260.%20Single%20Number%20III)                                                                                                                                               | 57.30%      |  Medium     |            |
 | 0261 |  Graph Valid Tree                                            |                                                                                                                                               | 40.00%      |  Medium     |            |
 | 0262 |  Trips and Users                                             |                                                                                                                                               | 25.40%      |  Hard       |            |
 | 0263 |  Ugly Number                                                 | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0263.%20Ugly%20Number)                                                          | 40.70%      |  Easy       |            |
@@ -329,7 +331,7 @@
 | 0265 |  Paint House II                                              |                                                                                                                                               | 41.70%      |  Hard       |            |
 | 0266 |  Palindrome Permutation                                      |                                                                                                                                               | 60.20%      |  Easy       |            |
 | 0267 |  Palindrome Permutation II                                   |                                                                                                                                               | 33.90%      |  Medium     |            |
-| 0268 |  Missing Number                                              |                                                                                                                                               | 48.60%      |  Easy       |            |
+| 0268 |  Missing Number                                              |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0268.%20Missing%20Number)                                                                                                                                               | 48.60%      |  Easy       |            |
 | 0269 |  Alien Dictionary                                            |                                                                                                                                               | 31.30%      |  Hard       |            |
 | 0270 |  Closest Binary Search Tree Value                            |                                                                                                                                               | 44.00%      |  Easy       |            |
 | 0271 |  Encode and Decode Strings                                   |                                                                                                                                               | 27.00%      |  Medium     |            |
@@ -379,7 +381,7 @@
 | 0315 |  Count of Smaller Numbers After Self                         |                                                                                                                                               | 38.40%      |  Hard       |            |
 | 0316 |  Remove Duplicate Letters                                    |                                                                                                                                               | 32.80%      |  Hard       |            |
 | 0317 |  Shortest Distance from All Buildings                        |                                                                                                                                               | 38.10%      |  Hard       |            |
-| 0318 |  Maximum Product of Word Lengths                             |                                                                                                                                               | 48.70%      |  Medium     |            |
+| 0318 |  Maximum Product of Word Lengths                             |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0318.%20Maximum%20Product%20of%20Word%20Lengths)                                                                                                                                               | 48.70%      |  Medium     |            |
 | 0319 |  Bulb Switcher                                               |                                                                                                                                               | 44.00%      |  Medium     |            |
 | 0320 |  Generalized Abbreviation                                    |                                                                                                                                               | 48.90%      |  Medium     |            |
 | 0321 |  Create Maximum Number                                       |                                                                                                                                               | 25.50%      |  Hard       |            |
@@ -432,7 +434,7 @@
 | 0368 |  Largest Divisible Subset                                    |                                                                                                                                               | 34.90%      |  Medium     |            |
 | 0369 |  Plus One Linked List                                        |                                                                                                                                               | 56.40%      |  Medium     |            |
 | 0370 |  Range Addition                                              |                                                                                                                                               | 60.60%      |  Medium     |            |
-| 0371 |  Sum of Two Integers                                         |                                                                                                                                               | 50.90%      |  Easy       |            |
+| 0371 |  Sum of Two Integers                                         |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0371.%20Sum%20of%20Two%20Integers)                                                                                                                                               | 50.90%      |  Easy       |            |
 | 0372 |  Super Pow                                                   |                                                                                                                                               | 35.70%      |  Medium     |            |
 | 0373 |  Find K Pairs with Smallest Sums                             |                                                                                                                                               | 34.00%      |  Medium     |            |
 | 0374 |  Guess Number Higher or Lower                                |                                                                                                                                               | 39.60%      |  Easy       |            |
@@ -450,15 +452,15 @@
 | 0386 |  Lexicographical Numbers                                     |                                                                                                                                               | 46.50%      |  Medium     |            |
 | 0387 |  First Unique Character in a String                          |                                                                                                                                               | 50.20%      |  Easy       |            |
 | 0388 |  Longest Absolute File Path                                  |                                                                                                                                               | 39.30%      |  Medium     |            |
-| 0389 |  Find the Difference                                         |                                                                                                                                               | 53.20%      |  Easy       |            |
+| 0389 |  Find the Difference                                         |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0389.%20Find%20the%20Difference)                                                                                                                                               | 53.20%      |  Easy       |            |
 | 0390 |  Elimination Game                                            |                                                                                                                                               | 43.40%      |  Medium     |            |
 | 0391 |  Perfect Rectangle                                           |                                                                                                                                               | 28.30%      |  Hard       |            |
 | 0392 |  Is Subsequence                                              | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0392.%20Is%20Subsequence)                                                       | 46.90%      |  Medium     |            |
-| 0393 |  UTF-8 Validation                                            |                                                                                                                                               | 36.00%      |  Medium     |            |
-| 0394 |  Decode String                                               | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0394.%20Decode%20String)                                                        | 45.20%      |  Medium     |            |
+| 0393 |  UTF-8 Validation                                            |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0393.%20UTF-8%20Validation)                                                                                                                                               | 36.00%      |  Medium     |            |
+| 0394 |  Decode String                                               |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0394.%20Decode%20String)                                                        | 45.20%      |  Medium     |            |
 | 0395 |  Longest Substring with At Least K Repeating Characters      |                                                                                                                                               | 38.80%      |  Medium     |            |
 | 0396 |  Rotate Function                                             |                                                                                                                                               | 35.20%      |  Medium     |            |
-| 0397 |  Integer Replacement                                         |                                                                                                                                               | 31.50%      |  Medium     |            |
+| 0397 |  Integer Replacement                                         |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0397.%20Integer%20Replacement)                                                                                                                                               | 31.50%      |  Medium     |            |
 | 0398 |  Random Pick Index                                           |                                                                                                                                               | 50.20%      |  Medium     |            |
 | 0399 |  Evaluate Division                                           |                                                                                                                                               | 47.80%      |  Medium     |            |
 | 0400 |  Nth Digit                                                   |                                                                                                                                               | 30.40%      |  Easy       |            |
@@ -466,7 +468,7 @@
 | 0402 |  Remove K Digits                                             | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0402.%20Remove%20K%20Digits)                                                    | 26.70%      |  Medium     |            |
 | 0403 |  Frog Jump                                                   |                                                                                                                                               | 36.40%      |  Hard       |            |
 | 0404 |  Sum of Left Leaves                                          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0404.%20Sum%20of%20Left%20Leaves)                                               | 49.20%      |  Easy       |            |
-| 0405 |  Convert a Number to Hexadecimal                             |                                                                                                                                               | 42.00%      |  Easy       |            |
+| 0405 |  Convert a Number to Hexadecimal                             |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0405.%20Convert%20a%20Number%20to%20Hexadecimal)                                                                                                                                               | 42.00%      |  Easy       |            |
 | 0406 |  Queue Reconstruction by Height                              |                                                                                                                                               | 60.10%      |  Medium     |            |
 | 0407 |  Trapping Rain Water II                                      |                                                                                                                                               | 39.40%      |  Hard       |            |
 | 0408 |  Valid Word Abbreviation                                     |                                                                                                                                               | 29.60%      |  Easy       |            |
@@ -483,7 +485,7 @@
 | 0418 |  Sentence Screen Fitting                                     |                                                                                                                                               | 31.20%      |  Medium     |            |
 | 0419 |  Battleships in a Board                                      |                                                                                                                                               | 65.90%      |  Medium     |            |
 | 0420 |  Strong Password Checker                                     |                                                                                                                                               | 17.20%      |  Hard       |            |
-| 0421 |  Maximum XOR of Two Numbers in an Array                      |                                                                                                                                               | 51.20%      |  Medium     |            |
+| 0421 |  Maximum XOR of Two Numbers in an Array                      |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0421.%20Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array)                                                                                                                                               | 51.20%      |  Medium     |            |
 | 0422 |  Valid Word Square                                           |                                                                                                                                               | 36.60%      |  Easy       |            |
 | 0423 |  Reconstruct Original Digits from English                    |                                                                                                                                               | 45.70%      |  Medium     |            |
 | 0424 |  Longest Repeating Character Replacement                     | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0424.%20Longest%20Repeating%20Character%20Replacement)                          | 44.30%      |  Medium     |            |
@@ -523,7 +525,7 @@
 | 0458 |  Poor Pigs                                                   |                                                                                                                                               | 45.50%      |  Hard       |            |
 | 0459 |  Repeated Substring Pattern                                  |                                                                                                                                               | 40.00%      |  Easy       |            |
 | 0460 |  LFU Cache                                                   |                                                                                                                                               | 29.00%      |  Hard       |            |
-| 0461 |  Hamming Distance                                            |                                                                                                                                               | 70.40%      |  Easy       |            |
+| 0461 |  Hamming Distance                                            |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0461.%20Hamming%20Distance)                                                                                                                                               | 70.40%      |  Easy       |            |
 | 0462 |  Minimum Moves to Equal Array Elements II                    |                                                                                                                                               | 52.50%      |  Medium     |            |
 | 0463 |  Island Perimeter                                            |                                                                                                                                               | 61.20%      |  Easy       |            |
 | 0464 |  Can I Win                                                   |                                                                                                                                               | 27.30%      |  Medium     |            |
@@ -538,8 +540,8 @@
 | 0473 |  Matchsticks to Square                                       |                                                                                                                                               | 36.00%      |  Medium     |            |
 | 0474 |  Ones and Zeroes                                             |                                                                                                                                               | 39.80%      |  Medium     |            |
 | 0475 |  Heaters                                                     |                                                                                                                                               | 31.90%      |  Easy       |            |
-| 0476 |  Number Complement                                           |                                                                                                                                               | 62.50%      |  Easy       |            |
-| 0477 |  Total Hamming Distance                                      |                                                                                                                                               | 49.00%      |  Medium     |            |
+| 0476 |  Number Complement                                           |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0476.%20Number%20Complement)                                                                                                                                               | 62.50%      |  Easy       |            |
+| 0477 |  Total Hamming Distance                                      |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0477.%20Total%20Hamming%20Distance)                                                                                                                                               | 49.00%      |  Medium     |            |
 | 0478 |  Generate Random Point in a Circle                           |                                                                                                                                               | 36.90%      |  Medium     |            |
 | 0479 |  Largest Palindrome Product                                  |                                                                                                                                               | 27.50%      |  Hard       |            |
 | 0480 |  Sliding Window Median                                       | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0480.%20Sliding%20Window%20Median)                                              | 32.80%      |  Hard       |            |
@@ -755,7 +757,7 @@
 | 0690 |  Employee Importance                                         |                                                                                                                                               | 54.40%      |  Easy       |            |
 | 0691 |  Stickers to Spell Word                                      |                                                                                                                                               | 38.50%      |  Hard       |            |
 | 0692 |  Top K Frequent Words                                        |                                                                                                                                               | 46.00%      |  Medium     |            |
-| 0693 |  Binary Number with Alternating Bits                         |                                                                                                                                               | 58.00%      |  Easy       |            |
+| 0693 |  Binary Number with Alternating Bits                         |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0693.%20Binary%20Number%20with%20Alternating%20Bits)                                                                                                                                               | 58.00%      |  Easy       |            |
 | 0694 |  Number of Distinct Islands                                  |                                                                                                                                               | 51.40%      |  Medium     |            |
 | 0695 |  Max Area of Island                                          |                                                                                                                                               | 57.60%      |  Medium     |            |
 | 0696 |  Count Binary Substrings                                     |                                                                                                                                               | 53.60%      |  Easy       |            |
@@ -818,13 +820,13 @@
 | 0753 |  Cracking the Safe                                           |                                                                                                                                               | 46.60%      |  Hard       |            |
 | 0754 |  Reach a Number                                              |                                                                                                                                               | 32.80%      |  Easy       |            |
 | 0755 |  Pour Water                                                  |                                                                                                                                               | 40.80%      |  Medium     |            |
-| 0756 |  Pyramid Transition Matrix                                   |                                                                                                                                               | 51.80%      |  Medium     |            |
+| 0756 |  Pyramid Transition Matrix                                   |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0756.%20Pyramid%20Transition%20Matrix)                                                                                                                                               | 51.80%      |  Medium     |            |
 | 0757 |  Set Intersection Size At Least Two                          |                                                                                                                                               | 37.00%      |  Hard       |            |
 | 0758 |  Bold Words in String                                        |                                                                                                                                               | 42.70%      |  Easy       |            |
 | 0759 |  Employee Free Time                                          |                                                                                                                                               | 61.50%      |  Hard       |            |
 | 0760 |  Find Anagram Mappings                                       |                                                                                                                                               | 79.40%      |  Easy       |            |
 | 0761 |  Special Binary String                                       |                                                                                                                                               | 52.00%      |  Hard       |            |
-| 0762 |  Prime Number of Set Bits in Binary Representation           |                                                                                                                                               | 59.60%      |  Easy       |            |
+| 0762 |  Prime Number of Set Bits in Binary Representation           |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation)                                                                                                                                               | 59.60%      |  Easy       |            |
 | 0763 |  Partition Labels                                            | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0763.%20Partition%20Labels)                                                     | 70.80%      |  Medium     |            |
 | 0764 |  Largest Plus Sign                                           |                                                                                                                                               | 43.50%      |  Medium     |            |
 | 0765 |  Couples Holding Hands                                       |                                                                                                                                               | 51.70%      |  Hard       |            |
@@ -960,7 +962,7 @@
 | 0895 |  Maximum Frequency Stack                                     | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0895.%20Maximum%20Frequency%20Stack)                                            | 56.40%      |  Hard       |            |
 | 0896 |  Monotonic Array                                             |                                                                                                                                               | 55.40%      |  Easy       |            |
 | 0897 |  Increasing Order Search Tree                                |                                                                                                                                               | 64.90%      |  Easy       |            |
-| 0898 |  Bitwise ORs of Subarrays                                    |                                                                                                                                               | 34.40%      |  Medium     |            |
+| 0898 |  Bitwise ORs of Subarrays                                    |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0898.%20Bitwise%20ORs%20of%20Subarrays)                                                                                                                                               | 34.40%      |  Medium     |            |
 | 0899 |  Orderly Queue                                               |                                                                                                                                               | 47.50%      |  Hard       |            |
 | 0900 |  RLE Iterator                                                |                                                                                                                                               | 50.30%      |  Medium     |            |
 | 0901 |  Online Stock Span                                           | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0901.%20Online%20Stock%20Span)                                                  | 49.40%      |  Medium     |            |
@@ -1176,8 +1178,6 @@
 - [151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 - [160.Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - [173.Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
-- [190.Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-- [191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - [222.Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
@@ -1875,7 +1875,75 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
+## Bit Manipulation
 
+![](./Topics/Bit_Manipulation.png)
+
+- 异或的特性。第 136 题，第 268 题，第 389 题，第 421 题，
+
+```go
+x ^ 0 = x
+x ^ 11111……1111 = ~x
+x ^ (~x) = 11111……1111
+x ^ x = 0
+a ^ b = c  => a ^ c = b  => b ^ c = a (交换律)
+a ^ b ^ c = a ^ (b ^ c) = (a ^ b）^ c (结合律)
+```
+
+- 构造特殊 Mask，将特殊位置放 0 或 1。
+
+```go
+将 x 最右边的 n 位清零， x & ( ~0 << n )
+获取 x 的第 n 位值(0 或者 1)，(x >> n) & 1
+获取 x 的第 n 位的幂值，x & (1 << (n - 1))
+仅将第 n 位置为 1，x | (1 << n)
+仅将第 n 位置为 0，x & (~(1 << n))
+将 x 最高位至第 n 位(含)清零，x & ((1 << n) - 1)
+将第 n 位至第 0 位(含)清零，x & (~((1 << (n + 1)) - 1)）
+```
+
+- 有特殊意义的 & 位操作运算。第 260 题，第 201 题，第 318 题，第 371 题，第 397 题，第 461 题，第 693 题，
+
+```go
+X & 1 == 1 判断是否是奇数(偶数)
+X & = (X - 1) 将最低位(LSB)的 1 清零
+X & -X 得到最低位(LSB)的 1
+X & ~X = 0
+```
+
+
+| Title | Solution | Difficulty | Time | Space | 收藏 |
+| ----- | :--------: | :----------: | :----: | :-----: |:-----: |
+|[78. Subsets](https://leetcode.com/problems/subsets)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0078.%20Subsets)| Medium | O(n^2)| O(n)|❤️|
+|[136. Single Number](https://leetcode.com/problems/single-number)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0136.%20Single%20Number)| Easy | O(n)| O(1)||
+|[137. Single Number II](https://leetcode.com/problems/single-number-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0137.%20Single%20Number%20II)| Medium | O(n)| O(1)|❤️|
+|[169. Majority Element](https://leetcode.com/problems/majority-element)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0169.%20Majority%20Element)| Easy | O(n)| O(1)|❤️|
+|[187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0187.%20Repeated%20DNA%20Sequences)| Medium | O(n)| O(1)||
+|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0190.%20Reverse%20Bits)| Easy | O(n)| O(1)|❤️|
+|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0191.%20Number%20of%201%20Bits)| Easy | O(n)| O(1)||
+|[201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0201.%20Bitwise%20AND%20of%20Numbers%20Range)| Medium | O(n)| O(1)|❤️|
+|[231. Power of Two](https://leetcode.com/problems/power-of-twor)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0231.%20Power%20of%20Two)| Easy | O(1)| O(1)||
+|[260. Single Number III](https://leetcode.com/problems/single-number-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0260.%20Single%20Number%20III)| Medium | O(n)| O(1)|❤️|
+|[268. Missing Number](https://leetcode.com/problems/missing-number)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0268.%20Missing%20Number)| Easy | O(n)| O(1)||
+|[318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0318.%20Maximum%20Product%20of%20Word%20Lengths)| Medium | O(n)| O(1)||
+|[338. Counting Bits](https://leetcode.com/problems/counting-bits)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0338.%20Counting%20Bits)| Medium | O(n)| O(n)||
+|[342. Power of Four](https://leetcode.com/problems/power-of-four)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0342.%20Power%20of%20Four)| Easy | O(n)| O(1)||
+|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0371.%20Sum%20of%20Two%20Integers)| Easy | O(n)| O(1)||
+|[389. Find the Difference](https://leetcode.com/problems/find-the-difference)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0389.%20Find%20the%20Difference)| Easy | O(n)| O(1)||
+|[393. UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0393.%20UTF-8%20Validation)| Medium | O(n)| O(1)||
+|[397. Integer Replacement](https://leetcode.com/problems/integer-replacement)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0397.%20Integer%20Replacement)| Medium | O(n)| O(1)||
+|[401. Binary Watch](https://leetcode.com/problems/binary-watch)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0401.%20Binary%20Watch)| Easy | O(1)| O(1)||
+|[405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0405.%20Convert%20a%20Number%20to%20Hexadecimal)| Easy | O(n)| O(1)||
+|[421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0421.%20Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array)| Medium | O(n)| O(1)|❤️|
+|[461. Hamming Distance](https://leetcode.com/problems/hamming-distance)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0461.%20Hamming%20Distance)| Easy | O(n)| O(1)||
+|[476. Number Complement](https://leetcode.com/problems/number-complement)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0476.%20Number%20Complement)| Easy | O(n)| O(1)||
+|[477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0477.%20Total%20Hamming%20Distance)| Medium | O(n)| O(1)||
+|[693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0693.%20Binary%20Number%20with%20Alternating%20Bits)| Easy | O(n)| O(1)|❤️|
+|[756. Pyramid Transition Matrix](https://leetcode.com/problems/pyramid-transition-matrix)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0756.%20Pyramid%20Transition%20Matrix)| Medium | O(n log n)| O(n)||
+|[762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation)| Easy | O(n)| O(1)||
+|[784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0784.%20Letter%20Case%20Permutation)| Easy | O(n)| O(1)||
+|[898. Bitwise ORs of Subarrays](https://leetcode.com/problems/letter-case-permutation)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0898.%20Bitwise%20ORs%20of%20Subarrays)| Medium | O(n)| O(1)||
+|-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
 ----------------------------------------------------------------------------------------

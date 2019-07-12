@@ -37,5 +37,5 @@ Given a positive integer, output its complement number. The complement strategy 
 ## 解题思路
 
 
-- 求一个正数的补数，补数的定义是对该数的二进制表示取反。当前不能改变符号位。按照题意构造响应的 mask 再取反即可。
+- 求一个正数的补数，补数的定义是对该数的二进制表示取反。当前不能改变符号位。按照题意构造相应的 mask 再取反即可。
 

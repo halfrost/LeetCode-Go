@@ -25,4 +25,5 @@ You may assume that the array is non-empty and the majority element always exist
 
 ## 解题思路
 
-- 题目要求找出数组中出现次数大于 `⌊ n/2 ⌋` 次的数。要求空间复杂度为 O(1)。简单题
+- 题目要求找出数组中出现次数大于 `⌊ n/2 ⌋` 次的数。要求空间复杂度为 O(1)。简单题。
+- 这一题利用的算法是 Boyer-Moore Majority Vote Algorithm。https://www.zhihu.com/question/49973163/answer/235921864
