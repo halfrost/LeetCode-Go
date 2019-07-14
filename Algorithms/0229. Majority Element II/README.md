@@ -24,5 +24,6 @@ Given an integer array of size n, find all elements that appear more than `⌊
 
 ## 解题思路
 
-- 这一题是第 169 题的加强版。
+- 这一题是第 169 题的加强版。Boyer-Moore Majority Vote algorithm 算法的扩展版。
 - 题目要求找出数组中出现次数大于 `⌊ n/3 ⌋` 次的数。要求空间复杂度为 O(1)。简单题。
+- 这篇文章写的不错，可参考：[https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html](https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html)
