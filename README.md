@@ -65,7 +65,7 @@
 | #    |  Title                                                       |  Solution                                                                                                                                           |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 | 0001 |  Two Sum                                                     | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0001.%20Two%20Sum)                                                              | 44.30%      |  Easy       |            |
-| 0002 |  Add Two Numbers                                             | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add-Two-Number)                                                         | 31.30%      |  Medium     |            |
+| 0002 |  Add Two Numbers                                             | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add%20Two%20Numbers)                                                         | 31.30%      |  Medium     |            |
 | 0003 |  Longest Substring Without Repeating Characters              | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0003.%20Longest%20Substring%20Without%20Repeating%20Characters)                 | 28.50%      |  Medium     |            |
 | 0004 |  Median of Two Sorted Arrays                                 |                                                                                                                                               | 26.60%      |  Hard       |            |
 | 0005 |  Longest Palindromic Substring                               |                                                                                                                                               | 27.50%      |  Medium     |            |
@@ -475,7 +475,7 @@
 | 0409 |  Longest Palindrome                                          |[Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0409.%20Longest%20Palindrome)                                                                                                                                               | 48.20%      |  Easy       |            |
 | 0410 |  Split Array Largest Sum                                     |                                                                                                                                               | 42.60%      |  Hard       |            |
 | 0411 |  Minimum Unique Word Abbreviation                            |                                                                                                                                               | 35.10%      |  Hard       |            |
-| 0412 |  Fizz Buzz                                                   | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0412.%20Fizz-Buzz)                                                              | 59.70%      |  Easy       |            |
+| 0412 |  Fizz Buzz                                                   | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0412.%20Fizz%20Buzz)                                                              | 59.70%      |  Easy       |            |
 | 0413 |  Arithmetic Slices                                           |                                                                                                                                               | 56.00%      |  Medium     |            |
 | 0414 |  Third Maximum Number                                        |
 [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0414.%20Third%20Maximum%20Number)                                                                                                                                               | 29.10%      |  Easy       |            |
@@ -1418,7 +1418,7 @@
 
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
-|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add-Two-Number)| Medium | O(n)| O(1)||
+|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add%20Two%20Numbers)| Medium | O(n)| O(1)||
 |[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List)| Medium | O(n)| O(1)||
 |[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0021.%20Merge%20Two%20Sorted%20Lists)| Easy | O(log n)| O(1)||
 |[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0023.%20Merge%20k%20Sorted%20Lists)| Hard | O(log n)| O(1)|❤️|
@@ -1806,7 +1806,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
-|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add-Two-Number)| Medium | O(n)| O(1)||
+|[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0002.%20Add%20Two%20Numbers)| Medium | O(n)| O(1)||
 |[50. Pow(x, n)](https://leetcode.com/problems/powx-n)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0050.%20Pow(x%2C%20n))| Medium | O(log n)| O(1)||
 |[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0060.%20Permutation%20Sequence)| Medium | O(n log n)| O(1)||
 |[69. Sqrt(x)](https://leetcode.com/problems/sqrtx)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0069.%20Sqrt(x))| Easy | O(log n)| O(1)||
