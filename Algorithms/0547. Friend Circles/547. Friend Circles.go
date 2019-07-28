@@ -2,60 +2,71 @@ package leetcode
 
 // 解法一 并查集
 
-// UninonSet defind
-type UninonSet struct {
-	roots []int
+// UnionFind defind
+type UnionFind struct {
+	parent, rank []int
+	count        int
 }
 
-func (us UninonSet) init() {
-	for i := range us.roots {
-		us.roots[i] = i
+func (uf *UnionFind) init(n int) {
+	uf.count = n
+	uf.parent = make([]int, n)
+	uf.rank = make([]int, n)
+	for i := range uf.parent {
+		uf.parent[i] = i
 	}
 }
 
-func (us UninonSet) findRoot(i int) int {
-	root := i
-	for root != us.roots[root] {
-		root = us.roots[root]
+func (uf *UnionFind) find(p int) int {
+	root := p
+	for root != uf.parent[root] {
+		root = uf.parent[root]
 	}
-	for i != us.roots[i] {
-		tmp := us.roots[i]
-		us.roots[i] = root
-		i = tmp
+	// compress path
+	for p != uf.parent[p] {
+		tmp := uf.parent[p]
+		uf.parent[p] = root
+		p = tmp
 	}
 	return root
 }
 
-func (us UninonSet) union(p, q int) {
-	qroot := us.findRoot(q)
-	proot := us.findRoot(p)
-	us.roots[proot] = qroot
+func (uf *UnionFind) union(p, q int) {
+	proot := uf.find(p)
+	qroot := uf.find(q)
+	if proot == qroot {
+		return
+	}
+	if uf.rank[qroot] > uf.rank[proot] {
+		uf.parent[proot] = qroot
+	} else {
+		uf.parent[qroot] = proot
+		if uf.rank[proot] == uf.rank[qroot] {
+			uf.rank[proot]++
+		}
+	}
+	uf.count--
+}
+
+func (uf *UnionFind) totalCount() int {
+	return uf.count
 }
 
 func findCircleNum(M [][]int) int {
-	n, count := len(M), 0
+	n := len(M)
 	if n == 0 {
 		return 0
 	}
-	us := UninonSet{}
-	us.roots = make([]int, n+1)
-	us.init()
+	uf := UnionFind{}
+	uf.init(n)
 	for i := 0; i < n; i++ {
 		for j := 0; j <= i; j++ {
 			if M[i][j] == 1 {
-				x, y := us.findRoot(i), us.findRoot(j)
-				if x != y {
-					us.union(x, y)
-				}
+				uf.union(i, j)
 			}
 		}
 	}
-	for i := 0; i < n; i++ {
-		if us.roots[i] == i {
-			count++
-		}
-	}
-	return count
+	return uf.count
 }
 
 // 解法二 FloodFill DFS 暴力解法
