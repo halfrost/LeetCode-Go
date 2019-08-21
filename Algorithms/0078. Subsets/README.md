@@ -31,4 +31,5 @@ Given a set of **distinct** integers, *nums*, return all possible subsets (th
 ## 解题思路
 
 - 找出一个集合中的所有子集，空集也算是子集。且数组中的数字不会出现重复。用 DFS 暴力枚举即可。
+- 这一题和第 90 题，第 491 题类似，可以一起解答和复习。
 

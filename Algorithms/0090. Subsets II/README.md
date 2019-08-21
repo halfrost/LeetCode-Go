@@ -29,4 +29,5 @@ Given a collection of integers that might contain duplicates, ***nums***, retur
 
 - 这一题是第 78 题的加强版，比第 78 题多了一个条件，数组中的数字会出现重复。
 - 解题方法依旧是 DFS，需要在回溯的过程中加上一些判断。
+- 这一题和第 78 题，第 491 题类似，可以一起解答和复习。
 
