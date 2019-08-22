@@ -1,11 +1,15 @@
 package leetcode
 
-import "sort"
+import (
+	"sort"
+
+	"github.com/halfrost/LeetCode-Go/template"
+)
 
 // 解法一 并查集优化搜索解法
 func accountsMerge(accounts [][]string) (r [][]string) {
-	uf := UnionFind{}
-	uf.init(len(accounts))
+	uf := template.UnionFind{}
+	uf.Init(len(accounts))
 	// emailToID 将所有的 email 邮箱都拆开，拆开与 id(数组下标) 对应
 	// idToName 将 id(数组下标) 与 name 对应
 	// idToEmails 将 id(数组下标) 与整理好去重以后的 email 组对应
@@ -15,13 +19,13 @@ func accountsMerge(accounts [][]string) (r [][]string) {
 		for i := 1; i < len(acc); i++ {
 			pid, ok := emailToID[acc[i]]
 			if ok {
-				uf.union(id, pid)
+				uf.Union(id, pid)
 			}
 			emailToID[acc[i]] = id
 		}
 	}
 	for email, id := range emailToID {
-		pid := uf.find(id)
+		pid := uf.Find(id)
 		idToEmails[pid] = append(idToEmails[pid], email)
 	}
 	for id, emails := range idToEmails {
@@ -37,8 +41,8 @@ func accountsMerge1(accounts [][]string) [][]string {
 	if len(accounts) == 0 {
 		return [][]string{}
 	}
-	uf, res, visited := UnionFind{}, [][]string{}, map[int]bool{}
-	uf.init(len(accounts))
+	uf, res, visited := template.UnionFind{}, [][]string{}, map[int]bool{}
+	uf.Init(len(accounts))
 	for i := 0; i < len(accounts); i++ {
 		for j := i + 1; j < len(accounts); j++ {
 			if accounts[i][0] == accounts[j][0] {
@@ -55,7 +59,7 @@ func accountsMerge1(accounts [][]string) [][]string {
 					}
 				}
 				if flag {
-					uf.union(i, j)
+					uf.Union(i, j)
 				}
 			}
 		}
@@ -66,7 +70,7 @@ func accountsMerge1(accounts [][]string) [][]string {
 		}
 		emails, account, tmpMap := accounts[i][1:], []string{accounts[i][0]}, map[string]string{}
 		for j := i + 1; j < len(accounts); j++ {
-			if uf.find(j) == uf.find(i) {
+			if uf.Find(j) == uf.Find(i) {
 				visited[j] = true
 				for _, v := range accounts[j][1:] {
 					tmpMap[v] = v

@@ -1,5 +1,9 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/template"
+)
+
 // 解法一 map，时间复杂度 O(n)
 func longestConsecutive(nums []int) int {
 	res, numMap := 0, map[int]int{}
@@ -37,8 +41,8 @@ func longestConsecutive1(nums []int) int {
 	if len(nums) == 0 {
 		return 0
 	}
-	numMap, countMap, lcs, uf := map[int]int{}, map[int]int{}, 0, UnionFind{}
-	uf.init(len(nums))
+	numMap, countMap, lcs, uf := map[int]int{}, map[int]int{}, 0, template.UnionFind{}
+	uf.Init(len(nums))
 	for i := 0; i < len(nums); i++ {
 		countMap[i] = 1
 	}
@@ -48,14 +52,14 @@ func longestConsecutive1(nums []int) int {
 		}
 		numMap[nums[i]] = i
 		if _, ok := numMap[nums[i]+1]; ok {
-			uf.union(i, numMap[nums[i]+1])
+			uf.Union(i, numMap[nums[i]+1])
 		}
 		if _, ok := numMap[nums[i]-1]; ok {
-			uf.union(i, numMap[nums[i]-1])
+			uf.Union(i, numMap[nums[i]-1])
 		}
 	}
 	for key := range countMap {
-		parent := uf.find(key)
+		parent := uf.Find(key)
 		if parent != key {
 			countMap[parent]++
 		}

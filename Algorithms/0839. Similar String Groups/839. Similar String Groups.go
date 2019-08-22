@@ -1,16 +1,20 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/template"
+)
+
 func numSimilarGroups(A []string) int {
-	uf := UnionFind{}
-	uf.init(len(A))
+	uf := template.UnionFind{}
+	uf.Init(len(A))
 	for i := 0; i < len(A); i++ {
 		for j := i + 1; j < len(A); j++ {
 			if isSimilar(A[i], A[j]) {
-				uf.union(i, j)
+				uf.Union(i, j)
 			}
 		}
 	}
-	return uf.totalCount()
+	return uf.TotalCount()
 }
 
 func isSimilar(a, b string) bool {

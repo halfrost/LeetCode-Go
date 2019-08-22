@@ -1,5 +1,9 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/template"
+)
+
 // 解法一 DFS + 二分
 func swimInWater(grid [][]int) int {
 	row, col, flags, minWait, maxWait := len(grid), len(grid[0]), make([][]int, len(grid)), 0, 0
@@ -40,19 +44,19 @@ func addFlags(grid [][]int, flags [][]int, flag int, row int, col int) {
 
 // 解法二 并查集(并不是此题的最优解)
 func swimInWater1(grid [][]int) int {
-	n, uf, res := len(grid), UnionFind{}, 0
-	uf.init(n * n)
-	for uf.find(0) != uf.find(n*n-1) {
+	n, uf, res := len(grid), template.UnionFind{}, 0
+	uf.Init(n * n)
+	for uf.Find(0) != uf.Find(n*n-1) {
 		for i := 0; i < n; i++ {
 			for j := 0; j < n; j++ {
 				if grid[i][j] > res {
 					continue
 				}
 				if i < n-1 && grid[i+1][j] <= res {
-					uf.union(i*n+j, i*n+j+n)
+					uf.Union(i*n+j, i*n+j+n)
 				}
 				if j < n-1 && grid[i][j+1] <= res {
-					uf.union(i*n+j, i*n+j+1)
+					uf.Union(i*n+j, i*n+j+1)
 				}
 			}
 		}

@@ -1,30 +1,34 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/template"
+)
+
 // 解法一 并查集
 func solve(board [][]byte) {
 	if len(board) == 0 {
 		return
 	}
 	m, n := len(board[0]), len(board)
-	uf := UnionFind{}
-	uf.init(n*m + 1) // 特意多一个特殊点用来标记
+	uf := template.UnionFind{}
+	uf.Init(n*m + 1) // 特意多一个特殊点用来标记
 
 	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
 			if (i == 0 || i == n-1 || j == 0 || j == m-1) && board[i][j] == 'O' { //棋盘边缘上的 'O' 点
-				uf.union(i*m+j, n*m)
+				uf.Union(i*m+j, n*m)
 			} else if board[i][j] == 'O' { //棋盘非边缘上的内部的 'O' 点
 				if board[i-1][j] == 'O' {
-					uf.union(i*m+j, (i-1)*m+j)
+					uf.Union(i*m+j, (i-1)*m+j)
 				}
 				if board[i+1][j] == 'O' {
-					uf.union(i*m+j, (i+1)*m+j)
+					uf.Union(i*m+j, (i+1)*m+j)
 				}
 				if board[i][j-1] == 'O' {
-					uf.union(i*m+j, i*m+j-1)
+					uf.Union(i*m+j, i*m+j-1)
 				}
 				if board[i][j+1] == 'O' {
-					uf.union(i*m+j, i*m+j+1)
+					uf.Union(i*m+j, i*m+j+1)
 				}
 
 			}
@@ -32,7 +36,7 @@ func solve(board [][]byte) {
 	}
 	for i := 0; i < n; i++ {
 		for j := 0; j < m; j++ {
-			if uf.find(i*m+j) != uf.find(n*m) {
+			if uf.Find(i*m+j) != uf.Find(n*m) {
 				board[i][j] = 'X'
 			}
 		}
