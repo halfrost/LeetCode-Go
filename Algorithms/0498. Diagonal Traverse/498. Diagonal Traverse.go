@@ -5,15 +5,12 @@ func findDiagonalOrder1(matrix [][]int) []int {
 	if matrix == nil || len(matrix) == 0 || len(matrix[0]) == 0 {
 		return nil
 	}
-	row := len(matrix)
-	col := len(matrix[0])
-	dir := [2][2]int{
+	row, col, dir, i, x, y, d := len(matrix), len(matrix[0]), [2][2]int{
 		{-1, 1},
 		{1, -1},
-	}
+	}, 0, 0, 0, 0
 	total := row * col
 	res := make([]int, total)
-	var i, x, y, d int
 	for i < total {
 		for x >= 0 && x < row && y >= 0 && y < col {
 			res[i] = matrix[x][y]

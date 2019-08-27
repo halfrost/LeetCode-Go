@@ -1,9 +1,5 @@
-# 509. Fibonacci Number
+# [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 
-Created Time: Aug 24, 2019 2:52 PM
-Difficulty: Easy
-Link: https://leetcode.com/problems/fibonacci-number/
-Tags: Array,Dynamic Programming,Math,Recursive
 
 ## 题目:
 
