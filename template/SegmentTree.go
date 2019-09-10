@@ -7,7 +7,8 @@ type SegmentTree struct {
 	merge            func(i, j int) int
 }
 
-func (st *SegmentTree) init(nums []int, oper func(i, j int) int) {
+// Init define
+func (st *SegmentTree) Init(nums []int, oper func(i, j int) int) {
 	st.merge = oper
 
 	data, tree, lazy := make([]int, len(nums)), make([]int, 4*len(nums)), make([]int, 4*len(nums))
@@ -42,7 +43,9 @@ func (st *SegmentTree) rightChild(index int) int {
 }
 
 // 查询 [left....right] 区间内的值
-func (st *SegmentTree) query(left, right int) int {
+
+// Query define
+func (st *SegmentTree) Query(left, right int) int {
 	if len(st.data) > 0 {
 		return st.queryInTree(0, 0, len(st.data)-1, left, right)
 	}
@@ -65,7 +68,9 @@ func (st *SegmentTree) queryInTree(treeIndex, left, right, queryLeft, queryRight
 }
 
 // 查询 [left....right] 区间内的值
-func (st *SegmentTree) queryLazy(left, right int) int {
+
+// QueryLazy define
+func (st *SegmentTree) QueryLazy(left, right int) int {
 	if len(st.data) > 0 {
 		return st.queryLazyInTree(0, 0, len(st.data)-1, left, right)
 	}
@@ -104,7 +109,9 @@ func (st *SegmentTree) queryLazyInTree(treeIndex, left, right, queryLeft, queryR
 }
 
 // 更新 index 位置的值
-func (st *SegmentTree) update(index, val int) {
+
+// Update define
+func (st *SegmentTree) Update(index, val int) {
 	if len(st.data) > 0 {
 		st.updateInTree(0, 0, len(st.data)-1, index, val)
 	}
@@ -126,7 +133,9 @@ func (st *SegmentTree) updateInTree(treeIndex, left, right, index, val int) {
 }
 
 // 更新 [updateLeft....updateRight] 位置的值
-func (st *SegmentTree) updateLazy(updateLeft, updateRight, val int) {
+
+// UpdateLazy define
+func (st *SegmentTree) UpdateLazy(updateLeft, updateRight, val int) {
 	if len(st.data) > 0 {
 		st.updateLazyInTree(0, 0, len(st.data)-1, updateLeft, updateRight, val)
 	}
@@ -178,7 +187,8 @@ type SegmentCountTree struct {
 	merge       func(i, j int) int
 }
 
-func (st *SegmentCountTree) init(nums []int, oper func(i, j int) int) {
+// Init define
+func (st *SegmentCountTree) Init(nums []int, oper func(i, j int) int) {
 	st.merge = oper
 
 	data, tree := make([]int, len(nums)), make([]int, 4*len(nums))
@@ -210,7 +220,9 @@ func (st *SegmentCountTree) rightChild(index int) int {
 }
 
 // 查询 [left....right] 区间内的值
-func (st *SegmentCountTree) query(left, right int) int {
+
+// Query define
+func (st *SegmentCountTree) Query(left, right int) int {
 	if len(st.data) > 0 {
 		return st.queryInTree(0, 0, len(st.data)-1, left, right)
 	}
@@ -231,7 +243,9 @@ func (st *SegmentCountTree) queryInTree(treeIndex, left, right, queryLeft, query
 }
 
 // 更新计数
-func (st *SegmentCountTree) updateCount(val int) {
+
+// UpdateCount define
+func (st *SegmentCountTree) UpdateCount(val int) {
 	if len(st.data) > 0 {
 		st.updateCountInTree(0, 0, len(st.data)-1, val)
 	}
