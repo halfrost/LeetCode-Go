@@ -133,6 +133,9 @@ func (st *SegmentTree) updateInTree(treeIndex, left, right, index, val int) {
 }
 
 // 更新 [updateLeft....updateRight] 位置的值
+// 注意这里的更新值是在原来值的基础上增加或者减少，而不是把这个区间内的值都赋值为 x，区间更新和单点更新不同
+// 这里的区间更新关注的是变化，单点更新关注的是定值
+// 当然区间更新也可以都更新成定值，如果只区间更新成定值，那么 lazy 更新策略需要变化，merge 策略也需要变化，这里暂不详细讨论
 
 // UpdateLazy define
 func (st *SegmentTree) UpdateLazy(updateLeft, updateRight, val int) {
