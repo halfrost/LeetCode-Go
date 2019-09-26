@@ -28,7 +28,7 @@ func (st *SegmentTree) buildSegmentTree(treeIndex, left, right int) {
 		return
 	}
 	leftTreeIndex, rightTreeIndex := st.leftChild(treeIndex), st.rightChild(treeIndex)
-	midTreeIndex := left + (right-left)/2
+	midTreeIndex := left + (right-left)>>1
 	st.buildSegmentTree(leftTreeIndex, left, midTreeIndex)
 	st.buildSegmentTree(rightTreeIndex, midTreeIndex+1, right)
 	st.tree[treeIndex] = st.merge(st.tree[leftTreeIndex], st.tree[rightTreeIndex])
@@ -57,7 +57,7 @@ func (st *SegmentTree) queryInTree(treeIndex, left, right, queryLeft, queryRight
 	if left == queryLeft && right == queryRight {
 		return st.tree[treeIndex]
 	}
-	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	if queryLeft >= midTreeIndex+1 {
 		return st.queryInTree(rightTreeIndex, midTreeIndex+1, right, queryLeft, queryRight)
 	} else if queryRight <= midTreeIndex {
@@ -78,7 +78,7 @@ func (st *SegmentTree) QueryLazy(left, right int) int {
 }
 
 func (st *SegmentTree) queryLazyInTree(treeIndex, left, right, queryLeft, queryRight int) int {
-	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	if left > queryRight || right < queryLeft { // segment completely outside range
 		return 0 // represents a null node
 	}
@@ -123,7 +123,7 @@ func (st *SegmentTree) updateInTree(treeIndex, left, right, index, val int) {
 		st.tree[treeIndex] = val
 		return
 	}
-	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	if index >= midTreeIndex+1 {
 		st.updateInTree(rightTreeIndex, midTreeIndex+1, right, index, val)
 	} else {
@@ -145,7 +145,7 @@ func (st *SegmentTree) UpdateLazy(updateLeft, updateRight, val int) {
 }
 
 func (st *SegmentTree) updateLazyInTree(treeIndex, left, right, updateLeft, updateRight, val int) {
-	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	if st.lazy[treeIndex] != 0 { // this node is lazy
 		for i := 0; i < right-left+1; i++ {
 			st.tree[treeIndex] = st.merge(st.tree[treeIndex], st.lazy[treeIndex])
@@ -208,7 +208,7 @@ func (st *SegmentCountTree) buildSegmentTree(treeIndex, left, right int) {
 		return
 	}
 	leftTreeIndex, rightTreeIndex := st.leftChild(treeIndex), st.rightChild(treeIndex)
-	midTreeIndex := left + (right-left)/2
+	midTreeIndex := left + (right-left)>>1
 	st.buildSegmentTree(leftTreeIndex, left, midTreeIndex)
 	st.buildSegmentTree(rightTreeIndex, midTreeIndex+1, right)
 	st.tree[treeIndex] = st.merge(st.tree[leftTreeIndex], st.tree[rightTreeIndex])
@@ -240,7 +240,7 @@ func (st *SegmentCountTree) queryInTree(treeIndex, left, right, queryLeft, query
 	if queryLeft <= st.data[left] && queryRight >= st.data[right] || left == right {
 		return st.tree[treeIndex]
 	}
-	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	return st.queryInTree(rightTreeIndex, midTreeIndex+1, right, queryLeft, queryRight) +
 		st.queryInTree(leftTreeIndex, left, midTreeIndex, queryLeft, queryRight)
 }
@@ -261,7 +261,7 @@ func (st *SegmentCountTree) updateCountInTree(treeIndex, left, right, val int) {
 		if left == right {
 			return
 		}
-		midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)/2, st.leftChild(treeIndex), st.rightChild(treeIndex)
+		midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 		st.updateCountInTree(rightTreeIndex, midTreeIndex+1, right, val)
 		st.updateCountInTree(leftTreeIndex, left, midTreeIndex, val)
 	}
