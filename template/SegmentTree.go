@@ -56,7 +56,7 @@ func (st *SegmentTree) queryInTree(treeIndex, left, right, queryLeft, queryRight
 		return st.tree[treeIndex]
 	}
 	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
-	if queryLeft >= midTreeIndex+1 {
+	if queryLeft > midTreeIndex {
 		return st.queryInTree(rightTreeIndex, midTreeIndex+1, right, queryLeft, queryRight)
 	} else if queryRight <= midTreeIndex {
 		return st.queryInTree(leftTreeIndex, left, midTreeIndex, queryLeft, queryRight)
@@ -122,7 +122,7 @@ func (st *SegmentTree) updateInTree(treeIndex, left, right, index, val int) {
 		return
 	}
 	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
-	if index >= midTreeIndex+1 {
+	if index > midTreeIndex {
 		st.updateInTree(rightTreeIndex, midTreeIndex+1, right, index, val)
 	} else {
 		st.updateInTree(leftTreeIndex, left, midTreeIndex, index, val)
