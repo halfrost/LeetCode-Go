@@ -10,7 +10,6 @@ type SegmentTree struct {
 // Init define
 func (st *SegmentTree) Init(nums []int, oper func(i, j int) int) {
 	st.merge = oper
-
 	data, tree, lazy := make([]int, len(nums)), make([]int, 4*len(nums)), make([]int, 4*len(nums))
 	for i := 0; i < len(nums); i++ {
 		data[i] = nums[i]
@@ -27,8 +26,7 @@ func (st *SegmentTree) buildSegmentTree(treeIndex, left, right int) {
 		st.tree[treeIndex] = st.data[left]
 		return
 	}
-	leftTreeIndex, rightTreeIndex := st.leftChild(treeIndex), st.rightChild(treeIndex)
-	midTreeIndex := left + (right-left)>>1
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	st.buildSegmentTree(leftTreeIndex, left, midTreeIndex)
 	st.buildSegmentTree(rightTreeIndex, midTreeIndex+1, right)
 	st.tree[treeIndex] = st.merge(st.tree[leftTreeIndex], st.tree[rightTreeIndex])
@@ -207,8 +205,7 @@ func (st *SegmentCountTree) buildSegmentTree(treeIndex, left, right int) {
 		st.tree[treeIndex] = st.data[left]
 		return
 	}
-	leftTreeIndex, rightTreeIndex := st.leftChild(treeIndex), st.rightChild(treeIndex)
-	midTreeIndex := left + (right-left)>>1
+	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	st.buildSegmentTree(leftTreeIndex, left, midTreeIndex)
 	st.buildSegmentTree(rightTreeIndex, midTreeIndex+1, right)
 	st.tree[treeIndex] = st.merge(st.tree[leftTreeIndex], st.tree[rightTreeIndex])
