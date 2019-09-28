@@ -43,7 +43,8 @@
 * [Bit Manipulation ✅](#bit-manipulation)
 * [Union Find ✅](#union-find)
 * [Sliding Window ✅](#sliding-window)
-* [Segment Tree](#segment-tree)
+* [Segment Tree ✅](#segment-tree)
+* [Binary Indexed Tree ✅](#binary-indexed-tree)
 
 
 | 数据结构 | 变种 | 相关题目 |
@@ -2212,7 +2213,7 @@ X & ~X = 0
 
 ## Segment Tree
 
-![]()
+![](./Topics/Segment_Tree.png)
 
 - 线段数的经典写法。(数组和指针实现)将 merge 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)
 - 计数线段树的经典写法
@@ -2242,5 +2243,9 @@ X & ~X = 0
 | ----- | :--------: | :----------: | :----: | :-----: |:-----: |
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
+
+## Binary Indexed Tree
+
+![](./Topics/Binary_Indexed_Tree.png)
 
 ----------------------------------------------------------------------------------------
