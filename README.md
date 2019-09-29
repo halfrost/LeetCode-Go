@@ -284,7 +284,7 @@
 | 0215 |  Kth Largest Element in an Array                             | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0215.%20Kth%20Largest%20Element%20in%20an%20Array)                              | 48.30%      |  Medium     |            |
 | 0216 |  Combination Sum III                                         | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0216.%20Combination%20Sum%20III)                                                | 51.90%      |  Medium     |            |
 | 0217 |  Contains Duplicate                                          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0217.%20Contains%20Duplicate)                                                   | 52.30%      |  Easy       |            |
-| 0218 |  The Skyline Problem                                         |                                                                                                                                               | 31.80%      |  Hard       |            |
+| 0218 |  The Skyline Problem                                         | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0218.%20The%20Skyline%20Problem)                                                                                                                                              | 31.80%      |  Hard       |            |
 | 0219 |  Contains Duplicate II                                       | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0219.%20Contains%20Duplicate%20II)                                              | 35.50%      |  Easy       |            |
 | 0220 |  Contains Duplicate III                                      | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0220.%20Contains%20Duplicate%20III)                                             | 19.80%      |  Medium     |            |
 | 0221 |  Maximal Square                                              |                                                                                                                                               | 33.30%      |  Medium     |            |
@@ -917,7 +917,7 @@
 | 0847 |  Shortest Path Visiting All Nodes                            |                                                                                                                                               | 47.10%      |  Hard       |            |
 | 0848 |  Shifting Letters                                            |                                                                                                                                               | 41.00%      |  Medium     |            |
 | 0849 |  Maximize Distance to Closest Person                         |                                                                                                                                               | 41.00%      |  Easy       |            |
-| 0850 |  Rectangle Area II                                           |                                                                                                                                               | 45.00%      |  Hard       |            |
+| 0850 |  Rectangle Area II                                           | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0850.%20Rectangle%20Area%20II)                                                                                                                                              | 45.00%      |  Hard       |            |
 | 0851 |  Loud and Rich                                               |                                                                                                                                               | 47.80%      |  Medium     |            |
 | 0852 |  Peak Index in a Mountain Array                              |                                                                                                                                               | 69.70%      |  Easy       |            |
 | 0853 |  Car Fleet                                                   | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0853.%20Car%20Fleet)                                                            | 40.00%      |  Medium     |            |
@@ -1224,7 +1224,7 @@
 | 1154 | Day of the Year                                             |                                                                                                                                                 | 52.10% | Easy   |            |
 | 1155 | Number of Dice Rolls With Target Sum                        |                                                                                                                                                 | 48.60% | Medium |            |
 | 1156 | Swap For Longest Repeated Character Substring               |                                                                                                                                                 | 41.10% | Medium |            |
-| 1157 | Online Majority Element In Subarray                         |                                                                                                                                                 | 20.50% | Hard   |            |
+| 1157 | Online Majority Element In Subarray                         | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1157.%20Online%20Majority%20Element%20In%20Subarray)                                                                                                                                                | 20.50% | Hard   |            |
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 
@@ -2215,10 +2215,12 @@ X & ~X = 0
 
 ![](./Topics/Segment_Tree.png)
 
-- 线段数的经典写法。(数组和指针实现)将 merge 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)
-- 计数线段树的经典写法
-- 区间懒惰更新
+- 线段数的经典数组实现写法。将合并两个节点 pushUp 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)。第 218 题，第 303 题，第 307 题，第 699 题。
+- 计数线段树的经典写法。第 315 题，第 327 题，第 493 题。
+- 线段树的树的实现写法。第 715 题，第 732 题。
+- 区间懒惰更新。第 218 题，第 699 题。
 - 离散化。离散化需要注意一个特殊情况：假如三个区间为 [1,10] [1,4] [6,10]，离散化后 x[1]=1,x[2]=4,x[3]=6,x[4]=10。第一个区间为 [1,4]，第二个区间为 [1,2]，第三个区间为 [3,4]，这样一来，区间一 = 区间二 + 区间三，这和离散前的模型不符，离散前，很明显，区间一 > 区间二 + 区间三。正确的做法是：在相差大于 1 的数间加一个数，例如在上面 1 4 6 10 中间加 5，即可 x[1]=1,x[2]=4,x[3]=5,x[4]=6,x[5]=10。这样处理之后，区间一是 1-5 ，区间二是 1-2 ，区间三是 4-5 。
+- 灵活构建线段树。线段树节点可以存储多条信息，合并两个节点的 pushUp 操作也可以是多样的。第 850 题，第 1157 题。
 
 
 线段树[题型](https://blog.csdn.net/xuechelingxiao/article/details/38313105)从简单到困难:
@@ -2241,6 +2243,16 @@ X & ~X = 0
 
 | Title | Solution | Difficulty | Time | Space | 收藏 |
 | ----- | :--------: | :----------: | :----: | :-----: |:-----: |
+|[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0218.%20The%20Skyline%20Problem)| Hard | O(n log n)| O(n)|❤️|
+|[307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0307.%20Range%20Sum%20Query%20-%20Mutable)| Hard | O(1)| O(n)||
+|[315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0315.%20Count%20of%20Smaller%20Numbers%20After%20Self)| Hard | O(n log n)| O(n)||
+|[327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0327.%20Count%20of%20Range%20Sum)| Hard | O(n log n)| O(n)|❤️|
+|[493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0493.%20Reverse%20Pairs)| Hard | O(n log n)| O(n)||
+|[699. Falling Squares](https://leetcode.com/problems/falling-squares)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0699.%20Falling%20Squares)| Hard | O(n log n)| O(n)|❤️|
+|[715. Range Module](https://leetcode.com/problems/range-module)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0715.%20Range%20Module)| Hard | O(log n)| O(n)|❤️|
+|[732. My Calendar III](https://leetcode.com/problems/my-calendar-iii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0732.%20My%20Calendar%20III)| Hard | O(log n)| O(n)|❤️|
+|[850. Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/0850.%20Rectangle%20Area%20II)| Hard | O(n log n)| O(n)|❤️|
+|[1157. Online Majority Element In Subarray](https://leetcode.com/problems/online-majority-element-in-subarray)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1157.%20Online%20Majority%20Element%20In%20Subarray)| Hard | O(log n)| O(n)|❤️|
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
 
