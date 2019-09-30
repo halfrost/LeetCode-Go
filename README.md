@@ -1225,6 +1225,59 @@
 | 1155 | Number of Dice Rolls With Target Sum                        |                                                                                                                                                 | 48.60% | Medium |            |
 | 1156 | Swap For Longest Repeated Character Substring               |                                                                                                                                                 | 41.10% | Medium |            |
 | 1157 | Online Majority Element In Subarray                         | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1157.%20Online%20Majority%20Element%20In%20Subarray)                                                                                                                                                | 20.50% | Hard   |            |
+| 1158 | Market Analysis I                                               |          | 50.5%      | Medium     |             |
+| 1159 | Market Analysis II                                              |          | 46.8%      | Hard       |             |
+| 1160 | Find Words That Can Be Formed by Characters                     |          | 67.6%      | Easy       |             |
+| 1161 | Maximum Level Sum of a Binary Tree                              |          | 71.4%      | Medium     |             |
+| 1162 | As Far from Land as Possible                                    |          | 39.5%      | Medium     |             |
+| 1163 | Last Substring in Lexicographical Order                         |          | 30.2%      | Hard       |             |
+| 1164 | Product Price at a Given Date                                   |          | 59.1%      | Medium     |             |
+| 1165 | Single-Row Keyboard                                             |          | 84.9%      | Easy       |             |
+| 1166 | Design File System                                              |          | 60.0%      | Medium     |             |
+| 1167 | Minimum Cost to Connect Sticks                                  |          | 60.1%      | Medium     |             |
+| 1168 | Optimize Water Distribution in a Village                        |          | 52.6%      | Hard       |             |
+| 1169 | Invalid Transactions                                            |          | 27.4%      | Medium     |             |
+| 1170 | Compare Strings by Frequency of the Smallest Character          |          | 60.5%      | Easy       |             |
+| 1171 | Remove Zero Sum Consecutive Nodes from Linked List              |          | 42.3%      | Medium     |             |
+| 1172 | Dinner Plate Stacks                                             |          | 41.6%      | Hard       |             |
+| 1173 | Immediate Food Delivery I                                       |          | 72.5%      | Easy       |             |
+| 1174 | Immediate Food Delivery II                                      |          | 52.3%      | Medium     |             |
+| 1175 | Prime Arrangements                                              |          | 50.3%      | Easy       |             |
+| 1176 | Diet Plan Performance                                           |          | 48.6%      | Easy       |             |
+| 1177 | Can Make Palindrome from Substring                              |          | 32.0%      | Medium     |             |
+| 1178 | Number of Valid Words for Each Puzzle                           |          | 34.7%      | Hard       |             |
+| 1179 | Reformat Department Table                                       |          | 67.1%      | Easy       |             |
+| 1180 | Count Substrings with Only One Distinct Letter                  |          | 78.3%      | Easy       |             |
+| 1181 | Before and After Puzzle                                         |          | 41.9%      | Medium     |             |
+| 1182 | Shortest Distance to Target Color                               |          | 50.7%      | Medium     |             |
+| 1183 | Maximum Number of Ones                                          |          | 45.7%      | Hard       |             |
+| 1184 | Distance Between Bus Stops                                      |          | 56.7%      | Easy       |             |
+| 1185 | Day of the Week                                                 |          | 65.8%      | Easy       |             |
+| 1186 | Maximum Subarray Sum with One Deletion                          |          | 33.2%      | Medium     |             |
+| 1187 | Make Array Strictly Increasing                                  |          | 39.6%      | Hard       |             |
+| 1188 | Design Bounded Blocking Queue                                   |          | 65.0%      | Medium     |             |
+| 1189 | Maximum Number of Balloons                                      |          | 62.7%      | Easy       |             |
+| 1190 | Reverse Substrings Between Each Pair of Parentheses             |          | 57.8%      | Medium     |             |
+| 1191 | K-Concatenation Maximum Sum                                     |          | 24.0%      | Medium     |             |
+| 1192 | Critical Connections in a Network                               |          | 45.2%      | Hard       |             |
+| 1193 | Monthly Transactions I                                          |          | 58.8%      | Medium     |             |
+| 1194 | Tournament Winners                                              |          | 52.2%      | Hard       |             |
+| 1195 | Fizz Buzz Multithreaded                                         |          | 67.7%      | Medium     |             |
+| 1196 | How Many Apples Can You Put into the Basket                     |          | 68.7%      | Easy       |             |
+| 1197 | Minimum Knight Moves                                            |          | 30.1%      | Medium     |             |
+| 1198 | Find Smallest Common Element in All Rows                        |          | 71.8%      | Medium     |             |
+| 1199 | Minimum Time to Build Blocks                                    |          | 30.1%      | Hard       |             |
+| 1200 | Minimum Absolute Difference                                     |          | 66.3%      | Easy       |             |
+| 1201 | Ugly Number III                                                 |          | 23.9%      | Medium     |             |
+| 1202 | Smallest String With Swaps                                      |          | 39.2%      | Medium     |             |
+| 1203 | Sort Items by Groups Respecting Dependencies                    |          | 46.9%      | Hard       |             |
+| 1204 | Last Person to Fit in the Elevator    New                       |          | 65.8%      | Medium     |             |
+| 1205 | Monthly Transactions II    New                                  |          | 49.3%      | Medium     |             |
+| 1206 | Design Skiplist    New                                          |          | 61.8%      | Hard       |             |
+| 1207 | Unique Number of Occurrences                                    |          | 77.4%      | Easy       |             |
+| 1208 | Get Equal Substrings Within Budget                              |          | 33.3%      | Medium     |             |
+| 1209 | Remove All Adjacent Duplicates in String II                     |          | 59.6%      | Medium     |             |
+| 1210 | Minimum Moves to Reach Target with Rotations                    |          | 40.1%      | Hard       |             |
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 
