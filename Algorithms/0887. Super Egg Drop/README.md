@@ -59,7 +59,8 @@ What is the minimum number of moves that you need to know with certainty what 
 - 这一题如果按照题意正向考虑，动态规划的状态转移方程是 `searchTime(K, N) = max( searchTime(K-1, X-1), searchTime(K, N-X) )`。其中 `X` 是丢鸡蛋的楼层。随着 `X` 从 `[1,N]`，都能计算出一个 `searchTime` 的值，在所有这 `N` 个值之中，取最小值就是本题的答案了。这个解法可以 AC 这道题。不过这个解法不细展开了。时间复杂度 `O(k*N^2)`。    
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_8.png'>
-</p>    
+</p>
+
 - 换个角度来看这个问题，定义 `dp[k][m]` 代表 `K` 个鸡蛋，`M` 次移动能检查的最大楼层。考虑某一步 `t` 应该在哪一层丢鸡蛋呢？一个正确的选择是在 `dp[k-1][t-1] + 1` 层丢鸡蛋，结果分两种情况：
     1. 如果鸡蛋碎了，我们首先排除了该层以上的所有楼层（不管这个楼有多高），而对于剩下的 `dp[k-1][t-1]` 层楼，我们一定能用 `k-1` 个鸡蛋在 `t-1` 步内求解。因此这种情况下，我们总共可以求解无限高的楼层。可见，这是一种非常好的情况，但并不总是发生。
     2. 如果鸡蛋没碎，我们首先排除了该层以下的 `dp[k-1][t-1]` 层楼，此时我们还有 `k` 个蛋和 `t-1` 步，那么我们去该层以上的楼层继续测得 `dp[k][t-1]` 层楼。因此这种情况下，我们总共可以求解 `dp[k-1][t-1] + 1 + dp[k][t-1]` 层楼。
@@ -68,33 +69,42 @@ What is the minimum number of moves that you need to know with certainty what 
     1. 如果在更低的楼层丢鸡蛋也能保证找到安全楼层。那么得到的结果一定不是最小步数。因为这次丢鸡蛋没有充分的展现鸡蛋和移动次数的潜力，最终求解一定会有鸡蛋和步数剩余，即不是能探测的最大楼层了。
     2. 如果在更高的楼层丢鸡蛋，假设是第 `dp[k-1][t-1] + 2` 层丢鸡蛋，如果这次鸡蛋碎了，剩下 `k-1` 个鸡蛋和 `t-1` 步只能保证验证 `dp[k-1][t-1]` 的楼层，这里还剩**第** `dp[k-1][t-1]+ 1` 的楼层，不能保证最终一定能找到安全楼层了。
 - 用反证法就能得出每一步都应该在第 `dp[k-1][t-1] + 1` 层丢鸡蛋。
-- 这道题还可以用二分搜索来解答。回到上面分析的状态转移方程：`dp[k][m] = dp[k-1][m-1] + dp[k][m-1] + 1` 。用数学方法来解析这个递推关系。令 `f(t,k)` 为 `t` 和 `k` 的函数，题目所要求能测到最大楼层是 `N` 的最小步数，即要求出 `f(t,k) ≥ N` 时候的最小 `t`。由状态转移方程可以知道：`f(t,k) = f(t-1,k) + f(t-1,k-1) + 1`，当 `k = 1` 的时候，对应一个鸡蛋的情况，`f(t,1) = t`，当 `t = 1` 的时候，对应一步的情况，`f(1,k) = 1`。有状态转移方程得：  
+- 这道题还可以用二分搜索来解答。回到上面分析的状态转移方程：`dp[k][m] = dp[k-1][m-1] + dp[k][m-1] + 1` 。用数学方法来解析这个递推关系。令 `f(t,k)` 为 `t` 和 `k` 的函数，题目所要求能测到最大楼层是 `N` 的最小步数，即要求出 `f(t,k) ≥ N` 时候的最小 `t`。由状态转移方程可以知道：`f(t,k) = f(t-1,k) + f(t-1,k-1) + 1`，当 `k = 1` 的时候，对应一个鸡蛋的情况，`f(t,1) = t`，当 `t = 1` 的时候，对应一步的情况，`f(1,k) = 1`。有状态转移方程得：    
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_1.png'>
-</p>  
-    令 `g(t,k) = f(t,k) - f(t,k-1)`，可以得到：  
+</p>
+
+- 令 `g(t,k) = f(t,k) - f(t,k-1)`，可以得到：  
+
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_2.png'>
-</p>    
-    可以知道 `g(t,k)` 是一个杨辉三角，即二项式系数：  
+</p>  
+
+- 可以知道 `g(t,k)` 是一个杨辉三角，即二项式系数： 
+ 
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_3.png'>
 </p>  
-    利用裂项相消的方法：  
+
+- 利用裂项相消的方法：  
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_4.png'>
 </p>  
-    于是可以得到：    
+
+- 于是可以得到：    
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_5.png'>
 </p>
-    其中：    
+
+- 其中：    
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_6.png'>
 </p>
-    于是针对每一项的二项式常数，都可以由前一项乘以一个分数得到下一项。  
+
+- 于是针对每一项的二项式常数，都可以由前一项乘以一个分数得到下一项。  
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/leetcode_887_7.png'>
 </p>
-    利用二分搜索，不断的二分 `t`，直到逼近找到 `f(t,k) ≥ N` 时候最小的 `t`。时间复杂度 `O(K * log N)`，空间复杂度 `O(1)`。
+
+- 利用二分搜索，不断的二分 `t`，直到逼近找到 `f(t,k) ≥ N` 时候最小的 `t`。时间复杂度 `O(K * log N)`，空间复杂度 `O(1)`。
 
