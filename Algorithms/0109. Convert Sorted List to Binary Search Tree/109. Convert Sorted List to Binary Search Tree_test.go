@@ -28,7 +28,7 @@ func Test_Problem109(t *testing.T) {
 
 		question109{
 			para109{[]int{-10, -3, 0, 5, 9}},
-			ans109{[]int{0, -3, 9, -10, -9999, 5}},
+			ans109{[]int{0, -10, 5, NULL, -3, NULL, 9}},
 		},
 
 		question109{
@@ -45,30 +45,6 @@ func Test_Problem109(t *testing.T) {
 			para109{[]int{1, 2, 3}},
 			ans109{[]int{2, 1, 3}},
 		},
-		// question109{
-		// 	para109{[]int{1, 2, 3, 4, 5}, 2, 2},
-		// 	ans109{[]int{1, 2, 3, 4, 5}},
-		// },
-
-		// question109{
-		// 	para109{[]int{1, 2, 3, 4, 5}, 1, 5},
-		// 	ans109{[]int{5, 4, 3, 2, 1}},
-		// },
-
-		// question109{
-		// 	para109{[]int{1, 2, 3, 4, 5, 6}, 3, 4},
-		// 	ans109{[]int{1, 2, 4, 3, 5, 6}},
-		// },
-
-		// question109{
-		// 	para109{[]int{3, 5}, 1, 2},
-		// 	ans109{[]int{5, 3}},
-		// },
-
-		// question109{
-		// 	para109{[]int{3}, 3, 5},
-		// 	ans109{[]int{3}},
-		// },
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 109------------------------\n")
