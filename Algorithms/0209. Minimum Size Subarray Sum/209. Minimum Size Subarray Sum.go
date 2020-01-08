@@ -5,19 +5,17 @@ func minSubArrayLen(s int, nums []int) int {
 	if n == 0 {
 		return 0
 	}
-	l, r := 0, -1
-	res := n + 1
-	sum := 0
-	for l < n {
-		if (r+1) < n && sum < s {
-			r++
-			sum += nums[r]
+	left, right, res, sum := 0, -1, n+1, 0
+	for left < n {
+		if (right+1) < n && sum < s {
+			right++
+			sum += nums[right]
 		} else {
-			sum -= nums[l]
-			l++
+			sum -= nums[left]
+			left++
 		}
 		if sum >= s {
-			res = min(res, r-l+1)
+			res = min(res, right-left+1)
 		}
 	}
 	if res == n+1 {
