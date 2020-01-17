@@ -1251,7 +1251,7 @@
 | 1181 | Before and After Puzzle                                         |          | 41.9%      | Medium     |             |
 | 1182 | Shortest Distance to Target Color                               |          | 50.7%      | Medium     |             |
 | 1183 | Maximum Number of Ones                                          |          | 45.7%      | Hard       |             |
-| 1184 | Distance Between Bus Stops                                      |          | 56.7%      | Easy       |             |
+| 1184 | Distance Between Bus Stops                                      | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1184.%20Distance%20Between%20Bus%20Stops)          | 56.7%      | Easy       |             |
 | 1185 | Day of the Week                                                 |          | 65.8%      | Easy       |             |
 | 1186 | Maximum Subarray Sum with One Deletion                          |          | 33.2%      | Medium     |             |
 | 1187 | Make Array Strictly Increasing                                  |          | 39.6%      | Hard       |             |
