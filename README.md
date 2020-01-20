@@ -1256,7 +1256,7 @@
 | 1186 | Maximum Subarray Sum with One Deletion                          |          | 33.2%      | Medium     |             |
 | 1187 | Make Array Strictly Increasing                                  |          | 39.6%      | Hard       |             |
 | 1188 | Design Bounded Blocking Queue                                   |          | 65.0%      | Medium     |             |
-| 1189 | Maximum Number of Balloons                                      |          | 62.7%      | Easy       |             |
+| 1189 | Maximum Number of Balloons                                      |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1189.%20Maximum%20Number%20of%20Balloons)          | 62.7%      | Easy       |             |
 | 1190 | Reverse Substrings Between Each Pair of Parentheses             |          | 57.8%      | Medium     |             |
 | 1191 | K-Concatenation Maximum Sum                                     |          | 24.0%      | Medium     |             |
 | 1192 | Critical Connections in a Network                               |          | 45.2%      | Hard       |             |
