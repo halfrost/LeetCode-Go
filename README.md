@@ -1274,7 +1274,7 @@
 | 1204 | Last Person to Fit in the Elevator    New                       |          | 65.8%      | Medium     |             |
 | 1205 | Monthly Transactions II    New                                  |          | 49.3%      | Medium     |             |
 | 1206 | Design Skiplist    New                                          |          | 61.8%      | Hard       |             |
-| 1207 | Unique Number of Occurrences                                    |          | 77.4%      | Easy       |             |
+| 1207 | Unique Number of Occurrences                                    |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1207.%20Unique%20Number%20of%20Occurrences)          | 77.4%      | Easy       |             |
 | 1208 | Get Equal Substrings Within Budget                              |          | 33.3%      | Medium     |             |
 | 1209 | Remove All Adjacent Duplicates in String II                     |          | 59.6%      | Medium     |             |
 | 1210 | Minimum Moves to Reach Target with Rotations                    |          | 40.1%      | Hard       |             |
