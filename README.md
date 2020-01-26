@@ -1178,7 +1178,7 @@
 | 1108 | Defanging an IP Address                                    |  | 87.50% | Easy    |            |
 | 1109 | Corporate Flight Bookings                                  |  | 47.30% | Medium  |            |
 | 1110 | Delete Nodes And Return Forest                             |  | 61.90% | Medium  |            |
-| 1111 | Maximum Nesting Depth of Two Valid Parentheses Strings     |  | 63.30% | Medium  |            |
+| 1111 | Maximum Nesting Depth of Two Valid Parentheses Strings     |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1111.%20Maximum%20Nesting%20Depth%20of%20Two%20Valid%20Parentheses%20Strings)  | 63.30% | Medium  |            |
 | 1112 | Highest Grade For Each Student                             |  | 60.80% | Medium  |            |
 | 1113 | Reported Posts                                             |  | 68.20% | Easy    |            |
 | 1114 | Print in Order                                             |  | 59.20% | Easy    |            |
