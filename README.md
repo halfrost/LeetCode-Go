@@ -1268,7 +1268,7 @@
 | 1198 | Find Smallest Common Element in All Rows                        |          | 71.8%      | Medium     |             |
 | 1199 | Minimum Time to Build Blocks                                    |          | 30.1%      | Hard       |             |
 | 1200 | Minimum Absolute Difference                                     |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1200.%20Minimum%20Absolute%20Difference)          | 66.3%      | Easy       |             |
-| 1201 | Ugly Number III                                                 |          | 23.9%      | Medium     |             |
+| 1201 | Ugly Number III                                                 |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1201.%20Ugly%20Number%20III)          | 23.9%      | Medium     |             |
 | 1202 | Smallest String With Swaps                                      |          | 39.2%      | Medium     |             |
 | 1203 | Sort Items by Groups Respecting Dependencies                    |          | 46.9%      | Hard       |             |
 | 1204 | Last Person to Fit in the Elevator    New                       |          | 65.8%      | Medium     |             |
