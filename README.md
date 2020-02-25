@@ -1190,7 +1190,7 @@
 | 1120 | Maximum Average Subtree                                    |  | 60.90% | Medium  |            |
 | 1121 | Divide Array Into Increasing Sequences                     |  | 51.20% | Hard    |            |
 | 1122 | Relative Sort Array                                        |  | 68.50% | Easy    |            |
-| 1123 | Lowest Common Ancestor of Deepest Leaves                   |  | 64.60% | Medium  |            |
+| 1123 | Lowest Common Ancestor of Deepest Leaves                   | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves)   | 64.60% | Medium  |            |
 | 1124 | Longest Well-Performing Interval                           |  | 27.40% | Medium  |            |
 | 1125 | Smallest Sufficient Team                                   |  | 43.50% | Hard    |            |
 | 1126 | Active Businesses                                          |  | 70.80% | Medium  |            |
