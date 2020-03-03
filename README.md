@@ -1195,7 +1195,7 @@
 | 1125 | Smallest Sufficient Team                                   |  | 43.50% | Hard    |            |
 | 1126 | Active Businesses                                          |  | 70.80% | Medium  |            |
 | 1127 | User Purchase Platform                                     |  | 64.50% | Hard    |            |
-| 1128 | Number of Equivalent Domino Pairs                          |  | 40.30% | Easy    |            |
+| 1128 | Number of Equivalent Domino Pairs                          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1128.%20Number%20of%20Equivalent%20Domino%20Pairs)  | 40.30% | Easy    |            |
 | 1129 | Shortest Path with Alternating Colors                      |  | 34.20% | Medium  |            |
 | 1130 | Minimum Cost Tree From Leaf Values                          |                                                                                                                                                 | 58.80% | Medium |            |
 | 1131 | Maximum of Absolute Value Expression                        |                                                                                                                                                 | 50.30% | Medium |            |
