@@ -1175,7 +1175,7 @@
 | 1105 | Filling Bookcase Shelves                                      | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1105.%20Filling%20Bookcase%20Shelves) | 53.80% | Medium  |            |
 | 1106 | Parsing A Boolean Expression                               |  | 59.00% | Hard    |            |
 | 1107 | New Users Daily Count                                      |  | 46.30% | Medium  |            |
-| 1108 | Defanging an IP Address                                    |  | 87.50% | Easy    |            |
+| 1108 | Defanging an IP Address                                    | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1108.%20Defanging%20an%20IP%20Address) | 87.50% | Easy    |            |
 | 1109 | Corporate Flight Bookings                                  |  | 47.30% | Medium  |            |
 | 1110 | Delete Nodes And Return Forest                             |  | 61.90% | Medium  |            |
 | 1111 | Maximum Nesting Depth of Two Valid Parentheses Strings     |  [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1111.%20Maximum%20Nesting%20Depth%20of%20Two%20Valid%20Parentheses%20Strings)  | 63.30% | Medium  |            |
