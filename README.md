@@ -1227,7 +1227,7 @@
 | 1157 | Online Majority Element In Subarray                         | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1157.%20Online%20Majority%20Element%20In%20Subarray)                                                                                                                                                | 20.50% | Hard   |            |
 | 1158 | Market Analysis I                                               |          | 50.5%      | Medium     |             |
 | 1159 | Market Analysis II                                              |          | 46.8%      | Hard       |             |
-| 1160 | Find Words That Can Be Formed by Characters                     |          | 67.6%      | Easy       |             |
+| 1160 | Find Words That Can Be Formed by Characters                     | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1160.%20Find%20Words%20That%20Can%20Be%20Formed%20by%20Characters)          | 67.6%      | Easy       |             |
 | 1161 | Maximum Level Sum of a Binary Tree                              |          | 71.4%      | Medium     |             |
 | 1162 | As Far from Land as Possible                                    |          | 39.5%      | Medium     |             |
 | 1163 | Last Substring in Lexicographical Order                         |          | 30.2%      | Hard       |             |
