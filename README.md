@@ -1237,7 +1237,7 @@
 | 1167 | Minimum Cost to Connect Sticks                                  |          | 60.1%      | Medium     |             |
 | 1168 | Optimize Water Distribution in a Village                        |          | 52.6%      | Hard       |             |
 | 1169 | Invalid Transactions                                            |          | 27.4%      | Medium     |             |
-| 1170 | Compare Strings by Frequency of the Smallest Character          |          | 60.5%      | Easy       |             |
+| 1170 | Compare Strings by Frequency of the Smallest Character          | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1170.%20Compare%20Strings%20by%20Frequency%20of%20the%20Smallest%20Character)          | 60.5%      | Easy       |             |
 | 1171 | Remove Zero Sum Consecutive Nodes from Linked List              |          | 42.3%      | Medium     |             |
 | 1172 | Dinner Plate Stacks                                             |          | 41.6%      | Hard       |             |
 | 1173 | Immediate Food Delivery I                                       |          | 72.5%      | Easy       |             |
