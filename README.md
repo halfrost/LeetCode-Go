@@ -1242,7 +1242,7 @@
 | 1172 | Dinner Plate Stacks                                             |          | 41.6%      | Hard       |             |
 | 1173 | Immediate Food Delivery I                                       |          | 72.5%      | Easy       |             |
 | 1174 | Immediate Food Delivery II                                      |          | 52.3%      | Medium     |             |
-| 1175 | Prime Arrangements                                              |          | 50.3%      | Easy       |             |
+| 1175 | Prime Arrangements                                              | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms/1175.%20Prime%20Arrangements)          | 50.3%      | Easy       |             |
 | 1176 | Diet Plan Performance                                           |          | 48.6%      | Easy       |             |
 | 1177 | Can Make Palindrome from Substring                              |          | 32.0%      | Medium     |             |
 | 1178 | Number of Valid Words for Each Puzzle                           |          | 34.7%      | Hard       |             |
