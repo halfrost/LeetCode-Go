@@ -8,7 +8,7 @@
 </p>
 
 <p align='center'>
-<a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-54208-yellow.svg">
+<a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-9650-yellow.svg">
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/language-Golang-abcdef.svg">
 <a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
@@ -20,6 +20,7 @@
 <img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
 <a href=""><img src="https://img.shields.io/badge/license-CC-000000.svg"></a>
 <img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
+<img src="https://visitor-badge.glitch.me/badge?page_id=halfrost.LeetCode-Go">
 </p>
 
 ## Data Structures
