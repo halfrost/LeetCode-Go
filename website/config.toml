@@ -1,3 +1,132 @@
-baseURL = "http://example.org/"
+baseURL = "https://books.halfrost.com/leetcode"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "LeetCode Cookbook"
+theme = "book"
+
+# Book configuration
+disablePathToLower = true
+#enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+#[languages]
+#[languages.en]
+#  languageName = 'English'
+#  contentDir = 'content'
+#  weight = 1
+
+#[languages.ru]
+#  languageName = 'Russian'
+#  contentDir = 'content.ru'
+#  weight = 2
+
+#[languages.cn]
+#  languageName = 'Chinese'
+#  contentDir = 'content.cn'
+#  weight = 3
+
+[menu]
+[[menu.before]]
+  name = "被人嘲笑的梦想"
+  url = "https://halfrost.com"
+  weight = 10
+[[menu.before]]
+  name = "Github"
+  url = "https://github.com/halfrost"
+  weight = 20
+[[menu.before]]
+  name = "微信公众号"
+  url = "https://halfrost.com"
+  weight = 30
+[[menu.before]]
+  name = "Twitter"
+  url = "https://twitter.com/halffrost"
+  weight = 40
+[[menu.before]]
+  name = "Weibo"
+  url = "https://weibo.com/halfrost"
+  weight = 50
+#[[menu.after]]
+#  name = "Github"
+#  url = "https://github.com/alex-shpak/hugo-book"
+#  weight = 10
+
+#[[menu.after]]
+#  name = "Hugo Themes"
+#  url = "https://themes.gohugo.io/hugo-book/"
+#  weight = 20
+
+[params]
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
+
+  # (Optional, default none) Set the path to a logo for the book. If the logo is
+  # /static/logo.png then the path would be logo.png
+  # BookLogo = 'logo.png'
+
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  BookMenuBundle = '/menu'
+
+  # (Optional, default docs) Specify section of content to render as menu
+  # You can also set value to '*' to render all sections to menu
+  BookSection = 'docs'
+
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  # BookRepo = 'https://github.com/alex-shpak/hugo-book'
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Path must point to 'content' directory of repo.
+  # BookEditPath = 'edit/master/exampleSite/content'
+
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat = 'Jan 2, 2006'
+
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch = true
+
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = false
+  enableGitalk = true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks = true
+
+[params.gitalk] 
+    clientID = "6c1de6a2fe5dec4edbbe" # Your client ID
+    clientSecret = "199b2c9f3306a099ccea524c8eedc2a98a85b0e7" # Your client secret
+    repo = "LeetCode-Go" # The repo to store comments
+    owner = "halfrost" # Your GitHub ID
+    admin= "halfrost" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
+    id= "location.pathname" # The unique id of the page.
+    labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
+    perPage= 100 # Pagination size, with maximum 100.
+    pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
+    createIssueManually= false # If it is 'false', it is auto to make a Github issue when the administrators login.
+    distractionFreeMode= false # Enable hot key (cmd|ctrl + enter) submit comment.
+
+
