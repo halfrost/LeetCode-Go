@@ -1,4 +1,4 @@
-name: Deploy leetcode-cookbook
+name: Deploy《LeetCode-Cookbook》
 
 on:
   push:
