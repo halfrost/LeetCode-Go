@@ -20,7 +20,8 @@
 <img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
 <a href=""><img src="https://img.shields.io/badge/license-CC-000000.svg"></a>
 <img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
-<img src="https://visitor-badge.glitch.me/badge?page_id=halfrost.LeetCode-Go">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.LeetCode-Go">
+<img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master">
 </p>
 
 ## Data Structures
