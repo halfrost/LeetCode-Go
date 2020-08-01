@@ -22,7 +22,7 @@ jobs:
         hugo-version: '0.74.3'
 
     - name: Build  # 第三步，编译 hugo
-      script: |
+      run: |
         cd ./website
         hugo -D --minify
 
