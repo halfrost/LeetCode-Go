@@ -37,7 +37,7 @@ disablePathToLower = true
 
 [menu]
 [[menu.before]]
-  name = "被人嘲笑的梦想"
+  name = "Blog"
   url = "https://halfrost.com"
   weight = 10
 [[menu.before]]
