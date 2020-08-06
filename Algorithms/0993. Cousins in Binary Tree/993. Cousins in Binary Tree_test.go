@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question993 struct {
@@ -34,12 +36,12 @@ func Test_Problem993(t *testing.T) {
 		},
 
 		question993{
-			para993{[]int{1, 2, 3, NULL, 4, NULL, 5}, 5, 4},
+			para993{[]int{1, 2, 3, structures.NULL, 4, structures.NULL, 5}, 5, 4},
 			ans993{true},
 		},
 
 		question993{
-			para993{[]int{1, 2, 3, NULL, 4}, 2, 3},
+			para993{[]int{1, 2, 3, structures.NULL, 4}, 2, 3},
 			ans993{false},
 		},
 	}
@@ -49,7 +51,7 @@ func Test_Problem993(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans993, q.para993
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", isCousins(root, p.x, p.y))
 	}
 	fmt.Printf("\n\n\n")

@@ -4,6 +4,13 @@ import (
 	"github.com/halfrost/LeetCode-Go/template"
 )
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 // 解法一 并查集
 func solve(board [][]byte) {
 	if len(board) == 0 {

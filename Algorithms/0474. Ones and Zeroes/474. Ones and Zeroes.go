@@ -21,3 +21,10 @@ func findMaxForm(strs []string, m int, n int) int {
 	}
 	return dp[m][n]
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

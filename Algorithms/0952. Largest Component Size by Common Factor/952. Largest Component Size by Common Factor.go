@@ -53,3 +53,10 @@ func largestComponentSize1(A []int) int {
 	}
 	return uf.MaxUnionCount()
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

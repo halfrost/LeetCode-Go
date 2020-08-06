@@ -22,6 +22,13 @@ func letterCasePermutation(S string) []string {
 	return res
 }
 
+func isLowerLetter(v byte) bool {
+	if v >= 'a' && v <= 'z' {
+		return true
+	}
+	return false
+}
+
 func findLetterCasePermutation(s string, pos []int, target, index int, c []int, res *[]string) {
 	if len(c) == target {
 		b := []byte(s)

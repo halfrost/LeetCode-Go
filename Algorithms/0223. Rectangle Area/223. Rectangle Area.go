@@ -12,3 +12,17 @@ func area(x0, y0, x1, y1 int) int {
 	}
 	return l * h
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}

@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,7 +15,8 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-func buildTree106(inorder []int, postorder []int) *TreeNode {
+
+func buildTree(inorder []int, postorder []int) *TreeNode {
 	inPos := make(map[int]int)
 	for i := 0; i < len(inorder); i++ {
 		inPos[inorder[i]] = i

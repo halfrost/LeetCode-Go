@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question230 struct {
@@ -33,12 +35,12 @@ func Test_Problem230(t *testing.T) {
 		},
 
 		question230{
-			para230{[]int{3, 1, 4, NULL, 2}, 1},
+			para230{[]int{3, 1, 4, structures.NULL, 2}, 1},
 			ans230{1},
 		},
 
 		question230{
-			para230{[]int{5, 3, 6, 2, 4, NULL, NULL, 1}, 3},
+			para230{[]int{5, 3, 6, 2, 4, structures.NULL, structures.NULL, 1}, 3},
 			ans230{3},
 		},
 	}
@@ -48,7 +50,7 @@ func Test_Problem230(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans230, q.para230
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", kthSmallest(root, p.k))
 	}
 	fmt.Printf("\n\n\n")

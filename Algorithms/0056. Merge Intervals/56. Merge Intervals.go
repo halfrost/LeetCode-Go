@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// Interval define
+type Interval = structures.Interval
+
 /**
  * Definition for an interval.
  * type Interval struct {
@@ -7,12 +14,6 @@ package leetcode
  *	   End   int
  * }
  */
-
-// Interval define
-type Interval struct {
-	Start int
-	End   int
-}
 
 func merge56(intervals []Interval) []Interval {
 	if len(intervals) == 0 {

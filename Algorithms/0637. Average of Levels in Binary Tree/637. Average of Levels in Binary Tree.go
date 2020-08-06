@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,6 +15,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
 func averageOfLevels(root *TreeNode) []float64 {
 	if root == nil {
 		return []float64{0}

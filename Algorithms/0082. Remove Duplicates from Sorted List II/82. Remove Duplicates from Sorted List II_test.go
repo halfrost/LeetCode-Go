@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question82 struct {
@@ -76,7 +78,7 @@ func Test_Problem82(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans82, q.para82
-		fmt.Printf("【input】:%v       【output】:%v\n", p, L2s(deleteDuplicates1(S2l(p.one))))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(deleteDuplicates1(structures.Ints2List(p.one))))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -4,6 +4,11 @@ import (
 	"github.com/halfrost/LeetCode-Go/template"
 )
 
+// NumArray define
+type NumArray struct {
+	st *template.SegmentTree
+}
+
 // Constructor307 define
 func Constructor307(nums []int) NumArray {
 	st := template.SegmentTree{}

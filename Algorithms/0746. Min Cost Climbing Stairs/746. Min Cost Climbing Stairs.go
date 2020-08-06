@@ -10,6 +10,13 @@ func minCostClimbingStairs(cost []int) int {
 	return min(dp[len(cost)-2], dp[len(cost)-1])
 }
 
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+
 // 解法二 DP 优化辅助空间
 func minCostClimbingStairs1(cost []int) int {
 	var cur, last int

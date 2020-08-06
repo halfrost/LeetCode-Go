@@ -55,3 +55,10 @@ func findRecursiveCheck(S string, x1 int, x2 int, left int, res *[]int, isComple
 	}
 	return
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

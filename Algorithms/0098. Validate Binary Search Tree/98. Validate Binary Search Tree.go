@@ -2,6 +2,13 @@ package leetcode
 
 import "math"
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

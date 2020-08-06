@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question235 struct {
@@ -34,12 +36,12 @@ func Test_Problem235(t *testing.T) {
 		},
 
 		question235{
-			para235{[]int{6, 2, 8, 0, 4, 7, 9, NULL, NULL, 3, 5}, []int{2}, []int{8}},
+			para235{[]int{6, 2, 8, 0, 4, 7, 9, structures.NULL, structures.NULL, 3, 5}, []int{2}, []int{8}},
 			ans235{[]int{6}},
 		},
 
 		question235{
-			para235{[]int{6, 2, 8, 0, 4, 7, 9, NULL, NULL, 3, 5}, []int{2}, []int{4}},
+			para235{[]int{6, 2, 8, 0, 4, 7, 9, structures.NULL, structures.NULL, 3, 5}, []int{2}, []int{4}},
 			ans235{[]int{2}},
 		},
 	}
@@ -49,9 +51,9 @@ func Test_Problem235(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans235, q.para235
 		fmt.Printf("【input】:%v      ", p)
-		rootOne := Ints2TreeNode(p.one)
-		rootTwo := Ints2TreeNode(p.two)
-		rootThr := Ints2TreeNode(p.thr)
+		rootOne := structures.Ints2TreeNode(p.one)
+		rootTwo := structures.Ints2TreeNode(p.two)
+		rootThr := structures.Ints2TreeNode(p.thr)
 		fmt.Printf("【output】:%v      \n", lowestCommonAncestor(rootOne, rootTwo, rootThr))
 	}
 	fmt.Printf("\n\n\n")

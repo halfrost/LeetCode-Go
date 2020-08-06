@@ -23,3 +23,10 @@ func minSubArrayLen(s int, nums []int) int {
 	}
 	return res
 }
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}

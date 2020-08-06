@@ -20,6 +20,20 @@ func maxTurbulenceSize(A []int) int {
 	return maxLen
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+
 // 解法二 滑动窗口
 func maxTurbulenceSize1(A []int) int {
 	if len(A) == 1 {

@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -20,6 +27,14 @@ func flatten(root *TreeNode) {
 		cur = cur.Right
 	}
 	return
+}
+
+func preorder(root *TreeNode, output *[]int) {
+	if root != nil {
+		*output = append(*output, root.Val)
+		preorder(root.Left, output)
+		preorder(root.Right, output)
+	}
 }
 
 // 解法二 递归

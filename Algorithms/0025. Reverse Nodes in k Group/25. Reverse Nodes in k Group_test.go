@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question25 struct {
@@ -48,7 +50,7 @@ func Test_Problem25(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans25, q.para25
-		fmt.Printf("【input】:%v       【output】:%v\n", p, L2s(reverseKGroup(S2l(p.one), p.two)))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(reverseKGroup(structures.Ints2List(p.one), p.two)))
 	}
 	fmt.Printf("\n\n\n")
 }

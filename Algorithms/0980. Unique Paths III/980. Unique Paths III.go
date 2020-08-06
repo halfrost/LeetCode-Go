@@ -1,5 +1,12 @@
 package leetcode
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 func uniquePathsIII(grid [][]int) int {
 	visited := make([][]bool, len(grid))
 	for i := 0; i < len(visited); i++ {

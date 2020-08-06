@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question979 struct {
@@ -37,17 +39,17 @@ func Test_Problem979(t *testing.T) {
 		},
 
 		question979{
-			para979{[]int{3, 9, 20, NULL, NULL, 15, 7}},
+			para979{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans979{41},
 		},
 
 		question979{
-			para979{[]int{1, 2, 3, 4, NULL, NULL, 5}},
+			para979{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}},
 			ans979{11},
 		},
 
 		question979{
-			para979{[]int{1, 2, 3, 4, NULL, 5}},
+			para979{[]int{1, 2, 3, 4, structures.NULL, 5}},
 			ans979{11},
 		},
 	}
@@ -57,7 +59,7 @@ func Test_Problem979(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans979, q.para979
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", distributeCoins(root))
 	}
 	fmt.Printf("\n\n\n")

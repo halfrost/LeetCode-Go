@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question968 struct {
@@ -27,12 +29,12 @@ func Test_Problem968(t *testing.T) {
 	qs := []question968{
 
 		question968{
-			para968{[]int{0, 0, NULL, 0, 0}},
+			para968{[]int{0, 0, structures.NULL, 0, 0}},
 			ans968{1},
 		},
 
 		question968{
-			para968{[]int{0, 0, NULL, 0, NULL, 0, NULL, NULL, 0}},
+			para968{[]int{0, 0, structures.NULL, 0, structures.NULL, 0, structures.NULL, structures.NULL, 0}},
 			ans968{2},
 		},
 	}
@@ -42,7 +44,7 @@ func Test_Problem968(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans968, q.para968
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", minCameraCover(root))
 	}
 	fmt.Printf("\n\n\n")

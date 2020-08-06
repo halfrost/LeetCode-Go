@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question206 struct {
@@ -36,38 +38,6 @@ func Test_Problem206(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans206, q.para206
-		fmt.Printf("【input】:%v       【output】:%v\n", p, l2s(reverseList(s2l(p.one))))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(reverseList(structures.Ints2List(p.one))))
 	}
-}
-
-// convert *ListNode to []int
-func l2s(head *ListNode) []int {
-	res := []int{}
-
-	for head != nil {
-		res = append(res, head.Val)
-		head = head.Next
-	}
-
-	return res
-}
-
-// convert []int to *ListNode
-func s2l(nums []int) *ListNode {
-	if len(nums) == 0 {
-		return nil
-	}
-
-	res := &ListNode{
-		Val: nums[0],
-	}
-	temp := res
-	for i := 1; i < len(nums); i++ {
-		temp.Next = &ListNode{
-			Val: nums[i],
-		}
-		temp = temp.Next
-	}
-
-	return res
 }

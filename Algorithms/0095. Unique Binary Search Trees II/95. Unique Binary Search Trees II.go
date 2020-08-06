@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,6 +15,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
 func generateTrees(n int) []*TreeNode {
 	if n == 0 {
 		return []*TreeNode{}

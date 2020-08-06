@@ -5,6 +5,13 @@ import (
 	"strings"
 )
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 // 解法一 BFS，利用状态压缩来过滤筛选状态
 func shortestPathAllKeys(grid []string) int {
 	if len(grid) == 0 {
@@ -76,6 +83,10 @@ func shortestPathAllKeys(grid []string) int {
 		res++
 	}
 	return -1
+}
+
+func isInBoard(board [][]byte, x, y int) bool {
+	return x >= 0 && x < len(board) && y >= 0 && y < len(board[0])
 }
 
 // 解法二 DFS，但是超时了，剪枝条件不够强
@@ -165,4 +176,11 @@ func isKey(board [][]byte, x, y int) bool {
 		return true
 	}
 	return false
+}
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
 }

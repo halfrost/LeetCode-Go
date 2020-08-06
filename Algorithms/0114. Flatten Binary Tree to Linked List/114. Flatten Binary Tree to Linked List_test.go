@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question114 struct {
@@ -37,9 +39,9 @@ func Test_Problem114(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans114, q.para114
 		fmt.Printf("【input】:%v       \n", p)
-		rootOne := Ints2TreeNode(p.one)
+		rootOne := structures.Ints2TreeNode(p.one)
 		flatten(rootOne)
-		fmt.Printf("【output】:%v      \n", Tree2Preorder(rootOne))
+		fmt.Printf("【output】:%v      \n", structures.Tree2Preorder(rootOne))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -17,6 +17,13 @@ func minimumTotal(triangle [][]int) int {
 	return triangle[0][0]
 }
 
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+
 // 解法二 正常 DP，空间复杂度 O(n)
 func minimumTotal1(triangle [][]int) int {
 	if len(triangle) == 0 {

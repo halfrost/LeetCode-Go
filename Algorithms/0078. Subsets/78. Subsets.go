@@ -51,9 +51,9 @@ func subsets2(nums []int) [][]int {
 	sum := 1 << uint(len(nums))
 	for i := 0; i < sum; i++ {
 		stack := []int{}
-		tmp := i // i 从 000...000 到 111...111
+		tmp := i                              // i 从 000...000 到 111...111
 		for j := len(nums) - 1; j >= 0; j-- { // 遍历 i 的每一位
-			if tmp & 1 == 1 {
+			if tmp&1 == 1 {
 				stack = append([]int{nums[j]}, stack...)
 			}
 			tmp >>= 1

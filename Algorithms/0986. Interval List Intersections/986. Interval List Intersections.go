@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// Interval define
+type Interval = structures.Interval
+
 /**
  * Definition for an interval.
  * type Interval struct {
@@ -22,4 +29,18 @@ func intervalIntersection(A []Interval, B []Interval) []Interval {
 		}
 	}
 	return res
+}
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
 }

@@ -17,3 +17,10 @@ func calNthMagicalCount(num, a, b int64) int64 {
 	ab := a * b / gcd(a, b)
 	return num/a + num/b - num/ab
 }
+
+func gcd(a, b int64) int64 {
+	for b != 0 {
+		a, b = b, a%b
+	}
+	return a
+}

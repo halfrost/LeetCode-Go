@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,6 +15,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
 func lcaDeepestLeaves(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
@@ -28,4 +36,11 @@ func lcaDeepestLeavesDFS(lca **TreeNode, maxLevel *int, depth int, root *TreeNod
 		*lca = root
 	}
 	return max(depthLeft, depthRight)
+}
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

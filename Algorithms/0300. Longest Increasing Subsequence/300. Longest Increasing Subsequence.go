@@ -18,6 +18,13 @@ func lengthOfLIS(nums []int) int {
 	return res
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 O(n log n) DP
 func lengthOfLIS1(nums []int) int {
 	dp := []int{}

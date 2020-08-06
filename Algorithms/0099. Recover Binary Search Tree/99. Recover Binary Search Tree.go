@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,6 +15,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
 func recoverTree(root *TreeNode) {
 	var prev, target1, target2 *TreeNode
 	_, target1, target2 = inOrderTraverse(root, prev, target1, target2)

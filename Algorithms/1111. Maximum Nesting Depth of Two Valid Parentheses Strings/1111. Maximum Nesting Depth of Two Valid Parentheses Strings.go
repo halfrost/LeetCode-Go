@@ -32,6 +32,13 @@ func maxDepthAfterSplit(seq string) []int {
 	return res
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 模拟
 func maxDepthAfterSplit1(seq string) []int {
 	stack, top, res := make([]int, len(seq)), -1, make([]int, len(seq))

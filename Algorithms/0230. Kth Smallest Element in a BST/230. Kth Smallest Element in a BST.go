@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -8,6 +15,7 @@ package leetcode
  *     Right *TreeNode
  * }
  */
+
 func kthSmallest(root *TreeNode, k int) int {
 	res, count := 0, 0
 	inorder230(root, k, &count, &res)

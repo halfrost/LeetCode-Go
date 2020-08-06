@@ -36,6 +36,13 @@ func longestConsecutive(nums []int) int {
 	return res
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 并查集
 func longestConsecutive1(nums []int) int {
 	if len(nums) == 0 {

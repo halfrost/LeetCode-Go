@@ -34,6 +34,13 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 	return dp[len(startTime)-1]
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 type sortJobs []job
 
 func (s sortJobs) Len() int {

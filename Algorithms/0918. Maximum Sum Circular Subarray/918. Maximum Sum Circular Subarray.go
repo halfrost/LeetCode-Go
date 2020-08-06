@@ -26,3 +26,10 @@ func kadane(a []int) int {
 	}
 	return maxSoFar
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

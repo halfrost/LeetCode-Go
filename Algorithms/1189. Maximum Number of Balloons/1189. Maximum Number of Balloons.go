@@ -12,3 +12,10 @@ func maxNumberOfBalloons(text string) int {
 	// 字符 n 的频次是数组下标 13 对应的元素值
 	return min(fre[1], min(fre[0], min(fre[11]/2, min(fre[14]/2, fre[13]))))
 }
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}

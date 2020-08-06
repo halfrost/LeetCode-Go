@@ -1,12 +1,12 @@
 package leetcode
 
 import (
-  "strings"
+	"strings"
 )
 
 func isPalindrome(s string) bool {
 
-  s = strings.ToLower(s)
+	s = strings.ToLower(s)
 
 	i, j := 0, len(s)-1
 	for i < j {

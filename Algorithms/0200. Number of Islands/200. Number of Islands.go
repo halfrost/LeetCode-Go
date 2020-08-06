@@ -1,5 +1,12 @@
 package leetcode
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 func numIslands(grid [][]byte) int {
 	m := len(grid)
 	if m == 0 {
@@ -33,4 +40,8 @@ func searchIslands(grid [][]byte, visited *[][]bool, x, y int) {
 			searchIslands(grid, visited, nx, ny)
 		}
 	}
+}
+
+func isInBoard(board [][]byte, x, y int) bool {
+	return x >= 0 && x < len(board) && y >= 0 && y < len(board[0])
 }

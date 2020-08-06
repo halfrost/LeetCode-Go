@@ -20,3 +20,10 @@ func lastStoneWeightII(stones []int) int {
 	}
 	return sum - 2*dp[C]
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
