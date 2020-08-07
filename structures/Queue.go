@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // Queue 是用于存放 int 的队列
 type Queue struct {

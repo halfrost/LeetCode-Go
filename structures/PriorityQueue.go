@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // This example demonstrates a priority queue built using the heap interface.
 

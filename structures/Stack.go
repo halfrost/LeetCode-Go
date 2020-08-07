@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // Stack 是用于存放 int 的 栈
 type Stack struct {

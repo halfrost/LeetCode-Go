@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // Point 定义了一个二维坐标点
 type Point struct {

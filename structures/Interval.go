@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // Interval 提供区间表示
 type Interval struct {

@@ -1,4 +1,4 @@
-package kit
+package structures
 
 // intHeap 实现了 heap 的接口
 type intHeap []int
