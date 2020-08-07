@@ -1,9 +1,5 @@
-# 717. 1-bit and 2-bit Characters
+# [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/)
 
-Created Time: Jul 25, 2019 10:23 AM
-Difficulty: Easy
-Link: https://leetcode.com/problems/1-bit-and-2-bit-characters/
-Tags: Array
 
 # 题目:
 

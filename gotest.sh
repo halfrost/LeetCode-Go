@@ -3,7 +3,7 @@
 set -e
 echo "" > coverage.txt
 
-for d in $(go list ./Algorithms/... | grep -v vendor); do
+for d in $(go list ./leetcode/... | grep -v vendor); do
     echo $d
     go test -coverprofile=profile.out -covermode=atomic $d
     if [ -f profile.out ]; then

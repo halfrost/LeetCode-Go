@@ -48,7 +48,7 @@ type: docs
 
 ## 关于书中的代码
 
-代码都放在 [github repo](https://github.com/halfrost/LeetCode-Go/tree/master/Algorithms) 中，按题号可以搜索到题目。
+代码都放在 [github repo](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode) 中，按题号可以搜索到题目。
 本书题目的代码都已经 beats 100% 了。没有 beats 100% 题解就没有放到本书中了。那些题目笔者会继续优化到 100% 再放进来。
 
 有可能读者会问，为何要追求 beats 100%。笔者认为优化到 beats 100% 才算是把这题做出感觉了。有好几道 Hard 题，笔者都用暴力解法 AC 了，然后只 beats 了 5%。这题就如同没做一样。而且面试中如果给了这样的答案，面试官也不会满意，“还有没有更优解？”。如果通过自己的思考能给出更优解，面试官会更满意一些。
