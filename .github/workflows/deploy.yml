@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master  # 只在master上push触发部署
+      - add_hugo
     paths-ignore:   # 下列文件的变更不触发部署，可以自行添加
       - README.md
       - LICENSE

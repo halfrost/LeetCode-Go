@@ -45,7 +45,7 @@ Return the minimum, maximum, mean, median, and mode of the sample respectively, 
 
 
 - 这个问题的关键需要理解题目的意思，什么是采样？`count[k]` 就是整数 `k` 的采样个数。
-- 题目要求返回样本的最小值、最大值、平均值、中位数和众数。最大值和最小值就很好处理，只需要遍历 count 判断最小的非 0 的 index 就是最小值，最大的非 0 的 index 就是最大值。平均值也非常好处理，对于所有非 0 的 count，我们通过累加 count[k] * index 得到所有数的和，然后除上所有非 0 的 count 的和。![](https://latex.codecogs.com/gif.latex?%24%24%5Csum_%7Bn%3D0%7D%5E%7B256%7Dcount%5Bn%5D%28while%5C%20%5C%20count%5Bn%5D%21%3D0%29%24%24)
+- 题目要求返回样本的最小值、最大值、平均值、中位数和众数。最大值和最小值就很好处理，只需要遍历 count 判断最小的非 0 的 index 就是最小值，最大的非 0 的 index 就是最大值。平均值也非常好处理，对于所有非 0 的 count，我们通过累加 count[k] * index 得到所有数的和，然后除上所有非 0 的 count 的和。![](https://latex.codecogs.com/svg.latex?\sum_{n=0}^{256}count[n](while\%20\%20count[n]!=0))
 
 - 众数也非常容易，只需统计 count 值最大时的 index 即可。
 - 中位数的处理相对麻烦一些，因为需要分非 0 的 count 之和是奇数还是偶数两种情况。先假设非 0 的 count 和为 cnt，那么如果 cnt 是奇数的话，只需要找到 cnt/2 的位置即可，通过不断累加 count 的值，直到累加和超过 ≥ cnt/2。如果 cnt 是偶数的话，需要找到 cnt/2 + 1 和 cnt/2 的位置，找法和奇数情况相同，不过需要找两次(可以放到一个循环中做两次判断)。
