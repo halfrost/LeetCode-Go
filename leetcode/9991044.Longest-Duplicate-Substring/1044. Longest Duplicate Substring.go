@@ -11,7 +11,7 @@ func longestDupSubstring(S string) string {
 	// 		high = mid - 1
 	// 	}
 	// }
-	return "这个解法还有问题"
+	return "这个解法还有问题!"
 }
 
 // func hashSlice(arr []int, length int) []int {
