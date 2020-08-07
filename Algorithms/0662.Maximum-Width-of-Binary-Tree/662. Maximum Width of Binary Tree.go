@@ -25,7 +25,7 @@ func widthOfBinaryTree(root *TreeNode) int {
 	}
 
 	queue, res := []*TreeNode{}, 0
-	queue = append(queue, &TreeNode{0, root.Left, root.Right})
+	queue = append(queue, &TreeNode{Val: 0, Left: root.Left, Right: root.Right})
 
 	for len(queue) != 0 {
 		var left, right *int
@@ -38,7 +38,7 @@ func widthOfBinaryTree(root *TreeNode) int {
 			if node.Left != nil {
 				// 根据满二叉树父子节点的关系，得到下一层节点在本层的编号
 				newVal := node.Val * 2
-				queue = append(queue, &TreeNode{newVal, node.Left.Left, node.Left.Right})
+				queue = append(queue, &TreeNode{Val: newVal, Left: node.Left.Left, Right: node.Left.Right})
 				if left == nil || *left > newVal {
 					left = &newVal
 				}
@@ -49,7 +49,7 @@ func widthOfBinaryTree(root *TreeNode) int {
 			if node.Right != nil {
 				// 根据满二叉树父子节点的关系，得到下一层节点在本层的编号
 				newVal := node.Val*2 + 1
-				queue = append(queue, &TreeNode{newVal, node.Right.Left, node.Right.Right})
+				queue = append(queue, &TreeNode{Val: newVal, Left: node.Right.Left, Right: node.Right.Right})
 				if left == nil || *left > newVal {
 					left = &newVal
 				}

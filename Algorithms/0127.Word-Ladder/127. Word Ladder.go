@@ -40,7 +40,7 @@ func getCandidates(word string) []string {
 	for i := 0; i < 26; i++ {
 		for j := 0; j < len(word); j++ {
 			if word[j] != byte(int('a')+i) {
-				res = append(res, word[:j]+string(int('a')+i)+word[j+1:])
+				res = append(res, word[:j]+string(rune(int('a')+i))+word[j+1:])
 			}
 		}
 	}

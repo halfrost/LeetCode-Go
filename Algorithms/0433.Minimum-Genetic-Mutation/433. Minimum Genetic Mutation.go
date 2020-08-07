@@ -41,7 +41,7 @@ func getCandidates433(word string) []string {
 	for i := 0; i < 26; i++ {
 		for j := 0; j < len(word); j++ {
 			if word[j] != byte(int('A')+i) {
-				res = append(res, word[:j]+string(int('A')+i)+word[j+1:])
+				res = append(res, word[:j]+string(rune(int('A')+i))+word[j+1:])
 			}
 		}
 	}

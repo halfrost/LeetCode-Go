@@ -33,11 +33,6 @@ func Test_Problem973(t *testing.T) {
 		},
 
 		question973{
-			para973{[][]int{[]int{}, []int{}}, 1},
-			ans973{[][]int{[]int{}}},
-		},
-
-		question973{
 			para973{[][]int{[]int{1, 3}, []int{-2, 2}}, 0},
 			ans973{[][]int{[]int{}}},
 		},

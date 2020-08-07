@@ -22,6 +22,7 @@
 <img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.LeetCode-Go">
 <img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master">
+<img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 </p>
 
 ## Data Structures

@@ -50,11 +50,6 @@ func Test_Problem725(t *testing.T) {
 		},
 
 		question725{
-			para725{[]int{1, 2, 3, 2, 3, 2, 3, 2}, 0},
-			ans725{[]int{1, 2, 3, 2, 3, 2, 3, 2}},
-		},
-
-		question725{
 			para725{[]int{1, 2, 3, 4, 5}, 5},
 			ans725{[]int{1, 2, 3, 4}},
 		},

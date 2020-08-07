@@ -26,7 +26,7 @@ func commonChars(A []string) []string {
 	result := make([]string, 0)
 	for i := 0; i < 26; i++ {
 		for j := 0; j < cnt[i]; j++ {
-			result = append(result, string(i+'a'))
+			result = append(result, string(rune(i+'a')))
 		}
 	}
 	return result
