@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question98 struct {
@@ -27,7 +29,7 @@ func Test_Problem98(t *testing.T) {
 	qs := []question98{
 
 		question98{
-			para98{[]int{10, 5, 15, NULL, NULL, 6, 20}},
+			para98{[]int{10, 5, 15, structures.NULL, structures.NULL, 6, 20}},
 			ans98{false},
 		},
 
@@ -42,7 +44,7 @@ func Test_Problem98(t *testing.T) {
 		},
 
 		question98{
-			para98{[]int{5, 1, 4, NULL, NULL, 3, 6}},
+			para98{[]int{5, 1, 4, structures.NULL, structures.NULL, 3, 6}},
 			ans98{false},
 		},
 	}
@@ -52,7 +54,7 @@ func Test_Problem98(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans98, q.para98
 		fmt.Printf("【input】:%v      ", p)
-		rootOne := Ints2TreeNode(p.one)
+		rootOne := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", isValidBST(rootOne))
 	}
 	fmt.Printf("\n\n\n")

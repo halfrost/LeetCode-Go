@@ -14,3 +14,17 @@ func equalSubstring(s string, t string, maxCost int) int {
 	}
 	return res
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func abs(a int) int {
+	if a > 0 {
+		return a
+	}
+	return -a
+}

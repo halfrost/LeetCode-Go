@@ -16,6 +16,13 @@ func findLength(A []int, B []int) int {
 	return low
 }
 
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+
 func hashSlice(arr []int, length int) []int {
 	// hash 数组里面记录 arr 比 length 长出去部分的 hash 值
 	hash, pl, h := make([]int, len(arr)-length+1), 1, 0

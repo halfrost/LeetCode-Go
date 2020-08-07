@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question23 struct {
@@ -94,9 +96,9 @@ func Test_Problem23(t *testing.T) {
 	for _, q := range qs {
 		var ls []*ListNode
 		for _, qq := range q.para23.one {
-			ls = append(ls, S2l(qq))
+			ls = append(ls, structures.Ints2List(qq))
 		}
-		fmt.Printf("【input】:%v       【output】:%v\n", q.para23.one, L2s(mergeKLists(ls)))
+		fmt.Printf("【input】:%v       【output】:%v\n", q.para23.one, structures.List2Ints(mergeKLists(ls)))
 	}
 	fmt.Printf("\n\n\n")
 }

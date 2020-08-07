@@ -91,3 +91,10 @@ func divide1(divided int, divisor int) int {
 	}
 	return sign * result
 }
+
+func abs(a int) int {
+	if a > 0 {
+		return a
+	}
+	return -a
+}

@@ -1,13 +1,21 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
- * Definition for TreeNode.
+ * Definition for a binary tree node.
  * type TreeNode struct {
  *     Val int
- *     Left *ListNode
- *     Right *ListNode
+ *     Left *TreeNode
+ *     Right *TreeNode
  * }
  */
+
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if p == nil || q == nil || root == nil {
 		return nil

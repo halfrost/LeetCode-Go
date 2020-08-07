@@ -4,6 +4,13 @@ import (
 	"strconv"
 )
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -12,6 +19,7 @@ import (
  *     Right *TreeNode
  * }
  */
+
 func recoverFromPreorder(S string) *TreeNode {
 	if len(S) == 0 {
 		return &TreeNode{}
@@ -68,4 +76,11 @@ func dfsBuildPreorderTree(S string, index, level *int, cur *TreeNode) (newIndex 
 		}
 	}
 	return index
+}
+
+func isDigital(v byte) bool {
+	if v >= '0' && v <= '9' {
+		return true
+	}
+	return false
 }

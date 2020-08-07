@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -43,4 +50,12 @@ func increasingBST1(root *TreeNode) *TreeNode {
 		cur = tmp
 	}
 	return newRoot
+}
+
+func inorder(root *TreeNode, output *[]int) {
+	if root != nil {
+		inorder(root.Left, output)
+		*output = append(*output, root.Val)
+		inorder(root.Right, output)
+	}
 }

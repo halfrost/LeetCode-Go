@@ -47,6 +47,13 @@ func discretization218(positions [][]int) (map[int]int, []int) {
 	return posMap, posArray
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 扫描线 Sweep Line，时间复杂度 O(n log n)
 func getSkyline1(buildings [][]int) [][]int {
 	size := len(buildings)

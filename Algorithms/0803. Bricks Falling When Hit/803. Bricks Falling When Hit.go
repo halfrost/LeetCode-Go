@@ -4,6 +4,13 @@ import (
 	"github.com/halfrost/LeetCode-Go/template"
 )
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 func hitBricks(grid [][]int, hits [][]int) []int {
 	if len(hits) == 0 {
 		return []int{}

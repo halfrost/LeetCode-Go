@@ -115,3 +115,10 @@ func deserialize(s string) *NestedInteger {
 	}
 	return cur
 }
+
+func isDigital(v byte) bool {
+	if v >= '0' && v <= '9' {
+		return true
+	}
+	return false
+}

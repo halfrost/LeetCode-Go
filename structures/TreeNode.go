@@ -217,3 +217,17 @@ func Tree2ints(tn *TreeNode) []int {
 
 	return res[:i]
 }
+
+// T2s convert *TreeNode to []int
+func T2s(head *TreeNode, array *[]int) {
+	fmt.Printf("运行到这里了 head = %v array = %v\n", head, array)
+	// fmt.Printf("****array = %v\n", array)
+	// fmt.Printf("****head = %v\n", head.Val)
+	*array = append(*array, head.Val)
+	if head.Left != nil {
+		T2s(head.Left, array)
+	}
+	if head.Right != nil {
+		T2s(head.Right, array)
+	}
+}

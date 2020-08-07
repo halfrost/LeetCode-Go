@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// ListNode define
+type ListNode = structures.ListNode
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -7,12 +14,6 @@ package leetcode
  *     Next *ListNode
  * }
  */
-
-// ListNode define
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
 
 func reverseList(head *ListNode) *ListNode {
 	var behind *ListNode

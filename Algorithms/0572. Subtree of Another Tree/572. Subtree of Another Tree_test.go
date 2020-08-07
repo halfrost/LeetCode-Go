@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question572 struct {
@@ -29,7 +31,7 @@ func Test_Problem572(t *testing.T) {
 
 		question572{
 			para572{[]int{}, []int{}},
-			ans572{false},
+			ans572{true},
 		},
 
 		question572{
@@ -43,7 +45,7 @@ func Test_Problem572(t *testing.T) {
 		},
 
 		question572{
-			para572{[]int{1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, 2}, []int{1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, NULL, 1, 2}},
+			para572{[]int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}, []int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}},
 			ans572{true},
 		},
 	}
@@ -53,8 +55,8 @@ func Test_Problem572(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans572, q.para572
 		fmt.Printf("【input】:%v      ", p)
-		roots := Ints2TreeNode(p.s)
-		roott := Ints2TreeNode(p.t)
+		roots := structures.Ints2TreeNode(p.s)
+		roott := structures.Ints2TreeNode(p.t)
 		fmt.Printf("【output】:%v      \n", isSubtree(roots, roott))
 	}
 	fmt.Printf("\n\n\n")

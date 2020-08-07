@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question515 struct {
@@ -37,12 +39,12 @@ func Test_Problem515(t *testing.T) {
 		},
 
 		question515{
-			para515{[]int{1, 3, 2, 5, 3, NULL, 9}},
+			para515{[]int{1, 3, 2, 5, 3, structures.NULL, 9}},
 			ans515{[]int{1, 3, 9}},
 		},
 
 		question515{
-			para515{[]int{3, 9, 20, NULL, NULL, 15, 7}},
+			para515{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans515{[]int{3, 20, 15}},
 		},
 	}
@@ -52,7 +54,7 @@ func Test_Problem515(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans515, q.para515
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", largestValues(root))
 	}
 	fmt.Printf("\n\n\n")

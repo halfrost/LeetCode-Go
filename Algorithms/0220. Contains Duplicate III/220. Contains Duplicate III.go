@@ -34,6 +34,13 @@ func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	return false
 }
 
+func abs(a int) int {
+	if a > 0 {
+		return a
+	}
+	return -a
+}
+
 type elem struct {
 	val int
 	idx int

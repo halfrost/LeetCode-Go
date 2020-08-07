@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question86 struct {
@@ -67,7 +69,7 @@ func Test_Problem86(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans86, q.para86
-		fmt.Printf("【input】:%v       【output】:%v\n", p, L2s(partition(S2l(p.one), p.x)))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(partition(structures.Ints2List(p.one), p.x)))
 	}
 	fmt.Printf("\n\n\n")
 }

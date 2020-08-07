@@ -1,6 +1,13 @@
 package leetcode
 
-import "sort"
+import (
+	"sort"
+
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// Interval define
+type Interval = structures.Interval
 
 // 解法一 利用系统函数 sort + 二分搜索
 func findRightInterval(intervals [][]int) []int {
@@ -45,7 +52,7 @@ func findRightInterval1(intervals [][]int) []int {
 		intervalsList = append(intervalsList, Interval{Start: v[0], End: v[1]})
 		intervalMap[Interval{Start: v[0], End: v[1]}] = k
 	}
-	quickSort(intervalsList, 0, len(intervalsList)-1)
+	structures.QuickSort(intervalsList, 0, len(intervalsList)-1)
 	for _, v := range intervals {
 		tmp := searchFirstGreaterInterval(intervalsList, v[1])
 		if tmp > 0 {

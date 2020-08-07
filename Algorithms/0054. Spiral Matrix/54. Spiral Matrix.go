@@ -81,10 +81,10 @@ func spiralOrder2(matrix [][]int) []int {
 	}
 
 	// top、left、right、bottom 分别是剩余区域的上、左、右、下的下标
-	top, left, bottom, right := 0, 0, m-1, n-1 
+	top, left, bottom, right := 0, 0, m-1, n-1
 	count, sum := 0, m*n
 	res := []int{}
-	
+
 	// 外层循环每次遍历一圈
 	for count < sum {
 		i, j := top, left
@@ -93,19 +93,19 @@ func spiralOrder2(matrix [][]int) []int {
 			count++
 			j++
 		}
-		i, j = top + 1, right
+		i, j = top+1, right
 		for i <= bottom && count < sum {
 			res = append(res, matrix[i][j])
 			count++
 			i++
 		}
-		i, j = bottom, right - 1
+		i, j = bottom, right-1
 		for j >= left && count < sum {
 			res = append(res, matrix[i][j])
 			count++
 			j--
 		}
-		i, j = bottom - 1, left
+		i, j = bottom-1, left
 		for i > top && count < sum {
 			res = append(res, matrix[i][j])
 			count++

@@ -1,5 +1,12 @@
 package leetcode
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// ListNode define
+type ListNode = structures.ListNode
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -7,6 +14,10 @@ package leetcode
  *     Next *ListNode
  * }
  */
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -15,13 +26,6 @@ package leetcode
  *     Right *TreeNode
  * }
  */
-
-// TreeNode define
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
 
 func sortedListToBST(head *ListNode) *TreeNode {
 	if head == nil {

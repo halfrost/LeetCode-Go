@@ -7,7 +7,6 @@ go:
 branches:
   only:
   - master
-  - stable
 
 script:
   - go get -t -v ./...

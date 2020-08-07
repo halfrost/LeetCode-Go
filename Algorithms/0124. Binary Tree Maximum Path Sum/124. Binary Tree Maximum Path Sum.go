@@ -2,6 +2,13 @@ package leetcode
 
 import "math"
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -10,6 +17,7 @@ import "math"
  *     Right *TreeNode
  * }
  */
+
 func maxPathSum(root *TreeNode) int {
 	if root == nil {
 		return 0
@@ -29,4 +37,11 @@ func getPathSum(root *TreeNode, maxSum *int) int {
 	currMax := max(max(left+root.Val, right+root.Val), root.Val)
 	*maxSum = max(*maxSum, max(currMax, left+right+root.Val))
 	return currMax
+}
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

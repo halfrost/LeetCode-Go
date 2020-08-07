@@ -24,6 +24,18 @@ func minMutation(start string, end string, bank []string) int {
 	return -1
 }
 
+func getWordMap(wordList []string, beginWord string) map[string]int {
+	wordMap := make(map[string]int)
+	for i, word := range wordList {
+		if _, ok := wordMap[word]; !ok {
+			if word != beginWord {
+				wordMap[word] = i
+			}
+		}
+	}
+	return wordMap
+}
+
 func getCandidates433(word string) []string {
 	var res []string
 	for i := 0; i < 26; i++ {

@@ -22,3 +22,19 @@ func shipWithinDays(weights []int, D int) int {
 	}
 	return low
 }
+
+func calSum(mid, m int, nums []int) bool {
+	sum, count := 0, 0
+	for _, v := range nums {
+		sum += v
+		if sum > mid {
+			sum = v
+			count++
+			// 分成 m 块，只需要插桩 m -1 个
+			if count > m-1 {
+				return false
+			}
+		}
+	}
+	return true
+}

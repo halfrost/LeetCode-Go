@@ -18,6 +18,13 @@ func rob198(nums []int) int {
 	return dp[n-1]
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 DP 优化辅助空间，把迭代的值保存在 2 个变量中
 func rob198_1(nums []int) int {
 	n := len(nums)

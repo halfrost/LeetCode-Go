@@ -38,6 +38,13 @@ func maxSatisfied1(customers []int, grumpy []int, X int) int {
 	return res
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 func sumSatisfied(customers []int, grumpy []int, start, end int) int {
 	sum := 0
 	for i := 0; i < len(customers); i++ {

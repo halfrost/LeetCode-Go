@@ -2,6 +2,13 @@ package leetcode
 
 import "fmt"
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// ListNode define
+type ListNode = structures.ListNode
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {

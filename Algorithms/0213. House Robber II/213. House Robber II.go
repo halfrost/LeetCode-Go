@@ -25,3 +25,10 @@ func rob213_1(nums []int, start, end int) int {
 	}
 	return curMax
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

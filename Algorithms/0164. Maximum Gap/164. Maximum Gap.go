@@ -85,3 +85,10 @@ func maximumGap1(nums []int) int {
 
 	return maxValue
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

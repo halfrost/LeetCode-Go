@@ -21,3 +21,17 @@ func allCellsDistOrder(R int, C int, r0 int, c0 int) [][]int {
 	}
 	return result
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func abs(a int) int {
+	if a > 0 {
+		return a
+	}
+	return -a
+}

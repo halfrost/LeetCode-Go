@@ -111,3 +111,10 @@ func calculateStr(str string) int {
 	fmt.Printf("s = %v nums = %v res = %v\n", string(s), nums, res)
 	return res
 }
+
+func isDigital(v byte) bool {
+	if v >= '0' && v <= '9' {
+		return true
+	}
+	return false
+}

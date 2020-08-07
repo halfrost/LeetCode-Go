@@ -34,3 +34,25 @@ func hIndex1(citations []int) int {
 	}
 	return hIndex
 }
+
+func quickSort164(a []int, lo, hi int) {
+	if lo >= hi {
+		return
+	}
+	p := partition164(a, lo, hi)
+	quickSort164(a, lo, p-1)
+	quickSort164(a, p+1, hi)
+}
+
+func partition164(a []int, lo, hi int) int {
+	pivot := a[hi]
+	i := lo - 1
+	for j := lo; j < hi; j++ {
+		if a[j] < pivot {
+			i++
+			a[j], a[i] = a[i], a[j]
+		}
+	}
+	a[i+1], a[hi] = a[hi], a[i+1]
+	return i + 1
+}

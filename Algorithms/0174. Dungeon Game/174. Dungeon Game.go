@@ -27,6 +27,20 @@ func calculateMinimumHP(dungeon [][]int) int {
 	return dp[0][0]
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+func min(a int, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+
 // 解法二 二分搜索
 func calculateMinimumHP1(dungeon [][]int) int {
 	low, high := 1, math.MaxInt64

@@ -37,12 +37,12 @@ func Test_Problem199(t *testing.T) {
 		},
 
 		question199{
-			para199{[]int{3, 9, 20, NULL, NULL, 15, 7}},
+			para199{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans199{[]int{3, 20, 7}},
 		},
 
 		question199{
-			para199{[]int{1, 2, 3, 4, NULL, NULL, 5}},
+			para199{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}},
 			ans199{[]int{1, 3, 5}},
 		},
 	}
@@ -52,7 +52,7 @@ func Test_Problem199(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans199, q.para199
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", rightSideView(root))
 	}
 	fmt.Printf("\n\n\n")

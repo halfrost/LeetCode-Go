@@ -34,7 +34,7 @@ func Test_Problem714(t *testing.T) {
 
 		question714{
 			para714{[]int{7, 1, 5, 3, 6, 4}, 0},
-			ans714{5},
+			ans714{7},
 		},
 
 		question714{

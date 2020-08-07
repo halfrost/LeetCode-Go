@@ -22,3 +22,11 @@ func totalHammingDistance1(nums []int) int {
 	}
 	return res
 }
+
+func hammingDistance(x int, y int) int {
+	distance := 0
+	for xor := x ^ y; xor != 0; xor &= (xor - 1) {
+		distance++
+	}
+	return distance
+}

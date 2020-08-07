@@ -23,6 +23,13 @@ func maxProfit309(prices []int) int {
 	return sell[len(sell)-1]
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // 解法二 优化辅助空间的 DP
 func maxProfit309_1(prices []int) int {
 	if len(prices) <= 1 {

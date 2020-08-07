@@ -4,6 +4,13 @@ import (
 	"strconv"
 )
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -12,6 +19,7 @@ import (
  *     Right *TreeNode
  * }
  */
+
 func binaryTreePaths(root *TreeNode) []string {
 	if root == nil {
 		return []string{}

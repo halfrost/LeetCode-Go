@@ -36,3 +36,10 @@ func discretization(positions [][]int) map[int]int {
 	}
 	return posMap
 }
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}

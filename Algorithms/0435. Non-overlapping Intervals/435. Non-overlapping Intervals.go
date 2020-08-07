@@ -27,6 +27,13 @@ func eraseOverlapIntervals(intervals [][]int) int {
 	return len(intervals) - res
 }
 
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 // Intervals define
 type Intervals [][]int
 

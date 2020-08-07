@@ -2,6 +2,13 @@ package leetcode
 
 import "fmt"
 
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// ListNode define
+type ListNode = structures.ListNode
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -61,4 +68,14 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
 		cur = pre
 	}
 	return res
+}
+
+func getLength(l *ListNode) int {
+	count := 0
+	cur := l
+	for cur != nil {
+		count++
+		cur = cur.Next
+	}
+	return count
 }

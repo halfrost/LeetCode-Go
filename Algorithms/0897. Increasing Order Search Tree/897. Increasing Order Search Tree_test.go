@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question897 struct {
@@ -27,18 +29,18 @@ func Test_Problem897(t *testing.T) {
 	qs := []question897{
 
 		question897{
-			para897{[]int{5, 3, 6, 2, 4, NULL, 8, 1, NULL, NULL, NULL, 7, 9}},
-			ans897{[]int{1, NULL, 2, NULL, 3, NULL, 4, NULL, 5, NULL, 6, NULL, 7, NULL, 8, NULL, 9}},
+			para897{[]int{5, 3, 6, 2, 4, structures.NULL, 8, 1, structures.NULL, structures.NULL, structures.NULL, 7, 9}},
+			ans897{[]int{1, structures.NULL, 2, structures.NULL, 3, structures.NULL, 4, structures.NULL, 5, structures.NULL, 6, structures.NULL, 7, structures.NULL, 8, structures.NULL, 9}},
 		},
 
 		question897{
-			para897{[]int{3, 4, 4, 5, NULL, NULL, 5, 6, NULL, NULL, 6}},
-			ans897{[]int{6, NULL, 5, NULL, 4, NULL, 3, NULL, 4, NULL, 5, NULL, 6}},
+			para897{[]int{3, 4, 4, 5, structures.NULL, structures.NULL, 5, 6, structures.NULL, structures.NULL, 6}},
+			ans897{[]int{6, structures.NULL, 5, structures.NULL, 4, structures.NULL, 3, structures.NULL, 4, structures.NULL, 5, structures.NULL, 6}},
 		},
 
 		question897{
-			para897{[]int{1, 2, 2, NULL, 3, 3}},
-			ans897{[]int{2, NULL, 3, NULL, 1, NULL, 3, NULL, 2}},
+			para897{[]int{1, 2, 2, structures.NULL, 3, 3}},
+			ans897{[]int{2, structures.NULL, 3, structures.NULL, 1, structures.NULL, 3, structures.NULL, 2}},
 		},
 
 		question897{
@@ -53,17 +55,17 @@ func Test_Problem897(t *testing.T) {
 
 		question897{
 			para897{[]int{1, 2, 3}},
-			ans897{[]int{2, NULL, 1, NULL, 3}},
+			ans897{[]int{2, structures.NULL, 1, structures.NULL, 3}},
 		},
 
 		question897{
 			para897{[]int{1, 2, 2, 3, 4, 4, 3}},
-			ans897{[]int{3, NULL, 2, NULL, 4, NULL, 1, NULL, 4, NULL, 2, NULL, 3}},
+			ans897{[]int{3, structures.NULL, 2, structures.NULL, 4, structures.NULL, 1, structures.NULL, 4, structures.NULL, 2, structures.NULL, 3}},
 		},
 
 		question897{
-			para897{[]int{1, 2, 2, NULL, 3, NULL, 3}},
-			ans897{[]int{2, NULL, 3, NULL, 1, NULL, 2, NULL, 3}},
+			para897{[]int{1, 2, 2, structures.NULL, 3, structures.NULL, 3}},
+			ans897{[]int{2, structures.NULL, 3, structures.NULL, 1, structures.NULL, 2, structures.NULL, 3}},
 		},
 	}
 
@@ -72,8 +74,8 @@ func Test_Problem897(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans897, q.para897
 		fmt.Printf("【input】:%v      ", p)
-		rootOne := Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", Tree2ints(increasingBST(rootOne)))
+		rootOne := structures.Ints2TreeNode(p.one)
+		fmt.Printf("【output】:%v      \n", structures.Tree2ints(increasingBST(rootOne)))
 	}
 	fmt.Printf("\n\n\n")
 }

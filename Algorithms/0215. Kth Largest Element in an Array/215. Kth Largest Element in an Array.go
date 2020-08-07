@@ -29,3 +29,16 @@ func selection(arr []int, l, r, k int) int {
 		return selection(arr, p+1, r, k)
 	}
 }
+
+func partition164(a []int, lo, hi int) int {
+	pivot := a[hi]
+	i := lo - 1
+	for j := lo; j < hi; j++ {
+		if a[j] < pivot {
+			i++
+			a[j], a[i] = a[i], a[j]
+		}
+	}
+	a[i+1], a[hi] = a[hi], a[i+1]
+	return i + 1
+}

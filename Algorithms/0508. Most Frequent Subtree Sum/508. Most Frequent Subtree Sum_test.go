@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question508 struct {
@@ -57,7 +59,7 @@ func Test_Problem508(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans508, q.para508
 		fmt.Printf("【input】:%v      ", p)
-		root := Ints2TreeNode(p.one)
+		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", findFrequentTreeSum(root))
 	}
 	fmt.Printf("\n\n\n")

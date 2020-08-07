@@ -1,5 +1,12 @@
 package leetcode
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 	color := image[sr][sc]
 	if newColor == color {

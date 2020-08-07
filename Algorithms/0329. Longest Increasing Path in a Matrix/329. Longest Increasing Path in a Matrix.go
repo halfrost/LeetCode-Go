@@ -4,6 +4,13 @@ import (
 	"math"
 )
 
+var dir = [][]int{
+	[]int{-1, 0},
+	[]int{0, 1},
+	[]int{1, 0},
+	[]int{0, -1},
+}
+
 func longestIncreasingPath(matrix [][]int) int {
 	cache, res := make([][]int, len(matrix)), 0
 	for i := 0; i < len(cache); i++ {
@@ -16,6 +23,13 @@ func longestIncreasingPath(matrix [][]int) int {
 		}
 	}
 	return res
+}
+
+func max(a int, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 func isInIntBoard(board [][]int, x, y int) bool {

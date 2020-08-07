@@ -3,6 +3,8 @@ package leetcode
 import (
 	"fmt"
 	"testing"
+
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 type question101 struct {
@@ -27,12 +29,12 @@ func Test_Problem101(t *testing.T) {
 	qs := []question101{
 
 		question101{
-			para101{[]int{3, 4, 4, 5, NULL, NULL, 5, 6, NULL, NULL, 6}},
+			para101{[]int{3, 4, 4, 5, structures.NULL, structures.NULL, 5, 6, structures.NULL, structures.NULL, 6}},
 			ans101{true},
 		},
 
 		question101{
-			para101{[]int{1, 2, 2, NULL, 3, 3}},
+			para101{[]int{1, 2, 2, structures.NULL, 3, 3}},
 			ans101{true},
 		},
 
@@ -57,7 +59,7 @@ func Test_Problem101(t *testing.T) {
 		},
 
 		question101{
-			para101{[]int{1, 2, 2, NULL, 3, NULL, 3}},
+			para101{[]int{1, 2, 2, structures.NULL, 3, structures.NULL, 3}},
 			ans101{false},
 		},
 	}
@@ -67,7 +69,7 @@ func Test_Problem101(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans101, q.para101
 		fmt.Printf("【input】:%v      ", p)
-		rootOne := Ints2TreeNode(p.one)
+		rootOne := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", isSymmetric(rootOne))
 	}
 	fmt.Printf("\n\n\n")
