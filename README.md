@@ -25,6 +25,10 @@
 <img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 </p>
 
+<p align='center'>
+支持 Progressive Web Apps 的题解电子书《LeetCode Cookbook》在线阅读 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">地址</a>
+</p>
+
 ## Data Structures
 
 > 标识了 ✅ 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的
