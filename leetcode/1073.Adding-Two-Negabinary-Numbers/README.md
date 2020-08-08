@@ -1,7 +1,7 @@
 # [1073. Adding Two Negabinary Numbers](https://leetcode.com/problems/adding-two-negabinary-numbers/)
 
 
-## 题目:
+## 题目
 
 Given two numbers `arr1` and `arr2` in base **-2**, return the result of adding them together.
 

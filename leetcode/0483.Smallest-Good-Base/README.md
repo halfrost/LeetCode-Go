@@ -1,7 +1,7 @@
 # [483. Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)
 
 
-## 题目:
+## 题目
 
 For an integer n, we call k>=2 a **good base** of n, if all digits of n base k are 1.
 

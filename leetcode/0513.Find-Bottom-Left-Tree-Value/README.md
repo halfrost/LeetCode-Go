@@ -1,7 +1,7 @@
 # [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
 
 
-## 题目:
+## 题目
 
 Given a binary tree, find the leftmost value in the last row of the tree.
 

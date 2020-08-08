@@ -1,7 +1,7 @@
 # [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)
 
 
-## 题目:
+## 题目
 
 A sorted list `A` contains 1, plus some number of primes. Then, for every p < q in the list, we consider the fraction p/q.
 

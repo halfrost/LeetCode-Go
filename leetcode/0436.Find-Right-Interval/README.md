@@ -1,7 +1,7 @@
 # [436. Find Right Interval](https://leetcode.com/problems/find-right-interval/)
 
 
-## 题目:
+## 题目
 
 Given a set of intervals, for each of the interval i, check if there exists an interval j whose start point is bigger than or equal to the end point of the interval i, which can be called that j is on the "right" of i.
 

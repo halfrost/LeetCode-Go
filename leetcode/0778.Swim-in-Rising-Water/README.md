@@ -1,7 +1,7 @@
 # [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 
 
-## 题目:
+## 题目
 
 On an N x N `grid`, each square `grid[i][j]` represents the elevation at that point `(i,j)`.
 

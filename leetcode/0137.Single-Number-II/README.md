@@ -1,7 +1,7 @@
 # [137. Single Number II](https://leetcode.com/problems/single-number-ii/)
 
 
-## 题目:
+## 题目
 
 Given a **non-empty** array of integers, every element appears *three* times except for one, which appears exactly once. Find that single one.
 

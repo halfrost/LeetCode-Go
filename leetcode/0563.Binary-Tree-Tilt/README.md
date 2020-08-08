@@ -1,7 +1,7 @@
 # [563. Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)
 
 
-## 题目:
+## 题目
 
 Given a binary tree, return the tilt of the **whole tree**.
 

@@ -1,7 +1,7 @@
 # [1217. Play with Chips](https://leetcode.com/problems/play-with-chips/)
 
 
-## 题目:
+## 题目
 
 There are some chips, and the i-th chip is at position `chips[i]`.
 

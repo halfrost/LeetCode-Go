@@ -1,7 +1,7 @@
 # [732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/)
 
 
-## 题目:
+## 题目
 
 Implement a `MyCalendarThree` class to store your events. A new event can **always** be added.
 

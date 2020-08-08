@@ -1,7 +1,7 @@
 # [476. Number Complement](https://leetcode.com/problems/number-complement/)
 
 
-## 题目:
+## 题目
 
 Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
 

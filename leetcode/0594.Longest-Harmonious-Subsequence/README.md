@@ -1,7 +1,7 @@
 # [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)
 
 
-## 题目:
+## 题目
 
 We define a harmounious array as an array where the difference between its maximum value and its minimum value is **exactly** 1.
 

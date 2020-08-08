@@ -2,7 +2,7 @@
 
 
 
-## 题目:
+## 题目
 
 Given an input string, reverse the string word by word.
 

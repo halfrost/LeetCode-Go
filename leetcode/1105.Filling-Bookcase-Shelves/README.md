@@ -1,7 +1,7 @@
 # [1105. Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)
 
 
-## 题目:
+## 题目
 
 We have a sequence of `books`: the `i`-th book has thickness `books[i][0]`and height `books[i][1]`.
 

@@ -1,7 +1,7 @@
 # [706. Design HashMap](https://leetcode.com/problems/design-hashmap/)
 
 
-## 题目:
+## 题目
 
 Design a HashMap without using any built-in hash table libraries.
 

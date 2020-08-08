@@ -1,7 +1,7 @@
 # [927. Three Equal Parts](https://leetcode.com/problems/three-equal-parts/)
 
 
-## 题目:
+## 题目
 
 Given an array `A` of `0`s and `1`s, divide the array into 3 non-empty parts such that all of these parts represent the same binary value.
 

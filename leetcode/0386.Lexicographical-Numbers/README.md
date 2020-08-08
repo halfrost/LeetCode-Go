@@ -1,7 +1,7 @@
 # [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)
 
 
-## 题目:
+## 题目
 
 Given an integer n, return 1 - n in lexicographical order.
 

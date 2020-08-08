@@ -1,7 +1,7 @@
 # [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
 
-## 题目:
+## 题目
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 

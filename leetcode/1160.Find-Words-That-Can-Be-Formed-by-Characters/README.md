@@ -1,7 +1,7 @@
 # [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)
 
 
-## 题目:
+## 题目
 
 You are given an array of strings `words` and a string `chars`.
 

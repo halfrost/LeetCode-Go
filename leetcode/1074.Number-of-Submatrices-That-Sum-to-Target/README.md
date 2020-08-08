@@ -1,7 +1,7 @@
 # [1074. Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)
 
 
-## 题目:
+## 题目
 
 Given a `matrix`, and a `target`, return the number of non-empty submatrices that sum to target.
 

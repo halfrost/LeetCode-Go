@@ -1,7 +1,7 @@
 # [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)
 
 
-## 题目:
+## 题目
 
 A string is a *valid parentheses string* (denoted VPS) if and only if it consists of `"("` and `")"` characters only, and:
 

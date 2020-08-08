@@ -1,7 +1,7 @@
 # [1185. Day of the Week](https://leetcode.com/problems/day-of-the-week/)
 
 
-## 题目:
+## 题目
 
 Given a date, return the corresponding day of the week for that date.
 

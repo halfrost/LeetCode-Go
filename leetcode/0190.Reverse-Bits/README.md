@@ -1,7 +1,7 @@
 # [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 
-## 题目:
+## 题目
 
 Reverse bits of a given 32 bits unsigned integer.
 

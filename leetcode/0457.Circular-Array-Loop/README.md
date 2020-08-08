@@ -1,7 +1,7 @@
 # [457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)
 
 
-## 题目:
+## 题目
 
 You are given a **circular** array `nums` of positive and negative integers. If a number k at an index is positive, then move forward k steps. Conversely, if it's negative (-k), move backward k steps. Since the array is circular, you may assume that the last element's next element is the first element, and the first element's previous element is the last element.
 

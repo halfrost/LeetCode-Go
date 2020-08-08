@@ -1,6 +1,6 @@
 # [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
 
-## 题目:
+## 题目
 
 The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two integers is the number of positions at which the corresponding bits are different.
 

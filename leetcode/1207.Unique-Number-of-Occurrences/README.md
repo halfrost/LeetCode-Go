@@ -1,7 +1,7 @@
 # [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)
 
 
-## 题目:
+## 题目
 
 Given an array of integers `arr`, write a function that returns `true` if and only if the number of occurrences of each value in the array is unique.
 

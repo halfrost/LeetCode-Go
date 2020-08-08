@@ -1,7 +1,7 @@
 # [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 
-## 题目:
+## 题目
 
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 

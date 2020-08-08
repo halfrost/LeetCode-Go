@@ -1,7 +1,7 @@
 # [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
 
-## 题目:
+## 题目
 
 Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
 

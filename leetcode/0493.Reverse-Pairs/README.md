@@ -1,7 +1,7 @@
 # [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 
 
-## 题目:
+## 题目
 
 Given an array `nums`, we call `(i, j)` an **important reverse pair** if `i < j` and `nums[i] > 2*nums[j]`.
 

@@ -2,7 +2,7 @@
 
 
 
-## 题目:
+## 题目
 
 A character in UTF8 can be from **1 to 4 bytes** long, subjected to the following rules:
 

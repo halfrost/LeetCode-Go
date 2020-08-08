@@ -1,7 +1,7 @@
 # [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
 
 
-## 题目:
+## 题目
 
 An undirected, connected tree with `N` nodes labelled `0...N-1` and `N-1edges` are given.
 

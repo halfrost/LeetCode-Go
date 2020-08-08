@@ -1,7 +1,7 @@
 # [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 
 
-## 题目:
+## 题目
 
 Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
 

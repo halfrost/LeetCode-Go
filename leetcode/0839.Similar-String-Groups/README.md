@@ -1,7 +1,7 @@
 # [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/)
 
 
-## 题目:
+## 题目
 
 Two strings `X` and `Y` are similar if we can swap two letters (in different positions) of `X`, so that it equals `Y`.
 

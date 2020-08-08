@@ -1,7 +1,7 @@
 # [887. Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)
 
 
-## 题目:
+## 题目
 
 You are given `K` eggs, and you have access to a building with `N` floors from `1` to `N`.
 
