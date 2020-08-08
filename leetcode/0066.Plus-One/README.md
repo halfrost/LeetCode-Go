@@ -1,7 +1,7 @@
 # [66. Plus One](https://leetcode.com/problems/plus-one/)
 
 
-## 题目:
+## 题目
 
 Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
 

@@ -1,7 +1,7 @@
 # [878. Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)
 
 
-## 题目:
+## 题目
 
 A positive integer is *magical* if it is divisible by either A or B.
 

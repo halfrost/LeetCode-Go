@@ -1,7 +1,7 @@
 # [204. Count Primes](https://leetcode.com/problems/count-primes/)
 
 
-## 题目:
+## 题目
 
 Count the number of prime numbers less than a non-negative number, **n**.
 

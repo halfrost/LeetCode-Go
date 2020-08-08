@@ -1,6 +1,6 @@
 # [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 
-## 题目:
+## 题目
 
 You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
 

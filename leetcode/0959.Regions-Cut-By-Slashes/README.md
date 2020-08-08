@@ -1,7 +1,7 @@
 # [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
 
 
-## 题目:
+## 题目
 
 In a N x N `grid` composed of 1 x 1 squares, each 1 x 1 square consists of a `/`, `\`, or blank space. These characters divide the square into contiguous regions.
 

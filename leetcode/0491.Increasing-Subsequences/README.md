@@ -1,7 +1,7 @@
 # [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
 
 
-## 题目:
+## 题目
 
 Given an integer array, your task is to find all the different possible increasing subsequences of the given array, and the length of an increasing subsequence should be at least 2.
 

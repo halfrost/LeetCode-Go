@@ -1,6 +1,6 @@
 # [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)
 
-## 题目:
+## 题目
 
 A subarray `A[i], A[i+1], ..., A[j]` of `A` is said to be *turbulent* if and only if:
 

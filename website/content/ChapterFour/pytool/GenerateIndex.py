@@ -13,7 +13,7 @@ print(len(dir_names))
 for file_name in dir_names:
         # - [0001. Two Sum]({{< relref "/ChapterFour/withouttoc/0001. Two Sum.md" >}})
         # content = '- [' + file_name[:-3] + ']' + '({{< relref "/ChapterFour/withouttoc/' + file_name + '" >}})'
-        content.append('- [{}]({{{{< relref "/ChapterFour/withouttoc/{}" >}}}})'.format(file_name[:-3],file_name))
+        content.append('- [{}]({{{{< relref "/ChapterFour/{}" >}}}})'.format(file_name[:-3],file_name))
 
 with open(indexFile, "w") as myfile:
         myfile.write('\n'.join(content))

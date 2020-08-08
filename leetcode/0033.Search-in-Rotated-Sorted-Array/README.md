@@ -1,6 +1,6 @@
 # [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
-## 题目:
+## 题目
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 

@@ -1,7 +1,7 @@
 # [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 
 
-## 题目:
+## 题目
 
 Given a sorted array, two integers `k` and `x`, find the `k` closest elements to `x` in the array. The result should also be sorted in ascending order. If there is a tie, the smaller elements are always preferred.
 

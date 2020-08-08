@@ -1,6 +1,6 @@
 # [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/)
 
-## 题目:
+## 题目
 
 You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
 

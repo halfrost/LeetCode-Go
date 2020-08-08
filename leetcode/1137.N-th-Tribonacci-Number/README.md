@@ -1,7 +1,7 @@
 # [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
 
-## 题目:
+## 题目
 
 The Tribonacci sequence Tn is defined as follows:
 

@@ -1,7 +1,7 @@
 # [1052. Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)
 
 
-## 题目:
+## 题目
 
 Today, the bookstore owner has a store open for `customers.length`minutes. Every minute, some number of customers (`customers[i]`) enter the store, and all those customers leave after the end of that minute.
 

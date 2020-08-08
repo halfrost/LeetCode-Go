@@ -1,7 +1,7 @@
 # [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)
 
 
-## 题目:
+## 题目
 
 Given a valid (IPv4) IP `address`, return a defanged version of that IP address.
 

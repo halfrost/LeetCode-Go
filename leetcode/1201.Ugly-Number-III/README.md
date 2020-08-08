@@ -1,7 +1,7 @@
 # [1201. Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)
 
 
-## 题目:
+## 题目
 
 Write a program to find the `n`-th ugly number.
 

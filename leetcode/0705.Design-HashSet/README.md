@@ -1,7 +1,7 @@
 # [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
 
 
-## 题目:
+## 题目
 
 Design a HashSet without using any built-in hash table libraries.
 

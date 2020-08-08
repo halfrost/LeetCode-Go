@@ -1,6 +1,6 @@
 # [136. Single Number](https://leetcode.com/problems/single-number/)
 
-## 题目:
+## 题目
 
 Given a **non-empty** array of integers, every element appears *twice* except for one. Find that single one.
 

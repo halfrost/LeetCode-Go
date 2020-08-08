@@ -2,7 +2,7 @@
 
 
 
-## 题目:
+## 题目
 
 Given a 2D board containing `'X'` and `'O'` (**the letter O**), capture all regions surrounded by `'X'`.
 

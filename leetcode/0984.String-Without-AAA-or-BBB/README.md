@@ -1,7 +1,7 @@
 # [984. String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/)
 
 
-## 题目:
+## 题目
 
 Given two integers `A` and `B`, return **any** string `S` such that:
 

@@ -1,7 +1,7 @@
 # [1175. Prime Arrangements](https://leetcode.com/problems/prime-arrangements/)
 
 
-## 题目:
+## 题目
 
 Return the number of permutations of 1 to `n` so that prime numbers are at prime indices (1-indexed.)
 

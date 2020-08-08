@@ -1,7 +1,7 @@
 # [699. Falling Squares](https://leetcode.com/problems/falling-squares/)
 
 
-## 题目:
+## 题目
 
 On an infinite number line (x-axis), we drop given squares in the order they are given.
 

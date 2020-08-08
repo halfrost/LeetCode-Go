@@ -1,7 +1,7 @@
 # [1028. Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 
 
-## 题目:
+## 题目
 
 We run a preorder depth first search on the `root` of a binary tree.
 

@@ -1,7 +1,7 @@
 # [911. Online Election](https://leetcode.com/problems/online-election/)
 
 
-## 题目:
+## 题目
 
 In an election, the `i`-th vote was cast for `persons[i]` at time `times[i]`.
 

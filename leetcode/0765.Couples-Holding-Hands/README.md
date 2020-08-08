@@ -1,7 +1,7 @@
 # [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
 
 
-## 题目:
+## 题目
 
 N couples sit in 2N seats arranged in a row and want to hold hands. We want to know the minimum number of swaps so that every couple is sitting side by side. A swap consists of choosing **any** two people, then they stand up and switch seats.
 

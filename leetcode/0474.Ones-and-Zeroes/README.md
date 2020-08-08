@@ -1,7 +1,7 @@
 # [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 
 
-## 题目:
+## 题目
 
 In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.
 

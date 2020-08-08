@@ -1,7 +1,7 @@
 # [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
 
 
-## 题目:
+## 题目
 
 Let's call an array `A` a *mountain* if the following properties hold:
 

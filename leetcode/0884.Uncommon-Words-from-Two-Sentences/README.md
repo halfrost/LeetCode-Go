@@ -1,7 +1,7 @@
 # [884. Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)
 
 
-## 题目:
+## 题目
 
 We are given two sentences `A` and `B`. (A *sentence* is a string of space separated words. Each *word* consists only of lowercase letters.)
 

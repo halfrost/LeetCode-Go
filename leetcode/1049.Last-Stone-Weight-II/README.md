@@ -1,6 +1,6 @@
 # [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 
-## 题目:
+## 题目
 
 We have a collection of rocks, each rock has a positive integer weight.
 

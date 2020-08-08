@@ -1,7 +1,7 @@
 # [803. Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)
 
 
-## 题目:
+## 题目
 
 We have a grid of 1s and 0s; the 1s in a cell represent bricks. A brick will not drop if and only if it is directly connected to the top of the grid, or at least one of its (4-way) adjacent bricks will not drop.
 

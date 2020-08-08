@@ -1,7 +1,7 @@
 # [970. Powerful Integers](https://leetcode.com/problems/powerful-integers/)
 
 
-## 题目:
+## 题目
 
 Given two positive integers `x` and `y`, an integer is *powerful* if it is equal to `x^i + y^j` for some integers `i >= 0` and `j >= 0`.
 

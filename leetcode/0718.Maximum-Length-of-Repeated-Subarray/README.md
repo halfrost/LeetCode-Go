@@ -1,7 +1,7 @@
 # [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 
 
-## 题目:
+## 题目
 
 Given two integer arrays `A` and `B`, return the maximum length of an subarray that appears in both arrays.
 

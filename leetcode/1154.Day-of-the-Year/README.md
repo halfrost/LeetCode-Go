@@ -1,7 +1,7 @@
 # [1154. Day of the Year](https://leetcode.com/problems/day-of-the-year/)
 
 
-## 题目:
+## 题目
 
 Given a string `date` representing a [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) date formatted as `YYYY-MM-DD`, return the day number of the year.
 

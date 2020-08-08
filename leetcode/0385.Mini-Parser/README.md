@@ -1,7 +1,7 @@
 # [385. Mini Parser](https://leetcode.com/problems/mini-parser/)
 
 
-## 题目:
+## 题目
 
 Given a nested list of integers represented as a string, implement a parser to deserialize it.
 

@@ -1,7 +1,7 @@
 # [918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 
 
-## 题目:
+## 题目
 
 Given a **circular array** **C** of integers represented by `A`, find the maximum possible sum of a non-empty subarray of **C**.
 

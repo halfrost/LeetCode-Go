@@ -1,7 +1,7 @@
 # [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
 
 
-## 题目:
+## 题目
 
 Given two integers `dividend` and `divisor`, divide two integers without using multiplication, division and mod operator.
 

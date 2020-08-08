@@ -1,7 +1,7 @@
 # [1017. Convert to Base -2](https://leetcode.com/problems/convert-to-base-2/)
 
 
-## 题目:
+## 题目
 
 Given a number `N`, return a string consisting of `"0"`s and `"1"`s that represents its value in base **`-2`** (negative two).
 

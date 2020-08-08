@@ -1,7 +1,7 @@
 # [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)
 
 
-## 题目:
+## 题目
 
 Given a string `text`, you want to use the characters of `text` to form as many instances of the word **"balloon"** as possible.
 

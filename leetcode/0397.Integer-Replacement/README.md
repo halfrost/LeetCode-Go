@@ -1,7 +1,7 @@
 # [397. Integer Replacement](https://leetcode.com/problems/integer-replacement/)
 
 
-## 题目:
+## 题目
 
 Given a positive integer n and you can do operations as follow:
 

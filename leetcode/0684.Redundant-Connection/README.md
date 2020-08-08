@@ -1,7 +1,7 @@
 # [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
 
 
-## 题目:
+## 题目
 
 In this problem, a tree is an **undirected** graph that is connected and has no cycles.
 

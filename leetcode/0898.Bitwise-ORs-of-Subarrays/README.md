@@ -1,7 +1,7 @@
 # [898. Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)
 
 
-## 题目:
+## 题目
 
 We have an array `A` of non-negative integers.
 
