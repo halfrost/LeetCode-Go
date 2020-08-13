@@ -5,30 +5,61 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
-	tests := [][]int{
-		[]int{3, 2, 4},
-		[]int{3, 2, 4},
-		[]int{0, 8, 7, 3, 3, 4, 2},
-		[]int{0, 1},
+type question1 struct {
+	para1
+	ans1
+}
+
+// para 是参数
+// one 代表第一个参数
+type para1 struct {
+	nums   []int
+	target int
+}
+
+// ans 是答案
+// one 代表第一个答案
+type ans1 struct {
+	one []int
+}
+
+func Test_Problem1(t *testing.T) {
+
+	qs := []question1{
+
+		question1{
+			para1{[]int{3, 2, 4}, 6},
+			ans1{[]int{1, 2}},
+		},
+
+		question1{
+			para1{[]int{3, 2, 4}, 5},
+			ans1{[]int{0, 1}},
+		},
+
+		question1{
+			para1{[]int{0, 8, 7, 3, 3, 4, 2}, 11},
+			ans1{[]int{1, 3}},
+		},
+
+		question1{
+			para1{[]int{0, 1}, 1},
+			ans1{[]int{0, 1}},
+		},
+
+		question1{
+			para1{[]int{0, 3}, 5},
+			ans1{[]int{}},
+		},
+
+		// 如需多个测试，可以复制上方元素。
 	}
-	targets := []int{
-		6,
-		5,
-		11,
-		1,
-	}
-	results := [][]int{
-		[]int{1, 2},
-		[]int{0, 1},
-		[]int{1, 3},
-		[]int{0, 1},
-	}
+
 	fmt.Printf("------------------------Leetcode Problem 1------------------------\n")
-	for i := 0; i < len(targets); i++ {
-		fmt.Printf("nums = %v target = %v result = %v\n", tests[i], targets[i], twoSum(tests[i], targets[i]))
-		if ret := twoSum(tests[i], targets[i]); ret[0] != results[i][0] && ret[1] != results[i][1] {
-			t.Fatalf("case %d fails: %v\n", i, ret)
-		}
+
+	for _, q := range qs {
+		_, p := q.ans1, q.para1
+		fmt.Printf("【input】:%v       【output】:%v\n", p, twoSum(p.nums, p.target))
 	}
+	fmt.Printf("\n\n\n")
 }
