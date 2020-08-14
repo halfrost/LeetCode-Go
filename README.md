@@ -8,7 +8,7 @@
 </p>
 
 <p align='center'>
-<a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-9650-yellow.svg">
+<a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-8751-yellow.svg">
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/language-Golang-abcdef.svg">
 <a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
@@ -26,12 +26,14 @@
 </p>
 
 <p align='center'>
-支持 Progressive Web Apps 的题解电子书《LeetCode Cookbook》在线阅读 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">地址</a>
+支持 Progressive Web Apps 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
 </p>
 
 ## Data Structures
 
 > 标识了 ✅ 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的
+
+<a href="https://books.halfrost.com/leetcode"><img src="./website/static/logo.png" alt="logo" height="550" align="right" /></a>
 
 * [Array](#array)
 * [String](#string)
