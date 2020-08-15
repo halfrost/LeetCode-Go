@@ -9,10 +9,8 @@ func moveZeroes(nums []int) {
 		if nums[i] != 0 {
 			if i != j {
 				nums[i], nums[j] = nums[j], nums[i]
-				j++
-			} else {
-				j++
 			}
+			j++
 		}
 	}
 }
