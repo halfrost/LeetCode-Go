@@ -29,6 +29,15 @@
 支持 Progressive Web Apps 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
 </p>
 
+
+<p align='center'>
+离线版本的电子书《LeetCode Cookbook》PDF <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow">Download here</a>
+</p>
+
+<p align='center'>
+<img src="https://img.halfrost.com/Leetcode/Cookbook.png">
+</p>
+
 ## Data Structures
 
 > 标识了 ✅ 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的

@@ -2,7 +2,7 @@
 
 
 
-### 题目
+## 题目
 
 Write a class `RecentCounter` to count recent requests.
 

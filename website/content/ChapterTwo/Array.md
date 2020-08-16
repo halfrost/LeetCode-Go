@@ -3,7 +3,7 @@ title: Array
 type: docs
 ---
 
-## Array
+# Array
 
 | Title | Solution | Difficulty | Time | Space |收藏| 
 | ----- | :--------: | :----------: | :----: | :-----: | :-----: |
