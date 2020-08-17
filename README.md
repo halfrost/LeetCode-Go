@@ -9,7 +9,6 @@
 
 <p align='center'>
 <a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-8751-yellow.svg">
-<img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/language-Golang-abcdef.svg">
 <a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
 <a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-f974ce.svg?style=flat&colorA=f4292e"></a>
@@ -35,7 +34,7 @@
 </p>
 
 <p align='center'>
-<img src="https://img.halfrost.com/Leetcode/Cookbook.png">
+<a href="https://github.com/halfrost/LeetCode-Go/releases/"><img src="https://img.halfrost.com/Leetcode/Cookbook.png"></a>
 </p>
 
 ## Data Structures
