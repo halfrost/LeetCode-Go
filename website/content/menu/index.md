@@ -355,6 +355,7 @@ headless: true
     - [0719.Find-K-th-Smallest-Pair-Distance]({{< relref "/ChapterFour/0719.Find-K-th-Smallest-Pair-Distance.md" >}})
     - [0720.Longest-Word-in-Dictionary]({{< relref "/ChapterFour/0720.Longest-Word-in-Dictionary.md" >}})
     - [0721.Accounts-Merge]({{< relref "/ChapterFour/0721.Accounts-Merge.md" >}})
+    - [0724.Find-Pivot-Index]({{< relref "/ChapterFour/0724.Find-Pivot-Index.md" >}})
     - [0725.Split-Linked-List-in-Parts]({{< relref "/ChapterFour/0725.Split-Linked-List-in-Parts.md" >}})
     - [0726.Number-of-Atoms]({{< relref "/ChapterFour/0726.Number-of-Atoms.md" >}})
     - [0729.My-Calendar-I]({{< relref "/ChapterFour/0729.My-Calendar-I.md" >}})
