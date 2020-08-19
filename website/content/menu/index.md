@@ -125,6 +125,7 @@ headless: true
     - [0112.Path-Sum]({{< relref "/ChapterFour/0112.Path-Sum.md" >}})
     - [0113.Path-Sum-II]({{< relref "/ChapterFour/0113.Path-Sum-II.md" >}})
     - [0114.Flatten-Binary-Tree-to-Linked-List]({{< relref "/ChapterFour/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})
+    - [0118.Pascals-Triangle]({{< relref "/ChapterFour/0118.Pascals-Triangle.md" >}})
     - [0120.Triangle]({{< relref "/ChapterFour/0120.Triangle.md" >}})
     - [0121.Best-Time-to-Buy-and-Sell-Stock]({{< relref "/ChapterFour/0121.Best-Time-to-Buy-and-Sell-Stock.md" >}})
     - [0122.Best-Time-to-Buy-and-Sell-Stock-II]({{< relref "/ChapterFour/0122.Best-Time-to-Buy-and-Sell-Stock-II.md" >}})

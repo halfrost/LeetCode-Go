@@ -2407,6 +2407,9 @@ func peakIndexInMountainArray(A []int) int {
 - 两两不相邻的排序。第 767 题，第 1054 题。
 - "饼子排序"。第 969 题。
 
+<details>
+  <summary>Problems List</summary>
+
 | Title | Solution | Difficulty | Time | Space | 收藏 |
 | ----- | :--------: | :----------: | :----: | :-----: |:-----: |
 |[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0056.Merge-Intervals)| Medium | O(n log n)| O(log n)||
@@ -2434,6 +2437,7 @@ func peakIndexInMountainArray(A []int) int {
 |[1054. Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)| [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1054.Distant-Barcodes)| Medium | O(n log n)| O(log n) |❤️|
 |-----------------------------------------------------------------|-------------|-------------| --------------------------| --------------------------|-------------|
 
+</details>
 
 ## Bit Manipulation
 
