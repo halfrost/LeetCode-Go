@@ -6,8 +6,8 @@ html {
 
 body {
   min-width: $body-min-width;
-  color: $body-font-color;
-  background: $body-background;
+  color: var(--body-font-color);
+  background: var(--body-background);
 
   letter-spacing: 0.33px;
   font-weight: $body-font-weight;
@@ -31,7 +31,7 @@ h5 {
 
 a {
   text-decoration: none;
-  color: $color-link;
+  color: var(--color-link);
 }
 
 img {
@@ -81,7 +81,7 @@ ul.pagination {
 }
 
 .book-icon {
-  filter: $icon-filter;
+  filter: var(--icon-filter);
 }
 
 .book-brand {
@@ -102,7 +102,7 @@ ul.pagination {
   nav {
     width: $menu-width;
     padding: $padding-16;
-    background: $body-background;
+    background: var(--body-background);
 
     @include fixed;
   }
@@ -113,7 +113,7 @@ ul.pagination {
   }
 
   a.active {
-    color: $color-link;
+    color: var(--color-link);
   }
 
   a.collapsed {
@@ -174,8 +174,8 @@ ul.pagination {
     border: 0;
     border-radius: $border-radius;
 
-    background: $gray-100;
-    color: $body-font-color;
+    background: var(--gray-100);
+    color: var(--body-font-color);
 
     &:required + .book-search-spinner {
       display: block;
@@ -192,7 +192,7 @@ ul.pagination {
     height: $padding-16;
 
     border: $padding-1 solid transparent;
-    border-top-color: $body-font-color;
+    border-top-color: var(--body-font-color);
     border-radius: 50%;
 
     @include spin(1s);
@@ -271,7 +271,7 @@ ul.pagination {
     left: 0;
     padding: $padding-8 0;
 
-    background: $body-background;
+    background: var(--body-background);
     box-shadow: 0 0 $padding-4 rgba(0, 0, 0, 0.1);
 
     li img {
