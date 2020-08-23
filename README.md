@@ -24,7 +24,6 @@
 <img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 </p>
 
-
 支持 Progressive Web Apps 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
 
 <p align='center'>
