@@ -58,7 +58,7 @@
       text-decoration: underline;
     }
     &:visited {
-      color: $color-visited-link;
+      color: var(--color-visited-link);
     }
   }
 
@@ -68,14 +68,14 @@
 
   code {
     padding: 0 $padding-4;
-    background: $gray-200;
+    background: var(--gray-200);
     border-radius: $border-radius;
     font-size: 0.875em;
   }
 
   pre {
     padding: $padding-16;
-    background: $gray-100;
+    background: var(--gray-100);
     border-radius: $border-radius;
     overflow-x: auto;
 
@@ -89,7 +89,7 @@
     margin: $padding-16 0;
     padding: $padding-8 $padding-16 $padding-8 ($padding-16 - $padding-4); //to keep total left space 16dp
 
-    border-inline-start: $padding-4 solid $gray-200;
+    border-inline-start: $padding-4 solid var(--gray-200);
     border-radius: $border-radius;
 
     :first-child {
@@ -111,18 +111,18 @@
     tr th,
     tr td {
       padding: $padding-8 $padding-16;
-      border: $padding-1 solid $gray-200;
+      border: $padding-1 solid var(--gray-200);
     }
 
     tr:nth-child(2n) {
-      background: $gray-100;
+      background: var(--gray-100);
     }
   }
 
   hr {
     height: $padding-1;
     border: none;
-    background: $gray-200;
+    background: var(--gray-200);
   }
 
   ul,
@@ -156,7 +156,7 @@
 
   details {
     padding: $padding-16;
-    border: $padding-1 solid $gray-200;
+    border: $padding-1 solid var(--gray-200);
     border-radius: $border-radius;
 
     summary {

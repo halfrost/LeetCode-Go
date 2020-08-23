@@ -4,3 +4,14 @@
 <link href="{{ "apple-touch-icon-120x120.png" | relURL }}" rel="apple-touch-icon" sizes="120x120" />
 <link href="{{ "apple-touch-icon-152x152.png" | relURL }}" rel="apple-touch-icon" sizes="152x152" />
 <link href="{{ "apple-touch-icon-512x512.png" | relURL }}" rel="apple-touch-icon" sizes="512x512" />
+
+<script>
+    var html = document.documentElement;  
+    //Check Storage. Keep user preference on page reload
+    if (localStorage.getItem('themeMode') == 'dark') {
+      html.setAttribute("data-theme","dark");
+    }
+    if (localStorage.getItem('themeMode') == 'light') {
+      html.setAttribute("data-theme","light");
+    }
+  </script>
