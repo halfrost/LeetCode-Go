@@ -1,0 +1,57 @@
+#list-main {
+  position: relative;
+  
+  @include flexbox();
+  @include flex-direction(column);
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+
+    &[data-dir="ltr"] {
+      border-right: 1px solid themed('border-line-color');
+    }
+
+    &[data-dir="rtl"] {
+      border-left: 1px solid themed('border-line-color');
+    }
+  }
+}
+
+#list-menu {
+  position: relative;
+  
+  @include themify($themes) {
+    &[data-dir="ltr"] {
+      border-right: 1px solid themed('border-line-color');
+    }
+
+    &[data-dir="rtl"] {
+      border-left: 1px solid themed('border-line-color');
+    }
+  }
+}
+
+#list-side {
+  position: relative;
+}
+
+.list-section {
+  &__item {
+    margin: auto;
+    padding: 0.25rem 0;
+    width: 95%;
+    border-radius: 0.2rem;
+
+    &--link {
+      display: inline-block;
+      font-size: 1rem;
+      font-family: $title-font;
+      margin-top: 0.5rem;
+      margin-bottom: 0.125rem;
+    }
+
+    &--desc {
+      font-size: 1rem;
+      margin: 0.25rem 0;
+    }
+  }
+}

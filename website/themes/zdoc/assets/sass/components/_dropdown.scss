@@ -1,0 +1,22 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: z('dropdown');
+}
+
+.dropdown-content a {
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+  display: block;
+  @include truncate2(120px);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

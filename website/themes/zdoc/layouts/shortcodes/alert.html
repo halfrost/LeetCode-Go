@@ -1,0 +1,6 @@
+<div class="alert{{- " " -}}{{- if .IsNamedParams -}}
+{{- with .Get "theme" -}}alert-{{.}}{{- else -}}alert-info{{- end -}}
+{{- else -}}
+	{{- with .Get 0 -}}alert-{{.}}{{- else -}}alert-info{{- end -}}
+{{- end -}}
+" role="alert" data-dir="{{ with .Get "dir" }}{{.}}{{ else }}ltr{{ end }}">{{ .Inner | markdownify }}</div>

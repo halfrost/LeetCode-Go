@@ -1,0 +1,11 @@
+.bgcolor {
+  @include themify($themes) {
+    &__header {
+      background-color: themed('single-header-title-background-color');
+    }
+
+    &__breadcrumb {
+      background-color: themed('breadcrumb-background-color');
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[toc-label]
+other = "목차"
+
+[tooltip-written]
+other = "작성일"
+
+[tooltip-modified]
+other = "수정일"
+
+[tooltip-reading-time]
+other = "읽는 시간"
+
+[summary-dateformat]
+other = "2006년 01월 02일"
+
+[reading-time]
+other = "min read"
+
+[single-writtenBy]
+other = "글쓴이"
+
+[edit-this-page]
+other = "이 페이지 수정하기"

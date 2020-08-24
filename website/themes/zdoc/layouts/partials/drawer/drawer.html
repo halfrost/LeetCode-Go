@@ -1,0 +1,41 @@
+<div id="myDrawer" class="drawer" style="{{ if eq ($.Param "languagedir") "rtl" }}right: -100%{{ end }}">
+  <div class="drawer__header">
+    <a href="/" class="drawer__header--text">
+      {{ .Site.Params.logoText }}
+    </a>
+    <div class="grow"></div>
+    <div class="drawer__close">
+      {{ partial "svgs/close.svg" (dict "width" 22 "height" 22) }}
+    </div>
+  </div>
+
+  <div class="drawer__body">
+    {{ partial "main/sections/list-menu.html" . }}
+  </div>
+</div>
+<div id="myModal" class="modal" style="{{ if eq ($.Param "languagedir") "rtl" }}opacity: 0; right: -100%{{ end }}"></div>
+
+<script>
+  var isDrawerOpen = localStorage.getItem('isDrawerOpen');
+  var modal = document.getElementById("myModal");
+  var drawer = document.getElementById('myDrawer');
+  
+  {{ $languagedir := ($.Param "languagedir" | default "ltr") }}
+  var languagedir = JSON.parse({{ $languagedir | jsonify }});
+
+  var openDrawer = function () {
+    modal.style.opacity = 1;
+    
+    if (languagedir === "rtl") {
+      modal.style.right = 0;
+      drawer.style.right = 0;
+    } else {
+      modal.style.left = 0;
+      drawer.style.left = 0;
+    }
+  }
+
+  if (isDrawerOpen && isDrawerOpen === 'true') {
+    openDrawer();
+  }
+</script>

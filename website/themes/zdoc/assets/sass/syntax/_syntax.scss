@@ -1,0 +1,11 @@
+
+@import 'duotonelight';
+@import 'dracula';
+
+.theme__light {
+  @include chroma-duotonelight;
+}
+
+.theme__dark {
+  @include chroma-dracula;
+}

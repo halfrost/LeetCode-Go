@@ -1,0 +1,42 @@
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ .Name }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+<meta name="keywords" content="{{ delimit .Keywords "," }}">
+<meta name="created" content="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
+<meta name="modified" content="{{ .Lastmod.Format "2006-01-02T15:04:05-0700" }}">
+{{ with $.Param "author" }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with $.Param "contact" }}<meta name="contact" content="{{ . }}">{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+{{ with $.Param "image" }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{ hugo.Generator }}
+<meta name="msapplication-TileColor" content="{{ $.Param "themecolor" | default "#ffffff" }}">
+<meta name="theme-color" content="{{ $.Param "themecolor" | default "#ffffff" }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="manifest" href="{{ "manifest.json" | relURL }}">
+{{ if $.Site.Params.useFaviconGenerator }}
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ "favicon/apple-icon-57x57.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ "favicon/apple-icon-60x60.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ "favicon/apple-icon-72x72.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ "favicon/apple-icon-76x76.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ "favicon/apple-icon-114x114.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ "favicon/apple-icon-120x120.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ "favicon/apple-icon-144x144.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ "favicon/apple-icon-152x152.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicon/apple-icon-180x180.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ "favicon/android-icon-192x192.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ "favicon/android-icon-512x512.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon/favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ "favicon/favicon-96x96.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon/favicon-16x16.png" | relURL }}">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+{{ else }}
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="shortcut icon" href="{{ "favicon.png" | relURL }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ "logo.svg" | relURL }}" sizes="any" type="image/svg+xml" />
+{{ end }}

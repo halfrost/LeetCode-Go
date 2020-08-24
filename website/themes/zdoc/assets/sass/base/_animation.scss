@@ -1,0 +1,26 @@
+// -- Slide Animations -- //
+
+@include keyframes(slide-in-down) {
+  0% {
+    transform: translate(0,-12%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+// Slide in Left to Center
+@include keyframes(slide-in-left) {
+  0% {
+    transform: translate(-12%,0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}

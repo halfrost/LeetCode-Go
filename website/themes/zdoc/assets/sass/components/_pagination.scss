@@ -1,0 +1,96 @@
+.pagination {
+  border-radius: 0.25rem;
+  margin: 2rem 1rem;
+  padding: 0.5rem 0;
+
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+
+  li {
+    border-radius: 0.25rem;
+    &.disabled {
+      a {
+        @include on-event {
+          @include themify($themes) {
+            color: themed('pagination-number-color');
+            text-decoration: none;
+          }      
+        }
+      }
+    }
+    
+    &.active {
+      font-weight: bold;
+      a {
+        @include themify($themes) {
+          color: themed('link-hover');
+          border-bottom: 5px solid themed('pagination-number-color');
+        }      
+      }
+    }
+  }
+
+  a {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;    
+    @include themify($themes) {
+      color: themed('pagination-number-color');
+      @include on-event {
+        color: themed('link-hover');
+      }
+    }
+  }
+}
+
+.pagination-single {
+  margin: 1rem 0;
+  padding-top: 0.75rem;
+
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+  @include flex-wrap(wrap);
+
+  &__left,
+  &__right {
+    padding: 0.25rem;
+    border-radius: 0.125rem;
+
+    @include truncate($grid-body-width);
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    @include themify($themes) {
+      color: themed('pagination-color');
+    }
+    
+    &-title {
+      font-size: 16.8px;
+      @include truncate($grid-body-width);
+    }
+  }
+
+  &__left {
+    @include on-event {
+      
+    }
+  }
+
+  &__right {
+    @include on-event {
+      
+    }
+  }
+
+  &__icon {
+    border-radius: 100%;
+    margin: 0 0.5rem;
+    color: inherit;
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+  }
+}

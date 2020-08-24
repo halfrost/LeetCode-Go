@@ -1,0 +1,17 @@
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+<script>
+  var gitalk = new Gitalk({
+    id: '{{ .Date }}',
+    title: '{{ .Title }}',
+    clientID: '{{ .Site.Params.gitalk.clientId }}',
+    clientSecret: '{{ .Site.Params.gitalk.clientSecret }}',
+    repo: '{{ .Site.Params.gitalk.repo }}',
+    owner: '{{ .Site.Params.gitalk.owner }}',
+    admin: ['{{ .Site.Params.gitalk.owner }}'],
+    body: decodeURI(location.href)
+  });
+  gitalk.render('gitalk-container');
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>

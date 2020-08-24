@@ -1,0 +1,7 @@
+{{ define "header" }}
+  {{ partial "main/header.html" . }}
+{{ end }}
+{{ define "main" }}
+  {{ $section_to_display :=  .Sections | default .Pages }}
+  {{ partial "main/list.html" (dict "context" . "section_to_display" $section_to_display) }}
+{{ end }}

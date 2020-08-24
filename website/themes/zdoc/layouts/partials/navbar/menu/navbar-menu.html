@@ -1,0 +1,10 @@
+{{ $current := . }}
+{{ range .Site.Menus.main }}
+  {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+  {{ $active = or $active (eq .Name $current.Title) }}
+  {{ $active = or $active (eq (lower .URL) (lower $current.Title)) }}
+  {{ $active = or $active (eq (lower .URL) (lower $current.Type)) }}
+  <li class="navbar__menu--item {{ if $active }}active{{ end }}">
+    <a href="{{ .URL | relLangURL | safeURL }}" data-bgimg="{{ if and ($.Params.landing.backgroundImage) $.IsHome }}true{{ else }}false{{ end }}">{{ safeHTML .Name }}</a>
+  </li>
+{{ end }}

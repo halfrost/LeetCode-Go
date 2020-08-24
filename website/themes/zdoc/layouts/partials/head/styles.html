@@ -1,0 +1,14 @@
+{{ $main_options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+{{ $main_template := resources.Get "sass/main.scss" }}
+{{ $main_style := $main_template | resources.ExecuteAsTemplate "main_parsed.scss" . | toCSS $main_options | resources.Minify }}
+<link rel="stylesheet" href="{{ $main_style.RelPermalink }}">
+
+{{ if .Site.Params.custom_css }}
+{{ range .Site.Params.custom_css }}
+  {{ $custom_template := resources.Get . }}
+  {{ if $custom_template }}
+    {{ $custom_style := $custom_template | resources.ToCSS | resources.Minify }}
+    <link rel="stylesheet" href="{{ $custom_style.RelPermalink }}">
+  {{ end }}
+{{ end }}
+{{ end }}

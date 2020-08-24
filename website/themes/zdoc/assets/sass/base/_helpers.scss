@@ -1,0 +1,38 @@
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.hide {
+  display: none;
+}
+
+.grow {
+  @include flex-grow(1);
+}
+
+.flexbox {
+  @include flexbox();
+}
+
+.flexcolumn {
+  @include flexbox();
+  @include flex-direction(column);
+}
+
+.jc-center {
+  @include justify-content(center);
+}
+
+.ai-center {
+  @include align-items(center);
+}
+
+.flex-wrap {
+  @include flex-wrap(wrap);
+}

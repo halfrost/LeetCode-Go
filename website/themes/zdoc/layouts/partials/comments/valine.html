@@ -1,0 +1,22 @@
+{{- if .Site.Params.valine.visitor -}}
+  <span id="{{ .RelPermalink | relLangURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+  <span class="post-meta-item-text">文章阅读量 </span>
+  <span class="leancloud-visitors-count">0</span>
+  <p></p>
+  </span>
+{{- end }}
+<div id="vcomments"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+  new Valine({
+      el: '#vcomments' ,
+      appId: '{{ .Site.Params.valine.appId }}',
+      appKey: '{{ .Site.Params.valine.appKey }}',
+      notify: {{ .Site.Params.valine.notify }},
+      verify: {{ .Site.Params.valine.verify }},
+      avatar:'{{ .Site.Params.valine.avatar }}',
+      placeholder: '{{ .Site.Params.valine.placeholder }}',
+      visitor: {{ .Site.Params.valine.visitor }}
+  });
+</script>

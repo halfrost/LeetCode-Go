@@ -1,0 +1,235 @@
+.notices {
+    position: relative;
+    border-radius: .125rem;
+    color: #fff;
+    margin: 2rem 0;
+    padding: .3rem 0.5rem .3rem 2rem;
+    font-size: 0.95rem;
+
+    a {
+        text-decoration: underline;
+    }
+
+    > table {
+        table-layout:fixed;
+        width: 100%;
+        margin: 10px 0;
+        border-spacing: 0;
+    }
+
+    &.warning {
+        border-top: 30px solid #f1b37e;
+        background: #fefaf5;
+        color: rgba(150, 90, 38, 0.995) !important;
+
+        &::before {
+          position: absolute;
+          content: url("data:image/svg+xml,%0A%3Csvg fill='%23000000' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='21px' height='21px'%3E%3Cpath fill='#fefaf5' d='M 12 3.0292969 C 11.436813 3.0292969 10.873869 3.2917399 10.558594 3.8164062 L 1.7617188 18.451172 C 1.1134854 19.529186 1.94287 21 3.2011719 21 L 20.796875 21 C 22.054805 21 22.886515 19.529186 22.238281 18.451172 L 13.441406 3.8164062 C 13.126131 3.29174 12.563187 3.0292969 12 3.0292969 z M 12 5.2988281 L 20.236328 19 L 3.7636719 19 L 12 5.2988281 z M 11 9 L 11 14 L 13 14 L 13 9 L 11 9 z M 11 16 L 11 18 L 13 18 L 13 16 L 11 16 z'/%3E%3C/svg%3E");
+          top: -26.5px;
+          left: 0.4rem;
+          height: 100%;
+        }
+
+        &::after {
+          position: absolute;
+          content: attr(data-title);
+          font-family: $title-font;
+          top: -26.5px;
+          left: 2rem;
+          height: 100%;
+        }
+
+        a {
+            font-weight: bold;
+            color: rgba(134, 74, 22, 0.995);
+            @include themify($themes) {
+                @include on-event {
+                    color: themed('link-hover');
+                }
+            }
+        }
+
+        > table {
+            thead {
+                background: #f1b37e;
+            }
+
+            th {
+                color: rgba(134, 74, 22, 0.995);
+            }
+
+            th, td {
+                padding: 5px 15px;
+                border: 1px double rgba(166, 106, 54, 0.45);
+            }
+        }
+
+        p > code, li > code, td > code, code {
+            padding: 3px 7px;
+            color: rgba(150, 90, 38, 0.995) !important;
+            background-color: darken(#fefaf5, 6%) !important;
+        }
+    }
+
+    &.error {
+        border-top: 30px solid #d58181;
+        background: #fbeded;
+        color: rgba(132, 56, 56, 0.995) !important;
+
+        &::before {
+          position: absolute;
+          content: url("data:image/svg+xml,%0A%3C%3Fxml version='1.0'%3F%3E%3Csvg fill='%23000000' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='21px' height='21px'%3E%3Cpath fill='#fbeded' d='M 5 3 C 3.895 3 3 3.895 3 5 L 3 19 C 3 20.105 3.895 21 5 21 L 19 21 C 20.105 21 21 20.105 21 19 L 21 5 C 21 3.895 20.105 3 19 3 L 5 3 z M 5 5 L 19 5 L 19 19 L 5 19 L 5 5 z M 8.4101562 7 L 7 8.4101562 L 10.589844 12 L 7 15.589844 L 8.4101562 17 L 12 13.410156 L 15.589844 17 L 17 15.589844 L 13.410156 12 L 17 8.4101562 L 15.589844 7 L 12 10.589844 L 8.4101562 7 z'/%3E%3C/svg%3E");
+          top: -26.5px;
+          left: 0.4rem;
+          height: 100%;
+        }
+
+        &::after {
+          position: absolute;
+          content: attr(data-title);
+          font-family: $title-font;
+          top: -26.5px;
+          left: 2rem;
+          height: 100%;
+        }
+
+        a {
+            font-weight: bold;
+            color: rgba(116, 40, 40, 0.995);
+            @include themify($themes) {
+                @include on-event {
+                    color: themed('link-hover');
+                }
+            }
+        }
+
+        > table {
+            thead {
+                background: #d58181;
+            }
+
+            th {
+                color: rgba(116, 40, 40, 0.995);
+            }
+
+            th, td {
+                padding: 5px 15px;
+                border: 1px double rgba(148, 72, 72, 0.45);
+            }
+        }
+
+        p > code, li > code, td > code, code {
+            padding: 3px 7px;
+            color: rgba(132, 56, 56, 0.995) !important;
+            background-color: darken(#fbeded, 6%) !important;
+        }
+    }
+
+    &.info {
+        border-top: 30px solid #6bb1e0;
+        background: #e6f3fb;
+        color: rgba(47, 103, 141, 0.995) !important;
+
+        &::before {
+            position: absolute;
+            content: url("data:image/svg+xml,%3Csvg fill='%23000000' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='21px' height='21px'%3E%3Cpath fill='#e6f3fb' d='M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.430123 16.430123 20 12 20 C 7.5698774 20 4 16.430123 4 12 C 4 7.5698774 7.5698774 4 12 4 z M 11 7 L 11 9 L 13 9 L 13 7 L 11 7 z M 11 11 L 11 17 L 13 17 L 13 11 L 11 11 z'/%3E%3C/svg%3E");
+            top: -26.5px;
+            left: 0.4rem;
+            height: 100%;
+        }
+
+        &::after {
+          position: absolute;
+          content: attr(data-title);
+          font-family: $title-font;
+          top: -26.5px;
+          left: 2rem;
+          height: 100%;
+        }
+
+        a {
+            font-weight: bold;
+            color: rgba(31, 87, 125, 0.995);
+            @include themify($themes) {
+                @include on-event {
+                    color: themed('link-hover');
+                }
+            }
+        }
+
+        > table {
+            thead {
+                background: #6bb1e0;
+            }
+
+            th {
+                color: rgba(31, 87, 125, 0.995);
+            }
+
+            th, td {
+                padding: 5px 15px;
+                border: 1px double rgba(63, 119, 157, 0.45);
+            }
+        }
+
+        p > code, li > code, td > code, code {
+            padding: 3px 7px;
+            color: rgba(47, 103, 141, 0.995) !important;
+            background-color: darken(#e6f3fb, 6%) !important;
+        }
+    }
+
+    &.success {
+        border-top: 30px solid #84c578;
+        background: #e8f7e6;
+        color: rgba(72, 125, 63, 0.995) !important;
+
+        &::before {
+          position: absolute;
+          content: url("data:image/svg+xml,%0A%3Csvg fill='%23000000' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='21px' height='21px'%3E%3Cpath fill='#e8f7e6' d='M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.430123 16.430123 20 12 20 C 7.5698774 20 4 16.430123 4 12 C 4 7.5698774 7.5698774 4 12 4 z M 16.292969 8.2929688 L 10 14.585938 L 7.7070312 12.292969 L 6.2929688 13.707031 L 10 17.414062 L 17.707031 9.7070312 L 16.292969 8.2929688 z'/%3E%3C/svg%3E");
+          top: -26.5px;
+          left: 0.4rem;
+          height: 100%;
+        }
+
+        &::after {
+          position: absolute;
+          content: attr(data-title);
+          font-family: $title-font;
+          top: -26.5px;
+          left: 2rem;
+          height: 100%;
+        }
+
+        a {
+            font-weight: bold;
+            color: rgba(56, 109, 47, 0.995);
+            @include themify($themes) {
+                @include on-event {
+                    color: themed('link-hover');
+                }
+            }
+        }
+
+        > table {
+            thead {
+                background: #84c578;
+            }
+
+            th {
+                color: rgba(56, 109, 47, 0.995);
+            }
+
+            th, td {
+                padding: 5px 15px;
+                border: 1px double rgba(82, 141, 79, 0.45);
+            }
+        }
+
+        p > code, li > code, td > code, code {
+            padding: 3px 7px;
+            color: rgba(72, 125, 63, 0.995) !important;
+            background-color: darken(#e8f7e6, 6%) !important;
+        }
+    }
+}

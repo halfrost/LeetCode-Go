@@ -1,0 +1,46 @@
+baseURL = "http://example.org"
+title = "Hugo Zdoc Theme"
+theme = "zdoc"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = false
+
+copyright = "&copy;{year}, All Rights Reserved"
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
+
+googleAnalytics = ""
+
+disableKinds = ["taxonomyTerm"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[taxonomies]
+  tag = "tags"

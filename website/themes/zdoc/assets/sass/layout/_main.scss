@@ -1,0 +1,14 @@
+.mid {
+  @include themify($themes) {
+    background-color: themed('back-background-color');
+  }
+}
+.main {
+  width: 100%;
+
+  @include flexbox();
+  @include justify-content(center);
+  @include themify($themes) {
+    background-color: themed('back-background-color');
+  }
+}

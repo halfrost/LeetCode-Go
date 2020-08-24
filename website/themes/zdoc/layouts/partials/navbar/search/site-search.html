@@ -1,0 +1,14 @@
+{{ if $.Param "enableSearch" }}
+
+<div class="search" data-bgimg="{{ if and ($.Params.landing.backgroundImage) .IsHome }}true{{ else }}false{{ end }}">
+  <span class="icon">
+    {{ partial "svgs/search.svg" (dict "width" 22 "height" 22) }}
+  </span>
+  <input id="search" aria-label="Site Search" class="input" type="text" autocomplete="off" placeholder="Search">
+  <div id="search-results" class="dropdown">
+    <div id="search-menu" class="dropdown-menu">
+    </div>
+  </div>
+</div>
+
+{{ end }}

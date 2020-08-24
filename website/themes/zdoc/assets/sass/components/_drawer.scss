@@ -1,0 +1,59 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: z('drawer');
+  width: $drawer-width;
+  height: 100%;
+
+  @include transition(all, 0.3s, ease-out);
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+  }
+
+  &__header {
+    height: $grid-nav-height;
+    width: 100%;
+
+    @include flexbox();
+    @include themify($themes) {
+      background-color: themed('navbar-background-color');
+      box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(60,65,70,0.1);
+    }
+
+    &--text {
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(flex-start);
+      @include themify($themes) {
+        color: themed('title-color');
+      }
+    }
+  }
+
+  &__body {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  &__close {
+    width: $grid-nav-height;
+    height: 100%;
+    cursor: pointer;
+
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    @include themify($themes) {
+      color: themed('body-color');
+      @include on-event {
+        color: themed('active-font-color');
+      }
+    }
+  }
+}

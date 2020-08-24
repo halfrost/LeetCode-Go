@@ -1,0 +1,14 @@
+<div id="siteLogo" class="navbar__logo--wrapper">
+  {{ if $.Param "logo" | default true }}
+    <a href="{{ "/" | relLangURL }}" title="{{ i18n "tooltip-home" }}" rel="home" class="{{ if eq ($.Param "logoType") "long" }}navbar__long--link{{ else }}navbar__logo--link{{ end }}">
+      <img src="{{ "/logo.png" | relURL }}" alt="Home" class="navbar__logo">
+    </a>
+  {{ else }}
+    &nbsp;&nbsp;
+  {{ end }}
+  {{ if ne .Site.Params.logoType "long" }}
+    <a href="{{ "/" | relLangURL }}" title="{{ i18n "tooltip-home" }}" rel="home" class="navbar__logo--text-link">
+      <h6 class="navbar__logo--text" data-bgimg="{{ if and ($.Params.landing.backgroundImage) $.IsHome }}true{{ else }}false{{ end }}">{{ .Site.Params.logoText }}</h6>
+    </a>
+  {{ end }}
+</div>

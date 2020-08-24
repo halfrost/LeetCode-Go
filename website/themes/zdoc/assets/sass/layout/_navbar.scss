@@ -1,0 +1,297 @@
+.nav {
+  position: relative;
+}
+.navbar {
+  padding: 0 0.75rem;
+  height: 100%;
+  position: relative;
+  
+  @include flexbox();
+  @include align-items(center);
+
+  &__wrapper {
+    width: 100%;
+    height: $grid-nav-height;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: z('navbar');
+    color: inherit;
+
+    &[data-bgimg="true"] {
+      background-color: transparent;
+    }
+
+    &[data-bgimg="false"] {
+      box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(60,65,70,0.1);
+      @include themify($themes) {
+        background-color: themed('navbar-background-color');
+      }
+    }
+
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+  }
+
+  &__menu {
+    height: 100%;
+    padding: 0 0.75rem;
+
+    @include flexbox();
+
+    &--wrapper {
+      height: 100%;
+      @include flexbox();
+      @include align-items(center);
+    }
+
+    &--item {
+      height: $grid-nav-height;
+      padding: 0rem 0.75rem;
+
+      & > a {
+        height: 100%;
+        font-family: $title-font;
+        font-size: 16.8px;
+        color: inherit;
+        text-decoration: none !important;
+        
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+      }
+
+      @include themify($themes) {
+        color: themed('navbar-menu-color');
+        &.active {
+          font-weight: bold;
+          color: themed('active-font-color');
+        }
+      }
+    }
+
+    &--mobile-item {
+      width: 100%;
+
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(flex-start);
+      @include on-event {
+        @include themify($themes) {
+          background-color: themed('dropdown-hover-background-color');
+        }
+      }
+
+      & > a {
+        width: 100%;
+        font-size: 18px;
+        padding: 0.5rem 1rem;
+        
+        @include themify($themes) {
+          color: themed('body-color');
+          
+          @include on-event {
+            text-decoration: none;  
+            color: themed('link-hover');
+          }
+
+          &.active {
+            font-weight: bold;
+            color: themed('active-font-color');
+            background-color: themed('dropdown-item-active-background-color');
+          }
+        }
+      }
+    }
+
+    &--btn {
+      height: $grid-nav-height;
+      font-size: 20px;
+      margin-left: 0.4rem;
+      margin-right: 0.5rem;
+      white-space: nowrap;
+      cursor: pointer;
+      border: none;
+
+      @include flexbox();
+      @include align-items(flex-end);
+      @include themify($themes) {
+        color: themed('body-color');
+        background: transparent;
+        @include on-event {
+          color: themed('active-font-color');
+        }
+      }
+    }
+  }
+
+  &__logo {
+    width: 100%;
+    height: 100%;
+    margin: 0 0.25rem;
+
+    &--wrapper {
+      height: 100%;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(flex-start);
+      @include themify($themes) {
+        color: themed('navbar-logo-color');
+        @include on-event {
+          color: themed('active-font-color');
+        }
+      }
+
+      a {
+        color: inherit;
+        @include on-event {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &--link {
+      width: 32.5px;
+      height: 32.5px;
+      
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      @include flex-shrink(0);
+    }
+
+    &--text {
+      font-size: 20px;
+      margin-left: 0.5rem;
+      margin-right: 1rem;
+      white-space: nowrap;
+      cursor: pointer;
+
+      @include flexbox();
+      @include align-items(flex-end);
+
+      @include themify($themes) {
+        &[data-bgimg="true"] {
+          // color
+        }
+
+        &[data-bgimg="false"] {
+          color: themed('body-color');
+        }
+      }
+    }
+  }
+
+  &__long {
+    &--link {
+      width: 100%;
+      height: 100%;
+      padding: 0.6rem 0.2rem;
+      margin: auto 0.25rem;
+      @include flex-shrink(0);
+    }
+  }
+
+  &__icons {
+    height: 100%;
+    @include flexbox();
+    @include align-items(center);
+    
+    &--icon {
+      width: 50px;
+      height: $grid-nav-height;
+      color: inherit;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      cursor: pointer;
+
+      @include flex-shrink(0);
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      @include themify($themes) {
+        color: themed('navbar-icon-color');
+        @include on-event {
+          color: themed('body-color');
+          background-color: themed('dropdown-hover-background-color');
+        }
+
+        & > a {
+          height: 100%;
+          color: inherit;
+          
+          @include flexbox();
+          @include align-items(center);
+          @include justify-content(center);
+        }
+      }
+    }
+  }
+
+  &__dropdown {
+    height: 30px;
+    font-size: 17.2px;
+
+    @include flexbox();
+    @include align-items(center);
+
+    &--content {
+      padding: 0.25rem 0;
+      min-width: 120px;
+      
+      @include box-shadow(0, 1px, 3px, 0, rgba(0, 0, 0, 0.4));
+      @include themify($themes) {
+        background-color: themed('dropdown-background-color');
+      }
+    }
+
+    &--title {
+      font-size: 16.8px;
+      font-family: $title-font;
+      border: none;
+      outline: none;
+      height: $grid-nav-height;
+      cursor: pointer;
+
+      &[data-dir="rtl"] {
+        margin-right: 1rem;
+      }
+
+      &[data-dir="ltr"] {
+        margin-left: 1rem;
+      }
+
+      @include flexbox();
+      @include align-items(center);
+      @include themify($themes) {
+        color: themed('body-color');
+        background-color: themed('navbar-background-color');
+      }
+    }
+  }
+
+  &__collapse {
+    width: 100%;
+    position: absolute;
+    top: $grid-nav-height;
+    left: 0;
+    max-height: 0;
+    overflow: hidden;
+
+    @include transition(all, 0.15s, ease-out);
+    @include themify($themes) {
+      background-color: themed('navbar-background-color');
+      
+      &[data-open="true"] {
+        border-bottom: 2px solid themed('border-line-color');
+      }
+      &[data-open="false"] {
+        border-bottom: none;
+      }
+    }
+  }
+}

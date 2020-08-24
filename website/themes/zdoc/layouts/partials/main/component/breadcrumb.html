@@ -1,0 +1,21 @@
+<nav class="breadcrumb" aria-label="breadcrumbs" data-is-blog="{{ if eq .Type "blog" }}true{{ else }}false{{ end }}">
+  <ol>
+    {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+  </ol>
+  {{ define "breadcrumbnav" }}
+  {{ if .p1.Parent }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+  {{ else if not .p1.IsHome }}
+  {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+  {{ end }}
+  <li {{ if eq .p1 .p2 }} class="is-active" {{ end }}>
+    {{ if eq (len .p1.Title) 0 }}
+      <a href="{{ .p1.Permalink }}" class="capitalize">{{ .p1.Site.Title }}</a>
+    {{ else if eq .p1 .p2 }}
+      <span>{{ i18n (lower .p1.Title) | default .p1.Title }}</span>
+    {{ else }}
+      <a href="{{ .p1.Permalink }}" class="capitalize">{{ i18n (lower .p1.Title) | default .p1.Title }}</a>
+    {{ end }}
+  </li>
+  {{ end }}
+</nav>

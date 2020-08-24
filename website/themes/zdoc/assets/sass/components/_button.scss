@@ -1,0 +1,61 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  cursor: pointer;
+
+  @include transition(all, 0.15s, ease-in);
+
+  &[data-color="default"] {
+    @include themify($themes) {
+      color: themed('body-background-color');
+      border: 1px solid darken(themed('landing-button-default'), 15%);
+      background-color: themed('landing-button-default');
+
+      @include on-event {
+        color: themed('body-background-color');
+        border: 1px solid darken(themed('landing-button-default'), 15%);
+        background-color: lighten(themed('landing-button-default'), 8%);
+      }
+    }
+  }
+  
+  &[data-color="primary"] {
+    @include themify($themes) {
+      color: themed('body-background-color');
+      border: 1px solid darken(themed('landing-button-primary'), 15%);
+      background-color: themed('landing-button-primary');
+
+      @include on-event {
+        color: themed('body-background-color');
+        border: 1px solid darken(themed('landing-button-primary'), 15%);
+        background-color: lighten(themed('landing-button-primary'), 8%);
+      }
+    }
+  }
+}
+
+.editBtn {
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  margin: 0 0.95rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: $title-font;
+  background-color: transparent;
+
+  @include themify($themes) {
+    color: themed('landing-button-default');
+    @include on-event {
+      color: themed('body-color');
+      background-color: themed('dropdown-hover-background-color');
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}

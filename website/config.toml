@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 baseURL = "https://books.halfrost.com/leetcode"
 languageCode = "en-us"
 title = "LeetCode Cookbook"
@@ -77,67 +78,58 @@ disablePathToLower = true
   # Start and end levels can be controlled with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
   BookToC = false
+=======
+baseURL = "http://example.org"
+title = "Hugo Zzo Theme"
+theme = "zzo"
+>>>>>>> 0c736c4... Change to zdoc
 
-  # (Optional, default none) Set the path to a logo for the book. If the logo is
-  # /static/logo.png then the path would be logo.png
-  # BookLogo = 'logo.png'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
 
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  BookMenuBundle = '/menu'
+summaryLength = 70
+buildFuture = true
 
-  # (Optional, default docs) Specify section of content to render as menu
-  # You can also set value to '*' to render all sections to menu
-  BookSection = 'docs'
+copyright = "&copy;{year}, All Rights Reserved"
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
 
-  # Set source repository location.
-  # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/halfrost/LeetCode-Go'
+enableGitInfo = false
+googleAnalytics = ""
 
-  # Enable "Edit this page" links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Path must point to 'content' directory of repo.
-  BookEditPath = 'tree/master/website/content'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
 
-  # Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat = 'Jan 2, 2006'
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
 
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
 
-  # (Optional, default true) Enables comments template on pages
-  # By default partals/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments = false
-  enableGitalk = true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
-
-[params.gitalk] 
-    clientID = "75d9d747f200c623a0e6" # Your client ID
-    clientSecret = "e3cc2ff8d8f6ae3c894a827f226188de0d26f37e" # Your client secret
-    repo = "S2" # The repo to store comments
-    owner = "halfrost" # Your GitHub ID
-    admin= "halfrost" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
-    id= "location.pathname" # The unique id of the page.
-    labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
-    body= "location.href" # GitHub issue body.
-    perPage= 100 # Pagination size, with maximum 100.
-    pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually= true # If it is 'false', it is auto to make a Github issue when the administrators login.
-    distractionFreeMode= true # Enable hot key (cmd|ctrl + enter) submit comment.
-
-
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"

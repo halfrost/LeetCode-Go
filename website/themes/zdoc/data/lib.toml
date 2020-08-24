@@ -1,0 +1,40 @@
+# js
+[js.mermaid]
+  sri = "sha256-wV/0jM5E/0V+KqyxUio2Ve5OAC/gweTTqdbnRX1fgAE="
+  url = "https://cdn.jsdelivr.net/npm/mermaid@8.4.6/dist/mermaid.min.js"
+
+[js.katex]
+  sri = "sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc="
+  url = "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+
+[js.katex_auto_render]
+  sri = "sha256-90d2pnfw0r4K8CZAWPko4rpFXQsZvJhTBGYNkipDprI="
+  url = "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+
+[js.flowchartjs]
+  sri = "sha256-xghRsaOFJXNxT9sgANknngHh3FjUQWrJUae7GP+2Atc="
+  url = "https://cdn.jsdelivr.net/npm/flowchart.js@1.12.0/release/flowchart.min.js"
+
+[js.raphael]
+  sri = "sha256-TabprKdeNXbSesCWLMrcbWSDzUhpAdcNPe5Q53rn9Yg="
+  url = "https://cdn.jsdelivr.net/npm/raphael@2.3.0/raphael.min.js"
+
+[js.mathjax]
+  url = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js"
+
+[js.chart]
+  sri = "sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+  url = "https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
+[js.viz]
+  sri = "" # no sri
+  url = "https://cdn.jsdelivr.net/npm/viz.js@2.1.2/viz.min.js"
+
+[js.viz_render]
+  sri = "sha256-Ogqs510LFnekr9o7OLdpelaaAmNss9egQRTyzCqV2NQ="
+  url = "https://cdn.jsdelivr.net/npm/viz.js@2.1.2/full.render.js"
+
+
+# css
+[css.katex]
+  sri = "sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung="
+  url = "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"

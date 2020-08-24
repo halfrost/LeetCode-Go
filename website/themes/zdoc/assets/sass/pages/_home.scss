@@ -1,0 +1,76 @@
+.home {
+  &__landing {
+    width: 100%;
+    
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+
+    @media only screen and (max-width: 600px) {
+      @include flex-direction(column);
+    }
+
+    &--img {
+      margin: 0.5rem;
+      z-index: z('landing');
+    }
+
+    &--txt {
+      margin: 2.5rem 0.5rem;
+      z-index: z('landing');
+
+      .title {
+        font-size: 56px;
+        font-weight: 900;
+        font-family: $title-font;
+      }
+
+      .text {
+        font-size: 22px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        text-align: center;
+      }
+    }
+
+    &--link {
+      text-decoration: none !important;
+    }
+
+    &--btn {
+      margin-top: 2.5rem;
+      margin-right: 0.5rem;
+    }
+
+    &--btn2 {
+      margin: 0.5rem;
+    }
+  }
+
+  &__social {
+    width: 100%;
+    padding: 1rem 0;
+
+    @include flexbox();
+    @include justify-content(center);
+
+    &--item {
+      margin: 0 0.25rem;
+    }
+  }
+
+  &__banner {
+    width: 100%;
+    padding: 0.75rem;
+
+    @include flexbox();
+    @include justify-content(center);
+
+    &--wrapper {
+      @include themify($themes) {
+        background-color: themed('banner-background-color');
+      }
+    }
+  }
+}

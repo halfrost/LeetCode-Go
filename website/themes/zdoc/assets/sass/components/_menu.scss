@@ -1,0 +1,191 @@
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: $grid-nav-height;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-top: 0;
+  padding-top: 0.85rem;
+  height: calc(100vh - $grid-nav-height);
+  overflow-y: auto;
+  z-index: z('menu');
+
+  @media only screen and (max-width: 600px) {
+    top: 0;
+  }
+
+  &__label {
+    font-family: $title-font;
+    font-size: 1rem;
+    margin: 0.65rem 0;
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+
+    @include themify($themes) {
+      color: themed('toc-label-color');
+    }
+
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+      font-size: 1.125rem;
+    }
+  }
+
+  &__title {
+    cursor: pointer;
+    position: relative;
+    word-break: break-word;
+    font-size: 0.925rem;
+    height: $menu-title-height;
+    margin: 0.25rem 0;
+
+    &[data-depth="1"] {
+      font-size: 0.925rem;
+      margin-left: 1.25rem;
+    }
+
+    &[data-depth="2"] {
+      font-size: 0.925rem;
+      margin-left: 2.5rem;
+    }
+
+    &[data-depth="3"] {
+      font-size: 0.925rem;
+      margin-left: 3.75rem;
+    }
+
+    &[data-depth="4"] {
+      font-size: 0.925rem;
+      margin-left: 5rem;
+    }
+
+    @include no-select;
+    @include flexbox();
+    @include align-items(center);
+    @include themify($themes) {
+      color: themed('body-color');
+      
+      @include on-event {
+        color: themed('no-active-font-color');
+      }
+
+      &.active {
+        font-weight: bold;
+        color: themed('active-font-color');
+      }
+    }
+
+    &--collapse {
+      cursor: pointer;
+      word-break: break-word;
+      font-size: 16px;
+      height: $menu-title-height;
+      margin: 0.25rem 0;
+
+      &[data-depth="1"] {
+        font-size: 0.925rem;
+        margin-left: 1.25rem;
+      }
+
+      &[data-depth="2"] {
+        font-size: 0.925rem;
+        margin-left: 2.5rem;
+      }
+
+      &[data-depth="3"] {
+        font-size: 0.925rem;
+        margin-left: 3.75rem;
+      }
+
+      &[data-depth="4"] {
+        font-size: 0.925rem;
+        margin-left: 5rem;
+      }
+
+      @include no-select;
+      @include flexbox();
+      @include align-items(center);
+      @include themify($themes) {
+        color: themed('body-color');
+
+        &.active {
+          svg {
+            color: themed('active-font-color');
+          }
+        }
+      }
+
+      @include on-event {
+        @include themify($themes) {
+          color: themed('link-hover');
+          svg {
+            color: themed('link-hover');
+            @include translateX(0.125rem);
+          }
+        }
+      }
+    }
+
+    &--icon {
+      margin-top: 2px;
+
+      @include themify($themes) {
+        color: themed('menu-arrow-color');
+      }
+
+      &.down {
+        @include rotate(90);
+        @include transition(all, 0.15s, ease);
+      }
+
+      &.downrtl {
+        @include rotate(-90);
+        @include transition(all, 0.15s, ease);
+      }
+
+      &.right {
+        @include rotate(0);
+        @include transition(all, 0.15s, ease);
+      }
+
+      svg {
+        display: block;
+        margin: auto 0;
+        @include transition(all, 0.15s, ease);
+      }
+    }
+  }
+
+  &__alone {
+    cursor: pointer;
+    @include no-select;
+  }
+
+  &__list {
+    max-height: 0;
+    overflow: hidden;
+    word-wrap: break-word;
+    
+    @include transition();
+
+    li {
+      margin-left: 1.25rem;
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .active {
+    max-height: 100%;
+  }
+
+  li.active {
+    @include themify($themes) {
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+}

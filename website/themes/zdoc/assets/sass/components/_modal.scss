@@ -1,0 +1,15 @@
+.modal {
+  position: fixed;
+  z-index: z('modal');
+  left: -100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden;
+  opacity: 0;
+  background: rgba(0,0,0,0.6);
+
+  @include transition(opacity, 0.25s, ease-in-out);
+}

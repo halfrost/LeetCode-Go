@@ -1,0 +1,225 @@
+{{ $js := .Site.Data.lib.js }}
+{{ $css := .Site.Data.lib.css }}
+
+{{ $getParents := resources.Get "js/helper/getParents.js" | resources.Minify }}
+<script defer src="{{ $getParents.RelPermalink }}"></script>
+{{ $closest := resources.Get "js/helper/closest.js" | resources.Minify }}
+<script defer src="{{ $closest.RelPermalink }}"></script>
+{{ $prev := resources.Get "js/helper/prev.js" | resources.Minify }}
+<script defer src="{{ $prev.RelPermalink }}"></script>
+{{ $prop := resources.Get "js/helper/prop.js" | resources.Minify }}
+<script defer src="{{ $prop.RelPermalink }}"></script>
+{{ $fadeinout := resources.Get "js/helper/fadeinout.js" | resources.Minify }}
+<script defer src="{{ $fadeinout.RelPermalink }}"></script>
+
+{{ if in .Params.Libraries "mermaid" }}
+<script defer src="{{ $js.mermaid.url }}" integrity="{{ $js.mermaid.sri }}" crossorigin="anonymous"></script>
+{{ end }}
+
+{{ if in .Params.Libraries "katex" }}
+  <link rel="stylesheet" href="{{ $css.katex.url }}" integrity="{{$css.katex.sri }}" crossorigin="anonymous">
+  <script defer src="{{ $js.katex.url }}" integrity="{{ $js.katex.sri }}" crossorigin="anonymous"></script>
+  <script defer src="{{ $js.katex_auto_render.url }}" integrity="{{ $js.katex_auto_render.sri }}" crossorigin="anonymous"></script>
+{{ end }}
+
+{{ if in .Params.Libraries "flowchartjs" }}
+  <script defer src="{{ $js.raphael.url }}" integrity="{{ $js.raphael.sri }}" crossorigin="anonymous"></script>
+  <script defer src="{{ $js.flowchartjs.url }}" integrity="{{ $js.flowchartjs.sri }}" crossorigin="anonymous"></script>
+{{ end }}
+
+{{ if in .Params.Libraries "viz" }}
+  <script defer src="{{ $js.viz.url }}" crossorigin="anonymous"></script>
+  <script defer src="{{ $js.viz_render.url }}" integrity="{{ $js.viz_render.sri }}" crossorigin="anonymous"></script>
+{{ end }}
+
+{{ if in .Params.Libraries "mathjax" }}
+  <script type="text/javascript" async src="{{ $js.mathjax.url }}?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']],
+        processEscapes: true,
+        processEnvironments: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        TeX: {
+          equationNumbers: { autoNumber: "AMS" },
+          extensions: ["AMSmath.js", "AMSsymbols.js"]
+        }
+      }
+    });
+    MathJax.Hub.Queue(function () {
+      // Fix <code> tags after MathJax finishes running. This is a
+      // hack to overcome a shortcoming of Markdown. Discussion at
+      // https://github.com/mojombo/jekyll/issues/199
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+
+    MathJax.Hub.Config({
+      // Autonumbering by mathjax
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+  </script>
+{{ end }}
+
+{{ if in .Params.Libraries "chart" }}
+  <script defer src="{{ $js.chart.url }}" integrity="{{ $js.chart.sri }}" crossorigin="anonymous"></script>
+{{ end }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    'use strict';
+    
+    // ======================== markdown table =========================
+    var tables = document.querySelectorAll('.single__contents > table');
+    for (let i = 0; i < tables.length; i++) {
+      var table = tables[i];
+      var wrapper = document.createElement('div');
+      wrapper.className = 'table-wrapper';
+      table.parentElement.replaceChild(wrapper, table);
+      wrapper.appendChild(table);
+    }
+    // =================================================================
+
+    
+    // ============================ mermaid ============================
+    {{ $lib := .Params.libraries }}
+    var lib = JSON.parse({{ $lib | jsonify }});
+
+    if (lib && lib.includes('mermaid')) {
+      var themeVariant = localStorage.getItem('theme') || 'light';
+
+      if (themeVariant === "dark") {
+        mermaid.initialize({ theme: 'dark' });
+      } else {
+        mermaid.initialize({ theme: 'default' });
+      }
+      
+      var mermaids = [];
+      [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
+      mermaids.forEach(function(elem) {
+        var elemParentNode = elem.parentNode;
+
+        if (elemParentNode !== document.body) {
+          elemParentNode.parentNode.insertBefore(elem, elemParentNode);
+          elemParentNode.parentNode.removeChild(elemParentNode);
+        }
+
+        var newElemWrapper = document.createElement('div');
+        newElemWrapper.classList.add('mermaid');
+        newElemWrapper.innerHTML = elem.innerHTML;
+        elem.replaceWith(newElemWrapper);
+      });
+    }
+    // =================================================================
+    
+
+    // ============================= katex =============================
+    if (lib && lib.includes('katex')) {
+      var mathElements = document.getElementsByClassName('math');
+      var options = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false }
+        ],
+      };
+
+      renderMathInElement(document.querySelector('.single__contents'), options);
+    }
+    // =================================================================
+
+
+    // ========================= flowchart.js ==========================
+    if (lib && lib.includes('flowchartjs')) {
+      {{ $flowchartjs := .Site.Data.flowchartjs }}
+      var options = JSON.parse({{ $flowchartjs | jsonify }});
+      var jsonContent = null;
+
+      var flowchartPrefix = "language-flowchart";
+      var index = 0;
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + flowchartPrefix + "]"), function(x){
+          x.style.display = 'none'
+          x.parentNode.style.backgroundColor = "transparent"
+          jsonContent = x.innerText;
+
+          var node0 = document.createElement('div');
+          node0.id = 'flowchart' + index;
+          x.parentNode.insertBefore(node0, x);
+
+          var diagram = flowchart.parse(jsonContent);
+          diagram.drawSVG("flowchart"+index, options);
+
+          index +=1;
+      });      
+    }
+    // =================================================================
+
+
+    // =========================== chart.js ============================
+    if (lib && lib.includes('chart')) {
+      var borderColor = "#666";
+      var bgColor = "#ddd";
+      var borderWidth = 2;
+
+      Chart.defaults.global.elements.rectangle.borderWidth = borderWidth;
+      Chart.defaults.global.elements.rectangle.borderColor = borderColor;
+      Chart.defaults.global.elements.rectangle.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.line.borderWidth = borderWidth;
+      Chart.defaults.global.elements.line.borderColor = borderColor;
+      Chart.defaults.global.elements.line.backgroundColor = bgColor;
+
+      Chart.defaults.global.elements.point.borderWidth = borderWidth;
+      Chart.defaults.global.elements.point.borderColor = borderColor;
+      Chart.defaults.global.elements.point.backgroundColor = bgColor;
+
+      var chartPrefix = "language-chart";
+      var index = 0;
+      var jsonContent = null;
+
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + chartPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        jsonContent = x.innerText;
+        var node0 = document.createElement('canvas');
+        var source = null;
+        node0.height = 200;
+        node0.style.height = 200;
+        node0.id = 'myChart' + index;
+        source = JSON.parse(jsonContent);
+        x.parentNode.insertBefore(node0, x);
+        var ctx = document.getElementById('myChart' + index).getContext('2d');
+        var myChart = new Chart(ctx, source);
+        index += 1;
+      });            
+    }
+    // =================================================================
+
+
+    // ========================== viz diagram ==========================
+    if (lib && lib.includes('viz')) {
+      var vizPrefix = "language-viz-";
+      Array.prototype.forEach.call(document.querySelectorAll("[class^=" + vizPrefix + "]"), function (x) {
+        x.style.display = 'none'
+        x.parentNode.style.backgroundColor = "transparent"
+        var engine;
+        x.getAttribute("class").split(" ").forEach(function (cls) {
+          if (cls.startsWith(vizPrefix)) {
+            engine = cls.substr(vizPrefix.length);
+          }
+        });
+        var viz = new Viz();
+        viz.renderSVGElement(x.innerText, { engine: engine })
+          .then(function (element) {
+            element.style.width = "100%";
+            x.parentNode.insertBefore(element, x);
+          })
+      });
+    }
+    // =================================================================
+    
+  });
+</script>

@@ -1,0 +1,28 @@
+{{ if $.Param "enableLangChange" }}
+<div class="dropdown">
+  <button class="lang__dropdown navbar__icons--icon" aria-label="Select Site Language">
+    {{ partial "svgs/translate.svg" (dict "width" 20 "height" 20) }}
+  </button>
+  <div class="dropdown-content lang__dropdown--content">
+    {{ $siteLanguages := .Site.Languages }}
+    {{ $pageLang := .Page.Lang }}
+    {{ range .Page.AllTranslations }}
+      {{ $translation := . }}
+      {{ range $siteLanguages }}
+        {{ if eq $translation.Lang .Lang }}
+        {{ $selected := false }}
+          {{ if eq $pageLang .Lang }}
+            {{ if .LanguageName }}
+              <a href="{{ $translation.Permalink }}" data-lang="{{ .Lang }}" class="lang__dropdown--item active">{{ .LanguageName }}</a>
+            {{ end }}
+          {{ else }}
+            {{ if .LanguageName }}
+              <a href="{{ $translation.Permalink }}" data-lang="{{ .Lang }}" class="lang__dropdown--item">{{ .LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,15 @@
+@import 'dark';
+@import 'light';
+
+@import 'darkcode';
+@import 'lightcode';
+
+$themes: (
+  dark: $dark,
+  light: $light,
+);
+
+$codeblock: (
+  dark: $darkcode,
+  light: $lightcode,
+);

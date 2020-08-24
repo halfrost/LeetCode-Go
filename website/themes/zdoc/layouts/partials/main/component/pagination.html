@@ -1,0 +1,31 @@
+{{ $pag := $.Paginator }}
+{{ $window := $.Site.Params.paginateWindow | default 1 }}
+{{ if gt $pag.TotalPages 1 }}
+  {{ $total := $pag.TotalPages }}
+  {{ $size := add 5 (add $window $window) }}
+  {{ $cur := $pag.PageNumber }}
+  {{ if gt $total $size }}
+    {{ if lt $cur (sub $size (add $window 1)) }}
+      {{ $.Scratch.Set "show" (seq 1 (sub $size 2)) }}
+    {{ else if lt (sub $total $cur) (sub $size (add $window 2)) }}
+      {{ $.Scratch.Set "show" (seq (add (sub $total $size) 3) $total) }}
+    {{ else }}
+      {{ $.Scratch.Set "show" (seq (sub $cur $window) (add $cur $window)) }}
+    {{ end }}
+    {{ $.Scratch.Add "show" 1 }}
+    {{ $.Scratch.Add "show" $total }}
+  {{ else }}
+    {{ $.Scratch.Set "show" (seq 1 $total) }}
+  {{ end }}
+  <ul class="pagination">
+    {{ range $pag.Pagers }}
+      {{ $cur := .PageNumber }}
+      {{ if in ($.Scratch.Get "show") $cur }}
+        <li
+        {{ if eq . $pag }}class="active"{{ end }}><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+      {{ else if in (slice 2 (sub $total 1)) $cur }}
+        <li class="disabled"><a name="">&hellip;</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

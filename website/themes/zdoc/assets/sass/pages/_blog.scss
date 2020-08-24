@@ -1,0 +1,21 @@
+.blog {
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+  }
+
+  &__bg {
+    @include themify($themes) {
+      background-color: themed('body-background-color');
+    }
+  }
+  
+  &__header {
+    @include flexbox();
+    @include justify-content(center);
+    @include align-items(center);
+  }
+
+  .subtitle {
+    margin: 0.25rem 0;
+  }
+}

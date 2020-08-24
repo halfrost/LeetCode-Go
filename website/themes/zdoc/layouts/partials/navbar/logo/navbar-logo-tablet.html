@@ -1,0 +1,13 @@
+<div id="tabletLogo" class="hide">
+  {{ if $.Param "logo" | default true }}
+  <a href="{{ "/" | relLangURL }}" rel="home" class="{{ if eq ($.Param "logoType") "long" }}navbar__long--link{{ else }}navbar__logo--link{{ end }}">
+    <img src="{{ "/logo.png" | relURL }}" alt="Home" class="navbar__logo">
+  </a>
+  {{ else }}
+    <a href="{{ "/" | relLangURL }}" rel="home" class="navbar__logo--link">
+      <div class="navbar__icons--icon">
+        {{ partial "svgs/home.svg" (dict "width" 25 "height" 25) }}
+      </div>
+    </a>
+  {{ end }}
+</div>

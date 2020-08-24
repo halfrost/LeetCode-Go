@@ -1,0 +1,42 @@
+{{ if or .PrevInSection .NextInSection }}
+<div class="grow"></div>
+<nav class="pagination-single">
+  {{ if eq ($.Param "languagedir") "rtl" }}
+    {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" title="{{ .Title }}" class="pagination-single__right">
+        <div class="pagination-single__icon">
+          {{ partial "svgs/arrow-forward.svg" (dict "width" 22 "height" 22) }}
+        </div>
+        <div class="pagination-single__left-title">{{ .Title }}</div>
+      </a>
+    {{ end }}
+    <div class="grow"></div>
+    {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" title="{{ .Title }}" class="pagination-single__left">
+        <div class="pagination-single__right-title">{{ .Title }}</div>
+        <div class="pagination-single__icon">
+          {{ partial "svgs/arrow-back.svg" (dict "width" 22 "height" 22) }}
+        </div>
+      </a>
+    {{ end }}
+  {{ else }}
+    {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" title="{{ .Title }}" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          {{ partial "svgs/arrow-back.svg" (dict "width" 22 "height" 22) }}
+        </div>
+        <div class="pagination-single__right-title">{{ .Title }}</div>
+      </a>
+    {{ end }}
+    <div class="grow"></div>
+    {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" title="{{ .Title }}" class="pagination-single__right">
+        <div class="pagination-single__left-title">{{ .Title }}</div>
+        <div class="pagination-single__icon">
+          {{ partial "svgs/arrow-forward.svg" (dict "width" 22 "height" 22) }}
+        </div>
+      </a>
+    {{ end }}
+  {{ end }}
+</nav>
+{{ end }}

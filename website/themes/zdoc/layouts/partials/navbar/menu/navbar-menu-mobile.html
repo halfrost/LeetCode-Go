@@ -1,0 +1,11 @@
+<span id="navMenuMobile" class="hide">
+  <button id="navCollapseBtn" class="navbar__dropdown--title" aria-label="Section Menu" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
+    {{ if .IsHome }}
+      {{ .Site.Title }}
+    {{ else }}
+      {{ .Type }}
+    {{ end }}
+    {{ partial "svgs/arrow-down.svg" (dict "width" 20 "height" 20) }}
+  </button>
+  {{ partial "navbar/menu/navbar-menu-collapse.html" . }}
+</span>

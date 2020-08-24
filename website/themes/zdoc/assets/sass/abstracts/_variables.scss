@@ -1,0 +1,39 @@
+@import "../themes/theme";
+
+$text-font-stack: 'Muli',
+              avenir,
+              'helvetica neue', helvetica,
+              ubuntu,
+              roboto, noto,
+              'segoe ui', arial,
+              sans-serif !default;
+$code-font-stack: Consolas, 
+              Monaco,
+              Menlo,
+              "DejaVu Sans Mono", 
+              "Bitstream Vera Sans Mono", 
+              "Courier New", 
+              "Lucida Console", 
+              "Lucida Sans Typewriter", 
+              "Liberation Mono", 
+              "Nimbus Mono L", 
+              Monaco, 
+              Courier, 
+              monospace !default;
+
+$z-indexes: ("drawer", "modal", "dropdown", "navbar", "header", "gtt", "clipboard", "grid", "search-btn", "search", "menu", "content", "landing", "footer", "taxo", "toc", "gallery-mask", "section-title", "highlight");
+
+$breakpoints: (
+  'xs': 0,
+  'sm': 600px,
+  'md': 960px,
+  'lg': 1280px,
+  'xl': 1960px,
+);
+
+$grid-max-width: 1289px;
+$grid-nav-height: 50px;
+$grid-body-width: 769px;
+$grid-side-width: 240px;
+$drawer-width: 240px;
+$menu-title-height: 30px;

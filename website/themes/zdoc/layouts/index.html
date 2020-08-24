@@ -1,0 +1,7 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "header" }}
+  {{ partial "header/site-header.html" . }}
+{{ end }}
+{{ define "main" }}
+  {{ partial "main/home.html" . }}
+{{ end }}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+    {{ partial "head/scripts" . }}
+    {{ partialCached "head/styles" . }}
+    {{ partial "head/meta" . }}
+    {{ partial "head/meta_json_ld" . }}
+    {{ partial "head/services" . }}
+</head>
+
+<body id="root" class="theme__{{ index .Site.Params.themeOptions 0 }}">
+    <script>
+        var localTheme = localStorage.getItem('theme');
+        if (localTheme) {
+            document.getElementById('root').className = `theme__${localTheme}`;
+        }        
+    </script>
+    
+    <div id="container">
+        {{ partial "drawer/drawer.html" . }}
+        {{ partial "navbar/navbar.html" . }}
+        {{ block "header" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "footer/footer.html" . }}
+    </div>
+
+</body>
+
+</html>

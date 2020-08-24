@@ -1,0 +1,19 @@
+<div id="comments-gitment"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  var gitment = new Gitment({
+    id: '{{ .Date }}',
+    title: '{{ .Title }}',
+    link: decodeURI(location.href),
+    desc: '{{ .Summary }}',
+    owner: '{{ .Site.Params.gitment.owner }}',
+    repo: '{{ .Site.Params.gitment.repo }}',
+    oauth: {
+      client_id: '{{ .Site.Params.gitment.clientId }}',
+      client_secret: '{{ .Site.Params.gitment.clientSecret }}'
+    }
+  });
+  gitment.render('comments-gitment');
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>

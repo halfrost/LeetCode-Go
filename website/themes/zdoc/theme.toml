@@ -1,0 +1,12 @@
+name = "Zdoc"
+description = "Simple Hugo documentation theme."
+homepage = "https://zzodocs.netlify.com"
+license = "MIT"
+licenselink = "https://github.com/zzossig/hugo-theme-zdoc/blob/master/LICENSE.md"
+tags = ["accessible", "multilingual", "responsive", "documentation", "search", "simple", "light", "dark", "mobile"]
+features = ["accessible", "multilingual", "responsive", "grid", "sass", "search", "fast"]
+min_version = "0.60.0"
+
+[author]
+  name = "zzossig"
+  homepage = "https://zzossig.io"

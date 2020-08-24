@@ -1,0 +1,29 @@
+.tag {
+  display: inline-block;
+  margin: 0.25rem 0.4rem;
+  text-decoration: none !important;
+
+  @include themify($themes) {
+    color: darken(themed('subtitle-color'), 5%);
+    @include on-event {
+      color: themed('link-hover');
+    }
+  }
+
+  &__wrapper {
+    padding: 0.3rem 0;
+    margin: auto 0;
+  }
+
+  &__text {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: inherit;
+  }
+
+  &__num {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: inherit;
+  }
+}

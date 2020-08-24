@@ -1,0 +1,10 @@
+<div class="navbar__icons">
+  {{ partial "navbar/icons/select-lang.html" . }}
+  {{ partial "navbar/icons/light-dark-toggle.html" . }}
+  <div class="navbar__icons--icon">
+    <a href="{{ .Site.Params.github }}" title="Github repository" aria-label="Github repository" target="_blank" rel="noreferrer">
+    {{ partial "svgs/github.svg" (dict "width" 22 "height" 22) }}
+    </a>
+  </div>
+</div>
+

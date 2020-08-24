@@ -1,0 +1,81 @@
+.expand {
+  position: relative;
+  border-radius: 0.25rem;
+
+  &__content {
+    overflow: hidden;
+    max-height: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+
+    @include transition(all, 0.2s, ease);
+
+    li {
+      font-size: 15.2px;
+      margin: 0 0 0.525rem 2rem !important;
+
+      &:first-child {
+        margin-top: 0.25rem !important;
+      }
+
+      li {
+        font-size: 14.4px;
+        margin: 0 0 0.25rem 1.25rem !important;
+      }
+    }
+
+    &--toc {
+      font-family: $title-font;
+      font-size: 15.2px;
+      li {
+        list-style-type: '📂 ';
+        li {
+          list-style-type: '📄 ';
+        }
+      }
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: left;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-family: $title-font;
+
+    @include flexbox();
+    @include align-items(center);
+    @include themify($themes) {
+      color: inherit;
+      border-top: 1px solid themed('border-line-color');
+      background-color: themed('expand-background-color');
+      @include on-event {
+        background-color: themed('expand-background-color-hover');
+      }
+    }
+  }
+
+  &-label {
+    cursor: pointer;
+    @include flexbox();
+    @include align-items(center);
+  }
+
+  &-icon {
+    padding-top: 0.125rem;
+    padding-right: 0.5rem;
+    
+    &__down {
+      @include rotate(90);
+      @include transition(all, 0.15s, ease);
+    }
+
+    &__right {
+      @include rotate(0);
+      @include transition(all, 0.15s, ease);
+    }
+  }
+}

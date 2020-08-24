@@ -1,0 +1,75 @@
+.toc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: $grid-nav-height;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-top: 0;
+  padding-top: 1.25rem;
+  height: calc(100vh - $grid-nav-height);
+  overflow-y: auto;
+  font-size: 0.85rem;
+  z-index: z('toc');
+  @include no-select;
+  
+  #TableOfContents {
+    position: relative;
+  }
+
+  &__label {
+    font-family: $title-font;
+    font-size: 1rem;
+    margin-top: 0.65rem;
+    margin-bottom: 1rem;
+    margin-left: 1.25rem;
+    padding-bottom: 0.5rem;
+
+    @include themify($themes) {
+      color: themed('toc-label-color');
+    }
+  }
+
+  @include themify($themes) {
+    a {
+      color: themed('toc-color');
+      position: relative;
+
+      @include on-event {
+        color: themed('link-hover');
+      }
+
+      &.active {
+        color: themed('active-font-color');
+        
+        &::before {
+          background-color: themed('active-font-color');
+          content: '';
+          height: 11px;
+          left: -8px;
+          margin: 0.25rem 0;
+          position: absolute;
+          width: 2px;            
+          &:last-child {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    li {
+      li {
+        margin-left: 0.85rem;
+      }
+    }
+  }
+}
+
+.expand__content {
+  #TableOfContents {
+    ul {
+      list-style-type: circle;
+    }
+  }
+}

@@ -1,0 +1,539 @@
+#single-menu {
+  @include themify($themes) {
+    &[data-dir="ltr"] {
+      border-right: 1px solid themed('border-line-color');
+    }
+
+    &[data-dir="rtl"] {
+      border-left: 1px solid themed('border-line-color');
+    }
+  }
+}
+
+.single {
+  position: relative;
+  width: 100%;
+  overflow-wrap: break-word;
+
+  &[data-display="block"] {
+    display: block;
+  }
+
+  &[data-display="none"] {
+    display: none;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: $title-font;
+    line-height: 3rem;
+    overflow-wrap: break-word;
+    margin: 2rem 1rem 0.25rem;
+
+    @include themify($themes) {
+      color: themed("title-color");
+    }
+  }
+
+  &__meta {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    padding:0 1rem;
+
+    @include flexbox();
+    @include align-items(center);
+    @include themify($themes) {
+      color: themed('meta-color');
+    }
+  }
+
+  &__infos {
+    margin-right: 0.5rem;
+
+    @include flexbox();
+    @include flex-wrap(wrap);
+  }
+
+  &__info {
+    word-break: keep-all;
+    padding: 0 0.125rem;
+  }
+
+  &__contents {
+    &--gallery {
+      overflow: hidden;
+    }
+
+    & > p > a {
+      text-decoration: underline;
+    }
+
+    margin: 1rem 0;
+    line-height: 1.7;
+    width: inheirt;
+    max-width: inherit;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      position: relative;      
+      line-height: 1.25;
+      padding: 0 1rem;
+      font-family: $title-font;
+    }
+
+    h1,
+    h2 {
+      color: inherit;
+      font-weight: 900;
+      text-rendering: optimizeLegibility; 
+
+      @include themify($themes) {
+        color: themed("single-contents-title-color");
+      }
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      @include themify($themes) {
+        color: themed("single-contents-subtitle-color");
+      }
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      margin: 3.5rem 0 1.75rem 0;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin: 3.2rem 0 1.5rem 0;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      margin: 2.8rem 0 1.25rem 0;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      margin: 2.4rem 0 1rem 0;
+    }
+
+    h5 {
+      font-size: 1.2rem;
+      margin: 2rem 0 0.8rem 0;
+    }
+
+    h6 {
+      font-size: 1rem;
+      margin: 1.5rem 0 0.5rem 0;
+    }
+
+    pre {
+      margin-top: 1.6rem;
+      overflow: auto;
+      line-height: 1.5;
+      direction: ltr;
+
+      @include themify($themes) {
+        border-top: 1px solid themed('border-line-color');
+        border-bottom: 1px solid themed('border-line-color');
+
+        @include webkit-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+        @include moz-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+      }
+    }
+
+    pre:not(.chroma) {
+      position: relative;
+      margin: 1rem 0;
+
+      @include themify($codeblock) {
+        border-left: 4px solid themed('content-pre-border-background-color');
+      }
+    }
+
+    div.chroma {
+      position: relative;
+
+      @include on-event {
+        .copy-to-clipboard {
+          opacity: 1;
+        }
+      }
+    }
+    
+    p > code:not([class^=language]) {
+      padding: 0.25rem 0.5rem;
+      @include themify($codeblock) {
+        color: themed('content-code-color');
+      }
+    }
+
+    blockquote {
+      margin: 0 1.75rem 1.75rem 1.5rem;
+      padding: 0 0 0 1.42188rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      line-height: 1.75;
+      color: inherit;
+      opacity: 0.8;
+      position: relative;
+      
+      @include themify($themes) {
+          border-left: 5px solid themed("single-blockquote-border-color");
+      }
+
+      code:not([class^=language]) {
+        padding: 3px 7px;
+        margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
+      }
+    }
+
+    img {
+      display: block;
+      border-radius: 0.25rem;
+      margin: 0 auto;
+    }
+
+    p {
+      margin: 0 0 10px 0;
+      padding: 0 1rem;      
+
+      code:not([class^=language]) {
+        padding: 3px 7px;
+        margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
+      }
+    }
+
+    ul {
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding: 0;
+      list-style: disc outside none;
+    }
+
+    ol {
+      margin-bottom: 1rem;
+    }
+
+    &[data-dir="ltr"] {
+      li {
+        margin-left: 2rem;
+      }
+    }
+
+    &[data-dir="rtl"] {
+      li {
+        margin-right: 2rem;
+      }
+    }
+
+    li {
+      & > code {
+        padding: 2px 7px;
+      }
+
+      code:not([class^=language]) {
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
+      }
+    }
+
+    hr {
+      margin: 10px 1rem;
+      border: none;
+      height: 1px;
+      @include themify($themes) {
+        background: themed("single-hr-background-color");
+      }
+    }
+
+    dl dt::after {
+        content: ':';
+    }
+
+    dd {
+      display: block;
+      margin-inline-start: 40px;
+    }
+
+    .anchor {
+      cursor: pointer;
+    }
+
+    a.footnote-ref {
+      font-size: 0.75rem;
+      font-weight: bold;
+      margin-left: 3px;
+
+      &::before {
+        content: "[";
+      }
+
+      &::after {
+        content: "]";
+      }
+    }
+
+    .table-wrapper {
+      overflow-x: auto;    
+      margin: 1rem;  
+
+      > table {
+        max-width: 100%;
+        margin: 10px 0;
+        border-spacing: 0;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.125);
+        
+        @include themify($codeblock) {
+          thead {
+            background: themed('content-pre-header-background-color');
+          }
+
+          th {
+            color: themed('content-pre-header-color');            
+          }
+
+          th, td {
+            padding: 0.25rem 0.5rem;
+            border: 1px double themed('content-pre-border-background-color');
+          }
+        }
+      }
+
+      code:not([class^=language]) {
+        padding: 3px 7px;
+        margin: 0 0.25rem;
+        @include themify($codeblock) {
+          color: themed('content-code-color');
+        }
+      }
+    }
+  }
+
+  &__tags {
+    list-style-type: none;
+    @include flexbox();
+    @include align-items(center);
+    @include flex-wrap(wrap);
+    @include flex-grow(1);
+  }
+
+  &__tag {
+    padding: 0 0.25rem;
+  }
+}
+
+code, pre {
+  padding: 0.25rem 0.5rem;
+  line-height: 1.5;
+  font-family: $code-font-stack;
+  overflow: auto;
+
+  a {
+    text-decoration: none !important;
+  }
+}
+
+pre.chroma {
+  padding: 0.65rem 0;
+}
+
+*:not(.chroma) {
+  code, pre {
+    @include themify($codeblock) {
+      color: themed('content-pre-color');
+      background: themed('content-pre-background-color');
+    }
+  }
+
+  code {
+    padding: 0;
+  }
+}
+
+code:not([class^=language]) {  
+  padding: 3px 0;
+  border-radius: 4px;
+  @include themify($codeblock) {
+    color: themed('content-code-color');
+  }
+}
+
+pre:not(.chroma) {
+  overflow: auto;
+}
+
+.single__contents > .language-code, li > .language-code {
+  overflow-x: auto;
+  position: relative;
+  margin: 1rem 0;
+  direction: ltr;
+
+  @include on-event {
+    .copy-to-clipboard {
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 2px 7px;
+    width: 100%;
+    height: 20px;
+    z-index: z('toc'); 
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    content: '';
+
+    @include themify($codeblock) {
+        color: themed('content-pre-header-color');
+        background: themed('content-pre-header-background-color');
+    }
+  }
+}
+
+.highlight > .chroma {
+  margin-bottom: 1.5rem;
+  z-index: z('content');
+  overflow-x: auto;
+  direction: ltr;
+
+  @include themify($codeblock) {
+    color: themed('content-pre-color');
+    background: themed('content-pre-background-color');
+  }
+
+  code {
+    padding: 0;
+  }
+
+  code[data-lang] {
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: z('grid');
+      height: 25px;
+      width: 100%;
+      display: inline-block;
+      text-align: right;
+      content: attr(data-lang);
+
+      @include themify($themes) {
+        color: themed('body-background-color');
+        background: themed('body-background-color');
+      }
+    }
+
+    &::after {
+      position: absolute;
+      top: 2px;
+      right: 0;
+      z-index: z('clipboard');
+      padding: 0.125rem 0.25rem;
+      height: 25px;
+      font-family: $title-font;
+      font-weight: bold;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      display: inline-block;
+      text-transform: capitalize;
+      border-top-left-radius: 0.2rem;
+      content: attr(data-lang);
+
+      @include themify($themes) {
+        border-top: 1px solid themed('hr-color');
+        border-left: 1px solid themed('hr-color');
+      }
+
+      @include themify($codeblock) {
+        background: themed('content-pre-header-background-color');
+      }
+    }
+  }
+  
+  table, tr, td {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .lntd {
+    &:first-child {
+      width: 10px;
+      @include no-select;
+    }
+
+    &:last-child {
+      vertical-align: top;
+    }
+  }
+
+  /* LineNumbersTable */  
+  .lnt {
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    @include themify($codeblock) {
+      color: themed('content-pre-number-color');
+    }
+  }
+
+  table.lntable {
+    overflow-x: auto;
+
+    @include themify($themes) {
+      @include webkit-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+      @include moz-scrollbars(themed('custom-scrollbar-foreground-color'), themed('custom-scrollbar-background-color'));
+    }
+
+    @include themify($codeblock) {
+      td:first-child {
+        border-left: 4px solid themed('content-pre-border-background-color');
+      }
+    }
+  }
+}
+
+li .highlight > .chroma {
+  .lnt:first-child {
+    padding: 0 0.3rem;
+  }
+  .lnt:not(:first-child) {
+    padding: 0 0.3rem;
+  }
+}
+
+td:not(.lntd) {
+  code {
+    padding: 2px 7px !important;
+  }
+}
+
+table:not(.lntable) {
+  // margin: 0 1rem;
+  td {
+    code {
+      padding: 2px 7px !important;
+    }
+  }
+}

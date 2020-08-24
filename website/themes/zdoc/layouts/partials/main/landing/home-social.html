@@ -1,0 +1,11 @@
+<div class="divider">
+  <div class="lmr">
+    <div class="home__social">
+      {{ range .Params.shields }}
+        <a href="{{ .link }}" class="home__social--item" target="_blank" rel="noreferrer">
+          <img src="{{ .image }}" alt="{{ .alt }}">
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>

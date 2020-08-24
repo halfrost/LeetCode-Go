@@ -1,0 +1,26 @@
+{{ if .Params.header }}
+  {{ range .Params.header }}
+    {{ if eq .type "text" }}
+    <div class="blog-header blog-header__align-{{ .align }}" style="width: 100%; height: {{ $.Param "headerHeight" | default 112 }}px;">
+      {{ $header := . }}
+      {{ if .title }}
+        {{ range .title }}
+        <div class="blog-header__title" style="font-size: {{ $header.titleFontSize }}px; {{ with $header.titleColor }}color:{{ . }}{{ end }};">
+          {{ . }}
+        </div>
+        {{ end }}      
+      {{ end }}
+      {{ if .spaceBetweenTitleSubtitle }}
+        <div style="height: {{ .spaceBetweenTitleSubtitle }}px"></div>
+      {{ end }}
+      {{ if .subtitle }}
+        {{ range .subtitle }} 
+        <div class="blog-header__subtitle" style="font-size: {{ $header.subtitleFontSize }}px; {{ with $header.subtitleColor }}color:{{ . }}{{ end }}" data-cursive="{{ with $header.subtitleCursive }}{{ . }}{{ end }}">
+          {{ . }}
+        </div>
+        {{ end }}      
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+{{ end }}

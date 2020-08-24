@@ -1,0 +1,73 @@
+{{ with .Params.landing }}
+{{ $landing := . }}
+<div class="divider">
+  <div class="lmr">
+    {{ with .backgroundImage }}
+      <div style="background-image: url('{{ .src | relURL }}'); background-position: center; background-repeat: no-repeat; background-size: cover; position: absolute; top: -50px; left: 0; width: 100%; height: {{ .height }}px;"></div>
+    {{ end }}
+    <div class="home__landing" style="height: {{ .height }}px;">
+      {{ if .image }}
+        <div class="home__landing--img">
+          <img src="{{ .image | relURL }}" alt="Site Landing Page image">
+        </div>
+        <div class="home__landing--txt">
+          {{ if .title }}
+            {{ range .title }}
+              <div class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
+                {{ . }}
+              </div>
+            {{ end }}
+          {{ end }}
+            {{ if .spaceBetweenTitleText }}
+              <div style="height: {{ .spaceBetweenTitleText }}px"></div>
+            {{ end }}
+          {{ if .text }}
+            {{ range .text }}
+              <div class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
+                {{ . }}
+              </div>
+            {{ end }}
+          {{ end }}
+
+          {{ range .buttons }}
+            <a href="{{ .link }}" target="{{ if in .link "http" }}_blank{{ else }}_self{{ end }}" rel="noreferrer" class="home__landing--link">
+              <button class="button home__landing--btn" aria-label="{{ .text }}" data-color="{{ with .color }}{{ . }}{{ end }}">
+                {{ .text }}
+              </button>
+            </a>
+          {{ end }}
+        </div>
+      {{ else }}
+        <div class="home__landing--txt">
+          {{ if .title }}
+            {{ range .title }}
+            <div class="title" style="{{ with $landing.titleColor }}color:{{ . }}{{ end }};">
+              {{ . }}
+            </div>
+            {{ end }}
+          {{ end }}
+            {{ if .spaceBetweenTitleText }}
+              <div style="height: {{ .spaceBetweenTitleText }}px"></div>
+            {{ end }}
+          {{ if .text }}
+            {{ range .text }}
+              <div class="text" style="{{ with $landing.textColor }}color:{{ . }}{{ end }};">
+                {{ . }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div class="flexcolumn">
+          {{ range .buttons }}
+            <a href="{{ .link }}" target="{{ if in .link "http" }}_blank{{ else }}_self{{ end }}" rel="noreferrer" class="home__landing--link">
+              <button class="button home__landing--btn2" aria-label="{{ .text }}" data-color="{{ with .color }}{{ . }}{{ end }}">
+                {{ .text }}
+              </button>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

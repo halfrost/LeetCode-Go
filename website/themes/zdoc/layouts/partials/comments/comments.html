@@ -1,0 +1,21 @@
+{{ if $.Param "enableComment" }}
+  {{ if $.Param "disqus_shortname" }}
+    {{ partial "comments/disqus.html" . }}
+  {{ else if $.Param "commento" }}
+    {{ partial "comments/commento.html" . }}
+  {{ else if $.Param "valine.enable" }}
+    {{ partial "comments/valine.html" . }}
+  {{ else if $.Param "changyan.changyanAppid" }}
+    {{ partial "comments/changyan.html" . }}
+  {{ else if $.Param "livere.livereUID" }}
+    {{ partial "comments/livere.html" . }}
+  {{ else if $.Param "gitment.owner" }}
+    {{ partial "comments/gitment.html" . }}
+  {{ else if $.Param "gitalk.owner" }}
+    {{ partial "comments/gitalk.html" . }}
+  {{ else if $.Param "utterances.owner" }}
+    {{ partial "comments/utterances.html" . }}
+  {{ else if $.Param "isso.enable" }}
+    {{ partial "comments/isso.html" . }}
+  {{ end }}
+{{ end }}

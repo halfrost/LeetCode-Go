@@ -1,0 +1,153 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  @include themify($themes) {
+    text-decoration: none;
+    color: themed('link');
+
+    @include on-event {
+      color: themed('link-hover');
+      text-decoration: underline;
+    }
+  }
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+// Blocks
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+// List
+ul {
+  list-style: none;
+}
+
+hr {
+  border: 0;
+}
+
+// Form
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+// Media
+img,
+video {
+  height: auto;
+  max-width: 100%;
+  object-fit: inherit;
+}
+
+// Iframe
+iframe {
+  border: 0;
+}
+
+// Table
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  &:not([align]) {
+    text-align: left;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+figcaption {  
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0.5rem 1rem 1rem;
+  @include themify($themes) {
+    color: themed("figcaption-color");
+    strong {
+      color: themed("figcaption-strong-color");
+    }
+  }
+}
+
+pre {
+  white-space: pre;
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  @include themify($themes) {
+    color: themed("selection-color");
+    background: themed("selection-background-color");
+  }
+}
+
+::selection {
+  @include themify($themes) {
+    color: themed("selection-color");
+    background: themed("selection-background-color");
+  }
+}

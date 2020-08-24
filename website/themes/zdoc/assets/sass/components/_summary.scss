@@ -1,0 +1,116 @@
+.summary-card {
+  padding: 1rem;
+  padding-bottom: 0;
+  margin: 1.5rem 0;
+  position: relative;
+
+  @include themify($themes) {
+    background-color: themed('body-background-color');
+    border-bottom: 1px solid themed('hr-color');
+  }
+
+  .title {
+    text-align: center;
+    a {
+      font-family: $title-font;
+      font-weight: 700;
+      word-break: break-word;
+
+      @include themify($themes) {
+        color: themed('link');
+        @include on-event {
+          color: themed('link-hover');
+        }
+      }
+    }
+  }
+
+  .subtitle {
+    padding: 1rem 0;
+
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+    @include themify($themes) {
+      color: themed('meta-color');
+    }
+  }
+
+  &__links {
+    font-size: 0.8rem;
+    
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include themify($themes) {
+      background-color: themed('body-background-color');
+    }
+  }
+
+  &__tag {
+    margin-right: 0.5rem;
+    margin-bottom: 0.35rem;
+    padding: 0.125rem 0.25rem;
+    border-top-left-radius: 0.15rem;
+    border-top-right-radius: 0.15rem;
+    cursor: pointer;
+    
+    @include themify($themes) {
+      border: 1px solid themed('hr-color');
+      border-bottom: none;
+    }
+  }
+
+  &__content {
+    margin-bottom: 1rem;
+
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(center);
+  }
+
+  &__text {
+    margin-top: 1rem;
+    line-height: 1.7rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    
+    &-wrapper {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+      padding: 1rem 0;
+      padding-bottom: 0;
+    }
+  }
+
+  &__video {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+
+    &-wrapper {
+      padding: 1rem;
+      padding-bottom: 0;
+    }
+  }
+
+  hr {
+    margin-top: 1.5rem;
+    @include themify($themes) {
+        border-top: 1px solid themed('hr-color');
+    }
+  }
+  &:not(:last-child) {
+    hr {
+      margin-bottom: 4rem;      
+    }
+  }
+  &:last-child {
+    hr {
+      margin-bottom: 2rem;
+    }
+  }
+}

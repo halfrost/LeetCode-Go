@@ -1,0 +1,40 @@
+<!-- {{ if $.Param "enableFooter" }}
+<div class="bot">
+  <footer class="footer">
+    <div class="divider">
+      <div class="lmr">
+        {{ with .Params.footer }}
+          <div class="footer__section--wrapper">
+            {{ range .sections }}
+              <div class="footer__section">
+                <div class="footer__section--title">
+                  {{ .title }}
+                </div>
+                <ul>
+                  {{ range .links }}
+                    <a href="{{ .link }}" class="footer__section--link" target="_blank" rel="noreferrer">
+                      {{ .title }}
+                    </a>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+          {{ with .contents }}
+            <div class="footer__contents {{ if .applySinglePageCss }}single__contents{{ end }}">
+              {{ .markdown | markdownify }}
+            </div>
+          {{ end }}
+        {{ else }}
+          <p class="caption">
+            {{ with $.Site.Copyright }}{{ replace . "{year}" now.Year | markdownify }}{{ end }}
+          </p>
+          {{ if $.Param "showPoweredBy" }}
+              <p class="caption">Powered by <a href="https://gohugo.io/" rel="noreferrer">Hugo</a> and the <a href="https://github.com/zzossig/hugo-theme-zdoc" rel="noreferrer">zDoc theme</a></p>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </footer>
+</div>
+{{ end }} -->

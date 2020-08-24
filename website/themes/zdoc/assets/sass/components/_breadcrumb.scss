@@ -1,0 +1,52 @@
+.breadcrumb {
+  &[data-is-blog="true"] {
+    margin: 1.5rem 1rem 0 1rem;
+    padding-bottom: 1.5rem;
+
+    @include themify($themes) {
+      border-bottom: 1px solid themed('hr-color');
+      background-color: themed('breadcrumb-background-color');
+    }
+  }
+
+  &[data-is-blog="false"] {
+    margin: auto 1rem;
+    padding: 0.5rem 0;
+  }
+
+  ol {
+    @include flexbox();
+    @include align-items(center);
+    @include flex-wrap(wrap);
+  }
+
+  li {
+    display: inline;
+    font-size: 0.9rem;
+
+    @include truncate(300px);
+    
+    a {
+      @include themify($themes) {
+        color: themed('breadcrumb-item-color');
+        @include on-event {
+          color: themed('link-hover');
+        }
+      }      
+    }    
+
+    &:last-child {
+      @include themify($themes) {
+        color: themed('breadcrumb-item-active-color');
+      }
+    }       
+  }
+
+  li+li:before {
+    padding: 0.5rem;    
+    content: "»";
+    @include themify($themes) {
+      color: themed('breadcrumb-item-color');
+    }
+  }
+}

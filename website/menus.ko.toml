@@ -1,0 +1,28 @@
+[[main]]
+  identifier = "about"
+  name = "어바웃"
+  url = "about"
+  weight = 1
+
+[[main]]
+  identifier = "archive"
+  name = "아카이브"
+  url = "archive"
+  weight = 2
+
+[[main]]
+  identifier = "gallery"
+  name = "갤러리"
+  url = "gallery"
+  weight = 3
+    
+[[main]]
+  parent = "gallery"
+  name = "fiverr"
+  url = "gallery/mine"
+
+[[main]]
+  identifier = "posts"
+  name = "포스트"
+  url = "posts"
+  weight = 4

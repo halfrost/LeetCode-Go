@@ -1,0 +1,7 @@
+{{ if $.Param "enableEditBtn" }}
+  <a href="{{ $.Param "editBaseURL" }}{{ strings.TrimSuffix "/" (.Permalink | relLangURL) }}.md" target="_blank" rel="noreferrer">
+    <button class="editBtn" aria-label="Edit This Page Button">
+      {{ i18n "edit-this-page" | default "EDIT THIS PAGE" }}
+    </button>
+  </a>
+{{ end }}

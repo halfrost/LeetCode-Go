@@ -1,0 +1,11 @@
+<div class="expand">
+  <button type="button" class="expand__button" aria-label="Expand Button">
+    <span class="expand-icon expand-icon__right">
+        {{ partial "svgs/arrow-right.svg" (dict "width" 24 "height" 24) }}
+    </span>
+    {{.Get 0}}
+  </button>
+  <div class="expand__content">
+    {{.Inner | markdownify}}
+  </div>
+</div>

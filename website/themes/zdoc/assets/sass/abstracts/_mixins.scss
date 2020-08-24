@@ -1,0 +1,230 @@
+@mixin themify($themes) {
+  @each $theme, $map in $themes {
+    .theme__#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@mixin font-source-sans($size: false, $colour: false, $weight: false, $lh: false) {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  @if $size {
+    font-size: $size;
+  }
+  @if $colour {
+    color: $colour;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin input-placeholder {
+  &.placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+  &::-webkit-input-placeholder {
+    @content;
+  }
+}
+
+@mixin truncate($truncation-boundary) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: $truncation-boundary;
+}
+
+@mixin truncate2($truncation-boundary) {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: $truncation-boundary;
+}
+
+@mixin box-shadow($top, $left, $blur, $size, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow: inset $top $left $blur $size $color;
+    -moz-box-shadow: inset $top $left $blur $size $color;
+    box-shadow: inset $top $left $blur $size $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $size $color;
+    -moz-box-shadow: $top $left $blur $size $color;
+    box-shadow: $top $left $blur $size $color;
+  }
+}
+
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+  -webkit-transition: $what $time $how;
+  -moz-transition: $what $time $how;
+  -ms-transition: $what $time $how;
+  -o-transition: $what $time $how;
+  transition: $what $time $how;
+}
+
+// Browser Prefixes
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  transform: $transforms;
+}
+
+// Rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// Scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+@mixin scaleX($scale) {
+  @include transform(scaleX($scale));
+}
+
+@mixin scaleY($scale) {
+  @include transform(scaleY($scale));
+}
+
+// Translate
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+@mixin translateX($x) {
+  @include transform(translateX($x));
+}
+
+@mixin translateY($y) {
+  @include transform(translateY($y));
+}
+
+// Skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+// Transform Origin
+@mixin transform-origin($origin) {
+  -webkit-transform-origin: $origin;
+  -moz-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  transform-origin: $origin;
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }  
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }  
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@mixin no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@mixin webkit-scrollbars($foreground-color, $background-color) {
+  &::-webkit-scrollbar {
+      width:  0.45em;
+      height: 0.45em;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+}
+
+@mixin webkit-scrollbars2($foreground-color, $background-color) {
+  ::-webkit-scrollbar {
+      width:  0.45em;
+      height: 0.45em;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+}
+
+@mixin moz-scrollbars($foreground-color, $background-color) {
+  scrollbar-width: thin;
+  scrollbar-color: $foreground-color $background-color;
+}
+
+@mixin clippy() {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt" viewBox="0 0 24 24" version="1.1">
+<path style="stroke:none;fill-rule:nonzero;fill:rgb(100,100,100);fill-opacity:1;" d="M 4 2 C 2.894531 2 2 2.894531 2 4 L 2 17 C 2 17.550781 2.449219 18 3 18 C 3.550781 18 4 17.550781 4 17 L 4 4 L 17 4 C 17.550781 4 18 3.550781 18 3 C 18 2.449219 17.550781 2 17 2 Z M 8 6 C 6.894531 6 6 6.894531 6 8 L 6 20 C 6 21.105469 6.894531 22 8 22 L 20 22 C 21.105469 22 22 21.105469 22 20 L 22 8 C 22 6.894531 21.105469 6 20 6 Z M 8 8 L 20 8 L 20 20 L 8 20 Z M 8 8 "/></svg>');
+}

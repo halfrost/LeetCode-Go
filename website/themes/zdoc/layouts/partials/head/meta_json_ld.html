@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    {{ if .IsPage -}}
+    "@type": {{ if or (eq .Section "blog") (eq .Section "post") }}"BlogPosting"{{ else }}"WebPage"{{ end }},
+    "headline": {{ .Title }},
+    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+    "url" : {{ .Permalink }},
+    "description": {{ with (.Description | default (replaceRE "\n" " " (.Summary | truncate 170))) }}{{ . }}{{ end }},
+    {{ with .Params.tags -}}
+    "keywords": {{ . }},
+    {{ end -}}
+    {{ else -}}
+    "@type": "WebPage",
+    "url" : {{ .Permalink }},
+    "name": {{ .Title }},
+    {{ with $.Param "description" -}}
+    "description": {{ . }},
+    {{ end -}}
+    {{ end -}}
+    {{ with $.Param "image" -}}
+    "image" : {{ . | absURL }},
+    {{ end -}}
+    {{ with $.Param "author" -}}
+    "author": {
+      "@type": "Person",
+      "name": {{ . }}
+    },
+    {{ end -}}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ .Site.BaseURL }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ .Site.Title  }},
+      {{ with $.Param "icon" -}}
+      "logo" : {
+        "@type": "ImageObject",
+        "url": {{ . | absURL }}
+      },
+      {{ end -}}
+      "url": {{ .Site.BaseURL }}
+    }
+  }
+</script>

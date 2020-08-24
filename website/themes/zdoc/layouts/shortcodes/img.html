@@ -1,0 +1,17 @@
+<figure {{ with .Get "class" }}class="{{.}}" {{ end }}>
+  {{ with .Get "link"}}<a href="{{.}}">{{ end }}
+    {{ $base := (findRE "/[a-zA-Z0-9_]+/" .Site.BaseURL | default "/") }}
+    <img data-src="{{ if eq $base "/" }}{{ .Get "src" }}{{ else }}{{ delimit $base "" }}{{ substr (.Get "src") 1 }}{{ end }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} data-caption="{{ .Get "caption" }}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24pt' height='24pt' viewBox='0 0 24 24' version='1.1'%3E%3Cg id='surface1035795'%3E%3Cpath style=' stroke:none;fill-rule:nonzero;fill:rgb(80%25,80%25,80%25);fill-opacity:1;' d='M 4 4 C 2.90625 4 2 4.90625 2 6 L 2 18 C 2 19.09375 2.90625 20 4 20 L 20 20 C 21.09375 20 22 19.09375 22 18 L 22 6 C 22 4.90625 21.09375 4 20 4 Z M 4 6 L 20 6 L 20 18 L 4 18 Z M 4 6 '/%3E%3C/g%3E%3C/svg%3E%0A" class="lazyload" width="{{ .Get "width" }}" height="{{ .Get "height" }}"/>
+    {{ if .Get "link"}}</a>{{ end }}
+  {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+  <figcaption>{{ if isset .Params "title" }}
+    <strong>{{ .Get "title" }}</strong>:{{ end }}
+    {{ if or (.Get "caption") (.Get "attr")}}
+    {{ .Get "caption" }}
+    {{ with .Get "attrlink"}}<a href="{{.}}"> {{ end }}
+      {{ .Get "attr" }}
+      {{ if .Get "attrlink"}}</a> {{ end }}
+    {{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

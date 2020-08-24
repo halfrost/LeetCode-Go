@@ -1,0 +1,49 @@
+.bot {
+  @include themify($themes) {
+    background-color: themed('navbar-background-color');
+  }
+}
+.footer {
+  @include themify($themes) {
+    border-top: 1px solid themed('border-line-color');
+  }
+
+  padding: 1rem;
+  text-align: center;
+
+  &__section {
+    @include flexbox();
+    @include flex-direction(column);
+    @include flex-grow(1);
+    @include align-items(flex-start);
+
+    &--wrapper {
+      @include flexbox();
+      @media only screen and (max-width: 600px) {
+        @include flex-direction(column);
+      }
+    }
+
+    &--title {
+      font-family: $title-font;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    &--link {
+      display: block;
+      text-align: left;
+      padding: 0.15rem 0.35rem;
+    }
+  }
+
+  &__contents {
+    width: 100%;
+    margin: 2rem 0;
+
+    @include flexbox();
+    @include align-items(flex-start);
+    @include flex-direction(column);
+  }
+}

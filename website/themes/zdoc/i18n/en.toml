@@ -1,0 +1,23 @@
+[toc-label]
+other = "What's on this Page"
+
+[tooltip-written]
+other = "Written At"
+
+[tooltip-modified]
+other = "Modified At"
+
+[tooltip-reading-time]
+other = "Reading Time"
+
+[summary-dateformat]
+other = "Jan 2, 2006"
+
+[reading-time]
+other = "min read"
+
+[single-writtenBy]
+other = "WRITTEN BY"
+
+[edit-this-page]
+other = "EDIT THIS PAGE"

@@ -1,0 +1,56 @@
+.lang {
+  width: 100%;
+  font-size: 17.2px;
+
+  @include flexbox();
+  @include justify-content(space-between);
+  @include align-items(center);
+
+  &__dropdown {
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(center);
+
+    &--content {
+      padding: 0.25rem 0;
+      max-width: 120px;
+      border-radius: 0.175rem;
+
+      @include truncate(120px);
+      @include box-shadow(0, 1px, 3px, 0, rgba(0, 0, 0, 0.4));
+      @include themify($themes) {
+        background-color: themed('dropdown-background-color');
+        a {
+          text-decoration: none;
+          color: themed('body-color');
+
+          @include on-event {
+            color: inherit;
+            background-color: themed('dropdown-hover-background-color');
+          }
+
+          &.active {
+            font-weight: bold;
+            color: themed('active-font-color');
+            background-color: themed('dropdown-item-active-background-color');
+          }
+        }
+      }
+    }
+
+    &--item {
+      padding: 0.25rem 0.75rem;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      display: block;
+      font-size: 1rem;
+
+      @include truncate(120px);
+    }
+  }
+}

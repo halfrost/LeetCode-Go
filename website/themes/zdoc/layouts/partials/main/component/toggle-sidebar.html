@@ -1,0 +1,13 @@
+{{ if $.Param "enableTocSwitch" }}
+  <label class="switch">
+    <input id="toggle-sidebar" aria-label="Toggle Sidebar Visibility" type="checkbox" checked />
+    <span class="slider">
+      <span class="slider__icon">
+        {{ partial "svgs/arrow-forward.svg" (dict "width" 20 "height" 20) }}
+      </span>
+      <span class="slider__icon hide">
+        {{ partial "svgs/arrow-back.svg" (dict "width" 20 "height" 20) }}
+      </span>
+    </span>
+  </label>
+{{ end }}

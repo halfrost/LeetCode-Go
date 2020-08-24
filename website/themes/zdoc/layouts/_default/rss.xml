@@ -1,0 +1,41 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.Language.Lang }}
+    <language>{{.}}</language>{{end}}{{ with $.Site.Params.email }}
+    <managingEditor>{{.}}{{ with $.Site.Params.myname }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Params.email }}
+    <webMaster>{{.}}{{ with $.Site.Params.myname }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    
+    {{ if .IsHome }}
+      {{ range .Site.RegularPages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Params.email }}<author>{{.}}{{ with $.Site.Params.myname }} ({{.}}){{end}}</author>{{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Summary | html }}</description>
+      </item>
+      {{ end }}
+    {{ else }}
+      {{ range .Pages }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Params.email }}<author>{{.}}{{ with $.Site.Params.myname }} ({{.}}){{end}}</author>{{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Summary | html }}</description>
+      </item>
+      {{ end }}
+    {{ end }}
+  </channel>
+</rss>
