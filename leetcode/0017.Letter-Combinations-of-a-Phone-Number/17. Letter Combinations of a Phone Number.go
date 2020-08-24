@@ -13,9 +13,11 @@ var (
 		"tuv",  //8
 		"wxyz", //9
 	}
-	res = []string{}
+	res   = []string{}
+	final = 0
 )
 
+// 解法一 DFS
 func letterCombinations(digits string) []string {
 	if digits == "" {
 		return []string{}
@@ -36,4 +38,31 @@ func findCombination(digits *string, index int, s string) {
 		findCombination(digits, index+1, s+string(letter[i]))
 	}
 	return
+}
+
+// 解法二 非递归
+func letterCombinations_(digits string) []string {
+	if digits == "" {
+		return []string{}
+	}
+	index := digits[0] - '0'
+	letter := letterMap[index]
+	tmp := []string{}
+	for i := 0; i < len(letter); i++ {
+		if len(res) == 0 {
+			res = append(res, "")
+		}
+		for j := 0; j < len(res); j++ {
+			tmp = append(tmp, res[j]+string(letter[i]))
+		}
+	}
+	res = tmp
+	final++
+	letterCombinations(digits[1:])
+	final--
+	if final == 0 {
+		tmp = res
+		res = []string{}
+	}
+	return tmp
 }
