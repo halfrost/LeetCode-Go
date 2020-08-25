@@ -6,7 +6,8 @@ headless: true
 
 - [第一章 序章]({{< relref "/ChapterOne/_index.md" >}})
   - [1.1 关于作者]({{< relref "/ChapterOne/#关于作者" >}})
-  - 1.2 预备知识
+  - [1.2 数据结构知识]({{< relref "/ChapterOne/Data_Structure.md" >}})
+  - [1.3 算法知识]({{< relref "/ChapterOne/Algorithm.md" >}})
 - [第二章 算法专题]({{< relref "/ChapterTwo/_index.md" >}})
   - [2.01 Array]({{< relref "/ChapterTwo/Array.md" >}})
   - [2.02 String]({{< relref "/ChapterTwo/String.md" >}})
