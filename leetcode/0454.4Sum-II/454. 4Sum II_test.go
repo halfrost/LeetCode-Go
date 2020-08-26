@@ -29,7 +29,7 @@ func Test_Problem454(t *testing.T) {
 
 	qs := []question454{
 
-		question454{
+		{
 			para454{[]int{1, 2}, []int{-2, -1}, []int{-1, 2}, []int{0, 2}},
 			ans454{2},
 		},

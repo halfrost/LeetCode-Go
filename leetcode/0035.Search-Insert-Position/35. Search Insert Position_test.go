@@ -27,22 +27,22 @@ func Test_Problem35(t *testing.T) {
 
 	qs := []question35{
 
-		question35{
+		{
 			para35{[]int{1, 3, 5, 6}, 5},
 			ans35{2},
 		},
 
-		question35{
+		{
 			para35{[]int{1, 3, 5, 6}, 2},
 			ans35{1},
 		},
 
-		question35{
+		{
 			para35{[]int{1, 3, 5, 6}, 7},
 			ans35{4},
 		},
 
-		question35{
+		{
 			para35{[]int{1, 3, 5, 6}, 0},
 			ans35{0},
 		},

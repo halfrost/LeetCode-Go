@@ -26,17 +26,17 @@ func Test_Problem318(t *testing.T) {
 
 	qs := []question318{
 
-		question318{
+		{
 			para318{[]string{"abcw", "baz", "foo", "bar", "xtfn", "abcdef"}},
 			ans318{16},
 		},
 
-		question318{
+		{
 			para318{[]string{"a", "ab", "abc", "d", "cd", "bcd", "abcd"}},
 			ans318{4},
 		},
 
-		question318{
+		{
 			para318{[]string{"a", "aa", "aaa", "aaaa"}},
 			ans318{0},
 		},

@@ -27,12 +27,12 @@ func Test_Problem1160(t *testing.T) {
 
 	qs := []question1160{
 
-		question1160{
+		{
 			para1160{[]string{"cat", "bt", "hat", "tree"}, "atach"},
 			ans1160{6},
 		},
 
-		question1160{
+		{
 			para1160{[]string{"hello", "world", "leetcode"}, "welldonehoneyr"},
 			ans1160{10},
 		},

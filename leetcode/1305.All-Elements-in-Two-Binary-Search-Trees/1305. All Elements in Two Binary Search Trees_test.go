@@ -29,27 +29,27 @@ func Test_Problem1305(t *testing.T) {
 
 	qs := []question1305{
 
-		question1305{
+		{
 			para1305{[]int{2, 1, 4}, []int{1, 0, 3}},
 			ans1305{[]int{0, 1, 1, 2, 3, 4}},
 		},
 
-		question1305{
+		{
 			para1305{[]int{0, -10, 10}, []int{5, 1, 7, 0, 2}},
 			ans1305{[]int{-10, 0, 0, 1, 2, 5, 7, 10}},
 		},
 
-		question1305{
+		{
 			para1305{[]int{}, []int{5, 1, 7, 0, 2}},
 			ans1305{[]int{0, 1, 2, 5, 7}},
 		},
 
-		question1305{
+		{
 			para1305{[]int{0, -10, 10}, []int{}},
 			ans1305{[]int{-10, 0, 10}},
 		},
 
-		question1305{
+		{
 			para1305{[]int{1, structures.NULL, 8}, []int{8, 1}},
 			ans1305{[]int{1, 1, 8, 8}},
 		},

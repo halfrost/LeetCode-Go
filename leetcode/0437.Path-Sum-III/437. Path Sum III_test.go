@@ -28,12 +28,12 @@ type ans437 struct {
 func Test_Problem437(t *testing.T) {
 
 	qs := []question437{
-		question437{
+		{
 			para437{[]int{}, 0},
 			ans437{0},
 		},
 
-		question437{
+		{
 			para437{[]int{10, 5, -3, 3, 2, structures.NULL, 11, 3, -2, structures.NULL, 1}, 8},
 			ans437{3},
 		},

@@ -28,27 +28,27 @@ func Test_Problem508(t *testing.T) {
 
 	qs := []question508{
 
-		question508{
+		{
 			para508{[]int{}},
 			ans508{[]int{}},
 		},
 
-		question508{
+		{
 			para508{[]int{1, 1}},
 			ans508{[]int{1, 2}},
 		},
 
-		question508{
+		{
 			para508{[]int{1}},
 			ans508{[]int{1}},
 		},
 
-		question508{
+		{
 			para508{[]int{5, 2, -3}},
 			ans508{[]int{2, -3, 4}},
 		},
 
-		question508{
+		{
 			para508{[]int{5, 2, -5}},
 			ans508{[]int{2}},
 		},

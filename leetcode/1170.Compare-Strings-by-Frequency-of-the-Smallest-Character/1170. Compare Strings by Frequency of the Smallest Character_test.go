@@ -27,12 +27,12 @@ func Test_Problem1170(t *testing.T) {
 
 	qs := []question1170{
 
-		question1170{
+		{
 			para1170{[]string{"cbd"}, []string{"zaaaz"}},
 			ans1170{[]int{1}},
 		},
 
-		question1170{
+		{
 			para1170{[]string{"bbb", "cc"}, []string{"a", "aa", "aaa", "aaaa"}},
 			ans1170{[]int{1, 2}},
 		},

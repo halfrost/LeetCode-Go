@@ -26,9 +26,9 @@ func Test_Problem46(t *testing.T) {
 
 	qs := []question46{
 
-		question46{
+		{
 			para46{[]int{1, 2, 3}},
-			ans46{[][]int{[]int{1, 2, 3}, []int{1, 3, 2}, []int{2, 1, 3}, []int{2, 3, 1}, []int{3, 1, 2}, []int{3, 2, 1}}},
+			ans46{[][]int{{1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2}, {3, 2, 1}}},
 		},
 	}
 

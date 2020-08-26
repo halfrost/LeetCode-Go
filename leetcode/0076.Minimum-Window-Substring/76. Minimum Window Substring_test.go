@@ -27,17 +27,17 @@ func Test_Problem76(t *testing.T) {
 
 	qs := []question76{
 
-		question76{
+		{
 			para76{"ADOBECODEBANC", "ABC"},
 			ans76{"BANC"},
 		},
 
-		question76{
+		{
 			para76{"a", "aa"},
 			ans76{""},
 		},
 
-		question76{
+		{
 			para76{"a", "a"},
 			ans76{"a"},
 		},

@@ -1,10 +1,10 @@
 package leetcode
 
 var dir = [][]int{
-	[]int{-1, 0},
-	[]int{0, 1},
-	[]int{1, 0},
-	[]int{0, -1},
+	{-1, 0},
+	{0, 1},
+	{1, 0},
+	{0, -1},
 }
 
 func uniquePathsIII(grid [][]int) int {
@@ -53,7 +53,7 @@ func findUniquePathIII(board [][]int, visited [][]bool, path []int, empty, start
 			}
 		}
 		visited[startx][starty] = false
-		empty++
+		//empty++ 这里虽然可以还原这个变量值，但是赋值没有意义，干脆不写了
 		path = path[:len(path)-2]
 	}
 	return

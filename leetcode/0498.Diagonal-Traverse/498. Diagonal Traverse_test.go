@@ -26,33 +26,33 @@ func Test_Problem498(t *testing.T) {
 
 	qs := []question498{
 
-		question498{
-			para498{[][]int{[]int{3}, []int{2}, []int{9}}},
+		{
+			para498{[][]int{{3}, {2}, {9}}},
 			ans498{[]int{3, 2, 9}},
 		},
 
-		question498{
-			para498{[][]int{[]int{6, 9, 7}}},
+		{
+			para498{[][]int{{6, 9, 7}}},
 			ans498{[]int{6, 9, 7}},
 		},
 
-		question498{
-			para498{[][]int{[]int{3}, []int{2}}},
+		{
+			para498{[][]int{{3}, {2}}},
 			ans498{[]int{3, 2}},
 		},
 
-		question498{
-			para498{[][]int{[]int{1, 2, 3}, []int{4, 5, 6}, []int{7, 8, 9}}},
+		{
+			para498{[][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}},
 			ans498{[]int{1, 2, 4, 7, 5, 3, 6, 8, 9}},
 		},
 
-		question498{
-			para498{[][]int{[]int{0}}},
+		{
+			para498{[][]int{{0}}},
 			ans498{[]int{0}},
 		},
 
-		question498{
-			para498{[][]int{[]int{}}},
+		{
+			para498{[][]int{{}}},
 			ans498{[]int{}},
 		},
 	}

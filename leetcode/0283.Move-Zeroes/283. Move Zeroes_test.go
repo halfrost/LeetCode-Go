@@ -26,32 +26,32 @@ func Test_Problem283(t *testing.T) {
 
 	qs := []question283{
 
-		question283{
+		{
 			para283{[]int{1, 0, 1}},
 			ans283{[]int{1, 1, 0}},
 		},
 
-		question283{
+		{
 			para283{[]int{0, 1, 0, 3, 0, 12}},
 			ans283{[]int{1, 3, 12, 0, 0, 0}},
 		},
 
-		question283{
+		{
 			para283{[]int{0, 1, 0, 3, 0, 0, 0, 0, 1, 12}},
 			ans283{[]int{1, 3, 1, 12, 0, 0, 0, 0, 0}},
 		},
 
-		question283{
+		{
 			para283{[]int{0, 0, 0, 0, 0, 0, 0, 0, 12, 1}},
 			ans283{[]int{12, 1, 0, 0, 0, 0, 0, 0, 0, 0}},
 		},
 
-		question283{
+		{
 			para283{[]int{0, 0, 0, 0, 0}},
 			ans283{[]int{0, 0, 0, 0, 0}},
 		},
 
-		question283{
+		{
 			para283{[]int{1}},
 			ans283{[]int{1}},
 		},

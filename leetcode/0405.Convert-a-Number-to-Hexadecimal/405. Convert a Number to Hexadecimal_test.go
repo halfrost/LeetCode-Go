@@ -26,12 +26,12 @@ func Test_Problem405(t *testing.T) {
 
 	qs := []question405{
 
-		question405{
+		{
 			para405{26},
 			ans405{"1a"},
 		},
 
-		question405{
+		{
 			para405{-1},
 			ans405{"ffffffff"},
 		},

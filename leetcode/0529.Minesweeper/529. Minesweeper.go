@@ -1,14 +1,14 @@
 package leetcode
 
 var dir8 = [][]int{
-	[]int{-1, -1},
-	[]int{-1, 0},
-	[]int{-1, 1},
-	[]int{0, 1},
-	[]int{1, 1},
-	[]int{1, 0},
-	[]int{1, -1},
-	[]int{0, -1},
+	{-1, -1},
+	{-1, 0},
+	{-1, 1},
+	{0, 1},
+	{1, 1},
+	{1, 0},
+	{1, -1},
+	{0, -1},
 }
 
 func updateBoard(board [][]byte, click []int) [][]byte {

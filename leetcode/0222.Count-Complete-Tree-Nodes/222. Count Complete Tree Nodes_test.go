@@ -28,22 +28,22 @@ func Test_Problem222(t *testing.T) {
 
 	qs := []question222{
 
-		question222{
+		{
 			para222{[]int{}},
 			ans222{0},
 		},
 
-		question222{
+		{
 			para222{[]int{1}},
 			ans222{1},
 		},
 
-		question222{
+		{
 			para222{[]int{1, 2, 3}},
 			ans222{3},
 		},
 
-		question222{
+		{
 			para222{[]int{1, 2, 3, 4, 5, 6}},
 			ans222{6},
 		},

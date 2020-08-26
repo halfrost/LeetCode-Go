@@ -26,27 +26,27 @@ func Test_Problem1137(t *testing.T) {
 
 	qs := []question1137{
 
-		question1137{
+		{
 			para1137{1},
 			ans1137{1},
 		},
 
-		question1137{
+		{
 			para1137{2},
 			ans1137{1},
 		},
 
-		question1137{
+		{
 			para1137{3},
 			ans1137{2},
 		},
 
-		question1137{
+		{
 			para1137{4},
 			ans1137{4},
 		},
 
-		question1137{
+		{
 			para1137{25},
 			ans1137{1389537},
 		},

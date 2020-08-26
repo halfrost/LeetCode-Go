@@ -27,21 +27,21 @@ func Test_Problem242(t *testing.T) {
 
 	qs := []question242{
 
-		question242{
+		{
 			para242{"", ""},
 			ans242{true},
 		},
-		question242{
+		{
 			para242{"", "1"},
 			ans242{false},
 		},
 
-		question242{
+		{
 			para242{"anagram", "nagaram"},
 			ans242{true},
 		},
 
-		question242{
+		{
 			para242{"rat", "car"},
 			ans242{false},
 		},

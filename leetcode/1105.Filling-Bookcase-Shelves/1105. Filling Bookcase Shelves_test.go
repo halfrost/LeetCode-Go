@@ -27,8 +27,8 @@ func Test_Problem1105(t *testing.T) {
 
 	qs := []question1105{
 
-		question1105{
-			para1105{[][]int{[]int{1, 1}, []int{2, 3}, []int{2, 3}, []int{1, 1}, []int{1, 1}, []int{1, 1}, []int{1, 2}}, 4},
+		{
+			para1105{[][]int{{1, 1}, {2, 3}, {2, 3}, {1, 1}, {1, 1}, {1, 1}, {1, 2}}, 4},
 			ans1105{6},
 		},
 	}

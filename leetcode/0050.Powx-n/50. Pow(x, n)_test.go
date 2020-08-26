@@ -27,17 +27,17 @@ func Test_Problem50(t *testing.T) {
 
 	qs := []question50{
 
-		question50{
+		{
 			para50{2.00000, 10},
 			ans50{1024.00000},
 		},
 
-		question50{
+		{
 			para50{2.10000, 3},
 			ans50{9.26100},
 		},
 
-		question50{
+		{
 			para50{2.00000, -2},
 			ans50{0.25000},
 		},

@@ -26,42 +26,42 @@ type ans402 struct {
 func Test_Problem402(t *testing.T) {
 
 	qs := []question402{
-		question402{
+		{
 			para402{"10", 1},
 			ans402{"0"},
 		},
 
-		question402{
+		{
 			para402{"1111111", 3},
 			ans402{"1111"},
 		},
 
-		question402{
+		{
 			para402{"5337", 2},
 			ans402{"33"},
 		},
 
-		question402{
+		{
 			para402{"112", 1},
 			ans402{"11"},
 		},
 
-		question402{
+		{
 			para402{"1432219", 3},
 			ans402{"1219"},
 		},
 
-		question402{
+		{
 			para402{"10200", 1},
 			ans402{"200"},
 		},
 
-		question402{
+		{
 			para402{"10", 2},
 			ans402{"0"},
 		},
 
-		question402{
+		{
 			para402{"19", 2},
 			ans402{"0"},
 		},

@@ -28,12 +28,12 @@ func Test_Problem404(t *testing.T) {
 
 	qs := []question404{
 
-		question404{
+		{
 			para404{[]int{}},
 			ans404{0},
 		},
 
-		question404{
+		{
 			para404{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans404{24},
 		},

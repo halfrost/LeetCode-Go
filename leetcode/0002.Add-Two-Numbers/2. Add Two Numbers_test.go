@@ -29,42 +29,42 @@ func Test_Problem2(t *testing.T) {
 
 	qs := []question2{
 
-		question2{
+		{
 			para2{[]int{}, []int{}},
 			ans2{[]int{}},
 		},
 
-		question2{
+		{
 			para2{[]int{1}, []int{1}},
 			ans2{[]int{2}},
 		},
 
-		question2{
+		{
 			para2{[]int{1, 2, 3, 4}, []int{1, 2, 3, 4}},
 			ans2{[]int{2, 4, 6, 8}},
 		},
 
-		question2{
+		{
 			para2{[]int{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}},
 			ans2{[]int{2, 4, 6, 8, 0, 1}},
 		},
 
-		question2{
+		{
 			para2{[]int{1}, []int{9, 9, 9, 9, 9}},
 			ans2{[]int{0, 0, 0, 0, 0, 1}},
 		},
 
-		question2{
+		{
 			para2{[]int{9, 9, 9, 9, 9}, []int{1}},
 			ans2{[]int{0, 0, 0, 0, 0, 1}},
 		},
 
-		question2{
+		{
 			para2{[]int{2, 4, 3}, []int{5, 6, 4}},
 			ans2{[]int{7, 0, 8}},
 		},
 
-		question2{
+		{
 			para2{[]int{1, 8, 3}, []int{7, 1}},
 			ans2{[]int{8, 9, 3}},
 		},

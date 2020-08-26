@@ -26,12 +26,12 @@ func Test_Problem1079(t *testing.T) {
 
 	qs := []question1079{
 
-		question1079{
+		{
 			para1079{"AAB"},
 			ans1079{8},
 		},
 
-		question1079{
+		{
 			para1079{"AAABBC"},
 			ans1079{188},
 		},

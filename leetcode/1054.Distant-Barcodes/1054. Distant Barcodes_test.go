@@ -26,12 +26,12 @@ func Test_Problem1054(t *testing.T) {
 
 	qs := []question1054{
 
-		question1054{
+		{
 			para1054{[]int{1, 1, 1, 2, 2, 2}},
 			ans1054{[]int{2, 1, 2, 1, 2, 1}},
 		},
 
-		question1054{
+		{
 			para1054{[]int{1, 1, 1, 1, 2, 2, 3, 3}},
 			ans1054{[]int{1, 3, 1, 3, 2, 1, 2, 1}},
 		},

@@ -27,27 +27,27 @@ func Test_Problem567(t *testing.T) {
 
 	qs := []question567{
 
-		question567{
+		{
 			para567{"ab", "abab"},
 			ans567{true},
 		},
 
-		question567{
+		{
 			para567{"abc", "cbaebabacd"},
 			ans567{true},
 		},
 
-		question567{
+		{
 			para567{"abc", ""},
 			ans567{false},
 		},
 
-		question567{
+		{
 			para567{"abc", "abacbabc"},
 			ans567{true},
 		},
 
-		question567{
+		{
 			para567{"ab", "eidboaoo"},
 			ans567{false},
 		},

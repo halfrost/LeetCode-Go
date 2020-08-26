@@ -28,19 +28,19 @@ func Test_Problem637(t *testing.T) {
 
 	qs := []question637{
 
-		question637{
+		{
 			para637{[]int{}},
 			ans637{[][]int{}},
 		},
 
-		question637{
+		{
 			para637{[]int{1}},
-			ans637{[][]int{[]int{1}}},
+			ans637{[][]int{{1}}},
 		},
 
-		question637{
+		{
 			para637{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
-			ans637{[][]int{[]int{3}, []int{9, 20}, []int{15, 7}}},
+			ans637{[][]int{{3}, {9, 20}, {15, 7}}},
 		},
 	}
 

@@ -27,22 +27,22 @@ func Test_Problem438(t *testing.T) {
 
 	qs := []question438{
 
-		question438{
+		{
 			para438{"abab", "ab"},
 			ans438{[]int{0, 1, 2}},
 		},
 
-		question438{
+		{
 			para438{"cbaebabacd", "abc"},
 			ans438{[]int{0, 6}},
 		},
 
-		question438{
+		{
 			para438{"", "abc"},
 			ans438{[]int{}},
 		},
 
-		question438{
+		{
 			para438{"abacbabc", "abc"},
 			ans438{[]int{1, 2, 3, 5}},
 		},

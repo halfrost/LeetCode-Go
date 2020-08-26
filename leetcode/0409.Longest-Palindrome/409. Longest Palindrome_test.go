@@ -26,7 +26,7 @@ func Test_Problem409(t *testing.T) {
 
 	qs := []question409{
 
-		question409{
+		{
 			para409{"abccccdd"},
 			ans409{7},
 		},

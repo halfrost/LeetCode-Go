@@ -25,27 +25,27 @@ type ans959 struct {
 func Test_Problem959(t *testing.T) {
 
 	qs := []question959{
-		question959{
+		{
 			para959{[]string{" /", "/ "}},
 			ans959{2},
 		},
 
-		question959{
+		{
 			para959{[]string{" /", "  "}},
 			ans959{1},
 		},
 
-		question959{
+		{
 			para959{[]string{"\\/", "/\\"}},
 			ans959{4},
 		},
 
-		question959{
+		{
 			para959{[]string{"/\\", "\\/"}},
 			ans959{5},
 		},
 
-		question959{
+		{
 			para959{[]string{"//", "/ "}},
 			ans959{3},
 		},

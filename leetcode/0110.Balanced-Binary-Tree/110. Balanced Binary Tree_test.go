@@ -28,37 +28,37 @@ func Test_Problem110(t *testing.T) {
 
 	qs := []question110{
 
-		question110{
+		{
 			para110{[]int{3, 4, 4, 5, structures.NULL, structures.NULL, 5, 6, structures.NULL, structures.NULL, 6}},
 			ans110{false},
 		},
 
-		question110{
+		{
 			para110{[]int{1, 2, 2, structures.NULL, 3, 3}},
 			ans110{true},
 		},
 
-		question110{
+		{
 			para110{[]int{}},
 			ans110{true},
 		},
 
-		question110{
+		{
 			para110{[]int{1}},
 			ans110{true},
 		},
 
-		question110{
+		{
 			para110{[]int{1, 2, 3}},
 			ans110{true},
 		},
 
-		question110{
+		{
 			para110{[]int{1, 2, 2, 3, 4, 4, 3}},
 			ans110{true},
 		},
 
-		question110{
+		{
 			para110{[]int{1, 2, 2, structures.NULL, 3, structures.NULL, 3}},
 			ans110{true},
 		},

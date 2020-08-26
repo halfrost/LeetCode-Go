@@ -26,21 +26,21 @@ func Test_Problem224(t *testing.T) {
 
 	qs := []question224{
 
-		question224{
+		{
 			para224{"1 + 1"},
 			ans224{2},
 		},
-		question224{
+		{
 			para224{" 2-1 + 2 "},
 			ans224{3},
 		},
 
-		question224{
+		{
 			para224{"(1+(4+5+2)-3)+(6+8)"},
 			ans224{23},
 		},
 
-		question224{
+		{
 			para224{"2-(5-6)"},
 			ans224{3},
 		},

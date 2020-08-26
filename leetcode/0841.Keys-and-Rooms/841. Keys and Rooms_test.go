@@ -26,13 +26,13 @@ func Test_Problem841(t *testing.T) {
 
 	qs := []question841{
 
-		question841{
-			para841{[][]int{[]int{1}, []int{2}, []int{3}, []int{}}},
+		{
+			para841{[][]int{{1}, {2}, {3}, {}}},
 			ans841{true},
 		},
 
-		question841{
-			para841{[][]int{[]int{1, 3}, []int{3, 0, 1}, []int{2}, []int{0}}},
+		{
+			para841{[][]int{{1, 3}, {3, 0, 1}, {2}, {0}}},
 			ans841{false},
 		},
 	}

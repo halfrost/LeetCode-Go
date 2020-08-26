@@ -27,9 +27,8 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
 	length := getLength(root)
 	splitNum := length / k
 	lengNum := length % k
-	cur := root
-	head := root
-	pre := root
+	cur, head := root, root
+	var pre *ListNode
 	fmt.Printf("总长度 %v, 分 %v 组, 前面 %v 组长度为 %v, 剩余 %v 组，每组 %v\n", length, k, lengNum, splitNum+1, k-lengNum, splitNum)
 	if splitNum == 0 {
 		for i := 0; i < k; i++ {

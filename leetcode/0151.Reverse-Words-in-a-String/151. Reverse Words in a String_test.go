@@ -26,16 +26,16 @@ func Test_Problem151(t *testing.T) {
 
 	qs := []question151{
 
-		question151{
+		{
 			para151{"the sky is blue"},
 			ans151{"blue is sky the"},
 		},
 
-		question151{
+		{
 			para151{"  hello world!  "},
 			ans151{"world! hello"},
 		},
-		question151{
+		{
 			para151{"a good   example"},
 			ans151{"example good a"},
 		},

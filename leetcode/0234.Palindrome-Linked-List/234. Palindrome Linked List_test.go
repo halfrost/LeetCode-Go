@@ -28,52 +28,52 @@ func Test_Problem234(t *testing.T) {
 
 	qs := []question234{
 
-		question234{
+		{
 			para234{[]int{1, 1, 2, 2, 3, 4, 4, 4}},
 			ans234{false},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 1, 1, 1, 1, 1}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 2, 2, 1, 3}},
 			ans234{false},
 		},
 
-		question234{
+		{
 			para234{[]int{1}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 2, 2, 2, 2, 1}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 2, 2, 3, 3, 3, 3, 2, 2, 1}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 2}},
 			ans234{false},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 0, 1}},
 			ans234{true},
 		},
 
-		question234{
+		{
 			para234{[]int{1, 1, 2, 1}},
 			ans234{false},
 		},

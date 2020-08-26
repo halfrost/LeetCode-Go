@@ -26,12 +26,12 @@ type ans771 struct {
 func Test_Problem771(t *testing.T) {
 
 	qs := []question771{
-		question771{
+		{
 			para771{"aA", "aAAbbbb"},
 			ans771{3},
 		},
 
-		question771{
+		{
 			para771{"z", "ZZ"},
 			ans771{0},
 		},

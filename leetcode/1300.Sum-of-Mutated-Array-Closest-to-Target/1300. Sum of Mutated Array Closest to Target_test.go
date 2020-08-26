@@ -27,17 +27,17 @@ func Test_Problem1300(t *testing.T) {
 
 	qs := []question1300{
 
-		question1300{
+		{
 			para1300{[]int{4, 9, 3}, 10},
 			ans1300{3},
 		},
 
-		question1300{
+		{
 			para1300{[]int{2, 3, 5}, 10},
 			ans1300{5},
 		},
 
-		question1300{
+		{
 			para1300{[]int{60864, 25176, 27249, 21296, 20204}, 56803},
 			ans1300{11361},
 		},

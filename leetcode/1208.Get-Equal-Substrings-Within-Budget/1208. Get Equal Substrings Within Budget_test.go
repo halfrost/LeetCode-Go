@@ -28,27 +28,27 @@ func Test_Problem1208(t *testing.T) {
 
 	qs := []question1208{
 
-		question1208{
+		{
 			para1208{"abcd", "bcdf", 3},
 			ans1208{3},
 		},
 
-		question1208{
+		{
 			para1208{"abcd", "cdef", 3},
 			ans1208{1},
 		},
 
-		question1208{
+		{
 			para1208{"abcd", "acde", 0},
 			ans1208{1},
 		},
 
-		question1208{
+		{
 			para1208{"thjdoffka", "qhrnlntls", 11},
 			ans1208{3},
 		},
 
-		question1208{
+		{
 			para1208{"krrgw", "zjxss", 19},
 			ans1208{2},
 		},

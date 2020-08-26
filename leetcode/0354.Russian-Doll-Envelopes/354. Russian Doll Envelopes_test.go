@@ -26,8 +26,8 @@ func Test_Problem354(t *testing.T) {
 
 	qs := []question354{
 
-		question354{
-			para354{[][]int{[]int{5, 4}, []int{6, 4}, []int{6, 7}, []int{2, 3}}},
+		{
+			para354{[][]int{{5, 4}, {6, 4}, {6, 7}, {2, 3}}},
 			ans354{3},
 		},
 	}

@@ -26,8 +26,8 @@ func Test_Problem812(t *testing.T) {
 
 	qs := []question812{
 
-		question812{
-			para812{[][]int{[]int{0, 0}, []int{0, 1}, []int{1, 0}, []int{0, 2}, []int{2, 0}}},
+		{
+			para812{[][]int{{0, 0}, {0, 1}, {1, 0}, {0, 2}, {2, 0}}},
 			ans812{2.0},
 		},
 	}

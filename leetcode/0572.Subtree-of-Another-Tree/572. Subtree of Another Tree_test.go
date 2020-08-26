@@ -29,22 +29,22 @@ func Test_Problem572(t *testing.T) {
 
 	qs := []question572{
 
-		question572{
+		{
 			para572{[]int{}, []int{}},
 			ans572{true},
 		},
 
-		question572{
+		{
 			para572{[]int{3, 4, 5, 1, 2}, []int{4, 1, 2}},
 			ans572{true},
 		},
 
-		question572{
+		{
 			para572{[]int{1, 1}, []int{1}},
 			ans572{true},
 		},
 
-		question572{
+		{
 			para572{[]int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}, []int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}},
 			ans572{true},
 		},

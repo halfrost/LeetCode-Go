@@ -28,12 +28,12 @@ func Test_Problem658(t *testing.T) {
 
 	qs := []question658{
 
-		question658{
+		{
 			para658{[]int{1, 2, 3, 4, 5}, 4, 3},
 			ans658{[]int{1, 2, 3, 4}},
 		},
 
-		question658{
+		{
 			para658{[]int{1, 2, 3, 4, 5}, 4, -1},
 			ans658{[]int{1, 2, 3, 4}},
 		},

@@ -27,27 +27,27 @@ func Test_Problem888(t *testing.T) {
 
 	qs := []question888{
 
-		question888{
+		{
 			para888{[]int{}, []int{}},
 			ans888{[]int{}},
 		},
 
-		question888{
+		{
 			para888{[]int{1, 1}, []int{2, 2}},
 			ans888{[]int{1, 2}},
 		},
 
-		question888{
+		{
 			para888{[]int{1, 2}, []int{2, 3}},
 			ans888{[]int{1, 2}},
 		},
 
-		question888{
+		{
 			para888{[]int{2}, []int{1, 3}},
 			ans888{[]int{2, 3}},
 		},
 
-		question888{
+		{
 			para888{[]int{1, 2, 5}, []int{2, 4}},
 			ans888{[]int{5, 4}},
 		},

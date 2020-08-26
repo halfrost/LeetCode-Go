@@ -27,17 +27,17 @@ type ans1028 struct {
 func Test_Problem1028(t *testing.T) {
 
 	qs := []question1028{
-		question1028{
+		{
 			para1028{"1-2--3--4-5--6--7"},
 			ans1028{[]int{1, 2, 5, 3, 4, 6, 7}},
 		},
 
-		question1028{
+		{
 			para1028{"1-2--3---4-5--6---7"},
 			ans1028{[]int{1, 2, 5, 3, structures.NULL, 6, structures.NULL, 4, structures.NULL, 7}},
 		},
 
-		question1028{
+		{
 			para1028{"1-401--349---90--88"},
 			ans1028{[]int{1, 401, structures.NULL, 349, 88, 90}},
 		},

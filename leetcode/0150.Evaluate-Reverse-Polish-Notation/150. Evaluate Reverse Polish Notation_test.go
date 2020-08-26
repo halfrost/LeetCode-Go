@@ -26,21 +26,21 @@ func Test_Problem150(t *testing.T) {
 
 	qs := []question150{
 
-		question150{
+		{
 			para150{[]string{"18"}},
 			ans150{18},
 		},
 
-		question150{
+		{
 			para150{[]string{"2", "1", "+", "3", "*"}},
 			ans150{9},
 		},
-		question150{
+		{
 			para150{[]string{"4", "13", "5", "/", "+"}},
 			ans150{6},
 		},
 
-		question150{
+		{
 			para150{[]string{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}},
 			ans150{22},
 		},

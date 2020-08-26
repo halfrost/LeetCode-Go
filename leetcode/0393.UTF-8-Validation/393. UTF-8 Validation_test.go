@@ -26,12 +26,12 @@ func Test_Problem393(t *testing.T) {
 
 	qs := []question393{
 
-		question393{
+		{
 			para393{[]int{197, 130, 1}},
 			ans393{true},
 		},
 
-		question393{
+		{
 			para393{[]int{235, 140, 4}},
 			ans393{false},
 		},

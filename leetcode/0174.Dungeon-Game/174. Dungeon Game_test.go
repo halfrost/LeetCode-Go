@@ -26,23 +26,23 @@ func Test_Problem174(t *testing.T) {
 
 	qs := []question174{
 
-		question174{
-			para174{[][]int{[]int{2, 1}, []int{1, -1}}},
+		{
+			para174{[][]int{{2, 1}, {1, -1}}},
 			ans174{1},
 		},
 
-		question174{
-			para174{[][]int{[]int{-3, 5}}},
+		{
+			para174{[][]int{{-3, 5}}},
 			ans174{4},
 		},
 
-		question174{
-			para174{[][]int{[]int{100}}},
+		{
+			para174{[][]int{{100}}},
 			ans174{1},
 		},
 
-		question174{
-			para174{[][]int{[]int{-2, -3, 3}, []int{-5, -10, 1}, []int{10, 30, -5}}},
+		{
+			para174{[][]int{{-2, -3, 3}, {-5, -10, 1}, {10, 30, -5}}},
 			ans174{7},
 		},
 	}

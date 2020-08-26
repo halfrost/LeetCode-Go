@@ -19,10 +19,10 @@ func spiralOrder(matrix [][]int) []int {
 		return res
 	}
 	visit, m, n, round, x, y, spDir := make([][]int, len(matrix)), len(matrix), len(matrix[0]), 0, 0, 0, [][]int{
-		[]int{0, 1},  // 朝右
-		[]int{1, 0},  // 朝下
-		[]int{0, -1}, // 朝左
-		[]int{-1, 0}, // 朝上
+		{0, 1},  // 朝右
+		{1, 0},  // 朝下
+		{0, -1}, // 朝左
+		{-1, 0}, // 朝上
 	}
 	for i := 0; i < m; i++ {
 		visit[i] = make([]int, n)

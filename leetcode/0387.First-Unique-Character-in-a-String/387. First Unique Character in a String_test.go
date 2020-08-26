@@ -26,12 +26,12 @@ func Test_Problem387(t *testing.T) {
 
 	qs := []question387{
 
-		question387{
+		{
 			para387{"leetcode"},
 			ans387{0},
 		},
 
-		question387{
+		{
 			para387{"loveleetcode"},
 			ans387{2},
 		},

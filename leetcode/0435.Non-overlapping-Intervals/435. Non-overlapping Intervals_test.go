@@ -26,18 +26,18 @@ func Test_Problem435(t *testing.T) {
 
 	qs := []question435{
 
-		question435{
-			para435{[][]int{[]int{1, 2}, []int{2, 3}, []int{3, 4}, []int{1, 3}}},
+		{
+			para435{[][]int{{1, 2}, {2, 3}, {3, 4}, {1, 3}}},
 			ans435{1},
 		},
 
-		question435{
-			para435{[][]int{[]int{1, 2}, []int{1, 2}, []int{1, 2}}},
+		{
+			para435{[][]int{{1, 2}, {1, 2}, {1, 2}}},
 			ans435{2},
 		},
 
-		question435{
-			para435{[][]int{[]int{1, 2}, []int{2, 3}}},
+		{
+			para435{[][]int{{1, 2}, {2, 3}}},
 			ans435{0},
 		},
 	}

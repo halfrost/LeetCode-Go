@@ -26,14 +26,14 @@ func Test_Problem51(t *testing.T) {
 
 	qs := []question51{
 
-		question51{
+		{
 			para51{4},
 			ans51{[][]string{
-				[]string{".Q..",
+				{".Q..",
 					"...Q",
 					"Q...",
 					"..Q."},
-				[]string{"..Q.",
+				{"..Q.",
 					"Q...",
 					"...Q",
 					".Q.."},

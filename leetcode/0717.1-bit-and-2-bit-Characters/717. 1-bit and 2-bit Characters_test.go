@@ -26,22 +26,22 @@ func Test_Problem717(t *testing.T) {
 
 	qs := []question717{
 
-		question717{
+		{
 			para717{[]int{1, 0, 0}},
 			ans717{true},
 		},
 
-		question717{
+		{
 			para717{[]int{1, 1, 1, 0}},
 			ans717{false},
 		},
 
-		question717{
+		{
 			para717{[]int{0, 1, 1, 1, 0, 0}},
 			ans717{true},
 		},
 
-		question717{
+		{
 			para717{[]int{1, 1, 1, 1, 0}},
 			ans717{true},
 		},

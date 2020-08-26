@@ -28,7 +28,7 @@ func Test_Problem853(t *testing.T) {
 
 	qs := []question853{
 
-		question853{
+		{
 			para853{12, []int{10, 8, 0, 5, 3}, []int{2, 4, 1, 1, 3}},
 			ans853{3},
 		},

@@ -29,37 +29,37 @@ func Test_Problem86(t *testing.T) {
 
 	qs := []question86{
 
-		question86{
+		{
 			para86{[]int{1, 4, 3, 2, 5, 2}, 3},
 			ans86{[]int{1, 2, 2, 4, 3, 5}},
 		},
 
-		question86{
+		{
 			para86{[]int{1, 1, 2, 2, 3, 3, 3}, 2},
 			ans86{[]int{1, 1, 2, 2, 3, 3, 3}},
 		},
 
-		question86{
+		{
 			para86{[]int{1, 4, 3, 2, 5, 2}, 0},
 			ans86{[]int{1, 4, 3, 2, 5, 2}},
 		},
 
-		question86{
+		{
 			para86{[]int{4, 3, 2, 5, 2}, 3},
 			ans86{[]int{2, 2, 4, 3, 5}},
 		},
 
-		question86{
+		{
 			para86{[]int{1, 1, 1, 1, 1, 1}, 1},
 			ans86{[]int{1, 1, 1, 1, 1, 1}},
 		},
 
-		question86{
+		{
 			para86{[]int{3, 1}, 2},
 			ans86{[]int{1, 3}},
 		},
 
-		question86{
+		{
 			para86{[]int{1, 2}, 3},
 			ans86{[]int{1, 2}},
 		},

@@ -27,9 +27,9 @@ func Test_Problem77(t *testing.T) {
 
 	qs := []question77{
 
-		question77{
+		{
 			para77{4, 2},
-			ans77{[][]int{[]int{2, 4}, []int{3, 4}, []int{2, 3}, []int{1, 2}, []int{1, 3}, []int{1, 4}}},
+			ans77{[][]int{{2, 4}, {3, 4}, {2, 3}, {1, 2}, {1, 3}, {1, 4}}},
 		},
 	}
 

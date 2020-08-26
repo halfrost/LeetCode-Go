@@ -26,19 +26,19 @@ func Test_Problem47(t *testing.T) {
 
 	qs := []question47{
 
-		question47{
+		{
 			para47{[]int{1, 1, 2}},
-			ans47{[][]int{[]int{1, 1, 2}, []int{1, 2, 1}, []int{2, 1, 1}}},
+			ans47{[][]int{{1, 1, 2}, {1, 2, 1}, {2, 1, 1}}},
 		},
 
-		question47{
+		{
 			para47{[]int{1, 2, 2}},
-			ans47{[][]int{[]int{1, 2, 2}, []int{2, 2, 1}, []int{2, 1, 2}}},
+			ans47{[][]int{{1, 2, 2}, {2, 2, 1}, {2, 1, 2}}},
 		},
 
-		question47{
+		{
 			para47{[]int{2, 2, 2}},
-			ans47{[][]int{[]int{2, 2, 2}}},
+			ans47{[][]int{{2, 2, 2}}},
 		},
 	}
 

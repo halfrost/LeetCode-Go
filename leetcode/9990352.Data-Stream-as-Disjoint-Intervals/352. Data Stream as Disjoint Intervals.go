@@ -21,7 +21,7 @@ func Constructor352() SummaryRanges {
 func (sr *SummaryRanges) AddNum(val int) {
 	if sr.intervals == nil {
 		sr.intervals = []Interval{
-			Interval{
+			{
 				Start: val,
 				End:   val,
 			},

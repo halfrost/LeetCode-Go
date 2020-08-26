@@ -26,7 +26,7 @@ func Test_Problem22(t *testing.T) {
 
 	qs := []question22{
 
-		question22{
+		{
 			para22{3},
 			ans22{[]string{
 				"((()))",

@@ -28,19 +28,19 @@ type ans113 struct {
 func Test_Problem113(t *testing.T) {
 
 	qs := []question113{
-		question113{
+		{
 			para113{[]int{1, 0, 1, 1, 2, 0, -1, 0, 1, -1, 0, -1, 0, 1, 0}, 2},
-			ans113{[][]int{[]int{1, 0, 1, 0}, []int{1, 0, 2, -1}, []int{1, 1, 0, 0}, []int{1, 1, -1, 1}}},
+			ans113{[][]int{{1, 0, 1, 0}, {1, 0, 2, -1}, {1, 1, 0, 0}, {1, 1, -1, 1}}},
 		},
 
-		question113{
+		{
 			para113{[]int{}, 0},
-			ans113{[][]int{[]int{}}},
+			ans113{[][]int{{}}},
 		},
 
-		question113{
+		{
 			para113{[]int{5, 4, 8, 11, structures.NULL, 13, 4, 7, 2, structures.NULL, structures.NULL, 5, 1}, 22},
-			ans113{[][]int{[]int{5, 4, 11, 2}, []int{5, 8, 4, 5}}},
+			ans113{[][]int{{5, 4, 11, 2}, {5, 8, 4, 5}}},
 		},
 	}
 
