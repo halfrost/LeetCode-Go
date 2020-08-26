@@ -26,17 +26,17 @@ func Test_Problem942(t *testing.T) {
 
 	qs := []question942{
 
-		question942{
+		{
 			para942{"IDID"},
 			ans942{[]int{0, 4, 1, 3, 2}},
 		},
 
-		question942{
+		{
 			para942{"III"},
 			ans942{[]int{0, 1, 2, 3}},
 		},
 
-		question942{
+		{
 			para942{"DDI"},
 			ans942{[]int{3, 2, 0, 1}},
 		},

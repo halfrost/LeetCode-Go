@@ -28,27 +28,27 @@ func Test_Problem1290(t *testing.T) {
 
 	qs := []question1290{
 
-		question1290{
+		{
 			para1290{[]int{1, 0, 1}},
 			ans1290{5},
 		},
 
-		question1290{
+		{
 			para1290{[]int{0}},
 			ans1290{0},
 		},
 
-		question1290{
+		{
 			para1290{[]int{1}},
 			ans1290{1},
 		},
 
-		question1290{
+		{
 			para1290{[]int{0, 0}},
 			ans1290{0},
 		},
 
-		question1290{
+		{
 			para1290{[]int{1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0}},
 			ans1290{18880},
 		},

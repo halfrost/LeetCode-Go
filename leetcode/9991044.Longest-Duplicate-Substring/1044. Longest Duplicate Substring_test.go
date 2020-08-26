@@ -25,12 +25,12 @@ type ans1044 struct {
 func Test_Problem1044(t *testing.T) {
 
 	qs := []question1044{
-		question1044{
+		{
 			para1044{"banana"},
 			ans1044{"ana"},
 		},
 
-		question1044{
+		{
 			para1044{"abcd"},
 			ans1044{""},
 		},

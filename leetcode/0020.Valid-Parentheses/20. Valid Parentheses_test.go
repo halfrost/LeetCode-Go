@@ -26,35 +26,35 @@ func Test_Problem20(t *testing.T) {
 
 	qs := []question20{
 
-		question20{
+		{
 			para20{"()[]{}"},
 			ans20{true},
 		},
-		question20{
+		{
 			para20{"(]"},
 			ans20{false},
 		},
-		question20{
+		{
 			para20{"({[]})"},
 			ans20{true},
 		},
-		question20{
+		{
 			para20{"(){[({[]})]}"},
 			ans20{true},
 		},
-		question20{
+		{
 			para20{"((([[[{{{"},
 			ans20{false},
 		},
-		question20{
+		{
 			para20{"(())]]"},
 			ans20{false},
 		},
-		question20{
+		{
 			para20{""},
 			ans20{true},
 		},
-		question20{
+		{
 			para20{"["},
 			ans20{false},
 		},

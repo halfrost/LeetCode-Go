@@ -26,13 +26,13 @@ func Test_Problem1266(t *testing.T) {
 
 	qs := []question1266{
 
-		question1266{
-			para1266{[][]int{[]int{1, 1}, []int{3, 4}, []int{-1, 0}}},
+		{
+			para1266{[][]int{{1, 1}, {3, 4}, {-1, 0}}},
 			ans1266{7},
 		},
 
-		question1266{
-			para1266{[][]int{[]int{3, 2}, []int{-2, 2}}},
+		{
+			para1266{[][]int{{3, 2}, {-2, 2}}},
 			ans1266{5},
 		},
 	}

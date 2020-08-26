@@ -27,17 +27,17 @@ func Test_Problem930(t *testing.T) {
 
 	qs := []question930{
 
-		question930{
+		{
 			para930{[]int{1, 0, 1, 0, 1}, 2},
 			ans930{4},
 		},
 
-		question930{
+		{
 			para930{[]int{0, 0, 0, 0, 0}, 0},
 			ans930{15},
 		},
 
-		question930{
+		{
 			para930{[]int{1, 0, 1, 1, 1, 1, 0, 1, 0, 1}, 2},
 			ans930{4},
 		},

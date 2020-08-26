@@ -28,32 +28,32 @@ func Test_Problem1123(t *testing.T) {
 
 	qs := []question1123{
 
-		question1123{
+		{
 			para1123{[]int{}},
 			ans1123{[]int{}},
 		},
 
-		question1123{
+		{
 			para1123{[]int{1}},
 			ans1123{[]int{1}},
 		},
 
-		question1123{
+		{
 			para1123{[]int{1, 2, 3, 4}},
 			ans1123{[]int{4}},
 		},
 
-		question1123{
+		{
 			para1123{[]int{1, 2, 3}},
 			ans1123{[]int{1, 2, 3}},
 		},
 
-		question1123{
+		{
 			para1123{[]int{1, 2, 3, 4, 5}},
 			ans1123{[]int{2, 4, 5}},
 		},
 
-		question1123{
+		{
 			para1123{[]int{1, 2, structures.NULL, 3, 4, structures.NULL, 6, structures.NULL, 5}},
 			ans1123{[]int{2, 3, 4, structures.NULL, 6, structures.NULL, 5}},
 		},

@@ -53,7 +53,7 @@ func calculate1(s string) int {
 					break
 				}
 			}
-			tmp = string(stack[index+1 : len(stack)])
+			tmp = string(stack[index+1:])
 			stack = stack[:index]
 			res := strconv.Itoa(calculateStr(tmp))
 			for j := 0; j < len(res); j++ {

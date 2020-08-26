@@ -27,22 +27,22 @@ func Test_Problem541(t *testing.T) {
 
 	qs := []question541{
 
-		question541{
+		{
 			para541{"abcdefg", 2},
 			ans541{"bacdfeg"},
 		},
 
-		question541{
+		{
 			para541{"abcdefg", 5},
 			ans541{"edcbafg"},
 		},
 
-		question541{
+		{
 			para541{"abcd", 4},
 			ans541{"dcba"},
 		},
 
-		question541{
+		{
 			para541{"", 100},
 			ans541{""},
 		},

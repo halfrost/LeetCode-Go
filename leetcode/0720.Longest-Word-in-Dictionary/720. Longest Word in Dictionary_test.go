@@ -26,12 +26,12 @@ func Test_Problem720(t *testing.T) {
 
 	qs := []question720{
 
-		question720{
+		{
 			para720{[]string{"w", "wo", "wor", "worl", "world"}},
 			ans720{"world"},
 		},
 
-		question720{
+		{
 			para720{[]string{"a", "banana", "app", "appl", "ap", "apply", "apple"}},
 			ans720{"apple"},
 		},

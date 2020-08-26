@@ -27,34 +27,34 @@ func Test_Problem57(t *testing.T) {
 
 	qs := []question57{
 
-		question57{
+		{
 			para57{[]Interval{}, Interval{}},
 			ans57{[]Interval{}},
 		},
 
-		question57{
-			para57{[]Interval{Interval{Start: 1, End: 3}, Interval{Start: 6, End: 9}}, Interval{Start: 4, End: 8}},
-			ans57{[]Interval{Interval{Start: 1, End: 5}, Interval{Start: 6, End: 9}}},
+		{
+			para57{[]Interval{{Start: 1, End: 3}, {Start: 6, End: 9}}, Interval{Start: 4, End: 8}},
+			ans57{[]Interval{{Start: 1, End: 5}, {Start: 6, End: 9}}},
 		},
 
-		question57{
-			para57{[]Interval{Interval{Start: 1, End: 3}, Interval{Start: 6, End: 9}}, Interval{Start: 2, End: 5}},
-			ans57{[]Interval{Interval{Start: 1, End: 5}, Interval{Start: 6, End: 9}}},
+		{
+			para57{[]Interval{{Start: 1, End: 3}, {Start: 6, End: 9}}, Interval{Start: 2, End: 5}},
+			ans57{[]Interval{{Start: 1, End: 5}, {Start: 6, End: 9}}},
 		},
 
-		question57{
-			para57{[]Interval{Interval{Start: 1, End: 2}, Interval{Start: 3, End: 5}, Interval{Start: 6, End: 7}, Interval{Start: 8, End: 10}, Interval{Start: 12, End: 16}}, Interval{Start: 4, End: 8}},
-			ans57{[]Interval{Interval{Start: 1, End: 2}, Interval{Start: 3, End: 10}, Interval{Start: 12, End: 16}}},
+		{
+			para57{[]Interval{{Start: 1, End: 2}, {Start: 3, End: 5}, {Start: 6, End: 7}, {Start: 8, End: 10}, {Start: 12, End: 16}}, Interval{Start: 4, End: 8}},
+			ans57{[]Interval{{Start: 1, End: 2}, {Start: 3, End: 10}, {Start: 12, End: 16}}},
 		},
 
-		question57{
-			para57{[]Interval{Interval{Start: 1, End: 5}}, Interval{Start: 5, End: 7}},
-			ans57{[]Interval{Interval{Start: 1, End: 7}}},
+		{
+			para57{[]Interval{{Start: 1, End: 5}}, Interval{Start: 5, End: 7}},
+			ans57{[]Interval{{Start: 1, End: 7}}},
 		},
 
-		question57{
-			para57{[]Interval{Interval{Start: 1, End: 2}, Interval{Start: 3, End: 5}, Interval{Start: 6, End: 7}, Interval{Start: 8, End: 10}, Interval{Start: 12, End: 16}}, Interval{Start: 9, End: 12}},
-			ans57{[]Interval{Interval{Start: 1, End: 2}, Interval{Start: 3, End: 5}, Interval{Start: 6, End: 7}, Interval{Start: 8, End: 16}}},
+		{
+			para57{[]Interval{{Start: 1, End: 2}, {Start: 3, End: 5}, {Start: 6, End: 7}, {Start: 8, End: 10}, {Start: 12, End: 16}}, Interval{Start: 9, End: 12}},
+			ans57{[]Interval{{Start: 1, End: 2}, {Start: 3, End: 5}, {Start: 6, End: 7}, {Start: 8, End: 16}}},
 		},
 	}
 

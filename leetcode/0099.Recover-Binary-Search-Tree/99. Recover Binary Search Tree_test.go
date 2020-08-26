@@ -28,12 +28,12 @@ func Test_Problem99(t *testing.T) {
 
 	qs := []question99{
 
-		question99{
+		{
 			para99{[]int{1, 3, structures.NULL, structures.NULL, 2}},
 			ans99{[]int{3, 1, structures.NULL, structures.NULL, 2}},
 		},
 
-		question99{
+		{
 			para99{[]int{3, 1, 4, structures.NULL, structures.NULL, 2}},
 			ans99{[]int{2, 1, 4, structures.NULL, structures.NULL, 3}},
 		},

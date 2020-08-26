@@ -33,7 +33,7 @@ func Test_Problem223(t *testing.T) {
 
 	qs := []question223{
 
-		question223{
+		{
 			para223{-3, 0, 3, 4, 0, -1, 9, 2},
 			ans223{45},
 		},

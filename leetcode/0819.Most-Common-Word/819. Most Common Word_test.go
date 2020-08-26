@@ -27,7 +27,7 @@ func Test_Problem819(t *testing.T) {
 
 	qs := []question819{
 
-		question819{
+		{
 			para819{"Bob hit a ball, the hit BALL flew far after it was hit.", []string{"hit"}},
 			ans819{"ball"},
 		},

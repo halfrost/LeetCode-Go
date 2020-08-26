@@ -27,27 +27,27 @@ func Test_Problem29(t *testing.T) {
 
 	qs := []question29{
 
-		question29{
+		{
 			para29{10, 3},
 			ans29{3},
 		},
 
-		question29{
+		{
 			para29{7, -3},
 			ans29{-2},
 		},
 
-		question29{
+		{
 			para29{-1, 1},
 			ans29{-1},
 		},
 
-		question29{
+		{
 			para29{1, -1},
 			ans29{-1},
 		},
 
-		question29{
+		{
 			para29{2147483647, 3},
 			ans29{715827882},
 		},

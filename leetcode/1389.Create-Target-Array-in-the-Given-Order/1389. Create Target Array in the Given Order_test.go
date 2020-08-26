@@ -27,17 +27,17 @@ func Test_Problem1389(t *testing.T) {
 
 	qs := []question1389{
 
-		question1389{
+		{
 			para1389{[]int{0, 1, 2, 3, 4}, []int{0, 1, 2, 2, 1}},
 			ans1389{[]int{0, 4, 1, 3, 2}},
 		},
 
-		question1389{
+		{
 			para1389{[]int{1, 2, 3, 4, 0}, []int{0, 1, 2, 3, 0}},
 			ans1389{[]int{0, 1, 2, 3, 4}},
 		},
 
-		question1389{
+		{
 			para1389{[]int{1}, []int{0}},
 			ans1389{[]int{1}},
 		},

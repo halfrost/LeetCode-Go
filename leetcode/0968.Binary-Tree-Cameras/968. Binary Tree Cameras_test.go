@@ -28,12 +28,12 @@ func Test_Problem968(t *testing.T) {
 
 	qs := []question968{
 
-		question968{
+		{
 			para968{[]int{0, 0, structures.NULL, 0, 0}},
 			ans968{1},
 		},
 
-		question968{
+		{
 			para968{[]int{0, 0, structures.NULL, 0, structures.NULL, 0, structures.NULL, structures.NULL, 0}},
 			ans968{2},
 		},

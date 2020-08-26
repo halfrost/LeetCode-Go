@@ -26,7 +26,7 @@ func Test_Problem839(t *testing.T) {
 
 	qs := []question839{
 
-		question839{
+		{
 			para839{[]string{"tars", "rats", "arts", "star"}},
 			ans839{2},
 		},

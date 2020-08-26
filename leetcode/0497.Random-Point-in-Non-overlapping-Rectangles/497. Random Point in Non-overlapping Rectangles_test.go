@@ -6,7 +6,7 @@ import (
 )
 
 func Test_Problem497(t *testing.T) {
-	w := [][]int{[]int{1, 1, 5, 5}}
+	w := [][]int{{1, 1, 5, 5}}
 	sol := Constructor497(w)
 	fmt.Printf("1.Pick = %v\n", sol.Pick())
 	fmt.Printf("2.Pick = %v\n", sol.Pick())

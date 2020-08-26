@@ -26,12 +26,12 @@ func Test_Problem1295(t *testing.T) {
 
 	qs := []question1295{
 
-		question1295{
+		{
 			para1295{[]int{12, 345, 2, 6, 7896}},
 			ans1295{2},
 		},
 
-		question1295{
+		{
 			para1295{[]int{555, 901, 482, 1771}},
 			ans1295{1},
 		},

@@ -27,12 +27,12 @@ func Test_Problem756(t *testing.T) {
 
 	qs := []question756{
 
-		question756{
+		{
 			para756{"BCD", []string{"BCG", "CDE", "GEA", "FFF"}},
 			ans756{true},
 		},
 
-		question756{
+		{
 			para756{"AABA", []string{"AAA", "AAB", "ABA", "ABB", "BAC"}},
 			ans756{false},
 		},

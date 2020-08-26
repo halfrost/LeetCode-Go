@@ -29,42 +29,42 @@ func Test_Problem203(t *testing.T) {
 
 	qs := []question203{
 
-		question203{
+		{
 			para203{[]int{1, 2, 3, 4, 5}, 1},
 			ans203{[]int{2, 3, 4, 5}},
 		},
 
-		question203{
+		{
 			para203{[]int{1, 2, 3, 4, 5}, 2},
 			ans203{[]int{1, 3, 4, 5}},
 		},
 
-		question203{
+		{
 			para203{[]int{1, 1, 1, 1, 1}, 1},
 			ans203{[]int{}},
 		},
 
-		question203{
+		{
 			para203{[]int{1, 2, 3, 2, 3, 2, 3, 2}, 2},
 			ans203{[]int{1, 3, 3, 3}},
 		},
 
-		question203{
+		{
 			para203{[]int{1, 2, 3, 4, 5}, 5},
 			ans203{[]int{1, 2, 3, 4}},
 		},
 
-		question203{
+		{
 			para203{[]int{}, 5},
 			ans203{[]int{}},
 		},
 
-		question203{
+		{
 			para203{[]int{1, 2, 3, 4, 5}, 10},
 			ans203{[]int{1, 2, 3, 4, 5}},
 		},
 
-		question203{
+		{
 			para203{[]int{1}, 1},
 			ans203{[]int{}},
 		},

@@ -27,23 +27,23 @@ func Test_Problem210(t *testing.T) {
 
 	qs := []question210{
 
-		question210{
-			para210{2, [][]int{[]int{1, 0}}},
+		{
+			para210{2, [][]int{{1, 0}}},
 			ans210{[]int{0, 1}},
 		},
 
-		question210{
-			para210{2, [][]int{[]int{1, 0}, []int{0, 1}}},
+		{
+			para210{2, [][]int{{1, 0}, {0, 1}}},
 			ans210{[]int{0, 1, 2, 3}},
 		},
 
-		question210{
-			para210{4, [][]int{[]int{1, 0}, []int{2, 0}, []int{3, 1}, []int{3, 2}}},
+		{
+			para210{4, [][]int{{1, 0}, {2, 0}, {3, 1}, {3, 2}}},
 			ans210{[]int{0, 1, 2, 3}},
 		},
 
-		question210{
-			para210{3, [][]int{[]int{1, 0}, []int{1, 2}, []int{0, 1}}},
+		{
+			para210{3, [][]int{{1, 0}, {1, 2}, {0, 1}}},
 			ans210{[]int{}},
 		},
 	}

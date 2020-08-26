@@ -26,42 +26,42 @@ func Test_Problem153(t *testing.T) {
 
 	qs := []question153{
 
-		question153{
+		{
 			para153{[]int{5, 1, 2, 3, 4}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{1}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{1, 2}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{2, 1}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{2, 3, 1}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{1, 2, 3}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{3, 4, 5, 1, 2}},
 			ans153{1},
 		},
 
-		question153{
+		{
 			para153{[]int{4, 5, 6, 7, 0, 1, 2}},
 			ans153{0},
 		},

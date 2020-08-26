@@ -25,8 +25,8 @@ type ans120 struct {
 func Test_Problem120(t *testing.T) {
 
 	qs := []question120{
-		question120{
-			para120{[][]int{[]int{2}, []int{3, 4}, []int{6, 5, 7}, []int{4, 1, 8, 3}}},
+		{
+			para120{[][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}},
 			ans120{11},
 		},
 	}

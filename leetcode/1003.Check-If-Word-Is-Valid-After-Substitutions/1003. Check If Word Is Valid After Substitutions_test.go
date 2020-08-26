@@ -26,22 +26,22 @@ func Test_Problem1003(t *testing.T) {
 
 	qs := []question1003{
 
-		question1003{
+		{
 			para1003{"aabcbc"},
 			ans1003{true},
 		},
 
-		question1003{
+		{
 			para1003{"abcabcababcc"},
 			ans1003{true},
 		},
 
-		question1003{
+		{
 			para1003{"abccba"},
 			ans1003{false},
 		},
 
-		question1003{
+		{
 			para1003{"cababc"},
 			ans1003{false},
 		},

@@ -25,17 +25,17 @@ type ans451 struct {
 func Test_Problem451(t *testing.T) {
 
 	qs := []question451{
-		question451{
+		{
 			para451{"tree"},
 			ans451{"eert"},
 		},
 
-		question451{
+		{
 			para451{"cccaaa"},
 			ans451{"cccaaa"},
 		},
 
-		question451{
+		{
 			para451{"Aabb"},
 			ans451{"bbAa"},
 		},

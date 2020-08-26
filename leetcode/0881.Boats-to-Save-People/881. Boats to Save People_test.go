@@ -27,27 +27,27 @@ func Test_Problem881(t *testing.T) {
 
 	qs := []question881{
 
-		question881{
+		{
 			para881{[]int{1, 2}, 3},
 			ans881{1},
 		},
 
-		question881{
+		{
 			para881{[]int{3, 2, 2, 1}, 3},
 			ans881{3},
 		},
 
-		question881{
+		{
 			para881{[]int{3, 5, 3, 4}, 5},
 			ans881{4},
 		},
 
-		question881{
+		{
 			para881{[]int{5, 1, 4, 2}, 6},
 			ans881{2},
 		},
 
-		question881{
+		{
 			para881{[]int{3, 2, 2, 1}, 3},
 			ans881{3},
 		},

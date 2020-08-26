@@ -27,22 +27,22 @@ func Test_Problem786(t *testing.T) {
 
 	qs := []question786{
 
-		question786{
+		{
 			para786{[]int{1, 2, 3, 5}, 3},
 			ans786{[]int{2, 5}},
 		},
 
-		question786{
+		{
 			para786{[]int{1, 7}, 1},
 			ans786{[]int{1, 7}},
 		},
 
-		question786{
+		{
 			para786{[]int{1, 2}, 1},
 			ans786{[]int{1, 2}},
 		},
 
-		question786{
+		{
 			para786{[]int{1, 2, 3, 5, 7}, 6},
 			ans786{[]int{3, 7}},
 		},

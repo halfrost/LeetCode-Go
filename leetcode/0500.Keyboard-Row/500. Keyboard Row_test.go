@@ -26,7 +26,7 @@ func Test_Problem500(t *testing.T) {
 
 	qs := []question500{
 
-		question500{
+		{
 			para500{[]string{"Hello", "Alaska", "Dad", "Peace"}},
 			ans500{[]string{"Alaska", "Dad"}},
 		},

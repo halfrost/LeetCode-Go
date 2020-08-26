@@ -26,46 +26,46 @@ func Test_Problem179(t *testing.T) {
 
 	qs := []question179{
 
-		question179{
+		{
 			para179{[]int{3, 6, 9, 1}},
 			ans179{"9631"},
 		},
-		question179{
+		{
 			para179{[]int{1}},
 			ans179{"1"},
 		},
 
-		question179{
+		{
 			para179{[]int{}},
 			ans179{""},
 		},
 
-		question179{
+		{
 			para179{[]int{2, 10}},
 			ans179{"210"},
 		},
 
-		question179{
+		{
 			para179{[]int{3, 30, 34, 5, 9}},
 			ans179{"9534330"},
 		},
 
-		question179{
+		{
 			para179{[]int{12, 128}},
 			ans179{"12812"},
 		},
 
-		question179{
+		{
 			para179{[]int{12, 121}},
 			ans179{"12121"},
 		},
 
-		question179{
+		{
 			para179{[]int{0, 0}},
 			ans179{"0"},
 		},
 
-		question179{
+		{
 			para179{[]int{1440, 7548, 4240, 6616, 733, 4712, 883, 8, 9576}},
 			ans179{"9576888375487336616471242401440"},
 		},

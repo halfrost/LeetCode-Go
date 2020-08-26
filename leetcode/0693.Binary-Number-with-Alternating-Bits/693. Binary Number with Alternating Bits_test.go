@@ -26,22 +26,22 @@ func Test_Problem693(t *testing.T) {
 
 	qs := []question693{
 
-		question693{
+		{
 			para693{5},
 			ans693{true},
 		},
 
-		question693{
+		{
 			para693{7},
 			ans693{false},
 		},
 
-		question693{
+		{
 			para693{11},
 			ans693{false},
 		},
 
-		question693{
+		{
 			para693{10},
 			ans693{true},
 		},

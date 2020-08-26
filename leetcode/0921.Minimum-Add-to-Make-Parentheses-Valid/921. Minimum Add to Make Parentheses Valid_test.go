@@ -25,22 +25,22 @@ type ans921 struct {
 func Test_Problem921(t *testing.T) {
 
 	qs := []question921{
-		question921{
+		{
 			para921{"())"},
 			ans921{1},
 		},
 
-		question921{
+		{
 			para921{"((("},
 			ans921{3},
 		},
 
-		question921{
+		{
 			para921{"()"},
 			ans921{0},
 		},
 
-		question921{
+		{
 			para921{"()))(("},
 			ans921{4},
 		},

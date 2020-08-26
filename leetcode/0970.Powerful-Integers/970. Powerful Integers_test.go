@@ -28,12 +28,12 @@ func Test_Problem970(t *testing.T) {
 
 	qs := []question970{
 
-		question970{
+		{
 			para970{2, 3, 10},
 			ans970{[]int{2, 3, 4, 5, 7, 9, 10}},
 		},
 
-		question970{
+		{
 			para970{3, 5, 15},
 			ans970{[]int{2, 4, 6, 8, 10, 14}},
 		},

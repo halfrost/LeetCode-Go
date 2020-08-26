@@ -26,32 +26,32 @@ func Test_Problem168(t *testing.T) {
 
 	qs := []question168{
 
-		question168{
+		{
 			para168{1},
 			ans168{"A"},
 		},
 
-		question168{
+		{
 			para168{28},
 			ans168{"AB"},
 		},
 
-		question168{
+		{
 			para168{701},
 			ans168{"ZY"},
 		},
 
-		question168{
+		{
 			para168{10011},
 			ans168{"NUA"},
 		},
 
-		question168{
+		{
 			para168{999},
 			ans168{"ALK"},
 		},
 
-		question168{
+		{
 			para168{681},
 			ans168{"ZE"},
 		},

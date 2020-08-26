@@ -27,7 +27,7 @@ func Test_Problem648(t *testing.T) {
 
 	qs := []question648{
 
-		question648{
+		{
 			para648{[]string{"cat", "bat", "rat"}, "the cattle was rattled by the battery"},
 			ans648{"the cat was rat by the bat"},
 		},

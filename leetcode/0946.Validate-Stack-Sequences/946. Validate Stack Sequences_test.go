@@ -26,17 +26,17 @@ type ans946 struct {
 func Test_Problem946(t *testing.T) {
 
 	qs := []question946{
-		question946{
+		{
 			para946{[]int{1, 2, 3, 4, 5}, []int{5, 4, 3, 2, 1}},
 			ans946{true},
 		},
 
-		question946{
+		{
 			para946{[]int{1, 2, 3, 4, 5}, []int{4, 3, 5, 1, 2}},
 			ans946{false},
 		},
 
-		question946{
+		{
 			para946{[]int{1, 0}, []int{1, 0}},
 			ans946{true},
 		},

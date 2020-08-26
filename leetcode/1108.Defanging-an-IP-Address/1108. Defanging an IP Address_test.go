@@ -26,12 +26,12 @@ func Test_Problem1108(t *testing.T) {
 
 	qs := []question1108{
 
-		question1108{
+		{
 			para1108{"1.1.1.1"},
 			ans1108{"1[.]1[.]1[.]1"},
 		},
 
-		question1108{
+		{
 			para1108{"255.100.50.0"},
 			ans1108{"255[.]100[.]50[.]0"},
 		},

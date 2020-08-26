@@ -26,22 +26,22 @@ func Test_Problem726(t *testing.T) {
 
 	qs := []question726{
 
-		question726{
+		{
 			para726{"H200P"},
 			ans726{"H200P"},
 		},
 
-		question726{
+		{
 			para726{"H2O"},
 			ans726{"H2O"},
 		},
 
-		question726{
+		{
 			para726{"Mg(OH)2"},
 			ans726{"H2MgO2"},
 		},
 
-		question726{
+		{
 			para726{"K4(ON(SO3)2)2"},
 			ans726{"K4N2O14S4"},
 		},

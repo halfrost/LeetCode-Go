@@ -26,12 +26,12 @@ func Test_Problem485(t *testing.T) {
 
 	qs := []question485{
 
-		question485{
+		{
 			para485{[]int{1, 1, 0, 1, 1, 1}},
 			ans485{3},
 		},
 
-		question485{
+		{
 			para485{[]int{1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1}},
 			ans485{4},
 		},

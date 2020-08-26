@@ -26,28 +26,28 @@ func Test_Problem892(t *testing.T) {
 
 	qs := []question892{
 
-		question892{
-			para892{[][]int{[]int{2}}},
+		{
+			para892{[][]int{{2}}},
 			ans892{10},
 		},
 
-		question892{
-			para892{[][]int{[]int{1, 2}, []int{3, 4}}},
+		{
+			para892{[][]int{{1, 2}, {3, 4}}},
 			ans892{34},
 		},
 
-		question892{
-			para892{[][]int{[]int{1, 0}, []int{0, 2}}},
+		{
+			para892{[][]int{{1, 0}, {0, 2}}},
 			ans892{16},
 		},
 
-		question892{
-			para892{[][]int{[]int{1, 1, 1}, []int{1, 0, 1}, []int{1, 1, 1}}},
+		{
+			para892{[][]int{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}},
 			ans892{32},
 		},
 
-		question892{
-			para892{[][]int{[]int{2, 2, 2}, []int{2, 1, 2}, []int{2, 2, 2}}},
+		{
+			para892{[][]int{{2, 2, 2}, {2, 1, 2}, {2, 2, 2}}},
 			ans892{46},
 		},
 	}

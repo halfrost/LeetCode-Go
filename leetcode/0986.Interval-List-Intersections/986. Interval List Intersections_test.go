@@ -27,11 +27,11 @@ func Test_Problem986(t *testing.T) {
 
 	qs := []question986{
 
-		question986{
-			para986{[]Interval{Interval{Start: 0, End: 2}, Interval{Start: 5, End: 10}, Interval{Start: 13, End: 23}, Interval{Start: 24, End: 25}},
-				[]Interval{Interval{Start: 1, End: 5}, Interval{Start: 8, End: 12}, Interval{Start: 15, End: 24}, Interval{Start: 25, End: 26}}},
-			ans986{[]Interval{Interval{Start: 1, End: 2}, Interval{Start: 5, End: 5}, Interval{Start: 8, End: 10},
-				Interval{Start: 15, End: 23}, Interval{Start: 24, End: 24}, Interval{Start: 25, End: 25}}},
+		{
+			para986{[]Interval{{Start: 0, End: 2}, {Start: 5, End: 10}, {Start: 13, End: 23}, {Start: 24, End: 25}},
+				[]Interval{{Start: 1, End: 5}, {Start: 8, End: 12}, {Start: 15, End: 24}, {Start: 25, End: 26}}},
+			ans986{[]Interval{{Start: 1, End: 2}, {Start: 5, End: 5}, {Start: 8, End: 10},
+				{Start: 15, End: 23}, {Start: 24, End: 24}, {Start: 25, End: 25}}},
 		},
 	}
 

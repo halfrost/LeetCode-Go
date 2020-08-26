@@ -27,13 +27,13 @@ func Test_Problem1074(t *testing.T) {
 
 	qs := []question1074{
 
-		question1074{
-			para1074{[][]int{[]int{0, 1, 0}, []int{1, 1, 1}, []int{0, 1, 0}}, 0},
+		{
+			para1074{[][]int{{0, 1, 0}, {1, 1, 1}, {0, 1, 0}}, 0},
 			ans1074{4},
 		},
 
-		question1074{
-			para1074{[][]int{[]int{1, -1}, []int{-1, 1}}, 0},
+		{
+			para1074{[][]int{{1, -1}, {-1, 1}}, 0},
 			ans1074{5},
 		},
 	}

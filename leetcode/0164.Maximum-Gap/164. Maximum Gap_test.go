@@ -26,26 +26,26 @@ func Test_Problem164(t *testing.T) {
 
 	qs := []question164{
 
-		question164{
+		{
 			para164{[]int{3, 6, 9, 1}},
 			ans164{3},
 		},
-		question164{
+		{
 			para164{[]int{1}},
 			ans164{0},
 		},
 
-		question164{
+		{
 			para164{[]int{}},
 			ans164{0},
 		},
 
-		question164{
+		{
 			para164{[]int{2, 10}},
 			ans164{8},
 		},
 
-		question164{
+		{
 			para164{[]int{2, 435, 214, 64321, 643, 7234, 7, 436523, 7856, 8}},
 			ans164{372202},
 		},

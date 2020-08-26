@@ -28,37 +28,37 @@ func Test_Problem328(t *testing.T) {
 
 	qs := []question328{
 
-		question328{
+		{
 			para328{[]int{1, 4, 3, 2, 5, 2}},
 			ans328{[]int{1, 3, 5, 4, 2, 2}},
 		},
 
-		question328{
+		{
 			para328{[]int{1, 1, 2, 2, 3, 3, 3}},
 			ans328{[]int{1, 2, 3, 3, 1, 2, 3}},
 		},
 
-		question328{
+		{
 			para328{[]int{4, 3, 2, 5, 2}},
 			ans328{[]int{4, 2, 2, 3, 5}},
 		},
 
-		question328{
+		{
 			para328{[]int{1, 1, 1, 1, 1, 1}},
 			ans328{[]int{1, 1, 1, 1, 1, 1}},
 		},
 
-		question328{
+		{
 			para328{[]int{3, 1}},
 			ans328{[]int{3, 1}},
 		},
 
-		question328{
+		{
 			para328{[]int{1, 2, 3, 4, 5}},
 			ans328{[]int{1, 3, 5, 2, 4}},
 		},
 
-		question328{
+		{
 			para328{[]int{}},
 			ans328{[]int{}},
 		},

@@ -26,14 +26,14 @@ func Test_Problem90(t *testing.T) {
 
 	qs := []question90{
 
-		question90{
+		{
 			para90{[]int{}},
-			ans90{[][]int{[]int{}}},
+			ans90{[][]int{{}}},
 		},
 
-		question90{
+		{
 			para90{[]int{1, 2, 2}},
-			ans90{[][]int{[]int{}, []int{1}, []int{2}, []int{1, 2}, []int{2, 2}, []int{1, 2, 2}}},
+			ans90{[][]int{{}, {1}, {2}, {1, 2}, {2, 2}, {1, 2, 2}}},
 		},
 	}
 

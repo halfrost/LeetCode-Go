@@ -8,6 +8,13 @@
 </p>
 
 <p align='center'>
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads">
+<img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master">
+<img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
+<img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go">
+</p>
+
+<p align='center'>
 <a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-8751-yellow.svg">
 <img src="https://img.shields.io/badge/language-Golang-abcdef.svg">
 <a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
@@ -20,8 +27,6 @@
 <a href=""><img src="https://img.shields.io/badge/license-CC-000000.svg"></a>
 <img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.LeetCode-Go">
-<img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master">
-<img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 </p>
 
 支持 Progressive Web Apps 和 Dark Mode 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>

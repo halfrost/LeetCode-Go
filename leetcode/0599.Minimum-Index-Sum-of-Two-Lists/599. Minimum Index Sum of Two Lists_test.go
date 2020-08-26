@@ -27,12 +27,12 @@ func Test_Problem599(t *testing.T) {
 
 	qs := []question599{
 
-		question599{
+		{
 			para599{[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"}, []string{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"}},
 			ans599{[]string{"Shogun"}},
 		},
 
-		question599{
+		{
 			para599{[]string{"Shogun", "Tapioca Express", "Burger King", "KFC"}, []string{"KFC", "Shogun", "Burger King"}},
 			ans599{[]string{"Shogun"}},
 		},

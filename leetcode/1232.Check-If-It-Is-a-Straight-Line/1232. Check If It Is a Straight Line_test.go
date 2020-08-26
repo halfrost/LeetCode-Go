@@ -26,13 +26,13 @@ func Test_Problem1232(t *testing.T) {
 
 	qs := []question1232{
 
-		question1232{
-			para1232{[][]int{[]int{1, 2}, []int{2, 3}, []int{3, 4}, []int{4, 5}, []int{5, 6}, []int{6, 7}}},
+		{
+			para1232{[][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}}},
 			ans1232{true},
 		},
 
-		question1232{
-			para1232{[][]int{[]int{1, 1}, []int{2, 2}, []int{3, 4}, []int{4, 5}, []int{5, 6}, []int{7, 7}}},
+		{
+			para1232{[][]int{{1, 1}, {2, 2}, {3, 4}, {4, 5}, {5, 6}, {7, 7}}},
 			ans1232{false},
 		},
 	}

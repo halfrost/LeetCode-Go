@@ -26,7 +26,7 @@ func Test_Problem594(t *testing.T) {
 
 	qs := []question594{
 
-		question594{
+		{
 			para594{[]int{1, 3, 2, 2, 5, 2, 3, 7}},
 			ans594{5},
 		},

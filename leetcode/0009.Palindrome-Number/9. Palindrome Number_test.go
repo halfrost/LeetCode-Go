@@ -26,37 +26,37 @@ func Test_Problem9(t *testing.T) {
 
 	qs := []question9{
 
-		question9{
+		{
 			para9{121},
 			ans9{true},
 		},
 
-		question9{
+		{
 			para9{-121},
 			ans9{false},
 		},
 
-		question9{
+		{
 			para9{10},
 			ans9{false},
 		},
 
-		question9{
+		{
 			para9{321},
 			ans9{false},
 		},
 
-		question9{
+		{
 			para9{-123},
 			ans9{false},
 		},
 
-		question9{
+		{
 			para9{120},
 			ans9{false},
 		},
 
-		question9{
+		{
 			para9{1534236469},
 			ans9{false},
 		},

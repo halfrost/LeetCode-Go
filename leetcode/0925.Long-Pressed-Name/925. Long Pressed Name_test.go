@@ -27,27 +27,27 @@ func Test_Problem925(t *testing.T) {
 
 	qs := []question925{
 
-		question925{
+		{
 			para925{"alex", "aaleex"},
 			ans925{true},
 		},
 
-		question925{
+		{
 			para925{"saeed", "ssaaedd"},
 			ans925{false},
 		},
 
-		question925{
+		{
 			para925{"leelee", "lleeelee"},
 			ans925{true},
 		},
 
-		question925{
+		{
 			para925{"laiden", "laiden"},
 			ans925{true},
 		},
 
-		question925{
+		{
 			para925{"kikcxmvzi", "kiikcxxmmvvzz"},
 			ans925{false},
 		},

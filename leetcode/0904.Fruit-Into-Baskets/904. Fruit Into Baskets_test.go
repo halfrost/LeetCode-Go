@@ -26,41 +26,41 @@ func Test_Problem904(t *testing.T) {
 
 	qs := []question904{
 
-		question904{
+		{
 			para904{[]int{1, 1}},
 			ans904{2},
 		},
 
-		question904{
+		{
 			para904{[]int{1, 2, 1}},
 			ans904{3},
 		},
-		question904{
+		{
 			para904{[]int{0, 1, 2, 2}},
 			ans904{3},
 		},
 
-		question904{
+		{
 			para904{[]int{1, 2, 3, 2, 2}},
 			ans904{4},
 		},
 
-		question904{
+		{
 			para904{[]int{3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4}},
 			ans904{5},
 		},
 
-		question904{
+		{
 			para904{[]int{4, 5}},
 			ans904{2},
 		},
 
-		question904{
+		{
 			para904{[]int{1}},
 			ans904{1},
 		},
 
-		question904{
+		{
 			para904{[]int{}},
 			ans904{},
 		},

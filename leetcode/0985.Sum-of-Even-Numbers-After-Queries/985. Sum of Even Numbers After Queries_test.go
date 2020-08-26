@@ -27,8 +27,8 @@ func Test_Problem985(t *testing.T) {
 
 	qs := []question985{
 
-		question985{
-			para985{[]int{1, 2, 3, 4}, [][]int{[]int{1, 0}, []int{-3, 1}, []int{-4, 0}, []int{2, 3}}},
+		{
+			para985{[]int{1, 2, 3, 4}, [][]int{{1, 0}, {-3, 1}, {-4, 0}, {2, 3}}},
 			ans985{[]int{8, 6, 2, 4}},
 		},
 	}

@@ -26,8 +26,8 @@ func Test_Problem802(t *testing.T) {
 
 	qs := []question802{
 
-		question802{
-			para802{[][]int{[]int{1, 2}, []int{2, 3}, []int{5}, []int{0}, []int{5}, []int{}, []int{}}},
+		{
+			para802{[][]int{{1, 2}, {2, 3}, {5}, {0}, {5}, {}, {}}},
 			ans802{[]int{2, 4, 5, 6}},
 		},
 	}

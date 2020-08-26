@@ -26,24 +26,24 @@ func Test_Problem131(t *testing.T) {
 
 	qs := []question131{
 
-		question131{
+		{
 			para131{"aab"},
-			ans131{[][]string{[]string{"aa", "b"}, []string{"a", "a", "b"}}},
+			ans131{[][]string{{"aa", "b"}, {"a", "a", "b"}}},
 		},
 
-		question131{
+		{
 			para131{"bb"},
-			ans131{[][]string{[]string{"b", "b"}, []string{"bb"}}},
+			ans131{[][]string{{"b", "b"}, {"bb"}}},
 		},
 
-		question131{
+		{
 			para131{"efe"},
-			ans131{[][]string{[]string{"e", "f", "e"}, []string{"efe"}}},
+			ans131{[][]string{{"e", "f", "e"}, {"efe"}}},
 		},
 
-		question131{
+		{
 			para131{"abbab"},
-			ans131{[][]string{[]string{"a", "b", "b", "a", "b"}, []string{"a", "b", "bab"}, []string{"a", "bb", "a", "b"}, []string{"abba", "b"}}},
+			ans131{[][]string{{"a", "b", "b", "a", "b"}, {"a", "b", "bab"}, {"a", "bb", "a", "b"}, {"abba", "b"}}},
 		},
 	}
 

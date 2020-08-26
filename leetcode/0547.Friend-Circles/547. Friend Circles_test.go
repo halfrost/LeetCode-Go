@@ -26,18 +26,18 @@ func Test_Problem547(t *testing.T) {
 
 	qs := []question547{
 
-		question547{
-			para547{[][]int{[]int{0, 0, 0}, []int{0, 1, 0}, []int{0, 0, 0}}},
+		{
+			para547{[][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}},
 			ans547{3},
 		},
 
-		question547{
-			para547{[][]int{[]int{1, 1, 0}, []int{1, 1, 0}, []int{0, 0, 1}}},
+		{
+			para547{[][]int{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}}},
 			ans547{2},
 		},
 
-		question547{
-			para547{[][]int{[]int{1, 1, 0}, []int{1, 1, 1}, []int{0, 1, 1}}},
+		{
+			para547{[][]int{{1, 1, 0}, {1, 1, 1}, {0, 1, 1}}},
 			ans547{1},
 		},
 	}

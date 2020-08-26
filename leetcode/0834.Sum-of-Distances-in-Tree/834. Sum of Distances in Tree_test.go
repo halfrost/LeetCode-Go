@@ -27,13 +27,13 @@ func Test_Problem834(t *testing.T) {
 
 	qs := []question834{
 
-		question834{
-			para834{4, [][]int{[]int{1, 2}, []int{3, 2}, []int{3, 0}}},
+		{
+			para834{4, [][]int{{1, 2}, {3, 2}, {3, 0}}},
 			ans834{[]int{6, 6, 4, 4}},
 		},
 
-		question834{
-			para834{6, [][]int{[]int{0, 1}, []int{0, 2}, []int{2, 3}, []int{2, 4}, []int{2, 5}}},
+		{
+			para834{6, [][]int{{0, 1}, {0, 2}, {2, 3}, {2, 4}, {2, 5}}},
 			ans834{[]int{8, 12, 6, 10, 10, 10}},
 		},
 	}

@@ -26,27 +26,27 @@ func Test_Problem990(t *testing.T) {
 
 	qs := []question990{
 
-		question990{
+		{
 			para990{[]string{"a==b", "b!=a"}},
 			ans990{false},
 		},
 
-		question990{
+		{
 			para990{[]string{"b==a", "a==b"}},
 			ans990{true},
 		},
 
-		question990{
+		{
 			para990{[]string{"a==b", "b==c", "a==c"}},
 			ans990{true},
 		},
 
-		question990{
+		{
 			para990{[]string{"a==b", "b!=c", "c==a"}},
 			ans990{false},
 		},
 
-		question990{
+		{
 			para990{[]string{"c==c", "b==d", "x!=z"}},
 			ans990{true},
 		},

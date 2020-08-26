@@ -26,32 +26,32 @@ func Test_Problem80(t *testing.T) {
 
 	qs := []question80{
 
-		question80{
+		{
 			para80{[]int{1, 1, 2}},
 			ans80{3},
 		},
 
-		question80{
+		{
 			para80{[]int{0, 0, 1, 1, 1, 1, 2, 3, 4, 4}},
 			ans80{8},
 		},
 
-		question80{
+		{
 			para80{[]int{0, 0, 0, 0, 0}},
 			ans80{2},
 		},
 
-		question80{
+		{
 			para80{[]int{1}},
 			ans80{1},
 		},
 
-		question80{
+		{
 			para80{[]int{0, 0, 1, 1, 1, 1, 2, 3, 3}},
 			ans80{7},
 		},
 
-		question80{
+		{
 			para80{[]int{1, 1, 1, 1, 2, 2, 3}},
 			ans80{5},
 		},
