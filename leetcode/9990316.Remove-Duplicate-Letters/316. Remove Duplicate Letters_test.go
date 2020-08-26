@@ -26,11 +26,11 @@ func Test_Problem316(t *testing.T) {
 
 	qs := []question316{
 
-		question316{
+		{
 			para316{"bcabc"},
 			ans316{"abc"},
 		},
-		question316{
+		{
 			para316{"cbacdcbc"},
 			ans316{"acdb"},
 		},

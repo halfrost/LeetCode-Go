@@ -29,32 +29,32 @@ func Test_Problem92(t *testing.T) {
 
 	qs := []question92{
 
-		question92{
+		{
 			para92{[]int{1, 2, 3, 4, 5}, 2, 4},
 			ans92{[]int{1, 4, 3, 2, 5}},
 		},
 
-		question92{
+		{
 			para92{[]int{1, 2, 3, 4, 5}, 2, 2},
 			ans92{[]int{1, 2, 3, 4, 5}},
 		},
 
-		question92{
+		{
 			para92{[]int{1, 2, 3, 4, 5}, 1, 5},
 			ans92{[]int{5, 4, 3, 2, 1}},
 		},
 
-		question92{
+		{
 			para92{[]int{1, 2, 3, 4, 5, 6}, 3, 4},
 			ans92{[]int{1, 2, 4, 3, 5, 6}},
 		},
 
-		question92{
+		{
 			para92{[]int{3, 5}, 1, 2},
 			ans92{[]int{5, 3}},
 		},
 
-		question92{
+		{
 			para92{[]int{3}, 3, 5},
 			ans92{[]int{3}},
 		},

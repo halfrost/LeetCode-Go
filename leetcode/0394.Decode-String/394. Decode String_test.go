@@ -26,22 +26,22 @@ func Test_Problem394(t *testing.T) {
 
 	qs := []question394{
 
-		question394{
+		{
 			para394{"10[a]"},
 			ans394{"aaaaaaaaaa"},
 		},
 
-		question394{
+		{
 			para394{"3[a]2[bc]"},
 			ans394{"aaabcbc"},
 		},
 
-		question394{
+		{
 			para394{"3[a2[c]]"},
 			ans394{"accaccacc"},
 		},
 
-		question394{
+		{
 			para394{"2[abc]3[cd]ef"},
 			ans394{"abcabccdcdcdef"},
 		},

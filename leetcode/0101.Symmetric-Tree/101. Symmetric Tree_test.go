@@ -28,37 +28,37 @@ func Test_Problem101(t *testing.T) {
 
 	qs := []question101{
 
-		question101{
+		{
 			para101{[]int{3, 4, 4, 5, structures.NULL, structures.NULL, 5, 6, structures.NULL, structures.NULL, 6}},
 			ans101{true},
 		},
 
-		question101{
+		{
 			para101{[]int{1, 2, 2, structures.NULL, 3, 3}},
 			ans101{true},
 		},
 
-		question101{
+		{
 			para101{[]int{}},
 			ans101{true},
 		},
 
-		question101{
+		{
 			para101{[]int{1}},
 			ans101{true},
 		},
 
-		question101{
+		{
 			para101{[]int{1, 2, 3}},
 			ans101{false},
 		},
 
-		question101{
+		{
 			para101{[]int{1, 2, 2, 3, 4, 4, 3}},
 			ans101{true},
 		},
 
-		question101{
+		{
 			para101{[]int{1, 2, 2, structures.NULL, 3, structures.NULL, 3}},
 			ans101{false},
 		},

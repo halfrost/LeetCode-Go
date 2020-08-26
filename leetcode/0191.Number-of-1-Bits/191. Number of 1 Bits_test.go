@@ -26,11 +26,11 @@ func Test_Problem191(t *testing.T) {
 
 	qs := []question191{
 
-		question191{
+		{
 			para191{5},
 			ans191{1},
 		},
-		question191{
+		{
 			para191{13},
 			ans191{2},
 		},

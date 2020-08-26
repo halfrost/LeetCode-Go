@@ -25,22 +25,22 @@ type ans952 struct {
 func Test_Problem952(t *testing.T) {
 
 	qs := []question952{
-		question952{
+		{
 			para952{[]int{1, 2, 3, 4, 5, 6, 7, 8, 9}},
 			ans952{6},
 		},
 
-		question952{
+		{
 			para952{[]int{4, 6, 15, 35}},
 			ans952{4},
 		},
 
-		question952{
+		{
 			para952{[]int{20, 50, 9, 63}},
 			ans952{2},
 		},
 
-		question952{
+		{
 			para952{[]int{2, 3, 6, 7, 4, 12, 21, 39}},
 			ans952{8},
 		},

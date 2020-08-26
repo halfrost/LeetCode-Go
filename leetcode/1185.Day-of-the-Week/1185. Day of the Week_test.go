@@ -28,17 +28,17 @@ func Test_Problem1185(t *testing.T) {
 
 	qs := []question1185{
 
-		question1185{
+		{
 			para1185{31, 8, 2019},
 			ans1185{"Saturday"},
 		},
 
-		question1185{
+		{
 			para1185{18, 7, 1999},
 			ans1185{"Sunday"},
 		},
 
-		question1185{
+		{
 			para1185{15, 8, 1993},
 			ans1185{"Sunday"},
 		},

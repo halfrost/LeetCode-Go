@@ -26,23 +26,23 @@ func Test_Problem699(t *testing.T) {
 
 	qs := []question699{
 
-		question699{
-			para699{[][]int{[]int{6, 1}, []int{9, 2}, []int{2, 4}}},
+		{
+			para699{[][]int{{6, 1}, {9, 2}, {2, 4}}},
 			ans699{[]int{1, 2, 4}},
 		},
 
-		question699{
-			para699{[][]int{[]int{1, 2}, []int{1, 3}}},
+		{
+			para699{[][]int{{1, 2}, {1, 3}}},
 			ans699{[]int{2, 5}},
 		},
 
-		question699{
-			para699{[][]int{[]int{1, 2}, []int{2, 3}, []int{6, 1}}},
+		{
+			para699{[][]int{{1, 2}, {2, 3}, {6, 1}}},
 			ans699{[]int{2, 5, 5}},
 		},
 
-		question699{
-			para699{[][]int{[]int{100, 100}, []int{200, 100}}},
+		{
+			para699{[][]int{{100, 100}, {200, 100}}},
 			ans699{[]int{100, 100}},
 		},
 	}

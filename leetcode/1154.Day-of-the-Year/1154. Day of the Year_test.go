@@ -26,22 +26,22 @@ func Test_Problem1154(t *testing.T) {
 
 	qs := []question1154{
 
-		question1154{
+		{
 			para1154{"2019-01-09"},
 			ans1154{9},
 		},
 
-		question1154{
+		{
 			para1154{"2019-02-10"},
 			ans1154{41},
 		},
 
-		question1154{
+		{
 			para1154{"2003-03-01"},
 			ans1154{60},
 		},
 
-		question1154{
+		{
 			para1154{"2004-03-01"},
 			ans1154{61},
 		},

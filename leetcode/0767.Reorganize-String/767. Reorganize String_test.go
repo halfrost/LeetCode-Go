@@ -25,12 +25,12 @@ type ans767 struct {
 func Test_Problem767(t *testing.T) {
 
 	qs := []question767{
-		question767{
+		{
 			para767{"aab"},
 			ans767{"aba"},
 		},
 
-		question767{
+		{
 			para767{"aaab"},
 			ans767{""},
 		},

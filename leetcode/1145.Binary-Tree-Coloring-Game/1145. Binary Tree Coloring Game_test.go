@@ -30,7 +30,7 @@ func Test_Problem1145(t *testing.T) {
 
 	qs := []question1145{
 
-		question1145{
+		{
 			para1145{[]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, 11, 3},
 			ans1145{true},
 		},

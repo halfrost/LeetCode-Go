@@ -26,12 +26,12 @@ func Test_Problem229(t *testing.T) {
 
 	qs := []question229{
 
-		question229{
+		{
 			para229{[]int{3, 2, 3}},
 			ans229{[]int{3}},
 		},
 
-		question229{
+		{
 			para229{[]int{1, 1, 1, 3, 3, 2, 2, 2}},
 			ans229{[]int{1, 2}},
 		},

@@ -25,32 +25,32 @@ type ans856 struct {
 func Test_Problem856(t *testing.T) {
 
 	qs := []question856{
-		question856{
+		{
 			para856{"()"},
 			ans856{1},
 		},
 
-		question856{
+		{
 			para856{"(())"},
 			ans856{2},
 		},
 
-		question856{
+		{
 			para856{"()()"},
 			ans856{2},
 		},
 
-		question856{
+		{
 			para856{"(()(()))"},
 			ans856{6},
 		},
 
-		question856{
+		{
 			para856{"()(())"},
 			ans856{3},
 		},
 
-		question856{
+		{
 			para856{"((()()))"},
 			ans856{8},
 		},

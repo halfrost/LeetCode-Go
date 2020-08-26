@@ -27,12 +27,12 @@ func Test_Problem884(t *testing.T) {
 
 	qs := []question884{
 
-		question884{
+		{
 			para884{"this apple is sweet", "this apple is sour"},
 			ans884{[]string{"sweet", "sour"}},
 		},
 
-		question884{
+		{
 			para884{"apple apple", "banana"},
 			ans884{[]string{"banana"}},
 		},

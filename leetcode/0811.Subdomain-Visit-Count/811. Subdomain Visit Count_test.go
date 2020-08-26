@@ -26,12 +26,12 @@ func Test_Problem811(t *testing.T) {
 
 	qs := []question811{
 
-		question811{
+		{
 			para811{[]string{"9001 discuss.leetcode.com"}},
 			ans811{[]string{"mqe", "mqE", "mQe", "mQE", "Mqe", "MqE", "MQe", "MQE"}},
 		},
 
-		question811{
+		{
 			para811{[]string{"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"}},
 			ans811{[]string{"901 mail.com", "50 yahoo.com", "900 google.mail.com", "5 wiki.org", "5 org", "1 intel.mail.com", "951 com"}},
 		},

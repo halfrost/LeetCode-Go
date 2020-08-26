@@ -26,27 +26,27 @@ func Test_Problem784(t *testing.T) {
 
 	qs := []question784{
 
-		question784{
+		{
 			para784{"mQe"},
 			ans784{[]string{"mqe", "mqE", "mQe", "mQE", "Mqe", "MqE", "MQe", "MQE"}},
 		},
 
-		question784{
+		{
 			para784{"C"},
 			ans784{[]string{"c", "C"}},
 		},
 
-		question784{
+		{
 			para784{"a1b2"},
 			ans784{[]string{"a1b2", "a1B2", "A1b2", "A1B2"}},
 		},
 
-		question784{
+		{
 			para784{"3z4"},
 			ans784{[]string{"3z4", "3Z4"}},
 		},
 
-		question784{
+		{
 			para784{"12345"},
 			ans784{[]string{"12345"}},
 		},

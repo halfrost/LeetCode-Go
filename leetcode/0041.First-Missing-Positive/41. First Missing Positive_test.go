@@ -26,37 +26,37 @@ func Test_Problem41(t *testing.T) {
 
 	qs := []question41{
 
-		question41{
+		{
 			para41{[]int{10, -1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, -3}},
 			ans41{6},
 		},
 
-		question41{
+		{
 			para41{[]int{10, -1, 8, 6, 7, 3, -2, 5, 4, 2, 1, -3}},
 			ans41{9},
 		},
 
-		question41{
+		{
 			para41{[]int{1}},
 			ans41{2},
 		},
 
-		question41{
+		{
 			para41{[]int{0, 2, 2, 1, 1}},
 			ans41{3},
 		},
 
-		question41{
+		{
 			para41{[]int{}},
 			ans41{1},
 		},
 
-		question41{
+		{
 			para41{[]int{1, 2, 0}},
 			ans41{3},
 		},
 
-		question41{
+		{
 			para41{[]int{3, 4, -1, 1}},
 			ans41{2},
 		},

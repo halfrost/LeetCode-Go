@@ -26,12 +26,12 @@ func Test_Problem476(t *testing.T) {
 
 	qs := []question476{
 
-		question476{
+		{
 			para476{5},
 			ans476{2},
 		},
 
-		question476{
+		{
 			para476{1},
 			ans476{0},
 		},

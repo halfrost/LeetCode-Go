@@ -26,27 +26,27 @@ func Test_Problem1234(t *testing.T) {
 
 	qs := []question1234{
 
-		question1234{
+		{
 			para1234{"QWER"},
 			ans1234{0},
 		},
 
-		question1234{
+		{
 			para1234{"QQWE"},
 			ans1234{1},
 		},
 
-		question1234{
+		{
 			para1234{"QQQW"},
 			ans1234{2},
 		},
 
-		question1234{
+		{
 			para1234{"QQQQ"},
 			ans1234{3},
 		},
 
-		question1234{
+		{
 			para1234{"WQWRQQQW"},
 			ans1234{3},
 		},

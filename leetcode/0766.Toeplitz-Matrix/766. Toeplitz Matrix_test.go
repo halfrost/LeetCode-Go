@@ -26,13 +26,13 @@ func Test_Problem766(t *testing.T) {
 
 	qs := []question766{
 
-		question766{
-			para766{[][]int{[]int{1, 2, 3, 4}, []int{5, 1, 2, 3}, []int{9, 5, 1, 2}}},
+		{
+			para766{[][]int{{1, 2, 3, 4}, {5, 1, 2, 3}, {9, 5, 1, 2}}},
 			ans766{true},
 		},
 
-		question766{
-			para766{[][]int{[]int{1, 2}, []int{2, 2}}},
+		{
+			para766{[][]int{{1, 2}, {2, 2}}},
 			ans766{false},
 		},
 	}

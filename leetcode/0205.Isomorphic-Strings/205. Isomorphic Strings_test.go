@@ -27,22 +27,22 @@ func Test_Problem205(t *testing.T) {
 
 	qs := []question205{
 
-		question205{
+		{
 			para205{"egg", "add"},
 			ans205{true},
 		},
 
-		question205{
+		{
 			para205{"foo", "bar"},
 			ans205{false},
 		},
 
-		question205{
+		{
 			para205{"paper", "title"},
 			ans205{true},
 		},
 
-		question205{
+		{
 			para205{"", ""},
 			ans205{true},
 		},

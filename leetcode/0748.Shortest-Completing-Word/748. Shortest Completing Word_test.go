@@ -27,12 +27,12 @@ func Test_Problem748(t *testing.T) {
 
 	qs := []question748{
 
-		question748{
+		{
 			para748{"1s3 PSt", []string{"step", "steps", "stripe", "stepple"}},
 			ans748{"steps"},
 		},
 
-		question748{
+		{
 			para748{"1s3 456", []string{"looks", "pest", "stew", "show"}},
 			ans748{"pest"},
 		},

@@ -29,9 +29,9 @@ func Test_Problem1110(t *testing.T) {
 
 	qs := []question1110{
 
-		question1110{
+		{
 			para1110{[]int{1, 2, 3, 4, 5, 6, 7}, []int{3, 5}},
-			ans1110{[][]int{[]int{1, 2, structures.NULL, 4}, []int{6}, []int{7}}},
+			ans1110{[][]int{{1, 2, structures.NULL, 4}, {6}, {7}}},
 		},
 	}
 

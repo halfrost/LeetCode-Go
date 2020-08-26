@@ -26,41 +26,41 @@ func Test_Problem457(t *testing.T) {
 
 	qs := []question457{
 
-		question457{
+		{
 			para457{[]int{-1}},
 			ans457{false},
 		},
 
-		question457{
+		{
 			para457{[]int{3, 1, 2}},
 			ans457{true},
 		},
 
-		question457{
+		{
 			para457{[]int{-8, -1, 1, 7, 2}},
 			ans457{false},
 		},
 
-		question457{
+		{
 			para457{[]int{-1, -2, -3, -4, -5}},
 			ans457{false},
 		},
 
-		question457{
+		{
 			para457{[]int{}},
 			ans457{false},
 		},
 
-		question457{
+		{
 			para457{[]int{2, -1, 1, 2, 2}},
 			ans457{true},
 		},
 
-		question457{
+		{
 			para457{[]int{-1, 2}},
 			ans457{false},
 		},
-		question457{
+		{
 			para457{[]int{-2, 1, -1, -2, -2}},
 			ans457{false},
 		},

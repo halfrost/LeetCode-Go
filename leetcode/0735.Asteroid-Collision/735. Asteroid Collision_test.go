@@ -26,32 +26,32 @@ func Test_Problem735(t *testing.T) {
 
 	qs := []question735{
 
-		question735{
+		{
 			para735{[]int{-1, -1, 1, -2}},
 			ans735{[]int{-1, -1, -2}},
 		},
 
-		question735{
+		{
 			para735{[]int{5, 10, -5}},
 			ans735{[]int{5, 10}},
 		},
 
-		question735{
+		{
 			para735{[]int{5, 8, -8}},
 			ans735{[]int{5}},
 		},
 
-		question735{
+		{
 			para735{[]int{8, -8}},
 			ans735{[]int{}},
 		},
 
-		question735{
+		{
 			para735{[]int{10, 2, -5}},
 			ans735{[]int{10}},
 		},
 
-		question735{
+		{
 			para735{[]int{-2, -1, 1, 2}},
 			ans735{[]int{-2, -1, 1, 2}},
 		},

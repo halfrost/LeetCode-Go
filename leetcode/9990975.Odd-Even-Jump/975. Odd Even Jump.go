@@ -5,7 +5,7 @@ import (
 )
 
 func oddEvenJumps(A []int) int {
-	oddJumpMap, evenJumpMap, count, current, res := map[int]int{}, map[int]int{}, 1, 0, 0
+	oddJumpMap, evenJumpMap, current, res := map[int]int{}, map[int]int{}, 0, 0
 	for i := 0; i < len(A); i++ {
 		for j := i + 1; j < len(A); j++ {
 			if v, ok := oddJumpMap[i]; ok {
@@ -42,7 +42,8 @@ func oddEvenJumps(A []int) int {
 	}
 	fmt.Printf("oddJumpMap = %v evenJumpMap = %v\n", oddJumpMap, evenJumpMap)
 	for i := 0; i < len(A); i++ {
-		count, current = 1, i
+		count := 1
+		current = i
 		for {
 			if count%2 == 1 {
 				if v, ok := oddJumpMap[current]; ok {

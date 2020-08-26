@@ -27,21 +27,21 @@ func Test_Problem212(t *testing.T) {
 
 	qs := []question212{
 
-		question212{
+		{
 			para212{[][]byte{
-				[]byte{'A', 'B', 'C', 'E'},
-				[]byte{'S', 'F', 'C', 'S'},
-				[]byte{'A', 'D', 'E', 'E'},
+				{'A', 'B', 'C', 'E'},
+				{'S', 'F', 'C', 'S'},
+				{'A', 'D', 'E', 'E'},
 			}, []string{"ABCCED", "SEE", "ABCB"}},
 			ans212{[]string{"ABCCED", "SEE"}},
 		},
 
-		question212{
+		{
 			para212{[][]byte{
-				[]byte{'o', 'a', 'a', 'n'},
-				[]byte{'e', 't', 'a', 'e'},
-				[]byte{'i', 'h', 'k', 'r'},
-				[]byte{'i', 'f', 'l', 'v'},
+				{'o', 'a', 'a', 'n'},
+				{'e', 't', 'a', 'e'},
+				{'i', 'h', 'k', 'r'},
+				{'i', 'f', 'l', 'v'},
 			}, []string{"oath", "pea", "eat", "rain"}},
 			ans212{[]string{"oath", "eat"}},
 		},

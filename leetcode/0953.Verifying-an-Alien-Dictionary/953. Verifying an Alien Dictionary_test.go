@@ -26,17 +26,17 @@ type ans953 struct {
 func Test_Problem953(t *testing.T) {
 
 	qs := []question953{
-		question953{
+		{
 			para953{[]string{"hello", "leetcode"}, "hlabcdefgijkmnopqrstuvwxyz"},
 			ans953{true},
 		},
 
-		question953{
+		{
 			para953{[]string{"word", "world", "row"}, "worldabcefghijkmnpqstuvxyz"},
 			ans953{false},
 		},
 
-		question953{
+		{
 			para953{[]string{"apple", "app"}, "abcdefghijklmnopqrstuvwxyz"},
 			ans953{false},
 		},

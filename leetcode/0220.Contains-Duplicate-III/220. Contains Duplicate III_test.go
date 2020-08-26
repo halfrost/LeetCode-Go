@@ -28,27 +28,27 @@ func Test_Problem220(t *testing.T) {
 
 	qs := []question220{
 
-		question220{
+		{
 			para220{[]int{7, 1, 3}, 2, 3},
 			ans220{true},
 		},
 
-		question220{
+		{
 			para220{[]int{-1, -1}, 1, -1},
 			ans220{false},
 		},
 
-		question220{
+		{
 			para220{[]int{1, 2, 3, 1}, 3, 0},
 			ans220{true},
 		},
 
-		question220{
+		{
 			para220{[]int{1, 0, 1, 1}, 1, 2},
 			ans220{true},
 		},
 
-		question220{
+		{
 			para220{[]int{1, 5, 9, 1, 5, 9}, 2, 3},
 			ans220{false},
 		},

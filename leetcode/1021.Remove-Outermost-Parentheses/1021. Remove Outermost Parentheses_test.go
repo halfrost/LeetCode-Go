@@ -25,17 +25,17 @@ type ans1021 struct {
 func Test_Problem1021(t *testing.T) {
 
 	qs := []question1021{
-		question1021{
+		{
 			para1021{"(()())(())"},
 			ans1021{"()()()"},
 		},
 
-		question1021{
+		{
 			para1021{"(()())(())(()(()))"},
 			ans1021{"()()()()(())"},
 		},
 
-		question1021{
+		{
 			para1021{"()()"},
 			ans1021{""},
 		},

@@ -26,17 +26,17 @@ func Test_Problem345(t *testing.T) {
 
 	qs := []question345{
 
-		question345{
+		{
 			para345{"hello"},
 			ans345{"holle"},
 		},
 
-		question345{
+		{
 			para345{"leetcode"},
 			ans345{"leotcede"},
 		},
 
-		question345{
+		{
 			para345{"aA"},
 			ans345{"Aa"},
 		},

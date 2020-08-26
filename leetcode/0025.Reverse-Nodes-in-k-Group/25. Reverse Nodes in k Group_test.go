@@ -29,7 +29,7 @@ func Test_Problem25(t *testing.T) {
 
 	qs := []question25{
 
-		question25{
+		{
 			para25{
 				[]int{1, 2, 3, 4, 5},
 				3,
@@ -37,7 +37,7 @@ func Test_Problem25(t *testing.T) {
 			ans25{[]int{3, 2, 1, 4, 5}},
 		},
 
-		question25{
+		{
 			para25{
 				[]int{1, 2, 3, 4, 5},
 				1,

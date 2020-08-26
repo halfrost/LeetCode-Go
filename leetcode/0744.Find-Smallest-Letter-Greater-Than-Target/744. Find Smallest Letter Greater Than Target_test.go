@@ -27,32 +27,32 @@ func Test_Problem744(t *testing.T) {
 
 	qs := []question744{
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'a'},
 			ans744{'c'},
 		},
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'c'},
 			ans744{'f'},
 		},
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'd'},
 			ans744{'f'},
 		},
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'g'},
 			ans744{'j'},
 		},
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'j'},
 			ans744{'c'},
 		},
 
-		question744{
+		{
 			para744{[]byte{'c', 'f', 'j'}, 'k'},
 			ans744{'c'},
 		},

@@ -29,22 +29,22 @@ func Test_Problem1201(t *testing.T) {
 
 	qs := []question1201{
 
-		question1201{
+		{
 			para1201{3, 2, 3, 5},
 			ans1201{4},
 		},
 
-		question1201{
+		{
 			para1201{4, 2, 3, 4},
 			ans1201{6},
 		},
 
-		question1201{
+		{
 			para1201{5, 2, 11, 13},
 			ans1201{10},
 		},
 
-		question1201{
+		{
 			para1201{1000000000, 2, 217983653, 336916467},
 			ans1201{1999999984},
 		},

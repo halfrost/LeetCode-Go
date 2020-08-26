@@ -29,7 +29,7 @@ func Test_Problem105(t *testing.T) {
 
 	qs := []question105{
 
-		question105{
+		{
 			para105{[]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}},
 			ans105{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 		},

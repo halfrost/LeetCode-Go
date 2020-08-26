@@ -25,7 +25,7 @@ func smallestStringWithSwaps(s string, pairs [][]int) string {
 		r := uf.Find(i)
 		bytes := sMap[r]
 		res[i] = bytes[0]
-		sMap[r] = bytes[1:len(bytes)]
+		sMap[r] = bytes[1:]
 	}
 	return string(res)
 }

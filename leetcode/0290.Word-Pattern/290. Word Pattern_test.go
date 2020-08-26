@@ -27,22 +27,22 @@ func Test_Problem290(t *testing.T) {
 
 	qs := []question290{
 
-		question290{
+		{
 			para290{"abba", "dog cat cat dog"},
 			ans290{true},
 		},
 
-		question290{
+		{
 			para290{"abba", "dog cat cat fish"},
 			ans290{false},
 		},
 
-		question290{
+		{
 			para290{"aaaa", "dog cat cat dog"},
 			ans290{false},
 		},
 
-		question290{
+		{
 			para290{"abba", "dog dog dog dog"},
 			ans290{false},
 		},

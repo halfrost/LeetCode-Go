@@ -25,22 +25,22 @@ type ans1040 struct {
 func Test_Problem1040(t *testing.T) {
 
 	qs := []question1040{
-		question1040{
+		{
 			para1040{[]int{7, 4, 9}},
 			ans1040{[]int{1, 2}},
 		},
 
-		question1040{
+		{
 			para1040{[]int{6, 5, 4, 3, 10}},
 			ans1040{[]int{2, 3}},
 		},
 
-		question1040{
+		{
 			para1040{[]int{100, 101, 104, 102, 103}},
 			ans1040{[]int{0, 0}},
 		},
 
-		question1040{
+		{
 			para1040{[]int{1, 3, 5, 7, 10}},
 			ans1040{[]int{2, 4}},
 		},

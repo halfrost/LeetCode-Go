@@ -26,42 +26,42 @@ func Test_Problem71(t *testing.T) {
 
 	qs := []question71{
 
-		question71{
+		{
 			para71{"/.hidden"},
 			ans71{"/.hidden"},
 		},
 
-		question71{
+		{
 			para71{"/..hidden"},
 			ans71{"/..hidden"},
 		},
 
-		question71{
+		{
 			para71{"/abc/..."},
 			ans71{"/abc/..."},
 		},
 
-		question71{
+		{
 			para71{"/home/"},
 			ans71{"/home"},
 		},
 
-		question71{
+		{
 			para71{"/..."},
 			ans71{"/..."},
 		},
 
-		question71{
+		{
 			para71{"/../"},
 			ans71{"/"},
 		},
 
-		question71{
+		{
 			para71{"/home//foo/"},
 			ans71{"/home/foo"},
 		},
 
-		question71{
+		{
 			para71{"/a/./b/../../c/"},
 			ans71{"/c"},
 		},

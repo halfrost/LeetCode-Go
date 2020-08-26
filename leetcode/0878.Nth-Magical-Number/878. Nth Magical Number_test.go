@@ -28,27 +28,27 @@ func Test_Problem878(t *testing.T) {
 
 	qs := []question878{
 
-		question878{
+		{
 			para878{1, 2, 3},
 			ans878{2},
 		},
 
-		question878{
+		{
 			para878{4, 2, 3},
 			ans878{6},
 		},
 
-		question878{
+		{
 			para878{5, 2, 4},
 			ans878{10},
 		},
 
-		question878{
+		{
 			para878{3, 6, 4},
 			ans878{8},
 		},
 
-		question878{
+		{
 			para878{1000000000, 40000, 40000},
 			ans878{999720007},
 		},

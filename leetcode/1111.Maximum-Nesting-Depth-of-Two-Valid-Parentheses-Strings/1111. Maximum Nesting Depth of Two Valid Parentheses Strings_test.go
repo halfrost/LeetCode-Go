@@ -26,12 +26,12 @@ func Test_Problem1111(t *testing.T) {
 
 	qs := []question1111{
 
-		question1111{
+		{
 			para1111{"(()())"},
 			ans1111{[]int{0, 1, 1, 1, 1, 0}},
 		},
 
-		question1111{
+		{
 			para1111{"()(())()"},
 			ans1111{[]int{0, 0, 0, 1, 1, 0, 1, 1}},
 		},

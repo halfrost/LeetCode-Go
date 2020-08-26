@@ -27,12 +27,12 @@ func Test_Problem537(t *testing.T) {
 
 	qs := []question537{
 
-		question537{
+		{
 			para537{"1+1i", "1+1i"},
 			ans537{"0+2i"},
 		},
 
-		question537{
+		{
 			para537{"1+-1i", "1+-1i"},
 			ans537{"0+-2i"},
 		},

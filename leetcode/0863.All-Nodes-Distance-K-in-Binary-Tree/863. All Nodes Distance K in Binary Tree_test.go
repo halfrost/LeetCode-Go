@@ -30,7 +30,7 @@ func Test_Problem863(t *testing.T) {
 
 	qs := []question863{
 
-		question863{
+		{
 			para863{[]int{3, 5, 1, 6, 2, 0, 8, structures.NULL, structures.NULL, 7, 4}, []int{5}, 2},
 			ans863{[]int{7, 4, 1}},
 		},

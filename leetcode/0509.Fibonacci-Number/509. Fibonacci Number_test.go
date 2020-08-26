@@ -26,17 +26,17 @@ func Test_Problem509(t *testing.T) {
 
 	qs := []question509{
 
-		question509{
+		{
 			para509{1},
 			ans509{1},
 		},
 
-		question509{
+		{
 			para509{2},
 			ans509{1},
 		},
 
-		question509{
+		{
 			para509{3},
 			ans509{2},
 		},

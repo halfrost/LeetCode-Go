@@ -37,12 +37,12 @@ func recBST(root, tail *TreeNode) *TreeNode {
 
 // 解法二 模拟
 func increasingBST1(root *TreeNode) *TreeNode {
-	list, newRoot := []int{}, &TreeNode{}
+	list := []int{}
 	inorder(root, &list)
 	if len(list) == 0 {
 		return root
 	}
-	newRoot = &TreeNode{Val: list[0], Left: nil, Right: nil}
+	newRoot := &TreeNode{Val: list[0], Left: nil, Right: nil}
 	cur := newRoot
 	for index := 1; index < len(list); index++ {
 		tmp := &TreeNode{Val: list[index], Left: nil, Right: nil}

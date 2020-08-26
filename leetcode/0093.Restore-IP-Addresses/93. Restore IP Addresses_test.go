@@ -26,17 +26,17 @@ func Test_Problem93(t *testing.T) {
 
 	qs := []question93{
 
-		question93{
+		{
 			para93{"25525511135"},
 			ans93{[]string{"255.255.11.135", "255.255.111.35"}},
 		},
 
-		question93{
+		{
 			para93{"0000"},
 			ans93{[]string{"0.0.0.0"}},
 		},
 
-		question93{
+		{
 			para93{"010010"},
 			ans93{[]string{"0.10.0.10", "0.100.1.0"}},
 		},

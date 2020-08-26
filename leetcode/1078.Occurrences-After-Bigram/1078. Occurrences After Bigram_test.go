@@ -28,12 +28,12 @@ func Test_Problem1078(t *testing.T) {
 
 	qs := []question1078{
 
-		question1078{
+		{
 			para1078{"alice is a good girl she is a good student", "a", "good"},
 			ans1078{[]string{"girl", "student"}},
 		},
 
-		question1078{
+		{
 			para1078{"we will we will rock you", "we", "will"},
 			ans1078{[]string{"we", "rock"}},
 		},

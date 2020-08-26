@@ -19,11 +19,9 @@ func insertionSortList(head *ListNode) *ListNode {
 		return head
 	}
 	newHead := &ListNode{Val: 0, Next: nil} // 这里初始化不要直接指向 head，为了下面循环可以统一处理
-	cur := head
-	pre := newHead
-	next := &ListNode{Val: 0, Next: nil}
+	cur, pre := head, newHead
 	for cur != nil {
-		next = cur.Next
+		next := cur.Next
 		for pre.Next != nil && pre.Next.Val < cur.Val {
 			pre = pre.Next
 		}

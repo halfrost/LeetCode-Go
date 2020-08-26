@@ -26,17 +26,17 @@ type ans862 struct {
 func Test_Problem862(t *testing.T) {
 
 	qs := []question862{
-		question862{
+		{
 			para862{[]int{1}, 1},
 			ans862{1},
 		},
 
-		question862{
+		{
 			para862{[]int{1, 2}, 4},
 			ans862{-1},
 		},
 
-		question862{
+		{
 			para862{[]int{2, -1, 2}, 3},
 			ans862{3},
 		},

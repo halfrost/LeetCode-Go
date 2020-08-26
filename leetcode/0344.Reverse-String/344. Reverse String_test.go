@@ -26,12 +26,12 @@ func Test_Problem344(t *testing.T) {
 
 	qs := []question344{
 
-		question344{
+		{
 			para344{[]byte{'h', 'e', 'l', 'l', 'o'}},
 			ans344{[]byte{'o', 'l', 'l', 'e', 'h'}},
 		},
 
-		question344{
+		{
 			para344{[]byte{'H', 'a', 'n', 'n', 'a', 'h'}},
 			ans344{[]byte{'h', 'a', 'n', 'n', 'a', 'H'}},
 		},

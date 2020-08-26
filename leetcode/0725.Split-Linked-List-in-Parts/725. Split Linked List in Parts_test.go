@@ -29,42 +29,42 @@ func Test_Problem725(t *testing.T) {
 
 	qs := []question725{
 
-		question725{
+		{
 			para725{[]int{1, 2, 3, 4, 5}, 7},
 			ans725{[]int{1, 2, 3, 4, 5, 0, 0}},
 		},
 
-		question725{
+		{
 			para725{[]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 3},
 			ans725{[]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}},
 		},
 
-		question725{
+		{
 			para725{[]int{1, 1, 1, 1, 1}, 1},
 			ans725{[]int{1, 1, 1, 1, 1}},
 		},
 
-		question725{
+		{
 			para725{[]int{}, 3},
 			ans725{[]int{}},
 		},
 
-		question725{
+		{
 			para725{[]int{1, 2, 3, 4, 5}, 5},
 			ans725{[]int{1, 2, 3, 4}},
 		},
 
-		question725{
+		{
 			para725{[]int{}, 5},
 			ans725{[]int{}},
 		},
 
-		question725{
+		{
 			para725{[]int{1, 2, 3, 4, 5}, 10},
 			ans725{[]int{1, 2, 3, 4, 5}},
 		},
 
-		question725{
+		{
 			para725{[]int{1}, 1},
 			ans725{[]int{}},
 		},

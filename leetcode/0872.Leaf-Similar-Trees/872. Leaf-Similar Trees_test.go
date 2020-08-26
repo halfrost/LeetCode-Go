@@ -29,7 +29,7 @@ func Test_Problem872(t *testing.T) {
 
 	qs := []question872{
 
-		question872{
+		{
 			para872{[]int{-10, -3, 0, 5, 9}, []int{-10, -3, 0, 5, 9}},
 			ans872{true},
 		},

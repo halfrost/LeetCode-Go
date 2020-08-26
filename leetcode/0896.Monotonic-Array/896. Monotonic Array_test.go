@@ -26,32 +26,32 @@ func Test_Problem896(t *testing.T) {
 
 	qs := []question896{
 
-		question896{
+		{
 			para896{[]int{2, 1, 3}},
 			ans896{false},
 		},
 
-		question896{
+		{
 			para896{[]int{1, 2, 2, 3}},
 			ans896{true},
 		},
 
-		question896{
+		{
 			para896{[]int{6, 5, 4, 4}},
 			ans896{true},
 		},
 
-		question896{
+		{
 			para896{[]int{1, 3, 2}},
 			ans896{false},
 		},
 
-		question896{
+		{
 			para896{[]int{1, 2, 4, 5}},
 			ans896{true},
 		},
 
-		question896{
+		{
 			para896{[]int{1, 1, 1}},
 			ans896{true},
 		},

@@ -27,27 +27,27 @@ func Test_Problem524(t *testing.T) {
 
 	qs := []question524{
 
-		question524{
+		{
 			para524{"abpcplea", []string{"ale", "apple", "monkey", "plea"}},
 			ans524{"apple"},
 		},
 
-		question524{
+		{
 			para524{"abpcplea", []string{"a", "b", "c"}},
 			ans524{"a"},
 		},
 
-		question524{
+		{
 			para524{"abpcplea", []string{"aaaaa", "b", "c"}},
 			ans524{"b"},
 		},
 
-		question524{
+		{
 			para524{"bab", []string{"ba", "ab", "a", "b"}},
 			ans524{"ab"},
 		},
 
-		question524{
+		{
 			para524{"aewfafwafjlwajflwajflwafj", []string{"apple", "ewaf", "awefawfwaf", "awef", "awefe", "ewafeffewafewf"}},
 			ans524{"ewaf"},
 		},

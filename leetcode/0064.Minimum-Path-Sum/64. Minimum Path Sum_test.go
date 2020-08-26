@@ -26,11 +26,11 @@ func Test_Problem64(t *testing.T) {
 
 	qs := []question64{
 
-		question64{
+		{
 			para64{[][]int{
-				[]int{1, 3, 1},
-				[]int{1, 5, 1},
-				[]int{4, 2, 1},
+				{1, 3, 1},
+				{1, 5, 1},
+				{4, 2, 1},
 			}},
 			ans64{7},
 		},

@@ -45,7 +45,7 @@ func pathSum1(root *TreeNode, sum int) [][]int {
 	}
 	if root.Left == nil && root.Right == nil {
 		if sum == root.Val {
-			return [][]int{[]int{root.Val}}
+			return [][]int{{root.Val}}
 		}
 	}
 	path, res := []int{}, [][]int{}

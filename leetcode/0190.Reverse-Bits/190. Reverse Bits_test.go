@@ -26,12 +26,12 @@ func Test_Problem190(t *testing.T) {
 
 	qs := []question190{
 
-		question190{
+		{
 			para190{43261596},
 			ans190{964176192},
 		},
 
-		question190{
+		{
 			para190{4294967293},
 			ans190{3221225471},
 		},

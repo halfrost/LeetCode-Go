@@ -26,12 +26,12 @@ func Test_Problem306(t *testing.T) {
 
 	qs := []question306{
 
-		question306{
+		{
 			para306{"112358"},
 			ans306{true},
 		},
 
-		question306{
+		{
 			para306{"199100199"},
 			ans306{true},
 		},

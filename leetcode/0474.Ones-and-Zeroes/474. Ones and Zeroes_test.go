@@ -28,17 +28,17 @@ func Test_Problem474(t *testing.T) {
 
 	qs := []question474{
 
-		question474{
+		{
 			para474{[]string{"10", "0001", "111001", "1", "0"}, 5, 3},
 			ans474{4},
 		},
 
-		question474{
+		{
 			para474{[]string{"10", "0", "1"}, 1, 1},
 			ans474{2},
 		},
 
-		question474{
+		{
 			para474{[]string{}, 0, 0},
 			ans474{0},
 		},

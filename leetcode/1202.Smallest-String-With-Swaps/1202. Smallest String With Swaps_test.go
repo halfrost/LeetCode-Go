@@ -27,18 +27,18 @@ func Test_Problem1202(t *testing.T) {
 
 	qs := []question1202{
 
-		question1202{
-			para1202{"dcab", [][]int{[]int{0, 3}, []int{1, 2}}},
+		{
+			para1202{"dcab", [][]int{{0, 3}, {1, 2}}},
 			ans1202{"bacd"},
 		},
 
-		question1202{
-			para1202{"dcab", [][]int{[]int{0, 3}, []int{1, 2}, []int{0, 2}}},
+		{
+			para1202{"dcab", [][]int{{0, 3}, {1, 2}, {0, 2}}},
 			ans1202{"abcd"},
 		},
 
-		question1202{
-			para1202{"cba", [][]int{[]int{0, 1}, []int{1, 2}}},
+		{
+			para1202{"cba", [][]int{{0, 1}, {1, 2}}},
 			ans1202{"abc"},
 		},
 	}

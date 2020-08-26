@@ -30,17 +30,17 @@ func Test_Problem993(t *testing.T) {
 
 	qs := []question993{
 
-		question993{
+		{
 			para993{[]int{1, 2, 3, 4}, 4, 3},
 			ans993{false},
 		},
 
-		question993{
+		{
 			para993{[]int{1, 2, 3, structures.NULL, 4, structures.NULL, 5}, 5, 4},
 			ans993{true},
 		},
 
-		question993{
+		{
 			para993{[]int{1, 2, 3, structures.NULL, 4}, 2, 3},
 			ans993{false},
 		},

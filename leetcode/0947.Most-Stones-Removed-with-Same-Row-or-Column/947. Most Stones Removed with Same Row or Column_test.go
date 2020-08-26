@@ -25,18 +25,18 @@ type ans947 struct {
 func Test_Problem947(t *testing.T) {
 
 	qs := []question947{
-		question947{
-			para947{[][]int{[]int{0, 0}, []int{0, 1}, []int{1, 0}, []int{1, 2}, []int{2, 1}, []int{2, 2}}},
+		{
+			para947{[][]int{{0, 0}, {0, 1}, {1, 0}, {1, 2}, {2, 1}, {2, 2}}},
 			ans947{5},
 		},
 
-		question947{
-			para947{[][]int{[]int{0, 0}, []int{0, 2}, []int{1, 1}, []int{2, 0}, []int{2, 2}}},
+		{
+			para947{[][]int{{0, 0}, {0, 2}, {1, 1}, {2, 0}, {2, 2}}},
 			ans947{3},
 		},
 
-		question947{
-			para947{[][]int{[]int{0, 0}}},
+		{
+			para947{[][]int{{0, 0}}},
 			ans947{0},
 		},
 	}

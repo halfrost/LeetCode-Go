@@ -26,22 +26,22 @@ func Test_Problem326(t *testing.T) {
 
 	qs := []question326{
 
-		question326{
+		{
 			para326{27},
 			ans326{true},
 		},
 
-		question326{
+		{
 			para326{0},
 			ans326{false},
 		},
 
-		question326{
+		{
 			para326{9},
 			ans326{true},
 		},
 
-		question326{
+		{
 			para326{45},
 			ans326{false},
 		},

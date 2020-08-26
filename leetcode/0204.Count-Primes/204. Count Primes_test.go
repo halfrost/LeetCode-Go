@@ -26,17 +26,17 @@ func Test_Problem204(t *testing.T) {
 
 	qs := []question204{
 
-		question204{
+		{
 			para204{10},
 			ans204{4},
 		},
 
-		question204{
+		{
 			para204{100},
 			ans204{25},
 		},
 
-		question204{
+		{
 			para204{1000},
 			ans204{168},
 		},

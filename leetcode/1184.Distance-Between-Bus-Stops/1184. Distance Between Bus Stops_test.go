@@ -28,17 +28,17 @@ func Test_Problem1184(t *testing.T) {
 
 	qs := []question1184{
 
-		question1184{
+		{
 			para1184{[]int{1, 2, 3, 4}, 0, 1},
 			ans1184{1},
 		},
 
-		question1184{
+		{
 			para1184{[]int{1, 2, 3, 4}, 0, 2},
 			ans1184{3},
 		},
 
-		question1184{
+		{
 			para1184{[]int{1, 2, 3, 4}, 0, 3},
 			ans1184{4},
 		},

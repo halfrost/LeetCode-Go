@@ -29,32 +29,32 @@ func Test_Problem160(t *testing.T) {
 
 	qs := []question160{
 
-		question160{
+		{
 			para160{[]int{}, []int{}},
 			ans160{[]int{}},
 		},
 
-		question160{
+		{
 			para160{[]int{3}, []int{1, 2, 3}},
 			ans160{[]int{3}},
 		},
 
-		question160{
+		{
 			para160{[]int{1, 2, 3, 4}, []int{1, 2, 3, 4}},
 			ans160{[]int{1, 2, 3, 4}},
 		},
 
-		question160{
+		{
 			para160{[]int{4, 1, 8, 4, 5}, []int{5, 0, 1, 8, 4, 5}},
 			ans160{[]int{8, 4, 5}},
 		},
 
-		question160{
+		{
 			para160{[]int{1}, []int{9, 9, 9, 9, 9}},
 			ans160{[]int{}},
 		},
 
-		question160{
+		{
 			para160{[]int{0, 9, 1, 2, 4}, []int{3, 2, 4}},
 			ans160{[]int{2, 4}},
 		},

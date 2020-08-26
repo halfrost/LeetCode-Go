@@ -26,17 +26,17 @@ func Test_Problem838(t *testing.T) {
 
 	qs := []question838{
 
-		question838{
+		{
 			para838{".L.R...LR..L.."},
 			ans838{"LL.RR.LLRRLL.."},
 		},
 
-		question838{
+		{
 			para838{"RR.L"},
 			ans838{"RR.L"},
 		},
 
-		question838{
+		{
 			para838{".L.R."},
 			ans838{"LL.RR"},
 		},

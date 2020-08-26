@@ -27,12 +27,12 @@ type ans126 struct {
 func Test_Problem126(t *testing.T) {
 
 	qs := []question126{
-		question126{
+		{
 			para126{"hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}},
-			ans126{[][]string{[]string{"hit", "hot", "dot", "dog", "cog"}, []string{"hit", "hot", "lot", "log", "cog"}}},
+			ans126{[][]string{{"hit", "hot", "dot", "dog", "cog"}, {"hit", "hot", "lot", "log", "cog"}}},
 		},
 
-		question126{
+		{
 			para126{"hit", "cog", []string{"hot", "dot", "dog", "lot", "log"}},
 			ans126{[][]string{}},
 		},

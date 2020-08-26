@@ -28,13 +28,13 @@ func Test_Problem638(t *testing.T) {
 
 	qs := []question638{
 
-		question638{
-			para638{[]int{2, 5}, [][]int{[]int{3, 0, 5}, []int{1, 2, 10}}, []int{3, 2}},
+		{
+			para638{[]int{2, 5}, [][]int{{3, 0, 5}, {1, 2, 10}}, []int{3, 2}},
 			ans638{14},
 		},
 
-		question638{
-			para638{[]int{2, 3, 4}, [][]int{[]int{1, 1, 0, 4}, []int{2, 2, 1, 9}}, []int{1, 2, 1}},
+		{
+			para638{[]int{2, 3, 4}, [][]int{{1, 1, 0, 4}, {2, 2, 1, 9}}, []int{1, 2, 1}},
 			ans638{11},
 		},
 	}

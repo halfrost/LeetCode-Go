@@ -29,42 +29,42 @@ func Test_Problem445(t *testing.T) {
 
 	qs := []question445{
 
-		question445{
+		{
 			para445{[]int{}, []int{}},
 			ans445{[]int{}},
 		},
 
-		question445{
+		{
 			para445{[]int{1}, []int{1}},
 			ans445{[]int{2}},
 		},
 
-		question445{
+		{
 			para445{[]int{1, 2, 3, 4}, []int{1, 2, 3, 4}},
 			ans445{[]int{2, 4, 6, 8}},
 		},
 
-		question445{
+		{
 			para445{[]int{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}},
 			ans445{[]int{2, 4, 6, 9, 0}},
 		},
 
-		question445{
+		{
 			para445{[]int{1}, []int{9, 9, 9, 9, 9}},
 			ans445{[]int{1, 0, 0, 0, 0, 0}},
 		},
 
-		question445{
+		{
 			para445{[]int{9, 9, 9, 9, 9}, []int{1}},
 			ans445{[]int{1, 0, 0, 0, 0, 0}},
 		},
 
-		question445{
+		{
 			para445{[]int{2, 4, 3}, []int{5, 6, 4}},
 			ans445{[]int{8, 0, 7}},
 		},
 
-		question445{
+		{
 			para445{[]int{1, 8, 3}, []int{7, 1}},
 			ans445{[]int{2, 5, 4}},
 		},

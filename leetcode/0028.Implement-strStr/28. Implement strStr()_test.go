@@ -27,32 +27,32 @@ func Test_Problem28(t *testing.T) {
 
 	qs := []question28{
 
-		question28{
+		{
 			para28{"abab", "ab"},
 			ans28{0},
 		},
 
-		question28{
+		{
 			para28{"hello", "ll"},
 			ans28{2},
 		},
 
-		question28{
+		{
 			para28{"", "abc"},
 			ans28{0},
 		},
 
-		question28{
+		{
 			para28{"abacbabc", "abc"},
 			ans28{5},
 		},
 
-		question28{
+		{
 			para28{"abacbabc", "abcd"},
 			ans28{-1},
 		},
 
-		question28{
+		{
 			para28{"abacbabc", ""},
 			ans28{0},
 		},

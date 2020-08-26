@@ -26,37 +26,37 @@ func Test_Problem367(t *testing.T) {
 
 	qs := []question367{
 
-		question367{
+		{
 			para367{1},
 			ans367{true},
 		},
 
-		question367{
+		{
 			para367{2},
 			ans367{false},
 		},
 
-		question367{
+		{
 			para367{3},
 			ans367{false},
 		},
 
-		question367{
+		{
 			para367{4},
 			ans367{true},
 		},
 
-		question367{
+		{
 			para367{5},
 			ans367{false},
 		},
 
-		question367{
+		{
 			para367{6},
 			ans367{false},
 		},
 
-		question367{
+		{
 			para367{104976},
 			ans367{true},
 		},

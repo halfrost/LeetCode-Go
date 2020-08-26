@@ -26,27 +26,27 @@ func Test_Problem914(t *testing.T) {
 
 	qs := []question914{
 
-		question914{
+		{
 			para914{[]int{1, 2, 3, 4, 4, 3, 2, 1}},
 			ans914{true},
 		},
 
-		question914{
+		{
 			para914{[]int{1, 1, 1, 2, 2, 2, 3, 3}},
 			ans914{false},
 		},
 
-		question914{
+		{
 			para914{[]int{1}},
 			ans914{false},
 		},
 
-		question914{
+		{
 			para914{[]int{1, 1}},
 			ans914{true},
 		},
 
-		question914{
+		{
 			para914{[]int{1, 1, 2, 2, 2, 2}},
 			ans914{true},
 		},

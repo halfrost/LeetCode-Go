@@ -28,7 +28,7 @@ func Test_Problem108(t *testing.T) {
 
 	qs := []question108{
 
-		question108{
+		{
 			para108{[]int{-10, -3, 0, 5, 9}},
 			ans108{[]int{0, -3, 9, -10, structures.NULL, 5}},
 		},

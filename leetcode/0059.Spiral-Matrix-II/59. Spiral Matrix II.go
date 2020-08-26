@@ -5,13 +5,13 @@ func generateMatrix(n int) [][]int {
 		return [][]int{}
 	}
 	if n == 1 {
-		return [][]int{[]int{1}}
+		return [][]int{{1}}
 	}
 	res, visit, round, x, y, spDir := make([][]int, n), make([][]int, n), 0, 0, 0, [][]int{
-		[]int{0, 1},  // 朝右
-		[]int{1, 0},  // 朝下
-		[]int{0, -1}, // 朝左
-		[]int{-1, 0}, // 朝上
+		{0, 1},  // 朝右
+		{1, 0},  // 朝下
+		{0, -1}, // 朝左
+		{-1, 0}, // 朝上
 	}
 	for i := 0; i < n; i++ {
 		visit[i] = make([]int, n)

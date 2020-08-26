@@ -29,37 +29,37 @@ func Test_Problem237(t *testing.T) {
 
 	qs := []question237{
 
-		question237{
+		{
 			para237{[]int{1, 2, 3, 4, 5}, 1},
 			ans237{[]int{2, 3, 4, 5}},
 		},
 
-		question237{
+		{
 			para237{[]int{1, 2, 3, 4, 5}, 2},
 			ans237{[]int{1, 3, 4, 5}},
 		},
 
-		question237{
+		{
 			para237{[]int{1, 1, 1, 1, 1}, 1},
 			ans237{[]int{}},
 		},
 
-		question237{
+		{
 			para237{[]int{1, 2, 3, 4, 5}, 5},
 			ans237{[]int{1, 2, 3, 4}},
 		},
 
-		question237{
+		{
 			para237{[]int{}, 5},
 			ans237{[]int{}},
 		},
 
-		question237{
+		{
 			para237{[]int{1, 2, 3, 4, 5}, 10},
 			ans237{[]int{1, 2, 3, 4, 5}},
 		},
 
-		question237{
+		{
 			para237{[]int{1}, 1},
 			ans237{[]int{}},
 		},

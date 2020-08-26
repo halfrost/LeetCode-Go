@@ -28,17 +28,17 @@ func Test_Problem920(t *testing.T) {
 
 	qs := []question920{
 
-		question920{
+		{
 			para920{3, 3, 1},
 			ans920{6},
 		},
 
-		question920{
+		{
 			para920{2, 3, 0},
 			ans920{6},
 		},
 
-		question920{
+		{
 			para920{2, 3, 1},
 			ans920{2},
 		},

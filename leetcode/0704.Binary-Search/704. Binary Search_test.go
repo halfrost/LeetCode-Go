@@ -27,12 +27,12 @@ func Test_Problem704(t *testing.T) {
 
 	qs := []question704{
 
-		question704{
+		{
 			para704{[]int{-1, 0, 3, 5, 9, 12}, 9},
 			ans704{4},
 		},
 
-		question704{
+		{
 			para704{[]int{-1, 0, 3, 5, 9, 12}, 2},
 			ans704{-1},
 		},
