@@ -28,19 +28,19 @@ func Test_Problem95(t *testing.T) {
 
 	qs := []question95{
 
-		question95{
+		{
 			para95{1},
-			ans95{[]*TreeNode{&TreeNode{Val: 1, Left: nil, Right: nil}}},
+			ans95{[]*TreeNode{{Val: 1, Left: nil, Right: nil}}},
 		},
 
-		question95{
+		{
 			para95{3},
 			ans95{[]*TreeNode{
-				&TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 3, Left: &TreeNode{Val: 2, Left: nil, Right: nil}, Right: nil}},
-				&TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2, Left: nil, Right: &TreeNode{Val: 3, Left: nil, Right: nil}}},
-				&TreeNode{Val: 3, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 1, Left: nil, Right: nil}, Right: nil}, Right: nil},
-				&TreeNode{Val: 3, Left: &TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2, Left: nil, Right: nil}}, Right: nil},
-				&TreeNode{Val: 2, Left: &TreeNode{Val: 1, Left: nil, Right: nil}, Right: &TreeNode{Val: 3, Left: nil, Right: nil}},
+				{Val: 1, Left: nil, Right: &TreeNode{Val: 3, Left: &TreeNode{Val: 2, Left: nil, Right: nil}, Right: nil}},
+				{Val: 1, Left: nil, Right: &TreeNode{Val: 2, Left: nil, Right: &TreeNode{Val: 3, Left: nil, Right: nil}}},
+				{Val: 3, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 1, Left: nil, Right: nil}, Right: nil}, Right: nil},
+				{Val: 3, Left: &TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2, Left: nil, Right: nil}}, Right: nil},
+				{Val: 2, Left: &TreeNode{Val: 1, Left: nil, Right: nil}, Right: &TreeNode{Val: 3, Left: nil, Right: nil}},
 			}}},
 	}
 

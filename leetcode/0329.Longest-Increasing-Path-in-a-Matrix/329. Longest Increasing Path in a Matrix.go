@@ -5,10 +5,10 @@ import (
 )
 
 var dir = [][]int{
-	[]int{-1, 0},
-	[]int{0, 1},
-	[]int{1, 0},
-	[]int{0, -1},
+	{-1, 0},
+	{0, 1},
+	{1, 0},
+	{0, -1},
 }
 
 func longestIncreasingPath(matrix [][]int) int {

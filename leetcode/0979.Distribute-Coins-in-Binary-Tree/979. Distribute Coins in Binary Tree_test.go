@@ -28,27 +28,27 @@ func Test_Problem979(t *testing.T) {
 
 	qs := []question979{
 
-		question979{
+		{
 			para979{[]int{}},
 			ans979{0},
 		},
 
-		question979{
+		{
 			para979{[]int{1}},
 			ans979{0},
 		},
 
-		question979{
+		{
 			para979{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans979{41},
 		},
 
-		question979{
+		{
 			para979{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}},
 			ans979{11},
 		},
 
-		question979{
+		{
 			para979{[]int{1, 2, 3, 4, structures.NULL, 5}},
 			ans979{11},
 		},

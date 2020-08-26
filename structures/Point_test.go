@@ -26,11 +26,11 @@ func Test_Intss2Points(t *testing.T) {
 				},
 			},
 			[]Point{
-				Point{X: 1, Y: 0},
-				Point{X: 2, Y: 0},
-				Point{X: 3, Y: 0},
-				Point{X: 4, Y: 0},
-				Point{X: 5, Y: 0},
+				{X: 1, Y: 0},
+				{X: 2, Y: 0},
+				{X: 3, Y: 0},
+				{X: 4, Y: 0},
+				{X: 5, Y: 0},
 			},
 		},
 	}
@@ -54,11 +54,11 @@ func Test_Points2Intss(t *testing.T) {
 			"测试 [][]int 转换成 []Point ",
 			args{
 				[]Point{
-					Point{X: 1, Y: 0},
-					Point{X: 2, Y: 0},
-					Point{X: 3, Y: 0},
-					Point{X: 4, Y: 0},
-					Point{X: 5, Y: 0},
+					{X: 1, Y: 0},
+					{X: 2, Y: 0},
+					{X: 3, Y: 0},
+					{X: 4, Y: 0},
+					{X: 5, Y: 0},
 				},
 			},
 			[][]int{

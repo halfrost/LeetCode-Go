@@ -25,12 +25,12 @@ type ans949 struct {
 func Test_Problem949(t *testing.T) {
 
 	qs := []question949{
-		question949{
+		{
 			para949{[]int{1, 2, 3, 4}},
 			ans949{"23:41"},
 		},
 
-		question949{
+		{
 			para949{[]int{5, 5, 5, 5}},
 			ans949{""},
 		},

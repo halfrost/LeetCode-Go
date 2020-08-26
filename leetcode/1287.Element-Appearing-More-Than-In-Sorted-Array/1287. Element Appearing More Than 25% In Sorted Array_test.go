@@ -26,7 +26,7 @@ func Test_Problem1287(t *testing.T) {
 
 	qs := []question1287{
 
-		question1287{
+		{
 			para1287{[]int{1, 2, 2, 6, 6, 6, 6, 7, 10}},
 			ans1287{6},
 		},

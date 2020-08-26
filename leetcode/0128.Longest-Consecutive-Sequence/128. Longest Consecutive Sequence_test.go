@@ -26,27 +26,27 @@ func Test_Problem128(t *testing.T) {
 
 	qs := []question128{
 
-		question128{
+		{
 			para128{[]int{}},
 			ans128{0},
 		},
 
-		question128{
+		{
 			para128{[]int{0}},
 			ans128{1},
 		},
 
-		question128{
+		{
 			para128{[]int{9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6}},
 			ans128{7},
 		},
 
-		question128{
+		{
 			para128{[]int{2147483646, -2147483647, 0, 2, 2147483644, -2147483645, 2147483645}},
 			ans128{3},
 		},
 
-		question128{
+		{
 			para128{[]int{100, 4, 200, 1, 3, 2}},
 			ans128{4},
 		},

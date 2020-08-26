@@ -27,12 +27,12 @@ func Test_Problem67(t *testing.T) {
 
 	qs := []question67{
 
-		question67{
+		{
 			para67{"11", "1"},
 			ans67{"100"},
 		},
 
-		question67{
+		{
 			para67{"1010", "1011"},
 			ans67{"10101"},
 		},

@@ -27,7 +27,7 @@ func Test_Problem480(t *testing.T) {
 
 	qs := []question480{
 
-		question480{
+		{
 			para480{[]int{1, 3, -1, -3, 5, 3, 6, 7}, 3},
 			ans480{[]int{1, -1, -1, 3, 5, 6}},
 		},

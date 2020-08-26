@@ -26,17 +26,17 @@ func Test_Problem507(t *testing.T) {
 
 	qs := []question507{
 
-		question507{
+		{
 			para507{28},
 			ans507{true},
 		},
 
-		question507{
+		{
 			para507{496},
 			ans507{true},
 		},
 
-		question507{
+		{
 			para507{500},
 			ans507{false},
 		},

@@ -28,24 +28,24 @@ func Test_Problem103(t *testing.T) {
 
 	qs := []question103{
 
-		question103{
+		{
 			para103{[]int{}},
 			ans103{[][]int{}},
 		},
 
-		question103{
+		{
 			para103{[]int{1}},
-			ans103{[][]int{[]int{1}}},
+			ans103{[][]int{{1}}},
 		},
 
-		question103{
+		{
 			para103{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
-			ans103{[][]int{[]int{3}, []int{9, 20}, []int{15, 7}}},
+			ans103{[][]int{{3}, {9, 20}, {15, 7}}},
 		},
 
-		question103{
+		{
 			para103{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}},
-			ans103{[][]int{[]int{1}, []int{3, 2}, []int{4, 5}}},
+			ans103{[][]int{{1}, {3, 2}, {4, 5}}},
 		},
 	}
 

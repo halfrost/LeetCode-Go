@@ -27,17 +27,17 @@ func Test_Problem995(t *testing.T) {
 
 	qs := []question995{
 
-		question995{
+		{
 			para995{[]int{0, 1, 0}, 1},
 			ans995{2},
 		},
 
-		question995{
+		{
 			para995{[]int{1, 1, 0}, 2},
 			ans995{-1},
 		},
 
-		question995{
+		{
 			para995{[]int{0, 0, 0, 1, 0, 1, 1, 0}, 3},
 			ans995{3},
 		},

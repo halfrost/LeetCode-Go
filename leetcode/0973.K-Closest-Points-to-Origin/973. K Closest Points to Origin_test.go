@@ -27,24 +27,24 @@ func Test_Problem973(t *testing.T) {
 
 	qs := []question973{
 
-		question973{
-			para973{[][]int{[]int{1, 3}, []int{-2, 2}}, 1},
-			ans973{[][]int{[]int{-2, 2}}},
+		{
+			para973{[][]int{{1, 3}, {-2, 2}}, 1},
+			ans973{[][]int{{-2, 2}}},
 		},
 
-		question973{
-			para973{[][]int{[]int{1, 3}, []int{-2, 2}}, 0},
-			ans973{[][]int{[]int{}}},
+		{
+			para973{[][]int{{1, 3}, {-2, 2}}, 0},
+			ans973{[][]int{{}}},
 		},
 
-		question973{
-			para973{[][]int{[]int{3, 3}, []int{5, -1}, []int{-2, 4}}, 2},
-			ans973{[][]int{[]int{3, 3}, []int{-2, 4}}},
+		{
+			para973{[][]int{{3, 3}, {5, -1}, {-2, 4}}, 2},
+			ans973{[][]int{{3, 3}, {-2, 4}}},
 		},
 
-		question973{
-			para973{[][]int{[]int{0, 1}, []int{1, 0}}, 2},
-			ans973{[][]int{[]int{1, 0}, []int{0, 1}}},
+		{
+			para973{[][]int{{0, 1}, {1, 0}}, 2},
+			ans973{[][]int{{1, 0}, {0, 1}}},
 		},
 	}
 

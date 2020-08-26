@@ -26,32 +26,32 @@ func Test_Problem309(t *testing.T) {
 
 	qs := []question309{
 
-		question309{
+		{
 			para309{[]int{}},
 			ans309{0},
 		},
 
-		question309{
+		{
 			para309{[]int{2, 1, 4, 5, 2, 9, 7}},
 			ans309{10},
 		},
 
-		question309{
+		{
 			para309{[]int{6, 1, 3, 2, 4, 7}},
 			ans309{6},
 		},
 
-		question309{
+		{
 			para309{[]int{1, 2, 3, 0, 2}},
 			ans309{3},
 		},
 
-		question309{
+		{
 			para309{[]int{7, 1, 5, 3, 6, 4}},
 			ans309{5},
 		},
 
-		question309{
+		{
 			para309{[]int{7, 6, 4, 3, 1}},
 			ans309{0},
 		},

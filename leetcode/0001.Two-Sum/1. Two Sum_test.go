@@ -26,32 +26,30 @@ type ans1 struct {
 func Test_Problem1(t *testing.T) {
 
 	qs := []question1{
-
-		question1{
+		{
 			para1{[]int{3, 2, 4}, 6},
 			ans1{[]int{1, 2}},
 		},
 
-		question1{
+		{
 			para1{[]int{3, 2, 4}, 5},
 			ans1{[]int{0, 1}},
 		},
 
-		question1{
+		{
 			para1{[]int{0, 8, 7, 3, 3, 4, 2}, 11},
 			ans1{[]int{1, 3}},
 		},
 
-		question1{
+		{
 			para1{[]int{0, 1}, 1},
 			ans1{[]int{0, 1}},
 		},
 
-		question1{
+		{
 			para1{[]int{0, 3}, 5},
 			ans1{[]int{}},
 		},
-
 		// 如需多个测试，可以复制上方元素。
 	}
 

@@ -26,9 +26,9 @@ func Test_Problem49(t *testing.T) {
 
 	qs := []question49{
 
-		question49{
+		{
 			para49{[]string{"eat", "tea", "tan", "ate", "nat", "bat"}},
-			ans49{[][]string{[]string{"ate", "eat", "tea"}, []string{"nat", "tan"}, []string{"bat"}}},
+			ans49{[][]string{{"ate", "eat", "tea"}, {"nat", "tan"}, {"bat"}}},
 		},
 	}
 

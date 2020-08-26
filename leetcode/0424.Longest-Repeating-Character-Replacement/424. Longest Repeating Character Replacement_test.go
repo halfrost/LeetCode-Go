@@ -27,27 +27,27 @@ func Test_Problem424(t *testing.T) {
 
 	qs := []question424{
 
-		question424{
+		{
 			para424{"AABABBA", 1},
 			ans424{4},
 		},
 
-		question424{
+		{
 			para424{"ABBB", 2},
 			ans424{4},
 		},
 
-		question424{
+		{
 			para424{"BAAA", 0},
 			ans424{3},
 		},
 
-		question424{
+		{
 			para424{"ABCDE", 1},
 			ans424{2},
 		},
 
-		question424{
+		{
 			para424{"BAAAB", 2},
 			ans424{5},
 		},

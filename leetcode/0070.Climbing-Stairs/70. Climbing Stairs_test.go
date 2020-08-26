@@ -26,12 +26,12 @@ func Test_Problem70(t *testing.T) {
 
 	qs := []question70{
 
-		question70{
+		{
 			para70{2},
 			ans70{2},
 		},
 
-		question70{
+		{
 			para70{3},
 			ans70{3},
 		},

@@ -25,17 +25,17 @@ type ans781 struct {
 func Test_Problem781(t *testing.T) {
 
 	qs := []question781{
-		question781{
+		{
 			para781{[]int{1, 1, 2}},
 			ans781{5},
 		},
 
-		question781{
+		{
 			para781{[]int{10, 10, 10}},
 			ans781{11},
 		},
 
-		question781{
+		{
 			para781{[]int{}},
 			ans781{0},
 		},

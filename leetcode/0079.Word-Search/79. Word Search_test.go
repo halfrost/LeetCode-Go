@@ -27,69 +27,69 @@ func Test_Problem79(t *testing.T) {
 
 	qs := []question79{
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'A', 'B', 'C', 'E'},
-				[]byte{'S', 'F', 'C', 'S'},
-				[]byte{'A', 'D', 'E', 'E'},
+				{'A', 'B', 'C', 'E'},
+				{'S', 'F', 'C', 'S'},
+				{'A', 'D', 'E', 'E'},
 			}, "ABCCED"},
 			ans79{true},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'A', 'B', 'C', 'E'},
-				[]byte{'S', 'F', 'C', 'S'},
-				[]byte{'A', 'D', 'E', 'E'},
+				{'A', 'B', 'C', 'E'},
+				{'S', 'F', 'C', 'S'},
+				{'A', 'D', 'E', 'E'},
 			}, "SEE"},
 			ans79{true},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'A', 'B', 'C', 'E'},
-				[]byte{'S', 'F', 'C', 'S'},
-				[]byte{'A', 'D', 'E', 'E'},
+				{'A', 'B', 'C', 'E'},
+				{'S', 'F', 'C', 'S'},
+				{'A', 'D', 'E', 'E'},
 			}, "ABCB"},
 			ans79{false},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'o', 'a', 'a', 'n'},
-				[]byte{'e', 't', 'a', 'e'},
-				[]byte{'i', 'h', 'k', 'r'},
-				[]byte{'i', 'f', 'l', 'v'},
+				{'o', 'a', 'a', 'n'},
+				{'e', 't', 'a', 'e'},
+				{'i', 'h', 'k', 'r'},
+				{'i', 'f', 'l', 'v'},
 			}, "oath"},
 			ans79{true},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'o', 'a', 'a', 'n'},
-				[]byte{'e', 't', 'a', 'e'},
-				[]byte{'i', 'h', 'k', 'r'},
-				[]byte{'i', 'f', 'l', 'v'},
+				{'o', 'a', 'a', 'n'},
+				{'e', 't', 'a', 'e'},
+				{'i', 'h', 'k', 'r'},
+				{'i', 'f', 'l', 'v'},
 			}, "pea"},
 			ans79{false},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'o', 'a', 'a', 'n'},
-				[]byte{'e', 't', 'a', 'e'},
-				[]byte{'i', 'h', 'k', 'r'},
-				[]byte{'i', 'f', 'l', 'v'},
+				{'o', 'a', 'a', 'n'},
+				{'e', 't', 'a', 'e'},
+				{'i', 'h', 'k', 'r'},
+				{'i', 'f', 'l', 'v'},
 			}, "eat"},
 			ans79{true},
 		},
 
-		question79{
+		{
 			para79{[][]byte{
-				[]byte{'o', 'a', 'a', 'n'},
-				[]byte{'e', 't', 'a', 'e'},
-				[]byte{'i', 'h', 'k', 'r'},
-				[]byte{'i', 'f', 'l', 'v'},
+				{'o', 'a', 'a', 'n'},
+				{'e', 't', 'a', 'e'},
+				{'i', 'h', 'k', 'r'},
+				{'i', 'f', 'l', 'v'},
 			}, "rain"},
 			ans79{false},
 		},

@@ -26,17 +26,17 @@ func Test_Problem89(t *testing.T) {
 
 	qs := []question89{
 
-		question89{
+		{
 			para89{2},
 			ans89{[]int{0, 1, 3, 2}},
 		},
 
-		question89{
+		{
 			para89{0},
 			ans89{[]int{0}},
 		},
 
-		question89{
+		{
 			para89{3},
 			ans89{[]int{0, 1, 3, 2, 6, 7, 5, 4}},
 		},

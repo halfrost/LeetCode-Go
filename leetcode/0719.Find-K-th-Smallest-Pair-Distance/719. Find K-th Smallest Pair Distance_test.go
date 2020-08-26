@@ -27,27 +27,27 @@ func Test_Problem719(t *testing.T) {
 
 	qs := []question719{
 
-		question719{
+		{
 			para719{[]int{1, 3, 1}, 1},
 			ans719{0},
 		},
 
-		question719{
+		{
 			para719{[]int{1, 1, 1}, 2},
 			ans719{0},
 		},
 
-		question719{
+		{
 			para719{[]int{1, 6, 1}, 3},
 			ans719{5},
 		},
 
-		question719{
+		{
 			para719{[]int{62, 100, 4}, 2},
 			ans719{58},
 		},
 
-		question719{
+		{
 			para719{[]int{9, 10, 7, 10, 6, 1, 5, 4, 9, 8}, 18},
 			ans719{2},
 		},

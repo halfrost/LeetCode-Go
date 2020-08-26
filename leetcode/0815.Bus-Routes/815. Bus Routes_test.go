@@ -28,8 +28,8 @@ func Test_Problem815(t *testing.T) {
 
 	qs := []question815{
 
-		question815{
-			para815{[][]int{[]int{1, 2, 7}, []int{3, 6, 7}}, 1, 6},
+		{
+			para815{[][]int{{1, 2, 7}, {3, 6, 7}}, 1, 6},
 			ans815{2},
 		},
 	}

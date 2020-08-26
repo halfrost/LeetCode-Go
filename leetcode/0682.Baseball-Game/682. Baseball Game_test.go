@@ -26,12 +26,12 @@ func Test_Problem682(t *testing.T) {
 
 	qs := []question682{
 
-		question682{
+		{
 			para682{[]string{"5", "2", "C", "D", "+"}},
 			ans682{30},
 		},
 
-		question682{
+		{
 			para682{[]string{"5", "-2", "4", "C", "D", "9", "+", "+"}},
 			ans682{27},
 		},

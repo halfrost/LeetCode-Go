@@ -26,7 +26,7 @@ func Test_Problem187(t *testing.T) {
 
 	qs := []question187{
 
-		question187{
+		{
 			para187{"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"},
 			ans187{[]string{"AAAAACCCCC", "CCCCCAAAAA"}},
 		},

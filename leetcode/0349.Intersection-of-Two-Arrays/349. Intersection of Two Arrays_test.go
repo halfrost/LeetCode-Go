@@ -27,32 +27,32 @@ func Test_Problem349(t *testing.T) {
 
 	qs := []question349{
 
-		question349{
+		{
 			para349{[]int{}, []int{}},
 			ans349{[]int{}},
 		},
 
-		question349{
+		{
 			para349{[]int{1}, []int{1}},
 			ans349{[]int{1}},
 		},
 
-		question349{
+		{
 			para349{[]int{1, 2, 3, 4}, []int{1, 2, 3, 4}},
 			ans349{[]int{1, 2, 3, 4}},
 		},
 
-		question349{
+		{
 			para349{[]int{1, 2, 2, 1}, []int{2, 2}},
 			ans349{[]int{2}},
 		},
 
-		question349{
+		{
 			para349{[]int{1}, []int{9, 9, 9, 9, 9}},
 			ans349{[]int{}},
 		},
 
-		question349{
+		{
 			para349{[]int{4, 9, 5}, []int{9, 4, 9, 8, 4}},
 			ans349{[]int{9, 4}},
 		},

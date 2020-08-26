@@ -28,8 +28,8 @@ func Test_Problem399(t *testing.T) {
 
 	qs := []question399{
 
-		question399{
-			para399{[][]string{[]string{"a", "b"}, []string{"b", "c"}}, []float64{2.0, 3.0}, [][]string{[]string{"a", "c"}, []string{"b", "a"}, []string{"a", "e"}, []string{"a", "a"}, []string{"x", "x"}}},
+		{
+			para399{[][]string{{"a", "b"}, {"b", "c"}}, []float64{2.0, 3.0}, [][]string{{"a", "c"}, {"b", "a"}, {"a", "e"}, {"a", "a"}, {"x", "x"}}},
 			ans399{[]float64{6.0, 0.5, -1.0, 1.0, -1.0}},
 		},
 	}

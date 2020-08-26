@@ -28,17 +28,17 @@ func Test_Problem1235(t *testing.T) {
 
 	qs := []question1235{
 
-		question1235{
+		{
 			para1235{[]int{1, 2, 3, 3}, []int{3, 4, 5, 6}, []int{50, 10, 40, 70}},
 			ans1235{120},
 		},
 
-		question1235{
+		{
 			para1235{[]int{1, 2, 3, 4, 6}, []int{3, 5, 10, 6, 9}, []int{20, 20, 100, 70, 60}},
 			ans1235{150},
 		},
 
-		question1235{
+		{
 			para1235{[]int{1, 1, 1}, []int{2, 3, 4}, []int{5, 6, 4}},
 			ans1235{6},
 		},

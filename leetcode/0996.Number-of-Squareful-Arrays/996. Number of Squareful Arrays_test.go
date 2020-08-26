@@ -26,22 +26,22 @@ func Test_Problem996(t *testing.T) {
 
 	qs := []question996{
 
-		question996{
+		{
 			para996{[]int{1, 17, 8}},
 			ans996{2},
 		},
 
-		question996{
+		{
 			para996{[]int{1}},
 			ans996{1},
 		},
 
-		question996{
+		{
 			para996{[]int{2, 2, 2}},
 			ans996{1},
 		},
 
-		question996{
+		{
 			para996{[]int{51768, 47861, 48143, 33221, 50893, 56758, 39946, 10312, 20276, 40616, 43633}},
 			ans996{1},
 		},

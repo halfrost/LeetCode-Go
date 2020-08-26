@@ -26,21 +26,21 @@ func Test_Problem53(t *testing.T) {
 
 	qs := []question53{
 
-		question53{
+		{
 			para53{[]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}},
 			ans53{6},
 		},
-		question53{
+		{
 			para53{[]int{2, 7, 9, 3, 1}},
 			ans53{22},
 		},
 
-		question53{
+		{
 			para53{[]int{2}},
 			ans53{2},
 		},
 
-		question53{
+		{
 			para53{[]int{-1, -2}},
 			ans53{-1},
 		},

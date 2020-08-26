@@ -26,22 +26,22 @@ func Test_Problem171(t *testing.T) {
 
 	qs := []question171{
 
-		question171{
+		{
 			para171{"A"},
 			ans171{1},
 		},
 
-		question171{
+		{
 			para171{"AB"},
 			ans171{28},
 		},
 
-		question171{
+		{
 			para171{"ZY"},
 			ans171{701},
 		},
 
-		question171{
+		{
 			para171{"ABC"},
 			ans171{731},
 		},

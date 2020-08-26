@@ -28,22 +28,22 @@ func Test_Problem199(t *testing.T) {
 
 	qs := []question199{
 
-		question199{
+		{
 			para199{[]int{}},
 			ans199{[]int{}},
 		},
 
-		question199{
+		{
 			para199{[]int{1}},
 			ans199{[]int{1}},
 		},
 
-		question199{
+		{
 			para199{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans199{[]int{3, 20, 7}},
 		},
 
-		question199{
+		{
 			para199{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}},
 			ans199{[]int{1, 3, 5}},
 		},

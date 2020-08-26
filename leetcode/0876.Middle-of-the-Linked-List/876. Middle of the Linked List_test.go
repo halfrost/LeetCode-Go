@@ -28,21 +28,21 @@ func Test_Problem876(t *testing.T) {
 
 	qs := []question876{
 
-		question876{
+		{
 			para876{[]int{1, 2, 3, 4, 5}},
 			ans876{3},
 		},
-		question876{
+		{
 			para876{[]int{1, 2, 3, 4}},
 			ans876{3},
 		},
 
-		question876{
+		{
 			para876{[]int{1}},
 			ans876{1},
 		},
 
-		question876{
+		{
 			para876{[]int{}},
 			ans876{},
 		},

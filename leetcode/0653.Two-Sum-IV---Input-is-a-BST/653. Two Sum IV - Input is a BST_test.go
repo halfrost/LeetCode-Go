@@ -29,22 +29,22 @@ func Test_Problem653(t *testing.T) {
 
 	qs := []question653{
 
-		question653{
+		{
 			para653{[]int{}, 0},
 			ans653{false},
 		},
 
-		question653{
+		{
 			para653{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}, 29},
 			ans653{true},
 		},
 
-		question653{
+		{
 			para653{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, 5}, 9},
 			ans653{true},
 		},
 
-		question653{
+		{
 			para653{[]int{1, 2, 3, 4, structures.NULL, 5}, 4},
 			ans653{true},
 		},

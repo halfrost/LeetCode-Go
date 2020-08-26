@@ -26,47 +26,47 @@ func Test_Problem1317(t *testing.T) {
 
 	qs := []question1317{
 
-		question1317{
+		{
 			para1317{5},
 			ans1317{[]int{1, 4}},
 		},
 
-		question1317{
+		{
 			para1317{0},
 			ans1317{[]int{}},
 		},
 
-		question1317{
+		{
 			para1317{3},
 			ans1317{[]int{1, 2}},
 		},
 
-		question1317{
+		{
 			para1317{1},
 			ans1317{[]int{}},
 		},
 
-		question1317{
+		{
 			para1317{2},
 			ans1317{[]int{1, 1}},
 		},
 
-		question1317{
+		{
 			para1317{11},
 			ans1317{[]int{2, 9}},
 		},
 
-		question1317{
+		{
 			para1317{10000},
 			ans1317{[]int{1, 9999}},
 		},
 
-		question1317{
+		{
 			para1317{69},
 			ans1317{[]int{1, 68}},
 		},
 
-		question1317{
+		{
 			para1317{1010},
 			ans1317{[]int{11, 999}},
 		},

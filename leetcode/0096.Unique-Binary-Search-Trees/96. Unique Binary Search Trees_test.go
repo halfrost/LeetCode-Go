@@ -26,46 +26,46 @@ func Test_Problem96(t *testing.T) {
 
 	qs := []question96{
 
-		question96{
+		{
 			para96{1},
 			ans96{1},
 		},
 
-		question96{
+		{
 			para96{3},
 			ans96{5},
 		},
 
-		question96{
+		{
 			para96{4},
 			ans96{14},
 		},
 
-		question96{
+		{
 			para96{5},
 			ans96{42},
 		},
 
-		question96{
+		{
 			para96{6},
 			ans96{132},
 		},
 
-		question96{
+		{
 			para96{7},
 			ans96{429},
 		},
 
-		question96{
+		{
 			para96{8},
 			ans96{1430},
 		},
 
-		question96{
+		{
 			para96{9},
 			ans96{4862},
 		},
-		question96{
+		{
 			para96{10},
 			ans96{16796},
 		},

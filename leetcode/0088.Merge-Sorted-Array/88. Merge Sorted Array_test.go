@@ -44,7 +44,7 @@ func Test_Problem88(t *testing.T) {
 		// 	ans{[]int{1, 2, 2, 3}},
 		// },
 
-		question88{
+		{
 			para88{[]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3},
 			ans88{[]int{1, 2, 2, 3, 5, 6}},
 		},

@@ -27,22 +27,22 @@ type ans433 struct {
 func Test_Problem433(t *testing.T) {
 
 	qs := []question433{
-		question433{
+		{
 			para433{"AACCGGTT", "AACCGGTA", []string{"AACCGGTA"}},
 			ans433{1},
 		},
 
-		question433{
+		{
 			para433{"AACCGGTT", "AAACGGTA", []string{"AACCGGTA", "AACCGCTA", "AAACGGTA"}},
 			ans433{2},
 		},
 
-		question433{
+		{
 			para433{"AAAAACCC", "AACCCCCC", []string{"AAAACCCC", "AAACCCCC", "AACCCCCC"}},
 			ans433{3},
 		},
 
-		question433{
+		{
 			para433{"AACCGGTT", "AACCGGTA", []string{}},
 			ans433{-1},
 		},

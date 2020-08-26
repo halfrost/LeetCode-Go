@@ -21,10 +21,9 @@ func uniqueLetterString1(S string) int {
 	if len(S) == 0 {
 		return 0
 	}
-	letterMap := map[byte]int{}
 	res, mod := 0, 1000000007
 	for i := 0; i < len(S); i++ {
-		letterMap = map[byte]int{}
+		letterMap := map[byte]int{}
 		for j := i; j < len(S); j++ {
 			letterMap[S[j]]++
 			tmp := 0

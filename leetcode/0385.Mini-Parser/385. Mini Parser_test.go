@@ -26,27 +26,27 @@ func Test_Problem385(t *testing.T) {
 
 	qs := []question385{
 
-		question385{
+		{
 			para385{"[[]]"},
 			ans385{[]int{}},
 		},
 
-		question385{
+		{
 			para385{"[]"},
 			ans385{[]int{}},
 		},
 
-		question385{
+		{
 			para385{"[-1]"},
 			ans385{[]int{-1}},
 		},
 
-		question385{
+		{
 			para385{"[123,[456,[789]]]"},
 			ans385{[]int{123, 456, 789}},
 		},
 
-		question385{
+		{
 			para385{"324"},
 			ans385{[]int{324}},
 		},

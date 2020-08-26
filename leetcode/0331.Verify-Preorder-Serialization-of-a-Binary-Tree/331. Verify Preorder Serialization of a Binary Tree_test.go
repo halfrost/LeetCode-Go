@@ -26,17 +26,17 @@ func Test_Problem331(t *testing.T) {
 
 	qs := []question331{
 
-		question331{
+		{
 			para331{"9,3,4,#,#,1,#,#,2,#,6,#,#"},
 			ans331{true},
 		},
 
-		question331{
+		{
 			para331{"1,#"},
 			ans331{false},
 		},
 
-		question331{
+		{
 			para331{"9,#,#,1"},
 			ans331{false},
 		},

@@ -26,14 +26,14 @@ func Test_Problem130(t *testing.T) {
 
 	qs := []question130{
 
-		question130{
+		{
 			para130{[][]byte{}},
 			ans130{[][]byte{}},
 		},
 
-		question130{
-			para130{[][]byte{[]byte{'X', 'X', 'X', 'X'}, []byte{'X', 'O', 'O', 'X'}, []byte{'X', 'X', 'O', 'X'}, []byte{'X', 'O', 'X', 'X'}}},
-			ans130{[][]byte{[]byte{'X', 'X', 'X', 'X'}, []byte{'X', 'X', 'X', 'X'}, []byte{'X', 'X', 'X', 'X'}, []byte{'X', 'O', 'X', 'X'}}},
+		{
+			para130{[][]byte{{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}}},
+			ans130{[][]byte{{'X', 'X', 'X', 'X'}, {'X', 'X', 'X', 'X'}, {'X', 'X', 'X', 'X'}, {'X', 'O', 'X', 'X'}}},
 		},
 	}
 

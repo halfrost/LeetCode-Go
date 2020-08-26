@@ -26,22 +26,22 @@ func Test_Problem483(t *testing.T) {
 
 	qs := []question483{
 
-		question483{
+		{
 			para483{"13"},
 			ans483{"3"},
 		},
 
-		question483{
+		{
 			para483{"4681"},
 			ans483{"8"},
 		},
 
-		question483{
+		{
 			para483{"1000000000000000000"},
 			ans483{"999999999999999999"},
 		},
 
-		question483{
+		{
 			para483{"727004545306745403"},
 			ans483{"727004545306745402"},
 		},

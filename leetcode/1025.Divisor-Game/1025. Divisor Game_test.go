@@ -25,12 +25,12 @@ type ans1025 struct {
 func Test_Problem1025(t *testing.T) {
 
 	qs := []question1025{
-		question1025{
+		{
 			para1025{2},
 			ans1025{true},
 		},
 
-		question1025{
+		{
 			para1025{3},
 			ans1025{false},
 		},

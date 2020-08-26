@@ -26,14 +26,14 @@ func Test_Problem78(t *testing.T) {
 
 	qs := []question78{
 
-		question78{
+		{
 			para78{[]int{}},
-			ans78{[][]int{[]int{}}},
+			ans78{[][]int{{}}},
 		},
 
-		question78{
+		{
 			para78{[]int{1, 2, 3}},
-			ans78{[][]int{[]int{}, []int{1}, []int{2}, []int{3}, []int{1, 2}, []int{2, 3}, []int{1, 3}, []int{1, 2, 3}}},
+			ans78{[][]int{{}, {1}, {2}, {3}, {1, 2}, {2, 3}, {1, 3}, {1, 2, 3}}},
 		},
 	}
 

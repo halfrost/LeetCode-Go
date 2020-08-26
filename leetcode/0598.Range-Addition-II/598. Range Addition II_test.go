@@ -28,8 +28,8 @@ func Test_Problem598(t *testing.T) {
 
 	qs := []question598{
 
-		question598{
-			para598{3, 3, [][]int{[]int{2, 2}, []int{3, 3}}},
+		{
+			para598{3, 3, [][]int{{2, 2}, {3, 3}}},
 			ans598{4},
 		},
 	}

@@ -26,36 +26,36 @@ func Test_Problem976(t *testing.T) {
 
 	qs := []question976{
 
-		question976{
+		{
 			para976{[]int{1, 2}},
 			ans976{0},
 		},
-		question976{
+		{
 			para976{[]int{1, 2, 3}},
 			ans976{0},
 		},
 
-		question976{
+		{
 			para976{[]int{}},
 			ans976{0},
 		},
 
-		question976{
+		{
 			para976{[]int{2, 1, 2}},
 			ans976{5},
 		},
 
-		question976{
+		{
 			para976{[]int{1, 1, 2}},
 			ans976{0},
 		},
 
-		question976{
+		{
 			para976{[]int{3, 2, 3, 4}},
 			ans976{10},
 		},
 
-		question976{
+		{
 			para976{[]int{3, 6, 2, 3}},
 			ans976{8},
 		},
