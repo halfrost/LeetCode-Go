@@ -13,7 +13,8 @@
 <img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 <img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go">
 <img src="https://img.shields.io/badge/runtime%20beats-100%25-success">
-<img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/halfrost/LeetCode-Go?color=26C2F0">
+<!--<img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/halfrost/LeetCode-Go?color=26C2F0">-->
+<img alt="Support Go version" src="https://img.shields.io/badge/Go-v1.15-26C2F0">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.LeetCode-Go">
 </p>
 
