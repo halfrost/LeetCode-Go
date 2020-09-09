@@ -33,6 +33,21 @@ func Test_Problem925(t *testing.T) {
 		},
 
 		{
+			para925{"alex", "alexxr"},
+			ans925{false},
+		},
+
+		{
+			para925{"alex", "alexxxxr"},
+			ans925{false},
+		},
+
+		{
+			para925{"alex", "alexxxxx"},
+			ans925{true},
+		},
+
+		{
 			para925{"saeed", "ssaaedd"},
 			ans925{false},
 		},
