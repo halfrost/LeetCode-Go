@@ -47,13 +47,17 @@ disablePathToLower = true
   url = "https://github.com/halfrost"
   weight = 20
 [[menu.before]]
+  name = "WeChat Official Accounts"
+  url = "https://img.halfrost.com/wechat-qr-code.png"
+  weight = 30
+[[menu.before]]
   name = "Twitter"
   url = "https://twitter.com/halffrost"
-  weight = 30
+  weight = 40
 [[menu.before]]
   name = "Weibo"
   url = "https://weibo.com/halfrost"
-  weight = 40
+  weight = 50
 #[[menu.after]]
 #  name = "Github"
 #  url = "https://github.com/alex-shpak/hugo-book"
