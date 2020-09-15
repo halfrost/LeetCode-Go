@@ -16,6 +16,7 @@ type TreeNode = structures.TreeNode
  * }
  */
 
+// 解法一
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return [][]int{}
@@ -56,4 +57,27 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
 		}
 	}
 	return res
+}
+
+// 解法二 递归
+func zigzagLevelOrder0(root *TreeNode) [][]int {
+	var res [][]int
+	search(root, 0, &res)
+	return res
+}
+
+func search(root *TreeNode, depth int, res *[][]int) {
+	if root == nil {
+		return
+	}
+	for len(*res) < depth+1 {
+		*res = append(*res, []int{})
+	}
+	if depth%2 == 0 {
+		(*res)[depth] = append((*res)[depth], root.Val)
+	} else {
+		(*res)[depth] = append([]int{root.Val}, (*res)[depth]...)
+	}
+	search(root.Left, depth+1, res)
+	search(root.Right, depth+1, res)
 }
