@@ -9,6 +9,7 @@
 
 <p align='center'>
 <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
+<img src="https://img.shields.io/badge/Total%20Word%20Count-738884-success">
 <img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master">
 <img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master">
 <img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go">
