@@ -545,4 +545,6 @@ headless: true
     - [1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence]({{< relref "/ChapterFour/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})
     - [1464.Maximum-Product-of-Two-Elements-in-an-Array]({{< relref "/ChapterFour/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})
     - [1470.Shuffle-the-Array]({{< relref "/ChapterFour/1470.Shuffle-the-Array.md" >}})
+    - [1480.Running-Sum-of-1d-Array]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})
+    - [1512.Number-of-Good-Pairs]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})
 <br />
