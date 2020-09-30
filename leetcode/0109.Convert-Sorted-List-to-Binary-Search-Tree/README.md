@@ -28,3 +28,4 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 ## 解题思路
 
 思路比较简单，依次把链表的中间点作为根结点，类似二分的思想，递归排列所有结点即可。
+
