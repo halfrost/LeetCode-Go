@@ -379,6 +379,7 @@ headless: true
     - [0778.Swim-in-Rising-Water]({{< relref "/ChapterFour/0778.Swim-in-Rising-Water.md" >}})
     - [0781.Rabbits-in-Forest]({{< relref "/ChapterFour/0781.Rabbits-in-Forest.md" >}})
     - [0784.Letter-Case-Permutation]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})
+    - [0785.Is-Graph-Bipartite]({{< relref "/ChapterFour/0785.Is-Graph-Bipartite.md" >}})
     - [0786.K-th-Smallest-Prime-Fraction]({{< relref "/ChapterFour/0786.K-th-Smallest-Prime-Fraction.md" >}})
     - [0793.Preimage-Size-of-Factorial-Zeroes-Function]({{< relref "/ChapterFour/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})
     - [0802.Find-Eventual-Safe-States]({{< relref "/ChapterFour/0802.Find-Eventual-Safe-States.md" >}})
