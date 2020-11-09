@@ -548,4 +548,8 @@ headless: true
     - [1470.Shuffle-the-Array]({{< relref "/ChapterFour/1470.Shuffle-the-Array.md" >}})
     - [1480.Running-Sum-of-1d-Array]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})
     - [1512.Number-of-Good-Pairs]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})
+    - [1646.Get-Maximum-in-Generated-Array]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})
+    - [1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique]({{< relref "/ChapterFour/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})
+    - [1648.Sell-Diminishing-Valued-Colored-Balls]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})
+    - [1649.Create-Sorted-Array-through-Instructions]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})
 <br />

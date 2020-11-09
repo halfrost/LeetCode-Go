@@ -1,7 +1,6 @@
 package leetcode
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -11,7 +10,6 @@ func minDeletions(s string) int {
 		frequency[s[i]-'a']++
 	}
 	sort.Sort(sort.Reverse(sort.IntSlice(frequency)))
-	fmt.Printf("%v\n", frequency)
 	for i := 1; i <= 25; i++ {
 		if frequency[i] == frequency[i-1] && frequency[i] != 0 {
 			res++
