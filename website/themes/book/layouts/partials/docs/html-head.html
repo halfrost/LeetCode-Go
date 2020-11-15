@@ -26,8 +26,24 @@
 {{ end -}}
 
 {{- if .Site.Params.BookServiceWorker }}
-{{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script>
+<!-- {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script> -->
+{{- $swJS := resources.Get "serviceworker-v1.js" | resources.Minify | resources.Fingerprint }}
+<script async>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register("{{ $swJS.RelPermalink }}").then(function() {
+          if (navigator.serviceWorker.controller) {
+            console.log('Assets cached by the controlling service worker.');
+          } else {
+            console.log('Please reload this page to allow the service worker to handle network operations.');
+          }
+      }).catch(function(error) {
+          console.log('ERROR: ' + error);
+        });
+  } else {
+      console.log('Service workers are not supported in the current browser.');
+  }
+</script>
 {{ end -}}
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
