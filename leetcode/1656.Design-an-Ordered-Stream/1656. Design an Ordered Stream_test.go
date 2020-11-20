@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Problem707(t *testing.T) {
+func Test_Problem1656(t *testing.T) {
 	obj := Constructor(5)
 	fmt.Printf("obj = %v\n", obj)
 	param1 := obj.Insert(3, "ccccc")

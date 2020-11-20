@@ -1,9 +1,5 @@
 package leetcode
 
-import (
-	"fmt"
-)
-
 type OrderedStream struct {
 	ptr    int
 	stream []string
@@ -17,7 +13,6 @@ func Constructor(n int) OrderedStream {
 func (this *OrderedStream) Insert(id int, value string) []string {
 	this.stream[id] = value
 	res := []string{}
-	fmt.Printf("%v %v %v\n", this.ptr, id, value)
 	if this.ptr == id || this.stream[this.ptr] != "" {
 		res = append(res, this.stream[this.ptr])
 		for i := id + 1; i < len(this.stream); i++ {
