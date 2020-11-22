@@ -552,4 +552,8 @@ headless: true
     - [1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique]({{< relref "/ChapterFour/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})
     - [1648.Sell-Diminishing-Valued-Colored-Balls]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})
     - [1649.Create-Sorted-Array-through-Instructions]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})
+    - [1656.Design-an-Ordered-Stream]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})
+    - [1657.Determine-if-Two-Strings-Are-Close]({{< relref "/ChapterFour/1657.Determine-if-Two-Strings-Are-Close.md" >}})
+    - [1658.Minimum-Operations-to-Reduce-X-to-Zero]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})
+    - [1659.Maximize-Grid-Happiness]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})
 <br />
