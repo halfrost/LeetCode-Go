@@ -556,4 +556,8 @@ headless: true
     - [1657.Determine-if-Two-Strings-Are-Close]({{< relref "/ChapterFour/1657.Determine-if-Two-Strings-Are-Close.md" >}})
     - [1658.Minimum-Operations-to-Reduce-X-to-Zero]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})
     - [1659.Maximize-Grid-Happiness]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})
+    - [1662.Check-If-Two-String-Arrays-are-Equivalent]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})
+    - [1663.Smallest-String-With-A-Given-Numeric-Value]({{< relref "/ChapterFour/1663.Smallest-String-With-A-Given-Numeric-Value.md" >}})
+    - [1664.Ways-to-Make-a-Fair-Array]({{< relref "/ChapterFour/1664.Ways-to-Make-a-Fair-Array.md" >}})
+    - [1665.Minimum-Initial-Energy-to-Finish-Tasks]({{< relref "/ChapterFour/1665.Minimum-Initial-Energy-to-Finish-Tasks.md" >}})
 <br />
