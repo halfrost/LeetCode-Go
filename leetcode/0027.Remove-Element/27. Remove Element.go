@@ -9,10 +9,8 @@ func removeElement(nums []int, val int) int {
 		if nums[i] != val {
 			if i != j {
 				nums[i], nums[j] = nums[j], nums[i]
-				j++
-			} else {
-				j++
 			}
+			j++
 		}
 	}
 	return j
