@@ -14,7 +14,7 @@ func interpret(command string) string {
 				i += 3
 			} else {
 				res += "o"
-				i += 1
+				i++
 			}
 		}
 	}

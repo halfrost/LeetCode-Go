@@ -564,4 +564,8 @@ headless: true
     - [1663.Smallest-String-With-A-Given-Numeric-Value]({{< relref "/ChapterFour/1663.Smallest-String-With-A-Given-Numeric-Value.md" >}})
     - [1664.Ways-to-Make-a-Fair-Array]({{< relref "/ChapterFour/1664.Ways-to-Make-a-Fair-Array.md" >}})
     - [1665.Minimum-Initial-Energy-to-Finish-Tasks]({{< relref "/ChapterFour/1665.Minimum-Initial-Energy-to-Finish-Tasks.md" >}})
+    - [1678.Goal-Parser-Interpretation]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})
+    - [1679.Max-Number-of-K-Sum-Pairs]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})
+    - [1680.Concatenation-of-Consecutive-Binary-Numbers]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})
+    - [1681.Minimum-Incompatibility]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})
 <br />
