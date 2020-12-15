@@ -548,6 +548,7 @@ headless: true
     - [1470.Shuffle-the-Array]({{< relref "/ChapterFour/1470.Shuffle-the-Array.md" >}})
     - [1480.Running-Sum-of-1d-Array]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})
     - [1512.Number-of-Good-Pairs]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})
+    - [1573.Number-of-Ways-to-Split-a-String]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})
     - [1646.Get-Maximum-in-Generated-Array]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})
     - [1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique]({{< relref "/ChapterFour/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})
     - [1648.Sell-Diminishing-Valued-Colored-Balls]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})
@@ -568,4 +569,8 @@ headless: true
     - [1679.Max-Number-of-K-Sum-Pairs]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})
     - [1680.Concatenation-of-Consecutive-Binary-Numbers]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})
     - [1681.Minimum-Incompatibility]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})
+    - [1684.Count-the-Number-of-Consistent-Strings]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})
+    - [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})
+    - [1688.Count-of-Matches-in-Tournament]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})
+    - [1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers]({{< relref "/ChapterFour/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers.md" >}})
 <br />
