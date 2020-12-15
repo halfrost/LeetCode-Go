@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Problem707(t *testing.T) {
+func Test_Problem1670(t *testing.T) {
 	obj := Constructor()
 	fmt.Printf("obj = %v %v\n", MList2Ints(&obj), obj)
 	obj.PushFront(1)
@@ -102,6 +102,11 @@ func Test_Problem707(t *testing.T) {
 	// [[],[],[3],[6],[6],[3],[],[7],[],[8]]
 }
 
-func MList2Ints(head *FrontMiddleBackQueue) []int {
-	return head.Queue
+func MList2Ints(this *FrontMiddleBackQueue) []int {
+	array := []int{}
+	for e := this.list.Front(); e != nil; e = e.Next() {
+		value, _ := e.Value.(int)
+		array = append(array, value)
+	}
+	return array
 }
