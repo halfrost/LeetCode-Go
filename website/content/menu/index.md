@@ -570,6 +570,7 @@ headless: true
     - [1670.Design-Front-Middle-Back-Queue]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})
     - [1672.Richest-Customer-Wealth]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})
     - [1673.Find-the-Most-Competitive-Subsequence]({{< relref "/ChapterFour/1673.Find-the-Most-Competitive-Subsequence.md" >}})
+    - [1674.Minimum-Moves-to-Make-Array-Complementary]({{< relref "/ChapterFour/1674.Minimum-Moves-to-Make-Array-Complementary.md" >}})
     - [1678.Goal-Parser-Interpretation]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})
     - [1679.Max-Number-of-K-Sum-Pairs]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})
     - [1680.Concatenation-of-Consecutive-Binary-Numbers]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})
@@ -578,4 +579,5 @@ headless: true
     - [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})
     - [1688.Count-of-Matches-in-Tournament]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})
     - [1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers]({{< relref "/ChapterFour/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers.md" >}})
+    - [1690.Stone-Game-VII]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})
 <br />
