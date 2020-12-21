@@ -2,6 +2,7 @@ package leetcode
 
 import "sort"
 
+// SmallestRangeII ...
 func SmallestRangeII(A []int, K int) int {
 	n := len(A)
 	sort.Ints(A)

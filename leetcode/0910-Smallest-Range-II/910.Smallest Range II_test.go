@@ -19,6 +19,7 @@ type ans910 struct {
 	one int
 }
 
+// Test_Problem910 ...
 func Test_Problem910(t *testing.T) {
 
 	qs := []question910{
