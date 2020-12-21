@@ -2,8 +2,8 @@ package leetcode
 
 import "sort"
 
-// SmallestRangeII ...
-func SmallestRangeII(A []int, K int) int {
+// smallestRangeII ...
+func smallestRangeII(A []int, K int) int {
 	n := len(A)
 	sort.Ints(A)
 	var ans int = A[n-1] - A[0]
