@@ -428,6 +428,7 @@ headless: true
     - [0901.Online-Stock-Span]({{< relref "/ChapterFour/0901.Online-Stock-Span.md" >}})
     - [0904.Fruit-Into-Baskets]({{< relref "/ChapterFour/0904.Fruit-Into-Baskets.md" >}})
     - [0907.Sum-of-Subarray-Minimums]({{< relref "/ChapterFour/0907.Sum-of-Subarray-Minimums.md" >}})
+    - [0910.Smallest-Range-II]({{< relref "/ChapterFour/0910.Smallest-Range-II.md" >}})
     - [0911.Online-Election]({{< relref "/ChapterFour/0911.Online-Election.md" >}})
     - [0914.X-of-a-Kind-in-a-Deck-of-Cards]({{< relref "/ChapterFour/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})
     - [0918.Maximum-Sum-Circular-Subarray]({{< relref "/ChapterFour/0918.Maximum-Sum-Circular-Subarray.md" >}})
