@@ -322,6 +322,7 @@ headless: true
     - [0594.Longest-Harmonious-Subsequence]({{< relref "/ChapterFour/0594.Longest-Harmonious-Subsequence.md" >}})
     - [0598.Range-Addition-II]({{< relref "/ChapterFour/0598.Range-Addition-II.md" >}})
     - [0599.Minimum-Index-Sum-of-Two-Lists]({{< relref "/ChapterFour/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})
+    - [0605.Can-Place-Flowers]({{< relref "/ChapterFour/0605.Can-Place-Flowers.md" >}})
     - [0628.Maximum-Product-of-Three-Numbers]({{< relref "/ChapterFour/0628.Maximum-Product-of-Three-Numbers.md" >}})
     - [0632.Smallest-Range-Covering-Elements-from-K-Lists]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})
     - [0633.Sum-of-Square-Numbers]({{< relref "/ChapterFour/0633.Sum-of-Square-Numbers.md" >}})

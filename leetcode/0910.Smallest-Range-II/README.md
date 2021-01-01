@@ -10,7 +10,7 @@ Return the smallest possible difference between the maximum value of `B` and t
 
 **Example 1:**
 
-```
+```c
 Input: A = [1], K = 0
 Output: 0
 Explanation: B = [1]
@@ -18,7 +18,7 @@ Explanation: B = [1]
 
 **Example 2:**
 
-```
+```c
 Input: A = [0,10], K = 2
 Output: 6
 Explanation: B = [2,8]
@@ -26,7 +26,7 @@ Explanation: B = [2,8]
 
 **Example 3:**
 
-```
+```c
 Input: A = [1,3,6], K = 3
 Output: 3
 Explanation: B = [4,6,3]
