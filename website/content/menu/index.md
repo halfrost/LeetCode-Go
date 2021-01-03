@@ -31,6 +31,8 @@ headless: true
 - [第三章 一些模板]({{< relref "/ChapterThree/_index.md" >}})
   - [3.1 Segment Tree]({{< relref "/ChapterThree/Segment_Tree.md" >}})
   - [3.2 UnionFind]({{< relref "/ChapterThree/UnionFind.md" >}})
+  - [3.3 LRUCache]({{< relref "/ChapterThree/LRUCache.md" >}})
+  - [3.4 LFUCache]({{< relref "/ChapterThree/LFUCache.md" >}})
 - [第四章 Leetcode 题解]({{< relref "/ChapterFour/_index.md" >}})
     - [0001.Two-Sum]({{< relref "/ChapterFour/0001.Two-Sum.md" >}})
     - [0002.Add-Two-Numbers]({{< relref "/ChapterFour/0002.Add-Two-Numbers.md" >}})

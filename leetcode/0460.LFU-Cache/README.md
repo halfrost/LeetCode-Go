@@ -60,7 +60,7 @@ lfu.get(4);      // return 4
 
 ## 解题思路
 
-- 这一题是 LFU 经典面试题，详细解释见第三章模板。
+- 这一题是 LFU 经典面试题，详细解释见[第三章 LFUCache 模板](https://books.halfrost.com/leetcode/ChapterThree/LFUCache/)。
 
 ## 代码
 
