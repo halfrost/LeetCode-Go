@@ -7,6 +7,8 @@
 <img src='./logo.png'>
 </p>
 
+![](./website/static/wechat-qr-code.png)
+
 <p align='center'>
 <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
 <img src="https://img.shields.io/badge/Total%20Word%20Count-738884-success">
