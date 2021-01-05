@@ -396,6 +396,7 @@ headless: true
     - [0819.Most-Common-Word]({{< relref "/ChapterFour/0819.Most-Common-Word.md" >}})
     - [0826.Most-Profit-Assigning-Work]({{< relref "/ChapterFour/0826.Most-Profit-Assigning-Work.md" >}})
     - [0828.COPYRIGHT-PROBLEM-XXX]({{< relref "/ChapterFour/0828.COPYRIGHT-PROBLEM-XXX.md" >}})
+    - [0830.Positions-of-Large-Groups]({{< relref "/ChapterFour/0830.Positions-of-Large-Groups.md" >}})
     - [0832.Flipping-an-Image]({{< relref "/ChapterFour/0832.Flipping-an-Image.md" >}})
     - [0834.Sum-of-Distances-in-Tree]({{< relref "/ChapterFour/0834.Sum-of-Distances-in-Tree.md" >}})
     - [0836.Rectangle-Overlap]({{< relref "/ChapterFour/0836.Rectangle-Overlap.md" >}})

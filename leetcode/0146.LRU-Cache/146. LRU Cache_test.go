@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_Problem147(t *testing.T) {
+func Test_Problem146(t *testing.T) {
 	obj := Constructor(2)
 	fmt.Printf("obj = %v\n", MList2Ints(&obj))
 	obj.Put(1, 1)
