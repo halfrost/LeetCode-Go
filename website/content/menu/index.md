@@ -555,6 +555,7 @@ headless: true
     - [1470.Shuffle-the-Array]({{< relref "/ChapterFour/1470.Shuffle-the-Array.md" >}})
     - [1480.Running-Sum-of-1d-Array]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})
     - [1512.Number-of-Good-Pairs]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})
+    - [1539.Kth-Missing-Positive-Number]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})
     - [1573.Number-of-Ways-to-Split-a-String]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})
     - [1640.Check-Array-Formation-Through-Concatenation]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})
     - [1646.Get-Maximum-in-Generated-Array]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})
