@@ -17,6 +17,8 @@ import (
 	"strings"
 )
 
+var try int
+
 func main() {
 	var (
 		result []m.StatStatusPairs
@@ -40,7 +42,7 @@ func main() {
 	// res, _ := json.Marshal(mdrows)
 	//writeFile("leetcode_problem", res)
 	mds := m.Mdrows{Mdrows: mdrows}
-	res, err := readFile("./template.markdown", "{{.AvailableTable}}", mds)
+	res, err := readFile("./template.markdown", "{{.AvailableTable}}", len(solutionIds), try, mds)
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -109,6 +111,7 @@ func loadSolutionsDir() []int {
 		}
 	}
 	sort.Ints(solutionIds)
+	try = len(files) - len(solutionIds)
 	fmt.Printf("读取了 %v 道题的题解，当前目录下有 %v 个文件(可能包含 .DS_Store)，有 %v 道题在尝试中\n", len(solutionIds), len(files), len(files)-len(solutionIds))
 	return solutionIds
 }
@@ -153,7 +156,7 @@ func readTMPL(path string) string {
 	return string(data)
 }
 
-func readFile(filePath, template string, mdrows m.Mdrows) ([]byte, error) {
+func readFile(filePath, template string, total, try int, mdrows m.Mdrows) ([]byte, error) {
 	f, err := os.OpenFile(filePath, os.O_RDONLY, 0644)
 	if err != nil {
 		return nil, err
@@ -174,10 +177,14 @@ func readFile(filePath, template string, mdrows m.Mdrows) ([]byte, error) {
 			newByte := reg.ReplaceAll(line, []byte(mdrows.AvailableTable()))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
+		} else if ok, _ := regexp.Match("{{.TotalNum}}", line); ok {
+			reg := regexp.MustCompile("{{.TotalNum}}")
+			newByte := reg.ReplaceAll(line, []byte(fmt.Sprintf("以下已经收录了 %v 道题的题解，还有 %v 道题在尝试优化到 beats 100%%", total, try)))
+			output = append(output, newByte...)
+			output = append(output, []byte("\n")...)
 		} else {
 			output = append(output, line...)
 			output = append(output, []byte("\n")...)
 		}
 	}
-	return output, nil
 }

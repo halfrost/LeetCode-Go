@@ -168,6 +168,7 @@ headless: true
     - [0174.Dungeon-Game]({{< relref "/ChapterFour/0174.Dungeon-Game.md" >}})
     - [0179.Largest-Number]({{< relref "/ChapterFour/0179.Largest-Number.md" >}})
     - [0187.Repeated-DNA-Sequences]({{< relref "/ChapterFour/0187.Repeated-DNA-Sequences.md" >}})
+    - [0189.Rotate-Array]({{< relref "/ChapterFour/0189.Rotate-Array.md" >}})
     - [0190.Reverse-Bits]({{< relref "/ChapterFour/0190.Reverse-Bits.md" >}})
     - [0191.Number-of-1-Bits]({{< relref "/ChapterFour/0191.Number-of-1-Bits.md" >}})
     - [0198.House-Robber]({{< relref "/ChapterFour/0198.House-Robber.md" >}})

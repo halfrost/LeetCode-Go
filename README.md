@@ -120,6 +120,8 @@
 
 ## 一. 目录
 
+以下已经收录了 556 道题的题解，还有 13 道题在尝试优化到 beats 100%
+
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |0001|Two Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0001.Two-Sum)|46.1%|Easy||
@@ -310,7 +312,7 @@
 |0186|Reverse Words in a String II||45.0%|Medium||
 |0187|Repeated DNA Sequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0187.Repeated-DNA-Sequences)|41.2%|Medium||
 |0188|Best Time to Buy and Sell Stock IV||29.2%|Hard||
-|0189|Rotate Array||36.3%|Medium||
+|0189|Rotate Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0189.Rotate-Array)|36.3%|Medium||
 |0190|Reverse Bits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0190.Reverse-Bits)|41.5%|Easy||
 |0191|Number of 1 Bits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0191.Number-of-1-Bits)|51.8%|Easy||
 |0192|Word Frequency||25.8%|Medium||
