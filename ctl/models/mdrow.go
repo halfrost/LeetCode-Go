@@ -4,8 +4,9 @@ import (
 	"fmt"
 )
 
+// Mdrow define
 type Mdrow struct {
-	FrontendQuestionId int32  `json:"question_id"`
+	FrontendQuestionID int32  `json:"question_id"`
 	QuestionTitle      string `json:"question__title"`
 	QuestionTitleSlug  string `json:"question__title_slug"`
 	SolutionPath       string `json:"solution_path"`
@@ -16,18 +17,19 @@ type Mdrow struct {
 
 // | 0001 | Two Sum  | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0001.Two-Sum)| 45.6%  | Easy | |
 func (m Mdrow) tableLine() string {
-	return fmt.Sprintf("|%04d|%v|%v|%v|%v||\n", m.FrontendQuestionId, m.QuestionTitle, m.SolutionPath, m.Acceptance, m.Difficulty)
+	return fmt.Sprintf("|%04d|%v|%v|%v|%v||\n", m.FrontendQuestionID, m.QuestionTitle, m.SolutionPath, m.Acceptance, m.Difficulty)
 }
 
-// SortByQuestionId define
-type SortByQuestionId []Mdrow
+// SortByQuestionID define
+type SortByQuestionID []Mdrow
 
-func (a SortByQuestionId) Len() int      { return len(a) }
-func (a SortByQuestionId) Swap(i, j int) { a[i], a[j] = a[j], a[i] }
-func (a SortByQuestionId) Less(i, j int) bool {
-	return a[i].FrontendQuestionId < a[j].FrontendQuestionId
+func (a SortByQuestionID) Len() int      { return len(a) }
+func (a SortByQuestionID) Swap(i, j int) { a[i], a[j] = a[j], a[i] }
+func (a SortByQuestionID) Less(i, j int) bool {
+	return a[i].FrontendQuestionID < a[j].FrontendQuestionID
 }
 
+// Mdrows define
 type Mdrows struct {
 	Mdrows []Mdrow
 }
@@ -45,6 +47,7 @@ func (mds Mdrows) table() string {
 	return res
 }
 
+// AvailableTable define
 func (mds Mdrows) AvailableTable() string {
 	return mds.table()
 }
