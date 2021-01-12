@@ -198,6 +198,7 @@ headless: true
     - [0224.Basic-Calculator]({{< relref "/ChapterFour/0224.Basic-Calculator.md" >}})
     - [0225.Implement-Stack-using-Queues]({{< relref "/ChapterFour/0225.Implement-Stack-using-Queues.md" >}})
     - [0226.Invert-Binary-Tree]({{< relref "/ChapterFour/0226.Invert-Binary-Tree.md" >}})
+    - [0228.Summary-Ranges]({{< relref "/ChapterFour/0228.Summary-Ranges.md" >}})
     - [0229.Majority-Element-II]({{< relref "/ChapterFour/0229.Majority-Element-II.md" >}})
     - [0230.Kth-Smallest-Element-in-a-BST]({{< relref "/ChapterFour/0230.Kth-Smallest-Element-in-a-BST.md" >}})
     - [0231.Power-of-Two]({{< relref "/ChapterFour/0231.Power-of-Two.md" >}})
@@ -590,4 +591,6 @@ headless: true
     - [1688.Count-of-Matches-in-Tournament]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})
     - [1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers]({{< relref "/ChapterFour/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers.md" >}})
     - [1690.Stone-Game-VII]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})
+    - [1694.Reformat-Phone-Number]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})
+    - [1695.Maximum-Erasure-Value]({{< relref "/ChapterFour/1695.Maximum-Erasure-Value.md" >}})
 <br />
