@@ -483,6 +483,7 @@ headless: true
     - [1005.Maximize-Sum-Of-Array-After-K-Negations]({{< relref "/ChapterFour/1005.Maximize-Sum-Of-Array-After-K-Negations.md" >}})
     - [1011.Capacity-To-Ship-Packages-Within-D-Days]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})
     - [1017.Convert-to-Base--2]({{< relref "/ChapterFour/1017.Convert-to-Base--2.md" >}})
+    - [1018.Binary-Prefix-Divisible-By-5]({{< relref "/ChapterFour/1018.Binary-Prefix-Divisible-By-5.md" >}})
     - [1019.Next-Greater-Node-In-Linked-List]({{< relref "/ChapterFour/1019.Next-Greater-Node-In-Linked-List.md" >}})
     - [1020.Number-of-Enclaves]({{< relref "/ChapterFour/1020.Number-of-Enclaves.md" >}})
     - [1021.Remove-Outermost-Parentheses]({{< relref "/ChapterFour/1021.Remove-Outermost-Parentheses.md" >}})
