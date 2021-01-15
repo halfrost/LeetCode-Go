@@ -1,4 +1,4 @@
-# [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
+# [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 
 ## 题目
 
