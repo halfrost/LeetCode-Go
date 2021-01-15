@@ -1,4 +1,4 @@
-package main
+package util
 
 import (
 	"fmt"
@@ -8,7 +8,8 @@ import (
 	"strconv"
 )
 
-func loadSolutionsDir() ([]int, int) {
+// LoadSolutionsDir define
+func LoadSolutionsDir() ([]int, int) {
 	files, err := ioutil.ReadDir("../leetcode/")
 	if err != nil {
 		fmt.Println(err)
@@ -28,7 +29,8 @@ func loadSolutionsDir() ([]int, int) {
 	return solutionIds, len(files) - len(solutionIds)
 }
 
-func writeFile(fileName string, content []byte) {
+// WriteFile define
+func WriteFile(fileName string, content []byte) {
 	file, err := os.OpenFile(fileName, os.O_RDWR|os.O_CREATE, 0777)
 	if err != nil {
 		fmt.Println(err)
@@ -42,7 +44,8 @@ func writeFile(fileName string, content []byte) {
 	fmt.Println("write file successful")
 }
 
-func binarySearch(nums []int, target int) int {
+// BinarySearch define
+func BinarySearch(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
 		mid := low + (high-low)>>1

@@ -12,9 +12,10 @@ const (
 )
 
 type config struct {
-	Username string
-	Password string
-	Cookie   string
+	Username  string
+	Password  string
+	Cookie    string
+	CSRFtoken string
 }
 
 func (c config) String() string {

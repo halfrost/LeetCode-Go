@@ -47,8 +47,8 @@ type StatStatusPairs struct {
 	Progress   float64    `json:"progress"`
 }
 
-// ConvertMdModel define
-func ConvertMdModel(problems []StatStatusPairs) []Mdrow {
+// ConvertMdModelFromSsp define
+func ConvertMdModelFromSsp(problems []StatStatusPairs) []Mdrow {
 	mdrows := []Mdrow{}
 	for _, problem := range problems {
 		res := Mdrow{}

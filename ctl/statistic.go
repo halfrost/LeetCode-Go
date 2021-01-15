@@ -2,6 +2,7 @@ package main
 
 import (
 	m "github.com/halfrost/LeetCode-Go/ctl/models"
+	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"sort"
 )
 
@@ -12,7 +13,7 @@ func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (
 		case "Easy":
 			{
 				easyTotal++
-				if v.Status == "ac" && binarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingEasy++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}
@@ -20,7 +21,7 @@ func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (
 		case "Medium":
 			{
 				mediumTotal++
-				if v.Status == "ac" && binarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingMedium++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}
@@ -28,7 +29,7 @@ func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (
 		case "Hard":
 			{
 				hardTotal++
-				if v.Status == "ac" && binarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingHard++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}

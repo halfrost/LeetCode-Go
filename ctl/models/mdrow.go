@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"strings"
 )
 
 // Mdrow define
@@ -13,6 +14,19 @@ type Mdrow struct {
 	Acceptance         string `json:"acceptance"`
 	Difficulty         string `json:"difficulty"`
 	Frequency          string `json:"frequency"`
+}
+
+// GenerateMdRows define
+func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
+	for i := 0; i < len(solutionIds); i++ {
+		id := mdrows[solutionIds[i]-1].FrontendQuestionID
+		if solutionIds[i] == int(id) {
+			//fmt.Printf("id = %v i = %v solutionIds = %v\n", id, i, solutionIds[i])
+			mdrows[id-1].SolutionPath = fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", id, strings.Replace(mdrows[id-1].QuestionTitle, " ", "-", -1)))
+		} else {
+			fmt.Printf("序号出错了 solutionIds = %v id = %v\n", solutionIds[i], id)
+		}
+	}
 }
 
 // | 0001 | Two Sum  | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0001.Two-Sum)| 45.6%  | Easy | |
