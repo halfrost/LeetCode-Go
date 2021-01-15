@@ -527,7 +527,7 @@ headless: true
     - [1202.Smallest-String-With-Swaps]({{< relref "/ChapterFour/1202.Smallest-String-With-Swaps.md" >}})
     - [1207.Unique-Number-of-Occurrences]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})
     - [1208.Get-Equal-Substrings-Within-Budget]({{< relref "/ChapterFour/1208.Get-Equal-Substrings-Within-Budget.md" >}})
-    - [1217.Play-with-Chips]({{< relref "/ChapterFour/1217.Play-with-Chips.md" >}})
+    - [1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position]({{< relref "/ChapterFour/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})
     - [1221.Split-a-String-in-Balanced-Strings]({{< relref "/ChapterFour/1221.Split-a-String-in-Balanced-Strings.md" >}})
     - [1232.Check-If-It-Is-a-Straight-Line]({{< relref "/ChapterFour/1232.Check-If-It-Is-a-Straight-Line.md" >}})
     - [1234.Replace-the-Substring-for-Balanced-String]({{< relref "/ChapterFour/1234.Replace-the-Substring-for-Balanced-String.md" >}})

@@ -1,4 +1,4 @@
-# [1217. Play with Chips](https://leetcode.com/problems/play-with-chips/)
+# [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 
 
 ## 题目
