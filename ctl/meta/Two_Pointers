@@ -34,7 +34,7 @@
 |713. Subarray Product Less Than K  | [Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})| Medium | O(n)| O(1)||
 |763. Partition Labels | [Go]({{< relref "/ChapterFour/0763.Partition-Labels.md" >}})| Medium | O(n)| O(1)|❤️|
 |826. Most Profit Assigning Work | [Go]({{< relref "/ChapterFour/0826.Most-Profit-Assigning-Work.md" >}})| Medium | O(n log n)| O(n)||
-|828. Unique Letter String | [Go]({{< relref "/ChapterFour/0828.COPYRIGHT-PROBLEM-XXX.md" >}})| Hard | O(n)| O(1)|❤️|
+|828. Count Unique Characters of All Substrings of a Given String | [Go]({{< relref "/ChapterFour/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})| Hard | O(n)| O(1)|❤️|
 |838. Push Dominoes  | [Go]({{< relref "/ChapterFour/0838.Push-Dominoes.md" >}})| Medium | O(n)| O(n)||
 |844. Backspace String Compare  | [Go]({{< relref "/ChapterFour/0844.Backspace-String-Compare.md" >}})| Easy | O(n)| O(n) ||
 |845. Longest Mountain in Array | [Go]({{< relref "/ChapterFour/0845.Longest-Mountain-in-Array.md" >}})| Medium | O(n)| O(1) ||

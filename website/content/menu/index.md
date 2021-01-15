@@ -184,7 +184,7 @@ headless: true
     - [0208.Implement-Trie-Prefix-Tree]({{< relref "/ChapterFour/0208.Implement-Trie-Prefix-Tree.md" >}})
     - [0209.Minimum-Size-Subarray-Sum]({{< relref "/ChapterFour/0209.Minimum-Size-Subarray-Sum.md" >}})
     - [0210.Course-Schedule-II]({{< relref "/ChapterFour/0210.Course-Schedule-II.md" >}})
-    - [0211.Add-and-Search-Word---Data-structure-design]({{< relref "/ChapterFour/0211.Add-and-Search-Word---Data-structure-design.md" >}})
+    - [0211.Design-Add-and-Search-Words-Data-Structure]({{< relref "/ChapterFour/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})
     - [0212.Word-Search-II]({{< relref "/ChapterFour/0212.Word-Search-II.md" >}})
     - [0213.House-Robber-II]({{< relref "/ChapterFour/0213.House-Robber-II.md" >}})
     - [0215.Kth-Largest-Element-in-an-Array]({{< relref "/ChapterFour/0215.Kth-Largest-Element-in-an-Array.md" >}})

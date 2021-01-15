@@ -76,7 +76,7 @@ type: docs
 |0566|Reshape the Matrix|[Go]({{< relref "/ChapterFour/0566.Reshape-the-Matrix.md" >}})|Easy| O(n^2)| O(n^2)||61.0%|
 |0605|Can Place Flowers|[Go]({{< relref "/ChapterFour/0605.Can-Place-Flowers.md" >}})|Easy||||31.9%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||47.0%|
-|0661|Image Smoother|[Go]({{< relref "/ChapterFour/0661.Image-Smoother.md" >}})|Easy||||52.1%|
+|0661|Image Smoother|[Go]({{< relref "/ChapterFour/0661.Image-Smoother.md" >}})|Easy||||52.2%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0695.Max-Area-of-Island.md" >}})|Medium||||64.3%|
 |0697|Degree of an Array|[Go]({{< relref "/ChapterFour/0697.Degree-of-an-Array.md" >}})|Easy||||54.3%|
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|
@@ -87,7 +87,7 @@ type: docs
 |0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0724.Find-Pivot-Index.md" >}})|Easy||||45.0%|
 |0729|My Calendar I|[Go]({{< relref "/ChapterFour/0729.My-Calendar-I.md" >}})|Medium||||53.1%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||50.9%|
-|0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||65.8%|
+|0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||65.7%|
 |0830|Positions of Large Groups|[Go]({{< relref "/ChapterFour/0830.Positions-of-Large-Groups.md" >}})|Easy||||50.2%|
 |0832|Flipping an Image|[Go]({{< relref "/ChapterFour/0832.Flipping-an-Image.md" >}})|Easy||||77.9%|
 |0867|Transpose Matrix|[Go]({{< relref "/ChapterFour/0867.Transpose-Matrix.md" >}})|Easy| O(n)| O(1)||62.2%|
@@ -107,8 +107,8 @@ type: docs
 |1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.5%|
 |1018|Binary Prefix Divisible By 5|[Go]({{< relref "/ChapterFour/1018.Binary-Prefix-Divisible-By-5.md" >}})|Easy||||47.8%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||54.0%|
-|1051|Height Checker|[Go]({{< relref "/ChapterFour/1051.Height-Checker.md" >}})|Easy||||71.8%|
-|1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium||||55.7%|
+|1051|Height Checker|[Go]({{< relref "/ChapterFour/1051.Height-Checker.md" >}})|Easy||||71.9%|
+|1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium||||55.6%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.4%|
 |1089|Duplicate Zeros|[Go]({{< relref "/ChapterFour/1089.Duplicate-Zeros.md" >}})|Easy||||52.0%|
 |1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1122.Relative-Sort-Array.md" >}})|Easy||||67.7%|
@@ -127,11 +127,11 @@ type: docs
 |1260|Shift 2D Grid|[Go]({{< relref "/ChapterFour/1260.Shift-2D-Grid.md" >}})|Easy||||61.8%|
 |1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.3%|
 |1275|Find Winner on a Tic Tac Toe Game|[Go]({{< relref "/ChapterFour/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md" >}})|Easy||||52.9%|
-|1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1287.Element-Appearing-More-Than-25%-In-Sorted-Array.md" >}})|Easy||||60.2%|
+|1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1287.Element-Appearing-More-Than-25-In-Sorted-Array.md" >}})|Easy||||60.2%|
 |1295|Find Numbers with Even Number of Digits|[Go]({{< relref "/ChapterFour/1295.Find-Numbers-with-Even-Number-of-Digits.md" >}})|Easy||||79.4%|
 |1299|Replace Elements with Greatest Element on Right Side|[Go]({{< relref "/ChapterFour/1299.Replace-Elements-with-Greatest-Element-on-Right-Side.md" >}})|Easy||||74.1%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
-|1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.5%|
+|1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.6%|
 |1313|Decompress Run-Length Encoded List|[Go]({{< relref "/ChapterFour/1313.Decompress-Run-Length-Encoded-List.md" >}})|Easy||||85.3%|
 |1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.9%|
 |1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.4%|
@@ -141,10 +141,11 @@ type: docs
 |1480|Running Sum of 1d Array|[Go]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})|Easy||||89.6%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.3%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.4%|
-|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||51.6%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.3%|
+|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||52.3%|
 |1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||64.2%|
-|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.4%|
+|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.5%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
 

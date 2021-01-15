@@ -122,7 +122,14 @@ func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdro
 			tmp := TagList{}
 			tmp.FrontendQuestionID = row.FrontendQuestionID
 			tmp.QuestionTitle = row.QuestionTitle
-			tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v.md\" >}})", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), strings.Replace(row.QuestionTitle, " ", "-", -1)))
+			s1 := strings.Replace(row.QuestionTitle, " ", "-", -1)
+			s2 := strings.Replace(s1, "'", "", -1)
+			s3 := strings.Replace(s2, "%", "", -1)
+			s4 := strings.Replace(s3, "(", "", -1)
+			s5 := strings.Replace(s4, ")", "", -1)
+			s6 := strings.Replace(s5, ",", "", -1)
+			s7 := strings.Replace(s6, "?", "", -1)
+			tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v.md\" >}})", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			tmp.Acceptance = row.Acceptance
 			tmp.Difficulty = row.Difficulty
 			tmp.TimeComplexity = metaMap[int(row.FrontendQuestionID)].TimeComplexity

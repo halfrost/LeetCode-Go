@@ -152,7 +152,6 @@ func buildChapterTwo() {
 		gr        m.GraphQLResp
 		questions []m.Question
 	)
-
 	for index, tag := range chapterTwoSlug {
 		body := getTagProblemList(tag)
 		// fmt.Printf("%v\n", string(body))
@@ -165,21 +164,19 @@ func buildChapterTwo() {
 		mdrows := m.ConvertMdModelFromQuestions(questions)
 		sort.Sort(m.SortByQuestionID(mdrows))
 		solutionIds, _ := util.LoadSolutionsDir()
-		// generateMdRows(solutionIds, mdrows)
-
 		tl, err := loadMetaData(fmt.Sprintf("./meta/%v", chapterTwoFileName[index]))
 		if err != nil {
 			fmt.Printf("err = %v\n", err)
 		}
 		tls := m.GenerateTagMdRows(solutionIds, tl, mdrows)
 		//fmt.Printf("tls = %v\n", tls)
-		// // 按照模板渲染 README
+		//  按照模板渲染 README
 		res, err := renderChapterTwo(fmt.Sprintf("./template/%v.md", chapterTwoFileName[index]), m.TagLists{TagLists: tls})
 		if err != nil {
 			fmt.Println(err)
 			return
 		}
-		util.WriteFile(fmt.Sprintf("./%v.md", chapterTwoFileName[index]), res)
+		util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
 	}
 }
 

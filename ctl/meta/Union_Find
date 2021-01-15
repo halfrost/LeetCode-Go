@@ -2,7 +2,7 @@
 |130. Surrounded Regions | [Go]({{< relref "/ChapterFour/0130.Surrounded-Regions.md" >}})| Medium | O(m\*n)| O(m\*n)||
 |200. Number of Islands | [Go]({{< relref "/ChapterFour/0200.Number-of-Islands.md" >}})| Medium | O(m\*n)| O(m\*n)||
 |399. Evaluate Division | [Go]({{< relref "/ChapterFour/0399.Evaluate-Division.md" >}})| Medium | O(n)| O(n)||
-|547. Friend Circles  | [Go]({{< relref "/ChapterFour/0547.Friend-Circles.md" >}})| Medium | O(n^2)| O(n)||
+|547. Number of Provinces  | [Go]({{< relref "/ChapterFour/0547.Number-of-Provinces.md" >}})| Medium | O(n^2)| O(n)||
 |684. Redundant Connection  | [Go]({{< relref "/ChapterFour/0684.Redundant-Connection.md" >}})| Medium | O(n)| O(n)||
 |685. Redundant Connection II | [Go]({{< relref "/ChapterFour/0685.Redundant-Connection-II.md" >}})| Hard | O(n)| O(n)||
 |721. Accounts Merge  | [Go]({{< relref "/ChapterFour/0721.Accounts-Merge.md" >}})| Medium | O(n)| O(n)|❤️|
