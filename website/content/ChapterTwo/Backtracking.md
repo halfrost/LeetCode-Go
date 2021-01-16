@@ -134,3 +134,10 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})|Hard||||35.0%|
 |1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||83.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Dynamic_Programming/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Depth_First_Search/">下一页➡️</a></p>
+</div>

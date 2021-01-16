@@ -38,3 +38,10 @@ type: docs
 |0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||46.4%|
 |1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1202.Smallest-String-With-Swaps.md" >}})|Medium||||48.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Bit_Manipulation/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/">下一页➡️</a></p>
+</div>

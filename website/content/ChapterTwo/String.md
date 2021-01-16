@@ -52,3 +52,10 @@ type: docs
 |1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||84.2%|
 |1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||67.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Array/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Two_Pointers/">下一页➡️</a></p>
+</div>

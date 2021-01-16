@@ -59,3 +59,10 @@ type: docs
 |1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||60.6%|
 |1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})|Medium||||46.5%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Tree/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Backtracking/">下一页➡️</a></p>
+</div>

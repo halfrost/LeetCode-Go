@@ -76,3 +76,10 @@ type: docs
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.3%|
 |1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||52.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Math/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sort/">下一页➡️</a></p>
+</div>

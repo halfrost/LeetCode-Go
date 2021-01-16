@@ -56,3 +56,10 @@ type: docs
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||70.2%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||38.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Linked_List/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Tree/">下一页➡️</a></p>
+</div>

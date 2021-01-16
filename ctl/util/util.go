@@ -29,6 +29,34 @@ func LoadSolutionsDir() ([]int, int) {
 	return solutionIds, len(files) - len(solutionIds)
 }
 
+// LoadChapterFourDir define
+func LoadChapterFourDir() []string {
+	files, err := ioutil.ReadDir("../website/content/ChapterFour/")
+	if err != nil {
+		fmt.Println(err)
+	}
+	solutions, solutionIds, solutionsMap := []string{}, []int{}, map[int]string{}
+	for _, f := range files {
+		if f.Name()[4] == '.' {
+			tmp, err := strconv.Atoi(f.Name()[:4])
+			if err != nil {
+				fmt.Println(err)
+			}
+			solutionIds = append(solutionIds, tmp)
+			// len(f.Name())-3 = 文件名去掉 .md 后缀
+			solutionsMap[tmp] = f.Name()[:len(f.Name())-3]
+		}
+	}
+	sort.Ints(solutionIds)
+	fmt.Printf("读取了第四章的 %v 道题的题解\n", len(solutionIds))
+	for _, v := range solutionIds {
+		if name, ok := solutionsMap[v]; ok {
+			solutions = append(solutions, name)
+		}
+	}
+	return solutions
+}
+
 // WriteFile define
 func WriteFile(fileName string, content []byte) {
 	file, err := os.OpenFile(fileName, os.O_RDWR|os.O_CREATE, 0777)
@@ -41,7 +69,7 @@ func WriteFile(fileName string, content []byte) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println("write file successful")
+	//fmt.Println("write file successful")
 }
 
 // BinarySearch define

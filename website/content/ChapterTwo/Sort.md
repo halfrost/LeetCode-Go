@@ -50,3 +50,10 @@ type: docs
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||53.9%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Hash_Table/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Bit_Manipulation/">下一页➡️</a></p>
+</div>

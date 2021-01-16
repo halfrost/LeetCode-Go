@@ -19,3 +19,10 @@ type: docs
 做到目前为止，笔者认为动态规划是最灵活的类型，这类题目没有一个模板可以给你套用，它也是算法之优雅的地方。笔者认为称它为算法的艺术不为过。动态规划这类型，笔者也还没有刷完，只刷了一部分，还在学习中。
 
 那么就分享一下笔者目前刷过的题，和有相似点的题目吧。
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterOne/Algorithm/">⬅️上一章</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Array/">下一页➡️</a></p>
+</div>

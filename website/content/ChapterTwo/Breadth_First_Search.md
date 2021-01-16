@@ -33,3 +33,10 @@ type: docs
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Depth_First_Search/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/">下一页➡️</a></p>
+</div>

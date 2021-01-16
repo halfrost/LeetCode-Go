@@ -79,3 +79,10 @@ type: docs
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||45.1%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||61.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Hash_Table/">下一页➡️</a></p>
+</div>

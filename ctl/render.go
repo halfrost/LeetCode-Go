@@ -34,7 +34,6 @@ func newBuildCommand() *cobra.Command {
 		newBuildREADME(),
 		newBuildChapterTwo(),
 	)
-
 	return mc
 }
 
@@ -101,6 +100,7 @@ func buildREADME() {
 		return
 	}
 	util.WriteFile("../README.md", res)
+	fmt.Println("write file successful")
 	//makeReadmeFile(mds)
 }
 
@@ -151,6 +151,7 @@ func buildChapterTwo() {
 	var (
 		gr        m.GraphQLResp
 		questions []m.Question
+		count     int
 	)
 	for index, tag := range chapterTwoSlug {
 		body := getTagProblemList(tag)
@@ -177,7 +178,9 @@ func buildChapterTwo() {
 			return
 		}
 		util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+		count++
 	}
+	fmt.Println("write %v files successful", count)
 }
 
 func loadMetaData(filePath string) (map[int]m.TagList, error) {
