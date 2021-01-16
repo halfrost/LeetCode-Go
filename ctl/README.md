@@ -14,3 +14,7 @@ Password="test"
 Cookie="csrftoken=XXXXXXXXX; LEETCODE_SESSION=YYYYYYYY;"
 CSRFtoken="ZZZZZZZZ"
 ```
+
+## PDF 生成
+
+用 `leetcode-go pdf` 命令先生成书籍内容的合并版本 pdf.md，再用 vscode 或者其他支持 toc 目录生成的工具，生成 toc。最后用 Typora 把 md 文件转换成 pdf。就可以发布 release 新版本了。

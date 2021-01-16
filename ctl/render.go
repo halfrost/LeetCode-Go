@@ -55,7 +55,7 @@ func newBuildChapterTwo() *cobra.Command {
 		Use:   "chapter-two",
 		Short: "Build Chapter Two commands",
 		Run: func(cmd *cobra.Command, args []string) {
-			buildChapterTwo()
+			buildChapterTwo(true)
 		},
 	}
 	// cmd.Flags().StringVar(&alias, "alias", "", "alias")
@@ -147,7 +147,9 @@ func renderReadme(filePath string, total, try int, mdrows, omdrows m.Mdrows, use
 	}
 }
 
-func buildChapterTwo() {
+// internal: true  渲染的链接都是 hugo 内部链接，用户生成 hugo web
+// 			 false 渲染的链接是外部 HTTPS 链接，用于生成 PDF
+func buildChapterTwo(internal bool) {
 	var (
 		gr        m.GraphQLResp
 		questions []m.Question
@@ -169,7 +171,7 @@ func buildChapterTwo() {
 		if err != nil {
 			fmt.Printf("err = %v\n", err)
 		}
-		tls := m.GenerateTagMdRows(solutionIds, tl, mdrows)
+		tls := m.GenerateTagMdRows(solutionIds, tl, mdrows, internal)
 		//fmt.Printf("tls = %v\n", tls)
 		//  按照模板渲染 README
 		res, err := renderChapterTwo(fmt.Sprintf("./template/%v.md", chapterTwoFileName[index]), m.TagLists{TagLists: tls})
@@ -177,7 +179,12 @@ func buildChapterTwo() {
 			fmt.Println(err)
 			return
 		}
-		util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+		if internal {
+			util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+		} else {
+			util.WriteFile(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+		}
+
 		count++
 	}
 	fmt.Printf("write %v files successful", count)

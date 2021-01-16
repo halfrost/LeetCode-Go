@@ -2,19 +2,14 @@ package main
 
 import (
 	"bufio"
-	// "encoding/json"
+	"errors"
 	"fmt"
-	// m "github.com/halfrost/LeetCode-Go/ctl/models"
-	// "github.com/halfrost/LeetCode-Go/ctl/util"
 	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"github.com/spf13/cobra"
 	"io"
+	"io/ioutil"
 	"os"
 	"regexp"
-	// "sort"
-	// "strconv"
-	"errors"
-	"io/ioutil"
 	"strings"
 )
 
@@ -248,22 +243,22 @@ func eofDel(filePath string) ([]byte, error) {
 		}
 		if ok, _ := regexp.Match(delLine, line); ok {
 			reg := regexp.MustCompile(delLine)
-			newByte := reg.ReplaceAll(line, []byte(" "))
+			newByte := reg.ReplaceAll(line, []byte(""))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
 		} else if ok, _ := regexp.Match(delHeader, line); ok {
 			reg := regexp.MustCompile(delHeader)
-			newByte := reg.ReplaceAll(line, []byte(" "))
+			newByte := reg.ReplaceAll(line, []byte(""))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
 		} else if ok, _ := regexp.Match(delLabel, line); ok {
 			reg := regexp.MustCompile(delLabel)
-			newByte := reg.ReplaceAll(line, []byte(" "))
+			newByte := reg.ReplaceAll(line, []byte(""))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
 		} else if ok, _ := regexp.Match(delFooter, line); ok {
 			reg := regexp.MustCompile(delFooter)
-			newByte := reg.ReplaceAll(line, []byte(" "))
+			newByte := reg.ReplaceAll(line, []byte(""))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
 		} else {
