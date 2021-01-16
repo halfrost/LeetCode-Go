@@ -180,7 +180,7 @@ func buildChapterTwo() {
 		util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
 		count++
 	}
-	fmt.Println("write %v files successful", count)
+	fmt.Printf("write %v files successful", count)
 }
 
 func loadMetaData(filePath string) (map[int]m.TagList, error) {
