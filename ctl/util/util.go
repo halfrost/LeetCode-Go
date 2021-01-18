@@ -13,12 +13,25 @@ import (
 )
 
 // LoadSolutionsDir define
-func LoadSolutionsDir() ([]int, int) {
-	files, err := ioutil.ReadDir("../leetcode/")
+func LoadSolutionsDir() ([]int, []string, int) {
+	solutionIds, soNames, total := loadFile("../leetcode/")
+	fmt.Printf("读取了 %v 道题的题解，当前目录下有 %v 个文件(可能包含 .DS_Store)，目录中有 %v 道题在尝试中\n", len(solutionIds), total, total-len(solutionIds))
+	return solutionIds, soNames, total - len(solutionIds)
+}
+
+// LoadChapterFourIds define
+func LoadChapterFourIds() ([]int, []string) {
+	solutionIds, soNames, _ := loadFile("../website/content/ChapterFour/")
+	fmt.Printf("读取了第四章 %v 道题的题解\n", len(solutionIds))
+	return solutionIds, soNames
+}
+
+func loadFile(path string) ([]int, []string, int) {
+	files, err := ioutil.ReadDir(path)
 	if err != nil {
 		fmt.Println(err)
 	}
-	solutionIds := []int{}
+	solutionIds, soNames, solutionsMap := []int{}, []string{}, map[int]string{}
 	for _, f := range files {
 		if f.Name()[4] == '.' {
 			tmp, err := strconv.Atoi(f.Name()[:4])
@@ -26,11 +39,16 @@ func LoadSolutionsDir() ([]int, int) {
 				fmt.Println(err)
 			}
 			solutionIds = append(solutionIds, tmp)
+			solutionsMap[tmp] = f.Name()
 		}
 	}
 	sort.Ints(solutionIds)
-	fmt.Printf("读取了 %v 道题的题解，当前目录下有 %v 个文件(可能包含 .DS_Store)，目录中有 %v 道题在尝试中\n", len(solutionIds), len(files), len(files)-len(solutionIds))
-	return solutionIds, len(files) - len(solutionIds)
+	for _, v := range solutionIds {
+		if name, ok := solutionsMap[v]; ok {
+			soNames = append(soNames, name)
+		}
+	}
+	return solutionIds, soNames, len(files)
 }
 
 // LoadChapterFourDir define

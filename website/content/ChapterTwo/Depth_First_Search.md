@@ -47,7 +47,7 @@ type: docs
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0638.Shopping-Offers.md" >}})|Medium||||52.6%|
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0685.Redundant-Connection-II.md" >}})|Hard||||32.9%|
-|0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0695.Max-Area-of-Island.md" >}})|Medium||||64.3%|
+|0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0695.Max-Area-of-Island.md" >}})|Medium||||64.4%|
 |0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0721.Accounts-Merge.md" >}})|Medium||||51.2%|
 |0733|Flood Fill|[Go]({{< relref "/ChapterFour/0733.Flood-Fill.md" >}})|Easy||||55.8%|
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0753.Cracking-the-Safe.md" >}})|Hard||||52.0%|
@@ -78,7 +78,7 @@ type: docs
 |1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||49.1%|
 |1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.5%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.1%|
-|1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.5%|
+|1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

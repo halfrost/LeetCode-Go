@@ -29,8 +29,8 @@ type: docs
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||57.5%|
 |0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||41.5%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.2%|
-|1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.5%|
-|1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.3%|
+|1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.6%|
+|1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

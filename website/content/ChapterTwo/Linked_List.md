@@ -36,7 +36,7 @@ type: docs
 |0109|Convert Sorted List to Binary Search Tree|[Go]({{< relref "/ChapterFour/0109.Convert-Sorted-List-to-Binary-Search-Tree.md" >}})|Medium| O(log n)| O(n)||49.8%|
 |0141|Linked List Cycle|[Go]({{< relref "/ChapterFour/0141.Linked-List-Cycle.md" >}})|Easy| O(n)| O(1)|❤️|42.2%|
 |0142|Linked List Cycle II|[Go]({{< relref "/ChapterFour/0142.Linked-List-Cycle-II.md" >}})|Medium| O(n)| O(1)|❤️|39.3%|
-|0143|Reorder List|[Go]({{< relref "/ChapterFour/0143.Reorder-List.md" >}})|Medium| O(n)| O(1)|❤️|40.2%|
+|0143|Reorder List|[Go]({{< relref "/ChapterFour/0143.Reorder-List.md" >}})|Medium| O(n)| O(1)|❤️|40.3%|
 |0147|Insertion Sort List|[Go]({{< relref "/ChapterFour/0147.Insertion-Sort-List.md" >}})|Medium| O(n)| O(1)|❤️|44.1%|
 |0148|Sort List|[Go]({{< relref "/ChapterFour/0148.Sort-List.md" >}})|Medium| O(n log n)| O(n)|❤️|45.8%|
 |0160|Intersection of Two Linked Lists|[Go]({{< relref "/ChapterFour/0160.Intersection-of-Two-Linked-Lists.md" >}})|Easy| O(n)| O(1)|❤️|42.7%|

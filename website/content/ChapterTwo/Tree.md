@@ -37,7 +37,7 @@ type: docs
 |0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0226.Invert-Binary-Tree.md" >}})|Easy| O(n)| O(1)||66.6%|
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium| O(n)| O(1)||62.2%|
 |0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||51.4%|
-|0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||48.1%|
+|0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||48.2%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.2%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0337.House-Robber-III.md" >}})|Medium||||51.7%|
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0404.Sum-of-Left-Leaves.md" >}})|Easy| O(n)| O(1)||52.2%|

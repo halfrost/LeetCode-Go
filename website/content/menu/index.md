@@ -596,4 +596,7 @@ headless: true
     - [1690.Stone-Game-VII]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})
     - [1694.Reformat-Phone-Number]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})
     - [1695.Maximum-Erasure-Value]({{< relref "/ChapterFour/1695.Maximum-Erasure-Value.md" >}})
+    - [1696.Jump-Game-VI]({{< relref "/ChapterFour/1696.Jump-Game-VI.md" >}})
+
+
 <br />

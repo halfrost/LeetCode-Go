@@ -33,6 +33,7 @@ func newBuildCommand() *cobra.Command {
 	mc.AddCommand(
 		newBuildREADME(),
 		newBuildChapterTwo(),
+		newBuildMenu(),
 	)
 	return mc
 }
@@ -56,6 +57,19 @@ func newBuildChapterTwo() *cobra.Command {
 		Short: "Build Chapter Two commands",
 		Run: func(cmd *cobra.Command, args []string) {
 			buildChapterTwo(true)
+		},
+	}
+	// cmd.Flags().StringVar(&alias, "alias", "", "alias")
+	// cmd.Flags().StringVar(&appId, "appid", "", "appid")
+	return cmd
+}
+
+func newBuildMenu() *cobra.Command {
+	cmd := &cobra.Command{
+		Use:   "menu",
+		Short: "Build Menu commands",
+		Run: func(cmd *cobra.Command, args []string) {
+			buildBookMenu()
 		},
 	}
 	// cmd.Flags().StringVar(&alias, "alias", "", "alias")
@@ -87,7 +101,7 @@ func buildREADME() {
 	}
 	mdrows := m.ConvertMdModelFromSsp(problems)
 	sort.Sort(m.SortByQuestionID(mdrows))
-	solutionIds, try := util.LoadSolutionsDir()
+	solutionIds, _, try := util.LoadSolutionsDir()
 	m.GenerateMdRows(solutionIds, mdrows)
 	info.EasyTotal, info.MediumTotal, info.HardTotal, info.OptimizingEasy, info.OptimizingMedium, info.OptimizingHard, optimizingIds = statisticalData(problemsMap, solutionIds)
 	omdrows := m.ConvertMdModelFromIds(problemsMap, optimizingIds)
@@ -166,7 +180,7 @@ func buildChapterTwo(internal bool) {
 		questions = gr.Data.TopicTag.Questions
 		mdrows := m.ConvertMdModelFromQuestions(questions)
 		sort.Sort(m.SortByQuestionID(mdrows))
-		solutionIds, _ := util.LoadSolutionsDir()
+		solutionIds, _, _ := util.LoadSolutionsDir()
 		tl, err := loadMetaData(fmt.Sprintf("./meta/%v", chapterTwoFileName[index]))
 		if err != nil {
 			fmt.Printf("err = %v\n", err)
@@ -239,6 +253,92 @@ func renderChapterTwo(filePath string, tls m.TagLists) ([]byte, error) {
 		if ok, _ := regexp.Match("{{.AvailableTagTable}}", line); ok {
 			reg := regexp.MustCompile("{{.AvailableTagTable}}")
 			newByte := reg.ReplaceAll(line, []byte(tls.AvailableTagTable()))
+			output = append(output, newByte...)
+			output = append(output, []byte("\n")...)
+		} else {
+			output = append(output, line...)
+			output = append(output, []byte("\n")...)
+		}
+	}
+}
+
+func buildBookMenu() {
+	solutionIds, soName, _ := util.LoadSolutionsDir()
+	ch4Ids, _ := util.LoadChapterFourIds()
+
+	needCopy := []string{}
+	for i := 0; i < len(solutionIds); i++ {
+		if util.BinarySearch(ch4Ids, solutionIds[i]) == -1 {
+			needCopy = append(needCopy, soName[i])
+		}
+	}
+	if len(needCopy) > 0 {
+		fmt.Printf("有 %v 道题需要拷贝到第四章中\n", len(needCopy))
+		for i := 0; i < len(needCopy); i++ {
+			util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v.md", needCopy[i]), fmt.Sprintf("../leetcode/%v/README.md", needCopy[i]))
+		}
+	} else {
+		fmt.Printf("【第四章没有需要添加的题解，已经完整了】\n")
+	}
+
+	// 按照模板重新渲染 Menu
+	res, err := renderBookMenu("./template/menu.md")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	util.WriteFile("../website/content/menu/index.md", res)
+	fmt.Println("generate Menu successful")
+}
+
+func generateMenu() string {
+	res := ""
+	res += menuLine(chapterOneMenuOrder, "ChapterOne")
+	res += menuLine(chapterTwoFileOrder, "ChapterTwo")
+	res += menuLine(chapterThreeFileOrder, "ChapterThree")
+	res += menuLine(getChapterFourFileOrder(), "ChapterFour")
+	return res
+}
+
+func menuLine(order []string, chapter string) string {
+	res := ""
+	for i := 0; i < len(order); i++ {
+		if i == 1 && chapter == "ChapterOne" {
+			res += fmt.Sprintf("  - [%v]({{< relref \"/%v/%v\" >}})\n", chapterMap[chapter][order[i]], chapter, order[i])
+			continue
+		}
+		if i == 0 {
+			res += fmt.Sprintf("- [%v]({{< relref \"/%v/%v.md\" >}})\n", chapterMap[chapter][order[i]], chapter, order[i])
+		} else {
+			if chapter == "ChapterFour" {
+				res += fmt.Sprintf("    - [%v]({{< relref \"/%v/%v.md\" >}})\n", order[i], chapter, order[i])
+			} else {
+				res += fmt.Sprintf("  - [%v]({{< relref \"/%v/%v.md\" >}})\n", chapterMap[chapter][order[i]], chapter, order[i])
+			}
+		}
+	}
+	return res
+}
+
+func renderBookMenu(filePath string) ([]byte, error) {
+	f, err := os.OpenFile(filePath, os.O_RDONLY, 0644)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+	reader, output := bufio.NewReader(f), []byte{}
+
+	for {
+		line, _, err := reader.ReadLine()
+		if err != nil {
+			if err == io.EOF {
+				return output, nil
+			}
+			return nil, err
+		}
+		if ok, _ := regexp.Match("{{.BookMenu}}", line); ok {
+			reg := regexp.MustCompile("{{.BookMenu}}")
+			newByte := reg.ReplaceAll(line, []byte(generateMenu()))
 			output = append(output, newByte...)
 			output = append(output, []byte("\n")...)
 		} else {

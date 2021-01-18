@@ -48,7 +48,7 @@ type: docs
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||49.9%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.6%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.8%|
-|1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})|Easy||||86.7%|
+|1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})|Easy||||86.6%|
 |1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||84.1%|
 |1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||67.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

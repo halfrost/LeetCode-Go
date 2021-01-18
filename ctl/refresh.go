@@ -18,6 +18,7 @@ func newRefresh() *cobra.Command {
 }
 
 func refresh() {
+	buildBookMenu()
 	delPreNext()
 	buildREADME()
 	buildChapterTwo(true)
