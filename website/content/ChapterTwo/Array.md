@@ -42,7 +42,7 @@ type: docs
 |0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.8%|
 |0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
 |0090|Subsets II|[Go]({{< relref "/ChapterFour/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.5%|
-|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.2%|
+|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.3%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.2%|
 |0118|Pascal's Triangle|[Go]({{< relref "/ChapterFour/0118.Pascals-Triangle.md" >}})|Easy||||54.4%|
 |0120|Triangle|[Go]({{< relref "/ChapterFour/0120.Triangle.md" >}})|Medium| O(n^2)| O(n)||45.5%|
@@ -78,7 +78,7 @@ type: docs
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||47.0%|
 |0661|Image Smoother|[Go]({{< relref "/ChapterFour/0661.Image-Smoother.md" >}})|Easy||||52.2%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0695.Max-Area-of-Island.md" >}})|Medium||||64.3%|
-|0697|Degree of an Array|[Go]({{< relref "/ChapterFour/0697.Degree-of-an-Array.md" >}})|Easy||||54.3%|
+|0697|Degree of an Array|[Go]({{< relref "/ChapterFour/0697.Degree-of-an-Array.md" >}})|Easy||||54.4%|
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|
 |0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||55.9%|
 |0717|1-bit and 2-bit Characters|[Go]({{< relref "/ChapterFour/0717.1-bit-and-2-bit-Characters.md" >}})|Easy||||47.6%|
@@ -107,7 +107,7 @@ type: docs
 |1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.5%|
 |1018|Binary Prefix Divisible By 5|[Go]({{< relref "/ChapterFour/1018.Binary-Prefix-Divisible-By-5.md" >}})|Easy||||47.9%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||53.9%|
-|1051|Height Checker|[Go]({{< relref "/ChapterFour/1051.Height-Checker.md" >}})|Easy||||71.8%|
+|1051|Height Checker|[Go]({{< relref "/ChapterFour/1051.Height-Checker.md" >}})|Easy||||71.9%|
 |1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium||||55.7%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.5%|
 |1089|Duplicate Zeros|[Go]({{< relref "/ChapterFour/1089.Duplicate-Zeros.md" >}})|Easy||||52.0%|
@@ -133,7 +133,7 @@ type: docs
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.6%|
 |1313|Decompress Run-Length Encoded List|[Go]({{< relref "/ChapterFour/1313.Decompress-Run-Length-Encoded-List.md" >}})|Easy||||85.3%|
-|1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.9%|
+|1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.8%|
 |1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.4%|
 |1389|Create Target Array in the Given Order|[Go]({{< relref "/ChapterFour/1389.Create-Target-Array-in-the-Given-Order.md" >}})|Easy||||84.7%|
 |1464|Maximum Product of Two Elements in an Array|[Go]({{< relref "/ChapterFour/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})|Easy||||76.9%|
@@ -141,8 +141,8 @@ type: docs
 |1480|Running Sum of 1d Array|[Go]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})|Easy||||89.5%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.3%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.1%|
-|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.8%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.2%|
+|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.7%|
 |1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||64.2%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.4%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.5%|

@@ -18,7 +18,7 @@ type: docs
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0067.Add-Binary.md" >}})|Easy||||46.6%|
 |0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.8%|
 |0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||31.6%|
-|0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||56.8%|
+|0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||56.7%|
 |0172|Factorial Trailing Zeroes|[Go]({{< relref "/ChapterFour/0172.Factorial-Trailing-Zeroes.md" >}})|Easy||||38.4%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.1%|
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0204.Count-Primes.md" >}})|Easy||||32.1%|
@@ -64,7 +64,7 @@ type: docs
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.0%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1017.Convert-to-Base--2.md" >}})|Medium||||59.6%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
-|1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1037.Valid-Boomerang.md" >}})|Easy||||37.8%|
+|1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1037.Valid-Boomerang.md" >}})|Easy||||37.9%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.7%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||49.3%|
 |1154|Day of the Year|[Go]({{< relref "/ChapterFour/1154.Day-of-the-Year.md" >}})|Easy||||49.3%|
@@ -75,7 +75,7 @@ type: docs
 |1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.6%|
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||56.8%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
-|1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.6%|
+|1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.7%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||45.1%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||61.8%|

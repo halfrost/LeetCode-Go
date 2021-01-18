@@ -54,7 +54,7 @@ type: docs
 |1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go]({{< relref "/ChapterFour/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List.md" >}})|Medium||||41.4%|
 |1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.7%|
 |1669|Merge In Between Linked Lists|[Go]({{< relref "/ChapterFour/1669.Merge-In-Between-Linked-Lists.md" >}})|Medium||||78.2%|
-|1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.6%|
+|1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

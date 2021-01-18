@@ -15,7 +15,7 @@ type: docs
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||64.8%|
 |0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.1%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.0%|
-|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.8%|
+|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.9%|
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0067.Add-Binary.md" >}})|Easy||||46.6%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)||33.6%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
@@ -47,9 +47,9 @@ type: docs
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||30.9%|
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||49.9%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.6%|
-|1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.7%|
+|1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.8%|
 |1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})|Easy||||86.7%|
-|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||84.2%|
+|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||84.1%|
 |1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||67.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

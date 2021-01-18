@@ -166,7 +166,7 @@ func peakIndexInMountainArray(A []int) int {
 |0475|Heaters|[Go]({{< relref "/ChapterFour/0475.Heaters.md" >}})|Medium||||33.5%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0483.Smallest-Good-Base.md" >}})|Hard||||36.2%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard||||26.6%|
-|0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.1%|
+|0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.0%|
 |0528|Random Pick with Weight|[Go]({{< relref "/ChapterFour/0528.Random-Pick-with-Weight.md" >}})|Medium||||44.5%|
 |0658|Find K Closest Elements|[Go]({{< relref "/ChapterFour/0658.Find-K-Closest-Elements.md" >}})|Medium||||41.8%|
 |0668|Kth Smallest Number in Multiplication Table|[Go]({{< relref "/ChapterFour/0668.Kth-Smallest-Number-in-Multiplication-Table.md" >}})|Hard||||47.7%|
@@ -190,7 +190,7 @@ func peakIndexInMountainArray(A []int) int {
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go]({{< relref "/ChapterFour/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings.md" >}})|Medium||||72.4%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||39.5%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1201.Ugly-Number-III.md" >}})|Medium||||26.3%|
-|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
+|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.0%|
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||49.2%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.2%|

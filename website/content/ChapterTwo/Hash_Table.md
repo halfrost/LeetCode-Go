@@ -14,7 +14,7 @@ type: docs
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.0%|
 |0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||50.2%|
 |0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.0%|
-|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.8%|
+|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.9%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.4%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0136.Single-Number.md" >}})|Easy||||66.4%|
@@ -32,7 +32,7 @@ type: docs
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||53.7%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0389.Find-the-Difference.md" >}})|Easy||||57.7%|
-|0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0409.Longest-Palindrome.md" >}})|Easy||||52.1%|
+|0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0409.Longest-Palindrome.md" >}})|Easy||||52.2%|
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium| O(n)| O(1) ||44.7%|
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||52.3%|
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||64.1%|
@@ -59,7 +59,7 @@ type: docs
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0781.Rabbits-in-Forest.md" >}})|Medium||||55.4%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0811.Subdomain-Visit-Count.md" >}})|Easy||||71.2%|
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.0%|
-|0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.1%|
+|0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.2%|
 |0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.3%|
 |0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.5%|
 |0961|N-Repeated Element in Size 2N Array|[Go]({{< relref "/ChapterFour/0961.N-Repeated-Element-in-Size-2N-Array.md" >}})|Easy||||74.4%|
@@ -73,8 +73,8 @@ type: docs
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||71.6%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.3%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.1%|
-|1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||51.8%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||62.2%|
+|1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

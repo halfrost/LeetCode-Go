@@ -36,7 +36,7 @@ type: docs
 |0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0392.Is-Subsequence.md" >}})|Easy| O(n)| O(1)||49.5%|
 |0410|Split Array Largest Sum|[Go]({{< relref "/ChapterFour/0410.Split-Array-Largest-Sum.md" >}})|Hard||||46.1%|
 |0416|Partition Equal Subset Sum|[Go]({{< relref "/ChapterFour/0416.Partition-Equal-Subset-Sum.md" >}})|Medium| O(n^2)| O(n)||44.7%|
-|0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0474.Ones-and-Zeroes.md" >}})|Medium||||43.4%|
+|0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0474.Ones-and-Zeroes.md" >}})|Medium||||43.5%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0494.Target-Sum.md" >}})|Medium||||45.8%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0638.Shopping-Offers.md" >}})|Medium||||52.6%|
 |0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||55.9%|
@@ -52,8 +52,8 @@ type: docs
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1049.Last-Stone-Weight-II.md" >}})|Medium||||45.0%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.5%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.7%|
-|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
-|1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.6%|
+|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.0%|
+|1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.7%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.3%|
 |1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.5%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.1%|

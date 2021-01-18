@@ -525,6 +525,7 @@ headless: true
     - [1200.Minimum-Absolute-Difference]({{< relref "/ChapterFour/1200.Minimum-Absolute-Difference.md" >}})
     - [1201.Ugly-Number-III]({{< relref "/ChapterFour/1201.Ugly-Number-III.md" >}})
     - [1202.Smallest-String-With-Swaps]({{< relref "/ChapterFour/1202.Smallest-String-With-Swaps.md" >}})
+    - [1203.Sort-Items-by-Groups-Respecting-Dependencies]({{< relref "/ChapterFour/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})
     - [1207.Unique-Number-of-Occurrences]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})
     - [1208.Get-Equal-Substrings-Within-Budget]({{< relref "/ChapterFour/1208.Get-Equal-Substrings-Within-Budget.md" >}})
     - [1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position]({{< relref "/ChapterFour/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})
