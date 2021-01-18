@@ -10,10 +10,10 @@ type: docs
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0003|Longest Substring Without Repeating Characters|[Go]({{< relref "/ChapterFour/0003.Longest-Substring-Without-Repeating-Characters.md" >}})|Medium| O(n)| O(1)|❤️|31.3%|
 |0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0013.Roman-to-Integer.md" >}})|Easy||||56.4%|
-|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.6%|
+|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.7%|
 |0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.5%|
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||64.8%|
-|0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.0%|
+|0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.1%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.0%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.8%|
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0067.Add-Binary.md" >}})|Easy||||46.6%|
@@ -30,7 +30,7 @@ type: docs
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||53.7%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.3%|
 |0541|Reverse String II|[Go]({{< relref "/ChapterFour/0541.Reverse-String-II.md" >}})|Easy||||49.0%|
-|0557|Reverse Words in a String III|[Go]({{< relref "/ChapterFour/0557.Reverse-Words-in-a-String-III.md" >}})|Easy||||71.5%|
+|0557|Reverse Words in a String III|[Go]({{< relref "/ChapterFour/0557.Reverse-Words-in-a-String-III.md" >}})|Easy||||71.6%|
 |0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||53.9%|
 |0767|Reorganize String|[Go]({{< relref "/ChapterFour/0767.Reorganize-String.md" >}})|Medium| O(n log n)| O(log n)  |❤️|49.9%|
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0819.Most-Common-Word.md" >}})|Easy||||45.4%|
@@ -44,13 +44,13 @@ type: docs
 |1221|Split a String in Balanced Strings|[Go]({{< relref "/ChapterFour/1221.Split-a-String-in-Balanced-Strings.md" >}})|Easy||||84.0%|
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.4%|
 |1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||64.7%|
-|1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||30.8%|
-|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||49.7%|
-|1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.7%|
+|1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||30.9%|
+|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||49.9%|
+|1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.6%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.7%|
 |1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})|Easy||||86.7%|
 |1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||84.2%|
-|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||67.1%|
+|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||67.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

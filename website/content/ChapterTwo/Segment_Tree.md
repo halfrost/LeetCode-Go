@@ -44,7 +44,7 @@ type: docs
 |0699|Falling Squares|[Go]({{< relref "/ChapterFour/0699.Falling-Squares.md" >}})|Hard| O(n log n)| O(n)|❤️|42.4%|
 |0715|Range Module|[Go]({{< relref "/ChapterFour/0715.Range-Module.md" >}})|Hard| O(log n)| O(n)|❤️|40.0%|
 |0732|My Calendar III|[Go]({{< relref "/ChapterFour/0732.My-Calendar-III.md" >}})|Hard| O(log n)| O(n)|❤️|61.4%|
-|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|48.4%|
+|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|48.3%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard| O(log n)| O(n)|❤️|39.5%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

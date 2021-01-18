@@ -25,5 +25,6 @@ func init() {
 		newBuildCommand(),
 		newLabelCommand(),
 		newPDFCommand(),
+		newRefresh(),
 	)
 }
