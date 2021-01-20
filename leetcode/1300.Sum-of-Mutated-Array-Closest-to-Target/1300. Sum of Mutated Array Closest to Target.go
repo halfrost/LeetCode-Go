@@ -10,6 +10,15 @@ func findBestValue(arr []int, target int) int {
 			high = mid
 		}
 	}
+	if high == 100000 {
+		res := 0
+		for _, num := range arr {
+			if res < num {
+				res = num
+			}
+		}
+		return res
+	}
 	// 比较阈值线分别定在 left - 1 和 left 的时候与 target 的接近程度
 	sum1, sum2 := calculateSum(arr, low-1), calculateSum(arr, low)
 	if target-sum1 <= sum2-target {

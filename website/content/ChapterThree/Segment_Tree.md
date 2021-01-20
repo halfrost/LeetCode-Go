@@ -273,3 +273,10 @@ func (st *SegmentCountTree) updateCountInTree(treeIndex, left, right, val int) {
 }
 
 ```
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/UnionFind/">下一页➡️</a></p>
+</div>

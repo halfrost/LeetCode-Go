@@ -3,6 +3,7 @@
     "go.formatFlags": [
         "-s"
     ],
+    "go.autocompleteUnimportedPackages": true,
     "[go]": {
         "editor.insertSpaces": false,
         "editor.formatOnSave": true,

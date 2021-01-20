@@ -15,3 +15,10 @@ type: docs
 题解慢慢更新中，欢迎大家提出更好的解法。点击页面下方的 edit，会跳转到 github 对应的页面 markdown 中，可以提交你的最优解 PR。
 
 让我们在题解的太空遨游吧~
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/LFUCache/">⬅️上一章</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001.Two-Sum/">下一页➡️</a></p>
+</div>

@@ -7,7 +7,7 @@ type: docs
 
 ![](https://img.halfrost.com/Leetcode/Segment_Tree.png)
 
-- 线段数的经典数组实现写法。将合并两个节点 pushUp 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)。第 218 题，第 303 题，第 307 题，第 699 题。
+- 线段树的经典数组实现写法。将合并两个节点 pushUp 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)。第 218 题，第 303 题，第 307 题，第 699 题。
 - 计数线段树的经典写法。第 315 题，第 327 题，第 493 题。
 - 线段树的树的实现写法。第 715 题，第 732 题。
 - 区间懒惰更新。第 218 题，第 699 题。
@@ -33,16 +33,25 @@ type: docs
 	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update:区间增减 query:直接取根节点的值  
 	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update:区间增减 query:直接取根节点的值
 
-| Title | Solution | Difficulty | Time | Space | 收藏 |
-| ----- | :--------: | :----------: | :----: | :-----: |:-----: |
-|218. The Skyline Problem | [Go]({{< relref "/ChapterFour/0218.The-Skyline-Problem.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|307. Range Sum Query - Mutable | [Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})| Hard | O(1)| O(n)||
-|315. Count of Smaller Numbers After Self | [Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})| Hard | O(n log n)| O(n)||
-|327. Count of Range Sum | [Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|493. Reverse Pairs | [Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})| Hard | O(n log n)| O(n)||
-|699. Falling Squares | [Go]({{< relref "/ChapterFour/0699.Falling-Squares.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|715. Range Module | [Go]({{< relref "/ChapterFour/0715.Range-Module.md" >}})| Hard | O(log n)| O(n)|❤️|
-|732. My Calendar III  | [Go]({{< relref "/ChapterFour/0732.My-Calendar-III.md" >}})| Hard | O(log n)| O(n)|❤️|
-|850. Rectangle Area II  | [Go]({{< relref "/ChapterFour/0850.Rectangle-Area-II.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|1157. Online Majority Element In Subarray | [Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})| Hard | O(log n)| O(n)|❤️|
-|---------------------------------------|---------------------------------|--------------------------|-----------------------|-----------|--------|
+
+| No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
+|:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
+|0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0218.The-Skyline-Problem.md" >}})|Hard| O(n log n)| O(n)|❤️|36.1%|
+|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})|Medium| O(1)| O(n)||36.5%|
+|0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard| O(n log n)| O(n)||42.6%|
+|0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})|Hard| O(n log n)| O(n)|❤️|35.9%|
+|0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard| O(n log n)| O(n)||26.6%|
+|0699|Falling Squares|[Go]({{< relref "/ChapterFour/0699.Falling-Squares.md" >}})|Hard| O(n log n)| O(n)|❤️|42.4%|
+|0715|Range Module|[Go]({{< relref "/ChapterFour/0715.Range-Module.md" >}})|Hard| O(log n)| O(n)|❤️|40.0%|
+|0732|My Calendar III|[Go]({{< relref "/ChapterFour/0732.My-Calendar-III.md" >}})|Hard| O(log n)| O(n)|❤️|61.4%|
+|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|48.3%|
+|1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard| O(log n)| O(n)|❤️|39.5%|
+|1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.1%|
+|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Binary_Indexed_Tree/">下一页➡️</a></p>
+</div>

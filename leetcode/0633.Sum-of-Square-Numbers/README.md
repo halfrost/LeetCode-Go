@@ -25,4 +25,4 @@ Given a non-negative integer `c`, your task is to decide whether there're two i
 ## 解题思路
 
 - 给出一个数，要求判断这个数能否由由 2 个完全平方数组成。能则输出 true，不能则输出 false。
-- 可以用二分搜索来解答这道题。判断题意，依次计算 `low * low + high * high`  和 c 是否相等。从 [1, sqrt(n)] 区间内进行二分，若能找到则返回 true，找不到就返回 false 。
+- 可以用二分搜索来解答这道题。判断题意，依次计算 `low * low + high * high`  和 c 是否相等。从 [0, sqrt(n)] 区间内进行二分，若能找到则返回 true，找不到就返回 false 。
