@@ -275,7 +275,7 @@
 |0135|Candy||32.8%|Hard||
 |0136|Single Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0136.Single-Number)|66.4%|Easy||
 |0137|Single Number II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0137.Single-Number-II)|53.5%|Medium||
-|0138|Copy List with Random Pointer||39.5%|Medium||
+|0138|Copy List with Random Pointer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0138.Copy-List-With-Random-Pointer)|39.5%|Medium||
 |0139|Word Break||41.4%|Medium||
 |0140|Word Break II||34.3%|Hard||
 |0141|Linked List Cycle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0141.Linked-List-Cycle)|42.2%|Easy||
