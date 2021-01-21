@@ -1,7 +1,6 @@
 package leetcode
 
-//执行用时：0 ms, 在所有 Go 提交中击败了100.00%的用户
-//内存消耗：3.4 MB, 在所有 Go 提交中击败了100.00%的用户
+// Node define
 type Node struct {
 	Val    int
 	Next   *Node
@@ -33,7 +32,6 @@ func copyNodeToLinkedList(head *Node) *Node {
 			Next: cur.Next,
 		}
 		cur.Next, cur = node, cur.Next
-
 	}
 	cur = head
 	for cur != nil {

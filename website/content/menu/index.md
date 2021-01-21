@@ -142,6 +142,7 @@ headless: true
     - [0131.Palindrome-Partitioning]({{< relref "/ChapterFour/0131.Palindrome-Partitioning.md" >}})
     - [0136.Single-Number]({{< relref "/ChapterFour/0136.Single-Number.md" >}})
     - [0137.Single-Number-II]({{< relref "/ChapterFour/0137.Single-Number-II.md" >}})
+    - [0138.Copy-List-With-Random-Pointer]({{< relref "/ChapterFour/0138.Copy-List-With-Random-Pointer.md" >}})
     - [0141.Linked-List-Cycle]({{< relref "/ChapterFour/0141.Linked-List-Cycle.md" >}})
     - [0142.Linked-List-Cycle-II]({{< relref "/ChapterFour/0142.Linked-List-Cycle-II.md" >}})
     - [0143.Reorder-List]({{< relref "/ChapterFour/0143.Reorder-List.md" >}})

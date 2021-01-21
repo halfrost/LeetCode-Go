@@ -43,17 +43,17 @@ X & ~X = 0
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0078|Subsets|[Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.5%|
+|0078|Subsets|[Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.6%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0136.Single-Number.md" >}})|Easy| O(n)| O(1)||66.4%|
-|0137|Single Number II|[Go]({{< relref "/ChapterFour/0137.Single-Number-II.md" >}})|Medium| O(n)| O(1)|❤️|53.5%|
+|0137|Single Number II|[Go]({{< relref "/ChapterFour/0137.Single-Number-II.md" >}})|Medium| O(n)| O(1)|❤️|53.6%|
 |0169|Majority Element|[Go]({{< relref "/ChapterFour/0169.Majority-Element.md" >}})|Easy| O(n)| O(1)|❤️|59.9%|
-|0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0187.Repeated-DNA-Sequences.md" >}})|Medium| O(n)| O(1)||41.2%|
+|0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0187.Repeated-DNA-Sequences.md" >}})|Medium| O(n)| O(1)||41.3%|
 |0190|Reverse Bits|[Go]({{< relref "/ChapterFour/0190.Reverse-Bits.md" >}})|Easy| O(n)| O(1)|❤️|41.7%|
-|0191|Number of 1 Bits|[Go]({{< relref "/ChapterFour/0191.Number-of-1-Bits.md" >}})|Easy| O(n)| O(1)||51.9%|
+|0191|Number of 1 Bits|[Go]({{< relref "/ChapterFour/0191.Number-of-1-Bits.md" >}})|Easy| O(n)| O(1)||52.0%|
 |0201|Bitwise AND of Numbers Range|[Go]({{< relref "/ChapterFour/0201.Bitwise-AND-of-Numbers-Range.md" >}})|Medium| O(n)| O(1)|❤️|39.6%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
 |0260|Single Number III|[Go]({{< relref "/ChapterFour/0260.Single-Number-III.md" >}})|Medium| O(n)| O(1)|❤️|65.2%|
-|0268|Missing Number|[Go]({{< relref "/ChapterFour/0268.Missing-Number.md" >}})|Easy| O(n)| O(1)||53.4%|
+|0268|Missing Number|[Go]({{< relref "/ChapterFour/0268.Missing-Number.md" >}})|Easy| O(n)| O(1)||53.5%|
 |0318|Maximum Product of Word Lengths|[Go]({{< relref "/ChapterFour/0318.Maximum-Product-of-Word-Lengths.md" >}})|Medium| O(n)| O(1)||52.1%|
 |0338|Counting Bits|[Go]({{< relref "/ChapterFour/0338.Counting-Bits.md" >}})|Medium| O(n)| O(n)||70.2%|
 |0342|Power of Four|[Go]({{< relref "/ChapterFour/0342.Power-of-Four.md" >}})|Easy| O(n)| O(1)||41.6%|
@@ -68,7 +68,7 @@ X & ~X = 0
 |0476|Number Complement|[Go]({{< relref "/ChapterFour/0476.Number-Complement.md" >}})|Easy| O(n)| O(1)||65.1%|
 |0477|Total Hamming Distance|[Go]({{< relref "/ChapterFour/0477.Total-Hamming-Distance.md" >}})|Medium| O(n)| O(1)||50.6%|
 |0693|Binary Number with Alternating Bits|[Go]({{< relref "/ChapterFour/0693.Binary-Number-with-Alternating-Bits.md" >}})|Easy| O(n)| O(1)|❤️|59.7%|
-|0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0756.Pyramid-Transition-Matrix.md" >}})|Medium| O(n log n)| O(n)||55.5%|
+|0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0756.Pyramid-Transition-Matrix.md" >}})|Medium| O(n log n)| O(n)||55.4%|
 |0762|Prime Number of Set Bits in Binary Representation|[Go]({{< relref "/ChapterFour/0762.Prime-Number-of-Set-Bits-in-Binary-Representation.md" >}})|Easy| O(n)| O(1)||64.2%|
 |0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})|Medium| O(n)| O(1)||66.2%|
 |0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium| O(n)| O(1)||34.0%|
