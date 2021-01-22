@@ -472,6 +472,7 @@ headless: true
     - [0984.String-Without-AAA-or-BBB]({{< relref "/ChapterFour/0984.String-Without-AAA-or-BBB.md" >}})
     - [0985.Sum-of-Even-Numbers-After-Queries]({{< relref "/ChapterFour/0985.Sum-of-Even-Numbers-After-Queries.md" >}})
     - [0986.Interval-List-Intersections]({{< relref "/ChapterFour/0986.Interval-List-Intersections.md" >}})
+    - [0989.Add-to-Array-Form-of-Integer]({{< relref "/ChapterFour/0989.Add-to-Array-Form-of-Integer.md" >}})
     - [0990.Satisfiability-of-Equality-Equations]({{< relref "/ChapterFour/0990.Satisfiability-of-Equality-Equations.md" >}})
     - [0992.Subarrays-with-K-Different-Integers]({{< relref "/ChapterFour/0992.Subarrays-with-K-Different-Integers.md" >}})
     - [0993.Cousins-in-Binary-Tree]({{< relref "/ChapterFour/0993.Cousins-in-Binary-Tree.md" >}})

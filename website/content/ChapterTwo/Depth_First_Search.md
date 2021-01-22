@@ -29,21 +29,21 @@ type: docs
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0131.Palindrome-Partitioning.md" >}})|Medium||||51.4%|
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||55.8%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||48.7%|
-|0207|Course Schedule|[Go]({{< relref "/ChapterFour/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.2%|
+|0207|Course Schedule|[Go]({{< relref "/ChapterFour/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.3%|
 |0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||42.3%|
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||39.8%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.2%|
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||44.5%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0337.House-Robber-III.md" >}})|Medium||||51.7%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.4%|
-|0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0491.Increasing-Subsequences.md" >}})|Medium||||47.3%|
+|0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0491.Increasing-Subsequences.md" >}})|Medium||||47.4%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0494.Target-Sum.md" >}})|Medium||||45.8%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.3%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.4%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.0%|
 |0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0526.Beautiful-Arrangement.md" >}})|Medium||||61.7%|
 |0529|Minesweeper|[Go]({{< relref "/ChapterFour/0529.Minesweeper.md" >}})|Medium||||60.7%|
 |0542|01 Matrix|[Go]({{< relref "/ChapterFour/0542.01-Matrix.md" >}})|Medium| O(n)| O(1)||40.6%|
-|0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0547.Number-of-Provinces.md" >}})|Medium||||60.1%|
+|0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0547.Number-of-Provinces.md" >}})|Medium||||60.2%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0638.Shopping-Offers.md" >}})|Medium||||52.6%|
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0685.Redundant-Connection-II.md" >}})|Hard||||32.9%|
@@ -58,13 +58,13 @@ type: docs
 |0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||45.6%|
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0839.Similar-String-Groups.md" >}})|Hard||||40.1%|
 |0841|Keys and Rooms|[Go]({{< relref "/ChapterFour/0841.Keys-and-Rooms.md" >}})|Medium||||65.2%|
-|0851|Loud and Rich|[Go]({{< relref "/ChapterFour/0851.Loud-and-Rich.md" >}})|Medium||||52.4%|
+|0851|Loud and Rich|[Go]({{< relref "/ChapterFour/0851.Loud-and-Rich.md" >}})|Medium||||52.5%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||57.5%|
 |0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.5%|
 |0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||74.4%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0924.Minimize-Malware-Spread.md" >}})|Hard||||41.8%|
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.2%|
-|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||55.4%|
+|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||55.5%|
 |0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||66.9%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.5%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||69.5%|

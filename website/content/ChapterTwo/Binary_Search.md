@@ -177,7 +177,7 @@ func peakIndexInMountainArray(A []int) int {
 |0744|Find Smallest Letter Greater Than Target|[Go]({{< relref "/ChapterFour/0744.Find-Smallest-Letter-Greater-Than-Target.md" >}})|Easy||||45.6%|
 |0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.4%|
 |0786|K-th Smallest Prime Fraction|[Go]({{< relref "/ChapterFour/0786.K-th-Smallest-Prime-Fraction.md" >}})|Hard||||41.9%|
-|0793|Preimage Size of Factorial Zeroes Function|[Go]({{< relref "/ChapterFour/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})|Hard||||40.7%|
+|0793|Preimage Size of Factorial Zeroes Function|[Go]({{< relref "/ChapterFour/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})|Hard||||40.6%|
 |0852|Peak Index in a Mountain Array|[Go]({{< relref "/ChapterFour/0852.Peak-Index-in-a-Mountain-Array.md" >}})|Easy||||71.8%|
 |0862|Shortest Subarray with Sum at Least K|[Go]({{< relref "/ChapterFour/0862.Shortest-Subarray-with-Sum-at-Least-K.md" >}})|Hard||||25.1%|
 |0875|Koko Eating Bananas|[Go]({{< relref "/ChapterFour/0875.Koko-Eating-Bananas.md" >}})|Medium||||53.4%|
@@ -186,7 +186,7 @@ func peakIndexInMountainArray(A []int) int {
 |0911|Online Election|[Go]({{< relref "/ChapterFour/0911.Online-Election.md" >}})|Medium||||51.2%|
 |0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0927.Three-Equal-Parts.md" >}})|Hard||||34.5%|
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.0%|
-|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.5%|
+|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.6%|
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go]({{< relref "/ChapterFour/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings.md" >}})|Medium||||72.4%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||39.6%|
 |1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||59.5%|
@@ -195,7 +195,7 @@ func peakIndexInMountainArray(A []int) int {
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||49.2%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.1%|
-|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.4%|
+|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

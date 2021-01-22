@@ -40,7 +40,7 @@ type: docs
 |0026|Remove Duplicates from Sorted Array|[Go]({{< relref "/ChapterFour/0026.Remove-Duplicates-from-Sorted-Array.md" >}})|Easy| O(n)| O(1)||46.4%|
 |0027|Remove Element|[Go]({{< relref "/ChapterFour/0027.Remove-Element.md" >}})|Easy| O(n)| O(1)||49.1%|
 |0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.1%|
-|0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.0%|
+|0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.8%|
 |0061|Rotate List|[Go]({{< relref "/ChapterFour/0061.Rotate-List.md" >}})|Medium| O(n)| O(1)||31.6%|
 |0075|Sort Colors|[Go]({{< relref "/ChapterFour/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.0%|
@@ -49,7 +49,7 @@ type: docs
 |0086|Partition List|[Go]({{< relref "/ChapterFour/0086.Partition-List.md" >}})|Medium| O(n)| O(1)|❤️|43.1%|
 |0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||38.0%|
-|0141|Linked List Cycle|[Go]({{< relref "/ChapterFour/0141.Linked-List-Cycle.md" >}})|Easy| O(n)| O(1)|❤️|42.2%|
+|0141|Linked List Cycle|[Go]({{< relref "/ChapterFour/0141.Linked-List-Cycle.md" >}})|Easy| O(n)| O(1)|❤️|42.3%|
 |0142|Linked List Cycle II|[Go]({{< relref "/ChapterFour/0142.Linked-List-Cycle-II.md" >}})|Medium| O(n)| O(1)|❤️|39.4%|
 |0167|Two Sum II - Input array is sorted|[Go]({{< relref "/ChapterFour/0167.Two-Sum-II---Input-array-is-sorted.md" >}})|Easy| O(n)| O(1)||55.4%|
 |0209|Minimum Size Subarray Sum|[Go]({{< relref "/ChapterFour/0209.Minimum-Size-Subarray-Sum.md" >}})|Medium| O(n)| O(1)||39.2%|
@@ -68,7 +68,7 @@ type: docs
 |0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.0%|
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|
 |0763|Partition Labels|[Go]({{< relref "/ChapterFour/0763.Partition-Labels.md" >}})|Medium| O(n)| O(1)|❤️|77.9%|
-|0826|Most Profit Assigning Work|[Go]({{< relref "/ChapterFour/0826.Most-Profit-Assigning-Work.md" >}})|Medium| O(n log n)| O(n)||38.9%|
+|0826|Most Profit Assigning Work|[Go]({{< relref "/ChapterFour/0826.Most-Profit-Assigning-Work.md" >}})|Medium| O(n log n)| O(n)||39.0%|
 |0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard| O(n)| O(1)|❤️|46.8%|
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.7%|
 |0844|Backspace String Compare|[Go]({{< relref "/ChapterFour/0844.Backspace-String-Compare.md" >}})|Easy| O(n)| O(n) ||46.8%|
@@ -81,10 +81,10 @@ type: docs
 |0977|Squares of a Sorted Array|[Go]({{< relref "/ChapterFour/0977.Squares-of-a-Sorted-Array.md" >}})|Easy| O(n)| O(1)||72.3%|
 |0986|Interval List Intersections|[Go]({{< relref "/ChapterFour/0986.Interval-List-Intersections.md" >}})|Medium| O(n)| O(1)||68.1%|
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)|❤️|50.5%|
-|1004|Max Consecutive Ones III|[Go]({{< relref "/ChapterFour/1004.Max-Consecutive-Ones-III.md" >}})|Medium| O(n)| O(1) ||60.5%|
+|1004|Max Consecutive Ones III|[Go]({{< relref "/ChapterFour/1004.Max-Consecutive-Ones-III.md" >}})|Medium| O(n)| O(1) ||60.6%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1093.Statistics-from-a-Large-Sample.md" >}})|Medium| O(n)| O(1) ||49.4%|
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.4%|
-|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.4%|
+|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
 |1695|Maximum Erasure Value|[Go]({{< relref "/ChapterFour/1695.Maximum-Erasure-Value.md" >}})|Medium||||49.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

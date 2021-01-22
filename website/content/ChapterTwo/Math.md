@@ -35,7 +35,7 @@ type: docs
 |0372|Super Pow|[Go]({{< relref "/ChapterFour/0372.Super-Pow.md" >}})|Medium||||36.6%|
 |0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0397.Integer-Replacement.md" >}})|Medium||||33.4%|
 |0441|Arranging Coins|[Go]({{< relref "/ChapterFour/0441.Arranging-Coins.md" >}})|Easy||||42.3%|
-|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0447.Number-of-Boomerangs.md" >}})|Medium||||52.3%|
+|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0447.Number-of-Boomerangs.md" >}})|Medium||||52.4%|
 |0453|Minimum Moves to Equal Array Elements|[Go]({{< relref "/ChapterFour/0453.Minimum-Moves-to-Equal-Array-Elements.md" >}})|Easy||||50.7%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0483.Smallest-Good-Base.md" >}})|Hard||||36.2%|
 |0507|Perfect Number|[Go]({{< relref "/ChapterFour/0507.Perfect-Number.md" >}})|Easy||||36.0%|
@@ -43,7 +43,7 @@ type: docs
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0598.Range-Addition-II.md" >}})|Easy||||50.0%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||47.0%|
 |0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.5%|
-|0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0645.Set-Mismatch.md" >}})|Easy||||42.4%|
+|0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0645.Set-Mismatch.md" >}})|Easy||||42.5%|
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0753.Cracking-the-Safe.md" >}})|Hard||||52.1%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0781.Rabbits-in-Forest.md" >}})|Medium||||55.4%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0812.Largest-Triangle-Area.md" >}})|Easy||||58.8%|
@@ -51,7 +51,7 @@ type: docs
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0878.Nth-Magical-Number.md" >}})|Hard||||28.9%|
 |0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||70.6%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
-|0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||32.8%|
+|0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||32.9%|
 |0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||59.6%|
 |0910|Smallest Range II|[Go]({{< relref "/ChapterFour/0910.Smallest-Range-II.md" >}})|Medium||||31.2%|
 |0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.4%|
@@ -62,7 +62,7 @@ type: docs
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0970.Powerful-Integers.md" >}})|Easy||||39.9%|
 |0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.5%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.0%|
-|1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1017.Convert-to-Base--2.md" >}})|Medium||||59.6%|
+|1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1017.Convert-to-Base--2.md" >}})|Medium||||59.5%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1037.Valid-Boomerang.md" >}})|Easy||||37.9%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.8%|
@@ -77,7 +77,7 @@ type: docs
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.4%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
-|1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||45.1%|
+|1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||45.2%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||61.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

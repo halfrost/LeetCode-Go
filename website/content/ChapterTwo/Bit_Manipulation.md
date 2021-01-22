@@ -52,14 +52,14 @@ X & ~X = 0
 |0191|Number of 1 Bits|[Go]({{< relref "/ChapterFour/0191.Number-of-1-Bits.md" >}})|Easy| O(n)| O(1)||52.0%|
 |0201|Bitwise AND of Numbers Range|[Go]({{< relref "/ChapterFour/0201.Bitwise-AND-of-Numbers-Range.md" >}})|Medium| O(n)| O(1)|❤️|39.6%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
-|0260|Single Number III|[Go]({{< relref "/ChapterFour/0260.Single-Number-III.md" >}})|Medium| O(n)| O(1)|❤️|65.2%|
+|0260|Single Number III|[Go]({{< relref "/ChapterFour/0260.Single-Number-III.md" >}})|Medium| O(n)| O(1)|❤️|65.3%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0268.Missing-Number.md" >}})|Easy| O(n)| O(1)||53.5%|
 |0318|Maximum Product of Word Lengths|[Go]({{< relref "/ChapterFour/0318.Maximum-Product-of-Word-Lengths.md" >}})|Medium| O(n)| O(1)||52.1%|
 |0338|Counting Bits|[Go]({{< relref "/ChapterFour/0338.Counting-Bits.md" >}})|Medium| O(n)| O(n)||70.2%|
 |0342|Power of Four|[Go]({{< relref "/ChapterFour/0342.Power-of-Four.md" >}})|Easy| O(n)| O(1)||41.6%|
 |0371|Sum of Two Integers|[Go]({{< relref "/ChapterFour/0371.Sum-of-Two-Integers.md" >}})|Medium| O(n)| O(1)||50.6%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0389.Find-the-Difference.md" >}})|Easy| O(n)| O(1)||57.7%|
-|0393|UTF-8 Validation|[Go]({{< relref "/ChapterFour/0393.UTF-8-Validation.md" >}})|Medium| O(n)| O(1)||37.9%|
+|0393|UTF-8 Validation|[Go]({{< relref "/ChapterFour/0393.UTF-8-Validation.md" >}})|Medium| O(n)| O(1)||38.0%|
 |0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0397.Integer-Replacement.md" >}})|Medium| O(n)| O(1)||33.4%|
 |0401|Binary Watch|[Go]({{< relref "/ChapterFour/0401.Binary-Watch.md" >}})|Easy| O(1)| O(1)||48.3%|
 |0405|Convert a Number to Hexadecimal|[Go]({{< relref "/ChapterFour/0405.Convert-a-Number-to-Hexadecimal.md" >}})|Easy| O(n)| O(1)||44.4%|

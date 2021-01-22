@@ -30,7 +30,7 @@ type: docs
 |0124|Binary Tree Maximum Path Sum|[Go]({{< relref "/ChapterFour/0124.Binary-Tree-Maximum-Path-Sum.md" >}})|Hard| O(n)| O(1)||35.3%|
 |0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||50.6%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.2%|
-|0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.1%|
+|0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.2%|
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||59.7%|
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||55.8%|
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0222.Count-Complete-Tree-Nodes.md" >}})|Medium| O(n)| O(1)||48.9%|
@@ -43,7 +43,7 @@ type: docs
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0404.Sum-of-Left-Leaves.md" >}})|Easy| O(n)| O(1)||52.2%|
 |0437|Path Sum III|[Go]({{< relref "/ChapterFour/0437.Path-Sum-III.md" >}})|Medium| O(n)| O(1)||48.0%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||58.9%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.3%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.4%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.0%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.4%|

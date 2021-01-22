@@ -84,7 +84,7 @@ type: docs
 |0717|1-bit and 2-bit Characters|[Go]({{< relref "/ChapterFour/0717.1-bit-and-2-bit-Characters.md" >}})|Easy||||47.5%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.2%|
 |0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||32.5%|
-|0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0724.Find-Pivot-Index.md" >}})|Easy||||45.0%|
+|0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0724.Find-Pivot-Index.md" >}})|Easy||||45.1%|
 |0729|My Calendar I|[Go]({{< relref "/ChapterFour/0729.My-Calendar-I.md" >}})|Medium||||53.1%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||50.9%|
 |0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||65.8%|
@@ -92,7 +92,7 @@ type: docs
 |0832|Flipping an Image|[Go]({{< relref "/ChapterFour/0832.Flipping-an-Image.md" >}})|Easy||||78.0%|
 |0867|Transpose Matrix|[Go]({{< relref "/ChapterFour/0867.Transpose-Matrix.md" >}})|Easy| O(n)| O(1)||62.2%|
 |0888|Fair Candy Swap|[Go]({{< relref "/ChapterFour/0888.Fair-Candy-Swap.md" >}})|Easy||||58.9%|
-|0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||32.8%|
+|0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||32.9%|
 |0896|Monotonic Array|[Go]({{< relref "/ChapterFour/0896.Monotonic-Array.md" >}})|Easy||||58.0%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|33.2%|
 |0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.4%|
@@ -100,17 +100,18 @@ type: docs
 |0922|Sort Array By Parity II|[Go]({{< relref "/ChapterFour/0922.Sort-Array-By-Parity-II.md" >}})|Easy| O(n)| O(1)||70.3%|
 |0969|Pancake Sorting|[Go]({{< relref "/ChapterFour/0969.Pancake-Sorting.md" >}})|Medium| O(n)| O(1)|❤️|68.6%|
 |0977|Squares of a Sorted Array|[Go]({{< relref "/ChapterFour/0977.Squares-of-a-Sorted-Array.md" >}})|Easy| O(n)| O(1)||72.3%|
-|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.5%|
+|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |0985|Sum of Even Numbers After Queries|[Go]({{< relref "/ChapterFour/0985.Sum-of-Even-Numbers-After-Queries.md" >}})|Easy||||60.7%|
+|0989|Add to Array-Form of Integer|[Go]({{< relref "/ChapterFour/0989.Add-to-Array-Form-of-Integer.md" >}})|Easy||||44.7%|
 |0999|Available Captures for Rook|[Go]({{< relref "/ChapterFour/0999.Available-Captures-for-Rook.md" >}})|Easy||||66.9%|
-|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1002.Find-Common-Characters.md" >}})|Easy||||68.1%|
-|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.5%|
+|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1002.Find-Common-Characters.md" >}})|Easy||||68.2%|
+|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.6%|
 |1018|Binary Prefix Divisible By 5|[Go]({{< relref "/ChapterFour/1018.Binary-Prefix-Divisible-By-5.md" >}})|Easy||||47.8%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||53.9%|
 |1051|Height Checker|[Go]({{< relref "/ChapterFour/1051.Height-Checker.md" >}})|Easy||||72.0%|
 |1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium||||55.7%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.5%|
-|1089|Duplicate Zeros|[Go]({{< relref "/ChapterFour/1089.Duplicate-Zeros.md" >}})|Easy||||52.1%|
+|1089|Duplicate Zeros|[Go]({{< relref "/ChapterFour/1089.Duplicate-Zeros.md" >}})|Easy||||52.0%|
 |1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1122.Relative-Sort-Array.md" >}})|Easy||||67.8%|
 |1128|Number of Equivalent Domino Pairs|[Go]({{< relref "/ChapterFour/1128.Number-of-Equivalent-Domino-Pairs.md" >}})|Easy||||46.6%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||39.6%|
@@ -141,9 +142,9 @@ type: docs
 |1480|Running Sum of 1d Array|[Go]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})|Easy||||89.5%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||61.5%|
-|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.6%|
-|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||64.1%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||61.2%|
+|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.5%|
+|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||63.9%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.3%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

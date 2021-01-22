@@ -27,7 +27,7 @@ type: docs
 |0300|Longest Increasing Subsequence|[Go]({{< relref "/ChapterFour/0300.Longest-Increasing-Subsequence.md" >}})|Medium| O(n log n)| O(n)||43.7%|
 |0303|Range Sum Query - Immutable|[Go]({{< relref "/ChapterFour/0303.Range-Sum-Query---Immutable.md" >}})|Easy||||47.1%|
 |0309|Best Time to Buy and Sell Stock with Cooldown|[Go]({{< relref "/ChapterFour/0309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md" >}})|Medium| O(n)| O(n)||48.1%|
-|0322|Coin Change|[Go]({{< relref "/ChapterFour/0322.Coin-Change.md" >}})|Medium| O(n)| O(n)||36.9%|
+|0322|Coin Change|[Go]({{< relref "/ChapterFour/0322.Coin-Change.md" >}})|Medium| O(n)| O(n)||37.0%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0337.House-Robber-III.md" >}})|Medium||||51.7%|
 |0338|Counting Bits|[Go]({{< relref "/ChapterFour/0338.Counting-Bits.md" >}})|Medium| O(n)| O(n)||70.2%|
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.1%|
@@ -45,20 +45,20 @@ type: docs
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.7%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium||||34.0%|
-|0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0920.Number-of-Music-Playlists.md" >}})|Hard||||47.7%|
+|0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0920.Number-of-Music-Playlists.md" >}})|Hard||||47.6%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.5%|
-|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.5%|
+|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
-|1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1049.Last-Stone-Weight-II.md" >}})|Medium||||45.1%|
+|1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1049.Last-Stone-Weight-II.md" >}})|Medium||||45.0%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.5%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.7%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.4%|
-|1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.3%|
-|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.4%|
+|1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.2%|
+|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.5%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.2%|
-|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||60.6%|
-|1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})|Medium||||46.8%|
+|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||60.7%|
+|1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1690.Stone-Game-VII.md" >}})|Medium||||46.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
