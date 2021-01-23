@@ -30,7 +30,7 @@ type: docs
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.6%|
 |0324|Wiggle Sort II|[Go]({{< relref "/ChapterFour/0324.Wiggle-Sort-II.md" >}})|Medium| O(n)| O(n)|❤️|30.6%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})|Hard||||35.9%|
-|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.4%|
+|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard||||26.6%|
 |0524|Longest Word in Dictionary through Deleting|[Go]({{< relref "/ChapterFour/0524.Longest-Word-in-Dictionary-through-Deleting.md" >}})|Medium| O(n)| O(1) ||48.9%|

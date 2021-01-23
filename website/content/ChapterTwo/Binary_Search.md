@@ -153,7 +153,7 @@ func peakIndexInMountainArray(A []int) int {
 |0300|Longest Increasing Subsequence|[Go]({{< relref "/ChapterFour/0300.Longest-Increasing-Subsequence.md" >}})|Medium| O(n log n)| O(n)||43.7%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.6%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})|Hard||||35.9%|
-|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.4%|
+|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0354|Russian Doll Envelopes|[Go]({{< relref "/ChapterFour/0354.Russian-Doll-Envelopes.md" >}})|Hard||||36.1%|
 |0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0367.Valid-Perfect-Square.md" >}})|Easy||||42.0%|
@@ -193,8 +193,8 @@ func peakIndexInMountainArray(A []int) int {
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1201.Ugly-Number-III.md" >}})|Medium||||26.4%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||49.3%|
-|1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
-|1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.1%|
+|1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.2%|
+|1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.2%|
 |1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

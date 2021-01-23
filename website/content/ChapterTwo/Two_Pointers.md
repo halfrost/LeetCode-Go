@@ -58,7 +58,7 @@ type: docs
 |0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.2%|
 |0344|Reverse String|[Go]({{< relref "/ChapterFour/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.0%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||44.9%|
-|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.4%|
+|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0424|Longest Repeating Character Replacement|[Go]({{< relref "/ChapterFour/0424.Longest-Repeating-Character-Replacement.md" >}})|Medium| O(n)| O(1) ||48.0%|
 |0457|Circular Array Loop|[Go]({{< relref "/ChapterFour/0457.Circular-Array-Loop.md" >}})|Medium||||30.0%|

@@ -106,8 +106,8 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
 |0046|Permutations|[Go]({{< relref "/ChapterFour/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.1%|
 |0047|Permutations II|[Go]({{< relref "/ChapterFour/0047.Permutations-II.md" >}})|Medium| O(n^2)| O(n)|❤️|49.1%|
-|0051|N-Queens|[Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})|Hard| O(n^2)| O(n)|❤️|49.2%|
-|0052|N-Queens II|[Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})|Hard| O(n^2)| O(n)|❤️|59.8%|
+|0051|N-Queens|[Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})|Hard| O(n!)| O(n)|❤️|49.2%|
+|0052|N-Queens II|[Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})|Hard| O(n!)| O(n)|❤️|59.8%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.2%|
 |0077|Combinations|[Go]({{< relref "/ChapterFour/0077.Combinations.md" >}})|Medium| O(n)| O(n)|❤️|57.0%|
 |0078|Subsets|[Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.6%|
@@ -135,6 +135,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})|Hard||||35.1%|
 |1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||83.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
 
 
 ----------------------------------------------

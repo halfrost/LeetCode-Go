@@ -27,7 +27,7 @@ type: docs
 |0785|Is Graph Bipartite?|[Go]({{< relref "/ChapterFour/0785.Is-Graph-Bipartite.md" >}})|Medium||||48.2%|
 |0815|Bus Routes|[Go]({{< relref "/ChapterFour/0815.Bus-Routes.md" >}})|Hard||||43.3%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||57.5%|
-|0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||41.6%|
+|0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||41.5%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.6%|
 |1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||54.9%|

@@ -131,7 +131,7 @@ type: docs
 |1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1287.Element-Appearing-More-Than-25-In-Sorted-Array.md" >}})|Easy||||60.2%|
 |1295|Find Numbers with Even Number of Digits|[Go]({{< relref "/ChapterFour/1295.Find-Numbers-with-Even-Number-of-Digits.md" >}})|Easy||||79.3%|
 |1299|Replace Elements with Greatest Element on Right Side|[Go]({{< relref "/ChapterFour/1299.Replace-Elements-with-Greatest-Element-on-Right-Side.md" >}})|Easy||||74.3%|
-|1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.3%|
+|1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.2%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.8%|
 |1313|Decompress Run-Length Encoded List|[Go]({{< relref "/ChapterFour/1313.Decompress-Run-Length-Encoded-List.md" >}})|Easy||||85.4%|
 |1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.8%|
@@ -144,7 +144,7 @@ type: docs
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.9%|
 |1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.5%|
-|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||63.8%|
+|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||63.9%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.1%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

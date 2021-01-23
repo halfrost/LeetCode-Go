@@ -29,7 +29,7 @@ type: docs
 |0274|H-Index|[Go]({{< relref "/ChapterFour/0274.H-Index.md" >}})|Medium|  O(n)| O(n) ||36.3%|
 |0290|Word Pattern|[Go]({{< relref "/ChapterFour/0290.Word-Pattern.md" >}})|Easy|  O(n)| O(n) ||38.3%|
 |0347|Top K Frequent Elements|[Go]({{< relref "/ChapterFour/0347.Top-K-Frequent-Elements.md" >}})|Medium|  O(n)| O(n) ||62.2%|
-|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.4%|
+|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||53.7%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0389.Find-the-Difference.md" >}})|Easy||||57.7%|
@@ -75,7 +75,7 @@ type: docs
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.9%|
-|1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.4%|
+|1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
