@@ -5,8 +5,8 @@
 |40. Combination Sum II | [Go]({{< relref "/ChapterFour/0040.Combination-Sum-II.md" >}})| Medium | O(n log n)| O(n)||
 |46. Permutations | [Go]({{< relref "/ChapterFour/0046.Permutations.md" >}})| Medium | O(n)| O(n)|❤️|
 |47. Permutations II | [Go]({{< relref "/ChapterFour/0047.Permutations-II.md" >}})| Medium | O(n^2)| O(n)|❤️|
-|51. N-Queens | [Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})| Hard | O(n^2)| O(n)|❤️|
-|52. N-Queens II  | [Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})| Hard | O(n^2)| O(n)|❤️|
+|51. N-Queens | [Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})| Hard | O(n!)| O(n)|❤️|
+|52. N-Queens II  | [Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})| Hard | O(n!)| O(n)|❤️|
 |60. Permutation Sequence  | [Go]({{< relref "/ChapterFour/0060.Permutation-Sequence.md" >}})| Medium | O(n log n)| O(1)||
 |77. Combinations  | [Go]({{< relref "/ChapterFour/0077.Combinations.md" >}})| Medium | O(n)| O(n)|❤️|
 |78. Subsets   | [Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})| Medium | O(n^2)| O(n)|❤️|
