@@ -34,7 +34,7 @@ type: docs
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||59.7%|
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||55.8%|
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0222.Count-Complete-Tree-Nodes.md" >}})|Medium| O(n)| O(1)||48.9%|
-|0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0226.Invert-Binary-Tree.md" >}})|Easy| O(n)| O(1)||66.6%|
+|0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0226.Invert-Binary-Tree.md" >}})|Easy| O(n)| O(1)||66.7%|
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium| O(n)| O(1)||62.2%|
 |0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||51.4%|
 |0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||48.2%|
@@ -43,24 +43,24 @@ type: docs
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0404.Sum-of-Left-Leaves.md" >}})|Easy| O(n)| O(1)||52.2%|
 |0437|Path Sum III|[Go]({{< relref "/ChapterFour/0437.Path-Sum-III.md" >}})|Medium| O(n)| O(1)||48.0%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||58.9%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.4%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.3%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.0%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.4%|
-|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||64.5%|
+|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||64.6%|
 |0653|Two Sum IV - Input is a BST|[Go]({{< relref "/ChapterFour/0653.Two-Sum-IV---Input-is-a-BST.md" >}})|Easy||||56.2%|
 |0662|Maximum Width of Binary Tree|[Go]({{< relref "/ChapterFour/0662.Maximum-Width-of-Binary-Tree.md" >}})|Medium||||40.0%|
 |0684|Redundant Connection|[Go]({{< relref "/ChapterFour/0684.Redundant-Connection.md" >}})|Medium||||58.8%|
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0685.Redundant-Connection-II.md" >}})|Hard||||32.9%|
 |0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||45.6%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||57.5%|
-|0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.5%|
+|0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.6%|
 |0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||74.4%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.5%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||69.5%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.2%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.7%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.8%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.6%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||67.9%|
 |1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.4%|

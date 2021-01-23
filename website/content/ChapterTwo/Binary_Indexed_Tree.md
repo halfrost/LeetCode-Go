@@ -10,7 +10,7 @@ type: docs
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0218.The-Skyline-Problem.md" >}})|Hard||||36.1%|
-|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})|Medium||||36.6%|
+|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})|Medium||||36.5%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.6%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})|Hard||||35.9%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard||||26.6%|

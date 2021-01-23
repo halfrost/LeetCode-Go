@@ -42,9 +42,9 @@ type: docs
 |0148|Sort List|[Go]({{< relref "/ChapterFour/0148.Sort-List.md" >}})|Medium| O(n log n)| O(n)|❤️|45.9%|
 |0160|Intersection of Two Linked Lists|[Go]({{< relref "/ChapterFour/0160.Intersection-of-Two-Linked-Lists.md" >}})|Easy| O(n)| O(1)|❤️|42.7%|
 |0203|Remove Linked List Elements|[Go]({{< relref "/ChapterFour/0203.Remove-Linked-List-Elements.md" >}})|Easy| O(n)| O(1)||39.1%|
-|0206|Reverse Linked List|[Go]({{< relref "/ChapterFour/0206.Reverse-Linked-List.md" >}})|Easy| O(n)| O(1)||64.8%|
+|0206|Reverse Linked List|[Go]({{< relref "/ChapterFour/0206.Reverse-Linked-List.md" >}})|Easy| O(n)| O(1)||64.9%|
 |0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0234.Palindrome-Linked-List.md" >}})|Easy| O(n)| O(1)||40.3%|
-|0237|Delete Node in a Linked List|[Go]({{< relref "/ChapterFour/0237.Delete-Node-in-a-Linked-List.md" >}})|Easy| O(n)| O(1)||66.3%|
+|0237|Delete Node in a Linked List|[Go]({{< relref "/ChapterFour/0237.Delete-Node-in-a-Linked-List.md" >}})|Easy| O(n)| O(1)||66.4%|
 |0328|Odd Even Linked List|[Go]({{< relref "/ChapterFour/0328.Odd-Even-Linked-List.md" >}})|Medium| O(n)| O(1)||56.9%|
 |0445|Add Two Numbers II|[Go]({{< relref "/ChapterFour/0445.Add-Two-Numbers-II.md" >}})|Medium| O(n)| O(n)||56.1%|
 |0707|Design Linked List|[Go]({{< relref "/ChapterFour/0707.Design-Linked-List.md" >}})|Medium| O(n)| O(1)||25.8%|
@@ -54,8 +54,8 @@ type: docs
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.2%|
 |1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go]({{< relref "/ChapterFour/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List.md" >}})|Medium||||41.5%|
 |1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.7%|
-|1669|Merge In Between Linked Lists|[Go]({{< relref "/ChapterFour/1669.Merge-In-Between-Linked-Lists.md" >}})|Medium||||78.1%|
-|1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.7%|
+|1669|Merge In Between Linked Lists|[Go]({{< relref "/ChapterFour/1669.Merge-In-Between-Linked-Lists.md" >}})|Medium||||78.0%|
+|1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

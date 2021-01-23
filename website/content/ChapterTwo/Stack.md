@@ -16,10 +16,10 @@ type: docs
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.7%|
+|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.8%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.8%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|33.6%|
-|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.8%|
+|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||49.8%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.2%|
@@ -48,13 +48,13 @@ type: docs
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.2%|
 |0901|Online Stock Span|[Go]({{< relref "/ChapterFour/0901.Online-Stock-Span.md" >}})|Medium| O(n)| O(n)  ||61.2%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|33.2%|
-|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.6%|
-|0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||63.4%|
+|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.7%|
+|0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||63.5%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.2%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.2%|
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||78.7%|
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||70.3%|
-|1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||44.4%|
+|1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

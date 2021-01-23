@@ -46,7 +46,7 @@ type: docs
 |1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1122.Relative-Sort-Array.md" >}})|Easy||||67.8%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
 |1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||77.8%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||61.2%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.9%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||53.8%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

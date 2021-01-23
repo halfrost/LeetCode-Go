@@ -26,23 +26,23 @@ type: docs
 |0124|Binary Tree Maximum Path Sum|[Go]({{< relref "/ChapterFour/0124.Binary-Tree-Maximum-Path-Sum.md" >}})|Hard| O(n)| O(1)||35.3%|
 |0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||50.6%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0130.Surrounded-Regions.md" >}})|Medium||||29.2%|
-|0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0131.Palindrome-Partitioning.md" >}})|Medium||||51.4%|
+|0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0131.Palindrome-Partitioning.md" >}})|Medium||||51.5%|
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||55.8%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||48.7%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.3%|
 |0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||42.3%|
-|0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||39.8%|
+|0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||39.9%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.2%|
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||44.5%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0337.House-Robber-III.md" >}})|Medium||||51.7%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.4%|
 |0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0491.Increasing-Subsequences.md" >}})|Medium||||47.4%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0494.Target-Sum.md" >}})|Medium||||45.8%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.4%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.3%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.0%|
 |0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0526.Beautiful-Arrangement.md" >}})|Medium||||61.7%|
 |0529|Minesweeper|[Go]({{< relref "/ChapterFour/0529.Minesweeper.md" >}})|Medium||||60.7%|
-|0542|01 Matrix|[Go]({{< relref "/ChapterFour/0542.01-Matrix.md" >}})|Medium| O(n)| O(1)||40.6%|
+|0542|01 Matrix|[Go]({{< relref "/ChapterFour/0542.01-Matrix.md" >}})|Medium| O(n)| O(1)||40.7%|
 |0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0547.Number-of-Provinces.md" >}})|Medium||||60.2%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0638.Shopping-Offers.md" >}})|Medium||||52.6%|
@@ -60,7 +60,7 @@ type: docs
 |0841|Keys and Rooms|[Go]({{< relref "/ChapterFour/0841.Keys-and-Rooms.md" >}})|Medium||||65.2%|
 |0851|Loud and Rich|[Go]({{< relref "/ChapterFour/0851.Loud-and-Rich.md" >}})|Medium||||52.5%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||57.5%|
-|0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.5%|
+|0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.6%|
 |0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||74.4%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0924.Minimize-Malware-Spread.md" >}})|Hard||||41.8%|
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.2%|
@@ -71,14 +71,15 @@ type: docs
 |0980|Unique Paths III|[Go]({{< relref "/ChapterFour/0980.Unique-Paths-III.md" >}})|Hard| O(n log n)| O(n)||77.2%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1020.Number-of-Enclaves.md" >}})|Medium||||58.7%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.2%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.7%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.8%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.6%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||67.9%|
 |1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.4%|
-|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||49.0%|
-|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.4%|
+|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||49.1%|
+|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.5%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.1%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1306.Jump-Game-III.md" >}})|Medium||||62.6%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||54.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

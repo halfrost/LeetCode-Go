@@ -37,7 +37,7 @@ type: docs
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0218.The-Skyline-Problem.md" >}})|Hard| O(n log n)| O(n)|❤️|36.1%|
-|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})|Medium| O(1)| O(n)||36.6%|
+|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})|Medium| O(1)| O(n)||36.5%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard| O(n log n)| O(n)||42.6%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})|Hard| O(n log n)| O(n)|❤️|35.9%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard| O(n log n)| O(n)||26.6%|

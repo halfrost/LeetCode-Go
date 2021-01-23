@@ -13,7 +13,7 @@ type: docs
 |0018|4Sum|[Go]({{< relref "/ChapterFour/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
 |0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||50.2%|
-|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.0%|
+|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.1%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.9%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
@@ -38,11 +38,11 @@ type: docs
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||52.4%|
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||64.2%|
 |0454|4Sum II|[Go]({{< relref "/ChapterFour/0454.4Sum-II.md" >}})|Medium| O(n^2)| O(n) ||54.5%|
-|0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0463.Island-Perimeter.md" >}})|Easy||||66.5%|
+|0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0463.Island-Perimeter.md" >}})|Easy||||66.6%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500.Keyboard-Row.md" >}})|Easy||||65.5%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||58.9%|
 |0575|Distribute Candies|[Go]({{< relref "/ChapterFour/0575.Distribute-Candies.md" >}})|Easy||||61.9%|
-|0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||47.8%|
+|0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||47.7%|
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||51.5%|
 |0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.0%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0645.Set-Mismatch.md" >}})|Easy||||42.5%|
@@ -74,7 +74,7 @@ type: docs
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||71.6%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||61.2%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.9%|
 |1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
