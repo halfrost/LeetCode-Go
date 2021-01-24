@@ -9,7 +9,7 @@ type: docs
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
-|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.1%|
+|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.2%|
 |0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n^2)| O(n)||54.2%|
 |0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.6%|
 |0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.2%|
@@ -19,7 +19,7 @@ type: docs
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||49.8%|
 |0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||67.8%|
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.3%|
-|0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.2%|
+|0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.3%|
 |0107|Binary Tree Level Order Traversal II|[Go]({{< relref "/ChapterFour/0107.Binary-Tree-Level-Order-Traversal-II.md" >}})|Easy| O(n)| O(1)||54.9%|
 |0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.0%|
 |0110|Balanced Binary Tree|[Go]({{< relref "/ChapterFour/0110.Balanced-Binary-Tree.md" >}})|Easy| O(n)| O(1)||44.6%|
@@ -36,15 +36,15 @@ type: docs
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0222.Count-Complete-Tree-Nodes.md" >}})|Medium| O(n)| O(1)||48.9%|
 |0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0226.Invert-Binary-Tree.md" >}})|Easy| O(n)| O(1)||66.7%|
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium| O(n)| O(1)||62.2%|
-|0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||51.4%|
+|0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||51.5%|
 |0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||48.2%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.2%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0337.House-Robber-III.md" >}})|Medium||||51.7%|
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0404.Sum-of-Left-Leaves.md" >}})|Easy| O(n)| O(1)||52.2%|
 |0437|Path Sum III|[Go]({{< relref "/ChapterFour/0437.Path-Sum-III.md" >}})|Medium| O(n)| O(1)||48.0%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||58.9%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.3%|
-|0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.0%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.4%|
+|0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.1%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0563.Binary-Tree-Tilt.md" >}})|Easy||||52.7%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.4%|
 |0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||64.6%|

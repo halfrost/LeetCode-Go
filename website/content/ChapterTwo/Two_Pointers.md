@@ -44,7 +44,7 @@ type: docs
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.8%|
 |0061|Rotate List|[Go]({{< relref "/ChapterFour/0061.Rotate-List.md" >}})|Medium| O(n)| O(1)||31.6%|
 |0075|Sort Colors|[Go]({{< relref "/ChapterFour/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.0%|
-|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
+|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.8%|
 |0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||45.9%|
 |0086|Partition List|[Go]({{< relref "/ChapterFour/0086.Partition-List.md" >}})|Medium| O(n)| O(1)|❤️|43.1%|
 |0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
@@ -56,7 +56,7 @@ type: docs
 |0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0234.Palindrome-Linked-List.md" >}})|Easy| O(n)| O(1)||40.3%|
 |0283|Move Zeroes|[Go]({{< relref "/ChapterFour/0283.Move-Zeroes.md" >}})|Easy| O(n)| O(1)||58.5%|
 |0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.2%|
-|0344|Reverse String|[Go]({{< relref "/ChapterFour/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.0%|
+|0344|Reverse String|[Go]({{< relref "/ChapterFour/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.1%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||44.9%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
@@ -69,7 +69,7 @@ type: docs
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|
 |0763|Partition Labels|[Go]({{< relref "/ChapterFour/0763.Partition-Labels.md" >}})|Medium| O(n)| O(1)|❤️|77.9%|
 |0826|Most Profit Assigning Work|[Go]({{< relref "/ChapterFour/0826.Most-Profit-Assigning-Work.md" >}})|Medium| O(n log n)| O(n)||39.0%|
-|0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard| O(n)| O(1)|❤️|46.8%|
+|0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard| O(n)| O(1)|❤️|46.7%|
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.7%|
 |0844|Backspace String Compare|[Go]({{< relref "/ChapterFour/0844.Backspace-String-Compare.md" >}})|Easy| O(n)| O(n) ||46.8%|
 |0845|Longest Mountain in Array|[Go]({{< relref "/ChapterFour/0845.Longest-Mountain-in-Array.md" >}})|Medium| O(n)| O(1) ||38.5%|
@@ -78,7 +78,7 @@ type: docs
 |0923|3Sum With Multiplicity|[Go]({{< relref "/ChapterFour/0923.3Sum-With-Multiplicity.md" >}})|Medium| O(n^2)| O(n) ||36.1%|
 |0925|Long Pressed Name|[Go]({{< relref "/ChapterFour/0925.Long-Pressed-Name.md" >}})|Easy| O(n)| O(1)||38.3%|
 |0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.3%|
-|0977|Squares of a Sorted Array|[Go]({{< relref "/ChapterFour/0977.Squares-of-a-Sorted-Array.md" >}})|Easy| O(n)| O(1)||72.3%|
+|0977|Squares of a Sorted Array|[Go]({{< relref "/ChapterFour/0977.Squares-of-a-Sorted-Array.md" >}})|Easy| O(n)| O(1)||72.2%|
 |0986|Interval List Intersections|[Go]({{< relref "/ChapterFour/0986.Interval-List-Intersections.md" >}})|Medium| O(n)| O(1)||68.1%|
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)|❤️|50.5%|
 |1004|Max Consecutive Ones III|[Go]({{< relref "/ChapterFour/1004.Max-Consecutive-Ones-III.md" >}})|Medium| O(n)| O(1) ||60.6%|

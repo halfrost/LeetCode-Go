@@ -175,11 +175,11 @@ func peakIndexInMountainArray(A []int) int {
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.2%|
 |0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||32.5%|
 |0744|Find Smallest Letter Greater Than Target|[Go]({{< relref "/ChapterFour/0744.Find-Smallest-Letter-Greater-Than-Target.md" >}})|Easy||||45.6%|
-|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.4%|
+|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.5%|
 |0786|K-th Smallest Prime Fraction|[Go]({{< relref "/ChapterFour/0786.K-th-Smallest-Prime-Fraction.md" >}})|Hard||||41.9%|
-|0793|Preimage Size of Factorial Zeroes Function|[Go]({{< relref "/ChapterFour/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})|Hard||||40.6%|
+|0793|Preimage Size of Factorial Zeroes Function|[Go]({{< relref "/ChapterFour/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})|Hard||||40.7%|
 |0852|Peak Index in a Mountain Array|[Go]({{< relref "/ChapterFour/0852.Peak-Index-in-a-Mountain-Array.md" >}})|Easy||||71.8%|
-|0862|Shortest Subarray with Sum at Least K|[Go]({{< relref "/ChapterFour/0862.Shortest-Subarray-with-Sum-at-Least-K.md" >}})|Hard||||25.1%|
+|0862|Shortest Subarray with Sum at Least K|[Go]({{< relref "/ChapterFour/0862.Shortest-Subarray-with-Sum-at-Least-K.md" >}})|Hard||||25.2%|
 |0875|Koko Eating Bananas|[Go]({{< relref "/ChapterFour/0875.Koko-Eating-Bananas.md" >}})|Medium||||53.4%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0878.Nth-Magical-Number.md" >}})|Hard||||28.9%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
@@ -191,7 +191,7 @@ func peakIndexInMountainArray(A []int) int {
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||39.6%|
 |1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||59.5%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1201.Ugly-Number-III.md" >}})|Medium||||26.4%|
-|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||46.9%|
+|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.0%|
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||49.3%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.2%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.2%|

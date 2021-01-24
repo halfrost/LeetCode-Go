@@ -99,12 +99,12 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.7%|
+|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.8%|
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||64.9%|
 |0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.1%|
-|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.8%|
+|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.9%|
 |0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
-|0046|Permutations|[Go]({{< relref "/ChapterFour/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.1%|
+|0046|Permutations|[Go]({{< relref "/ChapterFour/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.2%|
 |0047|Permutations II|[Go]({{< relref "/ChapterFour/0047.Permutations-II.md" >}})|Medium| O(n^2)| O(n)|❤️|49.1%|
 |0051|N-Queens|[Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})|Hard| O(n!)| O(n)|❤️|49.2%|
 |0052|N-Queens II|[Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})|Hard| O(n!)| O(n)|❤️|59.8%|
@@ -124,7 +124,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.8%|
 |0401|Binary Watch|[Go]({{< relref "/ChapterFour/0401.Binary-Watch.md" >}})|Easy| O(1)| O(1)||48.3%|
 |0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0526.Beautiful-Arrangement.md" >}})|Medium| O(n^2)| O(1)|❤️|61.7%|
-|0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})|Medium| O(n)| O(n)||66.2%|
+|0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})|Medium| O(n)| O(n)||66.3%|
 |0842|Split Array into Fibonacci Sequence|[Go]({{< relref "/ChapterFour/0842.Split-Array-into-Fibonacci-Sequence.md" >}})|Medium| O(n^2)| O(1)|❤️|36.7%|
 |0980|Unique Paths III|[Go]({{< relref "/ChapterFour/0980.Unique-Paths-III.md" >}})|Hard| O(n log n)| O(n)||77.2%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.0%|
@@ -132,7 +132,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.3%|
 |1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.5%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.2%|
-|1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})|Hard||||35.1%|
+|1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})|Hard||||35.2%|
 |1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||83.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

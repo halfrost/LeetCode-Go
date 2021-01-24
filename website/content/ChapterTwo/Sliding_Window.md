@@ -29,10 +29,10 @@ type: docs
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0003|Longest Substring Without Repeating Characters|[Go]({{< relref "/ChapterFour/0003.Longest-Substring-Without-Repeating-Characters.md" >}})|Medium| O(n)| O(1)|❤️|31.3%|
-|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
+|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.8%|
 |0239|Sliding Window Maximum|[Go]({{< relref "/ChapterFour/0239.Sliding-Window-Maximum.md" >}})|Hard| O(n * k)| O(n)|❤️|44.5%|
 |0424|Longest Repeating Character Replacement|[Go]({{< relref "/ChapterFour/0424.Longest-Repeating-Character-Replacement.md" >}})|Medium| O(n)| O(1) ||48.0%|
-|0480|Sliding Window Median|[Go]({{< relref "/ChapterFour/0480.Sliding-Window-Median.md" >}})|Hard| O(n * log k)| O(k)|❤️|38.4%|
+|0480|Sliding Window Median|[Go]({{< relref "/ChapterFour/0480.Sliding-Window-Median.md" >}})|Hard| O(n * log k)| O(k)|❤️|38.5%|
 |0567|Permutation in String|[Go]({{< relref "/ChapterFour/0567.Permutation-in-String.md" >}})|Medium| O(n)| O(1)|❤️|44.6%|
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium| O(n)| O(1)|❤️|46.6%|
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)|❤️|50.5%|

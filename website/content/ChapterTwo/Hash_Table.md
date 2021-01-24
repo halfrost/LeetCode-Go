@@ -8,14 +8,14 @@ type: docs
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0001|Two Sum|[Go]({{< relref "/ChapterFour/0001.Two-Sum.md" >}})|Easy| O(n)| O(n)||46.2%|
+|0001|Two Sum|[Go]({{< relref "/ChapterFour/0001.Two-Sum.md" >}})|Easy| O(n)| O(n)||46.3%|
 |0003|Longest Substring Without Repeating Characters|[Go]({{< relref "/ChapterFour/0003.Longest-Substring-Without-Repeating-Characters.md" >}})|Medium| O(n)| O(1)|❤️|31.3%|
 |0018|4Sum|[Go]({{< relref "/ChapterFour/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
-|0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||50.2%|
+|0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||50.3%|
 |0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.1%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||58.9%|
-|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.7%|
+|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.8%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0136.Single-Number.md" >}})|Easy||||66.4%|
 |0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||39.6%|
@@ -42,12 +42,12 @@ type: docs
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500.Keyboard-Row.md" >}})|Easy||||65.5%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||58.9%|
 |0575|Distribute Candies|[Go]({{< relref "/ChapterFour/0575.Distribute-Candies.md" >}})|Easy||||61.9%|
-|0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||47.7%|
+|0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||47.8%|
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||51.5%|
 |0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.0%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0645.Set-Mismatch.md" >}})|Easy||||42.5%|
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||58.2%|
-|0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.1%|
+|0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.2%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0705.Design-HashSet.md" >}})|Easy||||64.6%|
 |0706|Design HashMap|[Go]({{< relref "/ChapterFour/0706.Design-HashMap.md" >}})|Easy||||62.6%|
 |0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||32.6%|
@@ -56,7 +56,7 @@ type: docs
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.0%|
 |0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.4%|
 |0748|Shortest Completing Word|[Go]({{< relref "/ChapterFour/0748.Shortest-Completing-Word.md" >}})|Easy||||57.4%|
-|0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0771.Jewels-and-Stones.md" >}})|Easy||||86.8%|
+|0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0771.Jewels-and-Stones.md" >}})|Easy||||86.9%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0781.Rabbits-in-Forest.md" >}})|Medium||||55.4%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0811.Subdomain-Visit-Count.md" >}})|Easy||||71.2%|
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.0%|
@@ -69,12 +69,12 @@ type: docs
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)  |❤️|50.5%|
 |1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1002.Find-Common-Characters.md" >}})|Easy||||68.2%|
 |1078|Occurrences After Bigram|[Go]({{< relref "/ChapterFour/1078.Occurrences-After-Bigram.md" >}})|Easy||||64.8%|
-|1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.5%|
+|1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.6%|
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||61.7%|
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||71.6%|
-|1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
+|1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.8%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.9%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.8%|
 |1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

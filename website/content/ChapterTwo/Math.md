@@ -63,7 +63,7 @@ type: docs
 |0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.5%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.0%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1017.Convert-to-Base--2.md" >}})|Medium||||59.6%|
-|1025|Divisor Game|[Go]({{< relref "/ChapterFour/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
+|1025|Divisor Game|[Go]({{< relref "/ChapterFour/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.2%|
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1037.Valid-Boomerang.md" >}})|Easy||||37.9%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.8%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||49.4%|
@@ -74,9 +74,9 @@ type: docs
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.8%|
 |1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.6%|
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||56.8%|
-|1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.9%|
+|1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.8%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.3%|
-|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
+|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.8%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||45.1%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||61.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
