@@ -42,7 +42,7 @@ type: docs
 |1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium| O(n log n)| O(1) ||55.7%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard| O(n^3)| O(n) |❤️|61.5%|
 |1208|Get Equal Substrings Within Budget|[Go]({{< relref "/ChapterFour/1208.Get-Equal-Substrings-Within-Budget.md" >}})|Medium||||43.7%|
-|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
+|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

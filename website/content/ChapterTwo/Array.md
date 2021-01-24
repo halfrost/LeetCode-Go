@@ -77,6 +77,7 @@ type: docs
 |0605|Can Place Flowers|[Go]({{< relref "/ChapterFour/0605.Can-Place-Flowers.md" >}})|Easy||||31.9%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||47.0%|
 |0661|Image Smoother|[Go]({{< relref "/ChapterFour/0661.Image-Smoother.md" >}})|Easy||||52.2%|
+|0674|Longest Continuous Increasing Subsequence|[Go]({{< relref "/ChapterFour/0674.Longest-Continuous-Increasing-Subsequence.md" >}})|Easy||||46.0%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0695.Max-Area-of-Island.md" >}})|Medium||||64.4%|
 |0697|Degree of an Array|[Go]({{< relref "/ChapterFour/0697.Degree-of-an-Array.md" >}})|Easy||||54.4%|
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|

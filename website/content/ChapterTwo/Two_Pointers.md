@@ -84,7 +84,7 @@ type: docs
 |1004|Max Consecutive Ones III|[Go]({{< relref "/ChapterFour/1004.Max-Consecutive-Ones-III.md" >}})|Medium| O(n)| O(1) ||60.6%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1093.Statistics-from-a-Large-Sample.md" >}})|Medium| O(n)| O(1) ||49.4%|
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.4%|
-|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
+|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.4%|
 |1695|Maximum Erasure Value|[Go]({{< relref "/ChapterFour/1695.Maximum-Erasure-Value.md" >}})|Medium||||49.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

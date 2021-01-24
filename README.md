@@ -126,15 +126,15 @@
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |Optimizing|38|45|16|99|
-|Accepted|**249**|**321**|**96**|**666**|
+|Accepted|**250**|**321**|**96**|**667**|
 |Total|461|908|370|1739|
-|Perfection Rate|84.7%|86.0%|83.3%|85.1%|
-|Completion Rate|54.0%|35.4%|25.9%|38.3%|
+|Perfection Rate|84.8%|86.0%|83.3%|85.2%|
+|Completion Rate|54.2%|35.4%|25.9%|38.4%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 567 道题的题解，还有 13 道题在尝试优化到 beats 100%
+以下已经收录了 568 道题的题解，还有 13 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -444,7 +444,7 @@
 |0304|Range Sum Query 2D - Immutable||40.3%|Medium||
 |0305|Number of Islands II||39.8%|Hard||
 |0306|Additive Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0306.Additive-Number)|29.6%|Medium||
-|0307|Range Sum Query - Mutable|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0307.Range-Sum-Query---Mutable)|36.5%|Medium||
+|0307|Range Sum Query - Mutable|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0307.Range-Sum-Query---Mutable)|36.6%|Medium||
 |0308|Range Sum Query 2D - Mutable||37.3%|Hard||
 |0309|Best Time to Buy and Sell Stock with Cooldown|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown)|48.1%|Medium||
 |0310|Minimum Height Trees||34.5%|Medium||
@@ -608,7 +608,7 @@
 |0468|Validate IP Address||24.8%|Medium||
 |0469|Convex Polygon||37.4%|Medium||
 |0470|Implement Rand10() Using Rand7()|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0470.Implement-Rand10()-Using-Rand7())|46.0%|Medium||
-|0471|Encode String with Shortest Length||48.9%|Hard||
+|0471|Encode String with Shortest Length||49.0%|Hard||
 |0472|Concatenated Words||44.4%|Hard||
 |0473|Matchsticks to Square||38.2%|Medium||
 |0474|Ones and Zeroes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0474.Ones-and-Zeroes)|43.5%|Medium||
@@ -811,7 +811,7 @@
 |0671|Second Minimum Node In a Binary Tree||42.8%|Easy||
 |0672|Bulb Switcher II||51.1%|Medium||
 |0673|Number of Longest Increasing Subsequence||38.4%|Medium||
-|0674|Longest Continuous Increasing Subsequence||46.0%|Easy||
+|0674|Longest Continuous Increasing Subsequence|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0674.Longest-Continuous-Increasing-Subsequence)|46.0%|Easy||
 |0675|Cut Off Trees for Golf Event||35.2%|Hard||
 |0676|Implement Magic Dictionary|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0676.Implement-Magic-Dictionary)|55.2%|Medium||
 |0677|Map Sum Pairs||53.9%|Medium||
@@ -826,7 +826,7 @@
 |0686|Repeated String Match||32.8%|Medium||
 |0687|Longest Univalue Path||37.1%|Medium||
 |0688|Knight Probability in Chessboard||50.0%|Medium||
-|0689|Maximum Sum of 3 Non-Overlapping Subarrays||47.1%|Hard||
+|0689|Maximum Sum of 3 Non-Overlapping Subarrays||47.2%|Hard||
 |0690|Employee Importance||58.5%|Easy||
 |0691|Stickers to Spell Word||44.3%|Hard||
 |0692|Top K Frequent Words||52.9%|Medium||
@@ -946,7 +946,7 @@
 |0806|Number of Lines To Write String||65.5%|Easy||
 |0807|Max Increase to Keep City Skyline||84.3%|Medium||
 |0808|Soup Servings||40.9%|Medium||
-|0809|Expressive Words||46.6%|Medium||
+|0809|Expressive Words||46.5%|Medium||
 |0810|Chalkboard XOR Game||49.4%|Hard||
 |0811|Subdomain Visit Count|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0811.Subdomain-Visit-Count)|71.2%|Easy||
 |0812|Largest Triangle Area|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0812.Largest-Triangle-Area)|58.9%|Easy||
@@ -1093,7 +1093,7 @@
 |0953|Verifying an Alien Dictionary|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0953.Verifying-an-Alien-Dictionary)|52.5%|Easy||
 |0954|Array of Doubled Pairs||35.3%|Medium||
 |0955|Delete Columns to Make Sorted II||33.7%|Medium||
-|0956|Tallest Billboard||39.8%|Hard||
+|0956|Tallest Billboard||39.7%|Hard||
 |0957|Prison Cells After N Days||40.2%|Medium||
 |0958|Check Completeness of a Binary Tree||52.4%|Medium||
 |0959|Regions Cut By Slashes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0959.Regions-Cut-By-Slashes)|66.9%|Medium||
@@ -1363,7 +1363,7 @@
 |1223|Dice Roll Simulation||46.6%|Hard||
 |1224|Maximum Equal Frequency||34.5%|Hard||
 |1225|Report Contiguous Dates||62.6%|Hard||
-|1226|The Dining Philosophers||59.8%|Medium||
+|1226|The Dining Philosophers||59.7%|Medium||
 |1227|Airplane Seat Assignment Probability||62.1%|Medium||
 |1228|Missing Number In Arithmetic Progression||51.6%|Easy||
 |1229|Meeting Scheduler||54.3%|Medium||
@@ -1403,7 +1403,7 @@
 |1263|Minimum Moves to Move a Box to Their Target Location||43.1%|Hard||
 |1264|Page Recommendations||69.1%|Medium||
 |1265|Print Immutable Linked List in Reverse||94.4%|Medium||
-|1266|Minimum Time Visiting All Points|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1266.Minimum-Time-Visiting-All-Points)|79.5%|Easy||
+|1266|Minimum Time Visiting All Points|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1266.Minimum-Time-Visiting-All-Points)|79.4%|Easy||
 |1267|Count Servers that Communicate||57.8%|Medium||
 |1268|Search Suggestions System||64.5%|Medium||
 |1269|Number of Ways to Stay in the Same Place After Some Steps||43.3%|Hard||
@@ -1459,7 +1459,7 @@
 |1319|Number of Operations to Make Network Connected|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1319.Number-of-Operations-to-Make-Network-Connected)|54.9%|Medium||
 |1320|Minimum Distance to Type a Word Using Two Fingers||62.9%|Hard||
 |1321|Restaurant Growth||70.8%|Medium||
-|1322|Ads Performance||57.8%|Easy||
+|1322|Ads Performance||57.7%|Easy||
 |1323|Maximum 69 Number||78.0%|Easy||
 |1324|Print Words Vertically||58.6%|Medium||
 |1325|Delete Leaves With a Given Value||73.6%|Medium||
@@ -1467,7 +1467,7 @@
 |1327|List the Products Ordered in a Period||77.4%|Easy||
 |1328|Break a Palindrome||45.8%|Medium||
 |1329|Sort the Matrix Diagonally|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1329.Sort-the-Matrix-Diagonally)|81.7%|Medium||
-|1330|Reverse Subarray To Maximize Array Value||36.5%|Hard||
+|1330|Reverse Subarray To Maximize Array Value||36.6%|Hard||
 |1331|Rank Transform of an Array||57.7%|Easy||
 |1332|Remove Palindromic Subsequences||62.8%|Easy||
 |1333|Filter Restaurants by Vegan-Friendly, Price and Distance||57.0%|Medium||
@@ -1543,7 +1543,7 @@
 |1403|Minimum Subsequence in Non-Increasing Order||71.1%|Easy||
 |1404|Number of Steps to Reduce a Number in Binary Representation to One||49.9%|Medium||
 |1405|Longest Happy String||52.2%|Medium||
-|1406|Stone Game III||57.3%|Hard||
+|1406|Stone Game III||57.2%|Hard||
 |1407|Top Travellers||83.6%|Easy||
 |1408|String Matching in an Array||62.8%|Easy||
 |1409|Queries on a Permutation With Key||81.4%|Medium||
@@ -1619,7 +1619,7 @@
 |1479|Sales by Day of the Week||83.5%|Hard||
 |1480|Running Sum of 1d Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1480.Running-Sum-of-1d-Array)|89.5%|Easy||
 |1481|Least Number of Unique Integers after K Removals||55.6%|Medium||
-|1482|Minimum Number of Days to Make m Bouquets||49.8%|Medium||
+|1482|Minimum Number of Days to Make m Bouquets||49.9%|Medium||
 |1483|Kth Ancestor of a Tree Node||30.4%|Hard||
 |1484|Group Sold Products By The Date||85.9%|Easy||
 |1485|Clone Binary Tree With Random Pointer||79.4%|Medium||
@@ -1795,7 +1795,7 @@
 |1655|Distribute Repeating Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1655.Distribute-Repeating-Integers)|40.5%|Hard||
 |1656|Design an Ordered Stream|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1656.Design-an-Ordered-Stream)|82.1%|Easy||
 |1657|Determine if Two Strings Are Close|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1657.Determine-if-Two-Strings-Are-Close)|55.9%|Medium||
-|1658|Minimum Operations to Reduce X to Zero|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1658.Minimum-Operations-to-Reduce-X-to-Zero)|33.3%|Medium||
+|1658|Minimum Operations to Reduce X to Zero|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1658.Minimum-Operations-to-Reduce-X-to-Zero)|33.4%|Medium||
 |1659|Maximize Grid Happiness|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1659.Maximize-Grid-Happiness)|35.2%|Hard||
 |1660|Correct a Binary Tree||79.1%|Medium||
 |1661|Average Time of Process per Machine||79.5%|Easy||
@@ -1824,12 +1824,12 @@
 |1684|Count the Number of Consistent Strings|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1684.Count-the-Number-of-Consistent-Strings)|83.9%|Easy||
 |1685|Sum of Absolute Differences in a Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array)|61.7%|Medium||
 |1686|Stone Game VI||49.0%|Medium||
-|1687|Delivering Boxes from Storage to Ports||34.6%|Hard||
+|1687|Delivering Boxes from Storage to Ports||34.7%|Hard||
 |1688|Count of Matches in Tournament|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1688.Count-of-Matches-in-Tournament)|83.0%|Easy||
 |1689|Partitioning Into Minimum Number Of Deci-Binary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers)|87.9%|Medium||
 |1690|Stone Game VII|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1690.Stone-Game-VII)|47.0%|Medium||
 |1691|Maximum Height by Stacking Cuboids ||49.9%|Hard||
-|1692|Count Ways to Distribute Candies||61.6%|Hard||
+|1692|Count Ways to Distribute Candies||61.4%|Hard||
 |1693|Daily Leads and Partners||90.8%|Easy||
 |1694|Reformat Phone Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1694.Reformat-Phone-Number)|66.9%|Easy||
 |1695|Maximum Erasure Value|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1695.Maximum-Erasure-Value)|49.6%|Medium||
@@ -1842,7 +1842,7 @@
 |1702|Maximum Binary String After Change||61.2%|Medium||
 |1703|Minimum Adjacent Swaps for K Consecutive Ones||40.7%|Hard||
 |1704|Determine if String Halves Are Alike||78.2%|Easy||
-|1705|Maximum Number of Eaten Apples||42.2%|Medium||
+|1705|Maximum Number of Eaten Apples||42.3%|Medium||
 |1706|Where Will the Ball Fall||58.6%|Medium||
 |1707|Maximum XOR With an Element From Array||47.8%|Hard||
 |1708|Largest Subarray Length K||64.4%|Easy||
@@ -1850,13 +1850,13 @@
 |1710|Maximum Units on a Truck||70.8%|Easy||
 |1711|Count Good Meals||25.8%|Medium||
 |1712|Ways to Split Array Into Three Subarrays||29.9%|Medium||
-|1713|Minimum Operations to Make a Subsequence||45.5%|Hard||
+|1713|Minimum Operations to Make a Subsequence||45.4%|Hard||
 |1714|Sum Of Special Evenly-Spaced Elements In Array||47.8%|Hard||
 |1715|Count Apples and Oranges||78.2%|Medium||
 |1716|Calculate Money in Leetcode Bank||68.6%|Easy||
 |1717|Maximum Score From Removing Substrings||39.2%|Medium||
 |1718|Construct the Lexicographically Largest Valid Sequence||44.0%|Medium||
-|1719|Number Of Ways To Reconstruct A Tree||39.4%|Hard||
+|1719|Number Of Ways To Reconstruct A Tree||39.3%|Hard||
 |1720|Decode XORed Array||86.0%|Easy||
 |1721|Swapping Nodes in a Linked List||65.1%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||55.8%|Medium||
@@ -1866,17 +1866,17 @@
 |1726|Tuple with Same Product||53.9%|Medium||
 |1727|Largest Submatrix With Rearrangements||57.9%|Medium||
 |1728|Cat and Mouse II||40.5%|Hard||
-|1729|Find Followers Count||72.4%|Easy||
-|1730|Shortest Path to Get Food||64.3%|Medium||
-|1731|The Number of Employees Which Report to Each Employee||52.6%|Easy||
-|1732|Find the Highest Altitude||81.8%|Easy||
-|1733|Minimum Number of People to Teach||31.3%|Medium||
-|1734|Decode XORed Permutation||43.4%|Medium||
-|1735|Count Ways to Make Array With Product||39.5%|Hard||
+|1729|Find Followers Count||72.5%|Easy||
+|1730|Shortest Path to Get Food||64.4%|Medium||
+|1731|The Number of Employees Which Report to Each Employee||52.8%|Easy||
+|1732|Find the Highest Altitude||81.9%|Easy||
+|1733|Minimum Number of People to Teach||31.5%|Medium||
+|1734|Decode XORed Permutation||43.7%|Medium||
+|1735|Count Ways to Make Array With Product||39.9%|Hard||
 |1736|Latest Time by Replacing Hidden Digits||41.0%|Easy||
-|1737|Change Minimum Characters to Satisfy One of Three Conditions||23.1%|Medium||
-|1738|Find Kth Largest XOR Coordinate Value||60.0%|Medium||
-|1739|Building Boxes||42.3%|Hard||
+|1737|Change Minimum Characters to Satisfy One of Three Conditions||23.2%|Medium||
+|1738|Find Kth Largest XOR Coordinate Value||60.1%|Medium||
+|1739|Building Boxes||42.5%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------

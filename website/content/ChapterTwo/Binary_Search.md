@@ -195,7 +195,7 @@ func peakIndexInMountainArray(A []int) int {
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||49.3%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.2%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.2%|
-|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
+|1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

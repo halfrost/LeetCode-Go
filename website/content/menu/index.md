@@ -343,6 +343,7 @@ headless: true
     - [0661.Image-Smoother]({{< relref "/ChapterFour/0661.Image-Smoother.md" >}})
     - [0662.Maximum-Width-of-Binary-Tree]({{< relref "/ChapterFour/0662.Maximum-Width-of-Binary-Tree.md" >}})
     - [0668.Kth-Smallest-Number-in-Multiplication-Table]({{< relref "/ChapterFour/0668.Kth-Smallest-Number-in-Multiplication-Table.md" >}})
+    - [0674.Longest-Continuous-Increasing-Subsequence]({{< relref "/ChapterFour/0674.Longest-Continuous-Increasing-Subsequence.md" >}})
     - [0676.Implement-Magic-Dictionary]({{< relref "/ChapterFour/0676.Implement-Magic-Dictionary.md" >}})
     - [0682.Baseball-Game]({{< relref "/ChapterFour/0682.Baseball-Game.md" >}})
     - [0684.Redundant-Connection]({{< relref "/ChapterFour/0684.Redundant-Connection.md" >}})
