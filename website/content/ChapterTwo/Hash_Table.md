@@ -46,7 +46,7 @@ type: docs
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||51.5%|
 |0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.0%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0645.Set-Mismatch.md" >}})|Easy||||42.5%|
-|0648|Replace Words|[Go]({{< relref "/ChapterFour/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||58.2%|
+|0648|Replace Words|[Go]({{< relref "/ChapterFour/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||58.3%|
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.2%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0705.Design-HashSet.md" >}})|Easy||||64.6%|
 |0706|Design HashMap|[Go]({{< relref "/ChapterFour/0706.Design-HashMap.md" >}})|Easy||||62.6%|
@@ -62,7 +62,7 @@ type: docs
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.0%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.2%|
 |0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.3%|
-|0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.5%|
+|0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.4%|
 |0961|N-Repeated Element in Size 2N Array|[Go]({{< relref "/ChapterFour/0961.N-Repeated-Element-in-Size-2N-Array.md" >}})|Easy||||74.4%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0970.Powerful-Integers.md" >}})|Easy||||39.9%|
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.0%|
@@ -74,7 +74,7 @@ type: docs
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||71.6%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.8%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.8%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.7%|
 |1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

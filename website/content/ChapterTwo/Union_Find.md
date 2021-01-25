@@ -32,12 +32,12 @@ type: docs
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0839.Similar-String-Groups.md" >}})|Hard| O(n^2)| O(n)||40.2%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0924.Minimize-Malware-Spread.md" >}})|Hard| O(m\*n)| O(n)||41.8%|
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0928.Minimize-Malware-Spread-II.md" >}})|Hard| O(m\*n)| O(n)|❤️|41.2%|
-|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium| O(n)| O(n)||55.4%|
+|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium| O(n)| O(n)||55.5%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard| O(n)| O(n)|❤️|36.1%|
 |0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0959.Regions-Cut-By-Slashes.md" >}})|Medium| O(n^2)| O(n^2)|❤️|66.9%|
-|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||46.5%|
+|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||46.6%|
 |1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1202.Smallest-String-With-Swaps.md" >}})|Medium||||48.5%|
-|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||54.9%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

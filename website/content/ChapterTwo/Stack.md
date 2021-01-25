@@ -48,7 +48,7 @@ type: docs
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.2%|
 |0901|Online Stock Span|[Go]({{< relref "/ChapterFour/0901.Online-Stock-Span.md" >}})|Medium| O(n)| O(n)  ||61.2%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|33.2%|
-|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.6%|
+|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.7%|
 |0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||63.5%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.2%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.2%|

@@ -72,7 +72,7 @@ X & ~X = 0
 |0762|Prime Number of Set Bits in Binary Representation|[Go]({{< relref "/ChapterFour/0762.Prime-Number-of-Set-Bits-in-Binary-Representation.md" >}})|Easy| O(n)| O(1)||64.2%|
 |0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})|Medium| O(n)| O(1)||66.3%|
 |0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium| O(n)| O(1)||34.0%|
-|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.6%|
+|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

@@ -30,10 +30,10 @@ type: docs
 |0057|Insert Interval|[Go]({{< relref "/ChapterFour/0057.Insert-Interval.md" >}})|Medium| O(n)| O(1)||34.9%|
 |0059|Spiral Matrix II|[Go]({{< relref "/ChapterFour/0059.Spiral-Matrix-II.md" >}})|Medium| O(n)| O(n^2)||57.5%|
 |0062|Unique Paths|[Go]({{< relref "/ChapterFour/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||55.7%|
-|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.1%|
-|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||55.9%|
-|0066|Plus One|[Go]({{< relref "/ChapterFour/0066.Plus-One.md" >}})|Easy||||42.5%|
-|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.4%|
+|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.2%|
+|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
+|0066|Plus One|[Go]({{< relref "/ChapterFour/0066.Plus-One.md" >}})|Easy||||42.4%|
+|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
 |0075|Sort Colors|[Go]({{< relref "/ChapterFour/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.0%|
 |0078|Subsets|[Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.6%|
 |0079|Word Search|[Go]({{< relref "/ChapterFour/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
@@ -42,7 +42,7 @@ type: docs
 |0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
 |0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
 |0090|Subsets II|[Go]({{< relref "/ChapterFour/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.6%|
-|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.3%|
+|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.4%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.3%|
 |0118|Pascal's Triangle|[Go]({{< relref "/ChapterFour/0118.Pascals-Triangle.md" >}})|Easy||||54.5%|
 |0120|Triangle|[Go]({{< relref "/ChapterFour/0120.Triangle.md" >}})|Medium| O(n^2)| O(n)||45.5%|
@@ -50,10 +50,10 @@ type: docs
 |0122|Best Time to Buy and Sell Stock II|[Go]({{< relref "/ChapterFour/0122.Best-Time-to-Buy-and-Sell-Stock-II.md" >}})|Easy| O(n)| O(1)||58.3%|
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.5%|
 |0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0128.Longest-Consecutive-Sequence.md" >}})|Hard||||46.1%|
-|0152|Maximum Product Subarray|[Go]({{< relref "/ChapterFour/0152.Maximum-Product-Subarray.md" >}})|Medium| O(n)| O(1)||32.6%|
-|0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||45.9%|
+|0152|Maximum Product Subarray|[Go]({{< relref "/ChapterFour/0152.Maximum-Product-Subarray.md" >}})|Medium| O(n)| O(1)||32.7%|
+|0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||46.0%|
 |0154|Find Minimum in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0154.Find-Minimum-in-Rotated-Sorted-Array-II.md" >}})|Hard||||41.9%|
-|0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0162.Find-Peak-Element.md" >}})|Medium||||43.8%|
+|0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0162.Find-Peak-Element.md" >}})|Medium||||43.9%|
 |0167|Two Sum II - Input array is sorted|[Go]({{< relref "/ChapterFour/0167.Two-Sum-II---Input-array-is-sorted.md" >}})|Easy| O(n)| O(1)||55.4%|
 |0169|Majority Element|[Go]({{< relref "/ChapterFour/0169.Majority-Element.md" >}})|Easy||||59.9%|
 |0189|Rotate Array|[Go]({{< relref "/ChapterFour/0189.Rotate-Array.md" >}})|Medium||||36.4%|
@@ -71,7 +71,7 @@ type: docs
 |0457|Circular Array Loop|[Go]({{< relref "/ChapterFour/0457.Circular-Array-Loop.md" >}})|Medium||||30.0%|
 |0485|Max Consecutive Ones|[Go]({{< relref "/ChapterFour/0485.Max-Consecutive-Ones.md" >}})|Easy||||53.1%|
 |0509|Fibonacci Number|[Go]({{< relref "/ChapterFour/0509.Fibonacci-Number.md" >}})|Easy||||67.3%|
-|0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium| O(n)| O(n)||34.9%|
+|0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium| O(n)| O(n)||35.0%|
 |0561|Array Partition I|[Go]({{< relref "/ChapterFour/0561.Array-Partition-I.md" >}})|Easy||||73.0%|
 |0566|Reshape the Matrix|[Go]({{< relref "/ChapterFour/0566.Reshape-the-Matrix.md" >}})|Easy| O(n^2)| O(n^2)||61.0%|
 |0605|Can Place Flowers|[Go]({{< relref "/ChapterFour/0605.Can-Place-Flowers.md" >}})|Easy||||31.9%|
@@ -86,7 +86,7 @@ type: docs
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.2%|
 |0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||32.5%|
 |0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0724.Find-Pivot-Index.md" >}})|Easy||||45.1%|
-|0729|My Calendar I|[Go]({{< relref "/ChapterFour/0729.My-Calendar-I.md" >}})|Medium||||53.1%|
+|0729|My Calendar I|[Go]({{< relref "/ChapterFour/0729.My-Calendar-I.md" >}})|Medium||||53.2%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||50.9%|
 |0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||65.8%|
 |0830|Positions of Large Groups|[Go]({{< relref "/ChapterFour/0830.Positions-of-Large-Groups.md" >}})|Easy||||50.3%|
@@ -104,7 +104,7 @@ type: docs
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |0985|Sum of Even Numbers After Queries|[Go]({{< relref "/ChapterFour/0985.Sum-of-Even-Numbers-After-Queries.md" >}})|Easy||||60.7%|
 |0989|Add to Array-Form of Integer|[Go]({{< relref "/ChapterFour/0989.Add-to-Array-Form-of-Integer.md" >}})|Easy||||44.7%|
-|0999|Available Captures for Rook|[Go]({{< relref "/ChapterFour/0999.Available-Captures-for-Rook.md" >}})|Easy||||67.0%|
+|0999|Available Captures for Rook|[Go]({{< relref "/ChapterFour/0999.Available-Captures-for-Rook.md" >}})|Easy||||67.1%|
 |1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1002.Find-Common-Characters.md" >}})|Easy||||68.2%|
 |1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.6%|
 |1018|Binary Prefix Divisible By 5|[Go]({{< relref "/ChapterFour/1018.Binary-Prefix-Divisible-By-5.md" >}})|Easy||||47.8%|
@@ -113,7 +113,7 @@ type: docs
 |1052|Grumpy Bookstore Owner|[Go]({{< relref "/ChapterFour/1052.Grumpy-Bookstore-Owner.md" >}})|Medium||||55.7%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.5%|
 |1089|Duplicate Zeros|[Go]({{< relref "/ChapterFour/1089.Duplicate-Zeros.md" >}})|Easy||||52.0%|
-|1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1122.Relative-Sort-Array.md" >}})|Easy||||67.8%|
+|1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1122.Relative-Sort-Array.md" >}})|Easy||||67.9%|
 |1128|Number of Equivalent Domino Pairs|[Go]({{< relref "/ChapterFour/1128.Number-of-Equivalent-Domino-Pairs.md" >}})|Easy||||46.6%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||39.6%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.6%|
@@ -127,7 +127,7 @@ type: docs
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.8%|
 |1252|Cells with Odd Values in a Matrix|[Go]({{< relref "/ChapterFour/1252.Cells-with-Odd-Values-in-a-Matrix.md" >}})|Easy||||78.8%|
 |1260|Shift 2D Grid|[Go]({{< relref "/ChapterFour/1260.Shift-2D-Grid.md" >}})|Easy||||61.8%|
-|1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.5%|
+|1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.4%|
 |1275|Find Winner on a Tic Tac Toe Game|[Go]({{< relref "/ChapterFour/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md" >}})|Easy||||53.0%|
 |1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1287.Element-Appearing-More-Than-25-In-Sorted-Array.md" >}})|Easy||||60.2%|
 |1295|Find Numbers with Even Number of Digits|[Go]({{< relref "/ChapterFour/1295.Find-Numbers-with-Even-Number-of-Digits.md" >}})|Easy||||79.3%|
@@ -135,20 +135,21 @@ type: docs
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.2%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.8%|
 |1313|Decompress Run-Length Encoded List|[Go]({{< relref "/ChapterFour/1313.Decompress-Run-Length-Encoded-List.md" >}})|Easy||||85.4%|
-|1329|Sort the Matrix Diagonally|[Go]({{< relref "/ChapterFour/1329.Sort-the-Matrix-Diagonally.md" >}})|Medium||||81.7%|
+|1329|Sort the Matrix Diagonally|[Go]({{< relref "/ChapterFour/1329.Sort-the-Matrix-Diagonally.md" >}})|Medium||||81.8%|
 |1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.8%|
 |1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.4%|
 |1389|Create Target Array in the Given Order|[Go]({{< relref "/ChapterFour/1389.Create-Target-Array-in-the-Given-Order.md" >}})|Easy||||84.8%|
+|1437|Check If All 1's Are at Least Length K Places Away|[Go]({{< relref "/ChapterFour/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away.md" >}})|Easy||||63.0%|
 |1464|Maximum Product of Two Elements in an Array|[Go]({{< relref "/ChapterFour/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})|Easy||||77.1%|
 |1470|Shuffle the Array|[Go]({{< relref "/ChapterFour/1470.Shuffle-the-Array.md" >}})|Easy||||88.4%|
 |1480|Running Sum of 1d Array|[Go]({{< relref "/ChapterFour/1480.Running-Sum-of-1d-Array.md" >}})|Easy||||89.5%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.8%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.8%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.7%|
 |1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.5%|
-|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||63.8%|
-|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.1%|
-|1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.4%|
+|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1652.Defuse-the-Bomb.md" >}})|Easy||||63.6%|
+|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.0%|
+|1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.5%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

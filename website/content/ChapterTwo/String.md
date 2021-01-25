@@ -45,12 +45,12 @@ type: docs
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.4%|
 |1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||64.6%|
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||30.9%|
-|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||50.1%|
+|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||50.2%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.5%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.6%|
 |1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1678.Goal-Parser-Interpretation.md" >}})|Easy||||86.3%|
 |1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||83.9%|
-|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||66.9%|
+|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1694.Reformat-Phone-Number.md" >}})|Easy||||66.7%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

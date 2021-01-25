@@ -109,7 +109,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |0051|N-Queens|[Go]({{< relref "/ChapterFour/0051.N-Queens.md" >}})|Hard| O(n!)| O(n)|❤️|49.2%|
 |0052|N-Queens II|[Go]({{< relref "/ChapterFour/0052.N-Queens-II.md" >}})|Hard| O(n!)| O(n)|❤️|59.8%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.2%|
-|0077|Combinations|[Go]({{< relref "/ChapterFour/0077.Combinations.md" >}})|Medium| O(n)| O(n)|❤️|57.0%|
+|0077|Combinations|[Go]({{< relref "/ChapterFour/0077.Combinations.md" >}})|Medium| O(n)| O(n)|❤️|57.1%|
 |0078|Subsets|[Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.6%|
 |0079|Word Search|[Go]({{< relref "/ChapterFour/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
 |0089|Gray Code|[Go]({{< relref "/ChapterFour/0089.Gray-Code.md" >}})|Medium| O(n)| O(1)||50.1%|
@@ -118,7 +118,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.5%|
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0131.Palindrome-Partitioning.md" >}})|Medium| O(n)| O(n^2)|❤️|51.5%|
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium| O(n)| O(n)|❤️|39.9%|
-|0212|Word Search II|[Go]({{< relref "/ChapterFour/0212.Word-Search-II.md" >}})|Hard| O(n^2)| O(n^2)|❤️|36.6%|
+|0212|Word Search II|[Go]({{< relref "/ChapterFour/0212.Word-Search-II.md" >}})|Hard| O(n^2)| O(n^2)|❤️|36.7%|
 |0216|Combination Sum III|[Go]({{< relref "/ChapterFour/0216.Combination-Sum-III.md" >}})|Medium| O(n)| O(1)|❤️|60.0%|
 |0306|Additive Number|[Go]({{< relref "/ChapterFour/0306.Additive-Number.md" >}})|Medium| O(n^2)| O(1)|❤️|29.6%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.8%|
@@ -131,7 +131,7 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |1079|Letter Tile Possibilities|[Go]({{< relref "/ChapterFour/1079.Letter-Tile-Possibilities.md" >}})|Medium| O(n^2)| O(1)|❤️|75.8%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||77.3%|
 |1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.5%|
-|1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.2%|
+|1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.3%|
 |1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1681.Minimum-Incompatibility.md" >}})|Hard||||35.2%|
 |1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||83.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

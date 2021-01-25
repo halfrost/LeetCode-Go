@@ -137,11 +137,11 @@ func peakIndexInMountainArray(A []int) int {
 |0035|Search Insert Position|[Go]({{< relref "/ChapterFour/0035.Search-Insert-Position.md" >}})|Easy||||42.8%|
 |0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.8%|
 |0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.9%|
-|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.4%|
+|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
 |0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||33.5%|
-|0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||45.9%|
+|0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||46.0%|
 |0154|Find Minimum in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0154.Find-Minimum-in-Rotated-Sorted-Array-II.md" >}})|Hard||||41.9%|
-|0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0162.Find-Peak-Element.md" >}})|Medium||||43.8%|
+|0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0162.Find-Peak-Element.md" >}})|Medium||||43.9%|
 |0167|Two Sum II - Input array is sorted|[Go]({{< relref "/ChapterFour/0167.Two-Sum-II---Input-array-is-sorted.md" >}})|Easy| O(n)| O(1)||55.4%|
 |0174|Dungeon Game|[Go]({{< relref "/ChapterFour/0174.Dungeon-Game.md" >}})|Hard||||33.2%|
 |0209|Minimum Size Subarray Sum|[Go]({{< relref "/ChapterFour/0209.Minimum-Size-Subarray-Sum.md" >}})|Medium| O(n)| O(1)||39.2%|
@@ -166,8 +166,8 @@ func peakIndexInMountainArray(A []int) int {
 |0475|Heaters|[Go]({{< relref "/ChapterFour/0475.Heaters.md" >}})|Medium||||33.6%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0483.Smallest-Good-Base.md" >}})|Hard||||36.2%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})|Hard||||26.6%|
-|0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.0%|
-|0528|Random Pick with Weight|[Go]({{< relref "/ChapterFour/0528.Random-Pick-with-Weight.md" >}})|Medium||||44.6%|
+|0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.1%|
+|0528|Random Pick with Weight|[Go]({{< relref "/ChapterFour/0528.Random-Pick-with-Weight.md" >}})|Medium||||44.5%|
 |0658|Find K Closest Elements|[Go]({{< relref "/ChapterFour/0658.Find-K-Closest-Elements.md" >}})|Medium||||41.8%|
 |0668|Kth Smallest Number in Multiplication Table|[Go]({{< relref "/ChapterFour/0668.Kth-Smallest-Number-in-Multiplication-Table.md" >}})|Hard||||47.7%|
 |0704|Binary Search|[Go]({{< relref "/ChapterFour/0704.Binary-Search.md" >}})|Easy||||54.0%|

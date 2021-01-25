@@ -25,7 +25,7 @@ type: docs
 |0002|Add Two Numbers|[Go]({{< relref "/ChapterFour/0002.Add-Two-Numbers.md" >}})|Medium| O(n)| O(1)||35.2%|
 |0019|Remove Nth Node From End of List|[Go]({{< relref "/ChapterFour/0019.Remove-Nth-Node-From-End-of-List.md" >}})|Medium| O(n)| O(1)||35.6%|
 |0021|Merge Two Sorted Lists|[Go]({{< relref "/ChapterFour/0021.Merge-Two-Sorted-Lists.md" >}})|Easy| O(log n)| O(1)||55.7%|
-|0023|Merge k Sorted Lists|[Go]({{< relref "/ChapterFour/0023.Merge-k-Sorted-Lists.md" >}})|Hard| O(log n)| O(1)|❤️|42.2%|
+|0023|Merge k Sorted Lists|[Go]({{< relref "/ChapterFour/0023.Merge-k-Sorted-Lists.md" >}})|Hard| O(log n)| O(1)|❤️|42.4%|
 |0024|Swap Nodes in Pairs|[Go]({{< relref "/ChapterFour/0024.Swap-Nodes-in-Pairs.md" >}})|Medium| O(n)| O(1)||52.7%|
 |0025|Reverse Nodes in k-Group|[Go]({{< relref "/ChapterFour/0025.Reverse-Nodes-in-k-Group.md" >}})|Hard| O(log n)| O(1)|❤️|44.4%|
 |0061|Rotate List|[Go]({{< relref "/ChapterFour/0061.Rotate-List.md" >}})|Medium| O(n)| O(1)||31.6%|
@@ -40,7 +40,7 @@ type: docs
 |0143|Reorder List|[Go]({{< relref "/ChapterFour/0143.Reorder-List.md" >}})|Medium| O(n)| O(1)|❤️|40.3%|
 |0147|Insertion Sort List|[Go]({{< relref "/ChapterFour/0147.Insertion-Sort-List.md" >}})|Medium| O(n)| O(1)|❤️|44.2%|
 |0148|Sort List|[Go]({{< relref "/ChapterFour/0148.Sort-List.md" >}})|Medium| O(n log n)| O(n)|❤️|45.9%|
-|0160|Intersection of Two Linked Lists|[Go]({{< relref "/ChapterFour/0160.Intersection-of-Two-Linked-Lists.md" >}})|Easy| O(n)| O(1)|❤️|42.7%|
+|0160|Intersection of Two Linked Lists|[Go]({{< relref "/ChapterFour/0160.Intersection-of-Two-Linked-Lists.md" >}})|Easy| O(n)| O(1)|❤️|42.8%|
 |0203|Remove Linked List Elements|[Go]({{< relref "/ChapterFour/0203.Remove-Linked-List-Elements.md" >}})|Easy| O(n)| O(1)||39.1%|
 |0206|Reverse Linked List|[Go]({{< relref "/ChapterFour/0206.Reverse-Linked-List.md" >}})|Easy| O(n)| O(1)||64.9%|
 |0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0234.Palindrome-Linked-List.md" >}})|Easy| O(n)| O(1)||40.3%|
@@ -53,7 +53,7 @@ type: docs
 |0876|Middle of the Linked List|[Go]({{< relref "/ChapterFour/0876.Middle-of-the-Linked-List.md" >}})|Easy| O(n)| O(1)|❤️|68.9%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.2%|
 |1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go]({{< relref "/ChapterFour/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List.md" >}})|Medium||||41.4%|
-|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.6%|
+|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.7%|
 |1669|Merge In Between Linked Lists|[Go]({{< relref "/ChapterFour/1669.Merge-In-Between-Linked-Lists.md" >}})|Medium||||77.9%|
 |1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
