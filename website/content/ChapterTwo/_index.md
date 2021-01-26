@@ -1,6 +1,7 @@
 ---
-title: 第二章
+title: 第二章 算法专题
 type: docs
+weight: 2
 ---
 
 # 第二章 算法专题

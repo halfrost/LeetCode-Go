@@ -1,9 +1,10 @@
 ---
-title: 第四章
+title: 第四章 LeetCode 题解
 type: docs
+weight: 4
 ---
 
-# 第四章 Leetcode 题解
+# 第四章 LeetCode 题解
 
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/GOPHERCON_.png'>

@@ -1,6 +1,7 @@
 ---
-title: 第三章
+title: 第三章 一些模板
 type: docs
+weight: 3
 ---
 
 # 第三章 一些模板

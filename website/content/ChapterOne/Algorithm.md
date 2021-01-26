@@ -1,6 +1,7 @@
 ---
-title: 算法知识
+title: 1.2 算法知识
 type: docs
+weight: 2
 ---
 
 # 算法知识
