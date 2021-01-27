@@ -45,6 +45,10 @@ menu:
       weight: 20
 
 params:
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  BookTheme: "light"
+
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
   # You can also specify this parameter per page in front matter.
@@ -97,3 +101,7 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker: true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
+  BookTranslatedOnly: true

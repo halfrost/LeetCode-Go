@@ -1,11 +1,9 @@
 {{ if not (.Page.Scratch.Get "mermaid") }}
 <!-- Include mermaid only first time -->
 <script src="{{ "mermaid.min.js" | relURL }}"></script>
-<script>
-mermaid.initialize({
-  flowchart: { useMaxWidth:true }
-});
-</script>
+{{ with resources.Get "mermaid.json" }}
+  <script>mermaid.initialize({{ .Content | safeJS }})</script>
+{{ end }}
 {{ .Page.Scratch.Set "mermaid" true }}
 {{ end }}
 

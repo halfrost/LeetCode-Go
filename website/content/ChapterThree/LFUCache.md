@@ -1,6 +1,7 @@
 ---
-title: LFUCache
+title: 3.4 LFUCache
 type: docs
+weight: 4
 ---
 
 # 最不经常最少使用 LFUCache

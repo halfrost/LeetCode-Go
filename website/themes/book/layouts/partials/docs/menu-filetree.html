@@ -8,11 +8,6 @@
 {{ end }}
 
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage) */}}
-  {{ $self := eq .CurrentPage .Section }}
-  {{ $ancestor := .Section.IsAncestor .CurrentPage }}
-  {{ $collapsed := .Section.Params.bookCollapseSection }}
-
-  {{ if or $self $ancestor (not $collapsed) }}
   <ul>
     {{ range (where .Section.Pages "Params.bookhidden" "ne" true) }}
       {{ if .IsSection }}
@@ -27,14 +22,22 @@
       {{ end }}
     {{ end }}
   </ul>
-  {{ end }}
 {{ end }}
 
 {{ define "book-page-link" }}{{/* (dict "Page" .Page "CurrentPage" .CurrentPage) */}}
-  {{ if .Page.Content }}
-    <a href="{{ .Page.RelPermalink }}" class="
-        {{- if and .Page.Params.bookCollapseSection .Page.IsSection }}collapsed {{ end }}
-        {{- if eq .CurrentPage .Page }}active{{ end }}">
+  {{ $current := eq .CurrentPage .Page }}
+  {{ $ancestor := .Page.IsAncestor .CurrentPage }}
+
+  {{ if .Page.Params.bookCollapseSection }}
+    <input type="checkbox" id="section-{{ md5 .Page }}" class="toggle" {{ if or $current $ancestor }}checked{{ end }} />
+    <label for="section-{{ md5 .Page }}" class="flex justify-between">
+      <a {{ if .Page.Content }}href="{{ .Page.Permalink }}"{{ end }} class="{{ if $current }}active{{ end }}">
+        {{- partial "docs/title" .Page -}}
+      </a>
+      <span>▾</span>
+    </label>
+  {{ else if .Page.Content }}
+    <a href="{{ .Page.Permalink }}" class="{{ if $current }} active{{ end }}">
       {{- partial "docs/title" .Page -}}
     </a>
   {{ else }}

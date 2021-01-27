@@ -1,6 +1,7 @@
 ---
-title: 并查集
+title: 3.2 UnionFind
 type: docs
+weight: 2
 ---
 
 # 并查集 UnionFind

@@ -1,0 +1,14 @@
+- id: Search
+  translation: Arama
+
+- id: Edit this page
+  translation: Bu sayfayı düzenle
+
+- id: Last modified by
+  translation: Son düzenleyen
+
+- id: Expand
+  translation: Genişlet
+
+- id: bookSearchConfig
+  translation: '{ cache: true }'
