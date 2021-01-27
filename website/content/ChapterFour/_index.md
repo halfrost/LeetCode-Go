@@ -21,5 +21,5 @@ weight: 4
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterThree/LFUCache/">⬅️上一章</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001.Two-Sum/">下一页➡️</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0001.Two-Sum/">下一页➡️</a></p>
 </div>

@@ -33,7 +33,7 @@ func newBuildCommand() *cobra.Command {
 	mc.AddCommand(
 		newBuildREADME(),
 		newBuildChapterTwo(),
-		newBuildMenu(),
+		// newBuildMenu(),
 	)
 	return mc
 }
@@ -263,6 +263,19 @@ func renderChapterTwo(filePath string, tls m.TagLists) ([]byte, error) {
 }
 
 func buildBookMenu() {
+	copyLackFile()
+	// 按照模板重新渲染 Menu
+	res, err := renderBookMenu("./template/menu.md")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	util.WriteFile("../website/content/menu/index.md", res)
+	fmt.Println("generate Menu successful")
+}
+
+// 拷贝 leetcode 目录下的题解 README 文件至第四章对应文件夹中
+func copyLackFile() {
 	solutionIds, soName, _ := util.LoadSolutionsDir()
 	ch4Ids, _ := util.LoadChapterFourIds()
 
@@ -275,20 +288,22 @@ func buildBookMenu() {
 	if len(needCopy) > 0 {
 		fmt.Printf("有 %v 道题需要拷贝到第四章中\n", len(needCopy))
 		for i := 0; i < len(needCopy); i++ {
-			util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v.md", needCopy[i]), fmt.Sprintf("../leetcode/%v/README.md", needCopy[i]))
+			if needCopy[i][4] == '.' {
+				tmp, err := strconv.Atoi(needCopy[i][:4])
+				if err != nil {
+					fmt.Println(err)
+				}
+				err = os.MkdirAll(fmt.Sprintf("../website/content/ChapterFour/%v", util.GetChpaterFourFileNum(tmp)), os.ModePerm)
+				if err != nil {
+					fmt.Println(err)
+				}
+				util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/%v.md", util.GetChpaterFourFileNum(tmp), needCopy[i]), fmt.Sprintf("../leetcode/%v/README.md", needCopy[i]))
+				util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/_index.md", util.GetChpaterFourFileNum(tmp)), "./template/collapseSection.md")
+			}
 		}
 	} else {
 		fmt.Printf("【第四章没有需要添加的题解，已经完整了】\n")
 	}
-
-	// 按照模板重新渲染 Menu
-	res, err := renderBookMenu("./template/menu.md")
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	util.WriteFile("../website/content/menu/index.md", res)
-	fmt.Println("generate Menu successful")
 }
 
 func generateMenu() string {
@@ -296,7 +311,8 @@ func generateMenu() string {
 	res += menuLine(chapterOneMenuOrder, "ChapterOne")
 	res += menuLine(chapterTwoFileOrder, "ChapterTwo")
 	res += menuLine(chapterThreeFileOrder, "ChapterThree")
-	res += menuLine(getChapterFourFileOrder(), "ChapterFour")
+	chapterFourFileOrder, _ := getChapterFourFileOrder()
+	res += menuLine(chapterFourFileOrder, "ChapterFour")
 	return res
 }
 

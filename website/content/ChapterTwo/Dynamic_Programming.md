@@ -9,15 +9,15 @@ weight: 7
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0000~0099/0042.Trapping-Rain-Water.md" >}})|Hard||||50.9%|
-|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0000~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||47.6%|
-|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0000~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||55.7%|
-|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0000~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.2%|
-|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0000~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
-|0070|Climbing Stairs|[Go]({{< relref "/ChapterFour/0000~0099/0070.Climbing-Stairs.md" >}})|Easy| O(n)| O(n)||48.5%|
-|0091|Decode Ways|[Go]({{< relref "/ChapterFour/0000~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||26.3%|
-|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0000~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.2%|
-|0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0000~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n)| O(n)||54.2%|
+|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard||||50.9%|
+|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0001~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||47.6%|
+|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||55.7%|
+|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.2%|
+|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
+|0070|Climbing Stairs|[Go]({{< relref "/ChapterFour/0001~0099/0070.Climbing-Stairs.md" >}})|Easy| O(n)| O(n)||48.5%|
+|0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||26.3%|
+|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.2%|
+|0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n)| O(n)||54.2%|
 |0120|Triangle|[Go]({{< relref "/ChapterFour/0100~0199/0120.Triangle.md" >}})|Medium| O(n^2)| O(n)||45.6%|
 |0121|Best Time to Buy and Sell Stock|[Go]({{< relref "/ChapterFour/0100~0199/0121.Best-Time-to-Buy-and-Sell-Stock.md" >}})|Easy| O(n)| O(1)||51.4%|
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0100~0199/0131.Palindrome-Partitioning.md" >}})|Medium||||51.5%|
@@ -59,8 +59,8 @@ weight: 7
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||26.2%|
 |1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.4%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.3%|
-|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||60.6%|
-|1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||47.1%|
+|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||60.7%|
+|1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||47.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

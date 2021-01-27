@@ -17,11 +17,11 @@ weight: 5
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0000~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.8%|
-|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0000~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
-|0071|Simplify Path|[Go]({{< relref "/ChapterFour/0000~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|33.6%|
-|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0000~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0000~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
+|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.8%|
+|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
+|0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|33.7%|
+|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||49.9%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.2%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.2%|

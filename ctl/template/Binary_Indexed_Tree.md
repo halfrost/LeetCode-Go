@@ -1,6 +1,7 @@
 ---
-title: Binary Indexed Tree
+title: 2.19 ✅ Binary Indexed Tree
 type: docs
+weight: 19
 ---
 
 # Binary Indexed Tree

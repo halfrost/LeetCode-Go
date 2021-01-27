@@ -1,6 +1,7 @@
 ---
-title: Bit Manipulation
+title: 2.15 ✅ Bit Manipulation
 type: docs
+weight: 15
 ---
 
 # Bit Manipulation

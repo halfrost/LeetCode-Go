@@ -1,6 +1,7 @@
 ---
-title: Linked List
+title: 2.04 ✅ Linked List
 type: docs
+weight: 4
 ---
 
 # Linked List

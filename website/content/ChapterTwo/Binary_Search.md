@@ -131,15 +131,15 @@ func peakIndexInMountainArray(A []int) int {
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0004|Median of Two Sorted Arrays|[Go]({{< relref "/ChapterFour/0000~0099/0004.Median-of-Two-Sorted-Arrays.md" >}})|Hard||||30.9%|
-|0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0000~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.6%|
-|0033|Search in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0033.Search-in-Rotated-Sorted-Array.md" >}})|Medium||||35.7%|
-|0034|Find First and Last Position of Element in Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array.md" >}})|Medium||||37.2%|
-|0035|Search Insert Position|[Go]({{< relref "/ChapterFour/0000~0099/0035.Search-Insert-Position.md" >}})|Easy||||42.8%|
-|0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0000~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.8%|
-|0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0000~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.9%|
-|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0000~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
-|0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0000~0099/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||33.5%|
+|0004|Median of Two Sorted Arrays|[Go]({{< relref "/ChapterFour/0001~0099/0004.Median-of-Two-Sorted-Arrays.md" >}})|Hard||||30.9%|
+|0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0001~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.6%|
+|0033|Search in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0033.Search-in-Rotated-Sorted-Array.md" >}})|Medium||||35.7%|
+|0034|Find First and Last Position of Element in Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array.md" >}})|Medium||||37.2%|
+|0035|Search Insert Position|[Go]({{< relref "/ChapterFour/0001~0099/0035.Search-Insert-Position.md" >}})|Easy||||42.8%|
+|0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.8%|
+|0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0001~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.9%|
+|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
+|0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||33.5%|
 |0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0100~0199/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||46.0%|
 |0154|Find Minimum in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0100~0199/0154.Find-Minimum-in-Rotated-Sorted-Array-II.md" >}})|Hard||||42.0%|
 |0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0100~0199/0162.Find-Peak-Element.md" >}})|Medium||||43.9%|
@@ -150,7 +150,7 @@ func peakIndexInMountainArray(A []int) int {
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0200~0299/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium| O(n)| O(1)||62.3%|
 |0240|Search a 2D Matrix II|[Go]({{< relref "/ChapterFour/0200~0299/0240.Search-a-2D-Matrix-II.md" >}})|Medium||||44.2%|
 |0275|H-Index II|[Go]({{< relref "/ChapterFour/0200~0299/0275.H-Index-II.md" >}})|Medium||||36.2%|
-|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.2%|
+|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.3%|
 |0300|Longest Increasing Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0300.Longest-Increasing-Subsequence.md" >}})|Medium| O(n log n)| O(n)||43.7%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.6%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard||||35.9%|

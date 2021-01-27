@@ -100,22 +100,22 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0000~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.8%|
-|0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0000~0099/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||64.9%|
-|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0000~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.1%|
-|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0000~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.9%|
-|0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0000~0099/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
-|0046|Permutations|[Go]({{< relref "/ChapterFour/0000~0099/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.2%|
-|0047|Permutations II|[Go]({{< relref "/ChapterFour/0000~0099/0047.Permutations-II.md" >}})|Medium| O(n^2)| O(n)|❤️|49.1%|
-|0051|N-Queens|[Go]({{< relref "/ChapterFour/0000~0099/0051.N-Queens.md" >}})|Hard| O(n!)| O(n)|❤️|49.2%|
-|0052|N-Queens II|[Go]({{< relref "/ChapterFour/0000~0099/0052.N-Queens-II.md" >}})|Hard| O(n!)| O(n)|❤️|59.8%|
-|0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0000~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.3%|
-|0077|Combinations|[Go]({{< relref "/ChapterFour/0000~0099/0077.Combinations.md" >}})|Medium| O(n)| O(n)|❤️|57.1%|
-|0078|Subsets|[Go]({{< relref "/ChapterFour/0000~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.7%|
-|0079|Word Search|[Go]({{< relref "/ChapterFour/0000~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
-|0089|Gray Code|[Go]({{< relref "/ChapterFour/0000~0099/0089.Gray-Code.md" >}})|Medium| O(n)| O(1)||50.2%|
-|0090|Subsets II|[Go]({{< relref "/ChapterFour/0000~0099/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.6%|
-|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0000~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|37.3%|
+|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||48.8%|
+|0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||64.9%|
+|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0001~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.1%|
+|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0001~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.9%|
+|0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0001~0099/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
+|0046|Permutations|[Go]({{< relref "/ChapterFour/0001~0099/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.2%|
+|0047|Permutations II|[Go]({{< relref "/ChapterFour/0001~0099/0047.Permutations-II.md" >}})|Medium| O(n^2)| O(n)|❤️|49.1%|
+|0051|N-Queens|[Go]({{< relref "/ChapterFour/0001~0099/0051.N-Queens.md" >}})|Hard| O(n!)| O(n)|❤️|49.2%|
+|0052|N-Queens II|[Go]({{< relref "/ChapterFour/0001~0099/0052.N-Queens-II.md" >}})|Hard| O(n!)| O(n)|❤️|59.8%|
+|0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.3%|
+|0077|Combinations|[Go]({{< relref "/ChapterFour/0001~0099/0077.Combinations.md" >}})|Medium| O(n)| O(n)|❤️|57.1%|
+|0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.7%|
+|0079|Word Search|[Go]({{< relref "/ChapterFour/0001~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
+|0089|Gray Code|[Go]({{< relref "/ChapterFour/0001~0099/0089.Gray-Code.md" >}})|Medium| O(n)| O(1)||50.2%|
+|0090|Subsets II|[Go]({{< relref "/ChapterFour/0001~0099/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.6%|
+|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|37.3%|
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.5%|
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0100~0199/0131.Palindrome-Partitioning.md" >}})|Medium| O(n)| O(n^2)|❤️|51.5%|
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium| O(n)| O(n)|❤️|39.9%|

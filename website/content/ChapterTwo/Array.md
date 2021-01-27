@@ -8,41 +8,41 @@ weight: 1
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0001|Two Sum|[Go]({{< relref "/ChapterFour/0000~0099/0001.Two-Sum.md" >}})|Easy| O(n)| O(n)||46.3%|
-|0004|Median of Two Sorted Arrays|[Go]({{< relref "/ChapterFour/0000~0099/0004.Median-of-Two-Sorted-Arrays.md" >}})|Hard||||30.9%|
-|0011|Container With Most Water|[Go]({{< relref "/ChapterFour/0000~0099/0011.Container-With-Most-Water.md" >}})|Medium| O(n)| O(1)||52.3%|
-|0015|3Sum|[Go]({{< relref "/ChapterFour/0000~0099/0015.3Sum.md" >}})|Medium| O(n^2)| O(n)|❤️|27.8%|
-|0016|3Sum Closest|[Go]({{< relref "/ChapterFour/0000~0099/0016.3Sum-Closest.md" >}})|Medium| O(n^2)| O(1)|❤️|46.3%|
-|0018|4Sum|[Go]({{< relref "/ChapterFour/0000~0099/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
-|0026|Remove Duplicates from Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0026.Remove-Duplicates-from-Sorted-Array.md" >}})|Easy| O(n)| O(1)||46.4%|
-|0027|Remove Element|[Go]({{< relref "/ChapterFour/0000~0099/0027.Remove-Element.md" >}})|Easy| O(n)| O(1)||49.1%|
-|0033|Search in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0033.Search-in-Rotated-Sorted-Array.md" >}})|Medium||||35.7%|
-|0034|Find First and Last Position of Element in Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array.md" >}})|Medium||||37.2%|
-|0035|Search Insert Position|[Go]({{< relref "/ChapterFour/0000~0099/0035.Search-Insert-Position.md" >}})|Easy||||42.8%|
-|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0000~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.9%|
-|0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0000~0099/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
-|0041|First Missing Positive|[Go]({{< relref "/ChapterFour/0000~0099/0041.First-Missing-Positive.md" >}})|Hard| O(n)| O(n)||33.5%|
-|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0000~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
-|0048|Rotate Image|[Go]({{< relref "/ChapterFour/0000~0099/0048.Rotate-Image.md" >}})|Medium| O(n)| O(1)||59.5%|
-|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0000~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||47.6%|
-|0054|Spiral Matrix|[Go]({{< relref "/ChapterFour/0000~0099/0054.Spiral-Matrix.md" >}})|Medium| O(n)| O(n^2)||35.6%|
-|0055|Jump Game|[Go]({{< relref "/ChapterFour/0000~0099/0055.Jump-Game.md" >}})|Medium||||35.1%|
-|0056|Merge Intervals|[Go]({{< relref "/ChapterFour/0000~0099/0056.Merge-Intervals.md" >}})|Medium| O(n log n)| O(1)||40.8%|
-|0057|Insert Interval|[Go]({{< relref "/ChapterFour/0000~0099/0057.Insert-Interval.md" >}})|Medium| O(n)| O(1)||34.9%|
-|0059|Spiral Matrix II|[Go]({{< relref "/ChapterFour/0000~0099/0059.Spiral-Matrix-II.md" >}})|Medium| O(n)| O(n^2)||57.5%|
-|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0000~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||55.7%|
-|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0000~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.2%|
-|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0000~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
-|0066|Plus One|[Go]({{< relref "/ChapterFour/0000~0099/0066.Plus-One.md" >}})|Easy||||42.4%|
-|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0000~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
-|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0000~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.1%|
-|0078|Subsets|[Go]({{< relref "/ChapterFour/0000~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.7%|
-|0079|Word Search|[Go]({{< relref "/ChapterFour/0000~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
-|0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0000~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||45.9%|
-|0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0000~0099/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||33.5%|
-|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0000~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
-|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
-|0090|Subsets II|[Go]({{< relref "/ChapterFour/0000~0099/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.6%|
+|0001|Two Sum|[Go]({{< relref "/ChapterFour/0001~0099/0001.Two-Sum.md" >}})|Easy| O(n)| O(n)||46.3%|
+|0004|Median of Two Sorted Arrays|[Go]({{< relref "/ChapterFour/0001~0099/0004.Median-of-Two-Sorted-Arrays.md" >}})|Hard||||30.9%|
+|0011|Container With Most Water|[Go]({{< relref "/ChapterFour/0001~0099/0011.Container-With-Most-Water.md" >}})|Medium| O(n)| O(1)||52.3%|
+|0015|3Sum|[Go]({{< relref "/ChapterFour/0001~0099/0015.3Sum.md" >}})|Medium| O(n^2)| O(n)|❤️|27.8%|
+|0016|3Sum Closest|[Go]({{< relref "/ChapterFour/0001~0099/0016.3Sum-Closest.md" >}})|Medium| O(n^2)| O(1)|❤️|46.3%|
+|0018|4Sum|[Go]({{< relref "/ChapterFour/0001~0099/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
+|0026|Remove Duplicates from Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0026.Remove-Duplicates-from-Sorted-Array.md" >}})|Easy| O(n)| O(1)||46.4%|
+|0027|Remove Element|[Go]({{< relref "/ChapterFour/0001~0099/0027.Remove-Element.md" >}})|Easy| O(n)| O(1)||49.1%|
+|0033|Search in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0033.Search-in-Rotated-Sorted-Array.md" >}})|Medium||||35.7%|
+|0034|Find First and Last Position of Element in Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array.md" >}})|Medium||||37.2%|
+|0035|Search Insert Position|[Go]({{< relref "/ChapterFour/0001~0099/0035.Search-Insert-Position.md" >}})|Easy||||42.8%|
+|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0001~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||58.9%|
+|0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0001~0099/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||49.9%|
+|0041|First Missing Positive|[Go]({{< relref "/ChapterFour/0001~0099/0041.First-Missing-Positive.md" >}})|Hard| O(n)| O(n)||33.5%|
+|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
+|0048|Rotate Image|[Go]({{< relref "/ChapterFour/0001~0099/0048.Rotate-Image.md" >}})|Medium| O(n)| O(1)||59.5%|
+|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0001~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||47.6%|
+|0054|Spiral Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0054.Spiral-Matrix.md" >}})|Medium| O(n)| O(n^2)||35.6%|
+|0055|Jump Game|[Go]({{< relref "/ChapterFour/0001~0099/0055.Jump-Game.md" >}})|Medium||||35.1%|
+|0056|Merge Intervals|[Go]({{< relref "/ChapterFour/0001~0099/0056.Merge-Intervals.md" >}})|Medium| O(n log n)| O(1)||40.8%|
+|0057|Insert Interval|[Go]({{< relref "/ChapterFour/0001~0099/0057.Insert-Interval.md" >}})|Medium| O(n)| O(1)||34.9%|
+|0059|Spiral Matrix II|[Go]({{< relref "/ChapterFour/0001~0099/0059.Spiral-Matrix-II.md" >}})|Medium| O(n)| O(n^2)||57.5%|
+|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||55.7%|
+|0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.2%|
+|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
+|0066|Plus One|[Go]({{< relref "/ChapterFour/0001~0099/0066.Plus-One.md" >}})|Easy||||42.4%|
+|0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.5%|
+|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.1%|
+|0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.7%|
+|0079|Word Search|[Go]({{< relref "/ChapterFour/0001~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.6%|
+|0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||45.9%|
+|0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||33.5%|
+|0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|36.9%|
+|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
+|0090|Subsets II|[Go]({{< relref "/ChapterFour/0001~0099/0090.Subsets-II.md" >}})|Medium| O(n^2)| O(n)|❤️|48.6%|
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.4%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.3%|
 |0118|Pascal's Triangle|[Go]({{< relref "/ChapterFour/0100~0199/0118.Pascals-Triangle.md" >}})|Easy||||54.5%|
@@ -66,7 +66,7 @@ weight: 1
 |0229|Majority Element II|[Go]({{< relref "/ChapterFour/0200~0299/0229.Majority-Element-II.md" >}})|Medium||||38.6%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||53.5%|
 |0283|Move Zeroes|[Go]({{< relref "/ChapterFour/0200~0299/0283.Move-Zeroes.md" >}})|Easy| O(n)| O(1)||58.5%|
-|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.2%|
+|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.3%|
 |0414|Third Maximum Number|[Go]({{< relref "/ChapterFour/0400~0499/0414.Third-Maximum-Number.md" >}})|Easy||||30.6%|
 |0448|Find All Numbers Disappeared in an Array|[Go]({{< relref "/ChapterFour/0400~0499/0448.Find-All-Numbers-Disappeared-in-an-Array.md" >}})|Easy||||56.1%|
 |0457|Circular Array Loop|[Go]({{< relref "/ChapterFour/0400~0499/0457.Circular-Array-Loop.md" >}})|Medium||||30.0%|
@@ -105,8 +105,8 @@ weight: 1
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |0985|Sum of Even Numbers After Queries|[Go]({{< relref "/ChapterFour/0900~0999/0985.Sum-of-Even-Numbers-After-Queries.md" >}})|Easy||||60.7%|
 |0989|Add to Array-Form of Integer|[Go]({{< relref "/ChapterFour/0900~0999/0989.Add-to-Array-Form-of-Integer.md" >}})|Easy||||44.7%|
-|0999|Available Captures for Rook|[Go]({{< relref "/ChapterFour/0900~0999/0999.Available-Captures-for-Rook.md" >}})|Easy||||67.1%|
-|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.2%|
+|0999|Available Captures for Rook|[Go]({{< relref "/ChapterFour/0900~0999/0999.Available-Captures-for-Rook.md" >}})|Easy||||67.2%|
+|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.3%|
 |1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1000~1099/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.6%|
 |1018|Binary Prefix Divisible By 5|[Go]({{< relref "/ChapterFour/1000~1099/1018.Binary-Prefix-Divisible-By-5.md" >}})|Easy||||47.8%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||54.0%|
@@ -140,18 +140,18 @@ weight: 1
 |1380|Lucky Numbers in a Matrix|[Go]({{< relref "/ChapterFour/1300~1399/1380.Lucky-Numbers-in-a-Matrix.md" >}})|Easy||||70.8%|
 |1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.4%|
 |1389|Create Target Array in the Given Order|[Go]({{< relref "/ChapterFour/1300~1399/1389.Create-Target-Array-in-the-Given-Order.md" >}})|Easy||||84.8%|
-|1437|Check If All 1's Are at Least Length K Places Away|[Go]({{< relref "/ChapterFour/1400~1499/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away.md" >}})|Easy||||63.0%|
+|1437|Check If All 1's Are at Least Length K Places Away|[Go]({{< relref "/ChapterFour/1400~1499/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away.md" >}})|Easy||||63.1%|
 |1464|Maximum Product of Two Elements in an Array|[Go]({{< relref "/ChapterFour/1400~1499/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})|Easy||||77.1%|
 |1470|Shuffle the Array|[Go]({{< relref "/ChapterFour/1400~1499/1470.Shuffle-the-Array.md" >}})|Easy||||88.4%|
 |1480|Running Sum of 1d Array|[Go]({{< relref "/ChapterFour/1400~1499/1480.Running-Sum-of-1d-Array.md" >}})|Easy||||89.5%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.8%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.2%|
-|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.5%|
-|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.4%|
+|1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.6%|
+|1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.5%|
 |1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1600~1699/1652.Defuse-the-Bomb.md" >}})|Easy||||63.5%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.1%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1600~1699/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.4%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+|------------|------------------------------------------------------|--------------|----------------|---------------|-------------|-------------|-------------|
 
 
 ----------------------------------------------

@@ -1,6 +1,7 @@
 ---
-title: Sliding Window
+title: 2.17 ✅ Sliding Window
 type: docs
+weight: 17
 ---
 
 # Sliding Window

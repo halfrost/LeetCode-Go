@@ -74,12 +74,12 @@ var (
 	}
 )
 
-func getChapterFourFileOrder() []string {
-	solutions := util.LoadChapterFourDir()
+func getChapterFourFileOrder() ([]string, []int) {
+	solutions, solutionIds := util.LoadChapterFourDir()
 	chapterFourFileOrder := []string{"_index"}
 	chapterFourFileOrder = append(chapterFourFileOrder, solutions...)
-	fmt.Printf("ChapterFour 中包括 _index 有 %v 个文件\n", len(chapterFourFileOrder))
-	return chapterFourFileOrder
+	fmt.Printf("ChapterFour 中包括 _index 有 %v 个文件, len(id) = %v\n", len(chapterFourFileOrder), len(solutionIds))
+	return chapterFourFileOrder, solutionIds
 }
 
 func newLabelCommand() *cobra.Command {
@@ -123,57 +123,75 @@ func newDeletePreNext() *cobra.Command {
 
 func addPreNext() {
 	// Chpater one add pre-next
-	addPreNextLabel(chapterOneFileOrder, []string{}, "", "ChapterOne", "ChapterTwo")
+	addPreNextLabel(chapterOneFileOrder, []string{}, []int{}, "", "ChapterOne", "ChapterTwo")
 	// Chpater two add pre-next
-	addPreNextLabel(chapterTwoFileOrder, chapterOneFileOrder, "ChapterOne", "ChapterTwo", "ChapterThree")
+	addPreNextLabel(chapterTwoFileOrder, chapterOneFileOrder, []int{}, "ChapterOne", "ChapterTwo", "ChapterThree")
 	// Chpater three add pre-next
-	addPreNextLabel(chapterThreeFileOrder, chapterTwoFileOrder, "ChapterTwo", "ChapterThree", "ChapterFour")
+	addPreNextLabel(chapterThreeFileOrder, chapterTwoFileOrder, []int{}, "ChapterTwo", "ChapterThree", "ChapterFour")
 	// Chpater four add pre-next
 	//fmt.Printf("%v\n", getChapterFourFileOrder())
-	addPreNextLabel(getChapterFourFileOrder(), chapterThreeFileOrder, "ChapterThree", "ChapterFour", "")
+	chapterFourFileOrder, solutionIds := getChapterFourFileOrder()
+	addPreNextLabel(chapterFourFileOrder, chapterThreeFileOrder, solutionIds, "ChapterThree", "ChapterFour", "")
 }
 
-func addPreNextLabel(order, preOrder []string, preChapter, chapter, nextChapter string) {
+func addPreNextLabel(order, preOrder []string, chapterFourIds []int, preChapter, chapter, nextChapter string) {
 	var (
 		exist bool
 		err   error
 		res   []byte
 		count int
 	)
-	for index, v := range order {
+	for index, path := range order {
 		tmp := ""
 		if index == 0 {
 			if chapter == "ChapterOne" {
 				// 第一页不需要“上一章”
 				tmp = "\n\n" + delLine + fmt.Sprintf("<p align = \"right\"><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1])
 			} else {
-				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一章</a></p>\n", preChapter, preOrder[len(preOrder)-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+				if chapter == "ChapterFour" {
+					tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一章</a></p>\n", preChapter, preOrder[len(preOrder)-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/%v/\">下一页➡️</a></p>\n", chapter, util.GetChpaterFourFileNum(chapterFourIds[(index-1)+1]), order[index+1]) + preNextFotter
+				} else {
+					tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一章</a></p>\n", preChapter, preOrder[len(preOrder)-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+				}
 			}
 		} else if index == len(order)-1 {
 			if chapter == "ChapterFour" {
 				// 最后一页不需要“下一页”
-				tmp = "\n\n" + delLine + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一页</a></p>\n", chapter, order[index-1])
+				tmp = "\n\n" + delLine + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/%v/\">⬅️上一页</a></p>\n", chapter, util.GetChpaterFourFileNum(chapterFourIds[(index-1)-1]), order[index-1])
 			} else {
 				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一页</a></p>\n", chapter, order[index-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/\">下一章➡️</a></p>\n", nextChapter) + preNextFotter
 			}
 		} else if index == 1 {
-			tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/\">⬅️上一页</a></p>\n", chapter) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+			if chapter == "ChapterFour" {
+				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/\">⬅️上一页</a></p>\n", chapter) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/%v/\">下一页➡️</a></p>\n", chapter, util.GetChpaterFourFileNum(chapterFourIds[(index-1)+1]), order[index+1]) + preNextFotter
+			} else {
+				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/\">⬅️上一页</a></p>\n", chapter) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+			}
 		} else {
-			tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一页</a></p>\n", chapter, order[index-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+			if chapter == "ChapterFour" {
+				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/%v/\">⬅️上一页</a></p>\n", chapter, util.GetChpaterFourFileNum(chapterFourIds[(index-1)-1]), order[index-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/%v/\">下一页➡️</a></p>\n", chapter, util.GetChpaterFourFileNum(chapterFourIds[(index-1)+1]), order[index+1]) + preNextFotter
+			} else {
+				tmp = "\n\n" + preNextHeader + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">⬅️上一页</a></p>\n", chapter, order[index-1]) + fmt.Sprintf("<p><a href=\"https://books.halfrost.com/leetcode/%v/%v/\">下一页➡️</a></p>\n", chapter, order[index+1]) + preNextFotter
+			}
 		}
-		exist, err = needAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, v))
+
+		if chapter == "ChapterFour" && index > 0 {
+			path = fmt.Sprintf("%v/%v", util.GetChpaterFourFileNum(chapterFourIds[(index-1)]), path)
+		}
+
+		exist, err = needAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, path))
 		if err != nil {
 			fmt.Println(err)
 			return
 		}
 		// 当前没有上一页和下一页，才添加
 		if !exist && err == nil {
-			res, err = eofAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, v), tmp)
+			res, err = eofAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, path), tmp)
 			if err != nil {
 				fmt.Println(err)
 				return
 			}
-			util.WriteFile(fmt.Sprintf("../website/content/%v/%v.md", chapter, v), res)
+			util.WriteFile(fmt.Sprintf("../website/content/%v/%v.md", chapter, path), res)
 			count++
 		}
 	}
@@ -205,30 +223,35 @@ func eofAdd(filePath string, labelString string) ([]byte, error) {
 
 func delPreNext() {
 	// Chpater one del pre-next
-	delPreNextLabel(chapterOneFileOrder, "ChapterOne")
+	delPreNextLabel(chapterOneFileOrder, []int{}, "ChapterOne")
 	// Chpater two del pre-next
-	delPreNextLabel(chapterTwoFileOrder, "ChapterTwo")
+	delPreNextLabel(chapterTwoFileOrder, []int{}, "ChapterTwo")
 	// Chpater three del pre-next
-	delPreNextLabel(chapterThreeFileOrder, "ChapterThree")
+	delPreNextLabel(chapterThreeFileOrder, []int{}, "ChapterThree")
 	// Chpater four del pre-next
-	delPreNextLabel(getChapterFourFileOrder(), "ChapterFour")
+	chapterFourFileOrder, solutionIds := getChapterFourFileOrder()
+	delPreNextLabel(chapterFourFileOrder, solutionIds, "ChapterFour")
 }
 
-func delPreNextLabel(order []string, chapter string) {
+func delPreNextLabel(order []string, chapterFourIds []int, chapter string) {
 	count := 0
-	for index, v := range order {
+	for index, path := range order {
 		lineNum := 5
 		if index == 0 && chapter == "ChapterOne" || index == len(order)-1 && chapter == "ChapterFour" {
 			lineNum = 3
 		}
-		exist, err := needAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, v))
+		if chapter == "ChapterFour" && index > 0 {
+			path = fmt.Sprintf("%v/%v", util.GetChpaterFourFileNum(chapterFourIds[(index-1)]), path)
+		}
+
+		exist, err := needAdd(fmt.Sprintf("../website/content/%v/%v.md", chapter, path))
 		if err != nil {
 			fmt.Println(err)
 			return
 		}
 		// 存在才删除
 		if exist && err == nil {
-			removeLine(fmt.Sprintf("../website/content/%v/%v.md", chapter, v), lineNum+1)
+			removeLine(fmt.Sprintf("../website/content/%v/%v.md", chapter, path), lineNum+1)
 			count++
 		}
 	}

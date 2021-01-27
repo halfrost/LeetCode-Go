@@ -32,23 +32,23 @@ weight: 3
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0003|Longest Substring Without Repeating Characters|[Go]({{< relref "/ChapterFour/0000~0099/0003.Longest-Substring-Without-Repeating-Characters.md" >}})|Medium| O(n)| O(1)|❤️|31.3%|
-|0011|Container With Most Water|[Go]({{< relref "/ChapterFour/0000~0099/0011.Container-With-Most-Water.md" >}})|Medium| O(n)| O(1)||52.3%|
-|0015|3Sum|[Go]({{< relref "/ChapterFour/0000~0099/0015.3Sum.md" >}})|Medium| O(n^2)| O(n)|❤️|27.8%|
-|0016|3Sum Closest|[Go]({{< relref "/ChapterFour/0000~0099/0016.3Sum-Closest.md" >}})|Medium| O(n^2)| O(1)|❤️|46.3%|
-|0018|4Sum|[Go]({{< relref "/ChapterFour/0000~0099/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
-|0019|Remove Nth Node From End of List|[Go]({{< relref "/ChapterFour/0000~0099/0019.Remove-Nth-Node-From-End-of-List.md" >}})|Medium| O(n)| O(1)||35.7%|
-|0026|Remove Duplicates from Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0026.Remove-Duplicates-from-Sorted-Array.md" >}})|Easy| O(n)| O(1)||46.4%|
-|0027|Remove Element|[Go]({{< relref "/ChapterFour/0000~0099/0027.Remove-Element.md" >}})|Easy| O(n)| O(1)||49.1%|
-|0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0000~0099/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.1%|
-|0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0000~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
-|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0000~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
-|0061|Rotate List|[Go]({{< relref "/ChapterFour/0000~0099/0061.Rotate-List.md" >}})|Medium| O(n)| O(1)||31.6%|
-|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0000~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.1%|
-|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0000~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.8%|
-|0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0000~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||45.9%|
-|0086|Partition List|[Go]({{< relref "/ChapterFour/0000~0099/0086.Partition-List.md" >}})|Medium| O(n)| O(1)|❤️|43.1%|
-|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0000~0099/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
+|0003|Longest Substring Without Repeating Characters|[Go]({{< relref "/ChapterFour/0001~0099/0003.Longest-Substring-Without-Repeating-Characters.md" >}})|Medium| O(n)| O(1)|❤️|31.3%|
+|0011|Container With Most Water|[Go]({{< relref "/ChapterFour/0001~0099/0011.Container-With-Most-Water.md" >}})|Medium| O(n)| O(1)||52.3%|
+|0015|3Sum|[Go]({{< relref "/ChapterFour/0001~0099/0015.3Sum.md" >}})|Medium| O(n^2)| O(n)|❤️|27.8%|
+|0016|3Sum Closest|[Go]({{< relref "/ChapterFour/0001~0099/0016.3Sum-Closest.md" >}})|Medium| O(n^2)| O(1)|❤️|46.3%|
+|0018|4Sum|[Go]({{< relref "/ChapterFour/0001~0099/0018.4Sum.md" >}})|Medium| O(n^3)| O(n^2)|❤️|34.7%|
+|0019|Remove Nth Node From End of List|[Go]({{< relref "/ChapterFour/0001~0099/0019.Remove-Nth-Node-From-End-of-List.md" >}})|Medium| O(n)| O(1)||35.7%|
+|0026|Remove Duplicates from Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0026.Remove-Duplicates-from-Sorted-Array.md" >}})|Easy| O(n)| O(1)||46.4%|
+|0027|Remove Element|[Go]({{< relref "/ChapterFour/0001~0099/0027.Remove-Element.md" >}})|Easy| O(n)| O(1)||49.1%|
+|0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0001~0099/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.1%|
+|0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
+|0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|50.9%|
+|0061|Rotate List|[Go]({{< relref "/ChapterFour/0001~0099/0061.Rotate-List.md" >}})|Medium| O(n)| O(1)||31.6%|
+|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.1%|
+|0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.8%|
+|0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||45.9%|
+|0086|Partition List|[Go]({{< relref "/ChapterFour/0001~0099/0086.Partition-List.md" >}})|Medium| O(n)| O(1)|❤️|43.1%|
+|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0088.Merge-Sorted-Array.md" >}})|Easy| O(n)| O(1)|❤️|40.6%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0100~0199/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||38.0%|
 |0141|Linked List Cycle|[Go]({{< relref "/ChapterFour/0100~0199/0141.Linked-List-Cycle.md" >}})|Easy| O(n)| O(1)|❤️|42.3%|
 |0142|Linked List Cycle II|[Go]({{< relref "/ChapterFour/0100~0199/0142.Linked-List-Cycle-II.md" >}})|Medium| O(n)| O(1)|❤️|39.4%|
@@ -56,7 +56,7 @@ weight: 3
 |0209|Minimum Size Subarray Sum|[Go]({{< relref "/ChapterFour/0200~0299/0209.Minimum-Size-Subarray-Sum.md" >}})|Medium| O(n)| O(1)||39.2%|
 |0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0200~0299/0234.Palindrome-Linked-List.md" >}})|Easy| O(n)| O(1)||40.3%|
 |0283|Move Zeroes|[Go]({{< relref "/ChapterFour/0200~0299/0283.Move-Zeroes.md" >}})|Easy| O(n)| O(1)||58.5%|
-|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.2%|
+|0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.3%|
 |0344|Reverse String|[Go]({{< relref "/ChapterFour/0300~0399/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.1%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0300~0399/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||44.9%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.5%|
@@ -70,7 +70,7 @@ weight: 3
 |0713|Subarray Product Less Than K|[Go]({{< relref "/ChapterFour/0700~0799/0713.Subarray-Product-Less-Than-K.md" >}})|Medium| O(n)| O(1)||40.4%|
 |0763|Partition Labels|[Go]({{< relref "/ChapterFour/0700~0799/0763.Partition-Labels.md" >}})|Medium| O(n)| O(1)|❤️|77.9%|
 |0826|Most Profit Assigning Work|[Go]({{< relref "/ChapterFour/0800~0899/0826.Most-Profit-Assigning-Work.md" >}})|Medium| O(n log n)| O(n)||39.0%|
-|0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0800~0899/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard| O(n)| O(1)|❤️|46.8%|
+|0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0800~0899/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard| O(n)| O(1)|❤️|46.7%|
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0800~0899/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.7%|
 |0844|Backspace String Compare|[Go]({{< relref "/ChapterFour/0800~0899/0844.Backspace-String-Compare.md" >}})|Easy| O(n)| O(n) ||46.8%|
 |0845|Longest Mountain in Array|[Go]({{< relref "/ChapterFour/0800~0899/0845.Longest-Mountain-in-Array.md" >}})|Medium| O(n)| O(1) ||38.5%|

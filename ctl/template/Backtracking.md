@@ -1,6 +1,7 @@
 ---
-title: Backtracking
+title: 2.08 ✅ Backtracking
 type: docs
+weight: 8
 ---
 
 # Backtracking

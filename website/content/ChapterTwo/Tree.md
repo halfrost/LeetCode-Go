@@ -9,11 +9,11 @@ weight: 6
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0000~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
-|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0000~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.2%|
-|0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0000~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n^2)| O(n)||54.2%|
-|0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0000~0099/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.6%|
-|0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0000~0099/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.2%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.5%|
+|0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.2%|
+|0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n^2)| O(n)||54.2%|
+|0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.6%|
+|0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.2%|
 |0100|Same Tree|[Go]({{< relref "/ChapterFour/0100~0199/0100.Same-Tree.md" >}})|Easy| O(n)| O(1)||54.0%|
 |0101|Symmetric Tree|[Go]({{< relref "/ChapterFour/0100~0199/0101.Symmetric-Tree.md" >}})|Easy| O(n)| O(1)||47.9%|
 |0102|Binary Tree Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md" >}})|Medium| O(n)| O(1)||56.3%|

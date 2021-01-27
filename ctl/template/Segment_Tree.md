@@ -1,6 +1,7 @@
 ---
-title: Segment Tree
+title: 2.18 ✅ Segment Tree
 type: docs
+weight: 18
 ---
 
 # Segment Tree

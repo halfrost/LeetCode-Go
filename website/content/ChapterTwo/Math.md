@@ -9,15 +9,15 @@ weight: 12
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0002|Add Two Numbers|[Go]({{< relref "/ChapterFour/0000~0099/0002.Add-Two-Numbers.md" >}})|Medium| O(n)| O(1)||35.2%|
-|0007|Reverse Integer|[Go]({{< relref "/ChapterFour/0000~0099/0007.Reverse-Integer.md" >}})|Easy||||25.9%|
-|0009|Palindrome Number|[Go]({{< relref "/ChapterFour/0000~0099/0009.Palindrome-Number.md" >}})|Easy||||49.5%|
-|0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0000~0099/0013.Roman-to-Integer.md" >}})|Easy||||56.4%|
-|0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0000~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.6%|
-|0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0000~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.8%|
-|0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0000~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.3%|
-|0067|Add Binary|[Go]({{< relref "/ChapterFour/0000~0099/0067.Add-Binary.md" >}})|Easy||||46.7%|
-|0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0000~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.9%|
+|0002|Add Two Numbers|[Go]({{< relref "/ChapterFour/0001~0099/0002.Add-Two-Numbers.md" >}})|Medium| O(n)| O(1)||35.2%|
+|0007|Reverse Integer|[Go]({{< relref "/ChapterFour/0001~0099/0007.Reverse-Integer.md" >}})|Easy||||25.9%|
+|0009|Palindrome Number|[Go]({{< relref "/ChapterFour/0001~0099/0009.Palindrome-Number.md" >}})|Easy||||49.6%|
+|0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0001~0099/0013.Roman-to-Integer.md" >}})|Easy||||56.4%|
+|0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0001~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.6%|
+|0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.8%|
+|0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.3%|
+|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||46.7%|
+|0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0001~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||34.9%|
 |0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||31.6%|
 |0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||56.8%|
 |0172|Factorial Trailing Zeroes|[Go]({{< relref "/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes.md" >}})|Easy||||38.4%|
