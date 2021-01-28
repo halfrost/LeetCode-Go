@@ -50,19 +50,17 @@ package leetcode
 
 // 解法一 贪心
 func getSmallestString(n int, k int) string {
-	res := make([]rune, n)
-	for i := n - 1; i >= 0; i-- {
-		diff := k - i
-		if diff >= 26 {
-			// Need to add z
-			res[i] = 'z'
-			k = k - 26
-		} else {
-			res[i] = rune('a' + diff - 1)
-			k = k - diff
-		}
-	}
-	return string(res)
+    str, i, j := make([]byte, n), 0, 0
+    for i = n-1; i <= k-26; i, k = i-1, k-26 {
+        str[i] = 'z'
+    }
+    if i >= 0 {
+        str[i] = byte('a' + k-1-i)
+        for ; j < i; j++ {
+            str[j] = 'a'
+        }
+    }
+    return string(str)
 }
 
 // 解法二 DFS
