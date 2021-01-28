@@ -53,3 +53,20 @@ func findSmallestString(value int, length, k, index int, str []byte, res *string
 
 	}
 }
+
+func getSmallestString2(n int, k int) string {
+	var result = make([]byte, n)
+	for pos := n - 1; pos >= 0; pos-- {
+		add := min(k - pos, 26)
+		result[pos] = byte(add) + 'a' - 1
+		k -= add
+	}
+	return string(result)
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
