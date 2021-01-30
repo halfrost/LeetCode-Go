@@ -8,9 +8,6 @@ import (
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	result, start, end, index, addNum, length := make([][]int, 0), 0, 0, 0, 0, len(nums)
-	if length > 0 && (nums[0] > 0 || nums[length-1] < 0) {
-		return result
-	}
 	for index = 1; index < length-1; index++ {
 		start, end = 0, length-1
 		if index > 1 && nums[index] == nums[index-1] {
