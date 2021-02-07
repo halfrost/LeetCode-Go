@@ -1,10 +1,4 @@
-# 643. Maximum Average Subarray I
-
-Added By: halfrost 
-Created Time: Feb 7, 2021 5:07 PM
-Difficulty: Easy
-Link: https://leetcode.com/problems/maximum-average-subarray-i/
-Tags: Array
+# [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 ## 题目
 

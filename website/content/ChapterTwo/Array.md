@@ -91,7 +91,7 @@ weight: 1
 |0729|My Calendar I|[Go]({{< relref "/ChapterFour/0700~0799/0729.My-Calendar-I.md" >}})|Medium||||53.2%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||50.9%|
 |0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||65.8%|
-|0830|Positions of Large Groups|[Go]({{< relref "/ChapterFour/0800~0899/0830.Positions-of-Large-Groups.md" >}})|Easy||||50.3%|
+|0830|Positions of Large Groups|[Go]({{< relref "/ChapterFour/0800~0899/0830.Positions-of-Large-Groups.md" >}})|Easy||||50.4%|
 |0832|Flipping an Image|[Go]({{< relref "/ChapterFour/0800~0899/0832.Flipping-an-Image.md" >}})|Easy||||78.1%|
 |0867|Transpose Matrix|[Go]({{< relref "/ChapterFour/0800~0899/0867.Transpose-Matrix.md" >}})|Easy| O(n)| O(1)||62.1%|
 |0888|Fair Candy Swap|[Go]({{< relref "/ChapterFour/0800~0899/0888.Fair-Candy-Swap.md" >}})|Easy||||58.9%|
