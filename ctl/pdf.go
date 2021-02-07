@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -59,7 +60,7 @@ func generatePDF() {
 	// 先删除 pre-next
 	delPreNext()
 
-	chapterFourFileOrder := util.LoadChapterFourDir()
+	chapterFourFileOrder, _ := util.LoadChapterFourDir()
 	totalSolutions = len(chapterFourFileOrder)
 	midVersion = totalSolutions / 100
 	lastVersion = totalSolutions % 100
@@ -102,7 +103,17 @@ func loadChapter(order []string, path, chapter string) ([]byte, error) {
 			// 清理不支持的特殊 MarkDown 语法
 			tmp, err = clean(fmt.Sprintf("%v/%v/%v.md", path, chapter, v))
 		} else {
-			tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v.md", path, chapter, v))
+			if chapter == "ChapterFour" {
+				if v[4] == '.' {
+					num, err := strconv.Atoi(v[:4])
+					if err != nil {
+						fmt.Println(err)
+					}
+					tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v/%v.md", path, chapter, util.GetChpaterFourFileNum(num), v))
+				}
+			} else {
+				tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v.md", path, chapter, v))
+			}
 		}
 		if err != nil {
 			fmt.Println(err)
@@ -126,7 +137,7 @@ func prepare(path string) {
 		fmt.Println(err)
 	}
 	for _, v := range chapterOneFileOrder {
-		removeHeader(fmt.Sprintf("../website/content/ChapterOne/%v.md", v), fmt.Sprintf("./pdftemp/ChapterOne/%v.md", v), 4)
+		removeHeader(fmt.Sprintf("../website/content/ChapterOne/%v.md", v), fmt.Sprintf("./pdftemp/ChapterOne/%v.md", v), 5)
 	}
 
 	err = os.MkdirAll("./pdftemp/ChapterTwo", os.ModePerm)
@@ -138,7 +149,7 @@ func prepare(path string) {
 	util.CopyFile("./pdftemp/ChapterTwo/_index.md", "../website/content/ChapterTwo/_index.md")
 
 	for _, v := range chapterTwoFileOrder {
-		removeHeader(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), 4)
+		removeHeader(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), 5)
 	}
 
 	err = os.MkdirAll("./pdftemp/ChapterThree", os.ModePerm)
@@ -146,14 +157,14 @@ func prepare(path string) {
 		fmt.Println(err)
 	}
 	for _, v := range chapterThreeFileOrder {
-		removeHeader(fmt.Sprintf("../website/content/ChapterThree/%v.md", v), fmt.Sprintf("./pdftemp/ChapterThree/%v.md", v), 4)
+		removeHeader(fmt.Sprintf("../website/content/ChapterThree/%v.md", v), fmt.Sprintf("./pdftemp/ChapterThree/%v.md", v), 5)
 	}
 
 	err = os.MkdirAll("./pdftemp/ChapterFour", os.ModePerm)
 	if err != nil {
 		fmt.Println(err)
 	}
-	removeHeader(fmt.Sprintf("../website/content/ChapterFour/_index.md"), fmt.Sprintf("./pdftemp/ChapterFour/_index.md"), 4)
+	removeHeader(fmt.Sprintf("../website/content/ChapterFour/_index.md"), fmt.Sprintf("./pdftemp/ChapterFour/_index.md"), 5)
 }
 
 func clean(filePath string) ([]byte, error) {

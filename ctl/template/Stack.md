@@ -1,6 +1,7 @@
 ---
-title: Stack
+title: 2.05 ✅ Stack
 type: docs
+weight: 5
 ---
 
 # Stack

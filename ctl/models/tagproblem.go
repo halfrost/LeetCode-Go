@@ -130,9 +130,9 @@ func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdro
 			s6 := strings.Replace(s5, ",", "", -1)
 			s7 := strings.Replace(s6, "?", "", -1)
 			if internal {
-				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v.md\" >}})", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v/%v.md\" >}})", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			} else {
-				tmp.SolutionPath = fmt.Sprintf("[Go](https://books.halfrost.com/leetcode/ChapterFour/%v)", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+				tmp.SolutionPath = fmt.Sprintf("[Go](https://books.halfrost.com/leetcode/ChapterFour/%v/%v)", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			}
 			tmp.Acceptance = row.Acceptance
 			tmp.Difficulty = row.Difficulty

@@ -5,6 +5,8 @@
 {{ partial "docs/inject/menu-before" . }}
 {{ partial "docs/menu-hugo" .Site.Menus.before }}
 
+<hr>
+
 {{ if .Site.Params.BookMenuBundle }}
   {{ partial "docs/menu-bundle" . }}
 {{ else }}

@@ -1,6 +1,7 @@
 ---
-title: LRUCache
+title: 3.3 LRUCache
 type: docs
+weight: 3
 ---
 
 # 最近最少使用 LRUCache

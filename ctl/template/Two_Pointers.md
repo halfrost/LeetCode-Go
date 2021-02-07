@@ -1,6 +1,7 @@
 ---
-title: Two Pointers
+title: 2.03 ✅ Two Pointers
 type: docs
+weight: 3
 ---
 
 # Two Pointers

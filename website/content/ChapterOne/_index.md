@@ -1,6 +1,7 @@
 ---
-title: 第一章
+title: 第一章 序章
 type: docs
+weight: 1
 ---
 
 # 第一章 序章

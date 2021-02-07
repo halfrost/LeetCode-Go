@@ -1,6 +1,7 @@
 ---
-title: Union Find
+title: 2.16 ✅ Union Find
 type: docs
+weight: 16
 ---
 
 # Union Find
@@ -18,27 +19,29 @@ type: docs
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0128.Longest-Consecutive-Sequence.md" >}})|Hard| O(n)| O(n)|❤️|46.1%|
-|0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0130.Surrounded-Regions.md" >}})|Medium| O(m\*n)| O(m\*n)||29.2%|
-|0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200.Number-of-Islands.md" >}})|Medium| O(m\*n)| O(m\*n)||48.7%|
-|0399|Evaluate Division|[Go]({{< relref "/ChapterFour/0399.Evaluate-Division.md" >}})|Medium| O(n)| O(n)||54.1%|
-|0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0547.Number-of-Provinces.md" >}})|Medium| O(n^2)| O(n)||60.2%|
-|0684|Redundant Connection|[Go]({{< relref "/ChapterFour/0684.Redundant-Connection.md" >}})|Medium| O(n)| O(n)||58.8%|
-|0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0685.Redundant-Connection-II.md" >}})|Hard| O(n)| O(n)||32.9%|
-|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0721.Accounts-Merge.md" >}})|Medium| O(n)| O(n)|❤️|51.3%|
-|0765|Couples Holding Hands|[Go]({{< relref "/ChapterFour/0765.Couples-Holding-Hands.md" >}})|Hard| O(n)| O(n)|❤️|55.4%|
-|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0778.Swim-in-Rising-Water.md" >}})|Hard| O(n^2)| O(n)|❤️|54.5%|
-|0803|Bricks Falling When Hit|[Go]({{< relref "/ChapterFour/0803.Bricks-Falling-When-Hit.md" >}})|Hard| O(n^2)| O(n)|❤️|31.3%|
-|0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0839.Similar-String-Groups.md" >}})|Hard| O(n^2)| O(n)||40.2%|
-|0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0924.Minimize-Malware-Spread.md" >}})|Hard| O(m\*n)| O(n)||41.8%|
-|0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0928.Minimize-Malware-Spread-II.md" >}})|Hard| O(m\*n)| O(n)|❤️|41.2%|
-|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium| O(n)| O(n)||55.5%|
-|0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard| O(n)| O(n)|❤️|36.1%|
-|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0959.Regions-Cut-By-Slashes.md" >}})|Medium| O(n^2)| O(n^2)|❤️|66.9%|
-|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||46.6%|
-|1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1202.Smallest-String-With-Swaps.md" >}})|Medium||||48.5%|
-|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.1%|
+|0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence.md" >}})|Hard| O(n)| O(n)|❤️|46.2%|
+|0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium| O(m\*n)| O(m\*n)||29.3%|
+|0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(m\*n)| O(m\*n)||48.9%|
+|0399|Evaluate Division|[Go]({{< relref "/ChapterFour/0300~0399/0399.Evaluate-Division.md" >}})|Medium| O(n)| O(n)||54.2%|
+|0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0500~0599/0547.Number-of-Provinces.md" >}})|Medium| O(n^2)| O(n)||60.3%|
+|0684|Redundant Connection|[Go]({{< relref "/ChapterFour/0600~0699/0684.Redundant-Connection.md" >}})|Medium| O(n)| O(n)||58.9%|
+|0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0600~0699/0685.Redundant-Connection-II.md" >}})|Hard| O(n)| O(n)||32.9%|
+|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium| O(n)| O(n)|❤️|51.6%|
+|0765|Couples Holding Hands|[Go]({{< relref "/ChapterFour/0700~0799/0765.Couples-Holding-Hands.md" >}})|Hard| O(n)| O(n)|❤️|55.4%|
+|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard| O(n^2)| O(n)|❤️|54.8%|
+|0803|Bricks Falling When Hit|[Go]({{< relref "/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit.md" >}})|Hard| O(n^2)| O(n)|❤️|31.4%|
+|0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0800~0899/0839.Similar-String-Groups.md" >}})|Hard| O(n^2)| O(n)||40.4%|
+|0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0900~0999/0924.Minimize-Malware-Spread.md" >}})|Hard| O(m\*n)| O(n)||41.8%|
+|0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard| O(m\*n)| O(n)|❤️|41.2%|
+|0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium| O(n)| O(n)||55.5%|
+|0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard| O(n)| O(n)|❤️|36.1%|
+|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium| O(n^2)| O(n^2)|❤️|67.0%|
+|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0900~0999/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||46.7%|
+|1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps.md" >}})|Medium||||48.6%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
 
 
 ----------------------------------------------

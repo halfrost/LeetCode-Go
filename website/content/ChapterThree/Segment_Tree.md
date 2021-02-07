@@ -1,6 +1,7 @@
 ---
-title: 线段树
+title: 3.1 Segment Tree
 type: docs
+weight: 1
 ---
 
 # 线段树 Segment Tree

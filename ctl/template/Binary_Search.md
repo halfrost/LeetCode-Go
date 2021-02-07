@@ -1,6 +1,7 @@
 ---
-title: Binary Search
+title: 2.11 Binary Search
 type: docs
+weight: 11
 ---
 
 # Binary Search

@@ -1,6 +1,7 @@
 ---
-title: 数据结构知识
+title: 1.1 数据结构知识
 type: docs
+weight: 1
 ---
 
 # 数据结构知识

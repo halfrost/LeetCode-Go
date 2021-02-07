@@ -8,12 +8,12 @@ Columns help organize shorter pieces of content horizontally for readability.
 # Left Content
 Lorem markdownum insigne...
 
-<---> <!-- magic sparator, between columns -->
+<---> <!-- magic separator, between columns -->
 
 # Mid Content
 Lorem markdownum insigne...
 
-<---> <!-- magic sparator, between columns -->
+<---> <!-- magic separator, between columns -->
 
 # Right Content
 Lorem markdownum insigne...

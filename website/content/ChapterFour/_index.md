@@ -1,9 +1,10 @@
 ---
-title: 第四章
+title: 第四章 LeetCode 题解
 type: docs
+weight: 4
 ---
 
-# 第四章 Leetcode 题解
+# 第四章 LeetCode 题解
 
 <p align='center'>
 <img src='https://img.halfrost.com/Leetcode/GOPHERCON_.png'>
@@ -20,5 +21,5 @@ type: docs
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterThree/LFUCache/">⬅️上一章</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001.Two-Sum/">下一页➡️</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0001.Two-Sum/">下一页➡️</a></p>
 </div>

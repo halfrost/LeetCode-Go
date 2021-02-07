@@ -1,6 +1,7 @@
 ---
-title: Union Find
+title: 2.16 ✅ Union Find
 type: docs
+weight: 16
 ---
 
 # Union Find

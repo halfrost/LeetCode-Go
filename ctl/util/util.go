@@ -19,13 +19,6 @@ func LoadSolutionsDir() ([]int, []string, int) {
 	return solutionIds, soNames, total - len(solutionIds)
 }
 
-// LoadChapterFourIds define
-func LoadChapterFourIds() ([]int, []string) {
-	solutionIds, soNames, _ := loadFile("../website/content/ChapterFour/")
-	fmt.Printf("读取了第四章 %v 道题的题解\n", len(solutionIds))
-	return solutionIds, soNames
-}
-
 func loadFile(path string) ([]int, []string, int) {
 	files, err := ioutil.ReadDir(path)
 	if err != nil {
@@ -51,22 +44,38 @@ func loadFile(path string) ([]int, []string, int) {
 	return solutionIds, soNames, len(files)
 }
 
+// GetAllFile define
+func GetAllFile(pathname string, fileList *[]string) ([]string, error) {
+	rd, err := ioutil.ReadDir(pathname)
+	for _, fi := range rd {
+		if fi.IsDir() {
+			//fmt.Printf("[%s]\n", pathname+"\\"+fi.Name())
+			GetAllFile(pathname+fi.Name()+"/", fileList)
+		} else {
+			//fmt.Println(fi.Name())
+			*fileList = append(*fileList, fi.Name())
+		}
+	}
+	return *fileList, err
+}
+
 // LoadChapterFourDir define
-func LoadChapterFourDir() []string {
-	files, err := ioutil.ReadDir("../website/content/ChapterFour/")
+func LoadChapterFourDir() ([]string, []int) {
+	files, err := GetAllFile("../website/content/ChapterFour/", &[]string{})
+	// files, err := ioutil.ReadDir("../website/content/ChapterFour/")
 	if err != nil {
 		fmt.Println(err)
 	}
 	solutions, solutionIds, solutionsMap := []string{}, []int{}, map[int]string{}
 	for _, f := range files {
-		if f.Name()[4] == '.' {
-			tmp, err := strconv.Atoi(f.Name()[:4])
+		if f[4] == '.' {
+			tmp, err := strconv.Atoi(f[:4])
 			if err != nil {
 				fmt.Println(err)
 			}
 			solutionIds = append(solutionIds, tmp)
 			// len(f.Name())-3 = 文件名去掉 .md 后缀
-			solutionsMap[tmp] = f.Name()[:len(f.Name())-3]
+			solutionsMap[tmp] = f[:len(f)-3]
 		}
 	}
 	sort.Ints(solutionIds)
@@ -76,7 +85,7 @@ func LoadChapterFourDir() []string {
 			solutions = append(solutions, name)
 		}
 	}
-	return solutions
+	return solutions, solutionIds
 }
 
 // WriteFile define
@@ -165,4 +174,12 @@ func BinarySearch(nums []int, target int) int {
 		}
 	}
 	return -1
+}
+
+// GetChpaterFourFileNum define
+func GetChpaterFourFileNum(num int) string {
+	if num < 100 {
+		return fmt.Sprintf("%04d~%04d", (num/100)*100+1, (num/100)*100+99)
+	}
+	return fmt.Sprintf("%04d~%04d", (num/100)*100, (num/100)*100+99)
 }

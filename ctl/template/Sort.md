@@ -1,6 +1,7 @@
 ---
-title: Sort
+title: 2.14 ✅ Sort
 type: docs
+weight: 14
 ---
 
 # Sort
