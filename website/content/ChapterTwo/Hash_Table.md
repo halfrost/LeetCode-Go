@@ -15,11 +15,11 @@ weight: 13
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.1%|
 |0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0001~0099/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||50.4%|
 |0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0001~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.4%|
-|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||59.1%|
+|0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||59.2%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.9%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.7%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy||||66.5%|
-|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||40.6%|
+|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||40.7%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||41.4%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.2%|
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.2%|
@@ -60,7 +60,7 @@ weight: 13
 |0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0700~0799/0771.Jewels-and-Stones.md" >}})|Easy||||86.9%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.5%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Easy||||71.4%|
-|0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.0%|
+|0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.1%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.3%|
 |0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.5%|
 |0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.3%|

@@ -29,7 +29,7 @@ weight: 14
 |0242|Valid Anagram|[Go]({{< relref "/ChapterFour/0200~0299/0242.Valid-Anagram.md" >}})|Easy| O(n)| O(n) ||58.5%|
 |0274|H-Index|[Go]({{< relref "/ChapterFour/0200~0299/0274.H-Index.md" >}})|Medium|  O(n)| O(n) ||36.3%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.5%|
-|0324|Wiggle Sort II|[Go]({{< relref "/ChapterFour/0300~0399/0324.Wiggle-Sort-II.md" >}})|Medium| O(n)| O(n)|❤️|30.6%|
+|0324|Wiggle Sort II|[Go]({{< relref "/ChapterFour/0300~0399/0324.Wiggle-Sort-II.md" >}})|Medium| O(n)| O(n)|❤️|30.7%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard||||36.0%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.7%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||52.0%|

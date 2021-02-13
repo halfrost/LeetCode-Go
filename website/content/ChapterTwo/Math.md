@@ -28,7 +28,7 @@ weight: 12
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
 |0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||58.4%|
 |0263|Ugly Number|[Go]({{< relref "/ChapterFour/0200~0299/0263.Ugly-Number.md" >}})|Easy| O(log n)| O(1)||41.7%|
-|0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||53.7%|
+|0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||53.8%|
 |0326|Power of Three|[Go]({{< relref "/ChapterFour/0300~0399/0326.Power-of-Three.md" >}})|Easy| O(1)| O(1)||42.1%|
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0300~0399/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.2%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.8%|

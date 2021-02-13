@@ -49,11 +49,11 @@ weight: 5
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.3%|
 |0901|Online Stock Span|[Go]({{< relref "/ChapterFour/0900~0999/0901.Online-Stock-Span.md" >}})|Medium| O(n)| O(n)  ||61.3%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|33.1%|
-|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.8%|
+|0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.7%|
 |0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0900~0999/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||63.6%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.3%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.2%|
-|1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||78.9%|
+|1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.0%|
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||70.6%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

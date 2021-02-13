@@ -5,65 +5,65 @@ import (
 	"testing"
 )
 
-type question1436 struct {
-	para1436
-	ans1436
+type question1463 struct {
+	para1463
+	ans1463
 }
 
-type para1436 struct {
+type para1463 struct {
 	grid [][]int
 }
 
-type ans1436 struct {
+type ans1463 struct {
 	ans int
 }
 
-func Test_Problem1436(t *testing.T) {
+func Test_Problem1463(t *testing.T) {
 
-	qs := []question1436{
+	qs := []question1463{
 
 		{
-			para1436{[][]int{
+			para1463{[][]int{
 				{3, 1, 1},
 				{2, 5, 1},
 				{1, 5, 5},
 				{2, 1, 1},
 			}},
-			ans1436{24},
+			ans1463{24},
 		},
 
 		{
-			para1436{[][]int{
+			para1463{[][]int{
 				{1, 0, 0, 0, 0, 0, 1},
 				{2, 0, 0, 0, 0, 3, 0},
 				{2, 0, 9, 0, 0, 0, 0},
 				{0, 3, 0, 5, 4, 0, 0},
 				{1, 0, 2, 3, 0, 0, 6},
 			}},
-			ans1436{28},
+			ans1463{28},
 		},
 		{
-			para1436{[][]int{
+			para1463{[][]int{
 				{1, 0, 0, 3},
 				{0, 0, 0, 3},
 				{0, 0, 3, 3},
 				{9, 0, 3, 3},
 			}},
-			ans1436{22},
+			ans1463{22},
 		},
 		{
-			para1436{[][]int{
+			para1463{[][]int{
 				{1, 1},
 				{1, 1},
 			}},
-			ans1436{4},
+			ans1463{4},
 		},
 	}
 
-	fmt.Printf("------------------------Leetcode Problem 1436------------------------\n")
+	fmt.Printf("------------------------Leetcode Problem 1463------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1436, q.para1436
+		_, p := q.ans1463, q.para1463
 		fmt.Printf("【input】:%v      ", p)
 		fmt.Printf("【output】:%v      \n", cherryPickup(p.grid))
 	}
