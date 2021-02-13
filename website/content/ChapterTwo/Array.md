@@ -36,7 +36,7 @@ weight: 1
 |0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.1%|
 |0066|Plus One|[Go]({{< relref "/ChapterFour/0001~0099/0066.Plus-One.md" >}})|Easy||||42.3%|
 |0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||37.6%|
-|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.2%|
+|0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|49.3%|
 |0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|64.9%|
 |0079|Word Search|[Go]({{< relref "/ChapterFour/0001~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|36.7%|
 |0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||46.0%|

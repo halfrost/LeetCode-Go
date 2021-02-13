@@ -61,7 +61,7 @@ weight: 12
 |0949|Largest Time for Given Digits|[Go]({{< relref "/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits.md" >}})|Medium||||36.2%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard||||36.1%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||40.0%|
-|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.5%|
+|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.6%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.3%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base--2.md" >}})|Medium||||59.6%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.2%|
