@@ -3,9 +3,10 @@ package models
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"strconv"
 	"strings"
+
+	"github.com/halfrost/LeetCode-Go/ctl/util"
 )
 
 // Graphql define
@@ -84,8 +85,8 @@ func ConvertMdModelFromQuestions(questions []Question) []Mdrow {
 		res := Mdrow{}
 		v, _ := strconv.Atoi(question.QuestionFrontendID)
 		res.FrontendQuestionID = int32(v)
-		res.QuestionTitle = question.Title
-		res.QuestionTitleSlug = question.TitleSlug
+		res.QuestionTitle = strings.TrimSpace(question.Title)
+		res.QuestionTitleSlug = strings.TrimSpace(question.TitleSlug)
 		q, err := question.generateTagStatus()
 		if err != nil {
 			fmt.Println(err)
@@ -121,8 +122,8 @@ func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdro
 		if util.BinarySearch(solutionIds, int(row.FrontendQuestionID)) != -1 {
 			tmp := TagList{}
 			tmp.FrontendQuestionID = row.FrontendQuestionID
-			tmp.QuestionTitle = row.QuestionTitle
-			s1 := strings.Replace(row.QuestionTitle, " ", "-", -1)
+			tmp.QuestionTitle = strings.TrimSpace(row.QuestionTitle)
+			s1 := strings.Replace(tmp.QuestionTitle, " ", "-", -1)
 			s2 := strings.Replace(s1, "'", "", -1)
 			s3 := strings.Replace(s2, "%", "", -1)
 			s4 := strings.Replace(s3, "(", "", -1)

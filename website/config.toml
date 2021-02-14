@@ -147,5 +147,5 @@ disablePathToLower = true
     pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
     createIssueManually= true # If it is 'false', it is auto to make a Github issue when the administrators login.
     distractionFreeMode= true # Enable hot key (cmd|ctrl + enter) submit comment.
-
+    proxy= "https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token"
 

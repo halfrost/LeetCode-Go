@@ -2,6 +2,7 @@ package models
 
 import (
 	"fmt"
+	"strings"
 )
 
 // LeetCodeProblemAll define
@@ -53,8 +54,8 @@ func ConvertMdModelFromSsp(problems []StatStatusPairs) []Mdrow {
 	for _, problem := range problems {
 		res := Mdrow{}
 		res.FrontendQuestionID = problem.Stat.FrontendQuestionID
-		res.QuestionTitle = problem.Stat.QuestionTitle
-		res.QuestionTitleSlug = problem.Stat.QuestionTitleSlug
+		res.QuestionTitle = strings.TrimSpace(problem.Stat.QuestionTitle)
+		res.QuestionTitleSlug = strings.TrimSpace(problem.Stat.QuestionTitleSlug)
 		res.Acceptance = fmt.Sprintf("%.1f%%", (problem.Stat.TotalAcs/problem.Stat.TotalSubmitted)*100)
 		res.Difficulty = DifficultyMap[problem.Difficulty.Level]
 		res.Frequency = fmt.Sprintf("%f", problem.Frequency)
@@ -69,8 +70,8 @@ func ConvertMdModelFromIds(problemsMap map[int]StatStatusPairs, ids []int) []Mdr
 	for _, v := range ids {
 		res, problem := Mdrow{}, problemsMap[v]
 		res.FrontendQuestionID = problem.Stat.FrontendQuestionID
-		res.QuestionTitle = problem.Stat.QuestionTitle
-		res.QuestionTitleSlug = problem.Stat.QuestionTitleSlug
+		res.QuestionTitle = strings.TrimSpace(problem.Stat.QuestionTitle)
+		res.QuestionTitleSlug = strings.TrimSpace(problem.Stat.QuestionTitleSlug)
 		res.Acceptance = fmt.Sprintf("%.1f%%", (problem.Stat.TotalAcs/problem.Stat.TotalSubmitted)*100)
 		res.Difficulty = DifficultyMap[problem.Difficulty.Level]
 		res.Frequency = fmt.Sprintf("%f", problem.Frequency)

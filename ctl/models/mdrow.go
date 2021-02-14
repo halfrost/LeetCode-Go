@@ -22,7 +22,7 @@ func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
 		id := mdrows[solutionIds[i]-1].FrontendQuestionID
 		if solutionIds[i] == int(id) {
 			//fmt.Printf("id = %v i = %v solutionIds = %v\n", id, i, solutionIds[i])
-			mdrows[id-1].SolutionPath = fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", id, strings.Replace(mdrows[id-1].QuestionTitle, " ", "-", -1)))
+			mdrows[id-1].SolutionPath = fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", id, strings.Replace(strings.TrimSpace(mdrows[id-1].QuestionTitle), " ", "-", -1)))
 		} else {
 			fmt.Printf("序号出错了 solutionIds = %v id = %v\n", solutionIds[i], id)
 		}
