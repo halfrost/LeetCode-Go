@@ -9,7 +9,7 @@ weight: 6
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.7%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.8%|
 |0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.4%|
 |0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n^2)| O(n)||54.4%|
 |0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.7%|
@@ -19,7 +19,7 @@ weight: 6
 |0102|Binary Tree Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md" >}})|Medium| O(n)| O(1)||56.5%|
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||50.0%|
 |0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||68.0%|
-|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.6%|
+|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.7%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.5%|
 |0107|Binary Tree Level Order Traversal II|[Go]({{< relref "/ChapterFour/0100~0199/0107.Binary-Tree-Level-Order-Traversal-II.md" >}})|Easy| O(n)| O(1)||55.1%|
 |0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.3%|
@@ -60,7 +60,7 @@ weight: 6
 |0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0800~0899/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.6%|
 |0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0800~0899/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||74.5%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.7%|
-|0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||69.7%|
+|0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||69.6%|
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||38.8%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.4%|
@@ -68,7 +68,7 @@ weight: 6
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||82.3%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.7%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|
-|1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.4%|
+|1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.3%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.2%|
 |1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||77.8%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

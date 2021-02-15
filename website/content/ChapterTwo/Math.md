@@ -16,7 +16,7 @@ weight: 12
 |0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0001~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.6%|
 |0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||30.9%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.3%|
-|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||46.8%|
+|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||46.9%|
 |0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0001~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||35.0%|
 |0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||31.7%|
 |0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||56.9%|
@@ -26,7 +26,7 @@ weight: 12
 |0223|Rectangle Area|[Go]({{< relref "/ChapterFour/0200~0299/0223.Rectangle-Area.md" >}})|Medium||||38.2%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.1%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
-|0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||58.4%|
+|0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||58.5%|
 |0263|Ugly Number|[Go]({{< relref "/ChapterFour/0200~0299/0263.Ugly-Number.md" >}})|Easy| O(log n)| O(1)||41.7%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||53.8%|
 |0326|Power of Three|[Go]({{< relref "/ChapterFour/0300~0399/0326.Power-of-Three.md" >}})|Easy| O(1)| O(1)||42.1%|
@@ -48,7 +48,7 @@ weight: 12
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.3%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.5%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||58.9%|
-|0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||44.7%|
+|0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||44.6%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||28.9%|
 |0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||70.7%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.1%|
@@ -77,7 +77,7 @@ weight: 12
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||56.8%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.7%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.8%|
-|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.8%|
+|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.7%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.4%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.8%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||67.3%|

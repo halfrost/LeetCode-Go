@@ -17,7 +17,7 @@ weight: 13
 |0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0001~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.4%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||59.2%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.9%|
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.7%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.8%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy||||66.5%|
 |0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||40.7%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||41.4%|
@@ -50,7 +50,7 @@ weight: 13
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0600~0699/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||58.5%|
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.2%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0700~0799/0705.Design-HashSet.md" >}})|Easy||||64.7%|
-|0706|Design HashMap|[Go]({{< relref "/ChapterFour/0700~0799/0706.Design-HashMap.md" >}})|Easy||||62.8%|
+|0706|Design HashMap|[Go]({{< relref "/ChapterFour/0700~0799/0706.Design-HashMap.md" >}})|Easy||||62.7%|
 |0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||32.7%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.3%|
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Easy| O(n)| O(n) ||49.2%|
@@ -63,7 +63,7 @@ weight: 13
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.1%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||62.3%|
 |0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.5%|
-|0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.3%|
+|0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.2%|
 |0961|N-Repeated Element in Size 2N Array|[Go]({{< relref "/ChapterFour/0900~0999/0961.N-Repeated-Element-in-Size-2N-Array.md" >}})|Easy||||74.4%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||40.0%|
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.1%|
@@ -78,7 +78,7 @@ weight: 13
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.1%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.1%|
 |1679|Max Number of K-Sum Pairs|[Go]({{< relref "/ChapterFour/1600~1699/1679.Max-Number-of-K-Sum-Pairs.md" >}})|Medium||||54.2%|
-|1748|Sum of Unique Elements|[Go]({{< relref "/ChapterFour/1700~1799/1748.Sum-of-Unique-Elements.md" >}})|Easy||||77.3%|
+|1748|Sum of Unique Elements|[Go]({{< relref "/ChapterFour/1700~1799/1748.Sum-of-Unique-Elements.md" >}})|Easy||||77.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
