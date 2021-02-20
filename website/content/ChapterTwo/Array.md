@@ -80,7 +80,7 @@ weight: 1
 |0605|Can Place Flowers|[Go]({{< relref "/ChapterFour/0600~0699/0605.Can-Place-Flowers.md" >}})|Easy||||31.8%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.9%|
 |0643|Maximum Average Subarray I|[Go]({{< relref "/ChapterFour/0600~0699/0643.Maximum-Average-Subarray-I.md" >}})|Easy||||42.0%|
-|0661|Image Smoother|[Go]({{< relref "/ChapterFour/0600~0699/0661.Image-Smoother.md" >}})|Easy||||52.3%|
+|0661|Image Smoother|[Go]({{< relref "/ChapterFour/0600~0699/0661.Image-Smoother.md" >}})|Easy||||52.2%|
 |0665|Non-decreasing Array|[Go]({{< relref "/ChapterFour/0600~0699/0665.Non-decreasing-Array.md" >}})|Medium||||19.7%|
 |0674|Longest Continuous Increasing Subsequence|[Go]({{< relref "/ChapterFour/0600~0699/0674.Longest-Continuous-Increasing-Subsequence.md" >}})|Easy||||46.0%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0600~0699/0695.Max-Area-of-Island.md" >}})|Medium||||64.7%|
@@ -125,7 +125,7 @@ weight: 1
 |1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||59.6%|
 |1184|Distance Between Bus Stops|[Go]({{< relref "/ChapterFour/1100~1199/1184.Distance-Between-Bus-Stops.md" >}})|Easy||||54.1%|
 |1185|Day of the Week|[Go]({{< relref "/ChapterFour/1100~1199/1185.Day-of-the-Week.md" >}})|Easy||||61.5%|
-|1200|Minimum Absolute Difference|[Go]({{< relref "/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference.md" >}})|Easy||||67.0%|
+|1200|Minimum Absolute Difference|[Go]({{< relref "/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference.md" >}})|Easy||||66.9%|
 |1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps.md" >}})|Medium||||48.7%|
 |1208|Get Equal Substrings Within Budget|[Go]({{< relref "/ChapterFour/1200~1299/1208.Get-Equal-Substrings-Within-Budget.md" >}})|Medium||||43.9%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||71.2%|
@@ -136,7 +136,7 @@ weight: 1
 |1275|Find Winner on a Tic Tac Toe Game|[Go]({{< relref "/ChapterFour/1200~1299/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md" >}})|Easy||||52.9%|
 |1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1200~1299/1287.Element-Appearing-More-Than-25-In-Sorted-Array.md" >}})|Easy||||60.2%|
 |1295|Find Numbers with Even Number of Digits|[Go]({{< relref "/ChapterFour/1200~1299/1295.Find-Numbers-with-Even-Number-of-Digits.md" >}})|Easy||||79.1%|
-|1299|Replace Elements with Greatest Element on Right Side|[Go]({{< relref "/ChapterFour/1200~1299/1299.Replace-Elements-with-Greatest-Element-on-Right-Side.md" >}})|Easy||||74.6%|
+|1299|Replace Elements with Greatest Element on Right Side|[Go]({{< relref "/ChapterFour/1200~1299/1299.Replace-Elements-with-Greatest-Element-on-Right-Side.md" >}})|Easy||||74.5%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300~1399/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||43.1%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1300~1399/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.8%|
 |1313|Decompress Run-Length Encoded List|[Go]({{< relref "/ChapterFour/1300~1399/1313.Decompress-Run-Length-Encoded-List.md" >}})|Easy||||85.4%|
@@ -153,19 +153,19 @@ weight: 1
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.7%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||55.1%|
 |1608|Special Array With X Elements Greater Than or Equal X|[Go]({{< relref "/ChapterFour/1600~1699/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X.md" >}})|Easy||||61.6%|
-|1619|Mean of Array After Removing Some Elements|[Go]({{< relref "/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements.md" >}})|Easy||||65.2%|
+|1619|Mean of Array After Removing Some Elements|[Go]({{< relref "/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements.md" >}})|Easy||||65.3%|
 |1629|Slowest Key|[Go]({{< relref "/ChapterFour/1600~1699/1629.Slowest-Key.md" >}})|Easy||||59.2%|
-|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||66.9%|
+|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||66.8%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.1%|
 |1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.4%|
 |1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1600~1699/1652.Defuse-the-Bomb.md" >}})|Easy||||62.9%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.3%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1600~1699/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.3%|
 |1700|Number of Students Unable to Eat Lunch|[Go]({{< relref "/ChapterFour/1700~1799/1700.Number-of-Students-Unable-to-Eat-Lunch.md" >}})|Easy||||68.7%|
-|1732|Find the Highest Altitude|[Go]({{< relref "/ChapterFour/1700~1799/1732.Find-the-Highest-Altitude.md" >}})|Easy||||81.4%|
+|1732|Find the Highest Altitude|[Go]({{< relref "/ChapterFour/1700~1799/1732.Find-the-Highest-Altitude.md" >}})|Easy||||81.3%|
 |1742|Maximum Number of Balls in a Box|[Go]({{< relref "/ChapterFour/1700~1799/1742.Maximum-Number-of-Balls-in-a-Box.md" >}})|Easy||||74.9%|
 |1748|Sum of Unique Elements|[Go]({{< relref "/ChapterFour/1700~1799/1748.Sum-of-Unique-Elements.md" >}})|Easy||||77.2%|
-|1752|Check if Array Is Sorted and Rotated|[Go]({{< relref "/ChapterFour/1700~1799/1752.Check-if-Array-Is-Sorted-and-Rotated.md" >}})|Easy||||66.8%|
+|1752|Check if Array Is Sorted and Rotated|[Go]({{< relref "/ChapterFour/1700~1799/1752.Check-if-Array-Is-Sorted-and-Rotated.md" >}})|Easy||||66.6%|
 |1758|Minimum Changes To Make Alternating Binary String|[Go]({{< relref "/ChapterFour/1700~1799/1758.Minimum-Changes-To-Make-Alternating-Binary-String.md" >}})|Easy||||59.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

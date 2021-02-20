@@ -26,10 +26,10 @@ weight: 5
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.4%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.5%|
 |0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||37.9%|
-|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||46.3%|
+|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||46.4%|
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||60.0%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.1%|
-|0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||47.3%|
+|0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||47.4%|
 |0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||52.1%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||41.0%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.5%|
@@ -55,6 +55,7 @@ weight: 5
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.3%|
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.0%|
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||70.7%|
+|1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.1%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

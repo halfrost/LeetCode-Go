@@ -19,7 +19,7 @@ weight: 13
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|35.9%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.8%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy||||66.5%|
-|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||40.7%|
+|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||40.8%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||41.4%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.2%|
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.2%|
@@ -31,7 +31,7 @@ weight: 13
 |0290|Word Pattern|[Go]({{< relref "/ChapterFour/0200~0299/0290.Word-Pattern.md" >}})|Easy|  O(n)| O(n) ||38.3%|
 |0347|Top K Frequent Elements|[Go]({{< relref "/ChapterFour/0300~0399/0347.Top-K-Frequent-Elements.md" >}})|Medium|  O(n)| O(n) ||62.4%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.7%|
-|0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||52.0%|
+|0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||51.9%|
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||53.8%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||57.8%|
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||52.2%|
@@ -51,7 +51,7 @@ weight: 13
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.2%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0700~0799/0705.Design-HashSet.md" >}})|Easy||||64.6%|
 |0706|Design HashMap|[Go]({{< relref "/ChapterFour/0700~0799/0706.Design-HashMap.md" >}})|Easy||||62.8%|
-|0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||32.7%|
+|0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||32.8%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.3%|
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Easy| O(n)| O(n) ||49.2%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.1%|

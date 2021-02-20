@@ -24,7 +24,7 @@ weight: 2
 |0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|37.5%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0100~0199/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||38.2%|
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.7%|
-|0151|Reverse Words in a String|[Go]({{< relref "/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String.md" >}})|Medium||||23.6%|
+|0151|Reverse Words in a String|[Go]({{< relref "/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String.md" >}})|Medium||||23.7%|
 |0344|Reverse String|[Go]({{< relref "/ChapterFour/0300~0399/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.3%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0300~0399/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||45.0%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.5%|
@@ -44,14 +44,15 @@ weight: 2
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||61.7%|
 |1221|Split a String in Balanced Strings|[Go]({{< relref "/ChapterFour/1200~1299/1221.Split-a-String-in-Balanced-Strings.md" >}})|Easy||||84.1%|
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.4%|
+|1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.1%|
 |1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||64.4%|
-|1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.1%|
+|1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.0%|
 |1614|Maximum Nesting Depth of the Parentheses|[Go]({{< relref "/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses.md" >}})|Easy||||83.0%|
 |1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.9%|
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||50.5%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.2%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.6%|
-|1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation.md" >}})|Easy||||85.5%|
+|1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation.md" >}})|Easy||||85.6%|
 |1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||82.9%|
 |1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1600~1699/1694.Reformat-Phone-Number.md" >}})|Easy||||66.0%|
 |1704|Determine if String Halves Are Alike|[Go]({{< relref "/ChapterFour/1700~1799/1704.Determine-if-String-Halves-Are-Alike.md" >}})|Easy||||77.4%|

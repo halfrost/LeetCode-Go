@@ -35,15 +35,16 @@ weight: 12
 |0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0300~0399/0367.Valid-Perfect-Square.md" >}})|Easy||||42.0%|
 |0372|Super Pow|[Go]({{< relref "/ChapterFour/0300~0399/0372.Super-Pow.md" >}})|Medium||||36.7%|
 |0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0300~0399/0397.Integer-Replacement.md" >}})|Medium||||33.5%|
+|0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||59.9%|
 |0441|Arranging Coins|[Go]({{< relref "/ChapterFour/0400~0499/0441.Arranging-Coins.md" >}})|Easy||||42.4%|
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium||||52.4%|
 |0453|Minimum Moves to Equal Array Elements|[Go]({{< relref "/ChapterFour/0400~0499/0453.Minimum-Moves-to-Equal-Array-Elements.md" >}})|Easy||||50.8%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0400~0499/0483.Smallest-Good-Base.md" >}})|Hard||||36.2%|
-|0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||36.1%|
+|0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||36.2%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.3%|
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||50.1%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.9%|
-|0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.5%|
+|0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.6%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||42.4%|
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.3%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.6%|
@@ -69,7 +70,7 @@ weight: 12
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.8%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||49.3%|
 |1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.2%|
-|1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||52.0%|
+|1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||51.9%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.5%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||71.2%|
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.6%|
@@ -79,7 +80,7 @@ weight: 12
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.6%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.7%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.4%|
-|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.8%|
+|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.9%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||67.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

@@ -23,7 +23,7 @@ weight: 7
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0100~0199/0131.Palindrome-Partitioning.md" >}})|Medium||||51.9%|
 |0152|Maximum Product Subarray|[Go]({{< relref "/ChapterFour/0100~0199/0152.Maximum-Product-Subarray.md" >}})|Medium| O(n)| O(1)||32.7%|
 |0174|Dungeon Game|[Go]({{< relref "/ChapterFour/0100~0199/0174.Dungeon-Game.md" >}})|Hard||||33.3%|
-|0198|House Robber|[Go]({{< relref "/ChapterFour/0100~0199/0198.House-Robber.md" >}})|Medium| O(n)| O(n)||42.8%|
+|0198|House Robber|[Go]({{< relref "/ChapterFour/0100~0199/0198.House-Robber.md" >}})|Medium| O(n)| O(n)||42.9%|
 |0213|House Robber II|[Go]({{< relref "/ChapterFour/0200~0299/0213.House-Robber-II.md" >}})|Medium| O(n)| O(n)||37.5%|
 |0300|Longest Increasing Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0300.Longest-Increasing-Subsequence.md" >}})|Medium| O(n log n)| O(n)||44.0%|
 |0303|Range Sum Query - Immutable|[Go]({{< relref "/ChapterFour/0300~0399/0303.Range-Sum-Query---Immutable.md" >}})|Easy||||47.5%|
@@ -36,8 +36,9 @@ weight: 7
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.8%|
 |0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0392.Is-Subsequence.md" >}})|Easy| O(n)| O(1)||49.5%|
 |0410|Split Array Largest Sum|[Go]({{< relref "/ChapterFour/0400~0499/0410.Split-Array-Largest-Sum.md" >}})|Hard||||46.3%|
+|0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||59.9%|
 |0416|Partition Equal Subset Sum|[Go]({{< relref "/ChapterFour/0400~0499/0416.Partition-Equal-Subset-Sum.md" >}})|Medium| O(n^2)| O(n)||44.8%|
-|0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0400~0499/0474.Ones-and-Zeroes.md" >}})|Medium||||43.6%|
+|0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0400~0499/0474.Ones-and-Zeroes.md" >}})|Medium||||43.7%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.7%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0600~0699/0638.Shopping-Offers.md" >}})|Medium||||52.8%|
 |0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||56.0%|
@@ -58,7 +59,7 @@ weight: 7
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||69.3%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.6%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||25.9%|
-|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.1%|
+|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.2%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.3%|
 |1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||61.6%|
 |1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||47.8%|

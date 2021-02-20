@@ -23,9 +23,9 @@ weight: 9
 |0111|Minimum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||39.5%|
 |0112|Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0112.Path-Sum.md" >}})|Easy| O(n)| O(1)||42.4%|
 |0113|Path Sum II|[Go]({{< relref "/ChapterFour/0100~0199/0113.Path-Sum-II.md" >}})|Medium| O(n)| O(1)||49.0%|
-|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||51.8%|
+|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||51.9%|
 |0124|Binary Tree Maximum Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0124.Binary-Tree-Maximum-Path-Sum.md" >}})|Hard| O(n)| O(1)||35.4%|
-|0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||50.8%|
+|0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||50.9%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||29.3%|
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0100~0199/0131.Palindrome-Partitioning.md" >}})|Medium||||51.9%|
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||56.3%|
@@ -37,7 +37,7 @@ weight: 9
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||44.8%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||51.8%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.6%|
-|0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0400~0499/0491.Increasing-Subsequences.md" >}})|Medium||||47.5%|
+|0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0400~0499/0491.Increasing-Subsequences.md" >}})|Medium||||47.6%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.7%|
 |0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.5%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.2%|
@@ -74,7 +74,7 @@ weight: 9
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||38.8%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||58.9%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.4%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.0%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.9%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||82.3%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.7%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|
@@ -83,7 +83,7 @@ weight: 9
 |1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.6%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.2%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||62.6%|
-|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.4%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.5%|
 |1631|Path With Minimum Effort|[Go]({{< relref "/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort.md" >}})|Medium||||50.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
