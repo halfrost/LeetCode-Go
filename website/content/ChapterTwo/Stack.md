@@ -21,7 +21,7 @@ weight: 5
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|51.2%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|34.7%|
 |0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|37.1%|
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.8%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||65.9%|
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||50.1%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.5%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.6%|
@@ -38,7 +38,7 @@ weight: 5
 |0456|132 Pattern|[Go]({{< relref "/ChapterFour/0400~0499/0456.132-Pattern.md" >}})|Medium| O(n)| O(n)||30.6%|
 |0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy| O(n)| O(n)||65.6%|
 |0503|Next Greater Element II|[Go]({{< relref "/ChapterFour/0500~0599/0503.Next-Greater-Element-II.md" >}})|Medium| O(n)| O(n)||58.4%|
-|0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||54.4%|
+|0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||54.5%|
 |0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.0%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.1%|
 |0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.3%|
@@ -50,7 +50,7 @@ weight: 5
 |0901|Online Stock Span|[Go]({{< relref "/ChapterFour/0900~0999/0901.Online-Stock-Span.md" >}})|Medium| O(n)| O(n)  ||61.3%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|33.1%|
 |0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||74.8%|
-|0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0900~0999/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||63.6%|
+|0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0900~0999/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||64.1%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.4%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.3%|
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.0%|

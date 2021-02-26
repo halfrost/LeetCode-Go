@@ -32,7 +32,7 @@ weight: 12
 |0326|Power of Three|[Go]({{< relref "/ChapterFour/0300~0399/0326.Power-of-Three.md" >}})|Easy| O(1)| O(1)||42.1%|
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0300~0399/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.2%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.9%|
-|0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0300~0399/0367.Valid-Perfect-Square.md" >}})|Easy||||42.0%|
+|0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0300~0399/0367.Valid-Perfect-Square.md" >}})|Easy||||42.1%|
 |0372|Super Pow|[Go]({{< relref "/ChapterFour/0300~0399/0372.Super-Pow.md" >}})|Medium||||36.7%|
 |0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0300~0399/0397.Integer-Replacement.md" >}})|Medium||||33.5%|
 |0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||59.9%|
@@ -75,13 +75,13 @@ weight: 12
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.4%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||71.2%|
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.6%|
-|1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.6%|
+|1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.5%|
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||56.8%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.6%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.5%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.6%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.4%|
-|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.9%|
+|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||63.0%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||66.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
