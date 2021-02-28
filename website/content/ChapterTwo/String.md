@@ -17,7 +17,7 @@ weight: 2
 |0028|Implement strStr()|[Go]({{< relref "/ChapterFour/0001~0099/0028.Implement-strStr.md" >}})|Easy| O(n)| O(1)||35.2%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.2%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||59.3%|
-|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||46.9%|
+|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.0%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)||34.7%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|36.0%|
 |0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||26.6%|
@@ -49,14 +49,14 @@ weight: 2
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.1%|
 |1614|Maximum Nesting Depth of the Parentheses|[Go]({{< relref "/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses.md" >}})|Easy||||82.8%|
 |1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.8%|
-|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||50.7%|
+|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||51.2%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||83.0%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.7%|
 |1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation.md" >}})|Easy||||85.4%|
-|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||82.6%|
-|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1600~1699/1694.Reformat-Phone-Number.md" >}})|Easy||||65.9%|
-|1704|Determine if String Halves Are Alike|[Go]({{< relref "/ChapterFour/1700~1799/1704.Determine-if-String-Halves-Are-Alike.md" >}})|Easy||||77.4%|
-|1736|Latest Time by Replacing Hidden Digits|[Go]({{< relref "/ChapterFour/1700~1799/1736.Latest-Time-by-Replacing-Hidden-Digits.md" >}})|Easy||||41.2%|
+|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||82.5%|
+|1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1600~1699/1694.Reformat-Phone-Number.md" >}})|Easy||||66.0%|
+|1704|Determine if String Halves Are Alike|[Go]({{< relref "/ChapterFour/1700~1799/1704.Determine-if-String-Halves-Are-Alike.md" >}})|Easy||||77.3%|
+|1736|Latest Time by Replacing Hidden Digits|[Go]({{< relref "/ChapterFour/1700~1799/1736.Latest-Time-by-Replacing-Hidden-Digits.md" >}})|Easy||||41.1%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

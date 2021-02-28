@@ -102,8 +102,8 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||49.1%|
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||65.3%|
-|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0001~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.5%|
-|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0001~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||59.2%|
+|0037|Sudoku Solver|[Go]({{< relref "/ChapterFour/0001~0099/0037.Sudoku-Solver.md" >}})|Hard| O(n^2)| O(n^2)|❤️|46.6%|
+|0039|Combination Sum|[Go]({{< relref "/ChapterFour/0001~0099/0039.Combination-Sum.md" >}})|Medium| O(n log n)| O(n)||59.3%|
 |0040|Combination Sum II|[Go]({{< relref "/ChapterFour/0001~0099/0040.Combination-Sum-II.md" >}})|Medium| O(n log n)| O(n)||50.1%|
 |0046|Permutations|[Go]({{< relref "/ChapterFour/0001~0099/0046.Permutations.md" >}})|Medium| O(n)| O(n)|❤️|66.6%|
 |0047|Permutations II|[Go]({{< relref "/ChapterFour/0001~0099/0047.Permutations-II.md" >}})|Medium| O(n^2)| O(n)|❤️|49.4%|
@@ -131,10 +131,10 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.4%|
 |1079|Letter Tile Possibilities|[Go]({{< relref "/ChapterFour/1000~1099/1079.Letter-Tile-Possibilities.md" >}})|Medium| O(n^2)| O(1)|❤️|75.9%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.5%|
-|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.2%|
+|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.1%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.4%|
-|1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1600~1699/1681.Minimum-Incompatibility.md" >}})|Hard||||35.5%|
-|1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1600~1699/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||81.9%|
+|1681|Minimum Incompatibility|[Go]({{< relref "/ChapterFour/1600~1699/1681.Minimum-Incompatibility.md" >}})|Hard||||35.6%|
+|1688|Count of Matches in Tournament|[Go]({{< relref "/ChapterFour/1600~1699/1688.Count-of-Matches-in-Tournament.md" >}})|Easy||||81.8%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

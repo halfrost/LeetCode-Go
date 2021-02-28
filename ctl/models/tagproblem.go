@@ -130,19 +130,30 @@ func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdro
 			s5 := strings.Replace(s4, ")", "", -1)
 			s6 := strings.Replace(s5, ",", "", -1)
 			s7 := strings.Replace(s6, "?", "", -1)
+			count := 0
+			// 去掉 --- 这种情况，这种情况是由于题目标题中包含 - ，左右有空格，左右一填充，造成了 ---，3 个 -
+			for i := 0; i < len(s7)-2; i++ {
+				if s7[i] == '-' && s7[i+1] == '-' && s7[i+2] == '-' {
+					fmt.Printf("【需要修正 --- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+					s7 = s7[:i+1] + s7[i+3:]
+					count++
+				}
+			}
+			if count > 0 {
+				fmt.Printf("总共修正了 %v 个标题\n", count)
+			}
+			// 去掉 -- 这种情况，这种情况是由于题目标题中包含负号 -
+			for i := 0; i < len(s7)-2; i++ {
+				if s7[i] == '-' && s7[i+1] == '-' {
+					fmt.Printf("【需要修正 -- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+					s7 = s7[:i+1] + s7[i+2:]
+					count++
+				}
+			}
+			if count > 0 {
+				fmt.Printf("总共修正了 %v 个标题\n", count)
+			}
 			if internal {
-				count := 0
-				// 去掉 --- 这种情况，这种情况是由于题目标题中包含 - ，左右有空格，左右一填充，造成了 ---，3 个 -
-				for i := 0; i < len(s7)-2; i++ {
-					if s7[i] == '-' && s7[i+1] == '-' && s7[i+2] == '-' {
-						fmt.Printf("【需要修正的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
-						s7 = s7[:i+1] + s7[i+3:]
-						count++
-					}
-				}
-				if count > 0 {
-					fmt.Printf("总共修正了 %v 个标题\n", count)
-				}
 				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v/%v.md\" >}})", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			} else {
 				tmp.SolutionPath = fmt.Sprintf("[Go](https://books.halfrost.com/leetcode/ChapterFour/%v/%v)", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))

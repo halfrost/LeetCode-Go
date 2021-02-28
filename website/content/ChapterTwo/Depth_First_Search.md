@@ -14,7 +14,7 @@ weight: 9
 |0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.5%|
 |0100|Same Tree|[Go]({{< relref "/ChapterFour/0100~0199/0100.Same-Tree.md" >}})|Easy| O(n)| O(1)||54.1%|
 |0101|Symmetric Tree|[Go]({{< relref "/ChapterFour/0100~0199/0101.Symmetric-Tree.md" >}})|Easy| O(n)| O(1)||48.1%|
-|0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||68.0%|
+|0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||68.1%|
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||51.8%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.7%|
 |0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.4%|
@@ -23,7 +23,7 @@ weight: 9
 |0111|Minimum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||39.5%|
 |0112|Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0112.Path-Sum.md" >}})|Easy| O(n)| O(1)||42.4%|
 |0113|Path Sum II|[Go]({{< relref "/ChapterFour/0100~0199/0113.Path-Sum-II.md" >}})|Medium| O(n)| O(1)||49.1%|
-|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||51.9%|
+|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||52.0%|
 |0124|Binary Tree Maximum Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0124.Binary-Tree-Maximum-Path-Sum.md" >}})|Hard| O(n)| O(1)||35.5%|
 |0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||50.9%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||29.4%|
@@ -52,12 +52,12 @@ weight: 9
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0600~0699/0695.Max-Area-of-Island.md" >}})|Medium||||64.8%|
 |0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||51.8%|
 |0733|Flood Fill|[Go]({{< relref "/ChapterFour/0700~0799/0733.Flood-Fill.md" >}})|Easy||||55.9%|
-|0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.3%|
+|0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.4%|
 |0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix.md" >}})|Medium||||55.6%|
-|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.9%|
+|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.8%|
 |0785|Is Graph Bipartite?|[Go]({{< relref "/ChapterFour/0700~0799/0785.Is-Graph-Bipartite.md" >}})|Medium||||48.6%|
 |0802|Find Eventual Safe States|[Go]({{< relref "/ChapterFour/0800~0899/0802.Find-Eventual-Safe-States.md" >}})|Medium||||49.8%|
-|0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||46.0%|
+|0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||46.1%|
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0800~0899/0839.Similar-String-Groups.md" >}})|Hard||||40.8%|
 |0841|Keys and Rooms|[Go]({{< relref "/ChapterFour/0800~0899/0841.Keys-and-Rooms.md" >}})|Medium||||65.4%|
 |0851|Loud and Rich|[Go]({{< relref "/ChapterFour/0800~0899/0851.Loud-and-Rich.md" >}})|Medium||||52.6%|
@@ -67,21 +67,21 @@ weight: 9
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0900~0999/0924.Minimize-Malware-Spread.md" >}})|Hard||||41.8%|
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.3%|
 |0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||55.4%|
-|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.2%|
+|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.1%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.8%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||69.7%|
 |0980|Unique Paths III|[Go]({{< relref "/ChapterFour/0900~0999/0980.Unique-Paths-III.md" >}})|Hard| O(n log n)| O(n)||77.1%|
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||38.8%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||59.0%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.5%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.0%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.9%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||82.3%|
-|1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.7%|
+|1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.8%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|
-|1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.4%|
+|1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.3%|
 |1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||48.3%|
-|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.6%|
-|1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.1%|
+|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.7%|
+|1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||84.2%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||62.5%|
 |1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.5%|
 |1631|Path With Minimum Effort|[Go]({{< relref "/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort.md" >}})|Medium||||50.1%|
