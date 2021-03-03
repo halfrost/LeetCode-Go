@@ -4,15 +4,13 @@ package leetcode
 	匹配跟单词中的字母顺序，字母个数都无关，可以用bitmap压缩
 	1. 记录word中 利用map记录各种bit标示的个数
 	2. puzzles 中各个字母都不相同! 记录bitmap，然后搜索子空间中各种bit标识的个数的和
-		因为puzzles长度最长是7，所以搜索空间 2^7
+	   因为puzzles长度最长是7，所以搜索空间 2^7
 */
 func findNumOfValidWords(words []string, puzzles []string) []int {
-
-	wordBitStatusMap := make(map[uint32]int, 0)
+	wordBitStatusMap, res := make(map[uint32]int, 0), []int{}
 	for _, w := range words {
 		wordBitStatusMap[toBitMap([]byte(w))]++
 	}
-	var res []int
 	for _, p := range puzzles {
 		var bitMap uint32
 		var totalNum int
@@ -20,7 +18,6 @@ func findNumOfValidWords(words []string, puzzles []string) []int {
 		findNum([]byte(p)[1:], bitMap, &totalNum, wordBitStatusMap)
 		res = append(res, totalNum)
 	}
-
 	return res
 }
 
@@ -38,14 +35,11 @@ func findNum(puzzles []byte, bitMap uint32, totalNum *int, m map[uint32]int) {
 		*totalNum = *totalNum + m[bitMap]
 		return
 	}
-
 	//不包含puzzles[0],即puzzles[0]对应bit是0
 	findNum(puzzles[1:], bitMap, totalNum, m)
-
 	//包含puzzles[0],即puzzles[0]对应bit是1
 	bitMap |= (1 << (puzzles[0] - 'a'))
 	findNum(puzzles[1:], bitMap, totalNum, m)
 	bitMap ^= (1 << (puzzles[0] - 'a')) //异或 清零
-
 	return
 }
