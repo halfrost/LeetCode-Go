@@ -26,7 +26,7 @@ weight: 5
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.5%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Medium| O(n)| O(1)||57.6%|
 |0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||37.9%|
-|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||46.4%|
+|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||46.5%|
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||60.2%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.2%|
 |0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||47.5%|
@@ -39,7 +39,7 @@ weight: 5
 |0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy| O(n)| O(n)||65.6%|
 |0503|Next Greater Element II|[Go]({{< relref "/ChapterFour/0500~0599/0503.Next-Greater-Element-II.md" >}})|Medium| O(n)| O(n)||58.5%|
 |0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||54.5%|
-|0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.0%|
+|0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.1%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.0%|
 |0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.3%|
 |0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0700~0799/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.6%|

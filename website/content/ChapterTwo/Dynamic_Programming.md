@@ -9,6 +9,7 @@ weight: 7
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
+|0005|Longest Palindromic Substring|[Go]({{< relref "/ChapterFour/0001~0099/0005.Longest-Palindromic-Substring.md" >}})|Medium||||30.5%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard||||51.2%|
 |0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0001~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||47.7%|
 |0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||56.0%|
@@ -48,19 +49,19 @@ weight: 7
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0800~0899/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.9%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0800~0899/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium||||34.2%|
-|0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0900~0999/0920.Number-of-Music-Playlists.md" >}})|Hard||||47.8%|
+|0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0900~0999/0920.Number-of-Music-Playlists.md" >}})|Hard||||47.7%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.8%|
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||45.3%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.8%|
-|1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.4%|
+|1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.5%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.4%|
-|1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||46.8%|
+|1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||46.7%|
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||69.1%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.4%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||25.6%|
-|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.1%|
+|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.0%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.4%|
 |1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||61.7%|
 |1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||48.1%|

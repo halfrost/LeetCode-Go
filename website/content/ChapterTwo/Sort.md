@@ -33,7 +33,7 @@ weight: 14
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard||||36.0%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||64.8%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||52.0%|
-|0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0400~0499/0493.Reverse-Pairs.md" >}})|Hard||||26.8%|
+|0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0400~0499/0493.Reverse-Pairs.md" >}})|Hard||||26.9%|
 |0524|Longest Word in Dictionary through Deleting|[Go]({{< relref "/ChapterFour/0500~0599/0524.Longest-Word-in-Dictionary-through-Deleting.md" >}})|Medium| O(n)| O(1) ||50.1%|
 |0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||32.8%|
 |0767|Reorganize String|[Go]({{< relref "/ChapterFour/0700~0799/0767.Reorganize-String.md" >}})|Medium| O(n log n)| O(log n)  |❤️|50.1%|
@@ -48,10 +48,10 @@ weight: 14
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.4%|
 |1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||77.8%|
 |1329|Sort the Matrix Diagonally|[Go]({{< relref "/ChapterFour/1300~1399/1329.Sort-the-Matrix-Diagonally.md" >}})|Medium||||81.7%|
-|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||66.7%|
+|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||66.8%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||60.0%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||54.6%|
-|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.4%|
+|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.5%|
 |1691|Maximum Height by Stacking Cuboids|[Go]({{< relref "/ChapterFour/1600~1699/1691.Maximum-Height-by-Stacking-Cuboids.md" >}})|Hard||||50.1%|
 |1710|Maximum Units on a Truck|[Go]({{< relref "/ChapterFour/1700~1799/1710.Maximum-Units-on-a-Truck.md" >}})|Easy||||70.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

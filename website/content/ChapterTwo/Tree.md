@@ -15,7 +15,7 @@ weight: 6
 |0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.8%|
 |0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.5%|
 |0100|Same Tree|[Go]({{< relref "/ChapterFour/0100~0199/0100.Same-Tree.md" >}})|Easy| O(n)| O(1)||54.1%|
-|0101|Symmetric Tree|[Go]({{< relref "/ChapterFour/0100~0199/0101.Symmetric-Tree.md" >}})|Easy| O(n)| O(1)||48.1%|
+|0101|Symmetric Tree|[Go]({{< relref "/ChapterFour/0100~0199/0101.Symmetric-Tree.md" >}})|Easy| O(n)| O(1)||48.2%|
 |0102|Binary Tree Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md" >}})|Medium| O(n)| O(1)||56.7%|
 |0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||50.1%|
 |0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||68.1%|
@@ -49,7 +49,7 @@ weight: 6
 |0538|Convert BST to Greater Tree|[Go]({{< relref "/ChapterFour/0500~0599/0538.Convert-BST-to-Greater-Tree.md" >}})|Medium||||59.4%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.0%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.5%|
-|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||64.8%|
+|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||64.9%|
 |0653|Two Sum IV - Input is a BST|[Go]({{< relref "/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST.md" >}})|Easy||||56.3%|
 |0662|Maximum Width of Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0662.Maximum-Width-of-Binary-Tree.md" >}})|Medium||||39.9%|
 |0669|Trim a Binary Search Tree|[Go]({{< relref "/ChapterFour/0600~0699/0669.Trim-a-Binary-Search-Tree.md" >}})|Medium||||64.4%|
