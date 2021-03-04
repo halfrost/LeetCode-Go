@@ -156,10 +156,10 @@
 |0016|3Sum Closest|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0016.3Sum-Closest)|46.3%|Medium||
 |0017|Letter Combinations of a Phone Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0017.Letter-Combinations-of-a-Phone-Number)|49.2%|Medium||
 |0018|4Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0018.4Sum)|34.9%|Medium||
-|0019|Remove Nth Node From End of List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0019.Remove-Nth-Node-From-End-of-List)|35.8%|Medium||
+|0019|Remove Nth Node From End of List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0019.Remove-Nth-Node-From-End-of-List)|35.7%|Medium||
 |0020|Valid Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0020.Valid-Parentheses)|39.9%|Easy||
 |0021|Merge Two Sorted Lists|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0021.Merge-Two-Sorted-Lists)|56.1%|Easy||
-|0022|Generate Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0022.Generate-Parentheses)|65.3%|Medium||
+|0022|Generate Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0022.Generate-Parentheses)|65.4%|Medium||
 |0023|Merge k Sorted Lists|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0023.Merge-k-Sorted-Lists)|42.7%|Hard||
 |0024|Swap Nodes in Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0024.Swap-Nodes-in-Pairs)|53.1%|Medium||
 |0025|Reverse Nodes in k-Group|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0025.Reverse-Nodes-in-k-Group)|44.9%|Hard||
@@ -190,7 +190,7 @@
 |0050|Pow(x, n)|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0050.Pow(x,-n))|30.9%|Medium||
 |0051|N-Queens|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0051.N-Queens)|49.7%|Hard||
 |0052|N-Queens II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0052.N-Queens-II)|60.2%|Hard||
-|0053|Maximum Subarray|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0053.Maximum-Subarray)|47.7%|Easy||
+|0053|Maximum Subarray|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0053.Maximum-Subarray)|47.8%|Easy||
 |0054|Spiral Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0054.Spiral-Matrix)|36.1%|Medium||
 |0055|Jump Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0055.Jump-Game)|35.2%|Medium||
 |0056|Merge Intervals|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0056.Merge-Intervals)|41.1%|Medium||
@@ -210,7 +210,7 @@
 |0070|Climbing Stairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0070.Climbing-Stairs)|48.6%|Easy||
 |0071|Simplify Path|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0071.Simplify-Path)|34.7%|Medium||
 |0072|Edit Distance||46.8%|Hard||
-|0073|Set Matrix Zeroes||44.3%|Medium||
+|0073|Set Matrix Zeroes||44.4%|Medium||
 |0074|Search a 2D Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0074.Search-a-2D-Matrix)|37.8%|Medium||
 |0075|Sort Colors|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0075.Sort-Colors)|49.4%|Medium||
 |0076|Minimum Window Substring|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0076.Minimum-Window-Substring)|36.0%|Hard||
@@ -240,7 +240,7 @@
 |0100|Same Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0100.Same-Tree)|54.1%|Easy||
 |0101|Symmetric Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0101.Symmetric-Tree)|48.2%|Easy||
 |0102|Binary Tree Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0102.Binary-Tree-Level-Order-Traversal)|56.7%|Medium||
-|0103|Binary Tree Zigzag Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0103.Binary-Tree-Zigzag-Level-Order-Traversal)|50.1%|Medium||
+|0103|Binary Tree Zigzag Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0103.Binary-Tree-Zigzag-Level-Order-Traversal)|50.2%|Medium||
 |0104|Maximum Depth of Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0104.Maximum-Depth-of-Binary-Tree)|68.1%|Easy||
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal)|51.9%|Medium||
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal)|49.7%|Medium||
@@ -253,13 +253,13 @@
 |0113|Path Sum II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0113.Path-Sum-II)|49.1%|Medium||
 |0114|Flatten Binary Tree to Linked List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0114.Flatten-Binary-Tree-to-Linked-List)|52.0%|Medium||
 |0115|Distinct Subsequences||39.7%|Hard||
-|0116|Populating Next Right Pointers in Each Node||49.1%|Medium||
+|0116|Populating Next Right Pointers in Each Node||49.2%|Medium||
 |0117|Populating Next Right Pointers in Each Node II||42.1%|Medium||
 |0118|Pascal's Triangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0118.Pascal's-Triangle)|54.9%|Easy||
 |0119|Pascal's Triangle II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0119.Pascal's-Triangle-II)|52.2%|Easy||
 |0120|Triangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0120.Triangle)|45.8%|Medium||
 |0121|Best Time to Buy and Sell Stock|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0121.Best-Time-to-Buy-and-Sell-Stock)|51.6%|Easy||
-|0122|Best Time to Buy and Sell Stock II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0122.Best-Time-to-Buy-and-Sell-Stock-II)|58.5%|Easy||
+|0122|Best Time to Buy and Sell Stock II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0122.Best-Time-to-Buy-and-Sell-Stock-II)|58.6%|Easy||
 |0123|Best Time to Buy and Sell Stock III||39.9%|Hard||
 |0124|Binary Tree Maximum Path Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0124.Binary-Tree-Maximum-Path-Sum)|35.5%|Hard||
 |0125|Valid Palindrome|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0125.Valid-Palindrome)|38.3%|Easy||
@@ -273,14 +273,14 @@
 |0133|Clone Graph||39.3%|Medium||
 |0134|Gas Station||41.3%|Medium||
 |0135|Candy||33.1%|Hard||
-|0136|Single Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0136.Single-Number)|66.5%|Easy||
+|0136|Single Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0136.Single-Number)|66.6%|Easy||
 |0137|Single Number II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0137.Single-Number-II)|53.9%|Medium||
 |0138|Copy List with Random Pointer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0138.Copy-List-with-Random-Pointer)|40.9%|Medium||
 |0139|Word Break||41.7%|Medium||
 |0140|Word Break II||34.7%|Hard||
 |0141|Linked List Cycle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0141.Linked-List-Cycle)|42.9%|Easy||
 |0142|Linked List Cycle II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0142.Linked-List-Cycle-II)|39.7%|Medium||
-|0143|Reorder List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0143.Reorder-List)|40.6%|Medium||
+|0143|Reorder List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0143.Reorder-List)|40.7%|Medium||
 |0144|Binary Tree Preorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0144.Binary-Tree-Preorder-Traversal)|57.5%|Medium||
 |0145|Binary Tree Postorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0145.Binary-Tree-Postorder-Traversal)|57.6%|Medium||
 |0146|LRU Cache|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0146.LRU-Cache)|35.8%|Medium||
@@ -322,7 +322,7 @@
 |0182|Duplicate Emails||64.6%|Easy||
 |0183|Customers Who Never Order||56.9%|Easy||
 |0184|Department Highest Salary||40.2%|Medium||
-|0185|Department Top Three Salaries||39.0%|Hard||
+|0185|Department Top Three Salaries||39.1%|Hard||
 |0186|Reverse Words in a String II||45.6%|Medium||
 |0187|Repeated DNA Sequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0187.Repeated-DNA-Sequences)|41.5%|Medium||
 |0188|Best Time to Buy and Sell Stock IV||29.7%|Hard||
@@ -337,7 +337,7 @@
 |0197|Rising Temperature||39.9%|Easy||
 |0198|House Robber|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0198.House-Robber)|42.9%|Medium||
 |0199|Binary Tree Right Side View|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0199.Binary-Tree-Right-Side-View)|56.3%|Medium||
-|0200|Number of Islands|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0200.Number-of-Islands)|49.1%|Medium||
+|0200|Number of Islands|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0200.Number-of-Islands)|49.2%|Medium||
 |0201|Bitwise AND of Numbers Range|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0201.Bitwise-AND-of-Numbers-Range)|39.6%|Medium||
 |0202|Happy Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0202.Happy-Number)|51.3%|Easy||
 |0203|Remove Linked List Elements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0203.Remove-Linked-List-Elements)|39.2%|Easy||
@@ -397,15 +397,15 @@
 |0257|Binary Tree Paths|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0257.Binary-Tree-Paths)|53.6%|Easy||
 |0258|Add Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0258.Add-Digits)|58.5%|Easy||
 |0259|3Sum Smaller||49.0%|Medium||
-|0260|Single Number III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0260.Single-Number-III)|65.3%|Medium||
+|0260|Single Number III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0260.Single-Number-III)|65.4%|Medium||
 |0261|Graph Valid Tree||43.2%|Medium||
 |0262|Trips and Users||35.0%|Hard||
 |0263|Ugly Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0263.Ugly-Number)|41.7%|Easy||
 |0264|Ugly Number II||42.9%|Medium||
 |0265|Paint House II||45.7%|Hard||
-|0266|Palindrome Permutation||62.5%|Easy||
+|0266|Palindrome Permutation||62.4%|Easy||
 |0267|Palindrome Permutation II||37.4%|Medium||
-|0268|Missing Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0268.Missing-Number)|54.6%|Easy||
+|0268|Missing Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0268.Missing-Number)|54.7%|Easy||
 |0269|Alien Dictionary||33.7%|Hard||
 |0270|Closest Binary Search Tree Value||49.9%|Easy||
 |0271|Encode and Decode Strings||32.8%|Medium||
@@ -416,14 +416,14 @@
 |0276|Paint Fence||39.1%|Medium||
 |0277|Find the Celebrity||43.7%|Medium||
 |0278|First Bad Version||37.5%|Easy||
-|0279|Perfect Squares||48.9%|Medium||
+|0279|Perfect Squares||49.0%|Medium||
 |0280|Wiggle Sort||64.7%|Medium||
 |0281|Zigzag Iterator||59.5%|Medium||
 |0282|Expression Add Operators||36.8%|Hard||
 |0283|Move Zeroes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0283.Move-Zeroes)|58.6%|Easy||
 |0284|Peeking Iterator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0284.Peeking-Iterator)|50.6%|Medium||
 |0285|Inorder Successor in BST||42.9%|Medium||
-|0286|Walls and Gates||56.5%|Medium||
+|0286|Walls and Gates||56.6%|Medium||
 |0287|Find the Duplicate Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0287.Find-the-Duplicate-Number)|57.6%|Medium||
 |0288|Unique Word Abbreviation||23.1%|Medium||
 |0289|Game of Life||58.3%|Medium||
@@ -448,7 +448,7 @@
 |0308|Range Sum Query 2D - Mutable||37.7%|Hard||
 |0309|Best Time to Buy and Sell Stock with Cooldown|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown)|48.1%|Medium||
 |0310|Minimum Height Trees||34.7%|Medium||
-|0311|Sparse Matrix Multiplication||63.9%|Medium||
+|0311|Sparse Matrix Multiplication||64.0%|Medium||
 |0312|Burst Balloons||53.8%|Hard||
 |0313|Super Ugly Number||46.2%|Medium||
 |0314|Binary Tree Vertical Order Traversal||47.0%|Medium||
@@ -472,14 +472,14 @@
 |0332|Reconstruct Itinerary||37.9%|Medium||
 |0333|Largest BST Subtree||37.9%|Medium||
 |0334|Increasing Triplet Subsequence||40.7%|Medium||
-|0335|Self Crossing||28.6%|Hard||
-|0336|Palindrome Pairs||34.6%|Hard||
+|0335|Self Crossing||28.7%|Hard||
+|0336|Palindrome Pairs||34.7%|Hard||
 |0337|House Robber III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0337.House-Robber-III)|51.9%|Medium||
 |0338|Counting Bits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0338.Counting-Bits)|70.4%|Medium||
 |0339|Nested List Weight Sum||76.5%|Medium||
 |0340|Longest Substring with At Most K Distinct Characters||45.5%|Medium||
 |0341|Flatten Nested List Iterator||54.6%|Medium||
-|0342|Power of Four|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0342.Power-of-Four)|41.7%|Easy||
+|0342|Power of Four|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0342.Power-of-Four)|41.8%|Easy||
 |0343|Integer Break|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0343.Integer-Break)|51.2%|Medium||
 |0344|Reverse String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0344.Reverse-String)|70.4%|Easy||
 |0345|Reverse Vowels of a String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0345.Reverse-Vowels-of-a-String)|45.1%|Easy||
@@ -497,7 +497,7 @@
 |0357|Count Numbers with Unique Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0357.Count-Numbers-with-Unique-Digits)|48.9%|Medium||
 |0358|Rearrange String k Distance Apart||35.7%|Hard||
 |0359|Logger Rate Limiter||72.3%|Easy||
-|0360|Sort Transformed Array||49.6%|Medium||
+|0360|Sort Transformed Array||49.7%|Medium||
 |0361|Bomb Enemy||46.7%|Medium||
 |0362|Design Hit Counter||65.3%|Medium||
 |0363|Max Sum of Rectangle No Larger Than K||38.4%|Hard||
@@ -533,7 +533,7 @@
 |0393|UTF-8 Validation|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0393.UTF-8-Validation)|38.1%|Medium||
 |0394|Decode String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0394.Decode-String)|52.7%|Medium||
 |0395|Longest Substring with At Least K Repeating Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0395.Longest-Substring-with-At-Least-K-Repeating-Characters)|43.6%|Medium||
-|0396|Rotate Function||36.7%|Medium||
+|0396|Rotate Function||36.8%|Medium||
 |0397|Integer Replacement|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0397.Integer-Replacement)|33.5%|Medium||
 |0398|Random Pick Index||58.0%|Medium||
 |0399|Evaluate Division|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0399.Evaluate-Division)|54.4%|Medium||
@@ -544,12 +544,12 @@
 |0404|Sum of Left Leaves|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0404.Sum-of-Left-Leaves)|52.3%|Easy||
 |0405|Convert a Number to Hexadecimal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0405.Convert-a-Number-to-Hexadecimal)|44.4%|Easy||
 |0406|Queue Reconstruction by Height||68.4%|Medium||
-|0407|Trapping Rain Water II||44.2%|Hard||
+|0407|Trapping Rain Water II||44.3%|Hard||
 |0408|Valid Word Abbreviation||31.4%|Easy||
 |0409|Longest Palindrome|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0409.Longest-Palindrome)|52.2%|Easy||
 |0410|Split Array Largest Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0410.Split-Array-Largest-Sum)|46.4%|Hard||
 |0411|Minimum Unique Word Abbreviation||37.3%|Hard||
-|0412|Fizz Buzz|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0412.Fizz-Buzz)|63.6%|Easy||
+|0412|Fizz Buzz|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0412.Fizz-Buzz)|63.5%|Easy||
 |0413|Arithmetic Slices|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0413.Arithmetic-Slices)|59.9%|Medium||
 |0414|Third Maximum Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0414.Third-Maximum-Number)|30.7%|Easy||
 |0415|Add Strings||48.2%|Easy||
@@ -574,13 +574,13 @@
 |0434|Number of Segments in a String||37.8%|Easy||
 |0435|Non-overlapping Intervals|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0435.Non-overlapping-Intervals)|43.9%|Medium||
 |0436|Find Right Interval|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0436.Find-Right-Interval)|48.5%|Medium||
-|0437|Path Sum III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0437.Path-Sum-III)|48.1%|Medium||
+|0437|Path Sum III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0437.Path-Sum-III)|48.2%|Medium||
 |0438|Find All Anagrams in a String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0438.Find-All-Anagrams-in-a-String)|45.0%|Medium||
 |0439|Ternary Expression Parser||56.7%|Medium||
 |0440|K-th Smallest in Lexicographical Order||29.8%|Hard||
 |0441|Arranging Coins|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0441.Arranging-Coins)|42.4%|Easy||
 |0442|Find All Duplicates in an Array||68.9%|Medium||
-|0443|String Compression||43.6%|Medium||
+|0443|String Compression||43.7%|Medium||
 |0444|Sequence Reconstruction||23.6%|Medium||
 |0445|Add Two Numbers II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0445.Add-Two-Numbers-II)|56.3%|Medium||
 |0446|Arithmetic Slices II - Subsequence||33.5%|Hard||
@@ -608,7 +608,7 @@
 |0468|Validate IP Address||25.0%|Medium||
 |0469|Convex Polygon||37.5%|Medium||
 |0470|Implement Rand10() Using Rand7()|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0470.Implement-Rand10()-Using-Rand7())|46.0%|Medium||
-|0471|Encode String with Shortest Length||49.2%|Hard||
+|0471|Encode String with Shortest Length||49.3%|Hard||
 |0472|Concatenated Words||44.0%|Hard||
 |0473|Matchsticks to Square||38.2%|Medium||
 |0474|Ones and Zeroes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0474.Ones-and-Zeroes)|43.7%|Medium||
@@ -668,7 +668,7 @@
 |0528|Random Pick with Weight|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0528.Random-Pick-with-Weight)|44.6%|Medium||
 |0529|Minesweeper|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0529.Minesweeper)|61.2%|Medium||
 |0530|Minimum Absolute Difference in BST||54.9%|Easy||
-|0531|Lonely Pixel I||59.6%|Medium||
+|0531|Lonely Pixel I||59.5%|Medium||
 |0532|K-diff Pairs in an Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0532.K-diff-Pairs-in-an-Array)|35.3%|Medium||
 |0533|Lonely Pixel II||48.1%|Medium||
 |0534|Game Play Analysis III||79.4%|Medium||
@@ -683,10 +683,10 @@
 |0543|Diameter of Binary Tree||49.2%|Easy||
 |0544|Output Contest Matches||75.8%|Medium||
 |0545|Boundary of Binary Tree||39.9%|Medium||
-|0546|Remove Boxes||44.2%|Hard||
+|0546|Remove Boxes||44.1%|Hard||
 |0547|Number of Provinces|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0547.Number-of-Provinces)|60.5%|Medium||
 |0548|Split Array with Equal Sum||48.0%|Medium||
-|0549|Binary Tree Longest Consecutive Sequence II||47.2%|Medium||
+|0549|Binary Tree Longest Consecutive Sequence II||47.3%|Medium||
 |0550|Game Play Analysis IV||45.6%|Medium||
 |0551|Student Attendance Record I||46.0%|Easy||
 |0552|Student Attendance Record II||37.4%|Hard||
@@ -695,7 +695,7 @@
 |0555|Split Concatenated Strings||42.8%|Medium||
 |0556|Next Greater Element III||33.5%|Medium||
 |0557|Reverse Words in a String III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0557.Reverse-Words-in-a-String-III)|72.0%|Easy||
-|0558|Logical OR of Two Binary Grids Represented as Quad-Trees||45.5%|Medium||
+|0558|Logical OR of Two Binary Grids Represented as Quad-Trees||45.6%|Medium||
 |0559|Maximum Depth of N-ary Tree||69.5%|Easy||
 |0560|Subarray Sum Equals K||43.7%|Medium||
 |0561|Array Partition I|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0561.Array-Partition-I)|73.3%|Easy||
@@ -722,7 +722,7 @@
 |0582|Kill Process||63.7%|Medium||
 |0583|Delete Operation for Two Strings||50.0%|Medium||
 |0584|Find Customer Referee||74.0%|Easy||
-|0585|Investments in 2016||56.9%|Medium||
+|0585|Investments in 2016||57.0%|Medium||
 |0586|Customer Placing the Largest Number of Orders||75.3%|Easy||
 |0587|Erect the Fence||36.4%|Hard||
 |0588|Design In-Memory File System||46.6%|Hard||
@@ -755,7 +755,7 @@
 |0615|Average Salary: Departments VS Company||52.6%|Hard||
 |0616|Add Bold Tag in String||44.7%|Medium||
 |0617|Merge Two Binary Trees||75.4%|Easy||
-|0618|Students Report By Geography||59.9%|Hard||
+|0618|Students Report By Geography||60.0%|Hard||
 |0619|Biggest Single Number||44.9%|Easy||
 |0620|Not Boring Movies||69.9%|Easy||
 |0621|Task Scheduler||51.9%|Medium||
@@ -776,7 +776,7 @@
 |0636|Exclusive Time of Functions|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0636.Exclusive-Time-of-Functions)|54.5%|Medium||
 |0637|Average of Levels in Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0637.Average-of-Levels-in-Binary-Tree)|64.9%|Easy||
 |0638|Shopping Offers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0638.Shopping-Offers)|52.9%|Medium||
-|0639|Decode Ways II||27.5%|Hard||
+|0639|Decode Ways II||27.6%|Hard||
 |0640|Solve the Equation||42.7%|Medium||
 |0641|Design Circular Deque||55.9%|Medium||
 |0642|Design Search Autocomplete System||46.3%|Hard||
@@ -792,7 +792,7 @@
 |0652|Find Duplicate Subtrees||52.5%|Medium||
 |0653|Two Sum IV - Input is a BST|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0653.Two-Sum-IV---Input-is-a-BST)|56.3%|Easy||
 |0654|Maximum Binary Tree||81.1%|Medium||
-|0655|Print Binary Tree||56.2%|Medium||
+|0655|Print Binary Tree||56.1%|Medium||
 |0656|Coin Path||29.6%|Hard||
 |0657|Robot Return to Origin||73.8%|Easy||
 |0658|Find K Closest Elements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0658.Find-K-Closest-Elements)|42.0%|Medium||
@@ -800,7 +800,7 @@
 |0660|Remove 9||54.2%|Hard||
 |0661|Image Smoother|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0661.Image-Smoother)|52.3%|Easy||
 |0662|Maximum Width of Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0662.Maximum-Width-of-Binary-Tree)|39.9%|Medium||
-|0663|Equal Tree Partition||39.8%|Medium||
+|0663|Equal Tree Partition||39.7%|Medium||
 |0664|Strange Printer||41.4%|Hard||
 |0665|Non-decreasing Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0665.Non-decreasing-Array)|19.8%|Medium||
 |0666|Path Sum IV||56.3%|Medium||
@@ -825,7 +825,7 @@
 |0685|Redundant Connection II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0685.Redundant-Connection-II)|33.0%|Hard||
 |0686|Repeated String Match||32.8%|Medium||
 |0687|Longest Univalue Path||37.3%|Medium||
-|0688|Knight Probability in Chessboard||50.1%|Medium||
+|0688|Knight Probability in Chessboard||50.2%|Medium||
 |0689|Maximum Sum of 3 Non-Overlapping Subarrays||47.2%|Hard||
 |0690|Employee Importance||58.8%|Easy||
 |0691|Stickers to Spell Word||44.6%|Hard||
@@ -834,11 +834,11 @@
 |0694|Number of Distinct Islands||57.9%|Medium||
 |0695|Max Area of Island|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0695.Max-Area-of-Island)|64.8%|Medium||
 |0696|Count Binary Substrings||57.5%|Easy||
-|0697|Degree of an Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0697.Degree-of-an-Array)|54.4%|Easy||
+|0697|Degree of an Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0697.Degree-of-an-Array)|54.5%|Easy||
 |0698|Partition to K Equal Sum Subsets||45.7%|Medium||
 |0699|Falling Squares|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0699.Falling-Squares)|42.6%|Hard||
 |0700|Search in a Binary Search Tree||73.4%|Easy||
-|0701|Insert into a Binary Search Tree||75.6%|Medium||
+|0701|Insert into a Binary Search Tree||75.5%|Medium||
 |0702|Search in a Sorted Array of Unknown Size||68.8%|Medium||
 |0703|Kth Largest Element in a Stream|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0703.Kth-Largest-Element-in-a-Stream)|50.7%|Easy||
 |0704|Binary Search|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0704.Binary-Search)|54.1%|Easy||
@@ -853,7 +853,7 @@
 |0713|Subarray Product Less Than K|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0713.Subarray-Product-Less-Than-K)|40.5%|Medium||
 |0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee)|56.1%|Medium||
 |0715|Range Module|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0715.Range-Module)|40.3%|Hard||
-|0716|Max Stack||43.0%|Easy||
+|0716|Max Stack||43.1%|Easy||
 |0717|1-bit and 2-bit Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0717.1-bit-and-2-bit-Characters)|47.2%|Easy||
 |0718|Maximum Length of Repeated Subarray|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0718.Maximum-Length-of-Repeated-Subarray)|50.4%|Medium||
 |0719|Find K-th Smallest Pair Distance|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0719.Find-K-th-Smallest-Pair-Distance)|32.6%|Hard||
@@ -861,7 +861,7 @@
 |0721|Accounts Merge|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0721.Accounts-Merge)|51.9%|Medium||
 |0722|Remove Comments||36.1%|Medium||
 |0723|Candy Crush||72.7%|Medium||
-|0724|Find Pivot Index|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0724.Find-Pivot-Index)|45.5%|Easy||
+|0724|Find Pivot Index|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0724.Find-Pivot-Index)|45.6%|Easy||
 |0725|Split Linked List in Parts|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0725.Split-Linked-List-in-Parts)|53.0%|Medium||
 |0726|Number of Atoms|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0726.Number-of-Atoms)|51.0%|Hard||
 |0727|Minimum Window Subsequence||42.2%|Hard||
@@ -874,10 +874,10 @@
 |0734|Sentence Similarity||42.3%|Easy||
 |0735|Asteroid Collision|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0735.Asteroid-Collision)|43.3%|Medium||
 |0736|Parse Lisp Expression||49.8%|Hard||
-|0737|Sentence Similarity II||46.6%|Medium||
+|0737|Sentence Similarity II||46.5%|Medium||
 |0738|Monotone Increasing Digits||45.7%|Medium||
 |0739|Daily Temperatures|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0739.Daily-Temperatures)|64.6%|Medium||
-|0740|Delete and Earn||49.5%|Medium||
+|0740|Delete and Earn||49.4%|Medium||
 |0741|Cherry Pickup||35.1%|Hard||
 |0742|Closest Leaf in a Binary Tree||44.4%|Medium||
 |0743|Network Delay Time||45.5%|Medium||
@@ -906,7 +906,7 @@
 |0766|Toeplitz Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0766.Toeplitz-Matrix)|65.9%|Easy||
 |0767|Reorganize String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0767.Reorganize-String)|50.1%|Medium||
 |0768|Max Chunks To Make Sorted II||49.8%|Hard||
-|0769|Max Chunks To Make Sorted||55.7%|Medium||
+|0769|Max Chunks To Make Sorted||55.6%|Medium||
 |0770|Basic Calculator IV||54.2%|Hard||
 |0771|Jewels and Stones|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0771.Jewels-and-Stones)|86.9%|Easy||
 |0772|Basic Calculator III||43.7%|Hard||
@@ -951,7 +951,7 @@
 |0811|Subdomain Visit Count|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0811.Subdomain-Visit-Count)|71.5%|Easy||
 |0812|Largest Triangle Area|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0812.Largest-Triangle-Area)|59.0%|Easy||
 |0813|Largest Sum of Averages||51.1%|Medium||
-|0814|Binary Tree Pruning||72.4%|Medium||
+|0814|Binary Tree Pruning||72.3%|Medium||
 |0815|Bus Routes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0815.Bus-Routes)|43.4%|Hard||
 |0816|Ambiguous Coordinates||47.9%|Medium||
 |0817|Linked List Components|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0817.Linked-List-Components)|57.8%|Medium||
@@ -974,7 +974,7 @@
 |0834|Sum of Distances in Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0834.Sum-of-Distances-in-Tree)|46.1%|Hard||
 |0835|Image Overlap||61.8%|Medium||
 |0836|Rectangle Overlap|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0836.Rectangle-Overlap)|44.3%|Easy||
-|0837|New 21 Game||35.3%|Medium||
+|0837|New 21 Game||35.4%|Medium||
 |0838|Push Dominoes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0838.Push-Dominoes)|49.9%|Medium||
 |0839|Similar String Groups|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0839.Similar-String-Groups)|40.9%|Hard||
 |0840|Magic Squares In Grid||37.8%|Medium||
@@ -984,11 +984,11 @@
 |0844|Backspace String Compare|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0844.Backspace-String-Compare)|47.0%|Easy||
 |0845|Longest Mountain in Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0845.Longest-Mountain-in-Array)|38.6%|Medium||
 |0846|Hand of Straights||55.4%|Medium||
-|0847|Shortest Path Visiting All Nodes||53.7%|Hard||
+|0847|Shortest Path Visiting All Nodes||53.8%|Hard||
 |0848|Shifting Letters||45.2%|Medium||
 |0849|Maximize Distance to Closest Person||44.5%|Medium||
 |0850|Rectangle Area II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0850.Rectangle-Area-II)|48.3%|Hard||
-|0851|Loud and Rich|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0851.Loud-and-Rich)|52.7%|Medium||
+|0851|Loud and Rich|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0851.Loud-and-Rich)|52.6%|Medium||
 |0852|Peak Index in a Mountain Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0852.Peak-Index-in-a-Mountain-Array)|71.7%|Easy||
 |0853|Car Fleet|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0853.Car-Fleet)|44.0%|Medium||
 |0854|K-Similar Strings||38.7%|Hard||
@@ -998,7 +998,7 @@
 |0858|Mirror Reflection||59.7%|Medium||
 |0859|Buddy Strings||29.3%|Easy||
 |0860|Lemonade Change||51.8%|Easy||
-|0861|Score After Flipping Matrix||73.7%|Medium||
+|0861|Score After Flipping Matrix||73.6%|Medium||
 |0862|Shortest Subarray with Sum at Least K|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0862.Shortest-Subarray-with-Sum-at-Least-K)|25.2%|Hard||
 |0863|All Nodes Distance K in Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0863.All-Nodes-Distance-K-in-Binary-Tree)|57.9%|Medium||
 |0864|Shortest Path to Get All Keys|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0864.Shortest-Path-to-Get-All-Keys)|42.0%|Hard||
@@ -1018,7 +1018,7 @@
 |0878|Nth Magical Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0878.Nth-Magical-Number)|28.9%|Hard||
 |0879|Profitable Schemes||40.0%|Hard||
 |0880|Decoded String at Index|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0880.Decoded-String-at-Index)|28.2%|Medium||
-|0881|Boats to Save People|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0881.Boats-to-Save-People)|49.0%|Medium||
+|0881|Boats to Save People|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0881.Boats-to-Save-People)|48.9%|Medium||
 |0882|Reachable Nodes In Subdivided Graph||42.9%|Hard||
 |0883|Projection Area of 3D Shapes||68.3%|Easy||
 |0884|Uncommon Words from Two Sentences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0884.Uncommon-Words-from-Two-Sentences)|64.2%|Easy||
@@ -1028,7 +1028,7 @@
 |0888|Fair Candy Swap|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0888.Fair-Candy-Swap)|59.0%|Easy||
 |0889|Construct Binary Tree from Preorder and Postorder Traversal||67.6%|Medium||
 |0890|Find and Replace Pattern||74.2%|Medium||
-|0891|Sum of Subsequence Widths|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0891.Sum-of-Subsequence-Widths)|33.0%|Hard||
+|0891|Sum of Subsequence Widths|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0891.Sum-of-Subsequence-Widths)|33.1%|Hard||
 |0892|Surface Area of 3D Shapes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0892.Surface-Area-of-3D-Shapes)|59.8%|Easy||
 |0893|Groups of Special-Equivalent Strings||68.9%|Easy||
 |0894|All Possible Full Binary Trees||77.0%|Medium||
@@ -1083,17 +1083,17 @@
 |0943|Find the Shortest Superstring||43.4%|Hard||
 |0944|Delete Columns to Make Sorted||71.0%|Easy||
 |0945|Minimum Increment to Make Array Unique||46.8%|Medium||
-|0946|Validate Stack Sequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0946.Validate-Stack-Sequences)|64.5%|Medium||
+|0946|Validate Stack Sequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0946.Validate-Stack-Sequences)|64.4%|Medium||
 |0947|Most Stones Removed with Same Row or Column|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0947.Most-Stones-Removed-with-Same-Row-or-Column)|55.4%|Medium||
 |0948|Bag of Tokens||46.1%|Medium||
 |0949|Largest Time for Given Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0949.Largest-Time-for-Given-Digits)|36.2%|Medium||
 |0950|Reveal Cards In Increasing Order||75.4%|Medium||
-|0951|Flip Equivalent Binary Trees||65.8%|Medium||
+|0951|Flip Equivalent Binary Trees||65.7%|Medium||
 |0952|Largest Component Size by Common Factor|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0952.Largest-Component-Size-by-Common-Factor)|36.1%|Hard||
 |0953|Verifying an Alien Dictionary|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0953.Verifying-an-Alien-Dictionary)|52.1%|Easy||
 |0954|Array of Doubled Pairs||35.2%|Medium||
 |0955|Delete Columns to Make Sorted II||33.8%|Medium||
-|0956|Tallest Billboard||39.9%|Hard||
+|0956|Tallest Billboard||39.8%|Hard||
 |0957|Prison Cells After N Days||40.2%|Medium||
 |0958|Check Completeness of a Binary Tree||52.5%|Medium||
 |0959|Regions Cut By Slashes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0959.Regions-Cut-By-Slashes)|67.2%|Medium||
@@ -1101,10 +1101,10 @@
 |0961|N-Repeated Element in Size 2N Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0961.N-Repeated-Element-in-Size-2N-Array)|74.5%|Easy||
 |0962|Maximum Width Ramp||46.5%|Medium||
 |0963|Minimum Area Rectangle II||51.9%|Medium||
-|0964|Least Operators to Express Number||45.0%|Hard||
+|0964|Least Operators to Express Number||45.1%|Hard||
 |0965|Univalued Binary Tree||67.8%|Easy||
 |0966|Vowel Spellchecker||47.9%|Medium||
-|0967|Numbers With Same Consecutive Differences||44.8%|Medium||
+|0967|Numbers With Same Consecutive Differences||44.9%|Medium||
 |0968|Binary Tree Cameras|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0968.Binary-Tree-Cameras)|38.8%|Hard||
 |0969|Pancake Sorting|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0969.Pancake-Sorting)|68.7%|Medium||
 |0970|Powerful Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0970.Powerful-Integers)|40.0%|Medium||
@@ -1160,7 +1160,7 @@
 |1020|Number of Enclaves|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1020.Number-of-Enclaves)|59.0%|Medium||
 |1021|Remove Outermost Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1021.Remove-Outermost-Parentheses)|79.1%|Easy||
 |1022|Sum of Root To Leaf Binary Numbers||71.5%|Easy||
-|1023|Camelcase Matching||57.5%|Medium||
+|1023|Camelcase Matching||57.6%|Medium||
 |1024|Video Stitching||49.0%|Medium||
 |1025|Divisor Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1025.Divisor-Game)|66.1%|Easy||
 |1026|Maximum Difference Between Node and Ancestor|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1026.Maximum-Difference-Between-Node-and-Ancestor)|69.5%|Medium||
@@ -1200,7 +1200,7 @@
 |1060|Missing Element in Sorted Array||54.7%|Medium||
 |1061|Lexicographically Smallest Equivalent String||66.7%|Medium||
 |1062|Longest Repeating Substring||58.3%|Medium||
-|1063|Number of Valid Subarrays||72.1%|Hard||
+|1063|Number of Valid Subarrays||72.0%|Hard||
 |1064|Fixed Point||65.0%|Easy||
 |1065|Index Pairs of a String||61.0%|Easy||
 |1066|Campus Bikes II||54.2%|Medium||
@@ -1210,7 +1210,7 @@
 |1070|Product Sales Analysis III||49.8%|Medium||
 |1071|Greatest Common Divisor of Strings||51.2%|Easy||
 |1072|Flip Columns For Maximum Number of Equal Rows||61.4%|Medium||
-|1073|Adding Two Negabinary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1073.Adding-Two-Negabinary-Numbers)|34.9%|Medium||
+|1073|Adding Two Negabinary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1073.Adding-Two-Negabinary-Numbers)|34.8%|Medium||
 |1074|Number of Submatrices That Sum to Target|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1074.Number-of-Submatrices-That-Sum-to-Target)|61.8%|Hard||
 |1075|Project Employees I||66.1%|Easy||
 |1076|Project Employees II||53.0%|Easy||
@@ -1218,27 +1218,27 @@
 |1078|Occurrences After Bigram|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1078.Occurrences-After-Bigram)|64.9%|Easy||
 |1079|Letter Tile Possibilities|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1079.Letter-Tile-Possibilities)|75.9%|Medium||
 |1080|Insufficient Nodes in Root to Leaf Paths||50.0%|Medium||
-|1081|Smallest Subsequence of Distinct Characters||53.4%|Medium||
+|1081|Smallest Subsequence of Distinct Characters||53.5%|Medium||
 |1082|Sales Analysis I||73.7%|Easy||
-|1083|Sales Analysis II||50.8%|Easy||
+|1083|Sales Analysis II||50.9%|Easy||
 |1084|Sales Analysis III||54.7%|Easy||
 |1085|Sum of Digits in the Minimum Number||75.1%|Easy||
 |1086|High Five||77.8%|Easy||
 |1087|Brace Expansion||63.0%|Medium||
 |1088|Confusing Number II||45.4%|Hard||
 |1089|Duplicate Zeros|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1089.Duplicate-Zeros)|51.8%|Easy||
-|1090|Largest Values From Labels||60.1%|Medium||
+|1090|Largest Values From Labels||60.0%|Medium||
 |1091|Shortest Path in Binary Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1091.Shortest-Path-in-Binary-Matrix)|40.0%|Medium||
 |1092|Shortest Common Supersequence||53.0%|Hard||
 |1093|Statistics from a Large Sample|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1093.Statistics-from-a-Large-Sample)|49.4%|Medium||
 |1094|Car Pooling||59.7%|Medium||
 |1095|Find in Mountain Array||36.1%|Hard||
-|1096|Brace Expansion II||62.6%|Hard||
+|1096|Brace Expansion II||62.5%|Hard||
 |1097|Game Play Analysis V||56.4%|Hard||
 |1098|Unpopular Books||45.5%|Medium||
 |1099|Two Sum Less Than K||60.8%|Easy||
 |1100|Find K-Length Substrings With No Repeated Characters||73.1%|Medium||
-|1101|The Earliest Moment When Everyone Become Friends||67.8%|Medium||
+|1101|The Earliest Moment When Everyone Become Friends||67.9%|Medium||
 |1102|Path With Maximum Minimum Value||50.6%|Medium||
 |1103|Distribute Candies to People||63.5%|Easy||
 |1104|Path In Zigzag Labelled Binary Tree||73.2%|Medium||
@@ -1247,7 +1247,7 @@
 |1107|New Users Daily Count||46.0%|Medium||
 |1108|Defanging an IP Address|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1108.Defanging-an-IP-Address)|88.4%|Easy||
 |1109|Corporate Flight Bookings||54.2%|Medium||
-|1110|Delete Nodes And Return Forest|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1110.Delete-Nodes-And-Return-Forest)|67.7%|Medium||
+|1110|Delete Nodes And Return Forest|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1110.Delete-Nodes-And-Return-Forest)|67.8%|Medium||
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings)|72.7%|Medium||
 |1112|Highest Grade For Each Student||72.0%|Medium||
 |1113|Reported Posts||65.9%|Easy||
@@ -1255,7 +1255,7 @@
 |1115|Print FooBar Alternately||59.0%|Medium||
 |1116|Print Zero Even Odd||57.9%|Medium||
 |1117|Building H2O||53.1%|Medium||
-|1118|Number of Days in a Month||57.4%|Easy||
+|1118|Number of Days in a Month||57.3%|Easy||
 |1119|Remove Vowels from a String||90.4%|Easy||
 |1120|Maximum Average Subtree||63.6%|Medium||
 |1121|Divide Array Into Increasing Sequences||58.0%|Hard||
@@ -1265,7 +1265,7 @@
 |1125|Smallest Sufficient Team||47.0%|Hard||
 |1126|Active Businesses||68.6%|Medium||
 |1127|User Purchase Platform||50.4%|Hard||
-|1128|Number of Equivalent Domino Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1128.Number-of-Equivalent-Domino-Pairs)|46.5%|Easy||
+|1128|Number of Equivalent Domino Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1128.Number-of-Equivalent-Domino-Pairs)|46.4%|Easy||
 |1129|Shortest Path with Alternating Colors||40.2%|Medium||
 |1130|Minimum Cost Tree From Leaf Values||67.3%|Medium||
 |1131|Maximum of Absolute Value Expression||51.9%|Medium||
@@ -1298,24 +1298,24 @@
 |1158|Market Analysis I||64.1%|Medium||
 |1159|Market Analysis II||55.6%|Hard||
 |1160|Find Words That Can Be Formed by Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1160.Find-Words-That-Can-Be-Formed-by-Characters)|67.9%|Easy||
-|1161|Maximum Level Sum of a Binary Tree||69.5%|Medium||
+|1161|Maximum Level Sum of a Binary Tree||69.4%|Medium||
 |1162|As Far from Land as Possible||45.3%|Medium||
 |1163|Last Substring in Lexicographical Order||36.3%|Hard||
 |1164|Product Price at a Given Date||68.5%|Medium||
 |1165|Single-Row Keyboard||85.5%|Easy||
 |1166|Design File System||58.5%|Medium||
 |1167|Minimum Cost to Connect Sticks||64.5%|Medium||
-|1168|Optimize Water Distribution in a Village||61.2%|Hard||
+|1168|Optimize Water Distribution in a Village||61.3%|Hard||
 |1169|Invalid Transactions||30.9%|Medium||
 |1170|Compare Strings by Frequency of the Smallest Character|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character)|59.7%|Medium||
 |1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List)|41.5%|Medium||
 |1172|Dinner Plate Stacks||37.8%|Hard||
-|1173|Immediate Food Delivery I||82.4%|Easy||
+|1173|Immediate Food Delivery I||82.5%|Easy||
 |1174|Immediate Food Delivery II||61.9%|Medium||
 |1175|Prime Arrangements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1175.Prime-Arrangements)|52.0%|Easy||
 |1176|Diet Plan Performance||53.8%|Easy||
 |1177|Can Make Palindrome from Substring||36.1%|Medium||
-|1178|Number of Valid Words for Each Puzzle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1178.Number-of-Valid-Words-for-Each-Puzzle)|39.4%|Hard||
+|1178|Number of Valid Words for Each Puzzle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1178.Number-of-Valid-Words-for-Each-Puzzle)|39.3%|Hard||
 |1179|Reformat Department Table||82.0%|Easy||
 |1180|Count Substrings with Only One Distinct Letter||77.6%|Easy||
 |1181|Before and After Puzzle||44.5%|Medium||
@@ -1331,7 +1331,7 @@
 |1191|K-Concatenation Maximum Sum||25.2%|Medium||
 |1192|Critical Connections in a Network||50.1%|Hard||
 |1193|Monthly Transactions I||69.2%|Medium||
-|1194|Tournament Winners||52.3%|Hard||
+|1194|Tournament Winners||52.2%|Hard||
 |1195|Fizz Buzz Multithreaded||70.6%|Medium||
 |1196|How Many Apples Can You Put into the Basket||68.1%|Easy||
 |1197|Minimum Knight Moves||37.3%|Medium||
@@ -1353,7 +1353,7 @@
 |1213|Intersection of Three Sorted Arrays||79.4%|Easy||
 |1214|Two Sum BSTs||67.7%|Medium||
 |1215|Stepping Numbers||43.5%|Medium||
-|1216|Valid Palindrome III||49.9%|Hard||
+|1216|Valid Palindrome III||49.8%|Hard||
 |1217|Minimum Cost to Move Chips to The Same Position|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position)|71.2%|Easy||
 |1218|Longest Arithmetic Subsequence of Given Difference||46.7%|Medium||
 |1219|Path with Maximum Gold||65.7%|Medium||
@@ -1364,7 +1364,7 @@
 |1224|Maximum Equal Frequency||34.8%|Hard||
 |1225|Report Contiguous Dates||62.8%|Hard||
 |1226|The Dining Philosophers||59.6%|Medium||
-|1227|Airplane Seat Assignment Probability||62.1%|Medium||
+|1227|Airplane Seat Assignment Probability||62.2%|Medium||
 |1228|Missing Number In Arithmetic Progression||51.3%|Easy||
 |1229|Meeting Scheduler||54.4%|Medium||
 |1230|Toss Strange Coins||50.2%|Medium||
@@ -1381,12 +1381,12 @@
 |1241|Number of Comments per Post||67.9%|Easy||
 |1242|Web Crawler Multithreaded||47.7%|Medium||
 |1243|Array Transformation||50.0%|Easy||
-|1244|Design A Leaderboard||65.9%|Medium||
+|1244|Design A Leaderboard||66.0%|Medium||
 |1245|Tree Diameter||61.2%|Medium||
 |1246|Palindrome Removal||45.9%|Hard||
 |1247|Minimum Swaps to Make Strings Equal||62.8%|Medium||
 |1248|Count Number of Nice Subarrays||56.1%|Medium||
-|1249|Minimum Remove to Make Valid Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1249.Minimum-Remove-to-Make-Valid-Parentheses)|64.1%|Medium||
+|1249|Minimum Remove to Make Valid Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1249.Minimum-Remove-to-Make-Valid-Parentheses)|64.2%|Medium||
 |1250|Check If It Is a Good Array||56.2%|Hard||
 |1251|Average Selling Price||82.6%|Easy||
 |1252|Cells with Odd Values in a Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1252.Cells-with-Odd-Values-in-a-Matrix)|78.9%|Easy||
@@ -1395,14 +1395,14 @@
 |1255|Maximum Score Words Formed by Letters||70.0%|Hard||
 |1256|Encode Number||67.9%|Medium||
 |1257|Smallest Common Region||61.0%|Medium||
-|1258|Synonymous Sentences||63.1%|Medium||
+|1258|Synonymous Sentences||63.0%|Medium||
 |1259|Handshakes That Don't Cross||54.2%|Hard||
 |1260|Shift 2D Grid|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1260.Shift-2D-Grid)|61.9%|Easy||
 |1261|Find Elements in a Contaminated Binary Tree||74.6%|Medium||
 |1262|Greatest Sum Divisible by Three||49.6%|Medium||
 |1263|Minimum Moves to Move a Box to Their Target Location||43.2%|Hard||
 |1264|Page Recommendations||69.3%|Medium||
-|1265|Print Immutable Linked List in Reverse||94.2%|Medium||
+|1265|Print Immutable Linked List in Reverse||94.3%|Medium||
 |1266|Minimum Time Visiting All Points|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1266.Minimum-Time-Visiting-All-Points)|79.4%|Easy||
 |1267|Count Servers that Communicate||57.7%|Medium||
 |1268|Search Suggestions System||64.6%|Medium||
@@ -1430,14 +1430,14 @@
 |1290|Convert Binary Number in a Linked List to Integer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer)|81.8%|Easy||
 |1291|Sequential Digits||57.4%|Medium||
 |1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold||50.7%|Medium||
-|1293|Shortest Path in a Grid with Obstacles Elimination||43.1%|Hard||
+|1293|Shortest Path in a Grid with Obstacles Elimination||43.0%|Hard||
 |1294|Weather Type in Each Country||66.5%|Easy||
 |1295|Find Numbers with Even Number of Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1295.Find-Numbers-with-Even-Number-of-Digits)|79.0%|Easy||
 |1296|Divide Array in Sets of K Consecutive Numbers||55.5%|Medium||
 |1297|Maximum Number of Occurrences of a Substring||50.1%|Medium||
 |1298|Maximum Candies You Can Get from Boxes||59.7%|Hard||
-|1299|Replace Elements with Greatest Element on Right Side|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1299.Replace-Elements-with-Greatest-Element-on-Right-Side)|74.5%|Easy||
-|1300|Sum of Mutated Array Closest to Target|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1300.Sum-of-Mutated-Array-Closest-to-Target)|43.0%|Medium||
+|1299|Replace Elements with Greatest Element on Right Side|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1299.Replace-Elements-with-Greatest-Element-on-Right-Side)|74.6%|Easy||
+|1300|Sum of Mutated Array Closest to Target|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1300.Sum-of-Mutated-Array-Closest-to-Target)|43.1%|Medium||
 |1301|Number of Paths with Max Score||38.3%|Hard||
 |1302|Deepest Leaves Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1302.Deepest-Leaves-Sum)|84.2%|Medium||
 |1303|Find the Team Size||89.5%|Easy||
@@ -1452,7 +1452,7 @@
 |1312|Minimum Insertion Steps to Make a String Palindrome||59.7%|Hard||
 |1313|Decompress Run-Length Encoded List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1313.Decompress-Run-Length-Encoded-List)|85.4%|Easy||
 |1314|Matrix Block Sum||73.6%|Medium||
-|1315|Sum of Nodes with Even-Valued Grandparent||84.2%|Medium||
+|1315|Sum of Nodes with Even-Valued Grandparent||84.3%|Medium||
 |1316|Distinct Echo Substrings||49.7%|Hard||
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers)|56.8%|Easy||
 |1318|Minimum Flips to Make a OR b Equal to c||64.0%|Medium||
@@ -1485,9 +1485,9 @@
 |1345|Jump Game IV||42.0%|Hard||
 |1346|Check If N and Its Double Exist||36.2%|Easy||
 |1347|Minimum Number of Steps to Make Two Strings Anagram||75.1%|Medium||
-|1348|Tweet Counts Per Frequency||35.9%|Medium||
+|1348|Tweet Counts Per Frequency||36.0%|Medium||
 |1349|Maximum Students Taking Exam||44.2%|Hard||
-|1350|Students With Invalid Departments||90.3%|Easy||
+|1350|Students With Invalid Departments||90.4%|Easy||
 |1351|Count Negative Numbers in a Sorted Matrix||75.9%|Easy||
 |1352|Product of the Last K Numbers||44.6%|Medium||
 |1353|Maximum Number of Events That Can Be Attended||30.5%|Medium||
@@ -1501,7 +1501,7 @@
 |1361|Validate Binary Tree Nodes||43.7%|Medium||
 |1362|Closest Divisors||57.7%|Medium||
 |1363|Largest Multiple of Three||34.1%|Hard||
-|1364|Number of Trusted Contacts of a Customer||78.6%|Medium||
+|1364|Number of Trusted Contacts of a Customer||78.7%|Medium||
 |1365|How Many Numbers Are Smaller Than the Current Number||86.0%|Easy||
 |1366|Rank Teams by Votes||55.2%|Medium||
 |1367|Linked List in Binary Tree||41.1%|Medium||
@@ -1515,7 +1515,7 @@
 |1375|Bulb Switcher III||64.2%|Medium||
 |1376|Time Needed to Inform All Employees||56.5%|Medium||
 |1377|Frog Position After T Seconds||35.2%|Hard||
-|1378|Replace Employee ID With The Unique Identifier||90.0%|Easy||
+|1378|Replace Employee ID With The Unique Identifier||90.1%|Easy||
 |1379|Find a Corresponding Node of a Binary Tree in a Clone of That Tree||84.7%|Medium||
 |1380|Lucky Numbers in a Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1380.Lucky-Numbers-in-a-Matrix)|70.6%|Easy||
 |1381|Design a Stack With Increment Operation||76.2%|Medium||
@@ -1528,12 +1528,12 @@
 |1388|Pizza With 3n Slices||45.7%|Hard||
 |1389|Create Target Array in the Given Order|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1389.Create-Target-Array-in-the-Given-Order)|84.7%|Easy||
 |1390|Four Divisors||39.2%|Medium||
-|1391|Check if There is a Valid Path in a Grid||45.0%|Medium||
+|1391|Check if There is a Valid Path in a Grid||44.9%|Medium||
 |1392|Longest Happy Prefix||41.9%|Hard||
 |1393|Capital Gain/Loss||90.8%|Medium||
 |1394|Find Lucky Integer in an Array||63.2%|Easy||
-|1395|Count Number of Teams||77.2%|Medium||
-|1396|Design Underground System||69.6%|Medium||
+|1395|Count Number of Teams||77.1%|Medium||
+|1396|Design Underground System||69.7%|Medium||
 |1397|Find All Good Strings||38.6%|Hard||
 |1398|Customers Who Bought Products A and B but Not C||82.1%|Medium||
 |1399|Count Largest Group||65.3%|Easy||
@@ -1549,16 +1549,16 @@
 |1409|Queries on a Permutation With Key||81.5%|Medium||
 |1410|HTML Entity Parser||54.3%|Medium||
 |1411|Number of Ways to Paint N × 3 Grid||60.5%|Hard||
-|1412|Find the Quiet Students in All Exams||64.6%|Hard||
+|1412|Find the Quiet Students in All Exams||64.5%|Hard||
 |1413|Minimum Value to Get Positive Step by Step Sum||65.6%|Easy||
 |1414|Find the Minimum Number of Fibonacci Numbers Whose Sum Is K||63.2%|Medium||
 |1415|The k-th Lexicographical String of All Happy Strings of Length n||69.8%|Medium||
-|1416|Restore The Array||36.4%|Hard||
+|1416|Restore The Array||36.5%|Hard||
 |1417|Reformat The String||55.1%|Easy||
 |1418|Display Table of Food Orders in a Restaurant||69.0%|Medium||
 |1419|Minimum Number of Frogs Croaking||47.4%|Medium||
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons||64.1%|Hard||
-|1421|NPV Queries||82.1%|Medium||
+|1421|NPV Queries||82.0%|Medium||
 |1422|Maximum Score After Splitting a String||56.0%|Easy||
 |1423|Maximum Points You Can Obtain from Cards|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1423.Maximum-Points-You-Can-Obtain-from-Cards)|46.7%|Medium||
 |1424|Diagonal Traverse II||46.0%|Medium||
@@ -1578,13 +1578,13 @@
 |1438|Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit)|44.4%|Medium||
 |1439|Find the Kth Smallest Sum of a Matrix With Sorted Rows|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows)|60.2%|Hard||
 |1440|Evaluate Boolean Expression||74.8%|Medium||
-|1441|Build an Array With Stack Operations||70.2%|Easy||
+|1441|Build an Array With Stack Operations||70.3%|Easy||
 |1442|Count Triplets That Can Form Two Arrays of Equal XOR||71.4%|Medium||
 |1443|Minimum Time to Collect All Apples in a Tree||54.6%|Medium||
 |1444|Number of Ways of Cutting a Pizza||53.8%|Hard||
 |1445|Apples & Oranges||90.6%|Medium||
 |1446|Consecutive Characters||60.9%|Easy||
-|1447|Simplified Fractions||62.1%|Medium||
+|1447|Simplified Fractions||62.2%|Medium||
 |1448|Count Good Nodes in Binary Tree||70.8%|Medium||
 |1449|Form Largest Integer With Digits That Add up to Target||44.1%|Hard||
 |1450|Number of Students Doing Homework at a Given Time||77.2%|Easy||
@@ -1611,12 +1611,12 @@
 |1471|The k Strongest Values in an Array||58.5%|Medium||
 |1472|Design Browser History||71.5%|Medium||
 |1473|Paint House III||48.7%|Hard||
-|1474|Delete N Nodes After M Nodes of a Linked List||74.8%|Easy||
+|1474|Delete N Nodes After M Nodes of a Linked List||74.9%|Easy||
 |1475|Final Prices With a Special Discount in a Shop||75.2%|Easy||
 |1476|Subrectangle Queries||88.4%|Medium||
 |1477|Find Two Non-overlapping Sub-arrays Each With Target Sum||34.5%|Medium||
 |1478|Allocate Mailboxes||54.0%|Hard||
-|1479|Sales by Day of the Week||83.7%|Hard||
+|1479|Sales by Day of the Week||83.6%|Hard||
 |1480|Running Sum of 1d Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1480.Running-Sum-of-1d-Array)|88.9%|Easy||
 |1481|Least Number of Unique Integers after K Removals||56.0%|Medium||
 |1482|Minimum Number of Days to Make m Bouquets||50.3%|Medium||
@@ -1626,18 +1626,18 @@
 |1486|XOR Operation in an Array||84.1%|Easy||
 |1487|Making File Names Unique||30.7%|Medium||
 |1488|Avoid Flood in The City||24.5%|Medium||
-|1489|Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree||51.4%|Hard||
-|1490|Clone N-ary Tree||83.6%|Medium||
+|1489|Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree||51.5%|Hard||
+|1490|Clone N-ary Tree||83.5%|Medium||
 |1491|Average Salary Excluding the Minimum and Maximum Salary||68.5%|Easy||
 |1492|The kth Factor of n||63.3%|Medium||
 |1493|Longest Subarray of 1's After Deleting One Element||57.9%|Medium||
 |1494|Parallel Courses II||31.2%|Hard||
-|1495|Friendly Movies Streamed Last Month||51.4%|Easy||
+|1495|Friendly Movies Streamed Last Month||51.3%|Easy||
 |1496|Path Crossing||55.3%|Easy||
 |1497|Check If Array Pairs Are Divisible by k||40.4%|Medium||
 |1498|Number of Subsequences That Satisfy the Given Sum Condition||38.5%|Medium||
 |1499|Max Value of Equation||45.0%|Hard||
-|1500|Design a File Sharing System||46.7%|Medium||
+|1500|Design a File Sharing System||46.6%|Medium||
 |1501|Countries You Can Safely Invest In||60.5%|Medium||
 |1502|Can Make Arithmetic Progression From Sequence||71.1%|Easy||
 |1503|Last Moment Before All Ants Fall Out of a Plank||53.2%|Medium||
@@ -1648,23 +1648,23 @@
 |1508|Range Sum of Sorted Subarray Sums||60.9%|Medium||
 |1509|Minimum Difference Between Largest and Smallest Value in Three Moves||52.2%|Medium||
 |1510|Stone Game IV||58.9%|Hard||
-|1511|Customer Order Frequency||73.7%|Easy||
+|1511|Customer Order Frequency||73.6%|Easy||
 |1512|Number of Good Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1512.Number-of-Good-Pairs)|87.7%|Easy||
 |1513|Number of Substrings With Only 1s||41.9%|Medium||
 |1514|Path with Maximum Probability||40.4%|Medium||
 |1515|Best Position for a Service Centre||37.0%|Hard||
 |1516|Move Sub-Tree of N-Ary Tree||63.8%|Hard||
-|1517|Find Users With Valid E-Mails||71.3%|Easy||
+|1517|Find Users With Valid E-Mails||71.2%|Easy||
 |1518|Water Bottles||60.6%|Easy||
 |1519|Number of Nodes in the Sub-Tree With the Same Label||37.1%|Medium||
-|1520|Maximum Number of Non-Overlapping Substrings||36.4%|Hard||
+|1520|Maximum Number of Non-Overlapping Substrings||36.3%|Hard||
 |1521|Find a Value of a Mysterious Function Closest to Target||44.4%|Hard||
 |1522|Diameter of N-Ary Tree||68.7%|Medium||
 |1523|Count Odd Numbers in an Interval Range||54.5%|Easy||
 |1524|Number of Sub-arrays With Odd Sum||40.0%|Medium||
 |1525|Number of Good Ways to Split a String||66.4%|Medium||
 |1526|Minimum Number of Increments on Subarrays to Form a Target Array||60.0%|Hard||
-|1527|Patients With a Condition||66.6%|Easy||
+|1527|Patients With a Condition||66.5%|Easy||
 |1528|Shuffle String||85.6%|Easy||
 |1529|Bulb Switcher IV||70.9%|Medium||
 |1530|Number of Good Leaf Nodes Pairs||56.1%|Medium||
@@ -1677,15 +1677,15 @@
 |1537|Get the Maximum Score||36.4%|Hard||
 |1538|Guess the Majority in a Hidden Array||61.0%|Medium||
 |1539|Kth Missing Positive Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1539.Kth-Missing-Positive-Number)|55.0%|Easy||
-|1540|Can Convert String in K Moves||30.9%|Medium||
-|1541|Minimum Insertions to Balance a Parentheses String||42.7%|Medium||
+|1540|Can Convert String in K Moves||31.0%|Medium||
+|1541|Minimum Insertions to Balance a Parentheses String||42.8%|Medium||
 |1542|Find Longest Awesome Substring||36.6%|Hard||
-|1543|Fix Product Name Format||67.5%|Easy||
+|1543|Fix Product Name Format||67.4%|Easy||
 |1544|Make The String Great||55.4%|Easy||
 |1545|Find Kth Bit in Nth Binary String||57.4%|Medium||
 |1546|Maximum Number of Non-Overlapping Subarrays With Sum Equals Target||43.8%|Medium||
 |1547|Minimum Cost to Cut a Stick||52.6%|Hard||
-|1548|The Most Similar Path in a Graph||54.1%|Hard||
+|1548|The Most Similar Path in a Graph||54.2%|Hard||
 |1549|The Most Recent Orders for Each Product||66.8%|Medium||
 |1550|Three Consecutive Odds||64.7%|Easy||
 |1551|Minimum Operations to Make Array Equal||77.9%|Medium||
@@ -1696,20 +1696,20 @@
 |1556|Thousand Separator||57.5%|Easy||
 |1557|Minimum Number of Vertices to Reach All Nodes||75.5%|Medium||
 |1558|Minimum Numbers of Function Calls to Make Target Array||63.4%|Medium||
-|1559|Detect Cycles in 2D Grid||44.4%|Hard||
+|1559|Detect Cycles in 2D Grid||44.5%|Hard||
 |1560|Most Visited Sector in  a Circular Track||56.9%|Easy||
 |1561|Maximum Number of Coins You Can Get||77.5%|Medium||
-|1562|Find Latest Group of Size M||39.5%|Medium||
+|1562|Find Latest Group of Size M||39.4%|Medium||
 |1563|Stone Game V||40.0%|Hard||
 |1564|Put Boxes Into the Warehouse I||65.7%|Medium||
-|1565|Unique Orders and Customers Per Month||83.0%|Easy||
+|1565|Unique Orders and Customers Per Month||83.1%|Easy||
 |1566|Detect Pattern of Length M Repeated K or More Times||42.5%|Easy||
 |1567|Maximum Length of Subarray With Positive Product||36.7%|Medium||
 |1568|Minimum Number of Days to Disconnect Island||50.2%|Hard||
 |1569|Number of Ways to Reorder Array to Get Same BST||50.0%|Hard||
-|1570|Dot Product of Two Sparse Vectors||91.3%|Medium||
-|1571|Warehouse Manager||90.0%|Easy||
-|1572|Matrix Diagonal Sum||77.9%|Easy||
+|1570|Dot Product of Two Sparse Vectors||91.2%|Medium||
+|1571|Warehouse Manager||89.9%|Easy||
+|1572|Matrix Diagonal Sum||78.0%|Easy||
 |1573|Number of Ways to Split a String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1573.Number-of-Ways-to-Split-a-String)|31.2%|Medium||
 |1574|Shortest Subarray to be Removed to Make Array Sorted||33.5%|Medium||
 |1575|Count All Possible Routes||57.3%|Hard||
@@ -1726,7 +1726,7 @@
 |1586|Binary Search Tree Iterator II||66.4%|Medium||
 |1587|Bank Account Summary II||89.9%|Easy||
 |1588|Sum of All Odd Length Subarrays||81.7%|Easy||
-|1589|Maximum Sum Obtained of Any Permutation||34.7%|Medium||
+|1589|Maximum Sum Obtained of Any Permutation||34.8%|Medium||
 |1590|Make Sum Divisible by P||27.1%|Medium||
 |1591|Strange Printer II||55.1%|Hard||
 |1592|Rearrange Spaces Between Words||43.7%|Easy||
@@ -1737,19 +1737,19 @@
 |1597|Build Binary Expression Tree From Infix Expression||60.9%|Hard||
 |1598|Crawler Log Folder||63.9%|Easy||
 |1599|Maximum Profit of Operating a Centennial Wheel||43.6%|Medium||
-|1600|Throne Inheritance||60.3%|Medium||
+|1600|Throne Inheritance||60.4%|Medium||
 |1601|Maximum Number of Achievable Transfer Requests||47.8%|Hard||
 |1602|Find Nearest Right Node in Binary Tree||73.8%|Medium||
-|1603|Design Parking System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1603.Design-Parking-System)|86.3%|Easy||
-|1604|Alert Using Same Key-Card Three or More Times in a One Hour Period||42.4%|Medium||
+|1603|Design Parking System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1603.Design-Parking-System)|86.4%|Easy||
+|1604|Alert Using Same Key-Card Three or More Times in a One Hour Period||42.5%|Medium||
 |1605|Find Valid Matrix Given Row and Column Sums||77.0%|Medium||
 |1606|Find Servers That Handled Most Number of Requests||37.1%|Hard||
-|1607|Sellers With No Sales||55.4%|Easy||
+|1607|Sellers With No Sales||55.5%|Easy||
 |1608|Special Array With X Elements Greater Than or Equal X|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X)|61.4%|Easy||
 |1609|Even Odd Tree||52.6%|Medium||
 |1610|Maximum Number of Visible Points||29.6%|Hard||
 |1611|Minimum One Bit Operations to Make Integers Zero||57.3%|Hard||
-|1612|Check If Two Expression Trees are Equivalent||69.8%|Medium||
+|1612|Check If Two Expression Trees are Equivalent||69.7%|Medium||
 |1613|Find the Missing IDs||74.0%|Medium||
 |1614|Maximum Nesting Depth of the Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1614.Maximum-Nesting-Depth-of-the-Parentheses)|82.8%|Easy||
 |1615|Maximal Network Rank||52.2%|Medium||
@@ -1758,19 +1758,19 @@
 |1618|Maximum Font to Fit a Sentence in a Screen||56.7%|Medium||
 |1619|Mean of Array After Removing Some Elements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1619.Mean-of-Array-After-Removing-Some-Elements)|64.9%|Easy||
 |1620|Coordinate With Maximum Network Quality||37.1%|Medium||
-|1621|Number of Sets of K Non-Overlapping Line Segments||41.2%|Medium||
+|1621|Number of Sets of K Non-Overlapping Line Segments||41.3%|Medium||
 |1622|Fancy Sequence||15.0%|Hard||
-|1623|All Valid Triplets That Can Represent a Country||88.5%|Easy||
+|1623|All Valid Triplets That Can Represent a Country||88.6%|Easy||
 |1624|Largest Substring Between Two Equal Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1624.Largest-Substring-Between-Two-Equal-Characters)|58.8%|Easy||
 |1625|Lexicographically Smallest String After Applying Operations||64.2%|Medium||
 |1626|Best Team With No Conflicts||37.9%|Medium||
-|1627|Graph Connectivity With Threshold||38.8%|Hard||
-|1628|Design an Expression Tree With Evaluate Function||80.5%|Medium||
+|1627|Graph Connectivity With Threshold||38.9%|Hard||
+|1628|Design an Expression Tree With Evaluate Function||80.2%|Medium||
 |1629|Slowest Key|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1629.Slowest-Key)|59.2%|Easy||
 |1630|Arithmetic Subarrays||77.6%|Medium||
-|1631|Path With Minimum Effort|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1631.Path-With-Minimum-Effort)|50.0%|Medium||
+|1631|Path With Minimum Effort|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1631.Path-With-Minimum-Effort)|50.1%|Medium||
 |1632|Rank Transform of a Matrix||30.7%|Hard||
-|1633|Percentage of Users Attended a Contest||71.8%|Easy||
+|1633|Percentage of Users Attended a Contest||71.7%|Easy||
 |1634|Add Two Polynomials Represented as Linked Lists||55.4%|Medium||
 |1635|Hopper Company Queries I||55.8%|Hard||
 |1636|Sort Array by Increasing Frequency|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1636.Sort-Array-by-Increasing-Frequency)|66.8%|Easy||
@@ -1784,11 +1784,11 @@
 |1644|Lowest Common Ancestor of a Binary Tree II||56.6%|Medium||
 |1645|Hopper Company Queries II||37.7%|Hard||
 |1646|Get Maximum in Generated Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1646.Get-Maximum-in-Generated-Array)|53.3%|Easy||
-|1647|Minimum Deletions to Make Character Frequencies Unique|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique)|54.6%|Medium||
+|1647|Minimum Deletions to Make Character Frequencies Unique|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique)|54.7%|Medium||
 |1648|Sell Diminishing-Valued Colored Balls|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1648.Sell-Diminishing-Valued-Colored-Balls)|30.5%|Medium||
 |1649|Create Sorted Array through Instructions|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1649.Create-Sorted-Array-through-Instructions)|36.4%|Hard||
 |1650|Lowest Common Ancestor of a Binary Tree III||76.1%|Medium||
-|1651|Hopper Company Queries III||66.4%|Hard||
+|1651|Hopper Company Queries III||66.3%|Hard||
 |1652|Defuse the Bomb|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1652.Defuse-the-Bomb)|62.8%|Easy||
 |1653|Minimum Deletions to Make String Balanced|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1653.Minimum-Deletions-to-Make-String-Balanced)|51.3%|Medium||
 |1654|Minimum Jumps to Reach Home|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1654.Minimum-Jumps-to-Reach-Home)|25.6%|Medium||
@@ -1803,29 +1803,29 @@
 |1663|Smallest String With A Given Numeric Value|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1663.Smallest-String-With-A-Given-Numeric-Value)|64.3%|Medium||
 |1664|Ways to Make a Fair Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1664.Ways-to-Make-a-Fair-Array)|61.7%|Medium||
 |1665|Minimum Initial Energy to Finish Tasks|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1665.Minimum-Initial-Energy-to-Finish-Tasks)|66.1%|Hard||
-|1666|Change the Root of a Binary Tree||67.9%|Medium||
-|1667|Fix Names in a Table||63.4%|Easy||
+|1666|Change the Root of a Binary Tree||68.0%|Medium||
+|1667|Fix Names in a Table||63.3%|Easy||
 |1668|Maximum Repeating Substring|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1668.Maximum-Repeating-Substring)|38.8%|Easy||
 |1669|Merge In Between Linked Lists|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1669.Merge-In-Between-Linked-Lists)|76.5%|Medium||
-|1670|Design Front Middle Back Queue|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1670.Design-Front-Middle-Back-Queue)|54.4%|Medium||
+|1670|Design Front Middle Back Queue|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1670.Design-Front-Middle-Back-Queue)|54.3%|Medium||
 |1671|Minimum Number of Removals to Make Mountain Array||45.8%|Hard||
 |1672|Richest Customer Wealth|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1672.Richest-Customer-Wealth)|88.2%|Easy||
 |1673|Find the Most Competitive Subsequence|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1673.Find-the-Most-Competitive-Subsequence)|45.4%|Medium||
 |1674|Minimum Moves to Make Array Complementary|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1674.Minimum-Moves-to-Make-Array-Complementary)|34.9%|Medium||
 |1675|Minimize Deviation in Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1675.Minimize-Deviation-in-Array)|48.4%|Hard||
-|1676|Lowest Common Ancestor of a Binary Tree IV||78.9%|Medium||
+|1676|Lowest Common Ancestor of a Binary Tree IV||79.0%|Medium||
 |1677|Product's Worth Over Invoices||73.4%|Easy||
 |1678|Goal Parser Interpretation|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1678.Goal-Parser-Interpretation)|85.4%|Easy||
 |1679|Max Number of K-Sum Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1679.Max-Number-of-K-Sum-Pairs)|54.1%|Medium||
 |1680|Concatenation of Consecutive Binary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1680.Concatenation-of-Consecutive-Binary-Numbers)|52.3%|Medium||
-|1681|Minimum Incompatibility|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1681.Minimum-Incompatibility)|35.5%|Hard||
-|1682|Longest Palindromic Subsequence II||50.9%|Medium||
+|1681|Minimum Incompatibility|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1681.Minimum-Incompatibility)|35.6%|Hard||
+|1682|Longest Palindromic Subsequence II||51.1%|Medium||
 |1683|Invalid Tweets||90.8%|Easy||
 |1684|Count the Number of Consistent Strings|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1684.Count-the-Number-of-Consistent-Strings)|82.5%|Easy||
-|1685|Sum of Absolute Differences in a Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array)|62.9%|Medium||
+|1685|Sum of Absolute Differences in a Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array)|63.0%|Medium||
 |1686|Stone Game VI||49.4%|Medium||
 |1687|Delivering Boxes from Storage to Ports||34.9%|Hard||
-|1688|Count of Matches in Tournament|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1688.Count-of-Matches-in-Tournament)|81.6%|Easy||
+|1688|Count of Matches in Tournament|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1688.Count-of-Matches-in-Tournament)|81.5%|Easy||
 |1689|Partitioning Into Minimum Number Of Deci-Binary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers)|87.2%|Medium||
 |1690|Stone Game VII|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1690.Stone-Game-VII)|48.1%|Medium||
 |1691|Maximum Height by Stacking Cuboids|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1691.Maximum-Height-by-Stacking-Cuboids)|50.1%|Hard||
@@ -1834,10 +1834,10 @@
 |1694|Reformat Phone Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1694.Reformat-Phone-Number)|66.0%|Easy||
 |1695|Maximum Erasure Value|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1695.Maximum-Erasure-Value)|49.5%|Medium||
 |1696|Jump Game VI|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1696.Jump-Game-VI)|53.3%|Medium||
-|1697|Checking Existence of Edge Length Limited Paths||54.7%|Hard||
-|1698|Number of Distinct Substrings in a String||59.6%|Medium||
-|1699|Number of Calls Between Two Persons||86.5%|Medium||
-|1700|Number of Students Unable to Eat Lunch|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1700.Number-of-Students-Unable-to-Eat-Lunch)|68.4%|Easy||
+|1697|Checking Existence of Edge Length Limited Paths||54.8%|Hard||
+|1698|Number of Distinct Substrings in a String||59.7%|Medium||
+|1699|Number of Calls Between Two Persons||86.3%|Medium||
+|1700|Number of Students Unable to Eat Lunch|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1700.Number-of-Students-Unable-to-Eat-Lunch)|68.3%|Easy||
 |1701|Average Waiting Time||61.5%|Medium||
 |1702|Maximum Binary String After Change||60.1%|Medium||
 |1703|Minimum Adjacent Swaps for K Consecutive Ones||39.9%|Hard||
@@ -1845,8 +1845,8 @@
 |1705|Maximum Number of Eaten Apples||41.9%|Medium||
 |1706|Where Will the Ball Fall||59.7%|Medium||
 |1707|Maximum XOR With an Element From Array||47.1%|Hard||
-|1708|Largest Subarray Length K||63.3%|Easy||
-|1709|Biggest Window Between Visits||82.5%|Medium||
+|1708|Largest Subarray Length K||63.1%|Easy||
+|1709|Biggest Window Between Visits||82.6%|Medium||
 |1710|Maximum Units on a Truck|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1710.Maximum-Units-on-a-Truck)|70.3%|Easy||
 |1711|Count Good Meals||26.0%|Medium||
 |1712|Ways to Split Array Into Three Subarrays||29.6%|Medium||
@@ -1855,19 +1855,19 @@
 |1715|Count Apples and Oranges||79.3%|Medium||
 |1716|Calculate Money in Leetcode Bank|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1716.Calculate-Money-in-Leetcode-Bank)|66.7%|Easy||
 |1717|Maximum Score From Removing Substrings||40.3%|Medium||
-|1718|Construct the Lexicographically Largest Valid Sequence||45.8%|Medium||
+|1718|Construct the Lexicographically Largest Valid Sequence||45.9%|Medium||
 |1719|Number Of Ways To Reconstruct A Tree||39.3%|Hard||
 |1720|Decode XORed Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1720.Decode-XORed-Array)|85.3%|Easy||
-|1721|Swapping Nodes in a Linked List||64.3%|Medium||
+|1721|Swapping Nodes in a Linked List||64.4%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||54.6%|Medium||
 |1723|Find Minimum Time to Finish All Jobs||44.0%|Hard||
-|1724|Checking Existence of Edge Length Limited Paths II||58.9%|Hard||
+|1724|Checking Existence of Edge Length Limited Paths II||58.6%|Hard||
 |1725|Number Of Rectangles That Can Form The Largest Square|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1725.Number-Of-Rectangles-That-Can-Form-The-Largest-Square)|77.7%|Easy||
 |1726|Tuple with Same Product||55.9%|Medium||
 |1727|Largest Submatrix With Rearrangements||58.5%|Medium||
 |1728|Cat and Mouse II||41.2%|Hard||
 |1729|Find Followers Count||71.6%|Easy||
-|1730|Shortest Path to Get Food||57.4%|Medium||
+|1730|Shortest Path to Get Food||57.5%|Medium||
 |1731|The Number of Employees Which Report to Each Employee||49.4%|Easy||
 |1732|Find the Highest Altitude|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1732.Find-the-Highest-Altitude)|80.9%|Easy||
 |1733|Minimum Number of People to Teach||37.0%|Medium||
@@ -1877,44 +1877,44 @@
 |1737|Change Minimum Characters to Satisfy One of Three Conditions||29.5%|Medium||
 |1738|Find Kth Largest XOR Coordinate Value||62.1%|Medium||
 |1739|Building Boxes||49.7%|Hard||
-|1740|Find Distance in a Binary Tree||69.8%|Medium||
+|1740|Find Distance in a Binary Tree||69.9%|Medium||
 |1741|Find Total Time Spent by Each Employee||91.0%|Easy||
 |1742|Maximum Number of Balls in a Box|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1742.Maximum-Number-of-Balls-in-a-Box)|74.9%|Easy||
 |1743|Restore the Array From Adjacent Pairs||63.0%|Medium||
 |1744|Can You Eat Your Favorite Candy on Your Favorite Day?||30.3%|Medium||
 |1745|Palindrome Partitioning IV||49.2%|Hard||
-|1746|Maximum Subarray Sum After One Operation||63.5%|Medium||
-|1747|Leetflex Banned Accounts||69.7%|Medium||
+|1746|Maximum Subarray Sum After One Operation||63.3%|Medium||
+|1747|Leetflex Banned Accounts||69.6%|Medium||
 |1748|Sum of Unique Elements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1748.Sum-of-Unique-Elements)|75.9%|Easy||
 |1749|Maximum Absolute Sum of Any Subarray||51.4%|Medium||
-|1750|Minimum Length of String After Deleting Similar Ends||42.5%|Medium||
+|1750|Minimum Length of String After Deleting Similar Ends||42.4%|Medium||
 |1751|Maximum Number of Events That Can Be Attended II||47.4%|Hard||
 |1752|Check if Array Is Sorted and Rotated|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1752.Check-if-Array-Is-Sorted-and-Rotated)|64.2%|Easy||
 |1753|Maximum Score From Removing Stones||61.2%|Medium||
-|1754|Largest Merge Of Two Strings||39.8%|Medium||
+|1754|Largest Merge Of Two Strings||39.9%|Medium||
 |1755|Closest Subsequence Sum||35.9%|Hard||
-|1756|Design Most Recently Used Queue||77.4%|Medium||
-|1757|Recyclable and Low Fat Products||96.3%|Easy||
-|1758|Minimum Changes To Make Alternating Binary String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1758.Minimum-Changes-To-Make-Alternating-Binary-String)|59.3%|Easy||
+|1756|Design Most Recently Used Queue||77.3%|Medium||
+|1757|Recyclable and Low Fat Products||96.4%|Easy||
+|1758|Minimum Changes To Make Alternating Binary String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1758.Minimum-Changes-To-Make-Alternating-Binary-String)|59.2%|Easy||
 |1759|Count Number of Homogenous Substrings||41.7%|Medium||
 |1760|Minimum Limit of Balls in a Bag||51.9%|Medium||
 |1761|Minimum Degree of a Connected Trio in a Graph||37.1%|Hard||
-|1762|Buildings With an Ocean View||82.2%|Medium||
+|1762|Buildings With an Ocean View||82.4%|Medium||
 |1763|Longest Nice Substring||62.0%|Easy||
-|1764|Form Array by Concatenating Subarrays of Another Array||56.1%|Medium||
+|1764|Form Array by Concatenating Subarrays of Another Array||56.0%|Medium||
 |1765|Map of Highest Peak||54.4%|Medium||
-|1766|Tree of Coprimes||36.6%|Hard||
-|1767|Find the Subtasks That Did Not Execute||87.8%|Hard||
-|1768|Merge Strings Alternately||78.9%|Easy||
-|1769|Minimum Number of Operations to Move All Balls to Each Box||88.6%|Medium||
+|1766|Tree of Coprimes||36.5%|Hard||
+|1767|Find the Subtasks That Did Not Execute||88.0%|Hard||
+|1768|Merge Strings Alternately||78.8%|Easy||
+|1769|Minimum Number of Operations to Move All Balls to Each Box||88.5%|Medium||
 |1770|Maximum Score from Performing Multiplication Operations||28.6%|Medium||
 |1771|Maximize Palindrome Length From Subsequences||33.9%|Hard||
-|1772|Sort Features by Popularity||69.8%|Medium||
-|1773|Count Items Matching a Rule||87.7%|Easy||
-|1774|Closest Dessert Cost||51.2%|Medium||
-|1775|Equal Sum Arrays With Minimum Number of Operations||50.3%|Medium||
-|1776|Car Fleet II||41.4%|Hard||
-|1777|Product's Price for Each Store||86.2%|Easy||
+|1772|Sort Features by Popularity||69.5%|Medium||
+|1773|Count Items Matching a Rule||87.6%|Easy||
+|1774|Closest Dessert Cost||57.0%|Medium||
+|1775|Equal Sum Arrays With Minimum Number of Operations||50.4%|Medium||
+|1776|Car Fleet II||42.1%|Hard||
+|1777|Product's Price for Each Store||86.8%|Easy||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
