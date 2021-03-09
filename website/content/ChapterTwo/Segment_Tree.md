@@ -40,7 +40,7 @@ weight: 18
 |0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0200~0299/0218.The-Skyline-Problem.md" >}})|Hard| O(n log n)| O(n)|❤️|36.4%|
 |0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0300~0399/0307.Range-Sum-Query-Mutable.md" >}})|Medium| O(1)| O(n)||36.8%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard| O(n log n)| O(n)||42.5%|
-|0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard| O(n log n)| O(n)|❤️|36.0%|
+|0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard| O(n log n)| O(n)|❤️|36.1%|
 |0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0400~0499/0493.Reverse-Pairs.md" >}})|Hard| O(n log n)| O(n)||26.9%|
 |0699|Falling Squares|[Go]({{< relref "/ChapterFour/0600~0699/0699.Falling-Squares.md" >}})|Hard| O(n log n)| O(n)|❤️|42.6%|
 |0715|Range Module|[Go]({{< relref "/ChapterFour/0700~0799/0715.Range-Module.md" >}})|Hard| O(log n)| O(n)|❤️|40.3%|
