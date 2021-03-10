@@ -47,7 +47,7 @@ weight: 6
 |0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.7%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.3%|
 |0538|Convert BST to Greater Tree|[Go]({{< relref "/ChapterFour/0500~0599/0538.Convert-BST-to-Greater-Tree.md" >}})|Medium||||59.5%|
-|0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.0%|
+|0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.1%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.5%|
 |0623|Add One Row to Tree|[Go]({{< relref "/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree.md" >}})|Medium||||53.1%|
 |0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||66.0%|
@@ -65,7 +65,7 @@ weight: 6
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||38.9%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.5%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.9%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.0%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||82.4%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.8%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|

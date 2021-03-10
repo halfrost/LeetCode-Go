@@ -30,18 +30,19 @@ weight: 5
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||60.3%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.2%|
 |0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||47.6%|
+|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||38.6%|
 |0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||52.4%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||41.0%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.5%|
-|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.7%|
+|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.8%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium| O(n)| O(1)||28.7%|
 |0456|132 Pattern|[Go]({{< relref "/ChapterFour/0400~0499/0456.132-Pattern.md" >}})|Medium| O(n)| O(n)||30.6%|
 |0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy| O(n)| O(n)||65.7%|
 |0503|Next Greater Element II|[Go]({{< relref "/ChapterFour/0500~0599/0503.Next-Greater-Element-II.md" >}})|Medium| O(n)| O(n)||58.5%|
 |0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||54.6%|
-|0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.1%|
+|0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.2%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.0%|
-|0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.3%|
+|0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.2%|
 |0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0700~0799/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.7%|
 |0844|Backspace String Compare|[Go]({{< relref "/ChapterFour/0800~0899/0844.Backspace-String-Compare.md" >}})|Easy| O(n)| O(n) ||47.1%|
 |0856|Score of Parentheses|[Go]({{< relref "/ChapterFour/0800~0899/0856.Score-of-Parentheses.md" >}})|Medium| O(n)| O(n)||64.8%|

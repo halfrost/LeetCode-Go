@@ -13,9 +13,10 @@ weight: 12
 |0007|Reverse Integer|[Go]({{< relref "/ChapterFour/0001~0099/0007.Reverse-Integer.md" >}})|Easy||||25.9%|
 |0008|String to Integer (atoi)|[Go]({{< relref "/ChapterFour/0001~0099/0008.String-to-Integer-atoi.md" >}})|Medium||||15.7%|
 |0009|Palindrome Number|[Go]({{< relref "/ChapterFour/0001~0099/0009.Palindrome-Number.md" >}})|Easy||||49.8%|
-|0012|Integer to Roman|[Go]({{< relref "/ChapterFour/0001~0099/0012.Integer-to-Roman.md" >}})|Medium||||56.6%|
+|0012|Integer to Roman|[Go]({{< relref "/ChapterFour/0001~0099/0012.Integer-to-Roman.md" >}})|Medium||||57.0%|
 |0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0001~0099/0013.Roman-to-Integer.md" >}})|Easy||||56.9%|
 |0029|Divide Two Integers|[Go]({{< relref "/ChapterFour/0001~0099/0029.Divide-Two-Integers.md" >}})|Medium||||16.9%|
+|0043|Multiply Strings|[Go]({{< relref "/ChapterFour/0001~0099/0043.Multiply-Strings.md" >}})|Medium||||35.0%|
 |0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||31.0%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.4%|
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.0%|
@@ -51,15 +52,15 @@ weight: 12
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.4%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.6%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.0%|
-|0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||44.2%|
+|0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||44.1%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||28.8%|
 |0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||70.9%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||33.1%|
 |0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||59.8%|
 |0910|Smallest Range II|[Go]({{< relref "/ChapterFour/0900~0999/0910.Smallest-Range-II.md" >}})|Medium||||31.2%|
-|0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.1%|
-|0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0900~0999/0927.Three-Equal-Parts.md" >}})|Hard||||34.6%|
+|0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.2%|
+|0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0900~0999/0927.Three-Equal-Parts.md" >}})|Hard||||34.7%|
 |0942|DI String Match|[Go]({{< relref "/ChapterFour/0900~0999/0942.DI-String-Match.md" >}})|Easy| O(n)| O(1)||73.6%|
 |0949|Largest Time for Given Digits|[Go]({{< relref "/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits.md" >}})|Medium||||36.2%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard||||36.2%|
@@ -72,7 +73,7 @@ weight: 12
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.8%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.9%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||49.4%|
-|1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.2%|
+|1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.1%|
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||52.0%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.4%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||71.1%|

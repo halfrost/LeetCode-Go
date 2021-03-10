@@ -9,7 +9,7 @@ weight: 9
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium||||49.2%|
+|0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium||||49.3%|
 |0098|Validate Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree.md" >}})|Medium| O(n)| O(1)||28.8%|
 |0099|Recover Binary Search Tree|[Go]({{< relref "/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree.md" >}})|Hard| O(n)| O(1)||42.5%|
 |0100|Same Tree|[Go]({{< relref "/ChapterFour/0100~0199/0100.Same-Tree.md" >}})|Easy| O(n)| O(1)||54.2%|
@@ -36,7 +36,7 @@ weight: 9
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.7%|
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||45.0%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||51.9%|
-|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.7%|
+|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.8%|
 |0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0400~0499/0491.Increasing-Subsequences.md" >}})|Medium||||47.5%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.7%|
 |0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.7%|
@@ -46,8 +46,8 @@ weight: 9
 |0538|Convert BST to Greater Tree|[Go]({{< relref "/ChapterFour/0500~0599/0538.Convert-BST-to-Greater-Tree.md" >}})|Medium||||59.5%|
 |0542|01 Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0542.01-Matrix.md" >}})|Medium| O(n)| O(1)||41.0%|
 |0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0500~0599/0547.Number-of-Provinces.md" >}})|Medium||||60.5%|
-|0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.0%|
-|0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0600~0699/0638.Shopping-Offers.md" >}})|Medium||||52.9%|
+|0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.1%|
+|0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0600~0699/0638.Shopping-Offers.md" >}})|Medium||||53.0%|
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0600~0699/0685.Redundant-Connection-II.md" >}})|Hard||||33.0%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0600~0699/0695.Max-Area-of-Island.md" >}})|Medium||||64.9%|
 |0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||51.9%|
@@ -65,7 +65,7 @@ weight: 9
 |0872|Leaf-Similar Trees|[Go]({{< relref "/ChapterFour/0800~0899/0872.Leaf-Similar-Trees.md" >}})|Easy||||64.5%|
 |0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0800~0899/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||74.6%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0900~0999/0924.Minimize-Malware-Spread.md" >}})|Hard||||41.9%|
-|0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.4%|
+|0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.3%|
 |0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||55.4%|
 |0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.2%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.8%|
@@ -74,7 +74,7 @@ weight: 9
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||38.9%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||59.1%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.5%|
-|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||70.9%|
+|1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.0%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||82.4%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.8%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|
