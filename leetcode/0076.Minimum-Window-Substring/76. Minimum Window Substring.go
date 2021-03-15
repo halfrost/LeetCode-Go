@@ -32,9 +32,7 @@ func minWindow(s string, t string) string {
 		}
 	}
 	if finalLeft != -1 {
-		for i := finalLeft; i < finalRight+1; i++ {
-			result += string(s[i])
-		}
+		result = string(s[finalLeft : finalRight+1])
 	}
 	return result
 }
