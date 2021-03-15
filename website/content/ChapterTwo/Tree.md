@@ -23,7 +23,7 @@ weight: 6
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.8%|
 |0107|Binary Tree Level Order Traversal II|[Go]({{< relref "/ChapterFour/0100~0199/0107.Binary-Tree-Level-Order-Traversal-II.md" >}})|Medium| O(n)| O(1)||55.3%|
 |0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.6%|
-|0110|Balanced Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0110.Balanced-Binary-Tree.md" >}})|Easy| O(n)| O(1)||44.7%|
+|0110|Balanced Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0110.Balanced-Binary-Tree.md" >}})|Easy| O(n)| O(1)||44.8%|
 |0111|Minimum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||39.6%|
 |0112|Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0112.Path-Sum.md" >}})|Easy| O(n)| O(1)||42.5%|
 |0113|Path Sum II|[Go]({{< relref "/ChapterFour/0100~0199/0113.Path-Sum-II.md" >}})|Medium| O(n)| O(1)||49.3%|

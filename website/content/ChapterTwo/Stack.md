@@ -42,7 +42,7 @@ weight: 5
 |0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||54.7%|
 |0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.2%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.0%|
-|0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.2%|
+|0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium| O(n)| O(n) ||43.3%|
 |0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0700~0799/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.7%|
 |0844|Backspace String Compare|[Go]({{< relref "/ChapterFour/0800~0899/0844.Backspace-String-Compare.md" >}})|Easy| O(n)| O(n) ||47.1%|
 |0856|Score of Parentheses|[Go]({{< relref "/ChapterFour/0800~0899/0856.Score-of-Parentheses.md" >}})|Medium| O(n)| O(n)||64.8%|
@@ -55,7 +55,7 @@ weight: 5
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.5%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.3%|
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.1%|
-|1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||70.9%|
+|1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||71.0%|
 |1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.2%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
