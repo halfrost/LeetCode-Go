@@ -35,17 +35,17 @@ weight: 12
 |0326|Power of Three|[Go]({{< relref "/ChapterFour/0300~0399/0326.Power-of-Three.md" >}})|Easy| O(1)| O(1)||42.1%|
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0300~0399/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.3%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.9%|
-|0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0300~0399/0367.Valid-Perfect-Square.md" >}})|Easy||||42.0%|
+|0367|Valid Perfect Square|[Go]({{< relref "/ChapterFour/0300~0399/0367.Valid-Perfect-Square.md" >}})|Easy||||42.1%|
 |0372|Super Pow|[Go]({{< relref "/ChapterFour/0300~0399/0372.Super-Pow.md" >}})|Medium||||36.7%|
 |0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0300~0399/0397.Integer-Replacement.md" >}})|Medium||||33.5%|
 |0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||59.9%|
 |0441|Arranging Coins|[Go]({{< relref "/ChapterFour/0400~0499/0441.Arranging-Coins.md" >}})|Easy||||42.4%|
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium||||52.5%|
 |0453|Minimum Moves to Equal Array Elements|[Go]({{< relref "/ChapterFour/0400~0499/0453.Minimum-Moves-to-Equal-Array-Elements.md" >}})|Easy||||50.8%|
-|0478|Generate Random Point in a Circle|[Go]({{< relref "/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle.md" >}})|Medium||||38.9%|
+|0478|Generate Random Point in a Circle|[Go]({{< relref "/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle.md" >}})|Medium||||39.3%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0400~0499/0483.Smallest-Good-Base.md" >}})|Hard||||36.3%|
-|0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||36.2%|
-|0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.2%|
+|0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||36.3%|
+|0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.3%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.3%|
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||50.2%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.8%|
@@ -61,13 +61,13 @@ weight: 12
 |0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||33.1%|
 |0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||59.8%|
 |0910|Smallest Range II|[Go]({{< relref "/ChapterFour/0900~0999/0910.Smallest-Range-II.md" >}})|Medium||||31.2%|
-|0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.2%|
+|0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||34.1%|
 |0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0900~0999/0927.Three-Equal-Parts.md" >}})|Hard||||34.6%|
 |0942|DI String Match|[Go]({{< relref "/ChapterFour/0900~0999/0942.DI-String-Match.md" >}})|Easy| O(n)| O(1)||73.6%|
 |0949|Largest Time for Given Digits|[Go]({{< relref "/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits.md" >}})|Medium||||36.2%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard||||36.2%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||40.0%|
-|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.6%|
+|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||58.7%|
 |0991|Broken Calculator|[Go]({{< relref "/ChapterFour/0900~0999/0991.Broken-Calculator.md" >}})|Medium||||49.7%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.5%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||59.8%|
@@ -86,7 +86,7 @@ weight: 12
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.1%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.5%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.3%|
-|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.7%|
+|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||62.8%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||66.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

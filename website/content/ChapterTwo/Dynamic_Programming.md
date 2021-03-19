@@ -19,7 +19,7 @@ weight: 7
 |0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||26.7%|
 |0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||42.8%|
 |0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n)| O(n)||54.5%|
-|0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||39.8%|
+|0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||39.9%|
 |0120|Triangle|[Go]({{< relref "/ChapterFour/0100~0199/0120.Triangle.md" >}})|Medium| O(n^2)| O(n)||45.9%|
 |0121|Best Time to Buy and Sell Stock|[Go]({{< relref "/ChapterFour/0100~0199/0121.Best-Time-to-Buy-and-Sell-Stock.md" >}})|Easy| O(n)| O(1)||51.7%|
 |0131|Palindrome Partitioning|[Go]({{< relref "/ChapterFour/0100~0199/0131.Palindrome-Partitioning.md" >}})|Medium||||52.3%|
@@ -37,6 +37,7 @@ weight: 7
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0300~0399/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.3%|
 |0354|Russian Doll Envelopes|[Go]({{< relref "/ChapterFour/0300~0399/0354.Russian-Doll-Envelopes.md" >}})|Hard||||36.4%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||48.9%|
+|0376|Wiggle Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0376.Wiggle-Subsequence.md" >}})|Medium||||41.8%|
 |0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0392.Is-Subsequence.md" >}})|Easy| O(n)| O(1)||49.5%|
 |0410|Split Array Largest Sum|[Go]({{< relref "/ChapterFour/0400~0499/0410.Split-Array-Largest-Sum.md" >}})|Hard||||46.5%|
 |0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||59.9%|
@@ -44,7 +45,7 @@ weight: 7
 |0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0400~0499/0474.Ones-and-Zeroes.md" >}})|Medium||||43.8%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.7%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0600~0699/0638.Shopping-Offers.md" >}})|Medium||||53.0%|
-|0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||57.9%|
+|0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||58.0%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.4%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||50.9%|
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0800~0899/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||49.9%|
@@ -55,14 +56,14 @@ weight: 7
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.6%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||45.5%|
-|1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.8%|
-|1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.6%|
-|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.4%|
-|1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||46.7%|
+|1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||61.9%|
+|1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.5%|
+|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.5%|
+|1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||46.8%|
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||69.0%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||76.1%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||25.5%|
-|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||39.9%|
+|1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.0%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.6%|
 |1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||62.1%|
 |1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||48.5%|

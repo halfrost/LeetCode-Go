@@ -19,7 +19,7 @@ weight: 16
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence.md" >}})|Hard| O(n)| O(n)|❤️|46.3%|
+|0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence.md" >}})|Hard| O(n)| O(n)|❤️|46.4%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium| O(m\*n)| O(m\*n)||29.6%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(m\*n)| O(m\*n)||49.3%|
 |0399|Evaluate Division|[Go]({{< relref "/ChapterFour/0300~0399/0399.Evaluate-Division.md" >}})|Medium| O(n)| O(n)||54.5%|
@@ -28,7 +28,7 @@ weight: 16
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0600~0699/0685.Redundant-Connection-II.md" >}})|Hard| O(n)| O(n)||33.0%|
 |0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium| O(n)| O(n)|❤️|52.0%|
 |0765|Couples Holding Hands|[Go]({{< relref "/ChapterFour/0700~0799/0765.Couples-Holding-Hands.md" >}})|Hard| O(n)| O(n)|❤️|55.5%|
-|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard| O(n^2)| O(n)|❤️|54.7%|
+|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard| O(n^2)| O(n)|❤️|54.8%|
 |0803|Bricks Falling When Hit|[Go]({{< relref "/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit.md" >}})|Hard| O(n^2)| O(n)|❤️|31.5%|
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0800~0899/0839.Similar-String-Groups.md" >}})|Hard| O(n^2)| O(n)||41.1%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0900~0999/0924.Minimize-Malware-Spread.md" >}})|Hard| O(m\*n)| O(n)||41.9%|

@@ -17,13 +17,13 @@ weight: 9
 |0104|Maximum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||68.2%|
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||52.1%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||49.9%|
-|0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.6%|
+|0108|Convert Sorted Array to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||60.7%|
 |0109|Convert Sorted List to Binary Search Tree|[Go]({{< relref "/ChapterFour/0100~0199/0109.Convert-Sorted-List-to-Binary-Search-Tree.md" >}})|Medium| O(log n)| O(n)||50.4%|
 |0110|Balanced Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0110.Balanced-Binary-Tree.md" >}})|Easy| O(n)| O(1)||44.8%|
 |0111|Minimum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||39.7%|
 |0112|Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0112.Path-Sum.md" >}})|Easy| O(n)| O(1)||42.5%|
 |0113|Path Sum II|[Go]({{< relref "/ChapterFour/0100~0199/0113.Path-Sum-II.md" >}})|Medium| O(n)| O(1)||49.3%|
-|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||52.1%|
+|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium| O(n)| O(1)||52.2%|
 |0124|Binary Tree Maximum Path Sum|[Go]({{< relref "/ChapterFour/0100~0199/0124.Binary-Tree-Maximum-Path-Sum.md" >}})|Hard| O(n)| O(1)||35.5%|
 |0129|Sum Root to Leaf Numbers|[Go]({{< relref "/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers.md" >}})|Medium| O(n)| O(1)||51.1%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||29.6%|
@@ -32,7 +32,7 @@ weight: 9
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||49.3%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0200~0299/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.3%|
 |0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||42.8%|
-|0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||40.3%|
+|0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||40.4%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.8%|
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||45.1%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||52.0%|
@@ -54,8 +54,8 @@ weight: 9
 |0733|Flood Fill|[Go]({{< relref "/ChapterFour/0700~0799/0733.Flood-Fill.md" >}})|Easy||||55.9%|
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.4%|
 |0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix.md" >}})|Medium||||55.6%|
-|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.7%|
-|0785|Is Graph Bipartite?|[Go]({{< relref "/ChapterFour/0700~0799/0785.Is-Graph-Bipartite.md" >}})|Medium||||48.6%|
+|0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard||||54.8%|
+|0785|Is Graph Bipartite?|[Go]({{< relref "/ChapterFour/0700~0799/0785.Is-Graph-Bipartite.md" >}})|Medium||||48.7%|
 |0802|Find Eventual Safe States|[Go]({{< relref "/ChapterFour/0800~0899/0802.Find-Eventual-Safe-States.md" >}})|Medium||||49.9%|
 |0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||46.3%|
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0800~0899/0839.Similar-String-Groups.md" >}})|Hard||||41.1%|
