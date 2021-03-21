@@ -47,7 +47,7 @@ func maxTurbulenceSize1(A []int) int {
 			flag = lastNum - A[right]
 			lastNum = A[right]
 		} else {
-			if right != left && flag != 0 {
+			if flag != 0 {
 				res = max(res, right-left+1)
 			}
 			left++

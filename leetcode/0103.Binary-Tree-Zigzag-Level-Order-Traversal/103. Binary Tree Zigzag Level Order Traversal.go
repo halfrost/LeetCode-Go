@@ -81,3 +81,40 @@ func search(root *TreeNode, depth int, res *[][]int) {
 	search(root.Left, depth+1, res)
 	search(root.Right, depth+1, res)
 }
+
+// 解法三 BFS
+func zigzagLevelOrder1(root *TreeNode) [][]int {
+	res := [][]int{}
+	if root == nil {
+		return res
+	}
+	q := []*TreeNode{root}
+	size, i, j, lay, tmp, flag := 0, 0, 0, []int{}, []*TreeNode{}, false
+	for len(q) > 0 {
+		size = len(q)
+		tmp = []*TreeNode{}
+		lay = make([]int, size)
+		j = size - 1
+		for i = 0; i < size; i++ {
+			root = q[0]
+			q = q[1:]
+			if !flag {
+				lay[i] = root.Val
+			} else {
+				lay[j] = root.Val
+				j--
+			}
+			if root.Left != nil {
+				tmp = append(tmp, root.Left)
+			}
+			if root.Right != nil {
+				tmp = append(tmp, root.Right)
+			}
+
+		}
+		res = append(res, lay)
+		flag = !flag
+		q = tmp
+	}
+	return res
+}

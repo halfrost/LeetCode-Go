@@ -30,6 +30,21 @@ func Test_Problem19(t *testing.T) {
 	qs := []question19{
 
 		{
+			para19{[]int{1, 2}, 2},
+			ans19{[]int{2}},
+		},
+
+		{
+			para19{[]int{1}, 1},
+			ans19{[]int{}},
+		},
+
+		{
+			para19{[]int{1, 2, 3, 4, 5}, 10},
+			ans19{[]int{1, 2, 3, 4, 5}},
+		},
+
+		{
 			para19{[]int{1, 2, 3, 4, 5}, 1},
 			ans19{[]int{1, 2, 3, 4}},
 		},

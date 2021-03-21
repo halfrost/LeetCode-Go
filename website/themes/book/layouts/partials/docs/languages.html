@@ -1,7 +1,10 @@
 <!-- Merge home and current page translations -->
+{{ $bookTranslatedOnly := default false .Site.Params.BookTranslatedOnly }}
 {{ $translations := dict }}
-{{ range .Site.Home.AllTranslations }}
-  {{ $translations = merge $translations (dict .Language.Lang .) }}
+{{ if (eq $bookTranslatedOnly false ) }}
+  {{ range .Site.Home.AllTranslations }}
+    {{ $translations = merge $translations (dict .Language.Lang .) }}
+  {{ end }}
 {{ end }}
 {{ range .Translations }}
   {{ $translations = merge $translations (dict .Language.Lang .) }}

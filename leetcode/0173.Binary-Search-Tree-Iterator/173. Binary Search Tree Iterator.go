@@ -1,8 +1,8 @@
 package leetcode
 
-import "container/heap"
-
 import (
+	"container/heap"
+
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

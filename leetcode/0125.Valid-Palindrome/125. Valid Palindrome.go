@@ -5,9 +5,7 @@ import (
 )
 
 func isPalindrome(s string) bool {
-
 	s = strings.ToLower(s)
-
 	i, j := 0, len(s)-1
 	for i < j {
 		for i < j && !isChar(s[i]) {
@@ -22,7 +20,6 @@ func isPalindrome(s string) bool {
 		i++
 		j--
 	}
-
 	return true
 }
 

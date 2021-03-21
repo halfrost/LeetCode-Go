@@ -1,6 +1,7 @@
 ---
-title: Bit Manipulation
+title: 2.15 ✅ Bit Manipulation
 type: docs
+weight: 15
 ---
 
 # Bit Manipulation
@@ -40,35 +41,47 @@ X & ~X = 0
 ```
 
 
-| Title | Solution | Difficulty | Time | Space | 收藏 |
-| ----- | :--------: | :----------: | :----: | :-----: |:-----: |
-|78. Subsets | [Go]({{< relref "/ChapterFour/0078.Subsets.md" >}})| Medium | O(n^2)| O(n)|❤️|
-|136. Single Number | [Go]({{< relref "/ChapterFour/0136.Single-Number.md" >}})| Easy | O(n)| O(1)||
-|137. Single Number II  | [Go]({{< relref "/ChapterFour/0137.Single-Number-II.md" >}})| Medium | O(n)| O(1)|❤️|
-|169. Majority Element | [Go]({{< relref "/ChapterFour/0169.Majority-Element.md" >}})| Easy | O(n)| O(1)|❤️|
-|187. Repeated DNA Sequences  | [Go]({{< relref "/ChapterFour/0187.Repeated-DNA-Sequences.md" >}})| Medium | O(n)| O(1)||
-|190. Reverse Bits | [Go]({{< relref "/ChapterFour/0190.Reverse-Bits.md" >}})| Easy | O(n)| O(1)|❤️|
-|191. Number of 1 Bits  | [Go]({{< relref "/ChapterFour/0191.Number-of-1-Bits.md" >}})| Easy | O(n)| O(1)||
-|201. Bitwise AND of Numbers Range  | [Go]({{< relref "/ChapterFour/0201.Bitwise-AND-of-Numbers-Range.md" >}})| Medium | O(n)| O(1)|❤️|
-|231. Power of Two  | [Go]({{< relref "/ChapterFour/0231.Power-of-Two.md" >}})| Easy | O(1)| O(1)||
-|260. Single Number III  | [Go]({{< relref "/ChapterFour/0260.Single-Number-III.md" >}})| Medium | O(n)| O(1)|❤️|
-|268. Missing Number  | [Go]({{< relref "/ChapterFour/0268.Missing-Number.md" >}})| Easy | O(n)| O(1)||
-|318. Maximum Product of Word Lengths | [Go]({{< relref "/ChapterFour/0318.Maximum-Product-of-Word-Lengths.md" >}})| Medium | O(n)| O(1)||
-|338. Counting Bits   | [Go]({{< relref "/ChapterFour/0338.Counting-Bits.md" >}})| Medium | O(n)| O(n)||
-|342. Power of Four  | [Go]({{< relref "/ChapterFour/0342.Power-of-Four.md" >}})| Easy | O(n)| O(1)||
-|371. Sum of Two Integers  | [Go]({{< relref "/ChapterFour/0371.Sum-of-Two-Integers.md" >}})| Easy | O(n)| O(1)||
-|389. Find the Difference  | [Go]({{< relref "/ChapterFour/0389.Find-the-Difference.md" >}})| Easy | O(n)| O(1)||
-|393. UTF-8 Validation   | [Go]({{< relref "/ChapterFour/0393.UTF-8-Validation.md" >}})| Medium | O(n)| O(1)||
-|397. Integer Replacement   | [Go]({{< relref "/ChapterFour/0397.Integer-Replacement.md" >}})| Medium | O(n)| O(1)||
-|401. Binary Watch  | [Go]({{< relref "/ChapterFour/0401.Binary-Watch.md" >}})| Easy | O(1)| O(1)||
-|405. Convert a Number to Hexadecimal | [Go]({{< relref "/ChapterFour/0405.Convert-a-Number-to-Hexadecimal.md" >}})| Easy | O(n)| O(1)||
-|421. Maximum XOR of Two Numbers in an Array  | [Go]({{< relref "/ChapterFour/0421.Maximum-XOR-of-Two-Numbers-in-an-Array.md" >}})| Medium | O(n)| O(1)|❤️|
-|461. Hamming Distance  | [Go]({{< relref "/ChapterFour/0461.Hamming-Distance.md" >}})| Easy | O(n)| O(1)||
-|476. Number Complement  | [Go]({{< relref "/ChapterFour/0476.Number-Complement.md" >}})| Easy | O(n)| O(1)||
-|477. Total Hamming Distance  | [Go]({{< relref "/ChapterFour/0477.Total-Hamming-Distance.md" >}})| Medium | O(n)| O(1)||
-|693. Binary Number with Alternating Bits | [Go]({{< relref "/ChapterFour/0693.Binary-Number-with-Alternating-Bits.md" >}})| Easy | O(n)| O(1)|❤️|
-|756. Pyramid Transition Matrix  | [Go]({{< relref "/ChapterFour/0756.Pyramid-Transition-Matrix.md" >}})| Medium | O(n log n)| O(n)||
-|762. Prime Number of Set Bits in Binary Representation | [Go]({{< relref "/ChapterFour/0762.Prime-Number-of-Set-Bits-in-Binary-Representation.md" >}})| Easy | O(n)| O(1)||
-|784. Letter Case Permutation | [Go]({{< relref "/ChapterFour/0784.Letter-Case-Permutation.md" >}})| Easy | O(n)| O(1)||
-|898. Bitwise ORs of Subarrays | [Go]({{< relref "/ChapterFour/0898.Bitwise-ORs-of-Subarrays.md" >}})| Medium | O(n)| O(1)||
-|---------------------------------------|---------------------------------|--------------------------|-----------------------|-----------|--------|
+
+| No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
+|:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
+|0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|65.4%|
+|0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy| O(n)| O(1)||66.6%|
+|0137|Single Number II|[Go]({{< relref "/ChapterFour/0100~0199/0137.Single-Number-II.md" >}})|Medium| O(n)| O(1)|❤️|54.0%|
+|0169|Majority Element|[Go]({{< relref "/ChapterFour/0100~0199/0169.Majority-Element.md" >}})|Easy| O(n)| O(1)|❤️|60.1%|
+|0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium| O(n)| O(1)||41.6%|
+|0190|Reverse Bits|[Go]({{< relref "/ChapterFour/0100~0199/0190.Reverse-Bits.md" >}})|Easy| O(n)| O(1)|❤️|42.4%|
+|0191|Number of 1 Bits|[Go]({{< relref "/ChapterFour/0100~0199/0191.Number-of-1-Bits.md" >}})|Easy| O(n)| O(1)||54.0%|
+|0201|Bitwise AND of Numbers Range|[Go]({{< relref "/ChapterFour/0200~0299/0201.Bitwise-AND-of-Numbers-Range.md" >}})|Medium| O(n)| O(1)|❤️|39.7%|
+|0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
+|0260|Single Number III|[Go]({{< relref "/ChapterFour/0200~0299/0260.Single-Number-III.md" >}})|Medium| O(n)| O(1)|❤️|65.4%|
+|0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy| O(n)| O(1)||55.0%|
+|0318|Maximum Product of Word Lengths|[Go]({{< relref "/ChapterFour/0300~0399/0318.Maximum-Product-of-Word-Lengths.md" >}})|Medium| O(n)| O(1)||52.4%|
+|0338|Counting Bits|[Go]({{< relref "/ChapterFour/0300~0399/0338.Counting-Bits.md" >}})|Medium| O(n)| O(n)||70.5%|
+|0342|Power of Four|[Go]({{< relref "/ChapterFour/0300~0399/0342.Power-of-Four.md" >}})|Easy| O(n)| O(1)||41.8%|
+|0371|Sum of Two Integers|[Go]({{< relref "/ChapterFour/0300~0399/0371.Sum-of-Two-Integers.md" >}})|Medium| O(n)| O(1)||50.6%|
+|0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy| O(n)| O(1)||57.9%|
+|0393|UTF-8 Validation|[Go]({{< relref "/ChapterFour/0300~0399/0393.UTF-8-Validation.md" >}})|Medium| O(n)| O(1)||38.1%|
+|0397|Integer Replacement|[Go]({{< relref "/ChapterFour/0300~0399/0397.Integer-Replacement.md" >}})|Medium| O(n)| O(1)||33.5%|
+|0401|Binary Watch|[Go]({{< relref "/ChapterFour/0400~0499/0401.Binary-Watch.md" >}})|Easy| O(1)| O(1)||48.5%|
+|0405|Convert a Number to Hexadecimal|[Go]({{< relref "/ChapterFour/0400~0499/0405.Convert-a-Number-to-Hexadecimal.md" >}})|Easy| O(n)| O(1)||44.5%|
+|0421|Maximum XOR of Two Numbers in an Array|[Go]({{< relref "/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array.md" >}})|Medium| O(n)| O(1)|❤️|54.2%|
+|0461|Hamming Distance|[Go]({{< relref "/ChapterFour/0400~0499/0461.Hamming-Distance.md" >}})|Easy| O(n)| O(1)||73.2%|
+|0476|Number Complement|[Go]({{< relref "/ChapterFour/0400~0499/0476.Number-Complement.md" >}})|Easy| O(n)| O(1)||65.1%|
+|0477|Total Hamming Distance|[Go]({{< relref "/ChapterFour/0400~0499/0477.Total-Hamming-Distance.md" >}})|Medium| O(n)| O(1)||50.6%|
+|0693|Binary Number with Alternating Bits|[Go]({{< relref "/ChapterFour/0600~0699/0693.Binary-Number-with-Alternating-Bits.md" >}})|Easy| O(n)| O(1)|❤️|59.9%|
+|0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix.md" >}})|Medium| O(n log n)| O(n)||55.6%|
+|0762|Prime Number of Set Bits in Binary Representation|[Go]({{< relref "/ChapterFour/0700~0799/0762.Prime-Number-of-Set-Bits-in-Binary-Representation.md" >}})|Easy| O(n)| O(1)||64.4%|
+|0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0700~0799/0784.Letter-Case-Permutation.md" >}})|Medium| O(n)| O(1)||68.6%|
+|0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0800~0899/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium| O(n)| O(1)||34.3%|
+|1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||39.4%|
+|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.8%|
+|1461|Check If a String Contains All Binary Codes of Size K|[Go]({{< relref "/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K.md" >}})|Medium||||54.3%|
+|1720|Decode XORed Array|[Go]({{< relref "/ChapterFour/1700~1799/1720.Decode-XORed-Array.md" >}})|Easy||||85.3%|
+|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sort/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Union_Find/">下一页➡️</a></p>
+</div>

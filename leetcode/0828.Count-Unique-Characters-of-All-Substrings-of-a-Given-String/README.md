@@ -1,0 +1,101 @@
+# [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
+
+
+## 题目
+
+Let's define a function `countUniqueChars(s)` that returns the number of unique characters on `s`, for example if `s = "LEETCODE"` then `"L"`, `"T"`,`"C"`,`"O"`,`"D"` are the unique characters since they appear only once in `s`, therefore `countUniqueChars(s) = 5`.On this problem given a string `s` we need to return the sum of `countUniqueChars(t)` where `t` is a substring of `s`. Notice that some substrings can be repeated so on this case you have to count the repeated ones too.
+
+Since the answer can be very large, return the answer modulo `10 ^ 9 + 7`.
+
+**Example 1:**
+
+```
+Input: s = "ABC"
+Output: 10
+Explanation: All possible substrings are: "A","B","C","AB","BC" and "ABC".
+Evey substring is composed with only unique letters.
+Sum of lengths of all substring is 1 + 1 + 1 + 2 + 2 + 3 = 10
+
+```
+
+**Example 2:**
+
+```
+Input: s = "ABA"
+Output: 8
+Explanation: The same as example 1, except countUniqueChars("ABA") = 1.
+
+```
+
+**Example 3:**
+
+```
+Input: s = "LEETCODE"
+Output: 92
+
+```
+
+**Constraints:**
+
+- `0 <= s.length <= 10^4`
+- `s` contain upper-case English letters only.
+
+## 题目大意
+
+如果一个字符在字符串 S 中有且仅有出现一次，那么我们称其为独特字符。例如，在字符串 S = "LETTER" 中，"L" 和 "R" 可以被称为独特字符。我们再定义 UNIQ(S) 作为字符串 S 中独特字符的个数。那么，在 S = "LETTER" 中， UNIQ("LETTER") =  2。
+
+对于给定字符串 S，计算其所有非空子串的独特字符的个数（即 UNIQ(substring)）之和。如果在 S 的不同位置上出现两个甚至多个相同的子串，那么我们认为这些子串是不同的。考虑到答案可能会非常大，规定返回格式为：结果 mod 10 ^ 9 + 7。
+
+## 解题思路
+
+- 这一题可以先用暴力解法尝试解题，不过提交以后会发现判题结果是超时。出错的一组数据是一个有 10000 个字符的字符串。暴力解法中间由于遍历了太多的子区间，导致了超时。
+- 这道题换一个角度思考问题。当子字符串中字符 X 出现了 2 次以上，那么它就对最终结果没有任何影响，所以只有当某个字符只出现一次的时候才会影响最终结果。再者，一个子字符串中不重复的字符的总个数，也就是这个子字符串 UNIQ 值。例如，“ABC”，这个子字符串的 UNIQ 值是 3，可以这样计算，它属于 A 的独特的字符串，也属于 B 的独特的字符串，也属于 C 的独特的字符串，那么计算这个子字符串的问题可以分解成计算 A 有多少个独特的子字符串，B 有多少个独特的子字符串，C 有多少个独特的子字符串的问题。在计算 A 有多少个子字符串的问题的时候，里面肯定会包含 "ABC" 这个子字符串的。所以原问题就转换成了分别计算给出的字符串中每个字符出现在独特字符串中的总数之和。
+- 假设原字符串是 BAABBABBBAAABA，这个字符串中出现了很多 A 和很多 B，假设我们当前计算到了第 3 个 A 的位置了(index = 5)，即标红色的那个 A。如何计算这个 A 在哪些子字符串中是独特的呢？由于子字符串题目中要求必须是连续的区间，所以这个问题很简单。找到这个 A 前一个 A 的下标位置(index = 2)，再找到这个 A 后一个 A 的下标位置(index = 9)，即 BAABBABBBAAABA，第一个 A 和当前计算的 A 中间区间有 2 个字符，第三个 A 和当前计算的 A 中间有 3 个字符。那么当前计算的 A 出现在 `(2 + 1) * (3 + 1) = 12` 个子字符串中是独特的，这 12 个字符串是：`A`，`BA`，`BBA`，`AB`，`ABB`，`ABBB`，`BAB`，`BABB`，`BABBB`，`BBAB`，`BBABB`，`BBABBB`。计算方法，假设当前待计算的字符的下标是 i ，找到当前字符前一次出现的下标位置 left，再找到当前字符后一次出现的下标位置 right，那么左边区间 (left,i) 的***开区间****内包含的字符数是 i - left - 1，右边区间 (i,right) 的***开区间****内包含的字符数是 right - i - 1。左右两边都还需要考虑空字符串的情况，即左右两边都可以不取任何字符，那么对应的就是只有中间这个待计算的字符 `A`。所以左右两边都还需要再加上空串的情况，左边 i - left - 1 + 1 = i - left，右边 right - i - 1 + 1 = right - i。左右两边的情况进行排列组合，即 (i - left) * (right - i)。针对字符串的每个字符都计算这样的值，最后累积的总和就是题目中要求的总 UNIQ 值。
+
+## 代码
+
+```go
+package leetcode
+
+func uniqueLetterString(S string) int {
+	res, left, right := 0, 0, 0
+	for i := 0; i < len(S); i++ {
+		left = i - 1
+		for left >= 0 && S[left] != S[i] {
+			left--
+		}
+		right = i + 1
+		for right < len(S) && S[right] != S[i] {
+			right++
+		}
+		res += (i - left) * (right - i)
+	}
+	return res % 1000000007
+}
+
+// 暴力解法，超时！时间复杂度 O(n^2)
+func uniqueLetterString1(S string) int {
+	if len(S) == 0 {
+		return 0
+	}
+	res, mod := 0, 1000000007
+	for i := 0; i < len(S); i++ {
+		letterMap := map[byte]int{}
+		for j := i; j < len(S); j++ {
+			letterMap[S[j]]++
+			tmp := 0
+			for _, v := range letterMap {
+				if v > 1 {
+					tmp++
+				}
+			}
+			if tmp == len(letterMap) {
+				continue
+			} else {
+				res += len(letterMap) - tmp
+			}
+		}
+	}
+	return res % mod
+}
+```

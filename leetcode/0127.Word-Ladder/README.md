@@ -60,6 +60,6 @@ Given two words (*beginWord* and *endWord*), and a dictionary's word list, fin
 
 - 这一题要求输出从 `beginWord` 变换到 `endWord` 最短变换次数。可以用 BFS，从 `beginWord` 开始变换，把该单词的每个字母都用 `'a'~'z'` 变换一次，生成的数组到 `wordList` 中查找，这里用 Map 来记录查找。找得到就入队列，找不到就输出 0 。入队以后按照 BFS 的算法依次遍历完，当所有单词都 `len(queue)<=0` 出队以后，整个程序结束。
 - 这一题题目中虽然说了要求找到一条最短的路径，但是实际上最短的路径的寻找方法已经告诉你了：
-	1.  每次只变换一个字母
+	1. 每次只变换一个字母
 	2. 每次变换都必须在 `wordList` 中  
 所以不需要单独考虑何种方式是最短的。 

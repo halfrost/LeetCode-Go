@@ -1,6 +1,7 @@
 ---
-title: 线段树
+title: 3.1 Segment Tree
 type: docs
+weight: 1
 ---
 
 # 线段树 Segment Tree
@@ -273,3 +274,10 @@ func (st *SegmentCountTree) updateCountInTree(treeIndex, left, right, val int) {
 }
 
 ```
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/UnionFind/">下一页➡️</a></p>
+</div>

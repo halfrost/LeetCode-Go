@@ -1,6 +1,7 @@
 ---
-title: Segment Tree
+title: 2.18 ✅ Segment Tree
 type: docs
+weight: 18
 ---
 
 # Segment Tree
@@ -33,16 +34,28 @@ type: docs
 	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update:区间增减 query:直接取根节点的值  
 	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update:区间增减 query:直接取根节点的值
 
-| Title | Solution | Difficulty | Time | Space | 收藏 |
-| ----- | :--------: | :----------: | :----: | :-----: |:-----: |
-|218. The Skyline Problem | [Go]({{< relref "/ChapterFour/0218.The-Skyline-Problem.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|307. Range Sum Query - Mutable | [Go]({{< relref "/ChapterFour/0307.Range-Sum-Query---Mutable.md" >}})| Hard | O(1)| O(n)||
-|315. Count of Smaller Numbers After Self | [Go]({{< relref "/ChapterFour/0315.Count-of-Smaller-Numbers-After-Self.md" >}})| Hard | O(n log n)| O(n)||
-|327. Count of Range Sum | [Go]({{< relref "/ChapterFour/0327.Count-of-Range-Sum.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|493. Reverse Pairs | [Go]({{< relref "/ChapterFour/0493.Reverse-Pairs.md" >}})| Hard | O(n log n)| O(n)||
-|699. Falling Squares | [Go]({{< relref "/ChapterFour/0699.Falling-Squares.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|715. Range Module | [Go]({{< relref "/ChapterFour/0715.Range-Module.md" >}})| Hard | O(log n)| O(n)|❤️|
-|732. My Calendar III  | [Go]({{< relref "/ChapterFour/0732.My-Calendar-III.md" >}})| Hard | O(log n)| O(n)|❤️|
-|850. Rectangle Area II  | [Go]({{< relref "/ChapterFour/0850.Rectangle-Area-II.md" >}})| Hard | O(n log n)| O(n)|❤️|
-|1157. Online Majority Element In Subarray | [Go]({{< relref "/ChapterFour/1157.Online-Majority-Element-In-Subarray.md" >}})| Hard | O(log n)| O(n)|❤️|
-|---------------------------------------|---------------------------------|--------------------------|-----------------------|-----------|--------|
+
+| No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
+|:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
+|0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0200~0299/0218.The-Skyline-Problem.md" >}})|Hard| O(n log n)| O(n)|❤️|36.5%|
+|0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0300~0399/0307.Range-Sum-Query-Mutable.md" >}})|Medium| O(1)| O(n)||36.8%|
+|0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard| O(n log n)| O(n)||42.4%|
+|0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard| O(n log n)| O(n)|❤️|36.1%|
+|0493|Reverse Pairs|[Go]({{< relref "/ChapterFour/0400~0499/0493.Reverse-Pairs.md" >}})|Hard| O(n log n)| O(n)||27.0%|
+|0699|Falling Squares|[Go]({{< relref "/ChapterFour/0600~0699/0699.Falling-Squares.md" >}})|Hard| O(n log n)| O(n)|❤️|42.6%|
+|0715|Range Module|[Go]({{< relref "/ChapterFour/0700~0799/0715.Range-Module.md" >}})|Hard| O(log n)| O(n)|❤️|40.4%|
+|0732|My Calendar III|[Go]({{< relref "/ChapterFour/0700~0799/0732.My-Calendar-III.md" >}})|Hard| O(log n)| O(n)|❤️|62.1%|
+|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0800~0899/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|48.4%|
+|1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1100~1199/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard| O(log n)| O(n)|❤️|39.8%|
+|1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1600~1699/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||36.4%|
+|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
+
+
+
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Binary_Indexed_Tree/">下一页➡️</a></p>
+</div>

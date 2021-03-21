@@ -1,6 +1,7 @@
 ---
-title: 并查集
+title: 3.2 UnionFind
 type: docs
+weight: 2
 ---
 
 # 并查集 UnionFind
@@ -142,3 +143,10 @@ func max(a int, b int) int {
 }
 
 ```
+
+
+----------------------------------------------
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/Segment_Tree/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterThree/LRUCache/">下一页➡️</a></p>
+</div>

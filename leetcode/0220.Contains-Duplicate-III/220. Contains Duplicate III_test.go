@@ -52,6 +52,11 @@ func Test_Problem220(t *testing.T) {
 			para220{[]int{1, 5, 9, 1, 5, 9}, 2, 3},
 			ans220{false},
 		},
+
+		{
+			para220{[]int{1, 2, 1, 1}, 1, 0},
+			ans220{true},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 220------------------------\n")

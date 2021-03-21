@@ -1,0 +1,13 @@
+|50. Pow(x, n) | [Go]({{< relref "/ChapterFour/0050.Powx-n.md" >}})| Medium | O(log n)| O(1)||
+|69. Sqrt(x)  | [Go]({{< relref "/ChapterFour/0069.Sqrtx.md" >}})| Easy | O(log n)| O(1)||
+|167. Two Sum II - Input array is sorted | [Go]({{< relref "/ChapterFour/0167.Two-Sum-II---Input-array-is-sorted.md" >}})| Easy | O(n)| O(1)||
+|209. Minimum Size Subarray Sum  | [Go]({{< relref "/ChapterFour/0209.Minimum-Size-Subarray-Sum.md" >}})| Medium | O(n)| O(1)||
+|222. Count Complete Tree Nodes  | [Go]({{< relref "/ChapterFour/0222.Count-Complete-Tree-Nodes.md" >}})| Medium | O(n)| O(1)||
+|230. Kth Smallest Element in a BST  | [Go]({{< relref "/ChapterFour/0230.Kth-Smallest-Element-in-a-BST.md" >}})| Medium | O(n)| O(1)||
+|287. Find the Duplicate Number   | [Go]({{< relref "/ChapterFour/0287.Find-the-Duplicate-Number.md" >}})| Easy | O(n)| O(1)|❤️|
+|300. Longest Increasing Subsequence  | [Go]({{< relref "/ChapterFour/0300.Longest-Increasing-Subsequence.md" >}})| Medium | O(n log n)| O(n)||
+|349. Intersection of Two Arrays  | [Go]({{< relref "/ChapterFour/0349.Intersection-of-Two-Arrays.md" >}})| Easy | O(n)| O(n) ||
+|350. Intersection of Two Arrays II  | [Go]({{< relref "/ChapterFour/0350.Intersection-of-Two-Arrays-II.md" >}})| Easy | O(n)| O(n) ||
+|392. Is Subsequence  | [Go]({{< relref "/ChapterFour/0392.Is-Subsequence.md" >}})| Medium | O(n)| O(1)||
+|454. 4Sum II | [Go]({{< relref "/ChapterFour/0454.4Sum-II.md" >}})| Medium | O(n^2)| O(n) ||
+|710. Random Pick with Blacklist | [Go]({{< relref "/ChapterFour/0710.Random-Pick-with-Blacklist.md" >}})| Hard | O(n)| O(n)  ||
