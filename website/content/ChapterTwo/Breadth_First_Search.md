@@ -17,11 +17,11 @@ weight: 10
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.9%|
 |0127|Word Ladder|[Go]({{< relref "/ChapterFour/0100~0199/0127.Word-Ladder.md" >}})|Hard| O(n)| O(n)||32.0%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||29.6%|
-|0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||56.4%|
-|0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||49.3%|
+|0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||56.5%|
+|0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||49.4%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0200~0299/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.3%|
 |0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||42.8%|
-|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.7%|
+|0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||62.8%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||62.3%|
 |0529|Minesweeper|[Go]({{< relref "/ChapterFour/0500~0599/0529.Minesweeper.md" >}})|Medium||||61.3%|
 |0542|01 Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0542.01-Matrix.md" >}})|Medium| O(n)| O(1)||41.0%|

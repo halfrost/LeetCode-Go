@@ -1,7 +1,6 @@
 package leetcode
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -20,7 +19,6 @@ func find132pattern(nums []int) bool {
 			stack = stack[:len(stack)-1]
 		}
 		stack = append(stack, nums[i])
-		fmt.Printf("stack = %v \n", stack)
 	}
 	return false
 }

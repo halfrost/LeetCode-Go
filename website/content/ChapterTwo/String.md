@@ -14,7 +14,7 @@ weight: 2
 |0006|ZigZag Conversion|[Go]({{< relref "/ChapterFour/0001~0099/0006.ZigZag-Conversion.md" >}})|Medium||||38.1%|
 |0008|String to Integer (atoi)|[Go]({{< relref "/ChapterFour/0001~0099/0008.String-to-Integer-atoi.md" >}})|Medium||||15.7%|
 |0012|Integer to Roman|[Go]({{< relref "/ChapterFour/0001~0099/0012.Integer-to-Roman.md" >}})|Medium||||57.0%|
-|0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0001~0099/0013.Roman-to-Integer.md" >}})|Easy||||56.9%|
+|0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0001~0099/0013.Roman-to-Integer.md" >}})|Easy||||57.0%|
 |0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||49.4%|
 |0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||39.9%|
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||65.6%|
@@ -22,11 +22,11 @@ weight: 2
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|26.3%|
 |0043|Multiply Strings|[Go]({{< relref "/ChapterFour/0001~0099/0043.Multiply-Strings.md" >}})|Medium||||35.0%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||59.5%|
-|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.1%|
+|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.2%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)||34.8%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|36.1%|
 |0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||26.8%|
-|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|37.7%|
+|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|37.8%|
 |0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||39.9%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0100~0199/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||38.4%|
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.9%|
@@ -44,21 +44,21 @@ weight: 2
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0800~0899/0819.Most-Common-Word.md" >}})|Easy||||45.5%|
 |0842|Split Array into Fibonacci Sequence|[Go]({{< relref "/ChapterFour/0800~0899/0842.Split-Array-into-Fibonacci-Sequence.md" >}})|Medium| O(n^2)| O(1)|❤️|37.0%|
 |0856|Score of Parentheses|[Go]({{< relref "/ChapterFour/0800~0899/0856.Score-of-Parentheses.md" >}})|Medium| O(n)| O(n)||64.9%|
-|0925|Long Pressed Name|[Go]({{< relref "/ChapterFour/0900~0999/0925.Long-Pressed-Name.md" >}})|Easy| O(n)| O(1)||37.7%|
-|0966|Vowel Spellchecker|[Go]({{< relref "/ChapterFour/0900~0999/0966.Vowel-Spellchecker.md" >}})|Medium||||50.3%|
-|1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.5%|
+|0925|Long Pressed Name|[Go]({{< relref "/ChapterFour/0900~0999/0925.Long-Pressed-Name.md" >}})|Easy| O(n)| O(1)||37.6%|
+|0966|Vowel Spellchecker|[Go]({{< relref "/ChapterFour/0900~0999/0966.Vowel-Spellchecker.md" >}})|Medium||||52.0%|
+|1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.6%|
 |1108|Defanging an IP Address|[Go]({{< relref "/ChapterFour/1100~1199/1108.Defanging-an-IP-Address.md" >}})|Easy||||88.4%|
-|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.1%|
+|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.2%|
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.1%|
 |1221|Split a String in Balanced Strings|[Go]({{< relref "/ChapterFour/1200~1299/1221.Split-a-String-in-Balanced-Strings.md" >}})|Easy||||84.3%|
-|1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.5%|
+|1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||34.6%|
 |1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.2%|
 |1332|Remove Palindromic Subsequences|[Go]({{< relref "/ChapterFour/1300~1399/1332.Remove-Palindromic-Subsequences.md" >}})|Easy||||68.1%|
-|1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||65.2%|
+|1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||65.3%|
 |1461|Check If a String Contains All Binary Codes of Size K|[Go]({{< relref "/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K.md" >}})|Medium||||54.3%|
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.3%|
 |1614|Maximum Nesting Depth of the Parentheses|[Go]({{< relref "/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses.md" >}})|Easy||||82.8%|
-|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.7%|
+|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.6%|
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||51.4%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||82.7%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.7%|
