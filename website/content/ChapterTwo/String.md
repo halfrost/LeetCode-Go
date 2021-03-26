@@ -34,7 +34,7 @@ weight: 2
 |0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||38.7%|
 |0344|Reverse String|[Go]({{< relref "/ChapterFour/0300~0399/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||70.6%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0300~0399/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||45.1%|
-|0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.5%|
+|0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.6%|
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||53.8%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.4%|
 |0541|Reverse String II|[Go]({{< relref "/ChapterFour/0500~0599/0541.Reverse-String-II.md" >}})|Easy||||49.4%|
@@ -44,6 +44,7 @@ weight: 2
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0800~0899/0819.Most-Common-Word.md" >}})|Easy||||45.5%|
 |0842|Split Array into Fibonacci Sequence|[Go]({{< relref "/ChapterFour/0800~0899/0842.Split-Array-into-Fibonacci-Sequence.md" >}})|Medium| O(n^2)| O(1)|❤️|37.0%|
 |0856|Score of Parentheses|[Go]({{< relref "/ChapterFour/0800~0899/0856.Score-of-Parentheses.md" >}})|Medium| O(n)| O(n)||64.9%|
+|0916|Word Subsets|[Go]({{< relref "/ChapterFour/0900~0999/0916.Word-Subsets.md" >}})|Medium||||51.1%|
 |0925|Long Pressed Name|[Go]({{< relref "/ChapterFour/0900~0999/0925.Long-Pressed-Name.md" >}})|Easy| O(n)| O(1)||37.6%|
 |0966|Vowel Spellchecker|[Go]({{< relref "/ChapterFour/0900~0999/0966.Vowel-Spellchecker.md" >}})|Medium||||51.9%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||56.6%|
@@ -63,7 +64,7 @@ weight: 2
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||82.6%|
 |1668|Maximum Repeating Substring|[Go]({{< relref "/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring.md" >}})|Easy||||38.7%|
 |1678|Goal Parser Interpretation|[Go]({{< relref "/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation.md" >}})|Easy||||85.3%|
-|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||82.0%|
+|1684|Count the Number of Consistent Strings|[Go]({{< relref "/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings.md" >}})|Easy||||82.1%|
 |1694|Reformat Phone Number|[Go]({{< relref "/ChapterFour/1600~1699/1694.Reformat-Phone-Number.md" >}})|Easy||||65.5%|
 |1704|Determine if String Halves Are Alike|[Go]({{< relref "/ChapterFour/1700~1799/1704.Determine-if-String-Halves-Are-Alike.md" >}})|Easy||||77.1%|
 |1736|Latest Time by Replacing Hidden Digits|[Go]({{< relref "/ChapterFour/1700~1799/1736.Latest-Time-by-Replacing-Hidden-Digits.md" >}})|Easy||||41.2%|

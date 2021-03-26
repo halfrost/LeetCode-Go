@@ -34,7 +34,7 @@ weight: 5
 |0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||52.5%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||41.1%|
 |0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||54.7%|
-|0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.5%|
+|0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.6%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||52.9%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium| O(n)| O(1)||28.7%|
 |0456|132 Pattern|[Go]({{< relref "/ChapterFour/0400~0499/0456.132-Pattern.md" >}})|Medium| O(n)| O(n)||30.7%|
@@ -58,7 +58,7 @@ weight: 5
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.2%|
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||71.1%|
 |1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.2%|
-|1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.4%|
+|1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.5%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
