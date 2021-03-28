@@ -11,7 +11,7 @@ type TreeNode = structures.TreeNode
 
 type Codec struct {
 	builder strings.Builder
-	input []string
+	input   []string
 }
 
 func Constructor() Codec {
@@ -24,11 +24,9 @@ func (this *Codec) serialize(root *TreeNode) string {
 		this.builder.WriteString("#,")
 		return ""
 	}
-
-	this.builder.WriteString(strconv.Itoa(root.Val)+",")
+	this.builder.WriteString(strconv.Itoa(root.Val) + ",")
 	this.serialize(root.Left)
 	this.serialize(root.Right)
-
 	return this.builder.String()
 }
 
@@ -46,13 +44,11 @@ func (this *Codec) deserializeHelper() *TreeNode {
 		this.input = this.input[1:]
 		return nil
 	}
-
 	val, _ := strconv.Atoi(this.input[0])
 	this.input = this.input[1:]
-
 	return &TreeNode{
-		Val: val,
-		Left: this.deserializeHelper(),
+		Val:   val,
+		Left:  this.deserializeHelper(),
 		Right: this.deserializeHelper(),
 	}
 }

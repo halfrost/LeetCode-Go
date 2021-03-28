@@ -40,6 +40,7 @@ weight: 6
 |0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0200~0299/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Easy| O(n)| O(1)||52.0%|
 |0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||49.1%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||53.9%|
+|0297|Serialize and Deserialize Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0297.Serialize-and-Deserialize-Binary-Tree.md" >}})|Hard||||50.1%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||52.0%|
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0400~0499/0404.Sum-of-Left-Leaves.md" >}})|Easy| O(n)| O(1)||52.3%|
 |0437|Path Sum III|[Go]({{< relref "/ChapterFour/0400~0499/0437.Path-Sum-III.md" >}})|Medium| O(n)| O(1)||48.2%|

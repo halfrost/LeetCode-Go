@@ -67,7 +67,7 @@ weight: 1
 |0217|Contains Duplicate|[Go]({{< relref "/ChapterFour/0200~0299/0217.Contains-Duplicate.md" >}})|Easy| O(n)| O(n)||56.8%|
 |0219|Contains Duplicate II|[Go]({{< relref "/ChapterFour/0200~0299/0219.Contains-Duplicate-II.md" >}})|Easy| O(n)| O(n)||38.8%|
 |0228|Summary Ranges|[Go]({{< relref "/ChapterFour/0200~0299/0228.Summary-Ranges.md" >}})|Easy||||42.6%|
-|0229|Majority Element II|[Go]({{< relref "/ChapterFour/0200~0299/0229.Majority-Element-II.md" >}})|Medium||||38.9%|
+|0229|Majority Element II|[Go]({{< relref "/ChapterFour/0200~0299/0229.Majority-Element-II.md" >}})|Medium||||39.0%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||55.1%|
 |0283|Move Zeroes|[Go]({{< relref "/ChapterFour/0200~0299/0283.Move-Zeroes.md" >}})|Easy| O(n)| O(1)||58.6%|
 |0287|Find the Duplicate Number|[Go]({{< relref "/ChapterFour/0200~0299/0287.Find-the-Duplicate-Number.md" >}})|Medium| O(n)| O(1)|❤️|57.8%|
@@ -92,7 +92,7 @@ weight: 1
 |0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||58.0%|
 |0717|1-bit and 2-bit Characters|[Go]({{< relref "/ChapterFour/0700~0799/0717.1-bit-and-2-bit-Characters.md" >}})|Easy||||47.0%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.4%|
-|0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0700~0799/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||32.6%|
+|0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0700~0799/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||32.7%|
 |0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0700~0799/0724.Find-Pivot-Index.md" >}})|Easy||||45.9%|
 |0729|My Calendar I|[Go]({{< relref "/ChapterFour/0700~0799/0729.My-Calendar-I.md" >}})|Medium||||53.5%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||51.0%|
@@ -134,7 +134,7 @@ weight: 1
 |1208|Get Equal Substrings Within Budget|[Go]({{< relref "/ChapterFour/1200~1299/1208.Get-Equal-Substrings-Within-Budget.md" >}})|Medium||||44.2%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||71.1%|
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.3%|
-|1252|Cells with Odd Values in a Matrix|[Go]({{< relref "/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix.md" >}})|Easy||||78.8%|
+|1252|Cells with Odd Values in a Matrix|[Go]({{< relref "/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix.md" >}})|Easy||||78.7%|
 |1260|Shift 2D Grid|[Go]({{< relref "/ChapterFour/1200~1299/1260.Shift-2D-Grid.md" >}})|Easy||||61.8%|
 |1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.3%|
 |1275|Find Winner on a Tic Tac Toe Game|[Go]({{< relref "/ChapterFour/1200~1299/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md" >}})|Easy||||52.8%|
