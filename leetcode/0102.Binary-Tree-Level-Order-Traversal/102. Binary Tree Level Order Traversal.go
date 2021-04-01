@@ -21,50 +21,42 @@ func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return [][]int{}
 	}
-	queue := []*TreeNode{}
-	queue = append(queue, root)
-	curNum, nextLevelNum, res, tmp := 1, 0, [][]int{}, []int{}
-	for len(queue) != 0 {
-		if curNum > 0 {
-			node := queue[0]
-			if node.Left != nil {
-				queue = append(queue, node.Left)
-				nextLevelNum++
+	queue := []*TreeNode{root}
+	res := make([][]int, 0)
+	for len(queue) > 0 {
+		l := len(queue)
+		tmp := make([]int, 0, l)
+		for i := 0; i < l; i++ {
+			if queue[i].Left != nil {
+				queue = append(queue, queue[i].Left)
 			}
-			if node.Right != nil {
-				queue = append(queue, node.Right)
-				nextLevelNum++
+			if queue[i].Right != nil {
+				queue = append(queue, queue[i].Right)
 			}
-			curNum--
-			tmp = append(tmp, node.Val)
-			queue = queue[1:]
+			tmp = append(tmp, queue[i].Val)
 		}
-		if curNum == 0 {
-			res = append(res, tmp)
-			curNum = nextLevelNum
-			nextLevelNum = 0
-			tmp = []int{}
-		}
+		queue = queue[l:]
+		res = append(res, tmp)
 	}
 	return res
 }
 
 // 解法二 DFS
 func levelOrder1(root *TreeNode) [][]int {
-	levels := [][]int{}
-	dfsLevel(root, -1, &levels)
-	return levels
-}
-
-func dfsLevel(node *TreeNode, level int, res *[][]int) {
-	if node == nil {
-		return
+	var res [][]int
+	var dfsLevel func(node *TreeNode, level int)
+	dfsLevel = func(node *TreeNode, level int) {
+		if node == nil {
+			return
+		}
+		if len(res) == level {
+			res = append(res, []int{node.Val})
+		} else {
+			res[level] = append(res[level], node.Val)
+		}
+		dfsLevel(node.Left, level+1)
+		dfsLevel(node.Right, level+1)
 	}
-	currLevel := level + 1
-	for len(*res) <= currLevel {
-		*res = append(*res, []int{})
-	}
-	(*res)[currLevel] = append((*res)[currLevel], node.Val)
-	dfsLevel(node.Left, currLevel, res)
-	dfsLevel(node.Right, currLevel, res)
+	dfsLevel(root, 0)
+	return res
 }
