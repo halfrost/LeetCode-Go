@@ -50,7 +50,7 @@ func Test_Problem226(t *testing.T) {
 		_, p := q.ans226, q.para226
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", structures.Tree2Preorder(invertTree(root)))
+		fmt.Printf("【output】:%v      \n", structures.Tree2ints(invertTree(root)))
 	}
 	fmt.Printf("\n\n\n")
 }
