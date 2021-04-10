@@ -12,6 +12,7 @@ func plusOne(digits []int) []int {
 		} else {
 			digits[i] += carry
 			carry = 0
+			break
 		}
 	}
 	if digits[0] == 0 && carry == 1 {

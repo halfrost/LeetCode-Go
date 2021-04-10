@@ -497,7 +497,7 @@
 |0356|Line Reflection||33.1%|Medium||
 |0357|Count Numbers with Unique Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0357.Count-Numbers-with-Unique-Digits)|49.0%|Medium||
 |0358|Rearrange String k Distance Apart||35.7%|Hard||
-|0359|Logger Rate Limiter||72.6%|Easy||
+|0359|Logger Rate Limiter||72.5%|Easy||
 |0360|Sort Transformed Array||49.9%|Medium||
 |0361|Bomb Enemy||46.9%|Medium||
 |0362|Design Hit Counter||65.5%|Medium||
@@ -1862,7 +1862,7 @@
 |1721|Swapping Nodes in a Linked List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1721.Swapping-Nodes-in-a-Linked-List)|67.5%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||54.2%|Medium||
 |1723|Find Minimum Time to Finish All Jobs||43.7%|Hard||
-|1724|Checking Existence of Edge Length Limited Paths II||57.9%|Hard||
+|1724|Checking Existence of Edge Length Limited Paths II||58.0%|Hard||
 |1725|Number Of Rectangles That Can Form The Largest Square|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1725.Number-Of-Rectangles-That-Can-Form-The-Largest-Square)|78.0%|Easy||
 |1726|Tuple with Same Product||56.7%|Medium||
 |1727|Largest Submatrix With Rearrangements||58.8%|Medium||
@@ -1914,12 +1914,12 @@
 |1773|Count Items Matching a Rule||85.1%|Easy||
 |1774|Closest Dessert Cost||58.2%|Medium||
 |1775|Equal Sum Arrays With Minimum Number of Operations||50.6%|Medium||
-|1776|Car Fleet II||46.4%|Hard||
+|1776|Car Fleet II||46.5%|Hard||
 |1777|Product's Price for Each Store||87.3%|Easy||
 |1778|Shortest Path in a Hidden Grid||46.5%|Medium||
 |1779|Find Nearest Point That Has the Same X or Y Coordinate||67.4%|Easy||
 |1780|Check if Number is a Sum of Powers of Three||63.4%|Medium||
-|1781|Sum of Beauty of All Substrings||57.7%|Medium||
+|1781|Sum of Beauty of All Substrings||57.8%|Medium||
 |1782|Count Pairs Of Nodes||32.6%|Hard||
 |1783|Grand Slam Titles||91.4%|Medium||
 |1784|Check if Binary String Has at Most One Segment of Ones||41.6%|Easy||
@@ -1956,8 +1956,8 @@
 |1815|Maximum Number of Groups Getting Fresh Donuts||38.3%|Hard||
 |1816|Truncate Sentence||78.8%|Easy||
 |1817|Finding the Users Active Minutes||78.8%|Medium||
-|1818|Minimum Absolute Sum Difference||45.6%|Medium||
-|1819|Number of Different Subsequences GCDs||31.4%|Hard||
+|1818|Minimum Absolute Sum Difference||45.5%|Medium||
+|1819|Number of Different Subsequences GCDs||31.3%|Hard||
 |1820|Maximum Number of Accepted Invitations||52.7%|Medium||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
