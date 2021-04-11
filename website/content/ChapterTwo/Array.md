@@ -173,10 +173,9 @@ weight: 1
 |1748|Sum of Unique Elements|[Go]({{< relref "/ChapterFour/1700~1799/1748.Sum-of-Unique-Elements.md" >}})|Easy||||74.9%|
 |1752|Check if Array Is Sorted and Rotated|[Go]({{< relref "/ChapterFour/1700~1799/1752.Check-if-Array-Is-Sorted-and-Rotated.md" >}})|Easy||||61.1%|
 |1758|Minimum Changes To Make Alternating Binary String|[Go]({{< relref "/ChapterFour/1700~1799/1758.Minimum-Changes-To-Make-Alternating-Binary-String.md" >}})|Easy||||58.3%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
+---
 
-----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterTwo/">⬅️上一页</a></p>
 <p><a href="https://books.halfrost.com/leetcode/ChapterTwo/String/">下一页➡️</a></p>
