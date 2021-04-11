@@ -22,10 +22,9 @@ weight: 1
 |数组实现的堆<br>Heap|1. 极大堆和极小堆 Max Heap and Min Heap<br>2. 极大极小堆<br>3. 双端堆 Deap<br>4. d 叉堆|||
 |树实现的堆<br>Heap|1. 左堆 Leftist Tree/Leftist Heap<br>2. 扁堆<br>3. 二项式堆<br>4. 斐波那契堆 Fibonacco Heap<br>5. 配对堆 Pairing Heap|||
 |查找<br>Search|1. 哈希表 Hash<br>2. 跳跃表 Skip List<br>3. 排序二叉树 Binary Sort Tree<br>4. AVL 树<br>5. B 树 / B+ 树 / B* 树<br>6. AA 树<br>7. 红黑树 Red Black Tree<br>8. 排序二叉堆 Binary Heap<br>9. Splay 树<br>10. 双链树 Double Chained Tree<br>11. Trie 树<br>12. R 树|||
-|--------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
 
+---
 
-----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterOne/">⬅️上一页</a></p>
 <p><a href="https://books.halfrost.com/leetcode/ChapterOne/Algorithm/">下一页➡️</a></p>
