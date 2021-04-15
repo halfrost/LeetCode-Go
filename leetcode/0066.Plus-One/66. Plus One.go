@@ -1,22 +1,17 @@
 package leetcode
 
 func plusOne(digits []int) []int {
-	if len(digits) == 0 {
-		return []int{}
-	}
-	carry := 1
 	for i := len(digits) - 1; i >= 0; i-- {
-		if digits[i]+carry > 9 {
-			digits[i] = 0
-			carry = 1
-		} else {
-			digits[i] += carry
-			carry = 0
-			break
+		digits[i]++
+		if digits[i] != 10 {
+			// no carry
+			return digits
 		}
+		// carry
+		digits[i] = 0
 	}
-	if digits[0] == 0 && carry == 1 {
-		digits = append([]int{1}, digits...)
-	}
+	// all carry
+	digits[0] = 1
+	digits = append(digits, 0)
 	return digits
 }
