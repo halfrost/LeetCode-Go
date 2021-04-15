@@ -2,15 +2,43 @@
 
 ## 题目
 
-Given a linked list, remove the n-th node from the end of list and return its head.
+Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
 
-Example:
+**Follow up:** Could you do this in one pass?
+
+**Example 1:**
+
+![](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
 
 ```
-Given linked list: 1->2->3->4->5, and n = 2.
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
 
-After removing the second node from the end, the linked list becomes 1->2->3->5.
 ```
+
+**Example 2:**
+
+```
+Input: head = [1], n = 1
+Output: []
+
+```
+
+**Example 3:**
+
+```
+Input: head = [1,2], n = 1
+Output: [1]
+
+```
+
+**Constraints:**
+
+- The number of nodes in the list is `sz`.
+- `1 <= sz <= 30`
+- `0 <= Node.val <= 100`
+- `1 <= n <= sz`
+
 
 ## 题目大意
 
