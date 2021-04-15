@@ -19,7 +19,7 @@ weight: 13
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|36.2%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Medium| O(n)| O(1)||66.3%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy||||66.7%|
-|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||41.5%|
+|0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||41.6%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||41.7%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.4%|
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.3%|
@@ -37,12 +37,12 @@ weight: 13
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||52.3%|
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium| O(n)| O(1) ||45.2%|
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||52.5%|
-|0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||64.6%|
+|0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||64.7%|
 |0454|4Sum II|[Go]({{< relref "/ChapterFour/0400~0499/0454.4Sum-II.md" >}})|Medium| O(n^2)| O(n) ||54.7%|
 |0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0400~0499/0463.Island-Perimeter.md" >}})|Easy||||66.8%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500~0599/0500.Keyboard-Row.md" >}})|Easy||||65.9%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||59.3%|
-|0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.3%|
+|0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.4%|
 |0575|Distribute Candies|[Go]({{< relref "/ChapterFour/0500~0599/0575.Distribute-Candies.md" >}})|Easy||||64.4%|
 |0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0500~0599/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||51.3%|
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0500~0599/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||51.9%|
@@ -56,14 +56,14 @@ weight: 13
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||50.5%|
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Easy| O(n)| O(n) ||49.5%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.0%|
-|0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0700~0799/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.8%|
-|0748|Shortest Completing Word|[Go]({{< relref "/ChapterFour/0700~0799/0748.Shortest-Completing-Word.md" >}})|Easy||||57.6%|
+|0739|Daily Temperatures|[Go]({{< relref "/ChapterFour/0700~0799/0739.Daily-Temperatures.md" >}})|Medium| O(n)| O(n) ||64.9%|
+|0748|Shortest Completing Word|[Go]({{< relref "/ChapterFour/0700~0799/0748.Shortest-Completing-Word.md" >}})|Easy||||57.7%|
 |0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0700~0799/0771.Jewels-and-Stones.md" >}})|Easy||||87.0%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.8%|
-|0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Easy||||71.7%|
+|0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Easy||||71.8%|
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||64.3%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||63.3%|
-|0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.8%|
+|0930|Binary Subarrays With Sum|[Go]({{< relref "/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum.md" >}})|Medium| O(n)| O(n)  |❤️|44.9%|
 |0953|Verifying an Alien Dictionary|[Go]({{< relref "/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary.md" >}})|Easy||||52.5%|
 |0961|N-Repeated Element in Size 2N Array|[Go]({{< relref "/ChapterFour/0900~0999/0961.N-Repeated-Element-in-Size-2N-Array.md" >}})|Easy||||74.6%|
 |0966|Vowel Spellchecker|[Go]({{< relref "/ChapterFour/0900~0999/0966.Vowel-Spellchecker.md" >}})|Medium||||51.9%|
@@ -74,7 +74,7 @@ weight: 13
 |1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.7%|
 |1078|Occurrences After Bigram|[Go]({{< relref "/ChapterFour/1000~1099/1078.Occurrences-After-Bigram.md" >}})|Easy||||65.0%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.9%|
-|1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||39.6%|
+|1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||39.7%|
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.3%|
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1200~1299/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||71.9%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.6%|
