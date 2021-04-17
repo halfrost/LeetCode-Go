@@ -145,7 +145,7 @@ func peakIndexInMountainArray(A []int) int {
 |0162|Find Peak Element|[Go]({{< relref "/ChapterFour/0100~0199/0162.Find-Peak-Element.md" >}})|Medium||||44.1%|
 |0167|Two Sum II - Input array is sorted|[Go]({{< relref "/ChapterFour/0100~0199/0167.Two-Sum-II-Input-array-is-sorted.md" >}})|Easy| O(n)| O(1)||55.8%|
 |0174|Dungeon Game|[Go]({{< relref "/ChapterFour/0100~0199/0174.Dungeon-Game.md" >}})|Hard||||33.5%|
-|0209|Minimum Size Subarray Sum|[Go]({{< relref "/ChapterFour/0200~0299/0209.Minimum-Size-Subarray-Sum.md" >}})|Medium| O(n)| O(1)||39.8%|
+|0209|Minimum Size Subarray Sum|[Go]({{< relref "/ChapterFour/0200~0299/0209.Minimum-Size-Subarray-Sum.md" >}})|Medium| O(n)| O(1)||39.9%|
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0200~0299/0222.Count-Complete-Tree-Nodes.md" >}})|Medium| O(n)| O(1)||49.8%|
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0200~0299/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium| O(n)| O(1)||63.0%|
 |0240|Search a 2D Matrix II|[Go]({{< relref "/ChapterFour/0200~0299/0240.Search-a-2D-Matrix-II.md" >}})|Medium||||45.4%|
@@ -187,7 +187,7 @@ func peakIndexInMountainArray(A []int) int {
 |0911|Online Election|[Go]({{< relref "/ChapterFour/0900~0999/0911.Online-Election.md" >}})|Medium||||51.4%|
 |0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0900~0999/0927.Three-Equal-Parts.md" >}})|Hard||||34.7%|
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.2%|
-|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1000~1099/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||60.0%|
+|1011|Capacity To Ship Packages Within D Days|[Go]({{< relref "/ChapterFour/1000~1099/1011.Capacity-To-Ship-Packages-Within-D-Days.md" >}})|Medium||||59.9%|
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go]({{< relref "/ChapterFour/1100~1199/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings.md" >}})|Medium||||72.8%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1100~1199/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard||||40.9%|
 |1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.4%|

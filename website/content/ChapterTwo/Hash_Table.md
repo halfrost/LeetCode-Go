@@ -24,7 +24,7 @@ weight: 13
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.4%|
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.4%|
 |0205|Isomorphic Strings|[Go]({{< relref "/ChapterFour/0200~0299/0205.Isomorphic-Strings.md" >}})|Easy| O(log n)| O(n)||40.6%|
-|0217|Contains Duplicate|[Go]({{< relref "/ChapterFour/0200~0299/0217.Contains-Duplicate.md" >}})|Easy| O(n)| O(n)||56.9%|
+|0217|Contains Duplicate|[Go]({{< relref "/ChapterFour/0200~0299/0217.Contains-Duplicate.md" >}})|Easy| O(n)| O(n)||57.0%|
 |0219|Contains Duplicate II|[Go]({{< relref "/ChapterFour/0200~0299/0219.Contains-Duplicate-II.md" >}})|Easy| O(n)| O(n)||38.9%|
 |0242|Valid Anagram|[Go]({{< relref "/ChapterFour/0200~0299/0242.Valid-Anagram.md" >}})|Easy| O(n)| O(n) ||58.9%|
 |0274|H-Index|[Go]({{< relref "/ChapterFour/0200~0299/0274.H-Index.md" >}})|Medium|  O(n)| O(n) ||36.4%|
@@ -69,7 +69,7 @@ weight: 13
 |0966|Vowel Spellchecker|[Go]({{< relref "/ChapterFour/0900~0999/0966.Vowel-Spellchecker.md" >}})|Medium||||51.9%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||40.1%|
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.2%|
-|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.0%|
+|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.1%|
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0900~0999/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)  |❤️|50.9%|
 |1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.7%|
 |1078|Occurrences After Bigram|[Go]({{< relref "/ChapterFour/1000~1099/1078.Occurrences-After-Bigram.md" >}})|Easy||||65.0%|

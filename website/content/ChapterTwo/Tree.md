@@ -52,10 +52,10 @@ weight: 6
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||53.3%|
 |0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree.md" >}})|Easy||||44.6%|
 |0623|Add One Row to Tree|[Go]({{< relref "/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree.md" >}})|Medium||||53.0%|
-|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||66.1%|
+|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy| O(n)| O(n)||66.2%|
 |0653|Two Sum IV - Input is a BST|[Go]({{< relref "/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST.md" >}})|Easy||||56.4%|
 |0662|Maximum Width of Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0662.Maximum-Width-of-Binary-Tree.md" >}})|Medium||||39.7%|
-|0669|Trim a Binary Search Tree|[Go]({{< relref "/ChapterFour/0600~0699/0669.Trim-a-Binary-Search-Tree.md" >}})|Medium||||64.3%|
+|0669|Trim a Binary Search Tree|[Go]({{< relref "/ChapterFour/0600~0699/0669.Trim-a-Binary-Search-Tree.md" >}})|Medium||||64.4%|
 |0684|Redundant Connection|[Go]({{< relref "/ChapterFour/0600~0699/0684.Redundant-Connection.md" >}})|Medium||||59.2%|
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0600~0699/0685.Redundant-Connection-II.md" >}})|Hard||||33.2%|
 |0783|Minimum Distance Between BST Nodes|[Go]({{< relref "/ChapterFour/0700~0799/0783.Minimum-Distance-Between-BST-Nodes.md" >}})|Easy||||54.3%|
@@ -66,7 +66,7 @@ weight: 6
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||38.9%|
 |0971|Flip Binary Tree To Match Preorder Traversal|[Go]({{< relref "/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal.md" >}})|Medium||||50.1%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||70.0%|
-|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.0%|
+|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.1%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.8%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.1%|

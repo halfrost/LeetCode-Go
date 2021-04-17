@@ -30,7 +30,7 @@ weight: 10
 |0815|Bus Routes|[Go]({{< relref "/ChapterFour/0800~0899/0815.Bus-Routes.md" >}})|Hard||||43.6%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0800~0899/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||58.2%|
 |0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||42.4%|
-|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.0%|
+|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.1%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1091|Shortest Path in Binary Matrix|[Go]({{< relref "/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix.md" >}})|Medium||||40.2%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||62.2%|

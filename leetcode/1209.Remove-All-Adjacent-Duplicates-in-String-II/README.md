@@ -1,0 +1,106 @@
+# [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+
+
+## 题目
+
+Given a string `s`, a *k* *duplicate removal* consists of choosing `k` adjacent and equal letters from `s` and removing them causing the left and the right side of the deleted substring to concatenate together.
+
+We repeatedly make `k` duplicate removals on `s` until we no longer can.
+
+Return the final string after all such duplicate removals have been made.
+
+It is guaranteed that the answer is unique.
+
+**Example 1:**
+
+```
+Input: s = "abcd", k = 2
+Output: "abcd"
+Explanation:There's nothing to delete.
+```
+
+**Example 2:**
+
+```
+Input: s = "deeedbbcccbdaa", k = 3
+Output: "aa"
+Explanation:
+First delete "eee" and "ccc", get "ddbbbdaa"
+Then delete "bbb", get "dddaa"
+Finally delete "ddd", get "aa"
+```
+
+**Example 3:**
+
+```
+Input: s = "pbbcggttciiippooaais", k = 2
+Output: "ps"
+```
+
+**Constraints:**
+
+- `1 <= s.length <= 10^5`
+- `2 <= k <= 10^4`
+- `s` only contains lower case English letters.
+
+## 题目大意
+
+给你一个字符串 s，「k 倍重复项删除操作」将会从 s 中选择 k 个相邻且相等的字母，并删除它们，使被删去的字符串的左侧和右侧连在一起。你需要对 s 重复进行无限次这样的删除操作，直到无法继续为止。在执行完所有删除操作后，返回最终得到的字符串。本题答案保证唯一。
+
+## 解题思路
+
+- 暴力解法。每增加一个字符，就往前扫描 `k` 位，判断是否存在 `k` 个连续相同的字符。消除了 `k` 个相同字符后，重新组成的字符串还可能再次产出 `k` 位相同的字符，（类似消消乐，`k` 个相同的字符碰到一起就“消除”），还需要继续消除。最差情况要再次扫描一次字符串。时间复杂度 O(n^2)，空间复杂度 O(n)。
+- 暴力解法的低效在于重复统计字符频次，如果每个字符的频次统计一次就好了。按照这个思路，利用 stack ，每个栈元素存 2 个值，一个是字符，一个是该字符对应的频次。有了栈顶字符频次信息，就不需要重复往前扫描了。只要栈顶字符频次到达了 `k`，就弹出该字符。如此反复，最终剩下的字符串为所求。时间复杂度 O(n)，空间复杂度 O(n)。
+
+## 代码
+
+```go
+package leetcode
+
+// 解法一 stack
+func removeDuplicates(s string, k int) string {
+	stack, arr := [][2]int{}, []byte{}
+	for _, c := range s {
+		i := int(c - 'a')
+		if len(stack) > 0 && stack[len(stack)-1][0] == i {
+			stack[len(stack)-1][1]++
+			if stack[len(stack)-1][1] == k {
+				stack = stack[:len(stack)-1]
+			}
+		} else {
+			stack = append(stack, [2]int{i, 1})
+		}
+	}
+	for _, pair := range stack {
+		c := byte(pair[0] + 'a')
+		for i := 0; i < pair[1]; i++ {
+			arr = append(arr, c)
+		}
+	}
+	return string(arr)
+}
+
+// 解法二 暴力
+func removeDuplicates1(s string, k int) string {
+	arr, count, tmp := []rune{}, 0, '#'
+	for _, v := range s {
+		arr = append(arr, v)
+		for len(arr) > 0 {
+			count = 0
+			tmp = arr[len(arr)-1]
+			for i := len(arr) - 1; i >= 0; i-- {
+				if arr[i] != tmp {
+					break
+				}
+				count++
+			}
+			if count == k {
+				arr = arr[:len(arr)-k]
+			} else {
+				break
+			}
+		}
+	}
+	return string(arr)
+}
+```

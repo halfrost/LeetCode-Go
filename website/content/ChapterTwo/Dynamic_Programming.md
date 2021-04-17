@@ -59,7 +59,7 @@ weight: 7
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.7%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||46.0%|
-|1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||62.1%|
+|1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||62.2%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.5%|
 |1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.7%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.7%|

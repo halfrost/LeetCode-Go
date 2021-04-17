@@ -74,7 +74,7 @@ weight: 9
 |0971|Flip Binary Tree To Match Preorder Traversal|[Go]({{< relref "/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal.md" >}})|Medium||||50.1%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||70.0%|
 |0980|Unique Paths III|[Go]({{< relref "/ChapterFour/0900~0999/0980.Unique-Paths-III.md" >}})|Hard| O(n log n)| O(n)||77.0%|
-|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.0%|
+|0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.1%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||59.3%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||69.8%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.1%|
@@ -82,7 +82,7 @@ weight: 9
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||67.9%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.0%|
 |1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.3%|
-|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||48.4%|
+|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||48.5%|
 |1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||61.9%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||85.5%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||62.2%|
