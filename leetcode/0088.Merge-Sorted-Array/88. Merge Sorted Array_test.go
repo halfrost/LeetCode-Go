@@ -29,20 +29,10 @@ func Test_Problem88(t *testing.T) {
 
 	qs := []question88{
 
-		// question{
-		// 	para{[]int{0}, 0, []int{1}, 1},
-		// 	ans{[]int{1}},
-		// },
-		//
-		// question{
-		// 	para{[]int{1, 3, 5, 7}, 4, []int{2, 4}, 2},
-		// 	ans{[]int{1, 2, 3, 4}},
-		// },
-		//
-		// question{
-		// 	para{[]int{1, 3, 5, 7}, 4, []int{2, 2}, 2},
-		// 	ans{[]int{1, 2, 2, 3}},
-		// },
+		{
+			para88{[]int{0}, 0, []int{1}, 1},
+			ans88{[]int{1}},
+		},
 
 		{
 			para88{[]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3},
