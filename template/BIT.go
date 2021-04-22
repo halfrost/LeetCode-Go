@@ -7,36 +7,35 @@ type BinaryIndexedTree struct {
 }
 
 // Init define
-func (bit *BinaryIndexedTree) Init(nums []int, capacity int) {
-	if len(nums) == 0 {
-		bit.tree, bit.capacity = make([]int, capacity+1), capacity+1
-		return
-	}
-	bit.tree, bit.capacity = make([]int, len(nums)+1), len(nums)+1
-	for i := 1; i <= len(nums); i++ {
-		bit.tree[i] += nums[i-1]
-		for j := i - 2; j >= i-lowbit(i); j-- {
-			bit.tree[i] += nums[j]
-		}
-	}
+func (bit *BinaryIndexedTree) Init(capacity int) {
+	bit.tree, bit.capacity = make([]int, capacity+1), capacity
 }
 
 // Add define
 func (bit *BinaryIndexedTree) Add(index int, val int) {
-	for index <= bit.capacity {
+	for ; index <= bit.capacity; index += index & -index {
 		bit.tree[index] += val
-		index += lowbit(index)
 	}
 }
 
 // Query define
 func (bit *BinaryIndexedTree) Query(index int) int {
 	sum := 0
-	for index >= 1 {
+	for ; index > 0; index -= index & -index {
 		sum += bit.tree[index]
-		index -= lowbit(index)
 	}
 	return sum
+}
+
+// InitWithNums define
+func (bit *BinaryIndexedTree) InitWithNums(nums []int) {
+	bit.tree, bit.capacity = make([]int, len(nums)+1), len(nums)
+	for i := 1; i <= len(nums); i++ {
+		bit.tree[i] += nums[i-1]
+		for j := i - 2; j >= i-lowbit(i); j-- {
+			bit.tree[i] += nums[j]
+		}
+	}
 }
 
 func lowbit(x int) int {

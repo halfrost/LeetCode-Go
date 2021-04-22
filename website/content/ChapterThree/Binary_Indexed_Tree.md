@@ -268,13 +268,14 @@ n 最多经过 {{< katex >}}(O(log n))^2 {{< /katex >}} 变化，最终 n < m。
 再创建一个树状数组，用来记录这样一个数组 C（下标从1算起）的前缀和：若 [1, N] 这个排列中的数 i 当前已经出现，则 C[i] 的值为 1 ，否则为 0。初始时数组 C 的值均为 0。从数组 B 第一个元素开始遍历，对树状数组执行修改数组 C 的第 B[j] 个数值加 1 的操作。再在树状数组中查询有多少个数小于等于当前的数 B[j]（即用树状数组查询数组 C 中的 [1,B[j]] 区间前缀和），当前插入总数 i 减去小于等于 B[j] 元素总数，差值即为大于 B[j] 元素的个数，并加入计数器。
 
 ```go
-func reversePair(s string) int {
-	s = "9854623870"
-	arr, newPermutation, bit, res := make([]Element, len(s)+1), make([]int, len(s)), BinaryIndexedTree{}, 0
-	bit.capacity = len(s)
-	for i := 0; i < len(s); i++ {
-		arr[i+1].data = int(s[i] - '0')
-		arr[i+1].pos = i + 1
+func reversePairs(nums []int) int {
+	if len(nums) <= 1 {
+		return 0
+	}
+	arr, newPermutation, bit, res := make([]Element, len(nums)), make([]int, len(nums)), template.BinaryIndexedTree{}, 0
+	for i := 0; i < len(nums); i++ {
+		arr[i].data = nums[i]
+		arr[i].pos = i
 	}
 	sort.Slice(arr, func(i, j int) bool {
 		if arr[i].data == arr[j].data {
@@ -286,19 +287,20 @@ func reversePair(s string) int {
 		}
 		return arr[i].data < arr[j].data
 	})
-	index := 1
-	newPermutation[arr[1].pos] = 1
-	for i := 2; i <= len(s); i++ {
+	id := 1
+	newPermutation[arr[0].pos] = 1
+	for i := 1; i < len(arr); i++ {
 		if arr[i].data == arr[i-1].data {
-			newPermutation[arr[i].pos] = index
+			newPermutation[arr[i].pos] = id
 		} else {
-			index++
-			newPermutation[arr[i].pos] = index
+			id++
+			newPermutation[arr[i].pos] = id
 		}
 	}
-	for i := 1; i < len(s); i++ {
+	bit.Init(id)
+	for i := 0; i < len(newPermutation); i++ {
 		bit.Add(newPermutation[i], 1)
-		res += i - bit.Query(newPermutation[i])
+		res += (i + 1) - bit.Query(newPermutation[i])
 	}
 	return res
 }

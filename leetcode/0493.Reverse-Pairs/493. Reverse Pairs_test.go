@@ -32,6 +32,11 @@ func Test_Problem493(t *testing.T) {
 		},
 
 		{
+			para493{[]int{9, 8, 7, 4, 7, 2, 3, 8, 7, 0}},
+			ans493{18},
+		},
+
+		{
 			para493{[]int{2, 4, 3, 5, 1}},
 			ans493{3},
 		},
