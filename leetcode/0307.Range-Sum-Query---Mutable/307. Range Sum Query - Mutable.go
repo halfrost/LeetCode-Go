@@ -1,8 +1,6 @@
 package leetcode
 
-import (
-	"github.com/halfrost/LeetCode-Go/template"
-)
+import "github.com/halfrost/LeetCode-Go/template"
 
 // NumArray define
 type NumArray struct {
@@ -21,6 +19,11 @@ func Constructor307(nums []int) NumArray {
 // Update define
 func (this *NumArray) Update(i int, val int) {
 	this.st.Update(i, val)
+}
+
+// SumRange define
+func (this *NumArray) SumRange(i int, j int) int {
+	return this.st.Query(i, j)
 }
 
 //解法二 prefixSum，sumRange 时间复杂度 O(1)
@@ -58,6 +61,30 @@ func (this *NumArray) Update(i int, val int) {
 // 		return this.prefixSum[j] - this.prefixSum[i-1]
 // 	}
 // 	return this.prefixSum[j]
+// }
+
+// 解法三 树状数组
+// type NumArray struct {
+// 	bit  template.BinaryIndexedTree
+// 	data []int
+// }
+
+// // Constructor define
+// func Constructor307(nums []int) NumArray {
+// 	bit := template.BinaryIndexedTree{}
+// 	bit.InitWithNums(nums)
+// 	return NumArray{bit: bit, data: nums}
+// }
+
+// // Update define
+// func (this *NumArray) Update(i int, val int) {
+// 	this.bit.Add(i+1, val-this.data[i])
+// 	this.data[i] = val
+// }
+
+// // SumRange define
+// func (this *NumArray) SumRange(i int, j int) int {
+// 	return this.bit.Query(j+1) - this.bit.Query(i)
 // }
 
 /**
