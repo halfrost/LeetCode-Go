@@ -6,7 +6,7 @@ weight: 5
 
 # 树状数组 Binary Indexed Tree (二叉索引树)
 
-树状数组或二叉索引树（英语：Binary Indexed Tree），又以其发明者命名为 Fenwick 树，最早由 Peter M. Fenwick 于 1994 年以 A New Data Structure for Cumulative Frequency Tables 为题发表在 SOFTWARE PRACTICE AND EXPERIENCE 上。其初衷是解决数据压缩里的累积频率（Cumulative Frequency）的计算问题，现多用于高效计算数列的前缀和，区间和。针对区间问题，除了常见的线段树解法，还可以考虑树状数组。它可以以 O(log n) 的时间得到任意前缀和{{< katex >}} \sum_{i=1}^{j}A[i],1<=j<=N {{< /katex >}}，并同时支持在 O(log n)时间内支持动态单点值的修改(增加或者减少)。空间复杂度 O(n)。
+树状数组或二叉索引树（Binary Indexed Tree），又以其发明者命名为 Fenwick 树，最早由 Peter M. Fenwick 于 1994 年以 A New Data Structure for Cumulative Frequency Tables 为题发表在 SOFTWARE PRACTICE AND EXPERIENCE 上。其初衷是解决数据压缩里的累积频率（Cumulative Frequency）的计算问题，现多用于高效计算数列的前缀和，区间和。针对区间问题，除了常见的线段树解法，还可以考虑树状数组。它可以以 O(log n) 的时间得到任意前缀和{{< katex >}} \sum_{i=1}^{j}A[i],1<=j<=N {{< /katex >}}，并同时支持在 O(log n)时间内支持动态单点值的修改(增加或者减少)。空间复杂度 O(n)。
 
 > 利用数组实现前缀和，查询本来是 O(1)，但是对于频繁更新的数组，每次重新计算前缀和，时间复杂度 O(n)。此时树状数组的优势便立即显现。
 
@@ -134,6 +134,8 @@ func (bit *BinaryIndexedTree) Query(index int) int {
 ### 1. 单点增减 + 区间求和
 
 这种场景是树状数组最经典的场景。单点增减分别调用 add(i,v) 和 add(i,-v)。区间求和，利用前缀和的思想，求 [m,n] 区间和，即 query(n) - query(m-1)。query(n) 代表 [1,n] 区间内的和，query(m-1) 代表 [1,m-1] 区间内的和，两者相减，即 [m,n] 区间内的和。
+
+> LeetCode 对应题目是 [307. Range Sum Query - Mutable](https://books.halfrost.com/leetcode/ChapterFour/0300~0399/0307.Range-Sum-Query-Mutable/)、[327. Count of Range Sum](https://books.halfrost.com/leetcode/ChapterFour/0300~0399/0327.Count-of-Range-Sum/)
 
 ### 2. 区间增减 + 单点查询
 
@@ -381,7 +383,7 @@ int main()
 
 具体做法，将 x 轴上的各个区间排序，按照 x 值大小从小到大排序。从左往右依次遍历各个区间。Add() 操作含义是加入每个区间右边界代表后缀区间的最值。这样不需要考虑“移除”最值的问题了。细心的读者可能又有疑问了：能否从右往左遍历区间，Query() 的含义继续延续前缀区间？这样做是可行的，解决第一个问题(维护最值)是可以的。但是这种处理办法解决第二个问题(维护转折点)会遇到麻烦。
 
-再解决第二个问题(维护转折点)。如果用前缀含义的 Query()，在单点 i 上除了考虑以这个点为结束点的区间，还需要考虑以这个单点 i 为起点的区间。如果是后缀含义的 Query() 就没有这个问题了，{{< katex >}}[i+1,+\infty){{< /katex >}} 这个区间内不用考虑以单点 i 为结束点的区间。
+再解决第二个问题(维护转折点)。如果用前缀含义的 Query()，在单点 i 上除了考虑以这个点为结束点的区间，还需要考虑以这个单点 i 为起点的区间。如果是后缀含义的 Query() 就没有这个问题了，{{< katex >}}[i+1,+\infty){{< /katex >}} 这个区间内不用考虑以单点 i 为结束点的区间。此题用树状数组代码实现如下：
 
 
 ```go
@@ -461,6 +463,8 @@ func (bit *BinaryIndexedTree) Query(index int) int {
 
 ```
 
+> 此题还可以用线段树和扫描线解答。扫描线和树状数组解答此题，非常快。线段树稍微慢一些。
+
 
 ## 三. 常见应用
 
@@ -533,6 +537,11 @@ func reversePairs(nums []int) int {
 由于是倒序插入，每次 Query 之前的元素下标一定比当前 i 要大。下标比 i 大，元素值比 A[i] 小，这样的元素和 i 可以构成逆序对。Query 查找 [1, B[j]] 区间内元素总个数，即为逆序对的总数。
 
 > 注意，计算逆序对的时候不要算重复了。比如，计算当前 j 下标前面比 B[j] 值大的数，又算上 j 下标后面比 B[j] 值小的数。这样计算出现了很多重复。因为 j 下标前面的下标 k，也会寻找 k 下标后面比 B[k] 值小的数，重复计算了。那么统一找比自己下标小，但是值大的元素，那么统一找比自己下标大，但是值小的元素。切勿交叉计算。
+
+
+> LeetCode 对应题目是 [315. Count of Smaller Numbers After Self](https://books.halfrost.com/leetcode/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self/)、[493. Reverse Pairs](https://books.halfrost.com/leetcode/ChapterFour/0400~0499/0493.Reverse-Pairs/)、[1649. Create Sorted Array through Instructions](https://books.halfrost.com/leetcode/ChapterFour/1600~1699/1649.Create-Sorted-Array-through-Instructions/)
+
+
 
 ### 2. 求区间逆序对
 
@@ -617,3 +626,12 @@ func (bit2 *BinaryIndexedTree2D) Query(i, j int) int {
 	return sum
 }
 ```
+
+如果把一维树状数组维护的是数轴上的统计问题，
+
+![](https://img.halfrost.com/Blog/ArticleImage/152_2.png)
+
+
+那么二维数组维护的是二维坐标系下的统计问题。X 和 Y 分别都满足一维树状数组的性质。
+
+![](https://img.halfrost.com/Blog/ArticleImage/152_3.png)
