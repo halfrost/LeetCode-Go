@@ -20,7 +20,7 @@ weight: 5
 例如上图中 A 和 B 都是数组。A 数组正常存储数据，B 数组是树状数组。B4，B6，B7 是 B8 的子节点。4 的二进制是 100，4 + {{< katex >}}2^{2}{{< /katex >}} = 8，所以 8 是 4 的父节点。同理，7 的二进制 111，7 + {{< katex >}}2^{0}{{< /katex >}} = 8，8 也是 7 的父节点。
 
 
-## 1. 节点意义
+### 1. 节点意义
 
 在树状数组中，所有的奇数下标的节点的含义是叶子节点，表示单点，它存的值是原数组相同下标存的值。例如上图中 B1，B3，B5，B7 分别存的值是 A1，A3，A5，A7。所有的偶数下标的节点均是父节点。父节点内存的是区间和。例如 B4 内存的是 B1 + B2 + B3 + A4 = A1 + A2 + A3 + A4。这个区间的左边界是该父节点最左边叶子节点对应的下标，右边界就是自己的下标。例如 B8 表示的区间左边界是 B1，右边界是 B8，所以它表示的区间和是 A1 + A2 + …… + A8。
 
@@ -81,7 +81,7 @@ func lowbit(x int) int {
 
 lowbit(34) 结果是 {{< katex >}}2^{k} = 2^{1} = 2 {{< /katex >}}
 
-## 2. 插入操作
+### 2. 插入操作
 
 树状数组上的父子的下标满足 {{< katex >}}parent = son + 2^{k}{{< /katex >}} 关系，所以可以通过这个公式从叶子结点不断往上递归，直到访问到最大节点值为止，祖先结点最多为 logn 个。插入操作可以实现节点值的增加或者减少，代码实现如下：
 
@@ -98,7 +98,7 @@ func (bit *BinaryIndexedTree) Add(index int, val int) {
 
 
 
-## 3. 查询操作
+### 3. 查询操作
 
 	
 树状数组中查询 [1, i] 区间内的和。按照节点的含义，可以得出下面的关系：
@@ -131,11 +131,11 @@ func (bit *BinaryIndexedTree) Query(index int) int {
 
 根据节点维护的数据含义不同，树状数组可以提供不同的功能来满足各种各样的区间场景。下面我们先以上例中讲述的区间和为例，进而引出 RMQ 的使用场景。
 
-## 1. 单点增减 + 区间求和
+### 1. 单点增减 + 区间求和
 
 这种场景是树状数组最经典的场景。单点增减分别调用 add(i,v) 和 add(i,-v)。区间求和，利用前缀和的思想，求 [m,n] 区间和，即 query(n) - query(m-1)。query(n) 代表 [1,n] 区间内的和，query(m-1) 代表 [1,m-1] 区间内的和，两者相减，即 [m,n] 区间内的和。
 
-## 2. 区间增减 + 单点查询
+### 2. 区间增减 + 单点查询
 
 这种情况需要做一下转化。定义差分数组 {{< katex >}}C_{i}{{< /katex >}} 代表 {{< katex >}}C_{i} = A_{i} - A_{i-1}{{< /katex >}}。那么：
 
@@ -168,7 +168,7 @@ C_{n+1} &= A_{n+1} - (A_{n} + v)\\
 
 单点查询这时就是求前缀和了，{{< katex >}}A_{n} = \sum_{j=1}^{n}C_{j}{{< /katex >}}，即 query(n)。
 
-## 3. 区间增减 + 区间求和
+### 3. 区间增减 + 区间求和
 
 这种情况是上面一种情况的增强版。区间增减的做法和上面做法一致，构造差分数组。这里主要说明区间查询怎么做。先来看 [1,n] 区间和如何求：
 
@@ -208,7 +208,7 @@ A_{1} + A_{2} + A_{3} + ...... + A_{n}\\
 
 至此区间查询问题得解。
 
-## 4. 单点更新 + 区间最值
+### 4. 单点增减 + 区间最值
 
 线段树最基础的运用是区间求和，但是将 sum 操作换成 max 操作以后，也可以求区间最值，并且时间复杂度完全没有变。那树状数组呢？也可以实现相同的功能么？答案是可以的，不过时间复杂度会下降一点。
 
@@ -250,11 +250,223 @@ func (bit *BinaryIndexedTree) Query(m, n int) int {
 
 n 最多经过 {{< katex >}}(O(log n))^2 {{< /katex >}} 变化，最终 n < m。时间复杂度为 {{< katex >}}(O(log n))^2 {{< /katex >}}。
 
+针对这类问题放一道经典例题[《HDU 1754 I Hate It》](http://acm.hdu.edu.cn/showproblem.php?pid=1754)：
+
+Problem Description  
+很多学校流行一种比较的习惯。老师们很喜欢询问，从某某到某某当中，分数最高的是多少。这让很多学生很反感。不管你喜不喜欢，现在需要你做的是，就是按照老师的要求，写一个程序，模拟老师的询问。当然，老师有时候需要更新某位同学的成绩。
+ 
+
+Input  
+本题目包含多组测试，请处理到文件结束。
+在每个测试的第一行，有两个正整数 N 和 M ( 0<N<=200000,0<M<5000 )，分别代表学生的数目和操作的数目。学生 ID 编号分别从 1 编到 N。第二行包含 N 个整数，代表这 N 个学生的初始成绩，其中第 i 个数代表 ID 为 i 的学生的成绩。接下来有 M 行。每一行有一个字符 C (只取'Q'或'U') ，和两个正整数 A，B。当 C 为 'Q' 的时候，表示这是一条询问操作，它询问 ID 从 A 到 B(包括 A,B)的学生当中，成绩最高的是多少。当 C 为 'U' 的时候，表示这是一条更新操作，要求把 ID 为 A 的学生的成绩更改为 B。
+ 
+
+Output  
+对于每一次询问操作，在一行里面输出最高成绩。
+
+
+	Sample Input
+	5 6
+	1 2 3 4 5
+	Q 1 5
+	U 3 6
+	Q 3 4
+	Q 4 5
+	U 2 9
+	Q 1 5
+ 
+
+	Sample Output
+	5
+	6
+	5
+	9
+
+读完题可以很快反应是单点增减 + 区间最大值的题。利用上面讲解的思想写出代码：
+
+> 由于 OJ 不支持 Go，所以此处用 C 代码实现。这里还有一个 Hint，对于超大量的输入，scanf() 的性能明显优于 cin。
+
+```c
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+using namespace std;
+ 
+const int MAXN = 3e5;
+int a[MAXN], h[MAXN];
+int n, m;
+ 
+int lowbit(int x)
+{
+	return x & (-x);
+}
+void updata(int x)
+{
+	int lx, i;
+	while (x <= n)
+	{
+		h[x] = a[x];
+		lx = lowbit(x);
+		for (i=1; i<lx; i<<=1)
+			h[x] = max(h[x], h[x-i]);
+		x += lowbit(x);
+	}		
+}
+int query(int x, int y)
+{
+	int ans = 0;
+	while (y >= x)
+	{
+		ans = max(a[y], ans);
+		y --;
+		for (; y-lowbit(y) >= x; y -= lowbit(y))
+			ans = max(h[y], ans);
+	}
+	return ans;
+}
+int main()
+{
+	int i, j, x, y, ans;
+	char c;
+	while (scanf("%d%d",&n,&m)!=EOF)
+	{
+		for (i=1; i<=n; i++)
+			h[i] = 0;
+		for (i=1; i<=n; i++)
+		{
+			scanf("%d",&a[i]);
+			updata(i);
+		}
+		for (i=1; i<=m; i++)
+		{
+			scanf("%c",&c);
+			scanf("%c",&c);
+			if (c == 'Q')
+			{
+				scanf("%d%d",&x,&y);
+				ans = query(x, y);
+				printf("%d\n",ans);
+			}
+			else if (c == 'U')
+			{
+				scanf("%d%d",&x,&y);
+				a[x] = y;
+				updata(x);
+			}
+		}
+	}
+	return 0;
+}
+```
+
+上述代码已 AC。感兴趣的读者可以自己做一做这道 ACM 的简单题。
+
+### 5. 区间叠加 + 单点最值
+
+看到这里可能有细心的读者疑惑，这一类题不就是第二类“区间增减 + 单点查询”类似么？可以考虑用第二类题的思路解决这一类题。不过麻烦点在于，区间叠加以后，每个单点的更新不是直接告诉增减变化，而是需要我们自己维护一个最值。例如在 [5,7] 区间当前值是 7，接下来区间 [1,9] 区间内增加了一个 2 的值。正确的做法是把 [1,4] 区间内增加 2，[8,9] 区间增加 2，[5,7] 区间维持不变，因为 7 > 2。这仅仅是 2 个区间叠加的情况，如果区间叠加的越多，需要拆分的区间也越多了。看到这里有些读者可能会考虑线段树的解法了。线段树确实是解决区间叠加问题的利器。笔者这里只讨论树状数组的解法。
+
+![](https://img.halfrost.com/Leetcode/leetcode_218_0.png)
+
+当前 LeetCode 有 1836 题，Binary Indexed Tree tag 下面只有 7 题，[218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) 这一题算是 7 道 BIT 里面最“难”的。这道天际线的题就属于区间叠加 + 单点最值的题。笔者以这道题为例，讲讲此类题的常用解法。
+
+![](https://img.halfrost.com/Leetcode/leetcode_218_1.png)
+
+要求天际线，即找到楼与楼重叠区间外边缘的线，说白了是维护各个区间内的最值。这有 2 个需要解决的问题。
+
+1. 如何维护最值。当一个高楼的右边界消失，剩下的各个小楼间还需要选出最大值作为天际线。剩下重重叠叠的小楼很多，树状数组如何维护区间最值是解决此类题的关键。
+2. 如何维护天际线的转折点。有些楼与楼并非完全重叠，重叠一半的情况导致天际线出现转折点。如上图中标记的红色转折点。树状数组如何维护这些点呢？
+
+
+先解决第一个问题(维护最值)。树状数组只有 2 个操作，一个是 Add() 一个是 Query()。从上面关于这 2 个操作的讲解中可以知道这 2 个操作都不能满足我们的需求。Add() 操作可以改成维护区间内 max() 的操作。但是 max() 容易获得却很难“去除”。如上图 [3,7] 这个区间内的最大值是 15。根据树状数组的定义，[3,12] 这个区间内最值还是 15。观察上图可以看到 [5,12] 区间内最值其实是 12。树状数组如何维护这种最值呢？最大值既然难以“去除”，那么需要考虑如何让最大值“来的晚一点”。解决办法是将 Query() 操作含义从前缀含义改成后缀含义。Query(i) 查询区间是 [1,i]，现在查询区间变成 {{< katex >}}[i,+\infty){{< /katex >}}。例如：[i,j] 区间内最值是 {{< katex >}}max_{i...j}{{< /katex >}}，Query(j+1) 的结果不会包含 {{< katex >}}max_{i...j}{{< /katex >}}，因为它查询的区间是 {{< katex >}}[j+1,+\infty){{< /katex >}}。这样更改以后，可以有效避免前驱高楼对后面楼的累积 max() 最值的影响。
+
+具体做法，将 x 轴上的各个区间排序，按照 x 值大小从小到大排序。从左往右依次遍历各个区间。Add() 操作含义是加入每个区间右边界代表后缀区间的最值。这样不需要考虑“移除”最值的问题了。细心的读者可能又有疑问了：能否从右往左遍历区间，Query() 的含义继续延续前缀区间？这样做是可行的，解决第一个问题(维护最值)是可以的。但是这种处理办法解决第二个问题(维护转折点)会遇到麻烦。
+
+再解决第二个问题(维护转折点)。如果用前缀含义的 Query()，在单点 i 上除了考虑以这个点为结束点的区间，还需要考虑以这个单点 i 为起点的区间。如果是后缀含义的 Query() 就没有这个问题了，{{< katex >}}[i+1,+\infty){{< /katex >}} 这个区间内不用考虑以单点 i 为结束点的区间。
+
+
+```go
+const LEFTSIDE = 1
+const RIGHTSIDE = 2
+
+type Point struct {
+	xAxis int
+	side  int
+	index int
+}
+
+func getSkyline3(buildings [][]int) [][]int {
+	res := [][]int{}
+	if len(buildings) == 0 {
+		return res
+	}
+	allPoints, bit := make([]Point, 0), BinaryIndexedTree{}
+	// [x-axis (value), [1 (left) | 2 (right)], index (building number)]
+	for i, b := range buildings {
+		allPoints = append(allPoints, Point{xAxis: b[0], side: LEFTSIDE, index: i})
+		allPoints = append(allPoints, Point{xAxis: b[1], side: RIGHTSIDE, index: i})
+	}
+	sort.Slice(allPoints, func(i, j int) bool {
+		if allPoints[i].xAxis == allPoints[j].xAxis {
+			return allPoints[i].side < allPoints[j].side
+		}
+		return allPoints[i].xAxis < allPoints[j].xAxis
+	})
+	bit.Init(len(allPoints))
+	kth := make(map[Point]int)
+	for i := 0; i < len(allPoints); i++ {
+		kth[allPoints[i]] = i
+	}
+	for i := 0; i < len(allPoints); i++ {
+		pt := allPoints[i]
+		if pt.side == LEFTSIDE {
+			bit.Add(kth[Point{xAxis: buildings[pt.index][1], side: RIGHTSIDE, index: pt.index}], buildings[pt.index][2])
+		}
+		currHeight := bit.Query(kth[pt] + 1)
+		if len(res) == 0 || res[len(res)-1][1] != currHeight {
+			if len(res) > 0 && res[len(res)-1][0] == pt.xAxis {
+				res[len(res)-1][1] = currHeight
+			} else {
+				res = append(res, []int{pt.xAxis, currHeight})
+			}
+		}
+	}
+	return res
+}
+
+type BinaryIndexedTree struct {
+	tree     []int
+	capacity int
+}
+
+// Init define
+func (bit *BinaryIndexedTree) Init(capacity int) {
+	bit.tree, bit.capacity = make([]int, capacity+1), capacity
+}
+
+// Add define
+func (bit *BinaryIndexedTree) Add(index int, val int) {
+	for ; index > 0; index -= index & -index {
+		bit.tree[index] = max(bit.tree[index], val)
+	}
+}
+
+// Query define
+func (bit *BinaryIndexedTree) Query(index int) int {
+	sum := 0
+	for ; index <= bit.capacity; index += index & -index {
+		sum = max(sum, bit.tree[index])
+	}
+	return sum
+}
+
+```
+
+
 ## 三. 常见应用
 
 这一章节来谈谈树状数组的常见应用。
 
-## 1. 求逆序对
+### 1. 求逆序对
 
 给定 {{< katex >}} n {{< /katex >}} 个数 {{< katex >}} A[n] \in [1,n]  {{< /katex >}} 的排列 P，求满足 {{< katex >}}i < j {{< /katex >}} 且 {{< katex >}} A[i] > A[j] {{< /katex >}} 的数对 {{< katex >}} (i,j) {{< /katex >}} 的个数。
 
@@ -322,7 +534,7 @@ func reversePairs(nums []int) int {
 
 > 注意，计算逆序对的时候不要算重复了。比如，计算当前 j 下标前面比 B[j] 值大的数，又算上 j 下标后面比 B[j] 值小的数。这样计算出现了很多重复。因为 j 下标前面的下标 k，也会寻找 k 下标后面比 B[k] 值小的数，重复计算了。那么统一找比自己下标小，但是值大的元素，那么统一找比自己下标大，但是值小的元素。切勿交叉计算。
 
-## 2. 求区间逆序对
+### 2. 求区间逆序对
 
 给定 {{< katex >}} n {{< /katex >}} 个数的序列 {{< katex >}} A[n] \in [1,2^{31}-1] {{< /katex >}}，然后给出 {{< katex >}} n \in [1,10^{5}] {{< /katex >}} 次询问 {{< katex >}} [L,R] {{< /katex >}}，每次询问区间 {{< katex >}} [L,R] {{< /katex >}} 中满足 {{< katex >}} L \leqslant i < j \leqslant R {{< /katex >}} 且 {{< katex >}} A[i] > A[j] {{< /katex >}} 的下标 {{< katex >}} (i,j) {{< /katex >}} 的对数。
 
@@ -359,7 +571,7 @@ Query(A[i] - 1) - C[i] &=  Query(A[7] - 1) - C[7]  \\
 3. 按照区间排序后的结果，从左往右依次遍历每个区间。依照从左往右的区间覆盖元素范围，从左往右将 A[i] 插入至树状数组中，每个元素插入之前计算辅助数组 C[i]。
 4. 依次遍历每个区间内的所有元素，对每个元素计算 Query(A[i] - 1) - C[i]，累加逆序对的结果即是这个区间所有逆序对的总数。
 
-## 3. 求树上逆序对
+### 3. 求树上逆序对
 
 给定 {{< katex >}} n \in [0,10^{5}] {{< /katex >}} 个结点的树，求每个结点的子树中结点编号比它小的数的个数。
 
