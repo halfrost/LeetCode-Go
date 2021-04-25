@@ -25,7 +25,7 @@ weight: 12
 |0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||57.2%|
 |0172|Factorial Trailing Zeroes|[Go]({{< relref "/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes.md" >}})|Easy||||38.8%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.4%|
-|0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.3%|
+|0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.4%|
 |0223|Rectangle Area|[Go]({{< relref "/ChapterFour/0200~0299/0223.Rectangle-Area.md" >}})|Medium||||38.4%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.3%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.8%|
@@ -43,7 +43,7 @@ weight: 12
 |0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||60.1%|
 |0423|Reconstruct Original Digits from English|[Go]({{< relref "/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English.md" >}})|Medium||||50.9%|
 |0441|Arranging Coins|[Go]({{< relref "/ChapterFour/0400~0499/0441.Arranging-Coins.md" >}})|Easy||||42.7%|
-|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium||||52.5%|
+|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium||||52.6%|
 |0453|Minimum Moves to Equal Array Elements|[Go]({{< relref "/ChapterFour/0400~0499/0453.Minimum-Moves-to-Equal-Array-Elements.md" >}})|Easy||||51.0%|
 |0478|Generate Random Point in a Circle|[Go]({{< relref "/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle.md" >}})|Medium||||39.1%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0400~0499/0483.Smallest-Good-Base.md" >}})|Hard||||36.4%|
@@ -54,7 +54,7 @@ weight: 12
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.8%|
 |0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.7%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||41.0%|
-|0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.6%|
+|0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.7%|
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||46.2%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.8%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.1%|
@@ -74,7 +74,7 @@ weight: 12
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||40.1%|
 |0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||59.4%|
 |0991|Broken Calculator|[Go]({{< relref "/ChapterFour/0900~0999/0991.Broken-Calculator.md" >}})|Medium||||49.7%|
-|0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.5%|
+|0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.6%|
 |1006|Clumsy Factorial|[Go]({{< relref "/ChapterFour/1000~1099/1006.Clumsy-Factorial.md" >}})|Medium||||53.7%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||59.2%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
@@ -85,7 +85,7 @@ weight: 12
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||51.8%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.5%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.9%|
-|1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.2%|
+|1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||43.1%|
 |1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.6%|
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||56.9%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.6%|

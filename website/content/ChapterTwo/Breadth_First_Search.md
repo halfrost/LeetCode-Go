@@ -11,13 +11,13 @@ weight: 10
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0101|Symmetric Tree|[Go]({{< relref "/ChapterFour/0100~0199/0101.Symmetric-Tree.md" >}})|Easy| O(n)| O(1)||48.6%|
 |0102|Binary Tree Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal.md" >}})|Medium| O(n)| O(1)||57.1%|
-|0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||50.5%|
+|0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||50.6%|
 |0107|Binary Tree Level Order Traversal II|[Go]({{< relref "/ChapterFour/0100~0199/0107.Binary-Tree-Level-Order-Traversal-II.md" >}})|Medium| O(n)| O(1)||55.6%|
 |0111|Minimum Depth of Binary Tree|[Go]({{< relref "/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree.md" >}})|Easy| O(n)| O(1)||39.9%|
-|0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.8%|
+|0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|23.9%|
 |0127|Word Ladder|[Go]({{< relref "/ChapterFour/0100~0199/0127.Word-Ladder.md" >}})|Hard| O(n)| O(n)||32.3%|
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||29.9%|
-|0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||56.6%|
+|0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||56.7%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||49.7%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0200~0299/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.3%|
 |0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||43.1%|
@@ -34,7 +34,7 @@ weight: 10
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.3%|
 |1091|Shortest Path in Binary Matrix|[Go]({{< relref "/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix.md" >}})|Medium||||40.2%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||62.2%|
-|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.6%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.5%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||25.0%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

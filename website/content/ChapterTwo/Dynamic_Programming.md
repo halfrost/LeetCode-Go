@@ -64,14 +64,14 @@ weight: 7
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||64.9%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.5%|
 |1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.7%|
-|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.8%|
+|1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.7%|
 |1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||47.0%|
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||68.8%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||75.4%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||25.0%|
 |1655|Distribute Repeating Integers|[Go]({{< relref "/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers.md" >}})|Hard||||40.0%|
 |1659|Maximize Grid Happiness|[Go]({{< relref "/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness.md" >}})|Hard||||35.6%|
-|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||62.2%|
+|1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||62.1%|
 |1690|Stone Game VII|[Go]({{< relref "/ChapterFour/1600~1699/1690.Stone-Game-VII.md" >}})|Medium||||49.1%|
 |1691|Maximum Height by Stacking Cuboids|[Go]({{< relref "/ChapterFour/1600~1699/1691.Maximum-Height-by-Stacking-Cuboids.md" >}})|Hard||||50.5%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

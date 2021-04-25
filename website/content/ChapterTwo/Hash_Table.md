@@ -22,7 +22,7 @@ weight: 13
 |0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||41.7%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||41.7%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.4%|
-|0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.3%|
+|0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.4%|
 |0205|Isomorphic Strings|[Go]({{< relref "/ChapterFour/0200~0299/0205.Isomorphic-Strings.md" >}})|Easy| O(log n)| O(n)||40.7%|
 |0217|Contains Duplicate|[Go]({{< relref "/ChapterFour/0200~0299/0217.Contains-Duplicate.md" >}})|Easy| O(n)| O(n)||57.0%|
 |0219|Contains Duplicate II|[Go]({{< relref "/ChapterFour/0200~0299/0219.Contains-Duplicate-II.md" >}})|Easy| O(n)| O(n)||38.9%|
@@ -36,7 +36,7 @@ weight: 13
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||58.0%|
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||52.3%|
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium| O(n)| O(1) ||45.3%|
-|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||52.5%|
+|0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||52.6%|
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||64.7%|
 |0454|4Sum II|[Go]({{< relref "/ChapterFour/0400~0499/0454.4Sum-II.md" >}})|Medium| O(n^2)| O(n) ||54.7%|
 |0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0400~0499/0463.Island-Perimeter.md" >}})|Easy||||66.9%|
@@ -46,7 +46,7 @@ weight: 13
 |0575|Distribute Candies|[Go]({{< relref "/ChapterFour/0500~0599/0575.Distribute-Candies.md" >}})|Easy||||64.4%|
 |0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0500~0599/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||51.3%|
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0500~0599/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||52.0%|
-|0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.6%|
+|0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||54.7%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||41.0%|
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0600~0699/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||59.2%|
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.4%|
@@ -75,7 +75,7 @@ weight: 13
 |1078|Occurrences After Bigram|[Go]({{< relref "/ChapterFour/1000~1099/1078.Occurrences-After-Bigram.md" >}})|Easy||||65.0%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.9%|
 |1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||39.8%|
-|1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.2%|
+|1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.3%|
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1200~1299/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||72.0%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.6%|
 |1539|Kth Missing Positive Number|[Go]({{< relref "/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number.md" >}})|Easy||||54.8%|
