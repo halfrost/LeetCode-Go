@@ -13,7 +13,7 @@ func twoSum167(numbers []int, target int) []int {
 			j--
 		}
 	}
-	return []int{-1, -1}
+	return nil
 }
 
 // 解法二 不管数组是否有序，空间复杂度比上一种解法要多 O(n)
