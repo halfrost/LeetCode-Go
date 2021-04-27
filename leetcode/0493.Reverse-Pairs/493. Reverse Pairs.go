@@ -6,8 +6,69 @@ import (
 	"github.com/halfrost/LeetCode-Go/template"
 )
 
-// 解法一 线段树，时间复杂度 O(n log n)
+// 解法一 归并排序 mergesort，时间复杂度 O(n log n)
 func reversePairs(nums []int) int {
+	buf := make([]int, len(nums))
+	return mergesortCount(nums, buf)
+}
+
+func mergesortCount(nums, buf []int) int {
+	if len(nums) <= 1 {
+		return 0
+	}
+	mid := (len(nums) - 1) / 2
+	cnt := mergesortCount(nums[:mid+1], buf)
+	cnt += mergesortCount(nums[mid+1:], buf)
+	for i, j := 0, mid+1; i < mid+1; i++ { // Note!!! j is increasing.
+		for ; j < len(nums) && nums[i] <= 2*nums[j]; j++ {
+		}
+		cnt += len(nums) - j
+	}
+	copy(buf, nums)
+	for i, j, k := 0, mid+1, 0; k < len(nums); {
+		if j >= len(nums) || i < mid+1 && buf[i] > buf[j] {
+			nums[k] = buf[i]
+			i++
+		} else {
+			nums[k] = buf[j]
+			j++
+		}
+		k++
+	}
+	return cnt
+}
+
+// 解法二 树状数组，时间复杂度 O(n log n)
+func reversePairs1(nums []int) (cnt int) {
+	n := len(nums)
+	if n <= 1 {
+		return
+	}
+	// 离散化所有下面统计时会出现的元素
+	allNums := make([]int, 0, 2*n)
+	for _, v := range nums {
+		allNums = append(allNums, v, 2*v)
+	}
+	sort.Ints(allNums)
+	k := 1
+	kth := map[int]int{allNums[0]: k}
+	for i := 1; i < 2*n; i++ {
+		if allNums[i] != allNums[i-1] {
+			k++
+			kth[allNums[i]] = k
+		}
+	}
+	bit := template.BinaryIndexedTree{}
+	bit.Init(k)
+	for i, v := range nums {
+		cnt += i - bit.Query(kth[2*v])
+		bit.Add(kth[v], 1)
+	}
+	return
+}
+
+// 解法三 线段树，时间复杂度 O(n log n)
+func reversePairs2(nums []int) int {
 	if len(nums) < 2 {
 		return 0
 	}
@@ -41,36 +102,4 @@ func reversePairs(nums []int) int {
 		st.UpdateCount(indexMap[num])
 	}
 	return res
-}
-
-// 解法二 mergesort
-func reversePairs1(nums []int) int {
-	buf := make([]int, len(nums))
-	return mergesortCount(nums, buf)
-}
-
-func mergesortCount(nums, buf []int) int {
-	if len(nums) <= 1 {
-		return 0
-	}
-	mid := (len(nums) - 1) / 2
-	cnt := mergesortCount(nums[:mid+1], buf)
-	cnt += mergesortCount(nums[mid+1:], buf)
-	for i, j := 0, mid+1; i < mid+1; i++ { // Note!!! j is increasing.
-		for ; j < len(nums) && nums[i] <= 2*nums[j]; j++ {
-		}
-		cnt += len(nums) - j
-	}
-	copy(buf, nums)
-	for i, j, k := 0, mid+1, 0; k < len(nums); {
-		if j >= len(nums) || i < mid+1 && buf[i] > buf[j] {
-			nums[k] = buf[i]
-			i++
-		} else {
-			nums[k] = buf[j]
-			j++
-		}
-		k++
-	}
-	return cnt
 }

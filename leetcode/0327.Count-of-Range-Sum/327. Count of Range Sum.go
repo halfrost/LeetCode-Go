@@ -40,8 +40,39 @@ func countRangeSum(nums []int, lower int, upper int) int {
 	return res
 }
 
-// 解法二 暴力，时间复杂度 O(n^2)
+// 解法二 树状数组，时间复杂度 O(n log n)
 func countRangeSum1(nums []int, lower int, upper int) int {
+	n := len(nums)
+	// 计算前缀和 preSum，以及后面统计时会用到的所有数字 allNums
+	allNums, preSum, res := make([]int, 1, 3*n+1), make([]int, n+1), 0
+	for i, v := range nums {
+		preSum[i+1] = preSum[i] + v
+		allNums = append(allNums, preSum[i+1], preSum[i+1]-lower, preSum[i+1]-upper)
+	}
+	// 将 allNums 离散化
+	sort.Ints(allNums)
+	k := 1
+	kth := map[int]int{allNums[0]: k}
+	for i := 1; i <= 3*n; i++ {
+		if allNums[i] != allNums[i-1] {
+			k++
+			kth[allNums[i]] = k
+		}
+	}
+	// 遍历 preSum，利用树状数组计算每个前缀和对应的合法区间数
+	bit := template.BinaryIndexedTree{}
+	bit.Init(k)
+	bit.Add(kth[0], 1)
+	for _, sum := range preSum[1:] {
+		left, right := kth[sum-upper], kth[sum-lower]
+		res += bit.Query(right) - bit.Query(left-1)
+		bit.Add(kth[sum], 1)
+	}
+	return res
+}
+
+// 解法三 暴力，时间复杂度 O(n^2)
+func countRangeSum2(nums []int, lower int, upper int) int {
 	res, n := 0, len(nums)
 	for i := 0; i < n; i++ {
 		tmp := 0

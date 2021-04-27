@@ -1,12 +1,26 @@
 package leetcode
 
 import (
-	"github.com/halfrost/LeetCode-Go/template"
 	"sort"
+
+	"github.com/halfrost/LeetCode-Go/template"
 )
 
-// 解法一 线段树 SegmentTree
+// 解法一 树状数组 Binary Indexed Tree
 func createSortedArray(instructions []int) int {
+	bit, res := template.BinaryIndexedTree{}, 0
+	bit.Init(100001)
+	for i, v := range instructions {
+		less := bit.Query(v - 1)
+		greater := i - bit.Query(v)
+		res = (res + min(less, greater)) % (1e9 + 7)
+		bit.Add(v, 1)
+	}
+	return res
+}
+
+// 解法二 线段树 SegmentTree
+func createSortedArray1(instructions []int) int {
 	if len(instructions) == 0 {
 		return 0
 	}
@@ -48,59 +62,4 @@ func min(a int, b int) int {
 		return b
 	}
 	return a
-}
-
-// 解法二 树状数组 Binary Indexed Tree
-func createSortedArray1(instructions []int) int {
-	b := newBIT(make([]int, 100001))
-	var res int
-	cnt := map[int]int{}
-	for i, n := range instructions {
-		less := b.get(n - 1)
-		greater := i - less - cnt[n]
-		res = (res + min(less, greater)) % (1e9 + 7)
-		b.update(n, 1)
-		cnt[n]++
-	}
-
-	return res % (1e9 + 7)
-}
-
-func max(x, y int) int {
-	if x > y {
-		return x
-	}
-	return y
-}
-
-type BIT struct {
-	data []int
-}
-
-func newBIT(nums []int) *BIT {
-	data := make([]int, len(nums)+1)
-	b := &BIT{data}
-	for i, n := range nums {
-		b.update(i, n)
-	}
-
-	return b
-}
-
-func (b *BIT) update(i, num int) {
-	i++
-	for i < len(b.data) {
-		b.data[i] += num
-		i += (i & -i)
-	}
-}
-
-func (b *BIT) get(i int) int {
-	i++
-	var sum int
-	for i > 0 {
-		sum += b.data[i]
-		i -= (i & -i)
-	}
-	return sum
 }

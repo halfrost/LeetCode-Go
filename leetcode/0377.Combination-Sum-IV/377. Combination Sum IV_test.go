@@ -34,7 +34,7 @@ func Test_Problem377(t *testing.T) {
 
 		{
 			para377{[]int{1, 2, 3}, 32},
-			ans377{7},
+			ans377{181997601},
 		},
 	}
 

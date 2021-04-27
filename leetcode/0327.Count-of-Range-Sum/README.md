@@ -17,11 +17,10 @@ Given an integer array `nums`, return the number of range sums that lie in `[l
 ## 题目大意
 
 
-给定一个整数数组 nums，返回区间和在 [lower, upper] 之间的个数，包含 lower 和 upper。区间和 S(i, j) 表示在 nums 中，位置从 i 到 j 的元素之和，包含 i 和 j (i ≤ j)。
+给定一个整数数组 nums 。区间和 S(i, j) 表示在 nums 中，位置从 i 到 j 的元素之和，包含 i 和 j (i ≤ j)。请你以下标 i （0 <= i <= nums.length ）为起点，元素个数逐次递增，计算子数组内的元素和。当元素和落在范围 [lower, upper] （包含 lower 和 upper）之内时，记录子数组当前最末元素下标 j ，记作 有效 区间和 S(i, j) 。求数组中，值位于范围 [lower, upper] （包含 lower 和 upper）之内的 有效 区间和的个数。
 
-说明:   
-最直观的算法复杂度是 O(n^2) ，请在此基础上优化你的算法。
-
+注意：
+最直观的算法复杂度是 O(n2) ，请在此基础上优化你的算法。
 
 ## 解题思路
 
@@ -75,3 +74,5 @@ Given an integer array `nums`, return the number of range sums that lie in `[l
     ![](https://img.halfrost.com/Leetcode/leetcode_327_8_.png)
 
     这时候查找区间变为了 `[-3 + prefixSum[0-1], -1 + prefixSum[0-1]] = [-3,-1]`，注意 `prefixSum[-1] = 0`，即判断 `-3 ≤ sum(0,  0,1,2,3,4,5) ≤ -1`，满足等式的有几种情况，这里有六种情况，即 `j = 0`、`j = 1`、`j = 2`、 `j = 3` 、`j = 4` 或者 `j = 5`，满足等式的有 `j = 0`、`j = 1`、 `j = 3` 和 `j = 5`，即 `-3 ≤ sum(0, 0) ≤ -1` 、 `-3 ≤ sum(0, 1) ≤ -1`、`-3 ≤ sum(0, 3) ≤ -1` 和 `-3 ≤ sum(0, 5) ≤ -1`。所以这一步 `res = 4`。最后的答案就是把每一步的结果都累加，`res = 1 + 0 + 2 + 0 + 0 + 4 = 7`。
+
+- 此题同样可以用树状数组来解答。同样把问题先转化成区间 Query 的模型，`lower ≤ prefixSum(j) - prefixSum(i-1) ≤ upper` 等价于 `prefixSum(j) - upper ≤ prefixSum(i-1) ≤ prefixSum(j) - lower`，`i` 的取值在 `[0,j-1]` 区间内。所以题目可以转化为 `i` 在 `[0,j-1]` 区间内取值，问数组 `prefixSum[0...j-1]` 中的所有取值，位于区间 `[prefixSum(j) - upper, prefixSum(j) - lower]` 内的次数。在树状数组中，区间内的前缀和可以转化为 2 个区间的前缀和相减，即 `Query([i,j]) = Query(j) - Query(i-1)`。所以这道题枚举数组 `prefixSum[0...j-1]` 中每个值是否出现在指定区间内出现次数即可。第一步先将所有的前缀和 `prefixSum(j)` 以及 `[prefixSum(j) - upper, prefixSum(j) - lower]` 计算出来。第二步排序和离散化，离散化以后的点区间为 `[1,n]`。最后根据数组 `prefixSum(j)` 的值在指定区间内查询出现次数即可。相同的套路题有，第 315 题，第 493 题。
