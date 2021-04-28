@@ -66,7 +66,7 @@ type Element struct {
 
 在 container/list 中，这个双向链表的每个结点的类型是 Element。Element 中存了 4 个值，前驱和后继结点，双向链表的头结点，value 值。这里的 value 是 interface 类型。笔者在这个 value 里面存了 pair 这个结构体。这就解释了 list 里面存的是什么数据。
 
-为什么要存 pair 呢？单单指存 v 不行么，为什么还要存一份 key ？原因是在 LRUCache 执行删除操作的时候，需要维护 2 个数据结构，一个是 map，一个是双向链表。在双向链表中删除淘汰出去的 value，在 map 中删除淘汰出去 value 对应的 key。如果在双向链表的 value 中不存储 key，那么再删除 map 中的 key 的时候有点麻烦。如果硬要实现，需要先获取到双向链表这个结点 Element 的地址。然后遍历 map，在 map 中找到存有这个 Element 元素地址对应的 key，再删除。这样做时间复杂度是 O(n)，做不到 O(1)。所以双向链表中的 Value 需要存储这个 pair。
+为什么要存 pair 呢？单单只存 v 不行么，为什么还要存一份 key ？原因是在 LRUCache 执行删除操作的时候，需要维护 2 个数据结构，一个是 map，一个是双向链表。在双向链表中删除淘汰出去的 value，在 map 中删除淘汰出去 value 对应的 key。如果在双向链表的 value 中不存储 key，那么再删除 map 中的 key 的时候有点麻烦。如果硬要实现，需要先获取到双向链表这个结点 Element 的地址。然后遍历 map，在 map 中找到存有这个 Element 元素地址对应的 key，再删除。这样做时间复杂度是 O(n)，做不到 O(1)。所以双向链表中的 Value 需要存储这个 pair。
 
 LRUCache 的 Get 操作很简单，在 map 中直接读取双向链表的结点。如果 map 中存在，将它移动到双向链表的表头，并返回它的 value 值，如果 map 中不存在，返回 -1。
 
