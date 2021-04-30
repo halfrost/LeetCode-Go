@@ -1,9 +1,11 @@
 package leetcode
 
 func isUgly(num int) bool {
-	for i := 2; i < 6 && num > 0; i++ {
-		for num%i == 0 {
-			num /= i
+	if num > 0 {
+		for _, i := range []int{2, 3, 5} {
+			for num%i == 0 {
+				num /= i
+			}
 		}
 	}
 	return num == 1
