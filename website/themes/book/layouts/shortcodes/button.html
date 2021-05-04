@@ -8,5 +8,5 @@
   {{ $ref = relref $ . }}
 {{ end }}
 <a {{ with $ref }} href="{{.}}" {{ end }} {{ with $target }} target="{{.}}" {{ end }} class="book-btn{{ with .Get "class" }} {{ . }}{{ end }}">
-  {{ $.Inner }}
+  {{ $.Inner | markdownify }}
 </a>

@@ -12,15 +12,15 @@
 }
 
 :hover::-webkit-scrollbar-thumb {
-  background: $gray-500;
+  background: var(--gray-500);
 }
 
 // MS
 body {
-  -ms-overflow-style: -ms-autohiding-scrollbar
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 // Future
 .book-menu nav {
-  scrollbar-color: transparent $gray-500;
+  scrollbar-color: transparent var(--gray-500);
 }

@@ -1,0 +1,14 @@
+- id: Search
+  translation: অনুসন্ধান
+
+- id: Edit this page
+  translation: এই পৃষ্ঠাটি সম্পাদনা করুন
+
+- id: Last modified by
+  translation: সর্বশেষ সম্পাদনা করেছেন
+
+- id: Expand
+  translation: বিস্তৃত করা
+
+- id: bookSearchConfig
+  translation: '{ cache: true }'
