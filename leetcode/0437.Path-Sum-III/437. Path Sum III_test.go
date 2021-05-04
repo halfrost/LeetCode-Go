@@ -45,7 +45,7 @@ func Test_Problem437(t *testing.T) {
 		_, p := q.ans437, q.para437
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", pathSumIII(root, p.sum))
+		fmt.Printf("【output】:%v      \n", pathSum(root, p.sum))
 	}
 	fmt.Printf("\n\n\n")
 }
