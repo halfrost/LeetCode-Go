@@ -125,6 +125,14 @@ ul.pagination {
   input.toggle:checked + label + ul {
     display: block;
   }
+
+  input.toggle + label::after {
+    content: "▸";
+  }
+
+  input.toggle:checked + label::after {
+    content: "▾";
+  }
 }
 
 .book-section-flat {
