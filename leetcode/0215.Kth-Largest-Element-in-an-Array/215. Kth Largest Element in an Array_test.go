@@ -28,6 +28,11 @@ func Test_Problem215(t *testing.T) {
 	qs := []question215{
 
 		{
+			para215{[]int{3, 2, 1}, 2},
+			ans215{2},
+		},
+
+		{
 			para215{[]int{3, 2, 1, 5, 6, 4}, 2},
 			ans215{5},
 		},
