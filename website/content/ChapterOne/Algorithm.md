@@ -30,5 +30,5 @@ weight: 2
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterOne/Data_Structure/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/">下一章➡️</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterOne/Time_Complexity/">下一页➡️</a></p>
 </div>
