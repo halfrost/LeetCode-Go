@@ -214,7 +214,7 @@ ul.pagination {
 }
 
 .book-toc {
-  flex: 0 0 $toc-width;
+  // flex: 0 0 $toc-width; // 使 toc 靠右贴边
   font-size: $font-size-12;
 
   .book-toc-content {
