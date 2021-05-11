@@ -1,57 +1,45 @@
 package leetcode
 
 import (
-	"fmt"
 	"testing"
 )
 
-type question3 struct {
-	para3
-	ans3
-}
-
-// para 是参数
-// one 代表第一个参数
-type para3 struct {
-	s string
-}
-
-// ans 是答案
-// one 代表第一个答案
-type ans3 struct {
-	one int
-}
-
-func Test_Problem3(t *testing.T) {
-
-	qs := []question3{
-
+func Test_lengthOfLongestSubstring(t *testing.T) {
+	type args struct {
+		s string
+	}
+	tests := []struct {
+		name string
+		args args
+		want int
+	}{
 		{
-			para3{"abcabcbb"},
-			ans3{3},
+			name: "case 1",
+			args: args{
+				"abcabcbb",
+			},
+			want: 3,
 		},
-
 		{
-			para3{"bbbbb"},
-			ans3{1},
+			name: "case 2",
+			args: args{
+				"abba",
+			},
+			want: 2,
 		},
-
 		{
-			para3{"pwwkew"},
-			ans3{3},
-		},
-
-		{
-			para3{""},
-			ans3{0},
+			name: "case 3",
+			args: args{
+				"",
+			},
+			want: 1,
 		},
 	}
-
-	fmt.Printf("------------------------Leetcode Problem 3------------------------\n")
-
-	for _, q := range qs {
-		_, p := q.ans3, q.para3
-		fmt.Printf("【input】:%v       【output】:%v\n", p, lengthOfLongestSubstring_(p.s))
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := lengthOfLongestSubstring(tt.args.s); got != tt.want {
+				t.Errorf("lengthOfLongestSubstring() = %v, want %v", got, tt.want)
+			}
+		})
 	}
-	fmt.Printf("\n\n\n")
 }

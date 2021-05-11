@@ -1,50 +1,34 @@
 package leetcode
 
-// 解法一 位图
-func lengthOfLongestSubstring(s string) int {
-	if len(s) == 0 {
-		return 0
-	}
-	var bitSet [256]bool
-	result, left, right := 0, 0, 0
+// 解法一 滑动窗口-数组桶
+func lengthOfLongestSubstring1(s string) int {
+	right, left, res := 0, 0, 0
+	var m [256]int
 	for left < len(s) {
-		// 右侧字符对应的bitSet被标记true，说明此字符在X位置重复，需要左侧向前移动，直到将X标记为false
-		if bitSet[s[right]] {
-			bitSet[s[left]] = false
-			left++
-		} else {
-			bitSet[s[right]] = true
-			right++
+		tmp := m[s[left]-'a']
+		if tmp >= right {
+			right = tmp + 1
 		}
-		if result < right-left {
-			result = right - left
-		}
-		if left+result >= len(s) || right >= len(s) {
-			break
-		}
+		m[s[left]-'a'] = left
+		left++
+		res = max(res, left-right)
 	}
-	return result
+	return res
 }
 
-// 解法二 滑动窗口
-func lengthOfLongestSubstring_(s string) int {
-	if len(s) == 0 {
-		return 0
-	}
-	var freq [256]int
-	result, left, right := 0, 0, -1
-
+// 解法二 滑动窗口-哈希桶
+func lengthOfLongestSubstring(s string) int {
+	right, left, res := 0, 0, 0
+	m := make(map[byte]int, len(s))
 	for left < len(s) {
-		if right+1 < len(s) && freq[s[right+1]-'a'] == 0 {
-			freq[s[right+1]-'a']++
-			right++
-		} else {
-			freq[s[left]-'a']--
-			left++
+		if idx, ok := m[s[left]]; ok && idx >= right {
+			right = idx + 1
 		}
-		result = max(result, right-left+1)
+		m[s[left]] = left
+		left++
+		res = max(res, left-right)
 	}
-	return result
+	return res
 }
 
 func max(a int, b int) int {
