@@ -24,6 +24,6 @@ weight: 2
 
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterOne/Algorithm/">⬅️上一章</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterOne/Time_Complexity/">⬅️上一章</a></p>
 <p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Array/">下一页➡️</a></p>
 </div>
