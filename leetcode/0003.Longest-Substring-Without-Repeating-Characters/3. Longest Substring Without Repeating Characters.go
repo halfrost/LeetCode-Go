@@ -26,25 +26,35 @@ func lengthOfLongestSubstring(s string) int {
 	return result
 }
 
-// 解法二 滑动窗口
-func lengthOfLongestSubstring_(s string) int {
-	if len(s) == 0 {
-		return 0
-	}
-	var freq [256]int
-	result, left, right := 0, 0, -1
-
+// 解法二 滑动窗口-数组桶
+func lengthOfLongestSubstring1(s string) int {
+	right, left, res := 0, 0, 0
+	var indexes [256]int
 	for left < len(s) {
-		if right+1 < len(s) && freq[s[right+1]-'a'] == 0 {
-			freq[s[right+1]-'a']++
-			right++
-		} else {
-			freq[s[left]-'a']--
-			left++
+		tmp := indexes[s[left]-'a']
+		if tmp >= right {
+			right = tmp + 1
 		}
-		result = max(result, right-left+1)
+		indexes[s[left]-'a'] = left
+		left++
+		res = max(res, left-right)
 	}
-	return result
+	return res
+}
+
+// 解法二 滑动窗口-哈希桶
+func lengthOfLongestSubstring2(s string) int {
+	right, left, res := 0, 0, 0
+	indexes := make(map[byte]int, len(s))
+	for left < len(s) {
+		if idx, ok := indexes[s[left]]; ok && idx >= right {
+			right = idx + 1
+		}
+		indexes[s[left]] = left
+		left++
+		res = max(res, left-right)
+	}
+	return res
 }
 
 func max(a int, b int) int {
