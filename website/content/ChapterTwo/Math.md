@@ -61,7 +61,7 @@ weight: 12
 |0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||43.3%|
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.3%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||28.9%|
-|0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||71.1%|
+|0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||71.2%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||33.2%|
 |0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||60.0%|

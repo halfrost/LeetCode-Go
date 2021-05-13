@@ -46,7 +46,7 @@ weight: 14
 |1054|Distant Barcodes|[Go]({{< relref "/ChapterFour/1000~1099/1054.Distant-Barcodes.md" >}})|Medium| O(n log n)| O(log n) |❤️|44.4%|
 |1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1100~1199/1122.Relative-Sort-Array.md" >}})|Easy||||68.1%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.9%|
-|1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||77.8%|
+|1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||77.9%|
 |1329|Sort the Matrix Diagonally|[Go]({{< relref "/ChapterFour/1300~1399/1329.Sort-the-Matrix-Diagonally.md" >}})|Medium||||81.6%|
 |1353|Maximum Number of Events That Can Be Attended|[Go]({{< relref "/ChapterFour/1300~1399/1353.Maximum-Number-of-Events-That-Can-Be-Attended.md" >}})|Medium||||30.6%|
 |1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||67.0%|
