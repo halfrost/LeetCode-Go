@@ -19,9 +19,9 @@ weight: 12
 |0043|Multiply Strings|[Go]({{< relref "/ChapterFour/0001~0099/0043.Multiply-Strings.md" >}})|Medium||||35.3%|
 |0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||31.2%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||39.7%|
-|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.5%|
+|0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||47.6%|
 |0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0001~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||35.6%|
-|0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||32.0%|
+|0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||32.1%|
 |0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||57.3%|
 |0172|Factorial Trailing Zeroes|[Go]({{< relref "/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes.md" >}})|Easy||||38.9%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||51.5%|
@@ -52,14 +52,14 @@ weight: 12
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.4%|
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||50.4%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.7%|
-|0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.7%|
+|0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.8%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||40.9%|
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.7%|
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||46.2%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||55.9%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.2%|
 |0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||43.3%|
-|0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.2%|
+|0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.3%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||28.9%|
 |0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium| O(n^2)| O(1)||71.1%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
@@ -69,18 +69,18 @@ weight: 12
 |0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||33.9%|
 |0927|Three Equal Parts|[Go]({{< relref "/ChapterFour/0900~0999/0927.Three-Equal-Parts.md" >}})|Hard||||34.7%|
 |0942|DI String Match|[Go]({{< relref "/ChapterFour/0900~0999/0942.DI-String-Match.md" >}})|Easy| O(n)| O(1)||73.9%|
-|0949|Largest Time for Given Digits|[Go]({{< relref "/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits.md" >}})|Medium||||36.1%|
+|0949|Largest Time for Given Digits|[Go]({{< relref "/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits.md" >}})|Medium||||36.2%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard||||36.4%|
 |0970|Powerful Integers|[Go]({{< relref "/ChapterFour/0900~0999/0970.Powerful-Integers.md" >}})|Medium||||43.4%|
-|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||59.4%|
+|0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||59.5%|
 |0991|Broken Calculator|[Go]({{< relref "/ChapterFour/0900~0999/0991.Broken-Calculator.md" >}})|Medium||||49.7%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.5%|
-|1006|Clumsy Factorial|[Go]({{< relref "/ChapterFour/1000~1099/1006.Clumsy-Factorial.md" >}})|Medium||||53.8%|
+|1006|Clumsy Factorial|[Go]({{< relref "/ChapterFour/1000~1099/1006.Clumsy-Factorial.md" >}})|Medium||||53.9%|
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||59.3%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.5%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.9%|
-|1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||48.4%|
+|1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||48.3%|
 |1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.2%|
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||51.7%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.5%|

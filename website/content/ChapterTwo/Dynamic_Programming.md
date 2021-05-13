@@ -17,7 +17,7 @@ weight: 7
 |0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||35.9%|
 |0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||56.7%|
 |0070|Climbing Stairs|[Go]({{< relref "/ChapterFour/0001~0099/0070.Climbing-Stairs.md" >}})|Easy| O(n)| O(n)||48.9%|
-|0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||27.1%|
+|0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||27.2%|
 |0095|Unique Binary Search Trees II|[Go]({{< relref "/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II.md" >}})|Medium||||43.3%|
 |0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium| O(n)| O(n)||54.9%|
 |0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||40.2%|
@@ -30,8 +30,8 @@ weight: 7
 |0213|House Robber II|[Go]({{< relref "/ChapterFour/0200~0299/0213.House-Robber-II.md" >}})|Medium| O(n)| O(n)||37.8%|
 |0264|Ugly Number II|[Go]({{< relref "/ChapterFour/0200~0299/0264.Ugly-Number-II.md" >}})|Medium||||43.1%|
 |0300|Longest Increasing Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0300.Longest-Increasing-Subsequence.md" >}})|Medium| O(n log n)| O(n)||44.8%|
-|0303|Range Sum Query - Immutable|[Go]({{< relref "/ChapterFour/0300~0399/0303.Range-Sum-Query-Immutable.md" >}})|Easy||||48.7%|
-|0304|Range Sum Query 2D - Immutable|[Go]({{< relref "/ChapterFour/0300~0399/0304.Range-Sum-Query-2D-Immutable.md" >}})|Medium||||42.4%|
+|0303|Range Sum Query - Immutable|[Go]({{< relref "/ChapterFour/0300~0399/0303.Range-Sum-Query-Immutable.md" >}})|Easy||||48.8%|
+|0304|Range Sum Query 2D - Immutable|[Go]({{< relref "/ChapterFour/0300~0399/0304.Range-Sum-Query-2D-Immutable.md" >}})|Medium||||43.4%|
 |0309|Best Time to Buy and Sell Stock with Cooldown|[Go]({{< relref "/ChapterFour/0300~0399/0309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown.md" >}})|Medium| O(n)| O(n)||48.6%|
 |0322|Coin Change|[Go]({{< relref "/ChapterFour/0300~0399/0322.Coin-Change.md" >}})|Medium| O(n)| O(n)||37.9%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||52.1%|
@@ -63,7 +63,7 @@ weight: 7
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||46.3%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||65.0%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.5%|
-|1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.8%|
+|1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.7%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||47.9%|
 |1423|Maximum Points You Can Obtain from Cards|[Go]({{< relref "/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards.md" >}})|Medium||||48.3%|
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||68.7%|

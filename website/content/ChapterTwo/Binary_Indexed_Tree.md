@@ -10,7 +10,7 @@ weight: 19
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0200~0299/0218.The-Skyline-Problem.md" >}})|Hard||||36.8%|
+|0218|The Skyline Problem|[Go]({{< relref "/ChapterFour/0200~0299/0218.The-Skyline-Problem.md" >}})|Hard||||36.9%|
 |0307|Range Sum Query - Mutable|[Go]({{< relref "/ChapterFour/0300~0399/0307.Range-Sum-Query-Mutable.md" >}})|Medium||||37.2%|
 |0315|Count of Smaller Numbers After Self|[Go]({{< relref "/ChapterFour/0300~0399/0315.Count-of-Smaller-Numbers-After-Self.md" >}})|Hard||||42.3%|
 |0327|Count of Range Sum|[Go]({{< relref "/ChapterFour/0300~0399/0327.Count-of-Range-Sum.md" >}})|Hard||||36.3%|
