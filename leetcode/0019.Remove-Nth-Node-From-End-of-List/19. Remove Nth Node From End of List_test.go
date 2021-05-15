@@ -31,7 +31,7 @@ func Test_Problem19(t *testing.T) {
 
 		{
 			para19{[]int{1}, 3},
-			ans19{[]int{2}},
+			ans19{[]int{1}},
 		},
 
 		{
