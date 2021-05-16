@@ -17,31 +17,18 @@ type ListNode = structures.ListNode
 
 // 解法一
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	if head == nil {
-		return nil
-	}
-	var fast, slow *ListNode
-	fast = head
-	slow = head
-	step := 0
-	for i := 0; i < n; i++ {
-		// n maybe much larger than length of linklist
-		if fast.Next == nil && step < n-1 {
-			return head
+	dummyHead := &ListNode{Next: head}
+	preSlow, slow, fast := dummyHead, head, head
+	for fast != nil {
+		if n <= 0 {
+			preSlow = slow
+			slow = slow.Next
 		}
+		n--
 		fast = fast.Next
-		step++
 	}
-	if fast == nil {
-		head = head.Next
-		return head
-	}
-	for fast.Next != nil {
-		fast = fast.Next
-		slow = slow.Next
-	}
-	slow.Next = slow.Next.Next
-	return head
+	preSlow.Next = slow.Next
+	return dummyHead.Next
 }
 
 // 解法二
