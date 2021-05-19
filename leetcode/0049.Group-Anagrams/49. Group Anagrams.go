@@ -2,6 +2,23 @@ package leetcode
 
 import "sort"
 
+// 方法1 桶排序
+func groupAnagrams(strs []string) [][]string {
+	mp := make(map[[26]int][]string)
+	for _, str := range strs {
+		cnt := [26]int{}
+		for _, s := range str {
+			cnt[s-'a']++
+		}
+		mp[cnt] = append(mp[cnt], str)
+	}
+	res := make([][]string, 0, len(mp))
+	for _, r := range mp {
+		res = append(res, r)
+	}
+	return res
+}
+
 type sortRunes []rune
 
 func (s sortRunes) Less(i, j int) bool {
@@ -16,7 +33,8 @@ func (s sortRunes) Len() int {
 	return len(s)
 }
 
-func groupAnagrams(strs []string) [][]string {
+// 方法2 排序
+func groupAnagramsI(strs []string) [][]string {
 	record, res := map[string][]string{}, [][]string{}
 	for _, str := range strs {
 		sByte := []rune(str)
