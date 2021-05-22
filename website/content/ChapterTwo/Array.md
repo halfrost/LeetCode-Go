@@ -169,7 +169,7 @@ weight: 1
 |1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||67.1%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||59.6%|
 |1646|Get Maximum in Generated Array|[Go]({{< relref "/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array.md" >}})|Easy||||53.0%|
-|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1600~1699/1652.Defuse-the-Bomb.md" >}})|Easy||||61.0%|
+|1652|Defuse the Bomb|[Go]({{< relref "/ChapterFour/1600~1699/1652.Defuse-the-Bomb.md" >}})|Easy||||60.9%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.2%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1600~1699/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.1%|
 |1700|Number of Students Unable to Eat Lunch|[Go]({{< relref "/ChapterFour/1700~1799/1700.Number-of-Students-Unable-to-Eat-Lunch.md" >}})|Easy||||67.6%|

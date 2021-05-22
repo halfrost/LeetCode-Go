@@ -36,7 +36,7 @@ weight: 16
 |0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium| O(n)| O(n)||55.8%|
 |0952|Largest Component Size by Common Factor|[Go]({{< relref "/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor.md" >}})|Hard| O(n)| O(n)|❤️|36.5%|
 |0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium| O(n^2)| O(n^2)|❤️|67.4%|
-|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0900~0999/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||47.1%|
+|0990|Satisfiability of Equality Equations|[Go]({{< relref "/ChapterFour/0900~0999/0990.Satisfiability-of-Equality-Equations.md" >}})|Medium| O(n)| O(n)||47.2%|
 |1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps.md" >}})|Medium||||49.3%|
 |1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.5%|
 |1579|Remove Max Number of Edges to Keep Graph Fully Traversable|[Go]({{< relref "/ChapterFour/1500~1599/1579.Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable.md" >}})|Hard||||46.5%|

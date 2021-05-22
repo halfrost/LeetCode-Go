@@ -58,6 +58,7 @@ weight: 12
 |0753|Cracking the Safe|[Go]({{< relref "/ChapterFour/0700~0799/0753.Cracking-the-Safe.md" >}})|Hard||||52.8%|
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||46.2%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||56.0%|
+|0810|Chalkboard XOR Game|[Go]({{< relref "/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game.md" >}})|Hard||||50.7%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.2%|
 |0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||43.1%|
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.2%|
@@ -82,7 +83,7 @@ weight: 12
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.5%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.8%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||48.3%|
-|1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.4%|
+|1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||49.3%|
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||51.8%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.5%|
 |1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.8%|
@@ -95,7 +96,7 @@ weight: 12
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||75.2%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.8%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.3%|
-|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||63.3%|
+|1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||63.4%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||64.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 

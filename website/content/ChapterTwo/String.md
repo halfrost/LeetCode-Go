@@ -31,7 +31,7 @@ weight: 2
 |0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||40.2%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0100~0199/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||38.8%|
 |0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard| O(n)| O(n^2)|❤️|24.0%|
-|0151|Reverse Words in a String|[Go]({{< relref "/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String.md" >}})|Medium||||24.5%|
+|0151|Reverse Words in a String|[Go]({{< relref "/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String.md" >}})|Medium||||24.6%|
 |0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.0%|
 |0344|Reverse String|[Go]({{< relref "/ChapterFour/0300~0399/0344.Reverse-String.md" >}})|Easy| O(n)| O(1)||71.0%|
 |0345|Reverse Vowels of a String|[Go]({{< relref "/ChapterFour/0300~0399/0345.Reverse-Vowels-of-a-String.md" >}})|Easy| O(n)| O(1)||45.4%|
