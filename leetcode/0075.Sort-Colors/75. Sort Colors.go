@@ -1,28 +1,16 @@
 package leetcode
 
 func sortColors(nums []int) {
-	if len(nums) == 0 {
-		return
-	}
-
-	r := 0
-	w := 0
-	b := 0 // label the end of different colors;
-	for _, num := range nums {
-		if num == 0 {
-			nums[b] = 2
-			b++
-			nums[w] = 1
-			w++
-			nums[r] = 0
-			r++
-		} else if num == 1 {
-			nums[b] = 2
-			b++
-			nums[w] = 1
-			w++
-		} else if num == 2 {
-			b++
+	zero, one := 0, 0
+	for i, n := range nums {
+		nums[i] = 2
+		if n <= 1 {
+			nums[one] = 1
+			one++
+		}
+		if n == 0 {
+			nums[zero] = 0
+			zero++
 		}
 	}
 }
