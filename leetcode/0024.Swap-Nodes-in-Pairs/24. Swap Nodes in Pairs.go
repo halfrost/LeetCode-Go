@@ -16,30 +16,9 @@ type ListNode = structures.ListNode
  */
 
 func swapPairs(head *ListNode) *ListNode {
-	if head == nil || head.Next == nil {
-		return head
+	dummy := &ListNode{Next: head}
+	for pt := dummy; pt != nil && pt.Next != nil && pt.Next.Next != nil; {
+		pt, pt.Next, pt.Next.Next, pt.Next.Next.Next = pt.Next, pt.Next.Next, pt.Next.Next.Next, pt.Next
 	}
-	s := head.Next
-	var behind *ListNode
-	for head.Next != nil {
-		headNext := head.Next
-		if behind != nil && behind.Next != nil {
-			behind.Next = headNext
-		}
-		var next *ListNode
-		if head.Next.Next != nil {
-			next = head.Next.Next
-		}
-		if head.Next.Next != nil {
-			head.Next = next
-		} else {
-			head.Next = nil
-		}
-		headNext.Next = head
-		behind = head
-		if head.Next != nil {
-			head = next
-		}
-	}
-	return s
+	return dummy.Next
 }
