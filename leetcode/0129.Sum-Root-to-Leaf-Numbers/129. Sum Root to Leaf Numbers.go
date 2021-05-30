@@ -1,10 +1,6 @@
 package leetcode
 
 import (
-	"strconv"
-)
-
-import (
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 
@@ -21,29 +17,20 @@ type TreeNode = structures.TreeNode
  */
 
 func sumNumbers(root *TreeNode) int {
-	res, nums := 0, binaryTreeNums(root)
-	for _, n := range nums {
-		num, _ := strconv.Atoi(n)
-		res += num
-	}
+	res := 0
+	dfs(root, 0, &res)
 	return res
 }
 
-func binaryTreeNums(root *TreeNode) []string {
+func dfs(root *TreeNode, sum int, res *int) {
 	if root == nil {
-		return []string{}
+		return
 	}
-	res := []string{}
+	sum = sum*10 + root.Val
 	if root.Left == nil && root.Right == nil {
-		return []string{strconv.Itoa(root.Val)}
+		*res += sum
+		return
 	}
-	tmpLeft := binaryTreeNums(root.Left)
-	for i := 0; i < len(tmpLeft); i++ {
-		res = append(res, strconv.Itoa(root.Val)+tmpLeft[i])
-	}
-	tmpRight := binaryTreeNums(root.Right)
-	for i := 0; i < len(tmpRight); i++ {
-		res = append(res, strconv.Itoa(root.Val)+tmpRight[i])
-	}
-	return res
+	dfs(root.Left, sum, res)
+	dfs(root.Right, sum, res)
 }
