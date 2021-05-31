@@ -47,7 +47,7 @@ func generateBoard(n int, row *[]int) []string {
 	return board
 }
 
-// 解法二 二进制操作法
+// 解法二 二进制操作法 Signed-off-by: Hanlin Shi shihanlin9@gmail.com
 func solveNQueens2(n int) (res [][]string) {
 	placements := make([]string, n)
 	for i := range placements {
@@ -61,7 +61,6 @@ func solveNQueens2(n int) (res [][]string) {
 		}
 		placements[i] = string(buf)
 	}
-
 	var construct func(prev []int)
 	construct = func(prev []int) {
 		if len(prev) == n {
@@ -72,14 +71,12 @@ func solveNQueens2(n int) (res [][]string) {
 			res = append(res, plan)
 			return
 		}
-
 		occupied := 0
 		for i := range prev {
 			dist := len(prev) - i
 			bit := 1 << prev[i]
 			occupied |= bit | bit<<dist | bit>>dist
 		}
-
 		prev = append(prev, -1)
 		for i := 0; i < n; i++ {
 			if (occupied>>i)&1 != 0 {
@@ -89,7 +86,6 @@ func solveNQueens2(n int) (res [][]string) {
 			construct(prev)
 		}
 	}
-
 	construct(make([]int, 0, n))
 	return
 }
