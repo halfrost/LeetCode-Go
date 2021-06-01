@@ -17,33 +17,23 @@ type TreeNode = structures.TreeNode
  */
 
 func rightSideView(root *TreeNode) []int {
+	res := []int{}
 	if root == nil {
-		return []int{}
+		return res
 	}
-	queue := []*TreeNode{}
-	queue = append(queue, root)
-	curNum, nextLevelNum, res, tmp := 1, 0, []int{}, []int{}
-	for len(queue) != 0 {
-		if curNum > 0 {
-			node := queue[0]
-			if node.Left != nil {
-				queue = append(queue, node.Left)
-				nextLevelNum++
+	queue := []*TreeNode{root}
+	for len(queue) > 0 {
+		n := len(queue)
+		for i := 0; i < n; i++ {
+			if queue[i].Left != nil {
+				queue = append(queue, queue[i].Left)
 			}
-			if node.Right != nil {
-				queue = append(queue, node.Right)
-				nextLevelNum++
+			if queue[i].Right != nil {
+				queue = append(queue, queue[i].Right)
 			}
-			curNum--
-			tmp = append(tmp, node.Val)
-			queue = queue[1:]
 		}
-		if curNum == 0 {
-			res = append(res, tmp[len(tmp)-1])
-			curNum = nextLevelNum
-			nextLevelNum = 0
-			tmp = []int{}
-		}
+		res = append(res, queue[n-1].Val)
+		queue = queue[n:]
 	}
 	return res
 }
