@@ -71,7 +71,7 @@ weight: 9
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.6%|
 |0938|Range Sum of BST|[Go]({{< relref "/ChapterFour/0900~0999/0938.Range-Sum-of-BST.md" >}})|Easy||||83.4%|
 |0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||55.8%|
-|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.4%|
+|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.5%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||40.5%|
 |0971|Flip Binary Tree To Match Preorder Traversal|[Go]({{< relref "/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal.md" >}})|Medium||||49.9%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||70.1%|
@@ -84,8 +84,8 @@ weight: 9
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||68.1%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.4%|
 |1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.2%|
-|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||48.4%|
-|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||62.0%|
+|1203|Sort Items by Groups Respecting Dependencies|[Go]({{< relref "/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies.md" >}})|Hard||||48.3%|
+|1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||62.1%|
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||85.4%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||61.8%|
 |1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.5%|

@@ -32,7 +32,7 @@ weight: 13
 |0347|Top K Frequent Elements|[Go]({{< relref "/ChapterFour/0300~0399/0347.Top-K-Frequent-Elements.md" >}})|Medium|  O(n)| O(n) ||62.9%|
 |0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||65.9%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||52.4%|
-|0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||54.3%|
+|0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||54.4%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||58.1%|
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||52.4%|
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium| O(n)| O(1) ||45.5%|
@@ -42,6 +42,7 @@ weight: 13
 |0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0400~0499/0463.Island-Perimeter.md" >}})|Easy||||67.1%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500~0599/0500.Keyboard-Row.md" >}})|Easy||||66.2%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||59.7%|
+|0525|Contiguous Array|[Go]({{< relref "/ChapterFour/0500~0599/0525.Contiguous-Array.md" >}})|Medium||||43.8%|
 |0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.6%|
 |0554|Brick Wall|[Go]({{< relref "/ChapterFour/0500~0599/0554.Brick-Wall.md" >}})|Medium||||51.7%|
 |0575|Distribute Candies|[Go]({{< relref "/ChapterFour/0500~0599/0575.Distribute-Candies.md" >}})|Easy||||64.5%|
@@ -53,7 +54,7 @@ weight: 13
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0600~0699/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||59.6%|
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.5%|
 |0690|Employee Importance|[Go]({{< relref "/ChapterFour/0600~0699/0690.Employee-Importance.md" >}})|Easy||||59.4%|
-|0692|Top K Frequent Words|[Go]({{< relref "/ChapterFour/0600~0699/0692.Top-K-Frequent-Words.md" >}})|Medium||||53.4%|
+|0692|Top K Frequent Words|[Go]({{< relref "/ChapterFour/0600~0699/0692.Top-K-Frequent-Words.md" >}})|Medium||||53.5%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0700~0799/0705.Design-HashSet.md" >}})|Easy||||64.3%|
 |0706|Design HashMap|[Go]({{< relref "/ChapterFour/0700~0799/0706.Design-HashMap.md" >}})|Easy||||64.0%|
 |0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard| O(n)| O(n)  ||33.2%|
@@ -75,7 +76,7 @@ weight: 13
 |0981|Time Based Key-Value Store|[Go]({{< relref "/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store.md" >}})|Medium||||54.5%|
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.2%|
 |0992|Subarrays with K Different Integers|[Go]({{< relref "/ChapterFour/0900~0999/0992.Subarrays-with-K-Different-Integers.md" >}})|Hard| O(n)| O(n)  |❤️|51.4%|
-|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.7%|
+|1002|Find Common Characters|[Go]({{< relref "/ChapterFour/1000~1099/1002.Find-Common-Characters.md" >}})|Easy||||68.8%|
 |1048|Longest String Chain|[Go]({{< relref "/ChapterFour/1000~1099/1048.Longest-String-Chain.md" >}})|Medium||||56.1%|
 |1078|Occurrences After Bigram|[Go]({{< relref "/ChapterFour/1000~1099/1078.Occurrences-After-Bigram.md" >}})|Easy||||64.9%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.9%|

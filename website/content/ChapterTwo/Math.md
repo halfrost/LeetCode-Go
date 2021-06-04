@@ -49,6 +49,7 @@ weight: 12
 |0478|Generate Random Point in a Circle|[Go]({{< relref "/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle.md" >}})|Medium||||39.1%|
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0400~0499/0483.Smallest-Good-Base.md" >}})|Hard||||36.5%|
 |0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||36.5%|
+|0523|Continuous Subarray Sum|[Go]({{< relref "/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum.md" >}})|Medium||||25.2%|
 |0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.6%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||68.5%|
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||50.4%|
@@ -78,7 +79,7 @@ weight: 12
 |0991|Broken Calculator|[Go]({{< relref "/ChapterFour/0900~0999/0991.Broken-Calculator.md" >}})|Medium||||49.8%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard| O(n log n)| O(n) ||48.6%|
 |1006|Clumsy Factorial|[Go]({{< relref "/ChapterFour/1000~1099/1006.Clumsy-Factorial.md" >}})|Medium||||54.0%|
-|1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||59.4%|
+|1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||59.3%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
 |1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.4%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.7%|
@@ -94,10 +95,11 @@ weight: 12
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.6%|
 |1551|Minimum Operations to Make Array Equal|[Go]({{< relref "/ChapterFour/1500~1599/1551.Minimum-Operations-to-Make-Array-Equal.md" >}})|Medium||||80.6%|
 |1641|Count Sorted Vowel Strings|[Go]({{< relref "/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings.md" >}})|Medium||||75.1%|
-|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.8%|
+|1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.9%|
 |1680|Concatenation of Consecutive Binary Numbers|[Go]({{< relref "/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers.md" >}})|Medium||||52.2%|
 |1685|Sum of Absolute Differences in a Sorted Array|[Go]({{< relref "/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array.md" >}})|Medium||||63.4%|
 |1716|Calculate Money in Leetcode Bank|[Go]({{< relref "/ChapterFour/1700~1799/1716.Calculate-Money-in-Leetcode-Bank.md" >}})|Easy||||64.2%|
+|1744|Can You Eat Your Favorite Candy on Your Favorite Day?|[Go]({{< relref "/ChapterFour/1700~1799/1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day.md" >}})|Medium||||31.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

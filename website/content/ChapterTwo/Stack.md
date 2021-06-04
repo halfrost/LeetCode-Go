@@ -31,9 +31,9 @@ weight: 5
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.5%|
 |0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||48.4%|
 |0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.1%|
-|0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||53.2%|
+|0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||53.3%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||41.3%|
-|0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||56.2%|
+|0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||56.3%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.8%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||53.4%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium| O(n)| O(1)||28.7%|

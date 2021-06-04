@@ -30,7 +30,7 @@ weight: 10
 |0785|Is Graph Bipartite?|[Go]({{< relref "/ChapterFour/0700~0799/0785.Is-Graph-Bipartite.md" >}})|Medium||||49.0%|
 |0815|Bus Routes|[Go]({{< relref "/ChapterFour/0800~0899/0815.Bus-Routes.md" >}})|Hard||||43.7%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0800~0899/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||58.5%|
-|0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||42.8%|
+|0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||42.9%|
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||39.2%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||52.4%|
 |1091|Shortest Path in Binary Matrix|[Go]({{< relref "/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix.md" >}})|Medium||||40.5%|
