@@ -11,7 +11,6 @@ func mySqrt(x int) int {
 			l = mid
 		}
 	}
-
 	return l
 }
 
