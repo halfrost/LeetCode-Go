@@ -53,7 +53,7 @@ weight: 13
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||40.9%|
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0600~0699/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||59.7%|
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium| O(n)| O(n) ||55.5%|
-|0690|Employee Importance|[Go]({{< relref "/ChapterFour/0600~0699/0690.Employee-Importance.md" >}})|Easy||||59.6%|
+|0690|Employee Importance|[Go]({{< relref "/ChapterFour/0600~0699/0690.Employee-Importance.md" >}})|Easy||||59.7%|
 |0692|Top K Frequent Words|[Go]({{< relref "/ChapterFour/0600~0699/0692.Top-K-Frequent-Words.md" >}})|Medium||||53.5%|
 |0705|Design HashSet|[Go]({{< relref "/ChapterFour/0700~0799/0705.Design-HashSet.md" >}})|Easy||||64.1%|
 |0706|Design HashMap|[Go]({{< relref "/ChapterFour/0700~0799/0706.Design-HashMap.md" >}})|Easy||||64.0%|

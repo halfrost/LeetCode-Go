@@ -43,7 +43,7 @@ weight: 7
 |0368|Largest Divisible Subset|[Go]({{< relref "/ChapterFour/0300~0399/0368.Largest-Divisible-Subset.md" >}})|Medium||||38.6%|
 |0376|Wiggle Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0376.Wiggle-Subsequence.md" >}})|Medium||||42.5%|
 |0377|Combination Sum IV|[Go]({{< relref "/ChapterFour/0300~0399/0377.Combination-Sum-IV.md" >}})|Medium||||47.3%|
-|0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0392.Is-Subsequence.md" >}})|Easy| O(n)| O(1)||49.7%|
+|0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0392.Is-Subsequence.md" >}})|Easy| O(n)| O(1)||49.8%|
 |0410|Split Array Largest Sum|[Go]({{< relref "/ChapterFour/0400~0499/0410.Split-Array-Largest-Sum.md" >}})|Hard||||47.2%|
 |0413|Arithmetic Slices|[Go]({{< relref "/ChapterFour/0400~0499/0413.Arithmetic-Slices.md" >}})|Medium||||60.2%|
 |0416|Partition Equal Subset Sum|[Go]({{< relref "/ChapterFour/0400~0499/0416.Partition-Equal-Subset-Sum.md" >}})|Medium| O(n^2)| O(n)||45.2%|
@@ -61,7 +61,7 @@ weight: 7
 |0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0900~0999/0920.Number-of-Music-Playlists.md" >}})|Hard||||48.4%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||40.6%|
 |0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.7%|
-|1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.1%|
+|1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.2%|
 |1048|Longest String Chain|[Go]({{< relref "/ChapterFour/1000~1099/1048.Longest-String-Chain.md" >}})|Medium||||56.1%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||47.2%|
 |1074|Number of Submatrices That Sum to Target|[Go]({{< relref "/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target.md" >}})|Hard||||65.2%|
