@@ -33,6 +33,7 @@ weight: 12
 |0263|Ugly Number|[Go]({{< relref "/ChapterFour/0200~0299/0263.Ugly-Number.md" >}})|Easy| O(log n)| O(1)||41.7%|
 |0264|Ugly Number II|[Go]({{< relref "/ChapterFour/0200~0299/0264.Ugly-Number-II.md" >}})|Medium||||43.2%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||56.0%|
+|0279|Perfect Squares|[Go]({{< relref "/ChapterFour/0200~0299/0279.Perfect-Squares.md" >}})|Medium||||49.7%|
 |0326|Power of Three|[Go]({{< relref "/ChapterFour/0300~0399/0326.Power-of-Three.md" >}})|Easy| O(1)| O(1)||42.5%|
 |0343|Integer Break|[Go]({{< relref "/ChapterFour/0300~0399/0343.Integer-Break.md" >}})|Medium| O(n^2)| O(n)||51.5%|
 |0357|Count Numbers with Unique Digits|[Go]({{< relref "/ChapterFour/0300~0399/0357.Count-Numbers-with-Unique-Digits.md" >}})|Medium| O(1)| O(1)||49.3%|
