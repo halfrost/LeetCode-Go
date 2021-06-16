@@ -1,0 +1,94 @@
+# [473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)
+
+
+## 题目
+
+You are given an integer array `matchsticks` where `matchsticks[i]` is the length of the `ith` matchstick. You want to use **all the matchsticks** to make one square. You **should not break** any stick, but you can link them up, and each matchstick must be used **exactly one time**.
+
+Return `true` if you can make this square and `false` otherwise.
+
+**Example 1:**
+
+![https://assets.leetcode.com/uploads/2021/04/09/matchsticks1-grid.jpg](https://assets.leetcode.com/uploads/2021/04/09/matchsticks1-grid.jpg)
+
+```
+Input: matchsticks = [1,1,2,2,2]
+Output: true
+Explanation: You can form a square with length 2, one side of the square came two sticks with length 1.
+```
+
+**Example 2:**
+
+```
+Input: matchsticks = [3,3,3,3,4]
+Output: false
+Explanation: You cannot find a way to form a square with all the matchsticks.
+```
+
+**Constraints:**
+
+- `1 <= matchsticks.length <= 15`
+- `0 <= matchsticks[i] <= 109`
+
+## 题目大意
+
+现在已知小女孩有多少根火柴，请找出一种能使用所有火柴拼成一个正方形的方法。不能折断火柴，可以把火柴连接起来，并且每根火柴都要用到。输入为小女孩拥有火柴的数目，每根火柴用其长度表示。输出即为是否能用所有的火柴拼成正方形。
+
+## 解题思路
+
+- 将火柴拼成一个正方形，可以将它们分成四组，每一根火柴恰好属于其中的一组；并且每一组火柴的长度之和都相同，等于所有火柴长度之和的四分之一。
+- 考虑暴力解法，使用深度优先搜索枚举出所有的分组情况，并对于每一种情况，判断是否满足上述的两个条件(每根火柴属于其中一组，每组火柴长度之和相同)。依次对每一根火柴进行搜索，当搜索到第 i 根火柴时，可以考虑把它放到四组中的任意一种。对于每一种放置方法，继续对第 i + 1 根火柴进行深搜。当我们搜索完全部的 N 根火柴后，再判断每一组火柴的长度之和是否都相同。
+
+## 代码
+
+```go
+package leetcode
+
+import "sort"
+
+func makesquare(matchsticks []int) bool {
+	if len(matchsticks) < 4 {
+		return false
+	}
+	total := 0
+	for _, v := range matchsticks {
+		total += v
+	}
+	if total%4 != 0 {
+		return false
+	}
+	sort.Slice(matchsticks, func(i, j int) bool {
+		return matchsticks[i] > matchsticks[j]
+	})
+	visited := make([]bool, 16)
+	return dfs(matchsticks, 0, 0, 0, total, &visited)
+}
+
+func dfs(matchsticks []int, cur, group, sum, total int, visited *[]bool) bool {
+	if group == 4 {
+		return true
+	}
+	if sum > total/4 {
+		return false
+	}
+	if sum == total/4 {
+		return dfs(matchsticks, 0, group+1, 0, total, visited)
+	}
+	last := -1
+	for i := cur; i < len(matchsticks); i++ {
+		if (*visited)[i] {
+			continue
+		}
+		if last == matchsticks[i] {
+			continue
+		}
+		(*visited)[i] = true
+		last = matchsticks[i]
+		if dfs(matchsticks, i+1, group, sum+matchsticks[i], total, visited) {
+			return true
+		}
+		(*visited)[i] = false
+	}
+	return false
+}
+```
