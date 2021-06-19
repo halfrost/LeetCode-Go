@@ -18,13 +18,15 @@ type Mdrow struct {
 
 // GenerateMdRows define
 func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
+	//fmt.Printf("solutionIds = %v\n\n", solutionIds)
 	for i := 0; i < len(solutionIds); i++ {
+		//fmt.Printf("solutionIds[i] = %v id = %v - %v\n", solutionIds[i], mdrows[solutionIds[i]].FrontendQuestionID, mdrows[solutionIds[i]].QuestionTitle)
 		id := mdrows[solutionIds[i]-1].FrontendQuestionID
 		if solutionIds[i] == int(id) {
 			//fmt.Printf("id = %v i = %v solutionIds = %v\n", id, i, solutionIds[i])
 			mdrows[id-1].SolutionPath = fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", id, strings.Replace(strings.TrimSpace(mdrows[id-1].QuestionTitle), " ", "-", -1)))
 		} else {
-			fmt.Printf("序号出错了 solutionIds = %v id = %v\n", solutionIds[i], id)
+			fmt.Printf("序号出错了 len(solutionIds) = %v len(mdrows) = %v len(solutionIds) = %v solutionIds[i] = %v id = %v - %v\n", len(solutionIds), len(mdrows), len(solutionIds), solutionIds[i], id, mdrows[solutionIds[i]-1].QuestionTitle)
 		}
 	}
 }
