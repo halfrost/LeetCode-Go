@@ -126,16 +126,16 @@
 
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|Optimizing|33|33|24|90|
+|Optimizing|33|32|24|89|
 |Accepted|**285**|**388**|**115**|**788**|
 |Total|499|1003|399|1901|
-|Perfection Rate|88.4%|91.5%|79.1%|88.6%|
+|Perfection Rate|88.4%|91.8%|79.1%|88.7%|
 |Completion Rate|57.1%|38.7%|28.8%|41.5%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 698 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 699 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -242,7 +242,7 @@
 |0101|Symmetric Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0101.Symmetric-Tree)|49.0%|Easy||
 |0102|Binary Tree Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0102.Binary-Tree-Level-Order-Traversal)|57.9%|Medium||
 |0103|Binary Tree Zigzag Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0103.Binary-Tree-Zigzag-Level-Order-Traversal)|51.0%|Medium||
-|0104|Maximum Depth of Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0104.Maximum-Depth-of-Binary-Tree)|68.9%|Easy||
+|0104|Maximum Depth of Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0104.Maximum-Depth-of-Binary-Tree)|69.0%|Easy||
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal)|53.8%|Medium||
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal)|51.0%|Medium||
 |0107|Binary Tree Level Order Traversal II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0107.Binary-Tree-Level-Order-Traversal-II)|56.1%|Medium||
@@ -376,7 +376,7 @@
 |0235|Lowest Common Ancestor of a Binary Search Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree)|52.8%|Easy||
 |0236|Lowest Common Ancestor of a Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0236.Lowest-Common-Ancestor-of-a-Binary-Tree)|50.4%|Medium||
 |0237|Delete Node in a Linked List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0237.Delete-Node-in-a-Linked-List)|68.4%|Easy||
-|0238|Product of Array Except Self||61.6%|Medium||
+|0238|Product of Array Except Self||61.7%|Medium||
 |0239|Sliding Window Maximum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0239.Sliding-Window-Maximum)|45.1%|Hard||
 |0240|Search a 2D Matrix II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0240.Search-a-2D-Matrix-II)|45.9%|Medium||
 |0241|Different Ways to Add Parentheses||58.1%|Medium||
@@ -714,7 +714,7 @@
 |0573|Squirrel Simulation||54.3%|Medium||
 |0574|Winning Candidate||53.7%|Medium||
 |0575|Distribute Candies|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0575.Distribute-Candies)|64.6%|Easy||
-|0576|Out of Boundary Paths||36.4%|Medium||
+|0576|Out of Boundary Paths||36.5%|Medium||
 |0577|Employee Bonus||72.6%|Easy||
 |0578|Get Highest Answer Rate Question||42.5%|Medium||
 |0579|Find Cumulative Salary of an Employee||38.7%|Hard||
@@ -767,7 +767,7 @@
 |0626|Exchange Seats||67.0%|Medium||
 |0627|Swap Salary||78.7%|Easy||
 |0628|Maximum Product of Three Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0628.Maximum-Product-of-Three-Numbers)|46.7%|Easy||
-|0629|K Inverse Pairs Array||33.2%|Hard||
+|0629|K Inverse Pairs Array||33.5%|Hard||
 |0630|Course Schedule III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0630.Course-Schedule-III)|34.9%|Hard||
 |0631|Design Excel Sum Formula||33.1%|Hard||
 |0632|Smallest Range Covering Elements from K Lists|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0632.Smallest-Range-Covering-Elements-from-K-Lists)|55.2%|Hard||
@@ -805,7 +805,7 @@
 |0664|Strange Printer||42.3%|Hard||
 |0665|Non-decreasing Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0665.Non-decreasing-Array)|20.9%|Medium||
 |0666|Path Sum IV||57.4%|Medium||
-|0667|Beautiful Arrangement II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0667.Beautiful-Arrangement-II)|59.0%|Medium||
+|0667|Beautiful Arrangement II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0667.Beautiful-Arrangement-II)|58.9%|Medium||
 |0668|Kth Smallest Number in Multiplication Table|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0668.Kth-Smallest-Number-in-Multiplication-Table)|48.3%|Hard||
 |0669|Trim a Binary Search Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0669.Trim-a-Binary-Search-Tree)|64.4%|Medium||
 |0670|Maximum Swap||45.5%|Medium||
@@ -857,7 +857,7 @@
 |0716|Max Stack||43.6%|Easy||
 |0717|1-bit and 2-bit Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0717.1-bit-and-2-bit-Characters)|46.3%|Easy||
 |0718|Maximum Length of Repeated Subarray|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0718.Maximum-Length-of-Repeated-Subarray)|50.9%|Medium||
-|0719|Find K-th Smallest Pair Distance|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0719.Find-K-th-Smallest-Pair-Distance)|32.9%|Hard||
+|0719|Find K-th Smallest Pair Distance|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0719.Find-K-th-Smallest-Pair-Distance)|32.8%|Hard||
 |0720|Longest Word in Dictionary|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0720.Longest-Word-in-Dictionary)|49.7%|Easy||
 |0721|Accounts Merge|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0721.Accounts-Merge)|53.0%|Medium||
 |0722|Remove Comments||36.7%|Medium||
@@ -1202,7 +1202,7 @@
 |1061|Lexicographically Smallest Equivalent String||66.9%|Medium||
 |1062|Longest Repeating Substring||58.6%|Medium||
 |1063|Number of Valid Subarrays||72.2%|Hard||
-|1064|Fixed Point||64.3%|Easy||
+|1064|Fixed Point||64.2%|Easy||
 |1065|Index Pairs of a String||61.1%|Easy||
 |1066|Campus Bikes II||54.3%|Medium||
 |1067|Digit Count in Range||41.9%|Hard||
@@ -1211,7 +1211,7 @@
 |1070|Product Sales Analysis III||50.1%|Medium||
 |1071|Greatest Common Divisor of Strings||51.8%|Easy||
 |1072|Flip Columns For Maximum Number of Equal Rows||62.0%|Medium||
-|1073|Adding Two Negabinary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1073.Adding-Two-Negabinary-Numbers)|34.7%|Medium||
+|1073|Adding Two Negabinary Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1073.Adding-Two-Negabinary-Numbers)|34.8%|Medium||
 |1074|Number of Submatrices That Sum to Target|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1074.Number-of-Submatrices-That-Sum-to-Target)|65.2%|Hard||
 |1075|Project Employees I||66.5%|Easy||
 |1076|Project Employees II||52.5%|Easy||
@@ -1329,7 +1329,7 @@
 |1188|Design Bounded Blocking Queue||73.2%|Medium||
 |1189|Maximum Number of Balloons|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1189.Maximum-Number-of-Balloons)|62.1%|Easy||
 |1190|Reverse Substrings Between Each Pair of Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses)|64.6%|Medium||
-|1191|K-Concatenation Maximum Sum||24.8%|Medium||
+|1191|K-Concatenation Maximum Sum||24.7%|Medium||
 |1192|Critical Connections in a Network||51.6%|Hard||
 |1193|Monthly Transactions I||68.8%|Medium||
 |1194|Tournament Winners||52.6%|Hard||
@@ -1437,7 +1437,7 @@
 |1297|Maximum Number of Occurrences of a Substring||51.3%|Medium||
 |1298|Maximum Candies You Can Get from Boxes||60.1%|Hard||
 |1299|Replace Elements with Greatest Element on Right Side||74.5%|Easy||
-|1300|Sum of Mutated Array Closest to Target||42.7%|Medium||
+|1300|Sum of Mutated Array Closest to Target||42.6%|Medium||
 |1301|Number of Paths with Max Score||38.2%|Hard||
 |1302|Deepest Leaves Sum||85.4%|Medium||
 |1303|Find the Team Size||90.0%|Easy||
@@ -1634,7 +1634,7 @@
 |1494|Parallel Courses II||30.8%|Hard||
 |1495|Friendly Movies Streamed Last Month||51.1%|Easy||
 |1496|Path Crossing||55.1%|Easy||
-|1497|Check If Array Pairs Are Divisible by k||40.4%|Medium||
+|1497|Check If Array Pairs Are Divisible by k||40.3%|Medium||
 |1498|Number of Subsequences That Satisfy the Given Sum Condition||39.2%|Medium||
 |1499|Max Value of Equation||45.5%|Hard||
 |1500|Design a File Sharing System||46.5%|Medium||
@@ -1719,7 +1719,7 @@
 |1579|Remove Max Number of Edges to Keep Graph Fully Traversable||46.8%|Hard||
 |1580|Put Boxes Into the Warehouse II||63.6%|Medium||
 |1581|Customer Who Visited but Did Not Make Any Transactions||89.4%|Easy||
-|1582|Special Positions in a Binary Matrix||64.1%|Easy||
+|1582|Special Positions in a Binary Matrix||64.2%|Easy||
 |1583|Count Unhappy Friends||55.3%|Medium||
 |1584|Min Cost to Connect All Points||55.1%|Medium||
 |1585|Check If String Is Transformable With Substring Sort Operations||48.5%|Hard||
@@ -1730,7 +1730,7 @@
 |1590|Make Sum Divisible by P||27.2%|Medium||
 |1591|Strange Printer II||55.7%|Hard||
 |1592|Rearrange Spaces Between Words||43.6%|Easy||
-|1593|Split a String Into the Max Number of Unique Substrings||50.5%|Medium||
+|1593|Split a String Into the Max Number of Unique Substrings||50.6%|Medium||
 |1594|Maximum Non Negative Product in a Matrix||32.6%|Medium||
 |1595|Minimum Cost to Connect Two Groups of Points||43.9%|Hard||
 |1596|The Most Frequently Ordered Products for Each Customer||85.1%|Medium||
@@ -1814,7 +1814,7 @@
 |1674|Minimum Moves to Make Array Complementary||36.3%|Medium||
 |1675|Minimize Deviation in Array||48.1%|Hard||
 |1676|Lowest Common Ancestor of a Binary Tree IV||79.1%|Medium||
-|1677|Product's Worth Over Invoices||52.9%|Easy||
+|1677|Product's Worth Over Invoices||52.8%|Easy||
 |1678|Goal Parser Interpretation||84.9%|Easy||
 |1679|Max Number of K-Sum Pairs||53.6%|Medium||
 |1680|Concatenation of Consecutive Binary Numbers||52.2%|Medium||
@@ -1857,7 +1857,7 @@
 |1717|Maximum Score From Removing Substrings||41.7%|Medium||
 |1718|Construct the Lexicographically Largest Valid Sequence||48.5%|Medium||
 |1719|Number Of Ways To Reconstruct A Tree||39.7%|Hard||
-|1720|Decode XORed Array||85.5%|Easy||
+|1720|Decode XORed Array||85.4%|Easy||
 |1721|Swapping Nodes in a Linked List||66.5%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||46.0%|Medium||
 |1723|Find Minimum Time to Finish All Jobs||40.7%|Hard||
@@ -1882,7 +1882,7 @@
 |1742|Maximum Number of Balls in a Box||73.2%|Easy||
 |1743|Restore the Array From Adjacent Pairs||64.7%|Medium||
 |1744|Can You Eat Your Favorite Candy on Your Favorite Day?||31.3%|Medium||
-|1745|Palindrome Partitioning IV||49.6%|Hard||
+|1745|Palindrome Partitioning IV||49.7%|Hard||
 |1746|Maximum Subarray Sum After One Operation||62.0%|Medium||
 |1747|Leetflex Banned Accounts||68.7%|Medium||
 |1748|Sum of Unique Elements||74.7%|Easy||
@@ -1897,7 +1897,7 @@
 |1757|Recyclable and Low Fat Products||95.3%|Easy||
 |1758|Minimum Changes To Make Alternating Binary String||58.2%|Easy||
 |1759|Count Number of Homogenous Substrings||43.7%|Medium||
-|1760|Minimum Limit of Balls in a Bag||53.7%|Medium||
+|1760|Minimum Limit of Balls in a Bag||53.8%|Medium||
 |1761|Minimum Degree of a Connected Trio in a Graph||38.5%|Hard||
 |1762|Buildings With an Ocean View||81.5%|Medium||
 |1763|Longest Nice Substring||61.1%|Easy||
@@ -1942,7 +1942,7 @@
 |1802|Maximum Value at a Given Index in a Bounded Array||28.3%|Medium||
 |1803|Count Pairs With XOR in a Range||44.1%|Hard||
 |1804|Implement Trie II (Prefix Tree)||58.6%|Medium||
-|1805|Number of Different Integers in a String||34.7%|Easy||
+|1805|Number of Different Integers in a String||34.8%|Easy||
 |1806|Minimum Number of Operations to Reinitialize a Permutation||70.6%|Medium||
 |1807|Evaluate the Bracket Pairs of a String||66.3%|Medium||
 |1808|Maximize Number of Nice Divisors||28.3%|Hard||
@@ -1964,7 +1964,7 @@
 |1824|Minimum Sideway Jumps||47.6%|Medium||
 |1825|Finding MK Average||28.3%|Hard||
 |1826|Faulty Sensor||55.0%|Easy||
-|1827|Minimum Operations to Make the Array Increasing||77.8%|Easy||
+|1827|Minimum Operations to Make the Array Increasing||77.7%|Easy||
 |1828|Queries on Number of Points Inside a Circle||86.6%|Medium||
 |1829|Maximum XOR for Each Query||73.7%|Medium||
 |1830|Minimum Number of Operations to Make String Sorted||46.6%|Hard||
@@ -1989,7 +1989,7 @@
 |1849|Splitting a String Into Descending Consecutive Values||27.5%|Medium||
 |1850|Minimum Adjacent Swaps to Reach the Kth Smallest Number||64.0%|Medium||
 |1851|Minimum Interval to Include Each Query||42.3%|Hard||
-|1852|Distinct Numbers in Each Subarray||76.0%|Medium||
+|1852|Distinct Numbers in Each Subarray||76.1%|Medium||
 |1853|Convert Date Format||89.1%|Easy||
 |1854|Maximum Population Year||57.1%|Easy||
 |1855|Maximum Distance Between a Pair of Values||46.0%|Medium||
@@ -2005,7 +2005,7 @@
 |1865|Finding Pairs With a Certain Sum||45.8%|Medium||
 |1866|Number of Ways to Rearrange Sticks With K Sticks Visible||54.0%|Hard||
 |1867|Orders With Maximum Quantity Above Average||78.5%|Medium||
-|1868|Product of Two Run-Length Encoded Arrays||60.0%|Medium||
+|1868|Product of Two Run-Length Encoded Arrays||60.1%|Medium||
 |1869|Longer Contiguous Segments of Ones than Zeros||59.5%|Easy||
 |1870|Minimum Speed to Arrive on Time||32.4%|Medium||
 |1871|Jump Game VII||24.3%|Medium||
@@ -2021,14 +2021,14 @@
 |1881|Maximum Value after Insertion||33.6%|Medium||
 |1882|Process Tasks Using Servers||30.5%|Medium||
 |1883|Minimum Skips to Arrive at Meeting On Time||38.0%|Hard||
-|1884|Egg Drop With 2 Eggs and N Floors||70.2%|Medium||
+|1884|Egg Drop With 2 Eggs and N Floors||70.1%|Medium||
 |1885|Count Pairs in Two Arrays||55.2%|Medium||
 |1886|Determine Whether Matrix Can Be Obtained By Rotation||53.6%|Easy||
 |1887|Reduction Operations to Make the Array Elements Equal||59.6%|Medium||
 |1888|Minimum Number of Flips to Make the Binary String Alternating||33.7%|Medium||
 |1889|Minimum Space Wasted From Packaging||29.2%|Hard||
 |1890|The Latest Login in 2020||87.1%|Easy||
-|1891|Cutting Ribbons||54.1%|Medium||
+|1891|Cutting Ribbons||54.0%|Medium||
 |1892|Page Recommendations II||40.5%|Hard||
 |1893|Check if All the Integers in a Range Are Covered||48.8%|Easy||
 |1894|Find the Student that Will Replace the Chalk||38.2%|Medium||
@@ -2037,9 +2037,9 @@
 |1897|Redistribute Characters to Make All Strings Equal||58.3%|Easy||
 |1898|Maximum Number of Removable Characters||32.0%|Medium||
 |1899|Merge Triplets to Form Target Triplet||58.5%|Medium||
-|1900|The Earliest and Latest Rounds Where Players Compete||48.6%|Hard||
+|1900|The Earliest and Latest Rounds Where Players Compete||48.5%|Hard||
 |1901|Find a Peak Element II||66.3%|Medium||
-|1902|Depth of BST Given Insertion Order||48.9%|Medium||
+|1902|Depth of BST Given Insertion Order||49.1%|Medium||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
