@@ -24,11 +24,12 @@ func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
 	}
 	for i := 0; i < len(solutionIds); i++ {
 		if row, ok := mdMap[solutionIds[i]]; ok {
+			s7 := standardizedTitle(row.QuestionTitle, row.FrontendQuestionID)
 			mdMap[solutionIds[i]] = Mdrow{
 				FrontendQuestionID: row.FrontendQuestionID,
-				QuestionTitle:      row.QuestionTitle,
+				QuestionTitle:      strings.TrimSpace(row.QuestionTitle),
 				QuestionTitleSlug:  row.QuestionTitleSlug,
-				SolutionPath:       fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", solutionIds[i], strings.Replace(strings.TrimSpace(row.QuestionTitle), " ", "-", -1))),
+				SolutionPath:       fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", solutionIds[i], s7)),
 				Acceptance:         row.Acceptance,
 				Difficulty:         row.Difficulty,
 				Frequency:          row.Frequency,
@@ -40,7 +41,7 @@ func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
 	for i := range mdrows {
 		mdrows[i] = Mdrow{
 			FrontendQuestionID: mdrows[i].FrontendQuestionID,
-			QuestionTitle:      mdrows[i].QuestionTitle,
+			QuestionTitle:      strings.TrimSpace(mdrows[i].QuestionTitle),
 			QuestionTitleSlug:  mdrows[i].QuestionTitleSlug,
 			SolutionPath:       mdMap[int(mdrows[i].FrontendQuestionID)].SolutionPath,
 			Acceptance:         mdrows[i].Acceptance,
