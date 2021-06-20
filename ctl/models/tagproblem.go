@@ -115,6 +115,41 @@ func (t TagList) tableLine() string {
 	return fmt.Sprintf("|%04d|%v|%v|%v|%v|%v|%v|%v|\n", t.FrontendQuestionID, t.QuestionTitle, t.SolutionPath, t.Difficulty, t.TimeComplexity, t.SpaceComplexity, t.Favorite, t.Acceptance)
 }
 
+func standardizedTitle(orig string, frontendQuestionID int32) string {
+	s0 := strings.TrimSpace(orig)
+	s1 := strings.Replace(s0, " ", "-", -1)
+	s2 := strings.Replace(s1, "'", "", -1)
+	s3 := strings.Replace(s2, "%", "", -1)
+	s4 := strings.Replace(s3, "(", "", -1)
+	s5 := strings.Replace(s4, ")", "", -1)
+	s6 := strings.Replace(s5, ",", "", -1)
+	s7 := strings.Replace(s6, "?", "", -1)
+	count := 0
+	// 去掉 --- 这种情况，这种情况是由于题目标题中包含 - ，左右有空格，左右一填充，造成了 ---，3 个 -
+	for i := 0; i < len(s7)-2; i++ {
+		if s7[i] == '-' && s7[i+1] == '-' && s7[i+2] == '-' {
+			fmt.Printf("【需要修正 --- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(frontendQuestionID), s7))
+			s7 = s7[:i+1] + s7[i+3:]
+			count++
+		}
+	}
+	if count > 0 {
+		fmt.Printf("总共修正了 %v 个标题\n", count)
+	}
+	// 去掉 -- 这种情况，这种情况是由于题目标题中包含负号 -
+	for i := 0; i < len(s7)-2; i++ {
+		if s7[i] == '-' && s7[i+1] == '-' {
+			fmt.Printf("【需要修正 -- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(frontendQuestionID), s7))
+			s7 = s7[:i+1] + s7[i+2:]
+			count++
+		}
+	}
+	if count > 0 {
+		fmt.Printf("总共修正了 %v 个标题\n", count)
+	}
+	return s7
+}
+
 // GenerateTagMdRows define
 func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdrow, internal bool) []TagList {
 	tl := []TagList{}
@@ -123,36 +158,7 @@ func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdro
 			tmp := TagList{}
 			tmp.FrontendQuestionID = row.FrontendQuestionID
 			tmp.QuestionTitle = strings.TrimSpace(row.QuestionTitle)
-			s1 := strings.Replace(tmp.QuestionTitle, " ", "-", -1)
-			s2 := strings.Replace(s1, "'", "", -1)
-			s3 := strings.Replace(s2, "%", "", -1)
-			s4 := strings.Replace(s3, "(", "", -1)
-			s5 := strings.Replace(s4, ")", "", -1)
-			s6 := strings.Replace(s5, ",", "", -1)
-			s7 := strings.Replace(s6, "?", "", -1)
-			count := 0
-			// 去掉 --- 这种情况，这种情况是由于题目标题中包含 - ，左右有空格，左右一填充，造成了 ---，3 个 -
-			for i := 0; i < len(s7)-2; i++ {
-				if s7[i] == '-' && s7[i+1] == '-' && s7[i+2] == '-' {
-					fmt.Printf("【需要修正 --- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
-					s7 = s7[:i+1] + s7[i+3:]
-					count++
-				}
-			}
-			if count > 0 {
-				fmt.Printf("总共修正了 %v 个标题\n", count)
-			}
-			// 去掉 -- 这种情况，这种情况是由于题目标题中包含负号 -
-			for i := 0; i < len(s7)-2; i++ {
-				if s7[i] == '-' && s7[i+1] == '-' {
-					fmt.Printf("【需要修正 -- 的标题是 %v】\n", fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
-					s7 = s7[:i+1] + s7[i+2:]
-					count++
-				}
-			}
-			if count > 0 {
-				fmt.Printf("总共修正了 %v 个标题\n", count)
-			}
+			s7 := standardizedTitle(row.QuestionTitle, row.FrontendQuestionID)
 			if internal {
 				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v/%v.md\" >}})", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			} else {
