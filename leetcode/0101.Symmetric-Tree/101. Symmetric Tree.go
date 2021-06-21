@@ -18,20 +18,20 @@ type TreeNode = structures.TreeNode
 
 // 解法一 dfs
 func isSymmetric(root *TreeNode) bool {
-	return root == nil || dfs(root.Left, root.Right)
-}
-
-func dfs(rootLeft, rootRight *TreeNode) bool {
-	if rootLeft == nil && rootRight == nil {
+	if root == nil {
 		return true
 	}
-	if rootLeft == nil || rootRight == nil {
+	return isMirror(root.Left, root.Right)
+}
+
+func isMirror(left *TreeNode, right *TreeNode) bool {
+	if left == nil && right == nil {
+		return true
+	}
+	if left == nil || right == nil {
 		return false
 	}
-	if rootLeft.Val != rootRight.Val {
-		return false
-	}
-	return dfs(rootLeft.Left, rootRight.Right) && dfs(rootLeft.Right, rootRight.Left)
+	return (left.Val == right.Val) && isMirror(left.Left, right.Right) && isMirror(left.Right, right.Left)
 }
 
 // 解法二
