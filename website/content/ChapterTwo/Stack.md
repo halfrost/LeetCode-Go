@@ -18,28 +18,34 @@ weight: 5
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 |0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||40.2%|
+|0032|Longest Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses.md" >}})|Hard||||30.2%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|52.3%|
-|0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|35.3%|
+|0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|35.4%|
 |0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|38.0%|
-|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Easy| O(n)| O(1)||67.1%|
-|0103|Binary Tree Zigzag Level Order Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal.md" >}})|Medium| O(n)| O(n)||51.0%|
+|0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Easy| O(n)| O(1)||67.2%|
+|0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium||||53.9%|
+|0143|Reorder List|[Go]({{< relref "/ChapterFour/0100~0199/0143.Reorder-List.md" >}})|Medium||||42.0%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Easy| O(n)| O(1)||58.6%|
-|0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Easy| O(n)| O(1)||59.0%|
+|0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Easy| O(n)| O(1)||59.1%|
 |0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||39.6%|
-|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||47.3%|
+|0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||47.4%|
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||61.5%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||38.6%|
-|0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||48.6%|
-|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.1%|
+|0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||48.7%|
+|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.2%|
 |0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||53.5%|
+|0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0200~0299/0234.Palindrome-Linked-List.md" >}})|Easy||||43.0%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||41.3%|
 |0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||56.4%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||34.8%|
 |0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||53.6%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium| O(n)| O(1)||28.8%|
+|0445|Add Two Numbers II|[Go]({{< relref "/ChapterFour/0400~0499/0445.Add-Two-Numbers-II.md" >}})|Medium||||57.0%|
 |0456|132 Pattern|[Go]({{< relref "/ChapterFour/0400~0499/0456.132-Pattern.md" >}})|Medium| O(n)| O(n)||30.7%|
-|0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy| O(n)| O(n)||66.4%|
+|0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy| O(n)| O(n)||66.5%|
 |0503|Next Greater Element II|[Go]({{< relref "/ChapterFour/0500~0599/0503.Next-Greater-Element-II.md" >}})|Medium| O(n)| O(n)||59.3%|
+|0581|Shortest Unsorted Continuous Subarray|[Go]({{< relref "/ChapterFour/0500~0599/0581.Shortest-Unsorted-Continuous-Subarray.md" >}})|Medium||||33.2%|
+|0589|N-ary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0500~0599/0589.N-ary-Tree-Preorder-Traversal.md" >}})|Easy||||74.6%|
 |0636|Exclusive Time of Functions|[Go]({{< relref "/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions.md" >}})|Medium| O(n)| O(n)||56.0%|
 |0682|Baseball Game|[Go]({{< relref "/ChapterFour/0600~0699/0682.Baseball-Game.md" >}})|Easy| O(n)| O(n)||67.9%|
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard| O(n)| O(n) |❤️|51.1%|
@@ -49,18 +55,24 @@ weight: 5
 |0856|Score of Parentheses|[Go]({{< relref "/ChapterFour/0800~0899/0856.Score-of-Parentheses.md" >}})|Medium| O(n)| O(n)||65.0%|
 |0880|Decoded String at Index|[Go]({{< relref "/ChapterFour/0800~0899/0880.Decoded-String-at-Index.md" >}})|Medium| O(n)| O(n)||28.2%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||63.6%|
+|0897|Increasing Order Search Tree|[Go]({{< relref "/ChapterFour/0800~0899/0897.Increasing-Order-Search-Tree.md" >}})|Easy||||75.0%|
 |0901|Online Stock Span|[Go]({{< relref "/ChapterFour/0900~0999/0901.Online-Stock-Span.md" >}})|Medium| O(n)| O(n)  ||61.8%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums.md" >}})|Medium| O(n)| O(n)|❤️|32.9%|
 |0921|Minimum Add to Make Parentheses Valid|[Go]({{< relref "/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid.md" >}})|Medium| O(n)| O(n)||75.4%|
 |0946|Validate Stack Sequences|[Go]({{< relref "/ChapterFour/0900~0999/0946.Validate-Stack-Sequences.md" >}})|Medium| O(n)| O(n)||64.5%|
 |1003|Check If Word Is Valid After Substitutions|[Go]({{< relref "/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions.md" >}})|Medium| O(n)| O(1)||57.0%|
+|1006|Clumsy Factorial|[Go]({{< relref "/ChapterFour/1000~1099/1006.Clumsy-Factorial.md" >}})|Medium||||54.1%|
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium| O(n)| O(1)||58.4%|
 |1021|Remove Outermost Parentheses|[Go]({{< relref "/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses.md" >}})|Easy| O(n)| O(1)||79.3%|
 |1047|Remove All Adjacent Duplicates In String|[Go]({{< relref "/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String.md" >}})|Easy| O(n)| O(1)||71.7%|
+|1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go]({{< relref "/ChapterFour/1100~1199/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings.md" >}})|Medium||||72.8%|
 |1190|Reverse Substrings Between Each Pair of Parentheses|[Go]({{< relref "/ChapterFour/1100~1199/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses.md" >}})|Medium||||64.6%|
-|1209|Remove All Adjacent Duplicates in String II|[Go]({{< relref "/ChapterFour/1200~1299/1209.Remove-All-Adjacent-Duplicates-in-String-II.md" >}})|Medium||||57.1%|
+|1209|Remove All Adjacent Duplicates in String II|[Go]({{< relref "/ChapterFour/1200~1299/1209.Remove-All-Adjacent-Duplicates-in-String-II.md" >}})|Medium||||57.0%|
 |1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||64.4%|
+|1614|Maximum Nesting Depth of the Parentheses|[Go]({{< relref "/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses.md" >}})|Easy||||82.7%|
+|1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||52.3%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||45.8%|
+|1700|Number of Students Unable to Eat Lunch|[Go]({{< relref "/ChapterFour/1700~1799/1700.Number-of-Students-Unable-to-Eat-Lunch.md" >}})|Easy||||67.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
