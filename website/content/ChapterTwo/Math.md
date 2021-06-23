@@ -111,7 +111,7 @@ weight: 12
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||51.8%|
 |1185|Day of the Week|[Go]({{< relref "/ChapterFour/1100~1199/1185.Day-of-the-Week.md" >}})|Easy||||60.4%|
 |1201|Ugly Number III|[Go]({{< relref "/ChapterFour/1200~1299/1201.Ugly-Number-III.md" >}})|Medium||||26.7%|
-|1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.6%|
+|1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.7%|
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||42.7%|
 |1252|Cells with Odd Values in a Matrix|[Go]({{< relref "/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix.md" >}})|Easy||||78.5%|
 |1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.3%|

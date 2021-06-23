@@ -2,7 +2,6 @@ package leetcode
 
 func isNumber(s string) bool {
 	numFlag, dotFlag, eFlag := false, false, false
-
 	for i := 0; i < len(s); i++ {
 		if '0' <= s[i] && s[i] <= '9' {
 			numFlag = true

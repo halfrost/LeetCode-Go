@@ -295,7 +295,7 @@ weight: 1
 |1184|Distance Between Bus Stops|[Go]({{< relref "/ChapterFour/1100~1199/1184.Distance-Between-Bus-Stops.md" >}})|Easy||||53.9%|
 |1200|Minimum Absolute Difference|[Go]({{< relref "/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference.md" >}})|Easy||||67.1%|
 |1207|Unique Number of Occurrences|[Go]({{< relref "/ChapterFour/1200~1299/1207.Unique-Number-of-Occurrences.md" >}})|Easy||||72.2%|
-|1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.6%|
+|1217|Minimum Cost to Move Chips to The Same Position|[Go]({{< relref "/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position.md" >}})|Easy||||70.7%|
 |1232|Check If It Is a Straight Line|[Go]({{< relref "/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line.md" >}})|Easy||||42.7%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||48.3%|
 |1239|Maximum Length of a Concatenated String with Unique Characters|[Go]({{< relref "/ChapterFour/1200~1299/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters.md" >}})|Medium||||50.5%|
