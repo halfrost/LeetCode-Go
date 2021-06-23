@@ -459,7 +459,7 @@
 |0318|Maximum Product of Word Lengths|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0318.Maximum-Product-of-Word-Lengths)|55.4%|Medium||
 |0319|Bulb Switcher||45.7%|Medium||
 |0320|Generalized Abbreviation||54.3%|Medium||
-|0321|Create Maximum Number||27.8%|Hard||
+|0321|Create Maximum Number||27.7%|Hard||
 |0322|Coin Change|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0322.Coin-Change)|38.2%|Medium||
 |0323|Number of Connected Components in an Undirected Graph||58.7%|Medium||
 |0324|Wiggle Sort II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0324.Wiggle-Sort-II)|31.1%|Medium||
@@ -541,7 +541,7 @@
 |0400|Nth Digit||32.6%|Medium||
 |0401|Binary Watch|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0401.Binary-Watch)|49.0%|Easy||
 |0402|Remove K Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0402.Remove-K-Digits)|28.8%|Medium||
-|0403|Frog Jump||41.9%|Hard||
+|0403|Frog Jump||42.0%|Hard||
 |0404|Sum of Left Leaves|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0404.Sum-of-Left-Leaves)|52.6%|Easy||
 |0405|Convert a Number to Hexadecimal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0405.Convert-a-Number-to-Hexadecimal)|44.8%|Easy||
 |0406|Queue Reconstruction by Height||69.0%|Medium||
@@ -638,7 +638,7 @@
 |0497|Random Point in Non-overlapping Rectangles|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0497.Random-Point-in-Non-overlapping-Rectangles)|39.1%|Medium||
 |0498|Diagonal Traverse|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0498.Diagonal-Traverse)|51.4%|Medium||
 |0499|The Maze III||43.0%|Hard||
-|0500|Keyboard Row|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0500.Keyboard-Row)|66.2%|Easy||
+|0500|Keyboard Row|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0500.Keyboard-Row)|66.3%|Easy||
 |0501|Find Mode in Binary Search Tree||44.4%|Easy||
 |0502|IPO||42.2%|Hard||
 |0503|Next Greater Element II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0503.Next-Greater-Element-II)|59.3%|Medium||
@@ -945,7 +945,7 @@
 |0804|Unique Morse Code Words||79.2%|Easy||
 |0805|Split Array With Same Average||26.9%|Hard||
 |0806|Number of Lines To Write String||65.7%|Easy||
-|0807|Max Increase to Keep City Skyline||84.6%|Medium||
+|0807|Max Increase to Keep City Skyline||84.7%|Medium||
 |0808|Soup Servings||41.5%|Medium||
 |0809|Expressive Words||46.1%|Medium||
 |0810|Chalkboard XOR Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0810.Chalkboard-XOR-Game)|51.0%|Hard||
@@ -991,7 +991,7 @@
 |0850|Rectangle Area II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0850.Rectangle-Area-II)|48.6%|Hard||
 |0851|Loud and Rich|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0851.Loud-and-Rich)|53.1%|Medium||
 |0852|Peak Index in a Mountain Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0852.Peak-Index-in-a-Mountain-Array)|71.6%|Easy||
-|0853|Car Fleet|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0853.Car-Fleet)|44.9%|Medium||
+|0853|Car Fleet|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0853.Car-Fleet)|44.8%|Medium||
 |0854|K-Similar Strings||38.7%|Hard||
 |0855|Exam Room||43.4%|Medium||
 |0856|Score of Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0856.Score-of-Parentheses)|65.0%|Medium||
@@ -1298,7 +1298,7 @@
 |1157|Online Majority Element In Subarray|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1157.Online-Majority-Element-In-Subarray)|41.2%|Hard||
 |1158|Market Analysis I||64.6%|Medium||
 |1159|Market Analysis II||56.7%|Hard||
-|1160|Find Words That Can Be Formed by Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1160.Find-Words-That-Can-Be-Formed-by-Characters)|67.8%|Easy||
+|1160|Find Words That Can Be Formed by Characters|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1160.Find-Words-That-Can-Be-Formed-by-Characters)|67.9%|Easy||
 |1161|Maximum Level Sum of a Binary Tree||68.0%|Medium||
 |1162|As Far from Land as Possible||46.0%|Medium||
 |1163|Last Substring in Lexicographical Order||36.1%|Hard||
@@ -1498,7 +1498,7 @@
 |1358|Number of Substrings Containing All Three Characters||61.0%|Medium||
 |1359|Count All Valid Pickup and Delivery Options||55.7%|Hard||
 |1360|Number of Days Between Two Dates||46.6%|Easy||
-|1361|Validate Binary Tree Nodes||42.8%|Medium||
+|1361|Validate Binary Tree Nodes||42.7%|Medium||
 |1362|Closest Divisors||58.3%|Medium||
 |1363|Largest Multiple of Three||34.5%|Hard||
 |1364|Number of Trusted Contacts of a Customer||79.3%|Medium||
@@ -1613,7 +1613,7 @@
 |1473|Paint House III||49.1%|Hard||
 |1474|Delete N Nodes After M Nodes of a Linked List||73.5%|Easy||
 |1475|Final Prices With a Special Discount in a Shop||74.8%|Easy||
-|1476|Subrectangle Queries||87.9%|Medium||
+|1476|Subrectangle Queries||87.8%|Medium||
 |1477|Find Two Non-overlapping Sub-arrays Each With Target Sum||35.6%|Medium||
 |1478|Allocate Mailboxes||54.1%|Hard||
 |1479|Sales by Day of the Week||83.0%|Hard||
@@ -2016,7 +2016,7 @@
 |1876|Substrings of Size Three with Distinct Characters||67.9%|Easy||
 |1877|Minimize Maximum Pair Sum in Array||78.6%|Medium||
 |1878|Get Biggest Three Rhombus Sums in a Grid||43.3%|Medium||
-|1879|Minimum XOR Sum of Two Arrays||35.7%|Hard||
+|1879|Minimum XOR Sum of Two Arrays||35.6%|Hard||
 |1880|Check if Word Equals Summation of Two Words||71.8%|Easy||
 |1881|Maximum Value after Insertion||33.7%|Medium||
 |1882|Process Tasks Using Servers||30.6%|Medium||
