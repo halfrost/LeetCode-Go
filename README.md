@@ -399,7 +399,7 @@
 |0258|Add Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0258.Add-Digits)|59.1%|Easy||
 |0259|3Sum Smaller||49.5%|Medium||
 |0260|Single Number III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0260.Single-Number-III)|65.6%|Medium||
-|0261|Graph Valid Tree||43.7%|Medium||
+|0261|Graph Valid Tree||43.8%|Medium||
 |0262|Trips and Users||36.3%|Hard||
 |0263|Ugly Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0263.Ugly-Number)|41.7%|Easy||
 |0264|Ugly Number II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0264.Ugly-Number-II)|43.3%|Medium||
@@ -453,7 +453,7 @@
 |0312|Burst Balloons||54.2%|Hard||
 |0313|Super Ugly Number||46.8%|Medium||
 |0314|Binary Tree Vertical Order Traversal||47.8%|Medium||
-|0315|Count of Smaller Numbers After Self|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0315.Count-of-Smaller-Numbers-After-Self)|42.3%|Hard||
+|0315|Count of Smaller Numbers After Self|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0315.Count-of-Smaller-Numbers-After-Self)|42.2%|Hard||
 |0316|Remove Duplicate Letters||39.8%|Medium||
 |0317|Shortest Distance from All Buildings||43.4%|Hard||
 |0318|Maximum Product of Word Lengths|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0318.Maximum-Product-of-Word-Lengths)|55.4%|Medium||
@@ -497,7 +497,7 @@
 |0356|Line Reflection||33.4%|Medium||
 |0357|Count Numbers with Unique Digits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0357.Count-Numbers-with-Unique-Digits)|49.3%|Medium||
 |0358|Rearrange String k Distance Apart||36.0%|Hard||
-|0359|Logger Rate Limiter||73.1%|Easy||
+|0359|Logger Rate Limiter||73.2%|Easy||
 |0360|Sort Transformed Array||50.5%|Medium||
 |0361|Bomb Enemy||47.6%|Medium||
 |0362|Design Hit Counter||66.0%|Medium||
@@ -584,7 +584,7 @@
 |0443|String Compression||45.0%|Medium||
 |0444|Sequence Reconstruction||23.8%|Medium||
 |0445|Add Two Numbers II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0445.Add-Two-Numbers-II)|57.0%|Medium||
-|0446|Arithmetic Slices II - Subsequence||34.0%|Hard||
+|0446|Arithmetic Slices II - Subsequence||34.1%|Hard||
 |0447|Number of Boomerangs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0447.Number-of-Boomerangs)|52.7%|Medium||
 |0448|Find All Numbers Disappeared in an Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0448.Find-All-Numbers-Disappeared-in-an-Array)|56.6%|Easy||
 |0449|Serialize and Deserialize BST||54.7%|Medium||
@@ -1161,7 +1161,7 @@
 |1020|Number of Enclaves|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1020.Number-of-Enclaves)|59.8%|Medium||
 |1021|Remove Outermost Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1021.Remove-Outermost-Parentheses)|79.3%|Easy||
 |1022|Sum of Root To Leaf Binary Numbers||71.9%|Easy||
-|1023|Camelcase Matching||57.8%|Medium||
+|1023|Camelcase Matching||57.9%|Medium||
 |1024|Video Stitching||49.0%|Medium||
 |1025|Divisor Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1025.Divisor-Game)|66.2%|Easy||
 |1026|Maximum Difference Between Node and Ancestor|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1026.Maximum-Difference-Between-Node-and-Ancestor)|70.2%|Medium||
@@ -1494,7 +1494,7 @@
 |1354|Construct Target Array With Multiple Sums||31.4%|Hard||
 |1355|Activity Participants||74.7%|Medium||
 |1356|Sort Integers by The Number of 1 Bits||70.6%|Easy||
-|1357|Apply Discount Every n Orders||67.3%|Medium||
+|1357|Apply Discount Every n Orders||67.2%|Medium||
 |1358|Number of Substrings Containing All Three Characters||61.0%|Medium||
 |1359|Count All Valid Pickup and Delivery Options||55.7%|Hard||
 |1360|Number of Days Between Two Dates||46.5%|Easy||
@@ -1575,7 +1575,7 @@
 |1435|Create a Session Bar Chart||78.6%|Easy||
 |1436|Destination City||77.2%|Easy||
 |1437|Check If All 1's Are at Least Length K Places Away|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away)|61.0%|Easy||
-|1438|Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit)|44.7%|Medium||
+|1438|Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit)|44.8%|Medium||
 |1439|Find the Kth Smallest Sum of a Matrix With Sorted Rows|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows)|61.2%|Hard||
 |1440|Evaluate Boolean Expression||75.1%|Medium||
 |1441|Build an Array With Stack Operations||70.4%|Easy||
@@ -1706,7 +1706,7 @@
 |1566|Detect Pattern of Length M Repeated K or More Times||43.0%|Easy||
 |1567|Maximum Length of Subarray With Positive Product||37.6%|Medium||
 |1568|Minimum Number of Days to Disconnect Island||50.1%|Hard||
-|1569|Number of Ways to Reorder Array to Get Same BST||50.0%|Hard||
+|1569|Number of Ways to Reorder Array to Get Same BST||50.1%|Hard||
 |1570|Dot Product of Two Sparse Vectors||91.1%|Medium||
 |1571|Warehouse Manager||89.6%|Easy||
 |1572|Matrix Diagonal Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1572.Matrix-Diagonal-Sum)|78.0%|Easy||
@@ -1721,7 +1721,7 @@
 |1581|Customer Who Visited but Did Not Make Any Transactions||89.5%|Easy||
 |1582|Special Positions in a Binary Matrix||64.2%|Easy||
 |1583|Count Unhappy Friends||55.2%|Medium||
-|1584|Min Cost to Connect All Points||55.3%|Medium||
+|1584|Min Cost to Connect All Points||55.4%|Medium||
 |1585|Check If String Is Transformable With Substring Sort Operations||48.5%|Hard||
 |1586|Binary Search Tree Iterator II||66.7%|Medium||
 |1587|Bank Account Summary II||89.9%|Easy||
@@ -1925,7 +1925,7 @@
 |1785|Minimum Elements to Add to Form a Given Sum||40.0%|Medium||
 |1786|Number of Restricted Paths From First to Last Node||36.5%|Medium||
 |1787|Make the XOR of All Segments Equal to Zero||37.3%|Hard||
-|1788|Maximize the Beauty of the Garden||67.1%|Hard||
+|1788|Maximize the Beauty of the Garden||67.2%|Hard||
 |1789|Primary Department for Each Employee||79.5%|Easy||
 |1790|Check if One String Swap Can Make Strings Equal||44.4%|Easy||
 |1791|Find Center of Star Graph||84.3%|Easy||
@@ -2019,10 +2019,10 @@
 |1879|Minimum XOR Sum of Two Arrays||35.8%|Hard||
 |1880|Check if Word Equals Summation of Two Words||71.8%|Easy||
 |1881|Maximum Value after Insertion||33.7%|Medium||
-|1882|Process Tasks Using Servers||30.5%|Medium||
+|1882|Process Tasks Using Servers||30.6%|Medium||
 |1883|Minimum Skips to Arrive at Meeting On Time||38.1%|Hard||
 |1884|Egg Drop With 2 Eggs and N Floors||69.8%|Medium||
-|1885|Count Pairs in Two Arrays||54.8%|Medium||
+|1885|Count Pairs in Two Arrays||54.7%|Medium||
 |1886|Determine Whether Matrix Can Be Obtained By Rotation||53.8%|Easy||
 |1887|Reduction Operations to Make the Array Elements Equal||59.7%|Medium||
 |1888|Minimum Number of Flips to Make the Binary String Alternating||33.8%|Medium||
@@ -2041,10 +2041,10 @@
 |1901|Find a Peak Element II||64.4%|Medium||
 |1902|Depth of BST Given Insertion Order||51.7%|Medium||
 |1903|Largest Odd Number in String||58.1%|Easy||
-|1904|The Number of Full Rounds You Have Played||52.9%|Medium||
-|1905|Count Sub Islands||59.8%|Medium||
+|1904|The Number of Full Rounds You Have Played||52.8%|Medium||
+|1905|Count Sub Islands||59.7%|Medium||
 |1906|Minimum Absolute Difference Queries||41.4%|Medium||
-|1907|Count Salary Categories||62.4%|Medium||
+|1907|Count Salary Categories||62.5%|Medium||
 |1908|Game of Nim||64.1%|Medium||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 

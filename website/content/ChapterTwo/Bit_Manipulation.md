@@ -106,6 +106,6 @@ X & ~X = 0
 
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sort/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sorting/">⬅️上一页</a></p>
 <p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Union_Find/">下一页➡️</a></p>
 </div>
