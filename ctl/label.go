@@ -18,7 +18,7 @@ var (
 	chapterOneFileOrder = []string{"_index", "Data_Structure", "Algorithm", "Time_Complexity"}
 	chapterOneMenuOrder = []string{"_index", "#关于作者", "Data_Structure", "Algorithm", "Time_Complexity"}
 	chapterTwoFileOrder = []string{"_index", "Array", "String", "Two_Pointers", "Linked_List", "Stack", "Tree", "Dynamic_Programming", "Backtracking", "Depth_First_Search", "Breadth_First_Search",
-		"Binary_Search", "Math", "Hash_Table", "Sort", "Bit_Manipulation", "Union_Find", "Sliding_Window", "Segment_Tree", "Binary_Indexed_Tree"}
+		"Binary_Search", "Math", "Hash_Table", "Sorting", "Bit_Manipulation", "Union_Find", "Sliding_Window", "Segment_Tree", "Binary_Indexed_Tree"}
 	chapterThreeFileOrder = []string{"_index", "Segment_Tree", "UnionFind", "LRUCache", "LFUCache"}
 	preNextHeader         = "----------------------------------------------\n<div style=\"display: flex;justify-content: space-between;align-items: center;\">\n"
 	preNextFotter         = "</div>"
@@ -55,7 +55,7 @@ var (
 			"Binary_Search":        "2.11 Binary Search",
 			"Math":                 "2.12 Math",
 			"Hash_Table":           "2.13 Hash Table",
-			"Sort":                 "2.14 ✅ Sort",
+			"Sorting":              "2.14 ✅ Sorting",
 			"Bit_Manipulation":     "2.15 ✅ Bit Manipulation",
 			"Union_Find":           "2.16 ✅ Union Find",
 			"Sliding_Window":       "2.17 ✅ Sliding Window",

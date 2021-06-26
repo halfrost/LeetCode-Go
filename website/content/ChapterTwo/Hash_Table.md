@@ -93,7 +93,7 @@ weight: 13
 |0767|Reorganize String|[Go]({{< relref "/ChapterFour/0700~0799/0767.Reorganize-String.md" >}})|Medium||||50.7%|
 |0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0700~0799/0771.Jewels-and-Stones.md" >}})|Easy||||87.2%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||56.2%|
-|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.0%|
+|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||48.9%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Easy||||72.2%|
 |0815|Bus Routes|[Go]({{< relref "/ChapterFour/0800~0899/0815.Bus-Routes.md" >}})|Hard||||43.9%|
 |0817|Linked List Components|[Go]({{< relref "/ChapterFour/0800~0899/0817.Linked-List-Components.md" >}})|Medium||||57.8%|
@@ -155,5 +155,5 @@ weight: 13
 ----------------------------------------------
 <div style="display: flex;justify-content: space-between;align-items: center;">
 <p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Math/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sort/">下一页➡️</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Sorting/">下一页➡️</a></p>
 </div>

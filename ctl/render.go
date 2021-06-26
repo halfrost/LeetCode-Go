@@ -18,11 +18,11 @@ import (
 
 var (
 	chapterTwoList = []string{"Array", "String", "Two Pointers", "Linked List", "Stack", "Tree", "Dynamic Programming", "Backtracking", "Depth First Search", "Breadth First Search",
-		"Binary Search", "Math", "Hash Table", "Sort", "Bit Manipulation", "Union Find", "Sliding Window", "Segment Tree", "Binary Indexed Tree"}
+		"Binary Search", "Math", "Hash Table", "Sorting", "Bit Manipulation", "Union Find", "Sliding Window", "Segment Tree", "Binary Indexed Tree"}
 	chapterTwoFileName = []string{"Array", "String", "Two_Pointers", "Linked_List", "Stack", "Tree", "Dynamic_Programming", "Backtracking", "Depth_First_Search", "Breadth_First_Search",
-		"Binary_Search", "Math", "Hash_Table", "Sort", "Bit_Manipulation", "Union_Find", "Sliding_Window", "Segment_Tree", "Binary_Indexed_Tree"}
+		"Binary_Search", "Math", "Hash_Table", "Sorting", "Bit_Manipulation", "Union_Find", "Sliding_Window", "Segment_Tree", "Binary_Indexed_Tree"}
 	chapterTwoSlug = []string{"array", "string", "two-pointers", "linked-list", "stack", "tree", "dynamic-programming", "backtracking", "depth-first-search", "breadth-first-search",
-		"binary-search", "math", "hash-table", "sort", "bit-manipulation", "union-find", "sliding-window", "segment-tree", "binary-indexed-tree"}
+		"binary-search", "math", "hash-table", "sorting", "bit-manipulation", "union-find", "sliding-window", "segment-tree", "binary-indexed-tree"}
 )
 
 func newBuildCommand() *cobra.Command {
