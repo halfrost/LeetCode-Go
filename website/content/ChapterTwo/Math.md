@@ -71,7 +71,7 @@ weight: 12
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||50.5%|
 |0628|Maximum Product of Three Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers.md" >}})|Easy| O(n)| O(1)||46.7%|
 |0633|Sum of Square Numbers|[Go]({{< relref "/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers.md" >}})|Medium||||32.9%|
-|0667|Beautiful Arrangement II|[Go]({{< relref "/ChapterFour/0600~0699/0667.Beautiful-Arrangement-II.md" >}})|Medium||||58.9%|
+|0667|Beautiful Arrangement II|[Go]({{< relref "/ChapterFour/0600~0699/0667.Beautiful-Arrangement-II.md" >}})|Medium||||59.0%|
 |0710|Random Pick with Blacklist|[Go]({{< relref "/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist.md" >}})|Hard||||33.2%|
 |0762|Prime Number of Set Bits in Binary Representation|[Go]({{< relref "/ChapterFour/0700~0799/0762.Prime-Number-of-Set-Bits-in-Binary-Representation.md" >}})|Easy||||65.0%|
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||46.0%|
@@ -83,9 +83,9 @@ weight: 12
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.3%|
 |0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||67.7%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||29.1%|
-|0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
+|0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||26.9%|
 |0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||33.4%|
-|0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||60.2%|
+|0892|Surface Area of 3D Shapes|[Go]({{< relref "/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes.md" >}})|Easy||||60.3%|
 |0910|Smallest Range II|[Go]({{< relref "/ChapterFour/0900~0999/0910.Smallest-Range-II.md" >}})|Medium||||31.4%|
 |0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||33.7%|
 |0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0900~0999/0920.Number-of-Music-Playlists.md" >}})|Hard||||48.4%|

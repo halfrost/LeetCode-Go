@@ -48,7 +48,7 @@ weight: 10
 |0685|Redundant Connection II|[Go]({{< relref "/ChapterFour/0600~0699/0685.Redundant-Connection-II.md" >}})|Hard||||33.2%|
 |0690|Employee Importance|[Go]({{< relref "/ChapterFour/0600~0699/0690.Employee-Importance.md" >}})|Easy||||59.9%|
 |0695|Max Area of Island|[Go]({{< relref "/ChapterFour/0600~0699/0695.Max-Area-of-Island.md" >}})|Medium||||66.7%|
-|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||53.0%|
+|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||53.1%|
 |0733|Flood Fill|[Go]({{< relref "/ChapterFour/0700~0799/0733.Flood-Fill.md" >}})|Easy||||56.1%|
 |0752|Open the Lock|[Go]({{< relref "/ChapterFour/0700~0799/0752.Open-the-Lock.md" >}})|Medium||||54.7%|
 |0756|Pyramid Transition Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix.md" >}})|Medium||||55.9%|
@@ -62,7 +62,7 @@ weight: 10
 |0841|Keys and Rooms|[Go]({{< relref "/ChapterFour/0800~0899/0841.Keys-and-Rooms.md" >}})|Medium||||66.9%|
 |0863|All Nodes Distance K in Binary Tree|[Go]({{< relref "/ChapterFour/0800~0899/0863.All-Nodes-Distance-K-in-Binary-Tree.md" >}})|Medium||||58.7%|
 |0864|Shortest Path to Get All Keys|[Go]({{< relref "/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys.md" >}})|Hard||||42.9%|
-|0909|Snakes and Ladders|[Go]({{< relref "/ChapterFour/0900~0999/0909.Snakes-and-Ladders.md" >}})|Medium||||39.3%|
+|0909|Snakes and Ladders|[Go]({{< relref "/ChapterFour/0900~0999/0909.Snakes-and-Ladders.md" >}})|Medium||||39.4%|
 |0924|Minimize Malware Spread|[Go]({{< relref "/ChapterFour/0900~0999/0924.Minimize-Malware-Spread.md" >}})|Hard||||41.8%|
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||41.5%|
 |0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||67.6%|
