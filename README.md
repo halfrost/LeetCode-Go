@@ -126,16 +126,16 @@
 
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|Optimizing|33|31|23|87|
-|Accepted|**284**|**392**|**115**|**791**|
+|Optimizing|33|30|23|86|
+|Accepted|**285**|**392**|**115**|**792**|
 |Total|501|1010|400|1911|
-|Perfection Rate|88.4%|92.1%|80.0%|89.0%|
-|Completion Rate|56.7%|38.8%|28.7%|41.4%|
+|Perfection Rate|88.4%|92.3%|80.0%|89.1%|
+|Completion Rate|56.9%|38.8%|28.7%|41.4%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 704 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 706 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -335,7 +335,7 @@
 |0194|Transpose File||24.5%|Medium||
 |0195|Tenth Line||32.7%|Easy||
 |0196|Delete Duplicate Emails||47.2%|Easy||
-|0197|Rising Temperature||40.7%|Easy||
+|0197|Rising Temperature||40.6%|Easy||
 |0198|House Robber|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0198.House-Robber)|43.7%|Medium||
 |0199|Binary Tree Right Side View|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0199.Binary-Tree-Right-Side-View)|57.1%|Medium||
 |0200|Number of Islands|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0200.Number-of-Islands)|50.4%|Medium||
@@ -755,7 +755,7 @@
 |0614|Second Degree Follower||33.3%|Medium||
 |0615|Average Salary: Departments VS Company||53.9%|Hard||
 |0616|Add Bold Tag in String||45.3%|Medium||
-|0617|Merge Two Binary Trees||76.0%|Easy||
+|0617|Merge Two Binary Trees|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0617.Merge-Two-Binary-Trees)|76.0%|Easy||
 |0618|Students Report By Geography||61.5%|Hard||
 |0619|Biggest Single Number||45.8%|Easy||
 |0620|Not Boring Movies||70.8%|Easy||
@@ -890,7 +890,7 @@
 |0749|Contain Virus||49.0%|Hard||
 |0750|Number Of Corner Rectangles||67.3%|Medium||
 |0751|IP to CIDR||58.2%|Medium||
-|0752|Open the Lock||54.7%|Medium||
+|0752|Open the Lock|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0752.Open-the-Lock)|54.7%|Medium||
 |0753|Cracking the Safe|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0753.Cracking-the-Safe)|52.9%|Hard||
 |0754|Reach a Number||40.7%|Medium||
 |0755|Pour Water||44.5%|Medium||
@@ -1494,7 +1494,7 @@
 |1354|Construct Target Array With Multiple Sums||31.4%|Hard||
 |1355|Activity Participants||74.7%|Medium||
 |1356|Sort Integers by The Number of 1 Bits||70.6%|Easy||
-|1357|Apply Discount Every n Orders||67.2%|Medium||
+|1357|Apply Discount Every n Orders||67.3%|Medium||
 |1358|Number of Substrings Containing All Three Characters||61.0%|Medium||
 |1359|Count All Valid Pickup and Delivery Options||55.7%|Hard||
 |1360|Number of Days Between Two Dates||46.5%|Easy||
@@ -1706,7 +1706,7 @@
 |1566|Detect Pattern of Length M Repeated K or More Times||43.0%|Easy||
 |1567|Maximum Length of Subarray With Positive Product||37.6%|Medium||
 |1568|Minimum Number of Days to Disconnect Island||50.1%|Hard||
-|1569|Number of Ways to Reorder Array to Get Same BST||50.1%|Hard||
+|1569|Number of Ways to Reorder Array to Get Same BST||50.0%|Hard||
 |1570|Dot Product of Two Sparse Vectors||91.1%|Medium||
 |1571|Warehouse Manager||89.6%|Easy||
 |1572|Matrix Diagonal Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1572.Matrix-Diagonal-Sum)|78.0%|Easy||
@@ -1911,7 +1911,7 @@
 |1771|Maximize Palindrome Length From Subsequences||34.4%|Hard||
 |1772|Sort Features by Popularity||65.5%|Medium||
 |1773|Count Items Matching a Rule||84.6%|Easy||
-|1774|Closest Dessert Cost||45.4%|Medium||
+|1774|Closest Dessert Cost||45.3%|Medium||
 |1775|Equal Sum Arrays With Minimum Number of Operations||50.5%|Medium||
 |1776|Car Fleet II||49.9%|Hard||
 |1777|Product's Price for Each Store||86.3%|Easy||
@@ -2022,7 +2022,7 @@
 |1882|Process Tasks Using Servers||30.6%|Medium||
 |1883|Minimum Skips to Arrive at Meeting On Time||38.2%|Hard||
 |1884|Egg Drop With 2 Eggs and N Floors||69.9%|Medium||
-|1885|Count Pairs in Two Arrays||54.8%|Medium||
+|1885|Count Pairs in Two Arrays||54.9%|Medium||
 |1886|Determine Whether Matrix Can Be Obtained By Rotation||53.9%|Easy||
 |1887|Reduction Operations to Make the Array Elements Equal||59.7%|Medium||
 |1888|Minimum Number of Flips to Make the Binary String Alternating||33.8%|Medium||
@@ -2033,7 +2033,7 @@
 |1893|Check if All the Integers in a Range Are Covered||49.1%|Easy||
 |1894|Find the Student that Will Replace the Chalk||38.6%|Medium||
 |1895|Largest Magic Square||49.3%|Medium||
-|1896|Minimum Cost to Change the Final Value of Expression||51.5%|Hard||
+|1896|Minimum Cost to Change the Final Value of Expression||51.4%|Hard||
 |1897|Redistribute Characters to Make All Strings Equal||58.6%|Easy||
 |1898|Maximum Number of Removable Characters||32.3%|Medium||
 |1899|Merge Triplets to Form Target Triplet||58.9%|Medium||
@@ -2044,12 +2044,12 @@
 |1904|The Number of Full Rounds You Have Played||52.6%|Medium||
 |1905|Count Sub Islands||59.9%|Medium||
 |1906|Minimum Absolute Difference Queries||41.5%|Medium||
-|1907|Count Salary Categories||62.1%|Medium||
+|1907|Count Salary Categories||62.2%|Medium||
 |1908|Game of Nim||66.8%|Medium||
-|1909|Remove One Element to Make the Array Strictly Increasing||28.4%|Easy||
-|1910|Remove All Occurrences of a Substring||70.7%|Medium||
-|1911|Maximum Alternating Subsequence Sum||52.5%|Medium||
-|1912|Design Movie Rental System||33.8%|Hard||
+|1909|Remove One Element to Make the Array Strictly Increasing||28.5%|Easy||
+|1910|Remove All Occurrences of a Substring||70.8%|Medium||
+|1911|Maximum Alternating Subsequence Sum||52.6%|Medium||
+|1912|Design Movie Rental System||33.9%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
