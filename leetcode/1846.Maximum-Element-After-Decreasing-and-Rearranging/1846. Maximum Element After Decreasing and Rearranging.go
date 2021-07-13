@@ -2,12 +2,12 @@ package leetcode
 
 func maximumElementAfterDecrementingAndRearranging(arr []int) int {
 	n := len(arr)
-	cnt := make([]int, n+1)
+	count := make([]int, n+1)
 	for _, v := range arr {
-		cnt[min(v, n)]++
+		count[min(v, n)]++
 	}
 	miss := 0
-	for _, c := range cnt[1:] {
+	for _, c := range count[1:] {
 		if c == 0 {
 			miss++
 		} else {
