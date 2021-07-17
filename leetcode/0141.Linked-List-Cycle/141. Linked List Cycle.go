@@ -9,11 +9,10 @@ type ListNode = structures.ListNode
 
 /**
  * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
  */
 
 func hasCycle(head *ListNode) bool {
