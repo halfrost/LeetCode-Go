@@ -30,12 +30,12 @@ func Test_Problem141(t *testing.T) {
 
 		{
 			para141{[]int{3, 2, 0, -4}},
-			ans141{true},
+			ans141{false},
 		},
 
 		{
 			para141{[]int{1, 2}},
-			ans141{true},
+			ans141{false},
 		},
 
 		{
