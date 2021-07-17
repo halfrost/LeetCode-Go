@@ -19,7 +19,7 @@ type ListNode = structures.ListNode
 func hasCycle(head *ListNode) bool {
 	fast := head
 	slow := head
-	for slow != nil && fast != nil && fast.Next != nil {
+	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		slow = slow.Next
 		if fast == slow {
