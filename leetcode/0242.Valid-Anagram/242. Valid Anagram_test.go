@@ -45,6 +45,21 @@ func Test_Problem242(t *testing.T) {
 			para242{"rat", "car"},
 			ans242{false},
 		},
+
+		{
+			para242{"a", "ab"},
+			ans242{false},
+		},
+
+		{
+			para242{"ab", "a"},
+			ans242{false},
+		},
+
+		{
+			para242{"aa", "bb"},
+			ans242{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 242------------------------\n")
