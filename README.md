@@ -1660,7 +1660,7 @@
 |1519|Number of Nodes in the Sub-Tree With the Same Label||38.2%|Medium||
 |1520|Maximum Number of Non-Overlapping Substrings||37.0%|Hard||
 |1521|Find a Value of a Mysterious Function Closest to Target||43.8%|Hard||
-|1522|Diameter of N-Ary Tree||70.6%|Medium||
+|1522|Diameter of N-Ary Tree||70.7%|Medium||
 |1523|Count Odd Numbers in an Interval Range||53.9%|Easy||
 |1524|Number of Sub-arrays With Odd Sum||41.5%|Medium||
 |1525|Number of Good Ways to Split a String||69.7%|Medium||
@@ -1900,7 +1900,7 @@
 |1759|Count Number of Homogenous Substrings||44.0%|Medium||
 |1760|Minimum Limit of Balls in a Bag||54.5%|Medium||
 |1761|Minimum Degree of a Connected Trio in a Graph||39.5%|Hard||
-|1762|Buildings With an Ocean View||81.3%|Medium||
+|1762|Buildings With an Ocean View||81.4%|Medium||
 |1763|Longest Nice Substring||61.5%|Easy||
 |1764|Form Array by Concatenating Subarrays of Another Array||53.1%|Medium||
 |1765|Map of Highest Peak||57.6%|Medium||
