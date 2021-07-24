@@ -355,7 +355,7 @@ weight: 1
 |1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1600~1699/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||33.3%|
 |1662|Check If Two String Arrays are Equivalent|[Go]({{< relref "/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent.md" >}})|Easy||||82.0%|
 |1664|Ways to Make a Fair Array|[Go]({{< relref "/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array.md" >}})|Medium||||62.1%|
-|1665|Minimum Initial Energy to Finish Tasks|[Go]({{< relref "/ChapterFour/1600~1699/1665.Minimum-Initial-Energy-to-Finish-Tasks.md" >}})|Hard||||55.0%|
+|1665|Minimum Initial Energy to Finish Tasks|[Go]({{< relref "/ChapterFour/1600~1699/1665.Minimum-Initial-Energy-to-Finish-Tasks.md" >}})|Hard||||55.1%|
 |1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1600~1699/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||54.7%|
 |1672|Richest Customer Wealth|[Go]({{< relref "/ChapterFour/1600~1699/1672.Richest-Customer-Wealth.md" >}})|Easy||||88.2%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||46.4%|
