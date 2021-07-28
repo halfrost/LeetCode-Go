@@ -127,15 +127,15 @@
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |Optimizing|33|37|27|97|
-|Accepted|**284**|**406**|**120**|**810**|
+|Accepted|**284**|**407**|**120**|**811**|
 |Total|506|1035|415|1956|
 |Perfection Rate|88.4%|90.9%|77.5%|88.0%|
-|Completion Rate|56.1%|39.2%|28.9%|41.4%|
+|Completion Rate|56.1%|39.3%|28.9%|41.5%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 713 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 714 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -244,7 +244,7 @@
 |0103|Binary Tree Zigzag Level Order Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0103.Binary-Tree-Zigzag-Level-Order-Traversal)|51.4%|Medium||
 |0104|Maximum Depth of Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0104.Maximum-Depth-of-Binary-Tree)|69.4%|Easy||
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal)|54.4%|Medium||
-|0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal)|51.6%|Medium||
+|0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal)|51.7%|Medium||
 |0107|Binary Tree Level Order Traversal II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0107.Binary-Tree-Level-Order-Traversal-II)|56.5%|Medium||
 |0108|Convert Sorted Array to Binary Search Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0108.Convert-Sorted-Array-to-Binary-Search-Tree)|63.1%|Easy||
 |0109|Convert Sorted List to Binary Search Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0109.Convert-Sorted-List-to-Binary-Search-Tree)|53.0%|Medium||
@@ -1242,7 +1242,7 @@
 |1101|The Earliest Moment When Everyone Become Friends||67.9%|Medium||
 |1102|Path With Maximum Minimum Value||51.4%|Medium||
 |1103|Distribute Candies to People||63.4%|Easy||
-|1104|Path In Zigzag Labelled Binary Tree||73.8%|Medium||
+|1104|Path In Zigzag Labelled Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1104.Path-In-Zigzag-Labelled-Binary-Tree)|73.8%|Medium||
 |1105|Filling Bookcase Shelves|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1105.Filling-Bookcase-Shelves)|57.7%|Medium||
 |1106|Parsing A Boolean Expression||59.7%|Hard||
 |1107|New Users Daily Count||46.0%|Medium||
@@ -1406,7 +1406,7 @@
 |1265|Print Immutable Linked List in Reverse||94.1%|Medium||
 |1266|Minimum Time Visiting All Points|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1266.Minimum-Time-Visiting-All-Points)|79.2%|Easy||
 |1267|Count Servers that Communicate||57.9%|Medium||
-|1268|Search Suggestions System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1268.Search-Suggestions-System)|65.6%|Medium||
+|1268|Search Suggestions System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1268.Search-Suggestions-System)|65.5%|Medium||
 |1269|Number of Ways to Stay in the Same Place After Some Steps||43.3%|Hard||
 |1270|All People Report to the Given Manager||88.3%|Medium||
 |1271|Hexspeak||56.0%|Easy||
@@ -1900,7 +1900,7 @@
 |1759|Count Number of Homogenous Substrings||44.0%|Medium||
 |1760|Minimum Limit of Balls in a Bag||54.5%|Medium||
 |1761|Minimum Degree of a Connected Trio in a Graph||39.5%|Hard||
-|1762|Buildings With an Ocean View||81.4%|Medium||
+|1762|Buildings With an Ocean View||81.3%|Medium||
 |1763|Longest Nice Substring||61.5%|Easy||
 |1764|Form Array by Concatenating Subarrays of Another Array||53.1%|Medium||
 |1765|Map of Highest Peak||57.6%|Medium||
@@ -1948,7 +1948,7 @@
 |1807|Evaluate the Bracket Pairs of a String||66.5%|Medium||
 |1808|Maximize Number of Nice Divisors||28.5%|Hard||
 |1809|Ad-Free Sessions||62.1%|Easy||
-|1810|Minimum Path Cost in a Hidden Grid||54.0%|Medium||
+|1810|Minimum Path Cost in a Hidden Grid||54.1%|Medium||
 |1811|Find Interview Candidates||66.5%|Medium||
 |1812|Determine Color of a Chessboard Square||77.0%|Easy||
 |1813|Sentence Similarity III||31.6%|Medium||
