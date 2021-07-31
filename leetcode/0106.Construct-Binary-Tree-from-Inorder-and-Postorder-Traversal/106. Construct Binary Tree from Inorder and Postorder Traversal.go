@@ -16,7 +16,25 @@ type TreeNode = structures.TreeNode
  * }
  */
 
+// 解法一, 直接传入需要的 slice 范围作为输入, 可以避免申请对应 inorder 索引的内存, 内存使用(leetcode test case) 4.7MB -> 4.3MB.
 func buildTree(inorder []int, postorder []int) *TreeNode {
+	postorderLen := len(postorder)
+	if len(inorder) == 0 {
+		return nil
+	}
+	root := &TreeNode{Val: postorder[postorderLen-1]}
+	postorder = postorder[:postorderLen-1]
+	for pos, node := range inorder {
+		if node == root.Val {
+			root.Left = buildTree(inorder[:pos], postorder[:len(inorder[:pos])])
+			root.Right = buildTree(inorder[pos+1:], postorder[len(inorder[:pos]):])
+		}
+	}
+	return root
+}
+
+// 解法二
+func buildTree1(inorder []int, postorder []int) *TreeNode {
 	inPos := make(map[int]int)
 	for i := 0; i < len(inorder); i++ {
 		inPos[inorder[i]] = i
