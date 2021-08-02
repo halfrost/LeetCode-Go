@@ -113,7 +113,7 @@ weight: 1
 |0354|Russian Doll Envelopes|[Go]({{< relref "/ChapterFour/0300~0399/0354.Russian-Doll-Envelopes.md" >}})|Hard||||38.7%|
 |0368|Largest Divisible Subset|[Go]({{< relref "/ChapterFour/0300~0399/0368.Largest-Divisible-Subset.md" >}})|Medium||||38.8%|
 |0373|Find K Pairs with Smallest Sums|[Go]({{< relref "/ChapterFour/0300~0399/0373.Find-K-Pairs-with-Smallest-Sums.md" >}})|Medium||||39.0%|
-|0376|Wiggle Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0376.Wiggle-Subsequence.md" >}})|Medium||||42.8%|
+|0376|Wiggle Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0376.Wiggle-Subsequence.md" >}})|Medium||||42.9%|
 |0377|Combination Sum IV|[Go]({{< relref "/ChapterFour/0300~0399/0377.Combination-Sum-IV.md" >}})|Medium||||47.5%|
 |0378|Kth Smallest Element in a Sorted Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0378.Kth-Smallest-Element-in-a-Sorted-Matrix.md" >}})|Medium||||58.0%|
 |0393|UTF-8 Validation|[Go]({{< relref "/ChapterFour/0300~0399/0393.UTF-8-Validation.md" >}})|Medium||||38.6%|
@@ -194,7 +194,7 @@ weight: 1
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||51.1%|
 |0719|Find K-th Smallest Pair Distance|[Go]({{< relref "/ChapterFour/0700~0799/0719.Find-K-th-Smallest-Pair-Distance.md" >}})|Hard||||33.2%|
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Medium||||49.9%|
-|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||53.3%|
+|0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||53.4%|
 |0724|Find Pivot Index|[Go]({{< relref "/ChapterFour/0700~0799/0724.Find-Pivot-Index.md" >}})|Easy||||48.0%|
 |0733|Flood Fill|[Go]({{< relref "/ChapterFour/0700~0799/0733.Flood-Fill.md" >}})|Easy||||56.3%|
 |0735|Asteroid Collision|[Go]({{< relref "/ChapterFour/0700~0799/0735.Asteroid-Collision.md" >}})|Medium||||43.7%|

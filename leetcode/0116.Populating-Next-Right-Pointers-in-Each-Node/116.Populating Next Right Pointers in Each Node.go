@@ -12,12 +12,9 @@ func connect(root *Node) *Node {
 	if root == nil {
 		return root
 	}
-
 	q := []*Node{root}
-
 	for len(q) > 0 {
 		var p []*Node
-
 		// 遍历这一层的所有节点
 		for i, node := range q {
 			if i+1 < len(q) {
@@ -32,7 +29,6 @@ func connect(root *Node) *Node {
 		}
 		q = p
 	}
-
 	return root
 }
 
@@ -42,7 +38,6 @@ func connect2(root *Node) *Node {
 		return nil
 	}
 	connectTwoNode(root.Left, root.Right)
-
 	return root
 }
 
@@ -51,7 +46,6 @@ func connectTwoNode(node1, node2 *Node) {
 		return
 	}
 	node1.Next = node2
-
 	connectTwoNode(node1.Left, node1.Right)
 	connectTwoNode(node2.Left, node2.Right)
 	connectTwoNode(node1.Right, node2.Left)
