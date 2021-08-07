@@ -1,5 +1,26 @@
 package leetcode
 
+// suggestion
+func isAnagram2(s string, t string) bool {
+	hash := map[rune]int{}
+
+	for _, value := range s {
+		hash[value]++
+	}
+
+	for _, value := range t {
+		hash[value]--
+	}
+
+	for _, value := range hash {
+		if value != 0 {
+			return false
+		}
+	}
+
+	return true
+}
+
 // 解法一
 func isAnagram(s string, t string) bool {
 	alphabet := make([]int, 26)
