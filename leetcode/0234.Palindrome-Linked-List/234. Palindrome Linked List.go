@@ -15,8 +15,26 @@ type ListNode = structures.ListNode
  * }
  */
 
+// 解法一
+func isPalindrome(head *ListNode) bool {
+	slice := []int{}
+	for head != nil {
+		slice = append(slice, head.Val)
+		head = head.Next
+	}
+	for i, j := 0, len(slice)-1; i < j; {
+		if slice[i] != slice[j] {
+			return false
+		}
+		i++
+		j--
+	}
+	return true
+}
+
+// 解法二
 // 此题和 143 题 Reorder List 思路基本一致
-func isPalindrome234(head *ListNode) bool {
+func isPalindrome1(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return true
 	}
@@ -28,7 +46,6 @@ func isPalindrome234(head *ListNode) bool {
 		p1 = p1.Next
 		p2 = p2.Next.Next
 	}
-
 	// 反转链表后半部分  1->2->3->4->5->6 to 1->2->3->6->5->4
 	preMiddle := p1
 	preCurrent := p1.Next
@@ -38,7 +55,6 @@ func isPalindrome234(head *ListNode) bool {
 		current.Next = preMiddle.Next
 		preMiddle.Next = current
 	}
-
 	// 扫描表，判断是否是回文
 	p1 = head
 	p2 = preMiddle.Next
@@ -59,18 +75,15 @@ func isPalindrome234(head *ListNode) bool {
 			return false
 		}
 	}
-
 	return res
 }
 
 // L2ss define
 func L2ss(head *ListNode) []int {
 	res := []int{}
-
 	for head != nil {
 		res = append(res, head.Val)
 		head = head.Next
 	}
-
 	return res
 }

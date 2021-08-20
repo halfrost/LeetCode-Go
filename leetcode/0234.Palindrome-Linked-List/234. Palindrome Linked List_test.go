@@ -83,7 +83,7 @@ func Test_Problem234(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans234, q.para234
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isPalindrome234(structures.Ints2List(p.one)))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, isPalindrome(structures.Ints2List(p.one)))
 	}
 	fmt.Printf("\n\n\n")
 }

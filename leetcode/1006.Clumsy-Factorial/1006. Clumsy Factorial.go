@@ -1,7 +1,7 @@
 package leetcode
 
 func clumsy(N int) int {
-	res, count, tmp, flag := 0, 1, N, true
+	res, count, tmp, flag := 0, 1, N, false
 	for i := N - 1; i > 0; i-- {
 		count = count % 4
 		switch count {

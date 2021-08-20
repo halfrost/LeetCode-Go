@@ -24,44 +24,17 @@ func isAnagram(s string, t string) bool {
 
 // 解法二
 func isAnagram1(s string, t string) bool {
-	if s == "" && t == "" {
-		return true
+	hash := map[rune]int{}
+	for _, value := range s {
+		hash[value]++
 	}
-	if s == "" || t == "" {
-		return false
+	for _, value := range t {
+		hash[value]--
 	}
-	sBytes := []byte(s)
-	tBytes := []byte(t)
-	if len(sBytes) != len(tBytes) {
-		return false
-	}
-	quickSortByte(sBytes, 0, len(sBytes)-1)
-	quickSortByte(tBytes, 0, len(tBytes)-1)
-
-	for i := 0; i < len(sBytes); i++ {
-		if sBytes[i] != tBytes[i] {
+	for _, value := range hash {
+		if value != 0 {
 			return false
 		}
 	}
 	return true
-}
-func partitionByte(a []byte, lo, hi int) int {
-	pivot := a[hi]
-	i := lo - 1
-	for j := lo; j < hi; j++ {
-		if a[j] > pivot {
-			i++
-			a[j], a[i] = a[i], a[j]
-		}
-	}
-	a[i+1], a[hi] = a[hi], a[i+1]
-	return i + 1
-}
-func quickSortByte(a []byte, lo, hi int) {
-	if lo >= hi {
-		return
-	}
-	p := partitionByte(a, lo, hi)
-	quickSortByte(a, lo, p-1)
-	quickSortByte(a, p+1, hi)
 }

@@ -18,15 +18,38 @@ type Mdrow struct {
 
 // GenerateMdRows define
 func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
+	mdMap := map[int]Mdrow{}
+	for _, row := range mdrows {
+		mdMap[int(row.FrontendQuestionID)] = row
+	}
 	for i := 0; i < len(solutionIds); i++ {
-		id := mdrows[solutionIds[i]-1].FrontendQuestionID
-		if solutionIds[i] == int(id) {
-			//fmt.Printf("id = %v i = %v solutionIds = %v\n", id, i, solutionIds[i])
-			mdrows[id-1].SolutionPath = fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", id, strings.Replace(strings.TrimSpace(mdrows[id-1].QuestionTitle), " ", "-", -1)))
+		if row, ok := mdMap[solutionIds[i]]; ok {
+			s7 := standardizedTitle(row.QuestionTitle, row.FrontendQuestionID)
+			mdMap[solutionIds[i]] = Mdrow{
+				FrontendQuestionID: row.FrontendQuestionID,
+				QuestionTitle:      strings.TrimSpace(row.QuestionTitle),
+				QuestionTitleSlug:  row.QuestionTitleSlug,
+				SolutionPath:       fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", solutionIds[i], s7)),
+				Acceptance:         row.Acceptance,
+				Difficulty:         row.Difficulty,
+				Frequency:          row.Frequency,
+			}
 		} else {
-			fmt.Printf("序号出错了 solutionIds = %v id = %v\n", solutionIds[i], id)
+			fmt.Printf("序号不存在 len(solutionIds) = %v len(mdrows) = %v len(solutionIds) = %v solutionIds[i] = %v QuestionTitle = %v\n", len(solutionIds), len(mdrows), len(solutionIds), solutionIds[i], mdrows[solutionIds[i]-1].QuestionTitle)
 		}
 	}
+	for i := range mdrows {
+		mdrows[i] = Mdrow{
+			FrontendQuestionID: mdrows[i].FrontendQuestionID,
+			QuestionTitle:      strings.TrimSpace(mdrows[i].QuestionTitle),
+			QuestionTitleSlug:  mdrows[i].QuestionTitleSlug,
+			SolutionPath:       mdMap[int(mdrows[i].FrontendQuestionID)].SolutionPath,
+			Acceptance:         mdrows[i].Acceptance,
+			Difficulty:         mdrows[i].Difficulty,
+			Frequency:          mdrows[i].Frequency,
+		}
+	}
+	// fmt.Printf("mdrows = %v\n\n", mdrows)
 }
 
 // | 0001 | Two Sum  | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0001.Two-Sum)| 45.6%  | Easy | |

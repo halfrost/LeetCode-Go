@@ -7,7 +7,7 @@ Given a positive integer, return its corresponding column title as appear in an 
 For example:
 
 ```
-		1 -> A
+    1 -> A
     2 -> B
     3 -> C
     ...

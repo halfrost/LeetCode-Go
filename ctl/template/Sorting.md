@@ -1,10 +1,10 @@
 ---
-title: 2.14 ✅ Sort
+title: 2.14 ✅ Sorting
 type: docs
 weight: 14
 ---
 
-# Sort
+# Sorting
 
 ![](https://img.halfrost.com/Leetcode/Sort.png)
 

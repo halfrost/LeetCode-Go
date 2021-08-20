@@ -35,6 +35,16 @@ func Test_Problem202(t *testing.T) {
 			para202{19},
 			ans202{true},
 		},
+
+		{
+			para202{2},
+			ans202{false},
+		},
+
+		{
+			para202{3},
+			ans202{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 202------------------------\n")
