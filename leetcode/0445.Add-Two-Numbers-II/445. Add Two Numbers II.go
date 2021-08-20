@@ -69,8 +69,8 @@ func getLength(l *ListNode) int {
 }
 
 func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
-	reservedL1 := reversedList(l1)
-	reservedL2 := reversedList(l2)
+	reservedL1 := reverseList(l1)
+	reservedL2 := reverseList(l2)
 
 	dummyHead := &ListNode{}
 	head := dummyHead
@@ -89,10 +89,10 @@ func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
 		head.Next = &ListNode{Val: val % 10}
 		head = head.Next
 	}
-	return reversedList(dummyHead.Next)
+	return reverseList(dummyHead.Next)
 }
 
-func reversedList(head *ListNode) *ListNode {
+func reverseList(head *ListNode) *ListNode {
 	var prev *ListNode
 	for head != nil {
 		tmp := head.Next
