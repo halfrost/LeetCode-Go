@@ -52,7 +52,7 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
     等号两边都加上 `sum(N) + sum(P)`，于是可以得到结果 `2 * sum(P) = target + sum(nums)`，那么这道题就转换成了，能否在数组中找到这样一个集合，和等于 `(target + sum(nums)) / 2`。那么这题就转化为了第 416 题了。`dp[i]` 中存储的是能使和为 `i` 的方法个数。
 
-- 如果和不是偶数，即不能被 2 整除，那说明找不到满足题目要求的解了，直接输出 0 。
+- 如果和不是偶数，即不能被 2 整除，或者和是负数，那说明找不到满足题目要求的解了，直接输出 0 。
 
 ## 代码
 
@@ -63,7 +63,7 @@ func findTargetSumWays(nums []int, S int) int {
 	for _, n := range nums {
 		total += n
 	}
-	if S > total || (S+total)%2 == 1 {
+	if S > total || (S+total)%2 == 1 || S+total < 0 {
 		return 0
 	}
 	target := (S + total) / 2
