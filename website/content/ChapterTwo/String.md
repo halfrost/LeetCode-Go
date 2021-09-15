@@ -59,7 +59,7 @@ weight: 2
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||55.1%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||58.6%|
 |0392|Is Subsequence|[Go]({{< relref "/ChapterFour/0300~0399/0392.Is-Subsequence.md" >}})|Easy||||49.9%|
-|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium||||54.2%|
+|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium||||54.3%|
 |0395|Longest Substring with At Least K Repeating Characters|[Go]({{< relref "/ChapterFour/0300~0399/0395.Longest-Substring-with-At-Least-K-Repeating-Characters.md" >}})|Medium||||44.1%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium||||28.9%|
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||52.6%|
@@ -75,6 +75,7 @@ weight: 2
 |0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.9%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||70.9%|
 |0541|Reverse String II|[Go]({{< relref "/ChapterFour/0500~0599/0541.Reverse-String-II.md" >}})|Easy||||49.9%|
+|0551|Student Attendance Record I|[Go]({{< relref "/ChapterFour/0500~0599/0551.Student-Attendance-Record-I.md" >}})|Easy||||46.8%|
 |0557|Reverse Words in a String III|[Go]({{< relref "/ChapterFour/0500~0599/0557.Reverse-Words-in-a-String-III.md" >}})|Easy||||74.2%|
 |0567|Permutation in String|[Go]({{< relref "/ChapterFour/0500~0599/0567.Permutation-in-String.md" >}})|Medium||||44.7%|
 |0583|Delete Operation for Two Strings|[Go]({{< relref "/ChapterFour/0500~0599/0583.Delete-Operation-for-Two-Strings.md" >}})|Medium||||53.1%|
@@ -85,7 +86,7 @@ weight: 2
 |0676|Implement Magic Dictionary|[Go]({{< relref "/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary.md" >}})|Medium||||56.0%|
 |0677|Map Sum Pairs|[Go]({{< relref "/ChapterFour/0600~0699/0677.Map-Sum-Pairs.md" >}})|Medium||||56.9%|
 |0692|Top K Frequent Words|[Go]({{< relref "/ChapterFour/0600~0699/0692.Top-K-Frequent-Words.md" >}})|Medium||||53.7%|
-|0696|Count Binary Substrings|[Go]({{< relref "/ChapterFour/0600~0699/0696.Count-Binary-Substrings.md" >}})|Easy||||62.1%|
+|0696|Count Binary Substrings|[Go]({{< relref "/ChapterFour/0600~0699/0696.Count-Binary-Substrings.md" >}})|Easy||||62.2%|
 |0709|To Lower Case|[Go]({{< relref "/ChapterFour/0700~0799/0709.To-Lower-Case.md" >}})|Easy||||80.8%|
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Medium||||50.1%|
 |0721|Accounts Merge|[Go]({{< relref "/ChapterFour/0700~0799/0721.Accounts-Merge.md" >}})|Medium||||53.7%|
@@ -98,7 +99,7 @@ weight: 2
 |0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0700~0799/0771.Jewels-and-Stones.md" >}})|Easy||||87.3%|
 |0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0700~0799/0784.Letter-Case-Permutation.md" >}})|Medium||||69.8%|
 |0791|Custom Sort String|[Go]({{< relref "/ChapterFour/0700~0799/0791.Custom-Sort-String.md" >}})|Medium||||67.2%|
-|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.2%|
+|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.3%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Medium||||72.7%|
 |0816|Ambiguous Coordinates|[Go]({{< relref "/ChapterFour/0800~0899/0816.Ambiguous-Coordinates.md" >}})|Medium||||55.7%|
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0800~0899/0819.Most-Common-Word.md" >}})|Easy||||45.4%|
@@ -137,7 +138,7 @@ weight: 2
 |1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.8%|
 |1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||50.4%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.8%|
-|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.7%|
+|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.8%|
 |1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||40.8%|
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.6%|
 |1190|Reverse Substrings Between Each Pair of Parentheses|[Go]({{< relref "/ChapterFour/1100~1199/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses.md" >}})|Medium||||65.2%|
@@ -155,7 +156,7 @@ weight: 2
 |1461|Check If a String Contains All Binary Codes of Size K|[Go]({{< relref "/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K.md" >}})|Medium||||54.4%|
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.4%|
 |1614|Maximum Nesting Depth of the Parentheses|[Go]({{< relref "/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses.md" >}})|Easy||||82.8%|
-|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.7%|
+|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.8%|
 |1629|Slowest Key|[Go]({{< relref "/ChapterFour/1600~1699/1629.Slowest-Key.md" >}})|Easy||||60.0%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||55.7%|
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||53.4%|

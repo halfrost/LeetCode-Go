@@ -14,9 +14,9 @@ weight: 7
 |0032|Longest Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses.md" >}})|Hard||||30.5%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard||||53.5%|
 |0045|Jump Game II|[Go]({{< relref "/ChapterFour/0001~0099/0045.Jump-Game-II.md" >}})|Medium||||34.4%|
-|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0001~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||48.5%|
+|0053|Maximum Subarray|[Go]({{< relref "/ChapterFour/0001~0099/0053.Maximum-Subarray.md" >}})|Easy| O(n)| O(n)||48.6%|
 |0055|Jump Game|[Go]({{< relref "/ChapterFour/0001~0099/0055.Jump-Game.md" >}})|Medium||||36.2%|
-|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||57.6%|
+|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium| O(n^2)| O(n^2)||57.7%|
 |0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||36.4%|
 |0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||57.7%|
 |0070|Climbing Stairs|[Go]({{< relref "/ChapterFour/0001~0099/0070.Climbing-Stairs.md" >}})|Easy| O(n)| O(n)||49.4%|
@@ -67,7 +67,7 @@ weight: 7
 |0583|Delete Operation for Two Strings|[Go]({{< relref "/ChapterFour/0500~0599/0583.Delete-Operation-for-Two-Strings.md" >}})|Medium||||53.1%|
 |0638|Shopping Offers|[Go]({{< relref "/ChapterFour/0600~0699/0638.Shopping-Offers.md" >}})|Medium||||54.0%|
 |0647|Palindromic Substrings|[Go]({{< relref "/ChapterFour/0600~0699/0647.Palindromic-Substrings.md" >}})|Medium||||63.4%|
-|0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||59.3%|
+|0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go]({{< relref "/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee.md" >}})|Medium| O(n)| O(1)||59.4%|
 |0718|Maximum Length of Repeated Subarray|[Go]({{< relref "/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray.md" >}})|Medium||||51.1%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||54.7%|
 |0823|Binary Trees With Factors|[Go]({{< relref "/ChapterFour/0800~0899/0823.Binary-Trees-With-Factors.md" >}})|Medium||||43.7%|
@@ -82,7 +82,7 @@ weight: 7
 |0918|Maximum Sum Circular Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0918.Maximum-Sum-Circular-Subarray.md" >}})|Medium||||35.3%|
 |0920|Number of Music Playlists|[Go]({{< relref "/ChapterFour/0900~0999/0920.Number-of-Music-Playlists.md" >}})|Hard||||48.6%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||41.1%|
-|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||46.9%|
+|0978|Longest Turbulent Subarray|[Go]({{< relref "/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray.md" >}})|Medium||||47.3%|
 |0996|Number of Squareful Arrays|[Go]({{< relref "/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays.md" >}})|Hard||||48.8%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||66.5%|
 |1048|Longest String Chain|[Go]({{< relref "/ChapterFour/1000~1099/1048.Longest-String-Chain.md" >}})|Medium||||56.5%|

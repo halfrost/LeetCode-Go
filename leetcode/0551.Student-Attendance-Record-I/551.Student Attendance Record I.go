@@ -1,9 +1,7 @@
 package leetcode
 
 func checkRecord(s string) bool {
-	numsA := 0
-	maxL := 0
-	numsL := 0
+	numsA, maxL, numsL := 0, 0, 0
 	for _, v := range s {
 		if v == 'L' {
 			numsL++

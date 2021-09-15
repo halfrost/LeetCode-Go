@@ -29,7 +29,7 @@ weight: 9
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||57.8%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||51.4%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0200~0299/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||44.6%|
-|0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||44.4%|
+|0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||44.5%|
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||42.1%|
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0200~0299/0222.Count-Complete-Tree-Nodes.md" >}})|Medium||||51.7%|
 |0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0226.Invert-Binary-Tree.md" >}})|Easy||||69.0%|
@@ -43,7 +43,7 @@ weight: 9
 |0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||57.1%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||35.2%|
 |0386|Lexicographical Numbers|[Go]({{< relref "/ChapterFour/0300~0399/0386.Lexicographical-Numbers.md" >}})|Medium||||56.4%|
-|0399|Evaluate Division|[Go]({{< relref "/ChapterFour/0300~0399/0399.Evaluate-Division.md" >}})|Medium||||55.6%|
+|0399|Evaluate Division|[Go]({{< relref "/ChapterFour/0300~0399/0399.Evaluate-Division.md" >}})|Medium||||55.7%|
 |0404|Sum of Left Leaves|[Go]({{< relref "/ChapterFour/0400~0499/0404.Sum-of-Left-Leaves.md" >}})|Easy||||53.1%|
 |0417|Pacific Atlantic Water Flow|[Go]({{< relref "/ChapterFour/0400~0499/0417.Pacific-Atlantic-Water-Flow.md" >}})|Medium||||46.0%|
 |0437|Path Sum III|[Go]({{< relref "/ChapterFour/0400~0499/0437.Path-Sum-III.md" >}})|Medium||||48.9%|
@@ -98,7 +98,7 @@ weight: 9
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||60.4%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||70.5%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||71.5%|
-|1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||83.7%|
+|1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||83.6%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||68.5%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.9%|
 |1145|Binary Tree Coloring Game|[Go]({{< relref "/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game.md" >}})|Medium||||51.0%|
@@ -108,7 +108,7 @@ weight: 9
 |1302|Deepest Leaves Sum|[Go]({{< relref "/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum.md" >}})|Medium||||85.5%|
 |1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||78.3%|
 |1306|Jump Game III|[Go]({{< relref "/ChapterFour/1300~1399/1306.Jump-Game-III.md" >}})|Medium||||61.6%|
-|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||55.9%|
+|1319|Number of Operations to Make Network Connected|[Go]({{< relref "/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected.md" >}})|Medium||||56.0%|
 |1600|Throne Inheritance|[Go]({{< relref "/ChapterFour/1600~1699/1600.Throne-Inheritance.md" >}})|Medium||||62.0%|
 |1631|Path With Minimum Effort|[Go]({{< relref "/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort.md" >}})|Medium||||50.6%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

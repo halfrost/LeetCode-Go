@@ -27,18 +27,18 @@ weight: 5
 |0143|Reorder List|[Go]({{< relref "/ChapterFour/0100~0199/0143.Reorder-List.md" >}})|Medium||||43.4%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Easy| O(n)| O(1)||59.7%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Easy| O(n)| O(1)||60.4%|
-|0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||40.3%|
+|0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||40.4%|
 |0155|Min Stack|[Go]({{< relref "/ChapterFour/0100~0199/0155.Min-Stack.md" >}})|Easy| O(n)| O(n)||48.0%|
 |0173|Binary Search Tree Iterator|[Go]({{< relref "/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator.md" >}})|Medium| O(n)| O(1)||62.6%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||39.3%|
 |0225|Implement Stack using Queues|[Go]({{< relref "/ChapterFour/0200~0299/0225.Implement-Stack-using-Queues.md" >}})|Easy| O(n)| O(n)||49.8%|
 |0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.6%|
-|0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||54.5%|
+|0232|Implement Queue using Stacks|[Go]({{< relref "/ChapterFour/0200~0299/0232.Implement-Queue-using-Stacks.md" >}})|Easy| O(n)| O(n)||54.6%|
 |0234|Palindrome Linked List|[Go]({{< relref "/ChapterFour/0200~0299/0234.Palindrome-Linked-List.md" >}})|Easy||||44.1%|
 |0331|Verify Preorder Serialization of a Binary Tree|[Go]({{< relref "/ChapterFour/0300~0399/0331.Verify-Preorder-Serialization-of-a-Binary-Tree.md" >}})|Medium| O(n)| O(1)||43.3%|
 |0341|Flatten Nested List Iterator|[Go]({{< relref "/ChapterFour/0300~0399/0341.Flatten-Nested-List-Iterator.md" >}})|Medium||||57.1%|
 |0385|Mini Parser|[Go]({{< relref "/ChapterFour/0300~0399/0385.Mini-Parser.md" >}})|Medium||||35.2%|
-|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||54.2%|
+|0394|Decode String|[Go]({{< relref "/ChapterFour/0300~0399/0394.Decode-String.md" >}})|Medium| O(n)| O(n)||54.3%|
 |0402|Remove K Digits|[Go]({{< relref "/ChapterFour/0400~0499/0402.Remove-K-Digits.md" >}})|Medium| O(n)| O(1)||28.9%|
 |0445|Add Two Numbers II|[Go]({{< relref "/ChapterFour/0400~0499/0445.Add-Two-Numbers-II.md" >}})|Medium||||57.5%|
 |0456|132 Pattern|[Go]({{< relref "/ChapterFour/0400~0499/0456.132-Pattern.md" >}})|Medium| O(n)| O(n)||30.7%|

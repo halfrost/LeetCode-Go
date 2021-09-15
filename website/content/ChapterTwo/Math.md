@@ -19,14 +19,14 @@ weight: 12
 |0048|Rotate Image|[Go]({{< relref "/ChapterFour/0001~0099/0048.Rotate-Image.md" >}})|Medium||||63.4%|
 |0050|Pow(x, n)|[Go]({{< relref "/ChapterFour/0001~0099/0050.Powx-n.md" >}})|Medium| O(log n)| O(1)||31.5%|
 |0060|Permutation Sequence|[Go]({{< relref "/ChapterFour/0001~0099/0060.Permutation-Sequence.md" >}})|Hard| O(n log n)| O(1)||40.7%|
-|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium||||57.6%|
+|0062|Unique Paths|[Go]({{< relref "/ChapterFour/0001~0099/0062.Unique-Paths.md" >}})|Medium||||57.7%|
 |0066|Plus One|[Go]({{< relref "/ChapterFour/0001~0099/0066.Plus-One.md" >}})|Easy||||42.0%|
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||48.5%|
 |0069|Sqrt(x)|[Go]({{< relref "/ChapterFour/0001~0099/0069.Sqrtx.md" >}})|Easy| O(log n)| O(1)||35.9%|
 |0070|Climbing Stairs|[Go]({{< relref "/ChapterFour/0001~0099/0070.Climbing-Stairs.md" >}})|Easy||||49.4%|
 |0089|Gray Code|[Go]({{< relref "/ChapterFour/0001~0099/0089.Gray-Code.md" >}})|Medium||||53.9%|
 |0096|Unique Binary Search Trees|[Go]({{< relref "/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees.md" >}})|Medium||||56.0%|
-|0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium||||40.3%|
+|0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium||||40.4%|
 |0168|Excel Sheet Column Title|[Go]({{< relref "/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title.md" >}})|Easy||||32.7%|
 |0171|Excel Sheet Column Number|[Go]({{< relref "/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number.md" >}})|Easy||||58.2%|
 |0172|Factorial Trailing Zeroes|[Go]({{< relref "/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes.md" >}})|Easy||||39.7%|
@@ -65,7 +65,7 @@ weight: 12
 |0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0400~0499/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.1%|
 |0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||37.0%|
 |0509|Fibonacci Number|[Go]({{< relref "/ChapterFour/0500~0599/0509.Fibonacci-Number.md" >}})|Easy||||67.8%|
-|0523|Continuous Subarray Sum|[Go]({{< relref "/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum.md" >}})|Medium||||25.7%|
+|0523|Continuous Subarray Sum|[Go]({{< relref "/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum.md" >}})|Medium||||25.8%|
 |0528|Random Pick with Weight|[Go]({{< relref "/ChapterFour/0500~0599/0528.Random-Pick-with-Weight.md" >}})|Medium||||45.3%|
 |0537|Complex Number Multiplication|[Go]({{< relref "/ChapterFour/0500~0599/0537.Complex-Number-Multiplication.md" >}})|Medium||||70.9%|
 |0598|Range Addition II|[Go]({{< relref "/ChapterFour/0500~0599/0598.Range-Addition-II.md" >}})|Easy||||54.1%|
@@ -77,7 +77,7 @@ weight: 12
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||45.8%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||56.0%|
 |0793|Preimage Size of Factorial Zeroes Function|[Go]({{< relref "/ChapterFour/0700~0799/0793.Preimage-Size-of-Factorial-Zeroes-Function.md" >}})|Hard||||40.9%|
-|0810|Chalkboard XOR Game|[Go]({{< relref "/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game.md" >}})|Hard||||51.6%|
+|0810|Chalkboard XOR Game|[Go]({{< relref "/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game.md" >}})|Hard||||51.7%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.4%|
 |0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||42.9%|
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.2%|
@@ -119,7 +119,7 @@ weight: 12
 |1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||85.7%|
 |1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||81.8%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1300~1399/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||76.6%|
-|1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||57.3%|
+|1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||57.4%|
 |1442|Count Triplets That Can Form Two Arrays of Equal XOR|[Go]({{< relref "/ChapterFour/1400~1499/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR.md" >}})|Medium||||73.5%|
 |1486|XOR Operation in an Array|[Go]({{< relref "/ChapterFour/1400~1499/1486.XOR-Operation-in-an-Array.md" >}})|Easy||||84.0%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.7%|

@@ -59,13 +59,13 @@ weight: 13
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||65.7%|
 |0454|4Sum II|[Go]({{< relref "/ChapterFour/0400~0499/0454.4Sum-II.md" >}})|Medium| O(n^2)| O(n) ||55.4%|
 |0457|Circular Array Loop|[Go]({{< relref "/ChapterFour/0400~0499/0457.Circular-Array-Loop.md" >}})|Medium||||30.9%|
-|0460|LFU Cache|[Go]({{< relref "/ChapterFour/0400~0499/0460.LFU-Cache.md" >}})|Hard||||37.9%|
-|0480|Sliding Window Median|[Go]({{< relref "/ChapterFour/0400~0499/0480.Sliding-Window-Median.md" >}})|Hard||||39.9%|
+|0460|LFU Cache|[Go]({{< relref "/ChapterFour/0400~0499/0460.LFU-Cache.md" >}})|Hard||||38.0%|
+|0480|Sliding Window Median|[Go]({{< relref "/ChapterFour/0400~0499/0480.Sliding-Window-Median.md" >}})|Hard||||40.0%|
 |0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0400~0499/0491.Increasing-Subsequences.md" >}})|Medium||||49.3%|
 |0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy||||67.3%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500~0599/0500.Keyboard-Row.md" >}})|Easy||||66.8%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||60.8%|
-|0523|Continuous Subarray Sum|[Go]({{< relref "/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum.md" >}})|Medium||||25.7%|
+|0523|Continuous Subarray Sum|[Go]({{< relref "/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum.md" >}})|Medium||||25.8%|
 |0525|Contiguous Array|[Go]({{< relref "/ChapterFour/0500~0599/0525.Contiguous-Array.md" >}})|Medium||||44.3%|
 |0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium||||36.6%|
 |0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||82.9%|
@@ -96,7 +96,7 @@ weight: 13
 |0771|Jewels and Stones|[Go]({{< relref "/ChapterFour/0700~0799/0771.Jewels-and-Stones.md" >}})|Easy||||87.3%|
 |0781|Rabbits in Forest|[Go]({{< relref "/ChapterFour/0700~0799/0781.Rabbits-in-Forest.md" >}})|Medium||||56.0%|
 |0791|Custom Sort String|[Go]({{< relref "/ChapterFour/0700~0799/0791.Custom-Sort-String.md" >}})|Medium||||67.2%|
-|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.2%|
+|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.3%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Medium||||72.7%|
 |0815|Bus Routes|[Go]({{< relref "/ChapterFour/0800~0899/0815.Bus-Routes.md" >}})|Hard||||44.3%|
 |0817|Linked List Components|[Go]({{< relref "/ChapterFour/0800~0899/0817.Linked-List-Components.md" >}})|Medium||||57.9%|
@@ -128,7 +128,7 @@ weight: 13
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||68.9%|
 |1128|Number of Equivalent Domino Pairs|[Go]({{< relref "/ChapterFour/1100~1199/1128.Number-of-Equivalent-Domino-Pairs.md" >}})|Easy||||45.8%|
 |1160|Find Words That Can Be Formed by Characters|[Go]({{< relref "/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters.md" >}})|Easy||||67.8%|
-|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.7%|
+|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.8%|
 |1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go]({{< relref "/ChapterFour/1100~1199/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List.md" >}})|Medium||||42.0%|
 |1178|Number of Valid Words for Each Puzzle|[Go]({{< relref "/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle.md" >}})|Hard||||40.8%|
 |1189|Maximum Number of Balloons|[Go]({{< relref "/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons.md" >}})|Easy||||62.6%|
@@ -140,7 +140,7 @@ weight: 13
 |1461|Check If a String Contains All Binary Codes of Size K|[Go]({{< relref "/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K.md" >}})|Medium||||54.4%|
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||87.7%|
 |1600|Throne Inheritance|[Go]({{< relref "/ChapterFour/1600~1699/1600.Throne-Inheritance.md" >}})|Medium||||62.0%|
-|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.7%|
+|1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||58.8%|
 |1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||67.7%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||55.4%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||82.2%|

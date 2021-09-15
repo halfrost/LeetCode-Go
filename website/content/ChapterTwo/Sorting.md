@@ -68,7 +68,7 @@ weight: 14
 |0720|Longest Word in Dictionary|[Go]({{< relref "/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary.md" >}})|Medium||||50.1%|
 |0767|Reorganize String|[Go]({{< relref "/ChapterFour/0700~0799/0767.Reorganize-String.md" >}})|Medium| O(n log n)| O(log n)  |❤️|51.0%|
 |0791|Custom Sort String|[Go]({{< relref "/ChapterFour/0700~0799/0791.Custom-Sort-String.md" >}})|Medium||||67.2%|
-|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.2%|
+|0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||49.3%|
 |0826|Most Profit Assigning Work|[Go]({{< relref "/ChapterFour/0800~0899/0826.Most-Profit-Assigning-Work.md" >}})|Medium||||40.0%|
 |0853|Car Fleet|[Go]({{< relref "/ChapterFour/0800~0899/0853.Car-Fleet.md" >}})|Medium| O(n log n)| O(log n)  ||46.2%|
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.2%|
@@ -89,13 +89,13 @@ weight: 14
 |1051|Height Checker|[Go]({{< relref "/ChapterFour/1000~1099/1051.Height-Checker.md" >}})|Easy||||73.5%|
 |1054|Distant Barcodes|[Go]({{< relref "/ChapterFour/1000~1099/1054.Distant-Barcodes.md" >}})|Medium| O(n log n)| O(log n) |❤️|44.9%|
 |1122|Relative Sort Array|[Go]({{< relref "/ChapterFour/1100~1199/1122.Relative-Sort-Array.md" >}})|Easy||||67.9%|
-|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.7%|
+|1170|Compare Strings by Frequency of the Smallest Character|[Go]({{< relref "/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character.md" >}})|Medium||||60.8%|
 |1200|Minimum Absolute Difference|[Go]({{< relref "/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference.md" >}})|Easy||||67.4%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||49.9%|
 |1300|Sum of Mutated Array Closest to Target|[Go]({{< relref "/ChapterFour/1300~1399/1300.Sum-of-Mutated-Array-Closest-to-Target.md" >}})|Medium||||42.5%|
 |1305|All Elements in Two Binary Search Trees|[Go]({{< relref "/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees.md" >}})|Medium||||78.3%|
 |1329|Sort the Matrix Diagonally|[Go]({{< relref "/ChapterFour/1300~1399/1329.Sort-the-Matrix-Diagonally.md" >}})|Medium||||81.4%|
-|1337|The K Weakest Rows in a Matrix|[Go]({{< relref "/ChapterFour/1300~1399/1337.The-K-Weakest-Rows-in-a-Matrix.md" >}})|Easy||||72.0%|
+|1337|The K Weakest Rows in a Matrix|[Go]({{< relref "/ChapterFour/1300~1399/1337.The-K-Weakest-Rows-in-a-Matrix.md" >}})|Easy||||72.1%|
 |1383|Maximum Performance of a Team|[Go]({{< relref "/ChapterFour/1300~1399/1383.Maximum-Performance-of-a-Team.md" >}})|Hard||||41.3%|
 |1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.3%|
 |1464|Maximum Product of Two Elements in an Array|[Go]({{< relref "/ChapterFour/1400~1499/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})|Easy||||77.4%|
@@ -112,7 +112,7 @@ weight: 14
 |1710|Maximum Units on a Truck|[Go]({{< relref "/ChapterFour/1700~1799/1710.Maximum-Units-on-a-Truck.md" >}})|Easy||||72.4%|
 |1818|Minimum Absolute Sum Difference|[Go]({{< relref "/ChapterFour/1800~1899/1818.Minimum-Absolute-Sum-Difference.md" >}})|Medium||||28.4%|
 |1846|Maximum Element After Decreasing and Rearranging|[Go]({{< relref "/ChapterFour/1800~1899/1846.Maximum-Element-After-Decreasing-and-Rearranging.md" >}})|Medium||||55.5%|
-|1877|Minimize Maximum Pair Sum in Array|[Go]({{< relref "/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array.md" >}})|Medium||||79.3%|
+|1877|Minimize Maximum Pair Sum in Array|[Go]({{< relref "/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array.md" >}})|Medium||||79.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
