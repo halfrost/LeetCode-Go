@@ -46,7 +46,7 @@ weight: 2
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||42.1%|
 |0212|Word Search II|[Go]({{< relref "/ChapterFour/0200~0299/0212.Word-Search-II.md" >}})|Hard||||38.0%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard||||39.3%|
-|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.6%|
+|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.7%|
 |0242|Valid Anagram|[Go]({{< relref "/ChapterFour/0200~0299/0242.Valid-Anagram.md" >}})|Easy||||59.9%|
 |0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy||||56.1%|
 |0290|Word Pattern|[Go]({{< relref "/ChapterFour/0200~0299/0290.Word-Pattern.md" >}})|Easy||||38.9%|

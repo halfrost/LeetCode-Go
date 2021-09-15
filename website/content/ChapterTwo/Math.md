@@ -35,7 +35,7 @@ weight: 12
 |0204|Count Primes|[Go]({{< relref "/ChapterFour/0200~0299/0204.Count-Primes.md" >}})|Easy||||32.8%|
 |0223|Rectangle Area|[Go]({{< relref "/ChapterFour/0200~0299/0223.Rectangle-Area.md" >}})|Medium||||39.1%|
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||39.3%|
-|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.6%|
+|0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||39.7%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||43.9%|
 |0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||59.6%|
 |0263|Ugly Number|[Go]({{< relref "/ChapterFour/0200~0299/0263.Ugly-Number.md" >}})|Easy| O(log n)| O(1)||41.7%|
@@ -107,7 +107,7 @@ weight: 12
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||34.9%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||46.9%|
 |1104|Path In Zigzag Labelled Binary Tree|[Go]({{< relref "/ChapterFour/1100~1199/1104.Path-In-Zigzag-Labelled-Binary-Tree.md" >}})|Medium||||73.9%|
-|1137|N-th Tribonacci Number|[Go]({{< relref "/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number.md" >}})|Easy||||57.7%|
+|1137|N-th Tribonacci Number|[Go]({{< relref "/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number.md" >}})|Easy||||57.8%|
 |1154|Day of the Year|[Go]({{< relref "/ChapterFour/1100~1199/1154.Day-of-the-Year.md" >}})|Easy||||50.4%|
 |1175|Prime Arrangements|[Go]({{< relref "/ChapterFour/1100~1199/1175.Prime-Arrangements.md" >}})|Easy||||52.0%|
 |1185|Day of the Week|[Go]({{< relref "/ChapterFour/1100~1199/1185.Day-of-the-Week.md" >}})|Easy||||59.6%|

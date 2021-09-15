@@ -17,9 +17,7 @@ type TreeNode = structures.TreeNode
  */
 
 func isCompleteTree(root *TreeNode) bool {
-	queue := []*TreeNode{root}
-	found := false
-
+	queue, found := []*TreeNode{root}, false
 	for len(queue) > 0 {
 		node := queue[0] //取出每一层的第一个节点
 		queue = queue[1:]

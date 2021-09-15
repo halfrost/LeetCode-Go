@@ -88,7 +88,7 @@ weight: 7
 |1048|Longest String Chain|[Go]({{< relref "/ChapterFour/1000~1099/1048.Longest-String-Chain.md" >}})|Medium||||56.5%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||48.8%|
 |1105|Filling Bookcase Shelves|[Go]({{< relref "/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves.md" >}})|Medium||||57.8%|
-|1137|N-th Tribonacci Number|[Go]({{< relref "/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number.md" >}})|Easy||||57.7%|
+|1137|N-th Tribonacci Number|[Go]({{< relref "/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number.md" >}})|Easy||||57.8%|
 |1143|Longest Common Subsequence|[Go]({{< relref "/ChapterFour/1100~1199/1143.Longest-Common-Subsequence.md" >}})|Medium||||58.8%|
 |1235|Maximum Profit in Job Scheduling|[Go]({{< relref "/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling.md" >}})|Hard||||49.9%|
 |1463|Cherry Pickup II|[Go]({{< relref "/ChapterFour/1400~1499/1463.Cherry-Pickup-II.md" >}})|Hard||||68.5%|

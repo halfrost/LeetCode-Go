@@ -365,7 +365,7 @@
 |0224|Basic Calculator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0224.Basic-Calculator)|39.3%|Hard||
 |0225|Implement Stack using Queues|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0225.Implement-Stack-using-Queues)|49.8%|Easy||
 |0226|Invert Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0226.Invert-Binary-Tree)|69.0%|Easy||
-|0227|Basic Calculator II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0227.Basic-Calculator-II)|39.7%|Medium||
+|0227|Basic Calculator II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0227.Basic-Calculator-II)|39.6%|Medium||
 |0228|Summary Ranges|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0228.Summary-Ranges)|43.8%|Easy||
 |0229|Majority Element II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0229.Majority-Element-II)|40.3%|Medium||
 |0230|Kth Smallest Element in a BST|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0230.Kth-Smallest-Element-in-a-BST)|64.6%|Medium||
@@ -644,7 +644,7 @@
 |0503|Next Greater Element II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0503.Next-Greater-Element-II)|60.2%|Medium||
 |0504|Base 7||46.9%|Easy||
 |0505|The Maze II||50.1%|Medium||
-|0506|Relative Ranks||53.6%|Easy||
+|0506|Relative Ranks||53.7%|Easy||
 |0507|Perfect Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0507.Perfect-Number)|37.0%|Easy||
 |0508|Most Frequent Subtree Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0508.Most-Frequent-Subtree-Sum)|60.8%|Medium||
 |0509|Fibonacci Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0509.Fibonacci-Number)|67.8%|Easy||
@@ -1758,7 +1758,7 @@
 |1617|Count Subtrees With Max Distance Between Cities||64.2%|Hard||
 |1618|Maximum Font to Fit a Sentence in a Screen||57.5%|Medium||
 |1619|Mean of Array After Removing Some Elements|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1619.Mean-of-Array-After-Removing-Some-Elements)|64.6%|Easy||
-|1620|Coordinate With Maximum Network Quality||36.8%|Medium||
+|1620|Coordinate With Maximum Network Quality||36.7%|Medium||
 |1621|Number of Sets of K Non-Overlapping Line Segments||42.4%|Medium||
 |1622|Fancy Sequence||15.1%|Hard||
 |1623|All Valid Triplets That Can Represent a Country||88.8%|Easy||
@@ -1831,7 +1831,7 @@
 |1690|Stone Game VII|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1690.Stone-Game-VII)|58.8%|Medium||
 |1691|Maximum Height by Stacking Cuboids|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1691.Maximum-Height-by-Stacking-Cuboids)|51.4%|Hard||
 |1692|Count Ways to Distribute Candies||60.1%|Hard||
-|1693|Daily Leads and Partners||91.2%|Easy||
+|1693|Daily Leads and Partners||91.1%|Easy||
 |1694|Reformat Phone Number|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1694.Reformat-Phone-Number)|65.0%|Easy||
 |1695|Maximum Erasure Value|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1695.Maximum-Erasure-Value)|52.3%|Medium||
 |1696|Jump Game VI|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1696.Jump-Game-VI)|42.1%|Medium||
@@ -1989,7 +1989,7 @@
 |1848|Minimum Distance to the Target Element||60.2%|Easy||
 |1849|Splitting a String Into Descending Consecutive Values||28.4%|Medium||
 |1850|Minimum Adjacent Swaps to Reach the Kth Smallest Number||73.6%|Medium||
-|1851|Minimum Interval to Include Each Query||44.1%|Hard||
+|1851|Minimum Interval to Include Each Query||44.2%|Hard||
 |1852|Distinct Numbers in Each Subarray||74.5%|Medium||
 |1853|Convert Date Format||88.9%|Easy||
 |1854|Maximum Population Year||57.9%|Easy||
@@ -2012,7 +2012,7 @@
 |1871|Jump Game VII||24.3%|Medium||
 |1872|Stone Game VIII||51.5%|Hard||
 |1873|Calculate Special Bonus||91.5%|Easy||
-|1874|Minimize Product Sum of Two Arrays||90.0%|Medium||
+|1874|Minimize Product Sum of Two Arrays||89.9%|Medium||
 |1875|Group Employees of the Same Salary||75.7%|Medium||
 |1876|Substrings of Size Three with Distinct Characters||68.9%|Easy||
 |1877|Minimize Maximum Pair Sum in Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1877.Minimize-Maximum-Pair-Sum-in-Array)|79.4%|Medium||
@@ -2072,7 +2072,7 @@
 |1931|Painting a Grid With Three Different Colors||55.9%|Hard||
 |1932|Merge BSTs to Create Single BST||33.0%|Hard||
 |1933|Check if String Is Decomposable Into Value-Equal Substrings||56.1%|Easy||
-|1934|Confirmation Rate||79.5%|Medium||
+|1934|Confirmation Rate||79.6%|Medium||
 |1935|Maximum Number of Words You Can Type||72.5%|Easy||
 |1936|Add Minimum Number of Rungs||41.4%|Medium||
 |1937|Maximum Number of Points with Cost||28.6%|Medium||
@@ -2081,7 +2081,7 @@
 |1940|Longest Common Subsequence Between Sorted Arrays||81.1%|Medium||
 |1941|Check if All Characters Have Equal Number of Occurrences||77.0%|Easy||
 |1942|The Number of the Smallest Unoccupied Chair||36.8%|Medium||
-|1943|Describe the Painting||44.9%|Medium||
+|1943|Describe the Painting||45.0%|Medium||
 |1944|Number of Visible People in a Queue||62.6%|Hard||
 |1945|Sum of Digits of String After Convert||62.0%|Easy||
 |1946|Largest Number After Mutating Substring||33.1%|Medium||
@@ -2115,7 +2115,7 @@
 |1974|Minimum Time to Type Word Using Special Typewriter||72.9%|Easy||
 |1975|Maximum Matrix Sum||42.9%|Medium||
 |1976|Number of Ways to Arrive at Destination||30.8%|Medium||
-|1977|Number of Ways to Separate Numbers||23.4%|Hard||
+|1977|Number of Ways to Separate Numbers||23.3%|Hard||
 |1978|Employees Whose Manager Left the Company||52.9%|Easy||
 |1979|Find Greatest Common Divisor of Array||80.8%|Easy||
 |1980|Find Unique Binary String||61.2%|Medium||
@@ -2125,7 +2125,7 @@
 |1984|Minimum Difference Between Highest and Lowest of K Scores||54.1%|Easy||
 |1985|Find the Kth Largest Integer in the Array||43.1%|Medium||
 |1986|Minimum Number of Work Sessions to Finish the Tasks||30.7%|Medium||
-|1987|Number of Unique Good Subsequences||49.4%|Hard||
+|1987|Number of Unique Good Subsequences||49.3%|Hard||
 |1988|Find Cutoff Score for Each School||76.0%|Medium||
 |1989|Maximum Number of People That Can Be Caught in Tag||61.1%|Medium||
 |1990|Count the Number of Experiments||58.5%|Medium||
@@ -2136,7 +2136,7 @@
 |1995|Count Special Quadruplets||55.1%|Easy||
 |1996|The Number of Weak Characters in the Game||27.4%|Medium||
 |1997|First Day Where You Have Been in All the Rooms||33.7%|Medium||
-|1998|GCD Sort of an Array||45.3%|Hard||
+|1998|GCD Sort of an Array||45.2%|Hard||
 |1999|Smallest Greater Multiple Made of Two Digits||57.3%|Medium||
 |2000|Reverse Prefix of Word||80.3%|Easy||
 |2001|Number of Pairs of Interchangeable Rectangles||40.1%|Medium||
