@@ -23,6 +23,7 @@ weight: 2
 |0032|Longest Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses.md" >}})|Hard||||30.5%|
 |0043|Multiply Strings|[Go]({{< relref "/ChapterFour/0001~0099/0043.Multiply-Strings.md" >}})|Medium||||35.9%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||61.8%|
+|0058|Length of Last Word|[Go]({{< relref "/ChapterFour/0001~0099/0058.Length-of-Last-Word.md" >}})|Easy||||34.4%|
 |0065|Valid Number|[Go]({{< relref "/ChapterFour/0001~0099/0065.Valid-Number.md" >}})|Hard||||17.0%|
 |0067|Add Binary|[Go]({{< relref "/ChapterFour/0001~0099/0067.Add-Binary.md" >}})|Easy||||48.5%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)||35.9%|

@@ -126,16 +126,16 @@
 
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
-|Optimizing|34|40|31|105|
+|Optimizing|33|40|31|104|
 |Accepted|**284**|**414**|**124**|**822**|
 |Total|517|1061|426|2004|
-|Perfection Rate|88.0%|90.3%|75.0%|87.2%|
+|Perfection Rate|88.4%|90.3%|75.0%|87.3%|
 |Completion Rate|54.9%|39.0%|29.1%|41.0%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 719 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 720 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -196,7 +196,7 @@
 |0055|Jump Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0055.Jump-Game)|36.2%|Medium||
 |0056|Merge Intervals|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0056.Merge-Intervals)|42.8%|Medium||
 |0057|Insert Interval|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0057.Insert-Interval)|36.4%|Medium||
-|0058|Length of Last Word||34.4%|Easy||
+|0058|Length of Last Word|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0058.Length-of-Last-Word)|34.4%|Easy||
 |0059|Spiral Matrix II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0059.Spiral-Matrix-II)|59.8%|Medium||
 |0060|Permutation Sequence|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0060.Permutation-Sequence)|40.7%|Hard||
 |0061|Rotate List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0061.Rotate-List)|32.8%|Medium||
@@ -365,7 +365,7 @@
 |0224|Basic Calculator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0224.Basic-Calculator)|39.3%|Hard||
 |0225|Implement Stack using Queues|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0225.Implement-Stack-using-Queues)|49.8%|Easy||
 |0226|Invert Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0226.Invert-Binary-Tree)|69.0%|Easy||
-|0227|Basic Calculator II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0227.Basic-Calculator-II)|39.6%|Medium||
+|0227|Basic Calculator II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0227.Basic-Calculator-II)|39.7%|Medium||
 |0228|Summary Ranges|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0228.Summary-Ranges)|43.8%|Easy||
 |0229|Majority Element II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0229.Majority-Element-II)|40.3%|Medium||
 |0230|Kth Smallest Element in a BST|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0230.Kth-Smallest-Element-in-a-BST)|64.6%|Medium||
@@ -1009,7 +1009,7 @@
 |0868|Binary Gap||61.5%|Easy||
 |0869|Reordered Power of 2|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0869.Reordered-Power-of-2)|61.2%|Medium||
 |0870|Advantage Shuffle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0870.Advantage-Shuffle)|50.9%|Medium||
-|0871|Minimum Number of Refueling Stops||35.0%|Hard||
+|0871|Minimum Number of Refueling Stops||35.1%|Hard||
 |0872|Leaf-Similar Trees|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0872.Leaf-Similar-Trees)|64.7%|Easy||
 |0873|Length of Longest Fibonacci Subsequence||48.5%|Medium||
 |0874|Walking Robot Simulation|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0874.Walking-Robot-Simulation)|37.0%|Easy||
@@ -1182,7 +1182,7 @@
 |1041|Robot Bounded In Circle||54.7%|Medium||
 |1042|Flower Planting With No Adjacent||49.2%|Medium||
 |1043|Partition Array for Maximum Sum||69.1%|Medium||
-|1044|Longest Duplicate Substring||30.7%|Hard||
+|1044|Longest Duplicate Substring||30.6%|Hard||
 |1045|Customers Who Bought All Products||67.6%|Medium||
 |1046|Last Stone Weight||62.6%|Easy||
 |1047|Remove All Adjacent Duplicates In String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1047.Remove-All-Adjacent-Duplicates-In-String)|71.3%|Easy||
@@ -2086,7 +2086,7 @@
 |1945|Sum of Digits of String After Convert||62.0%|Easy||
 |1946|Largest Number After Mutating Substring||33.1%|Medium||
 |1947|Maximum Compatibility Score Sum||57.6%|Medium||
-|1948|Delete Duplicate Folders in System||60.5%|Hard||
+|1948|Delete Duplicate Folders in System||60.4%|Hard||
 |1949|Strong Friendship||59.3%|Medium||
 |1950|Maximum of Minimum Values in All Subarrays||50.9%|Medium||
 |1951|All the Pairs With the Maximum Number of Common Followers||74.1%|Medium||
