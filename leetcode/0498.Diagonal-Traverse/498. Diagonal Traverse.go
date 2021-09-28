@@ -38,7 +38,7 @@ func findDiagonalOrder1(matrix [][]int) []int {
 }
 
 // 解法二
-func findDiagonalOrder(matrix [][]int) []int {
+func findDiagonalOrder2(matrix [][]int) []int {
 	if len(matrix) == 0 {
 		return []int{}
 	}
