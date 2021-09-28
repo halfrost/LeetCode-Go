@@ -135,3 +135,41 @@ func addTraverse(matrix [][]int, i, j int, res *[]int) {
 		*res = append(*res, matrix[i][j])
 	}
 }
+
+// 解法三
+func findDiagonalOrder3(mat [][]int) []int {
+	forUp := true // true: 斜上角  false: 斜下角
+	// 初始化位置
+	idxX := 0
+	idxY := 0
+	var ret []int
+	x := len(mat[0])
+	y := len(mat)
+	for idxX < x && idxY < y {
+		ret = append(ret, mat[idxY][idxX])
+		if forUp {
+			if idxX+1 < x && idxY-1 >= 0 { // 斜上角 有值
+				idxX += 1
+				idxY -= 1
+			} else if idxX+1 < x { // 斜上角 无值 且 x轴右侧有值 ，优先水平向右移动
+				idxX += 1
+				forUp = false
+			} else { // 否则 ， 垂直向下移动
+				idxY += 1
+				forUp = false
+			}
+		} else {
+			if idxX-1 >= 0 && idxY+1 < y { // 斜下角 有值
+				idxX -= 1
+				idxY += 1
+			} else if idxY+1 < y { // 斜下角 无值  且 Y轴下侧有值，优先垂直向下移动
+				idxY += 1
+				forUp = true
+			} else { // 否则 ， 水平向右移动
+				idxX += 1
+				forUp = true
+			}
+		}
+	}
+	return ret
+}
