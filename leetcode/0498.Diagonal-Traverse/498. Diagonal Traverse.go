@@ -137,7 +137,7 @@ func addTraverse(matrix [][]int, i, j int, res *[]int) {
 }
 
 // 解法三
-func findDiagonalOrder3(mat [][]int) []int {
+func findDiagonalOrder(mat [][]int) []int {
 	forUp := true // true: 斜上角  false: 斜下角
 	// 初始化位置
 	idxX := 0
