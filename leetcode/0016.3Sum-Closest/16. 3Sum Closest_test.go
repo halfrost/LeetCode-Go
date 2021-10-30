@@ -51,6 +51,10 @@ func Test_Problem16(t *testing.T) {
 			para16{[]int{-1, 2, 1, -4}, 1},
 			ans16{2},
 		},
+		{
+			para16{[]int{1, -1, 9999999999}, 1},
+			ans16{9999999999},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 16------------------------\n")
