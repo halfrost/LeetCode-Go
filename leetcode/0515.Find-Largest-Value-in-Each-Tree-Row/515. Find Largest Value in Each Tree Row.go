@@ -92,3 +92,25 @@ func largestValues1(root *TreeNode) []int {
 	}
 	return res
 }
+
+// 解法三 深度遍历二叉树
+func largestValues3(root *TreeNode) []int {
+	var res []int
+	var dfs func(root *TreeNode, level int)
+	dfs = func(root *TreeNode, level int) {
+		if root == nil {
+			return
+		}
+		if len(res) == level {
+			res = append(res, root.Val)
+		}
+		if res[level] < root.Val {
+			res[level] = root.Val
+		}
+
+		dfs(root.Right, level+1)
+		dfs(root.Left, level+1)
+	}
+	dfs(root, 0)
+	return res
+}
