@@ -135,7 +135,7 @@
 
 ## 二. 目录
 
-以下已经收录了 723 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 724 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -630,7 +630,7 @@
 |0489|Robot Room Cleaner||74.6%|Hard||
 |0490|The Maze||54.0%|Medium||
 |0491|Increasing Subsequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0491.Increasing-Subsequences)|49.6%|Medium||
-|0492|Construct the Rectangle||51.8%|Easy||
+|0492|Construct the Rectangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0492.Construct-the-Rectangle)|51.8%|Easy||
 |0493|Reverse Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0493.Reverse-Pairs)|28.8%|Hard||
 |0494|Target Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0494.Target-Sum)|45.3%|Medium||
 |0495|Teemo Attacking||56.5%|Easy||
