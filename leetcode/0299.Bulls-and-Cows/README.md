@@ -75,3 +75,38 @@ Output: "1A0B"
 - 计算下标一致并且对应下标的元素一致的个数，即x
 - secret和guess分别去除x个公牛的元素,剩下secret和guess求共同的元素个数就是y
 - 把x， y转换成字符串，分别与"A"和"B"进行拼接返回结果
+
+## 代码
+```go
+package leetcode
+
+import "strconv"
+
+func getHint(secret string, guess string) string {
+	cntA, cntB := 0, 0
+	mpS := make(map[byte]int)
+	var strG []byte
+	n := len(secret)
+	var ans string
+	for i := 0; i < n; i++ {
+		if secret[i] == guess[i] {
+			cntA++
+		} else {
+			mpS[secret[i]] += 1
+			strG = append(strG, guess[i])
+		}
+	}
+	for _, v := range strG {
+		if _, ok := mpS[v]; ok {
+			if mpS[v] > 1 {
+				mpS[v] -= 1
+			} else {
+				delete(mpS, v)
+			}
+			cntB++
+		}
+	}
+	ans += strconv.Itoa(cntA) + "A" + strconv.Itoa(cntB) + "B"
+	return ans
+}
+```
