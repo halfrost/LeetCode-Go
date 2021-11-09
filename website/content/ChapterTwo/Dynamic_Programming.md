@@ -58,6 +58,7 @@ weight: 7
 |0435|Non-overlapping Intervals|[Go]({{< relref "/ChapterFour/0400~0499/0435.Non-overlapping-Intervals.md" >}})|Medium||||46.5%|
 |0473|Matchsticks to Square|[Go]({{< relref "/ChapterFour/0400~0499/0473.Matchsticks-to-Square.md" >}})|Medium||||40.3%|
 |0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0400~0499/0474.Ones-and-Zeroes.md" >}})|Medium||||44.0%|
+|0488|Zuma Game|[Go]({{< relref "/ChapterFour/0400~0499/0488.Zuma-Game.md" >}})|Hard||||37.6%|
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.3%|
 |0509|Fibonacci Number|[Go]({{< relref "/ChapterFour/0500~0599/0509.Fibonacci-Number.md" >}})|Easy||||67.8%|
 |0518|Coin Change 2|[Go]({{< relref "/ChapterFour/0500~0599/0518.Coin-Change-2.md" >}})|Medium||||55.2%|

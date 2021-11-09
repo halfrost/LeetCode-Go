@@ -74,6 +74,7 @@ weight: 2
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium||||46.6%|
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium||||66.8%|
 |0474|Ones and Zeroes|[Go]({{< relref "/ChapterFour/0400~0499/0474.Ones-and-Zeroes.md" >}})|Medium||||44.0%|
+|0488|Zuma Game|[Go]({{< relref "/ChapterFour/0400~0499/0488.Zuma-Game.md" >}})|Hard||||37.6%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500~0599/0500.Keyboard-Row.md" >}})|Easy||||67.1%|
 |0524|Longest Word in Dictionary through Deleting|[Go]({{< relref "/ChapterFour/0500~0599/0524.Longest-Word-in-Dictionary-through-Deleting.md" >}})|Medium||||50.7%|
 |0535|Encode and Decode TinyURL|[Go]({{< relref "/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL.md" >}})|Medium||||83.1%|
@@ -153,7 +154,7 @@ weight: 2
 |1234|Replace the Substring for Balanced String|[Go]({{< relref "/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String.md" >}})|Medium||||35.5%|
 |1239|Maximum Length of a Concatenated String with Unique Characters|[Go]({{< relref "/ChapterFour/1200~1299/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters.md" >}})|Medium||||50.6%|
 |1249|Minimum Remove to Make Valid Parentheses|[Go]({{< relref "/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses.md" >}})|Medium||||65.0%|
-|1268|Search Suggestions System|[Go]({{< relref "/ChapterFour/1200~1299/1268.Search-Suggestions-System.md" >}})|Medium||||65.7%|
+|1268|Search Suggestions System|[Go]({{< relref "/ChapterFour/1200~1299/1268.Search-Suggestions-System.md" >}})|Medium||||65.8%|
 |1332|Remove Palindromic Subsequences|[Go]({{< relref "/ChapterFour/1300~1399/1332.Remove-Palindromic-Subsequences.md" >}})|Easy||||69.1%|
 |1396|Design Underground System|[Go]({{< relref "/ChapterFour/1300~1399/1396.Design-Underground-System.md" >}})|Medium||||71.7%|
 |1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||64.4%|

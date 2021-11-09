@@ -36,6 +36,7 @@ weight: 10
 |0429|N-ary Tree Level Order Traversal|[Go]({{< relref "/ChapterFour/0400~0499/0429.N-ary-Tree-Level-Order-Traversal.md" >}})|Medium||||68.2%|
 |0433|Minimum Genetic Mutation|[Go]({{< relref "/ChapterFour/0400~0499/0433.Minimum-Genetic-Mutation.md" >}})|Medium||||44.9%|
 |0463|Island Perimeter|[Go]({{< relref "/ChapterFour/0400~0499/0463.Island-Perimeter.md" >}})|Easy||||68.4%|
+|0488|Zuma Game|[Go]({{< relref "/ChapterFour/0400~0499/0488.Zuma-Game.md" >}})|Hard||||37.6%|
 |0513|Find Bottom Left Tree Value|[Go]({{< relref "/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value.md" >}})|Medium||||64.1%|
 |0515|Find Largest Value in Each Tree Row|[Go]({{< relref "/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row.md" >}})|Medium| O(n)| O(n)||63.7%|
 |0529|Minesweeper|[Go]({{< relref "/ChapterFour/0500~0599/0529.Minesweeper.md" >}})|Medium||||63.5%|
