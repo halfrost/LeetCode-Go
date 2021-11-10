@@ -479,7 +479,7 @@
 |0338|Counting Bits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0338.Counting-Bits)|72.0%|Easy||
 |0339|Nested List Weight Sum||78.7%|Medium||
 |0340|Longest Substring with At Most K Distinct Characters||46.7%|Medium||
-|0341|Flatten Nested List Iterator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0341.Flatten-Nested-List-Iterator)|57.6%|Medium||
+|0341|Flatten Nested List Iterator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0341.Flatten-Nested-List-Iterator)|57.5%|Medium||
 |0342|Power of Four|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0342.Power-of-Four)|42.9%|Easy||
 |0343|Integer Break|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0343.Integer-Break)|52.7%|Medium||
 |0344|Reverse String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0344.Reverse-String)|72.6%|Easy||
@@ -674,7 +674,7 @@
 |0533|Lonely Pixel II||48.3%|Medium||
 |0534|Game Play Analysis III||81.1%|Medium||
 |0535|Encode and Decode TinyURL|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0535.Encode-and-Decode-TinyURL)|83.1%|Medium||
-|0536|Construct Binary Tree from String||54.4%|Medium||
+|0536|Construct Binary Tree from String||54.5%|Medium||
 |0537|Complex Number Multiplication|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0537.Complex-Number-Multiplication)|70.9%|Medium||
 |0538|Convert BST to Greater Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0538.Convert-BST-to-Greater-Tree)|61.7%|Medium||
 |0539|Minimum Time Difference||53.0%|Medium||
@@ -1002,7 +1002,7 @@
 |0861|Score After Flipping Matrix||74.4%|Medium||
 |0862|Shortest Subarray with Sum at Least K|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0862.Shortest-Subarray-with-Sum-at-Least-K)|25.9%|Hard||
 |0863|All Nodes Distance K in Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0863.All-Nodes-Distance-K-in-Binary-Tree)|59.9%|Medium||
-|0864|Shortest Path to Get All Keys|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0864.Shortest-Path-to-Get-All-Keys)|43.4%|Hard||
+|0864|Shortest Path to Get All Keys|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0864.Shortest-Path-to-Get-All-Keys)|43.5%|Hard||
 |0865|Smallest Subtree with all the Deepest Nodes||66.6%|Medium||
 |0866|Prime Palindrome||25.3%|Medium||
 |0867|Transpose Matrix|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0867.Transpose-Matrix)|61.4%|Easy||
@@ -1134,7 +1134,7 @@
 |0993|Cousins in Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0993.Cousins-in-Binary-Tree)|53.6%|Easy||
 |0994|Rotting Oranges||51.1%|Medium||
 |0995|Minimum Number of K Consecutive Bit Flips|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0995.Minimum-Number-of-K-Consecutive-Bit-Flips)|50.3%|Hard||
-|0996|Number of Squareful Arrays|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0996.Number-of-Squareful-Arrays)|49.1%|Hard||
+|0996|Number of Squareful Arrays|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0996.Number-of-Squareful-Arrays)|49.0%|Hard||
 |0997|Find the Town Judge||49.9%|Easy||
 |0998|Maximum Binary Tree II||64.8%|Medium||
 |0999|Available Captures for Rook|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0999.Available-Captures-for-Rook)|67.6%|Easy||
@@ -1406,7 +1406,7 @@
 |1265|Print Immutable Linked List in Reverse||94.1%|Medium||
 |1266|Minimum Time Visiting All Points|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1266.Minimum-Time-Visiting-All-Points)|79.2%|Easy||
 |1267|Count Servers that Communicate||57.9%|Medium||
-|1268|Search Suggestions System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1268.Search-Suggestions-System)|65.8%|Medium||
+|1268|Search Suggestions System|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1268.Search-Suggestions-System)|65.7%|Medium||
 |1269|Number of Ways to Stay in the Same Place After Some Steps||43.3%|Hard||
 |1270|All People Report to the Given Manager||88.2%|Medium||
 |1271|Hexspeak||56.1%|Easy||
@@ -1424,7 +1424,7 @@
 |1283|Find the Smallest Divisor Given a Threshold|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1283.Find-the-Smallest-Divisor-Given-a-Threshold)|52.2%|Medium||
 |1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix||70.8%|Hard||
 |1285|Find the Start and End Number of Continuous Ranges||88.3%|Medium||
-|1286|Iterator for Combination||71.6%|Medium||
+|1286|Iterator for Combination||71.7%|Medium||
 |1287|Element Appearing More Than 25% In Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1287.Element-Appearing-More-Than-25-In-Sorted-Array)|59.7%|Easy||
 |1288|Remove Covered Intervals||57.8%|Medium||
 |1289|Minimum Falling Path Sum II||62.4%|Hard||
@@ -1689,7 +1689,7 @@
 |1548|The Most Similar Path in a Graph||56.8%|Hard||
 |1549|The Most Recent Orders for Each Product||67.9%|Medium||
 |1550|Three Consecutive Odds||64.1%|Easy||
-|1551|Minimum Operations to Make Array Equal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1551.Minimum-Operations-to-Make-Array-Equal)|80.6%|Medium||
+|1551|Minimum Operations to Make Array Equal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1551.Minimum-Operations-to-Make-Array-Equal)|80.7%|Medium||
 |1552|Magnetic Force Between Two Balls||52.5%|Medium||
 |1553|Minimum Number of Days to Eat N Oranges||32.1%|Hard||
 |1554|Strings Differ by One Character||65.6%|Medium||
@@ -1793,7 +1793,7 @@
 |1652|Defuse the Bomb|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1652.Defuse-the-Bomb)|60.6%|Easy||
 |1653|Minimum Deletions to Make String Balanced|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1653.Minimum-Deletions-to-Make-String-Balanced)|54.0%|Medium||
 |1654|Minimum Jumps to Reach Home|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1654.Minimum-Jumps-to-Reach-Home)|25.7%|Medium||
-|1655|Distribute Repeating Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1655.Distribute-Repeating-Integers)|40.6%|Hard||
+|1655|Distribute Repeating Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1655.Distribute-Repeating-Integers)|40.7%|Hard||
 |1656|Design an Ordered Stream|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1656.Design-an-Ordered-Stream)|82.6%|Easy||
 |1657|Determine if Two Strings Are Close|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1657.Determine-if-Two-Strings-Are-Close)|54.7%|Medium||
 |1658|Minimum Operations to Reduce X to Zero|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1658.Minimum-Operations-to-Reduce-X-to-Zero)|33.3%|Medium||
@@ -2179,7 +2179,7 @@
 |2038|Remove Colored Pieces if Both Neighbors are the Same Color||53.6%|Medium||
 |2039|The Time When the Network Becomes Idle||47.0%|Medium||
 |2040|Kth Smallest Product of Two Sorted Arrays||23.5%|Hard||
-|2041|Accepted Candidates From the Interviews||75.3%|Medium||
+|2041|Accepted Candidates From the Interviews||75.4%|Medium||
 |2042|Check if Numbers Are Ascending in a Sentence||70.6%|Easy||
 |2043|Simple Bank System||64.0%|Medium||
 |2044|Count Number of Maximum Bitwise-OR Subsets||74.6%|Medium||
@@ -2205,16 +2205,16 @@
 |2064|Minimized Maximum of Products Distributed to Any Store||43.5%|Medium||
 |2065|Maximum Path Quality of a Graph||56.1%|Hard||
 |2066|Account Balance||84.5%|Medium||
-|2067|Number of Equal Count Substrings||64.2%|Medium||
+|2067|Number of Equal Count Substrings||64.0%|Medium||
 |2068|Check Whether Two Strings are Almost Equivalent||67.8%|Easy||
 |2069|Walking Robot Simulation II||15.5%|Medium||
 |2070|Most Beautiful Item for Each Query||42.6%|Medium||
 |2071|Maximum Number of Tasks You Can Assign||29.4%|Hard||
-|2072|The Winner University||91.9%|Easy||
-|2073|Time Needed to Buy Tickets||56.0%|Easy||
-|2074|Reverse Nodes in Even Length Groups||38.3%|Medium||
-|2075|Decode the Slanted Ciphertext||46.5%|Medium||
-|2076|Process Restricted Friend Requests||37.7%|Hard||
+|2072|The Winner University||92.1%|Easy||
+|2073|Time Needed to Buy Tickets||56.2%|Easy||
+|2074|Reverse Nodes in Even Length Groups||38.7%|Medium||
+|2075|Decode the Slanted Ciphertext||46.7%|Medium||
+|2076|Process Restricted Friend Requests||38.5%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
