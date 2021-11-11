@@ -127,15 +127,15 @@
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |Optimizing|33|45|30|108|
-|Accepted|**279**|**426**|**126**|**831**|
+|Accepted|**280**|**426**|**126**|**832**|
 |Total|527|1107|442|2076|
 |Perfection Rate|88.2%|89.4%|76.2%|87.0%|
-|Completion Rate|52.9%|38.5%|28.5%|40.0%|
+|Completion Rate|53.1%|38.5%|28.5%|40.1%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 726 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 727 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -633,7 +633,7 @@
 |0492|Construct the Rectangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0492.Construct-the-Rectangle)|51.8%|Easy||
 |0493|Reverse Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0493.Reverse-Pairs)|28.9%|Hard||
 |0494|Target Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0494.Target-Sum)|45.3%|Medium||
-|0495|Teemo Attacking||56.5%|Easy||
+|0495|Teemo Attacking|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0495.Teemo-Attacking)|56.5%|Easy||
 |0496|Next Greater Element I|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0496.Next-Greater-Element-I)|68.7%|Easy||
 |0497|Random Point in Non-overlapping Rectangles|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0497.Random-Point-in-Non-overlapping-Rectangles)|39.1%|Medium||
 |0498|Diagonal Traverse|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0498.Diagonal-Traverse)|53.6%|Medium||
@@ -1396,7 +1396,7 @@
 |1255|Maximum Score Words Formed by Letters||71.4%|Hard||
 |1256|Encode Number||69.0%|Medium||
 |1257|Smallest Common Region||62.0%|Medium||
-|1258|Synonymous Sentences||57.5%|Medium||
+|1258|Synonymous Sentences||57.4%|Medium||
 |1259|Handshakes That Don't Cross||54.4%|Hard||
 |1260|Shift 2D Grid|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1260.Shift-2D-Grid)|62.1%|Easy||
 |1261|Find Elements in a Contaminated Binary Tree||75.4%|Medium||
@@ -1893,7 +1893,7 @@
 |1752|Check if Array Is Sorted and Rotated|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1752.Check-if-Array-Is-Sorted-and-Rotated)|45.1%|Easy||
 |1753|Maximum Score From Removing Stones||64.2%|Medium||
 |1754|Largest Merge Of Two Strings||42.8%|Medium||
-|1755|Closest Subsequence Sum||36.1%|Hard||
+|1755|Closest Subsequence Sum||36.0%|Hard||
 |1756|Design Most Recently Used Queue||77.8%|Medium||
 |1757|Recyclable and Low Fat Products||95.8%|Easy||
 |1758|Minimum Changes To Make Alternating Binary String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1758.Minimum-Changes-To-Make-Alternating-Binary-String)|58.8%|Easy||
@@ -2206,15 +2206,15 @@
 |2065|Maximum Path Quality of a Graph||56.1%|Hard||
 |2066|Account Balance||84.5%|Medium||
 |2067|Number of Equal Count Substrings||64.0%|Medium||
-|2068|Check Whether Two Strings are Almost Equivalent||67.8%|Easy||
+|2068|Check Whether Two Strings are Almost Equivalent||67.7%|Easy||
 |2069|Walking Robot Simulation II||15.5%|Medium||
-|2070|Most Beautiful Item for Each Query||42.6%|Medium||
+|2070|Most Beautiful Item for Each Query||42.7%|Medium||
 |2071|Maximum Number of Tasks You Can Assign||29.4%|Hard||
-|2072|The Winner University||92.1%|Easy||
+|2072|The Winner University||92.2%|Easy||
 |2073|Time Needed to Buy Tickets||56.2%|Easy||
-|2074|Reverse Nodes in Even Length Groups||38.7%|Medium||
-|2075|Decode the Slanted Ciphertext||46.7%|Medium||
-|2076|Process Restricted Friend Requests||38.5%|Hard||
+|2074|Reverse Nodes in Even Length Groups||38.9%|Medium||
+|2075|Decode the Slanted Ciphertext||46.9%|Medium||
+|2076|Process Restricted Friend Requests||39.0%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
