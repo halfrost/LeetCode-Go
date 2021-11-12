@@ -127,15 +127,15 @@
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
 |Optimizing|33|45|30|108|
-|Accepted|**280**|**426**|**126**|**832**|
+|Accepted|**281**|**426**|**126**|**833**|
 |Total|527|1107|442|2076|
-|Perfection Rate|88.2%|89.4%|76.2%|87.0%|
-|Completion Rate|53.1%|38.5%|28.5%|40.1%|
+|Perfection Rate|88.3%|89.4%|76.2%|87.0%|
+|Completion Rate|53.3%|38.5%|28.5%|40.1%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
-以下已经收录了 727 道题的题解，还有 11 道题在尝试优化到 beats 100%
+以下已经收录了 728 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -479,7 +479,7 @@
 |0338|Counting Bits|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0338.Counting-Bits)|72.0%|Easy||
 |0339|Nested List Weight Sum||78.7%|Medium||
 |0340|Longest Substring with At Most K Distinct Characters||46.7%|Medium||
-|0341|Flatten Nested List Iterator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0341.Flatten-Nested-List-Iterator)|57.5%|Medium||
+|0341|Flatten Nested List Iterator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0341.Flatten-Nested-List-Iterator)|57.6%|Medium||
 |0342|Power of Four|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0342.Power-of-Four)|42.9%|Easy||
 |0343|Integer Break|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0343.Integer-Break)|52.7%|Medium||
 |0344|Reverse String|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0344.Reverse-String)|72.6%|Easy||
@@ -658,7 +658,7 @@
 |0517|Super Washing Machines||39.0%|Hard||
 |0518|Coin Change 2|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0518.Coin-Change-2)|55.2%|Medium||
 |0519|Random Flip Matrix||38.6%|Medium||
-|0520|Detect Capital||54.2%|Easy||
+|0520|Detect Capital|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0520.Detect-Capital)|54.2%|Easy||
 |0521|Longest Uncommon Subsequence I||59.8%|Easy||
 |0522|Longest Uncommon Subsequence II||39.9%|Medium||
 |0523|Continuous Subarray Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0523.Continuous-Subarray-Sum)|26.2%|Medium||
@@ -992,7 +992,7 @@
 |0851|Loud and Rich|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0851.Loud-and-Rich)|55.0%|Medium||
 |0852|Peak Index in a Mountain Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0852.Peak-Index-in-a-Mountain-Array)|71.4%|Easy||
 |0853|Car Fleet|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0853.Car-Fleet)|47.0%|Medium||
-|0854|K-Similar Strings||38.8%|Hard||
+|0854|K-Similar Strings||38.9%|Hard||
 |0855|Exam Room||43.5%|Medium||
 |0856|Score of Parentheses|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0856.Score-of-Parentheses)|65.5%|Medium||
 |0857|Minimum Cost to Hire K Workers||51.3%|Hard||
@@ -1107,7 +1107,7 @@
 |0966|Vowel Spellchecker|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0966.Vowel-Spellchecker)|51.7%|Medium||
 |0967|Numbers With Same Consecutive Differences||46.5%|Medium||
 |0968|Binary Tree Cameras|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0968.Binary-Tree-Cameras)|41.2%|Hard||
-|0969|Pancake Sorting|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0969.Pancake-Sorting)|69.3%|Medium||
+|0969|Pancake Sorting|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0969.Pancake-Sorting)|69.4%|Medium||
 |0970|Powerful Integers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0970.Powerful-Integers)|43.4%|Medium||
 |0971|Flip Binary Tree To Match Preorder Traversal|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal)|49.8%|Medium||
 |0972|Equal Rational Numbers||42.3%|Hard||
@@ -1283,7 +1283,7 @@
 |1142|User Activity for the Past 30 Days II||35.8%|Easy||
 |1143|Longest Common Subsequence|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1143.Longest-Common-Subsequence)|58.8%|Medium||
 |1144|Decrease Elements To Make Array Zigzag||46.7%|Medium||
-|1145|Binary Tree Coloring Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1145.Binary-Tree-Coloring-Game)|51.1%|Medium||
+|1145|Binary Tree Coloring Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1145.Binary-Tree-Coloring-Game)|51.0%|Medium||
 |1146|Snapshot Array||37.1%|Medium||
 |1147|Longest Chunked Palindrome Decomposition||60.2%|Hard||
 |1148|Article Views I||77.1%|Easy||
@@ -2127,7 +2127,7 @@
 |1986|Minimum Number of Work Sessions to Finish the Tasks||30.8%|Medium||
 |1987|Number of Unique Good Subsequences||50.7%|Hard||
 |1988|Find Cutoff Score for Each School||71.5%|Medium||
-|1989|Maximum Number of People That Can Be Caught in Tag||57.6%|Medium||
+|1989|Maximum Number of People That Can Be Caught in Tag||57.7%|Medium||
 |1990|Count the Number of Experiments||52.4%|Medium||
 |1991|Find the Middle Index in Array||64.7%|Easy||
 |1992|Find All Groups of Farmland||65.4%|Medium||
@@ -2211,10 +2211,10 @@
 |2070|Most Beautiful Item for Each Query||42.7%|Medium||
 |2071|Maximum Number of Tasks You Can Assign||29.4%|Hard||
 |2072|The Winner University||92.2%|Easy||
-|2073|Time Needed to Buy Tickets||56.2%|Easy||
+|2073|Time Needed to Buy Tickets||56.3%|Easy||
 |2074|Reverse Nodes in Even Length Groups||38.9%|Medium||
 |2075|Decode the Slanted Ciphertext||46.9%|Medium||
-|2076|Process Restricted Friend Requests||39.0%|Hard||
+|2076|Process Restricted Friend Requests||39.1%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
