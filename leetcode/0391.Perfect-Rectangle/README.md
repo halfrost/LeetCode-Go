@@ -1,4 +1,4 @@
-# [391. Perfect Rectangle](https://leetcode-cn.com/problems/perfect-rectangle/)
+# [391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)
 
 ## 题目
 
@@ -52,11 +52,12 @@ Return true if all the rectangles together form an exact cover of a rectangular 
 
 ## 解题思路
 
-- 矩形区域的面积等于所有矩形的面积之和并且满足矩形区域四角的顶点只能出现一次，且其余顶点的出现次数只能是两次或四次则返回true,否则返回false
+- 矩形区域的面积等于所有矩形的面积之和并且满足矩形区域四角的顶点只能出现一次，且其余顶点的出现次数只能是两次或四次则返回 true,否则返回 false
 
 ## 代码
 
 ```go
+
 package leetcode
 
 type point struct {
