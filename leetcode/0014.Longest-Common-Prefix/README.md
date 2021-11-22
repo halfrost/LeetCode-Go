@@ -1,4 +1,4 @@
-# [14. Longest Common Prefix](https://leetcode-cn.com/problems/longest-common-prefix/)
+# [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 ## 题目
 
@@ -31,12 +31,13 @@ If there is no common prefix, return an empty string "".
 
 ## 解题思路
 
-- 对strs按照字符串长度进行升序排序，求出strs中长度最小字符串的长度minLen
-- 逐个比较长度最小字符串与其它字符串中的字符，如果不相等就返回commonPrefix,否则就把该字符加入commonPrefix
+- 对 strs 按照字符串长度进行升序排序，求出 strs 中长度最小字符串的长度 minLen
+- 逐个比较长度最小字符串与其它字符串中的字符，如果不相等就返回 commonPrefix,否则就把该字符加入 commonPrefix
 
 ## 代码
 
 ```go
+
 package leetcode
 
 import "sort"
