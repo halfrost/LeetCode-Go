@@ -1,4 +1,4 @@
-# [559. Maximum Depth of N-ary Tree](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)
+# [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)
 
 ## 题目
 
@@ -42,6 +42,7 @@ N 叉树输入按层序遍历序列化表示，每组子节点由空值分隔（
 ## 代码
 
 ```go
+
 package leetcode
 
 type Node struct {
