@@ -1,14 +1,14 @@
 package leetcode
 
 // 解法一 模拟法
-func maxTurbulenceSize(A []int) int {
+func maxTurbulenceSize(arr []int) int {
 	inc, dec := 1, 1
-	maxLen := min(1, len(A))
-	for i := 1; i < len(A); i++ {
-		if A[i-1] < A[i] {
+	maxLen := min(1, len(arr))
+	for i := 1; i < len(arr); i++ {
+		if arr[i-1] < arr[i] {
 			inc = dec + 1
 			dec = 1
-		} else if A[i-1] > A[i] {
+		} else if arr[i-1] > arr[i] {
 			dec = inc + 1
 			inc = 1
 		} else {
@@ -35,23 +35,21 @@ func min(a int, b int) int {
 }
 
 // 解法二 滑动窗口
-func maxTurbulenceSize1(A []int) int {
-	if len(A) == 1 {
-		return 1
+func maxTurbulenceSize1(arr []int) int {
+	var maxLength int
+	if len(arr) == 2 && arr[0] != arr[1] {
+		maxLength = 2
+	} else {
+		maxLength = 1
 	}
-	// flag > 0 代表下一个数要大于前一个数，flag < 0 代表下一个数要小于前一个数
-	res, left, right, flag, lastNum := 0, 0, 0, A[1]-A[0], A[0]
-	for left < len(A) {
-		if right < len(A)-1 && ((A[right+1] > lastNum && flag > 0) || (A[right+1] < lastNum && flag < 0) || (right == left)) {
-			right++
-			flag = lastNum - A[right]
-			lastNum = A[right]
-		} else {
-			if flag != 0 {
-				res = max(res, right-left+1)
-			}
-			left++
+	left := 0
+	for right := 2; right < len(arr); right++ {
+		if arr[right] == arr[right-1] {
+			left = right
+		} else if (arr[right]-arr[right-1])^(arr[right-1]-arr[right-2]) >= 0 {
+			left = right - 1
 		}
+		maxLength = max(maxLength, right-left+1)
 	}
-	return max(res, 1)
+	return maxLength
 }
