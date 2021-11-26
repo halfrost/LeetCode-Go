@@ -1,4 +1,4 @@
-# [859. Buddy Strings](https://leetcode-cn.com/problems/buddy-strings/)
+# [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/)
 
 ## 题目
 
@@ -47,12 +47,13 @@ For example, swapping at indices 0 and 2 in "abcd" results in "cbad".
 ## 解题思路
 
 分为两种情况进行比较:
-- s等于goal,s中有重复元素就返回true,否则返回false
-- s不等于goal,s中有两个下标不同的字符与goal中对应下标的字符分别相等
+- s 等于 goal, s 中有重复元素就返回 true,否则返回 false
+- s 不等于 goal, s 中有两个下标不同的字符与 goal 中对应下标的字符分别相等
 
 ## 代码
 
 ```go
+
 package leetcode
 
 func buddyStrings(s string, goal string) bool {
