@@ -1,4 +1,4 @@
-# [700. Search in a Binary Search Tree](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+# [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 
 ## 题目
 
@@ -38,13 +38,24 @@ Find the node in the BST that the node's value equals val and return the subtree
 ## 代码
 
 ```go
+
 package leetcode
 
-type TreeNode struct {
-	Val int
-	Left *TreeNode
-	Right *TreeNode
-}
+import (
+	"github.com/halfrost/LeetCode-Go/structures"
+)
+
+// TreeNode define
+type TreeNode = structures.TreeNode
+
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
 
 func searchBST(root *TreeNode, val int) *TreeNode {
 	if root == nil {
@@ -58,4 +69,5 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 		return searchBST(root.Left, val)
 	}
 }
+
 ```
