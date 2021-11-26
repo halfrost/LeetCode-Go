@@ -1,4 +1,4 @@
-# [384.Shuffle an Array](https://leetcode-cn.com/problems/shuffle-an-array/)
+# [384.Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)
 
 ## 题目
 
@@ -45,11 +45,12 @@ Implement the Solution class:
 
 ## 解题思路
 
-- 使用rand.Shuffle进行数组随机打乱
+- 使用 rand.Shuffle 进行数组随机打乱
 
 ## 代码
 
 ```go
+
 package leetcode
 
 import "math/rand"
