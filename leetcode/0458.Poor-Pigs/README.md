@@ -1,4 +1,4 @@
-# [458. Poor Pigs](https://leetcode-cn.com/problems/poor-pigs/)
+# [458. Poor Pigs](https://leetcode.com/problems/poor-pigs/)
 
 ## 题目
 
@@ -50,21 +50,22 @@ Given buckets, minutesToDie, and minutesToTest, return the minimum number of pig
 
 ## 解题思路
 
-使用数学方法,以minutesToDie=15,minutesToTest=60,1只小猪为例,可以测试5只桶
+使用数学方法,以 minutesToDie=15, minutesToTest=60, 1 只小猪为例,可以测试 5 只桶
 
-- 0-15小猪吃第一个桶中的液体,如果死去，则第一个桶有毒,否则继续测试
-- 15-30小猪吃第二个桶中的液体，如果死去，则第二个桶有毒,否则继续测试
-- 30-45小猪吃第三个桶中的液体，如果死去，则第三个桶有毒,否则继续测试
-- 45-60小猪吃第四个桶中的液体，如果死去，则第四个桶有毒
+- 0-15 小猪吃第一个桶中的液体,如果死去，则第一个桶有毒,否则继续测试
+- 15-30 小猪吃第二个桶中的液体，如果死去，则第二个桶有毒,否则继续测试
+- 30-45 小猪吃第三个桶中的液体，如果死去，则第三个桶有毒,否则继续测试
+- 45-60 小猪吃第四个桶中的液体，如果死去，则第四个桶有毒
 - 如果最后小猪没有死去，则第五个桶有毒
 
-所以一只小猪在minutesToDie和minutesToTest时间一定的情况下可以最多判断base = minutesToTest / minutesToDie + 1个桶
+所以一只小猪在 minutesToDie 和 minutesToTest 时间一定的情况下可以最多判断 base = minutesToTest / minutesToDie + 1 个桶
 
-假设小猪的数量是num,那么pow(base, num) >= buckets,根据对数运算规则，两边分别取对数得到:num >= Log10(buckets) / Log10(base) 
+假设小猪的数量是 num,那么 pow(base, num) >= buckets,根据对数运算规则，两边分别取对数得到: num >= Log10(buckets) / Log10(base) 
 
 ## 代码
 
 ```go
+
 package leetcode
 
 import "math"
