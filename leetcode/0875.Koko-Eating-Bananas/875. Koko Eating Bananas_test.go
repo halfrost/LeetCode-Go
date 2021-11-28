@@ -41,6 +41,11 @@ func Test_Problem875(t *testing.T) {
 			para875{[]int{30, 11, 23, 4, 20}, 6},
 			ans875{23},
 		},
+
+		{
+			para875{[]int{4, 9, 11, 17}, 8},
+			ans875{6},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 875------------------------\n")
