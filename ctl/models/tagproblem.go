@@ -32,7 +32,7 @@ type TopicTag struct {
 	TranslatedName string     `json:"translatedName"`
 	Slug           string     `json:"slug"`
 	Questions      []Question `json:"questions"`
-	Frequencies    float64    `json:"frequencies"`
+	Frequencies    string     `json:"frequencies"`
 	Typename       string     `json:"__typename"`
 }
 
