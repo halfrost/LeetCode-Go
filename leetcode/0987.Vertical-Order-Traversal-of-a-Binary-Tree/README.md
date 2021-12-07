@@ -79,6 +79,7 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 package leetcode
 
 import (
+	"math"
 	"sort"
 
 	"github.com/halfrost/LeetCode-Go/structures"
@@ -101,38 +102,34 @@ type node struct {
 }
 
 func verticalTraversal(root *TreeNode) [][]int {
-	nodes := []*node{}
-	inorder(root, 0, 0, &nodes)
-	sort.Slice(nodes, func(i, j int) bool {
-		if nodes[i].y == nodes[j].y {
-			if nodes[i].x < nodes[j].x {
-				return true
-			} else if nodes[i].x > nodes[j].x {
-				return false
-			}
-			return nodes[i].val < nodes[j].val
+	var dfs func(root *TreeNode, x, y int)
+	var nodes []node
+	dfs = func(root *TreeNode, x, y int) {
+		if root == nil {
+			return
 		}
-		return nodes[i].y < nodes[j].y
-	})
-	res, currY, currColumn := [][]int{}, nodes[0].y, []int{nodes[0].val}
-	for i := 1; i < len(nodes); i++ {
-		if currY == nodes[i].y {
-			currColumn = append(currColumn, nodes[i].val)
-		} else {
-			res = append(res, currColumn)
-			currColumn = []int{nodes[i].val}
-			currY = nodes[i].y
-		}
+		nodes = append(nodes, node{x, y, root.Val})
+		dfs(root.Left, x+1, y-1)
+		dfs(root.Right, x+1, y+1)
 	}
-	res = append(res, currColumn)
-	return res
-}
+	dfs(root, 0, 0)
 
-func inorder(root *TreeNode, x, y int, nodes *[]*node) {
-	if root != nil {
-		*nodes = append(*nodes, &node{x, y, root.Val})
-		inorder(root.Left, x+1, y-1, nodes)
-		inorder(root.Right, x+1, y+1, nodes)
+	sort.Slice(nodes, func(i, j int) bool {
+		a, b := nodes[i], nodes[j]
+		return a.y < b.y || a.y == b.y &&
+			(a.x < b.x || a.x == b.x && a.val < b.val)
+	})
+
+	var res [][]int
+	lastY := math.MinInt32
+	for _, node := range nodes {
+		if lastY != node.y {
+			res = append(res, []int{node.val})
+			lastY = node.y
+		} else {
+			res[len(res)-1] = append(res[len(res)-1], node.val)
+		}
 	}
+	return res
 }
 ```
