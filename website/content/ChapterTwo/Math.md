@@ -52,6 +52,7 @@ weight: 12
 |0371|Sum of Two Integers|[Go]({{< relref "/ChapterFour/0300~0399/0371.Sum-of-Two-Integers.md" >}})|Medium||||50.6%|
 |0372|Super Pow|[Go]({{< relref "/ChapterFour/0300~0399/0372.Super-Pow.md" >}})|Medium||||37.6%|
 |0384|Shuffle an Array|[Go]({{< relref "/ChapterFour/0300~0399/0384.Shuffle-an-Array.md" >}})|Medium||||56.2%|
+|0400|Nth Digit|[Go]({{< relref "/ChapterFour/0400~0499/0400.Nth-Digit.md" >}})|Medium||||33.2%|
 |0405|Convert a Number to Hexadecimal|[Go]({{< relref "/ChapterFour/0400~0499/0405.Convert-a-Number-to-Hexadecimal.md" >}})|Easy||||45.4%|
 |0412|Fizz Buzz|[Go]({{< relref "/ChapterFour/0400~0499/0412.Fizz-Buzz.md" >}})|Easy||||65.6%|
 |0423|Reconstruct Original Digits from English|[Go]({{< relref "/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English.md" >}})|Medium||||51.4%|
