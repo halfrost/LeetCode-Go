@@ -160,6 +160,7 @@ weight: 2
 |1268|Search Suggestions System|[Go]({{< relref "/ChapterFour/1200~1299/1268.Search-Suggestions-System.md" >}})|Medium||||65.8%|
 |1332|Remove Palindromic Subsequences|[Go]({{< relref "/ChapterFour/1300~1399/1332.Remove-Palindromic-Subsequences.md" >}})|Easy||||69.2%|
 |1396|Design Underground System|[Go]({{< relref "/ChapterFour/1300~1399/1396.Design-Underground-System.md" >}})|Medium||||71.6%|
+|1446|Consecutive Characters|[Go]({{< relref "/ChapterFour/1400~1499/1446.Consecutive-Characters.md" >}})|Easy||||62.0%|
 |1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go]({{< relref "/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence.md" >}})|Easy||||64.4%|
 |1461|Check If a String Contains All Binary Codes of Size K|[Go]({{< relref "/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K.md" >}})|Medium||||54.5%|
 |1573|Number of Ways to Split a String|[Go]({{< relref "/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String.md" >}})|Medium||||31.7%|

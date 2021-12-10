@@ -77,7 +77,7 @@ weight: 7
 |0834|Sum of Distances in Tree|[Go]({{< relref "/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree.md" >}})|Hard||||52.5%|
 |0838|Push Dominoes|[Go]({{< relref "/ChapterFour/0800~0899/0838.Push-Dominoes.md" >}})|Medium| O(n)| O(n)||52.0%|
 |0845|Longest Mountain in Array|[Go]({{< relref "/ChapterFour/0800~0899/0845.Longest-Mountain-in-Array.md" >}})|Medium||||39.4%|
-|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.7%|
+|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.8%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0898|Bitwise ORs of Subarrays|[Go]({{< relref "/ChapterFour/0800~0899/0898.Bitwise-ORs-of-Subarrays.md" >}})|Medium||||36.2%|
 |0907|Sum of Subarray Minimums|[Go]({{< relref "/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums.md" >}})|Medium||||33.1%|

@@ -231,7 +231,7 @@ weight: 1
 |0870|Advantage Shuffle|[Go]({{< relref "/ChapterFour/0800~0899/0870.Advantage-Shuffle.md" >}})|Medium||||51.0%|
 |0874|Walking Robot Simulation|[Go]({{< relref "/ChapterFour/0800~0899/0874.Walking-Robot-Simulation.md" >}})|Medium||||37.4%|
 |0875|Koko Eating Bananas|[Go]({{< relref "/ChapterFour/0800~0899/0875.Koko-Eating-Bananas.md" >}})|Medium||||54.3%|
-|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.7%|
+|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.8%|
 |0881|Boats to Save People|[Go]({{< relref "/ChapterFour/0800~0899/0881.Boats-to-Save-People.md" >}})|Medium||||49.6%|
 |0885|Spiral Matrix III|[Go]({{< relref "/ChapterFour/0800~0899/0885.Spiral-Matrix-III.md" >}})|Medium||||71.9%|
 |0888|Fair Candy Swap|[Go]({{< relref "/ChapterFour/0800~0899/0888.Fair-Candy-Swap.md" >}})|Easy||||60.1%|

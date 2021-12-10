@@ -1,9 +1,7 @@
 package leetcode
 
 func maxPower(s string) int {
-	cur := s[0]
-	cnt := 1
-	ans := 1
+	cur, cnt, ans := s[0], 1, 1
 	for i := 1; i < len(s); i++ {
 		if cur == s[i] {
 			cnt++

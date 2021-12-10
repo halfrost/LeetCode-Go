@@ -87,7 +87,7 @@ weight: 12
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.5%|
 |0836|Rectangle Overlap|[Go]({{< relref "/ChapterFour/0800~0899/0836.Rectangle-Overlap.md" >}})|Easy||||43.0%|
 |0869|Reordered Power of 2|[Go]({{< relref "/ChapterFour/0800~0899/0869.Reordered-Power-of-2.md" >}})|Medium||||61.3%|
-|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.7%|
+|0877|Stone Game|[Go]({{< relref "/ChapterFour/0800~0899/0877.Stone-Game.md" >}})|Medium||||68.8%|
 |0878|Nth Magical Number|[Go]({{< relref "/ChapterFour/0800~0899/0878.Nth-Magical-Number.md" >}})|Hard||||35.8%|
 |0887|Super Egg Drop|[Go]({{< relref "/ChapterFour/0800~0899/0887.Super-Egg-Drop.md" >}})|Hard||||27.0%|
 |0891|Sum of Subsequence Widths|[Go]({{< relref "/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths.md" >}})|Hard| O(n log n)| O(1)||34.2%|
