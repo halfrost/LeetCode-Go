@@ -1,8 +1,9 @@
 package leetcode
 
 func maxIncreaseKeepingSkyline(grid [][]int) int {
-	var topBottomSkyline []int
-	var leftRightSKyline []int
+	n := len(grid)
+	topBottomSkyline := make([]int, 0, n)
+	leftRightSkyline := make([]int, 0, n)
 	for i := range grid {
 		cur := 0
 		for _, v := range grid[i] {
@@ -10,7 +11,7 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 				cur = v
 			}
 		}
-		leftRightSKyline = append(leftRightSKyline, cur)
+		leftRightSkyline = append(leftRightSkyline, cur)
 	}
 	for j := range grid {
 		cur := 0
@@ -24,7 +25,7 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 	var ans int
 	for i := range grid {
 		for j := 0; j < len(grid[0]); j++ {
-			ans += min(topBottomSkyline[j], leftRightSKyline[i]) - grid[i][j]
+			ans += min(topBottomSkyline[j], leftRightSkyline[i]) - grid[i][j]
 		}
 	}
 	return ans

@@ -48,8 +48,8 @@ Return the maximum total sum that the height of the buildings can be increased b
 ## 解题思路
 
 - 从数组竖直方向（即顶部，底部）看“天际线”计算出topBottomSkyline
-- 从数组水平方向（即左侧，右侧）看“天际线”计算出leftRightSKyline
-- 计算grid中每个元素与对应的topBottomSkyline和leftRightSKyline中较小值的差值
+- 从数组水平方向（即左侧，右侧）看“天际线”计算出leftRightSkyline
+- 计算grid中每个元素与对应的topBottomSkyline和leftRightSkyline中较小值的差值
 - 统计所有差值的总和ans并返回
 
 ## 代码
@@ -58,8 +58,9 @@ Return the maximum total sum that the height of the buildings can be increased b
 package leetcode
 
 func maxIncreaseKeepingSkyline(grid [][]int) int {
-	var topBottomSkyline []int
-	var leftRightSKyline []int
+	n := len(grid)
+	topBottomSkyline := make([]int, 0, n)
+	leftRightSkyline := make([]int, 0, n)
 	for i := range grid {
 		cur := 0
 		for _, v := range grid[i] {
@@ -67,7 +68,7 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 				cur = v
 			}
 		}
-		leftRightSKyline = append(leftRightSKyline, cur)
+		leftRightSkyline = append(leftRightSkyline, cur)
 	}
 	for j := range grid {
 		cur := 0
@@ -81,7 +82,7 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 	var ans int
 	for i := range grid {
 		for j := 0; j < len(grid[0]); j++ {
-			ans += min(topBottomSkyline[j], leftRightSKyline[i]) - grid[i][j]
+			ans += min(topBottomSkyline[j], leftRightSkyline[i]) - grid[i][j]
 		}
 	}
 	return ans
