@@ -24,7 +24,7 @@ weight: 5
 |0084|Largest Rectangle in Histogram|[Go]({{< relref "/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram.md" >}})|Hard| O(n)| O(n)|❤️|39.3%|
 |0094|Binary Tree Inorder Traversal|[Go]({{< relref "/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal.md" >}})|Easy| O(n)| O(1)||69.3%|
 |0114|Flatten Binary Tree to Linked List|[Go]({{< relref "/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List.md" >}})|Medium||||56.2%|
-|0143|Reorder List|[Go]({{< relref "/ChapterFour/0100~0199/0143.Reorder-List.md" >}})|Medium||||45.6%|
+|0143|Reorder List|[Go]({{< relref "/ChapterFour/0100~0199/0143.Reorder-List.md" >}})|Medium||||45.7%|
 |0144|Binary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal.md" >}})|Easy| O(n)| O(1)||60.8%|
 |0145|Binary Tree Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal.md" >}})|Easy| O(n)| O(1)||62.0%|
 |0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium| O(n)| O(1)||41.0%|

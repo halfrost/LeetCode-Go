@@ -99,6 +99,7 @@ weight: 9
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||60.9%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||70.9%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||72.0%|
+|1034|Coloring A Border|[Go]({{< relref "/ChapterFour/1000~1099/1034.Coloring-A-Border.md" >}})|Medium||||47.7%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||84.0%|
 |1110|Delete Nodes And Return Forest|[Go]({{< relref "/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest.md" >}})|Medium||||68.9%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||69.3%|

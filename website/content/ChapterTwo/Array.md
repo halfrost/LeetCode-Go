@@ -211,6 +211,7 @@ weight: 1
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||45.7%|
 |0778|Swim in Rising Water|[Go]({{< relref "/ChapterFour/0700~0799/0778.Swim-in-Rising-Water.md" >}})|Hard||||58.2%|
 |0786|K-th Smallest Prime Fraction|[Go]({{< relref "/ChapterFour/0700~0799/0786.K-th-Smallest-Prime-Fraction.md" >}})|Hard||||47.4%|
+|0794|Valid Tic-Tac-Toe State|[Go]({{< relref "/ChapterFour/0700~0799/0794.Valid-Tic-Tac-Toe-State.md" >}})|Medium||||35.0%|
 |0795|Number of Subarrays with Bounded Maximum|[Go]({{< relref "/ChapterFour/0700~0799/0795.Number-of-Subarrays-with-Bounded-Maximum.md" >}})|Medium||||52.2%|
 |0803|Bricks Falling When Hit|[Go]({{< relref "/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit.md" >}})|Hard||||33.4%|
 |0810|Chalkboard XOR Game|[Go]({{< relref "/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game.md" >}})|Hard||||52.3%|
@@ -283,6 +284,7 @@ weight: 1
 |1019|Next Greater Node In Linked List|[Go]({{< relref "/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List.md" >}})|Medium||||59.3%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||60.9%|
 |1030|Matrix Cells in Distance Order|[Go]({{< relref "/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order.md" >}})|Easy||||68.8%|
+|1034|Coloring A Border|[Go]({{< relref "/ChapterFour/1000~1099/1034.Coloring-A-Border.md" >}})|Medium||||47.7%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||55.1%|
 |1048|Longest String Chain|[Go]({{< relref "/ChapterFour/1000~1099/1048.Longest-String-Chain.md" >}})|Medium||||57.3%|
 |1049|Last Stone Weight II|[Go]({{< relref "/ChapterFour/1000~1099/1049.Last-Stone-Weight-II.md" >}})|Medium||||49.9%|

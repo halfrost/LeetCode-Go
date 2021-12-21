@@ -75,6 +75,7 @@ weight: 10
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||40.3%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||53.6%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||60.9%|
+|1034|Coloring A Border|[Go]({{< relref "/ChapterFour/1000~1099/1034.Coloring-A-Border.md" >}})|Medium||||47.7%|
 |1091|Shortest Path in Binary Matrix|[Go]({{< relref "/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix.md" >}})|Medium||||41.6%|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Go]({{< relref "/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves.md" >}})|Medium||||69.3%|
 |1202|Smallest String With Swaps|[Go]({{< relref "/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps.md" >}})|Medium||||51.5%|

@@ -108,6 +108,7 @@ weight: 2
 |0784|Letter Case Permutation|[Go]({{< relref "/ChapterFour/0700~0799/0784.Letter-Case-Permutation.md" >}})|Medium||||71.0%|
 |0791|Custom Sort String|[Go]({{< relref "/ChapterFour/0700~0799/0791.Custom-Sort-String.md" >}})|Medium||||68.0%|
 |0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||50.2%|
+|0794|Valid Tic-Tac-Toe State|[Go]({{< relref "/ChapterFour/0700~0799/0794.Valid-Tic-Tac-Toe-State.md" >}})|Medium||||35.0%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Medium||||73.4%|
 |0816|Ambiguous Coordinates|[Go]({{< relref "/ChapterFour/0800~0899/0816.Ambiguous-Coordinates.md" >}})|Medium||||55.8%|
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0800~0899/0819.Most-Common-Word.md" >}})|Easy||||45.3%|
