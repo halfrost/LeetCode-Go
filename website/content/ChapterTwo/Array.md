@@ -214,6 +214,7 @@ weight: 1
 |0794|Valid Tic-Tac-Toe State|[Go]({{< relref "/ChapterFour/0700~0799/0794.Valid-Tic-Tac-Toe-State.md" >}})|Medium||||35.0%|
 |0795|Number of Subarrays with Bounded Maximum|[Go]({{< relref "/ChapterFour/0700~0799/0795.Number-of-Subarrays-with-Bounded-Maximum.md" >}})|Medium||||52.2%|
 |0803|Bricks Falling When Hit|[Go]({{< relref "/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit.md" >}})|Hard||||33.4%|
+|0807|Max Increase to Keep City Skyline|[Go]({{< relref "/ChapterFour/0800~0899/0807.Max-Increase-to-Keep-City-Skyline.md" >}})|Medium||||85.2%|
 |0810|Chalkboard XOR Game|[Go]({{< relref "/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game.md" >}})|Hard||||52.3%|
 |0811|Subdomain Visit Count|[Go]({{< relref "/ChapterFour/0800~0899/0811.Subdomain-Visit-Count.md" >}})|Medium||||73.4%|
 |0812|Largest Triangle Area|[Go]({{< relref "/ChapterFour/0800~0899/0812.Largest-Triangle-Area.md" >}})|Easy||||59.5%|
