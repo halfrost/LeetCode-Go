@@ -14,25 +14,22 @@ type ListNode = structures.ListNode
  *     Next *ListNode
  * }
  */
+
 // 解法一 单调栈
 func nextLargerNodes(head *ListNode) []int {
-	res, indexes, nums := make([]int, 0), make([]int, 0), make([]int, 0)
-	p := head
-	for p != nil {
-		nums = append(nums, p.Val)
-		p = p.Next
+	type node struct {
+		index, val int
 	}
-	for i := 0; i < len(nums); i++ {
-		res = append(res, 0)
-	}
-	for i := 0; i < len(nums); i++ {
-		num := nums[i]
-		for len(indexes) > 0 && nums[indexes[len(indexes)-1]] < num {
-			index := indexes[len(indexes)-1]
-			res[index] = num
-			indexes = indexes[:len(indexes)-1]
+	var monoStack []node
+	var res []int
+	for head != nil {
+		for len(monoStack) > 0 && monoStack[len(monoStack)-1].val < head.Val {
+			res[monoStack[len(monoStack)-1].index] = head.Val
+			monoStack = monoStack[:len(monoStack)-1]
 		}
-		indexes = append(indexes, i)
+		monoStack = append(monoStack, node{len(res), head.Val})
+		res = append(res, 0)
+		head = head.Next
 	}
 	return res
 }
