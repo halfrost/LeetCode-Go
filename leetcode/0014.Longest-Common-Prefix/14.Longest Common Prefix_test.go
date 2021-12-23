@@ -33,6 +33,11 @@ func Test_Problem14(t *testing.T) {
 			para14{[]string{"dog", "racecar", "car"}},
 			ans14{""},
 		},
+
+		{
+			para14{[]string{"ab", "a"}},
+			ans14{"a"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 14------------------------\n")
