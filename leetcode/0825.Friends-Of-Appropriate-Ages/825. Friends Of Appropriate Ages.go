@@ -2,12 +2,25 @@ package leetcocde
 
 import "sort"
 
-// 解法一
+// 解法一 前缀和，时间复杂度 O(n)
 func numFriendRequests(ages []int) int {
-	return 0
+	count, prefixSum, res := make([]int, 121), make([]int, 121), 0
+	for _, age := range ages {
+		count[age]++
+	}
+	for i := 1; i < 121; i++ {
+		prefixSum[i] = prefixSum[i-1] + count[i]
+	}
+	for i := 15; i < 121; i++ {
+		if count[i] > 0 {
+			bound := i/2 + 8
+			res += count[i] * (prefixSum[i] - prefixSum[bound-1] - 1)
+		}
+	}
+	return res
 }
 
-// 解法二 双指针 + 排序 O(n logn)
+// 解法二 双指针 + 排序，时间复杂度 O(n logn)
 func numFriendRequests1(ages []int) int {
 	sort.Ints(ages)
 	left, right, res := 0, 0, 0
