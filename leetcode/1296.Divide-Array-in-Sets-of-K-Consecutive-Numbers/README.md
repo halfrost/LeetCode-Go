@@ -1,4 +1,4 @@
-# [1296. Divide Array in Sets of K Consecutive Numbers](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
+# [1296. Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 ## 题目
 
