@@ -1,4 +1,4 @@
-# [846. Hand of Straights](https://leetcode-cn.com/problems/hand-of-straights/)
+# [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
 
 ## 题目
 
