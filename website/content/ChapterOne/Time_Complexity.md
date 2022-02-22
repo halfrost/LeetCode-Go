@@ -103,7 +103,7 @@ int binarySearch(int arr[], int l, int r, int target){
         return mid;
     else if (arr[mid]>target)
         return binarySearch(arr,l,mid-1,target);
-    eles 
+    else 
         return binarySearch(arr,mid+1,r,target);
 }
 
