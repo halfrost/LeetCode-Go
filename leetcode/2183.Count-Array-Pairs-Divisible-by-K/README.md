@@ -1,0 +1,85 @@
+# [2183. Count Array Pairs Divisible by K](https://leetcode.com/problems/count-array-pairs-divisible-by-k/)
+
+
+## 题目
+
+Given a **0-indexed** integer array `nums` of length `n` and an integer `k`, return *the **number of pairs*** `(i, j)` *such that:*
+
+- `0 <= i < j <= n - 1` *and*
+- `nums[i] * nums[j]` *is divisible by* `k`.
+
+**Example 1:**
+
+```
+Input: nums = [1,2,3,4,5], k = 2
+Output: 7
+Explanation:
+The 7 pairs of indices whose corresponding products are divisible by 2 are
+(0, 1), (0, 3), (1, 2), (1, 3), (1, 4), (2, 3), and (3, 4).
+Their products are 2, 4, 6, 8, 10, 12, and 20 respectively.
+Other pairs such as (0, 2) and (2, 4) have products 3 and 15 respectively, which are not divisible by 2.
+
+```
+
+**Example 2:**
+
+```
+Input: nums = [1,2,3,4], k = 5
+Output: 0
+Explanation: There does not exist any pair of indices whose corresponding product is divisible by 5.
+
+```
+
+**Constraints:**
+
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i], k <= 10^5`
+
+## 题目大意
+
+给你一个下标从 0 开始、长度为 n 的整数数组 nums 和一个整数 k ，返回满足下述条件的下标对 (i, j) 的数目：
+
+- 0 <= i < j <= n - 1 且
+- nums[i] * nums[j] 能被 k 整除。
+
+## 解题思路
+
+- 先找出 num 中每个元素与 k 的最大公约数。并统计这些公约数出现的频次，将数据保存在 map 中。在计算过程中，循环可以只需算到 ${O(\sqrt {k})}$ , 因为每一个 gcd[i] 一定是 k 的因数，而它出现的频次不会超过 ${O(\sqrt {k})}$。简单证明一下：假设因子 v 和 k/v 这两个因数为 k 的因子。v 和 k/v 必至少有 1 个小于等于 $\sqrt {k}$。所以 k 的因子也不会超过 2 * $\sqrt {k}$ = ${O(\sqrt {k})}$ 个。
+- 算出上述的 map 以后，2 层循环暴力遍历 key 值，如果 a * b 能被 k 整除，并且 a 和 b 不相同，那么 a 和 b 对应的 value 值相乘即为满足条件的下标对数；如果 a 和 b 相同，那么下标对数为 $C_{n}^{2}$。最后累加结果即可。
+
+## 代码
+
+```go
+package leetcode
+
+import "math"
+
+func countPairs(nums []int, k int) int64 {
+	n := int(math.Sqrt(float64(k)))
+	gcds, res := make(map[int]int, n), 0
+	for _, num := range nums {
+		gcds[gcd(num, k)]++
+	}
+
+	for a, n1 := range gcds {
+		for b, n2 := range gcds {
+			if a > b || (a*b)%k != 0 {
+				continue
+			}
+			if a != b {
+				res += n1 * n2
+			} else { // a == b
+				res += n1 * (n1 - 1) / 2
+			}
+		}
+	}
+	return int64(res)
+}
+
+func gcd(a, b int) int {
+	for a%b != 0 {
+		a, b = b, a%b
+	}
+	return b
+}
+```

@@ -1,0 +1,130 @@
+# [2170. Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)
+
+
+## 题目
+
+You are given a **0-indexed** array `nums` consisting of `n` positive integers.
+
+The array `nums` is called **alternating** if:
+
+- `nums[i - 2] == nums[i]`, where `2 <= i <= n - 1`.
+- `nums[i - 1] != nums[i]`, where `1 <= i <= n - 1`.
+
+In one **operation**, you can choose an index `i` and **change** `nums[i]` into **any** positive integer.
+
+Return *the **minimum number of operations** required to make the array alternating*.
+
+**Example 1:**
+
+```
+Input: nums = [3,1,3,2,4,3]
+Output: 3
+Explanation:
+One way to make the array alternating is by converting it to [3,1,3,1,3,1].
+The number of operations required in this case is 3.
+It can be proven that it is not possible to make the array alternating in less than 3 operations.
+
+```
+
+**Example 2:**
+
+```
+Input: nums = [1,2,2,2,2]
+Output: 2
+Explanation:
+One way to make the array alternating is by converting it to [1,2,1,2,1].
+The number of operations required in this case is 2.
+Note that the array cannot be converted to [2,2,2,2,2] because in this case nums[0] == nums[1] which violates the conditions of an alternating array.
+
+```
+
+**Constraints:**
+
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+
+## 题目大意
+
+给你一个下标从 0 开始的数组 nums ，该数组由 n 个正整数组成。
+
+如果满足下述条件，则数组 nums 是一个 交替数组 ：
+
+- nums[i - 2] == nums[i] ，其中 2 <= i <= n - 1 。
+- nums[i - 1] != nums[i] ，其中 1 <= i <= n - 1 。
+
+在一步 操作 中，你可以选择下标 i 并将 nums[i] 更改 为 任一 正整数。返回使数组变成交替数组的 最少操作数 。
+
+**提示：**
+
+- `1 <= nums.length <= 10^5`
+- `1 <= nums[i] <= 10^5`
+
+## 解题思路
+
+- 题目要求最少操作数，即留下出现频次最多的数字，剩下的数字都替换成这个数字。先将每个数字出现的频次统计出来，然后按照频次从大到小排序。优先选择出现频次高的数字。
+- 有几种“特殊”情况需要处理：当奇数下标的数字频次最大的数字和偶数下标的数字频次最大的数字相同（数字相同，频次不同），这时应选取频次大的数字留下；当数字相同，频次也相同，这时要看奇数下标和偶数下标的数字分别有几个。 如果其中一个只有一种数字，那么另外一组数字则需都变成该组频次第二大的数字，例如奇数下标的数字全是 1，频次是 3，偶数下标的数字是 1，最大频次是 2。第二频次的数字是 9，频次是 1 。那么这种情况下，选择奇数下标的数字 1，和偶数下标数字 9 。将偶数下标不是 9 的数字改变成 9 ；更近一步，如果奇数下标和偶数下标都只有一个数字，频次相同，那么只能改变奇数下标或者偶数下标的所有数字。
+
+## 代码
+
+```go
+package leetcode
+
+import (
+	"sort"
+)
+
+type node struct {
+	value int
+	count int
+}
+
+func minimumOperations(nums []int) int {
+	if len(nums) == 1 {
+		return 0
+	}
+	res, odd, even, oddMap, evenMap := 0, []node{}, []node{}, map[int]int{}, map[int]int{}
+
+	for i := 0; i < len(nums); i += 2 {
+		evenMap[nums[i]]++
+	}
+	for k, v := range evenMap {
+		even = append(even, node{value: k, count: v})
+	}
+	sort.Slice(even, func(i, j int) bool {
+		return even[i].count > even[j].count
+	})
+
+	for i := 1; i < len(nums); i += 2 {
+		oddMap[nums[i]]++
+	}
+	for k, v := range oddMap {
+		odd = append(odd, node{value: k, count: v})
+	}
+	sort.Slice(odd, func(i, j int) bool {
+		return odd[i].count > odd[j].count
+	})
+
+	if even[0].value == odd[0].value {
+		if len(even) == 1 && len(odd) != 1 {
+			res = len(nums) - even[0].count - odd[1].count
+		} else if len(odd) == 1 && len(even) != 1 {
+			res = len(nums) - odd[0].count - even[1].count
+		} else if len(odd) == 1 && len(even) == 1 {
+			res = len(nums) / 2
+		} else {
+			// both != 1
+			res = min(len(nums)-odd[0].count-even[1].count, len(nums)-odd[1].count-even[0].count)
+		}
+	} else {
+		res = len(nums) - even[0].count - odd[0].count
+	}
+	return res
+}
+
+func min(a, b int) int {
+	if a > b {
+		return b
+	}
+	return a
+}
+```
