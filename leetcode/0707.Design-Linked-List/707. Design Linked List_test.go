@@ -54,11 +54,10 @@ func Test_Problem707(t *testing.T) {
 
 func MList2Ints(head *MyLinkedList) []int {
 	res := []int{}
-
-	for head != nil {
-		res = append(res, head.Val)
-		head = head.Next
+	cur := head.head
+	for cur != nil {
+		res = append(res, cur.Val)
+		cur = cur.Next
 	}
-
 	return res
 }
