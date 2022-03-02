@@ -1,6 +1,6 @@
 package leetcode
 
-const Len int = 100000
+const Len int = 10000
 
 type MyHashMap struct {
 	content [Len]*HashNode
@@ -41,9 +41,9 @@ func (N *HashNode) Remove(key int) *HashNode {
 		return p
 	}
 	if N.next != nil {
-		return N.next.Remove(key)
+		N.next = N.next.Remove(key)
 	}
-	return nil
+	return N
 }
 
 /** Initialize your data structure here. */
