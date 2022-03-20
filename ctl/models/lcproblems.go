@@ -14,8 +14,8 @@ type LeetCodeProblemAll struct {
 	AcMedium        int32             `json:"ac_medium"`
 	AcHard          int32             `json:"ac_hard"`
 	StatStatusPairs []StatStatusPairs `json:"stat_status_pairs"`
-	FrequencyHigh   int32             `json:"frequency_high"`
-	FrequencyMid    int32             `json:"frequency_mid"`
+	FrequencyHigh   float64           `json:"frequency_high"`
+	FrequencyMid    float64           `json:"frequency_mid"`
 	CategorySlug    string            `json:"category_slug"`
 	AcEasyTotal     int32
 	AcMediumTotal   int32

@@ -18,9 +18,9 @@ type UserInfo struct {
 	OptimizingEasy   int32
 	OptimizingMedium int32
 	OptimizingHard   int32
-	FrequencyHigh    int32  `json:"frequency_high"`
-	FrequencyMid     int32  `json:"frequency_mid"`
-	CategorySlug     string `json:"category_slug"`
+	FrequencyHigh    float64 `json:"frequency_high"`
+	FrequencyMid     float64 `json:"frequency_mid"`
+	CategorySlug     string  `json:"category_slug"`
 }
 
 // |    |  Easy  |  Medium  |  Hard |  Total |  optimizing |
