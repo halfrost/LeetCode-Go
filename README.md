@@ -363,7 +363,7 @@
 |0222|Count Complete Tree Nodes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0222.Count-Complete-Tree-Nodes)|55.3%|Medium||
 |0223|Rectangle Area|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0223.Rectangle-Area)|40.1%|Medium||
 |0224|Basic Calculator|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0224.Basic-Calculator)|40.5%|Hard||
-|0225|Implement Stack using Queues|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0225.Implement-Stack-using-Queues)|53.6%|Easy||
+|0225|Implement Stack using Queues|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0225.Implement-Stack-using-Queues)|53.7%|Easy||
 |0226|Invert Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0226.Invert-Binary-Tree)|71.6%|Easy||
 |0227|Basic Calculator II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0227.Basic-Calculator-II)|41.6%|Medium||
 |0228|Summary Ranges|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0228.Summary-Ranges)|46.4%|Easy||
@@ -773,7 +773,7 @@
 |0632|Smallest Range Covering Elements from K Lists|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0632.Smallest-Range-Covering-Elements-from-K-Lists)|58.6%|Hard||
 |0633|Sum of Square Numbers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0633.Sum-of-Square-Numbers)|34.7%|Medium||
 |0634|Find the Derangement of An Array||41.2%|Medium||
-|0635|Design Log Storage System||62.5%|Medium||
+|0635|Design Log Storage System||62.4%|Medium||
 |0636|Exclusive Time of Functions|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0636.Exclusive-Time-of-Functions)|60.3%|Medium||
 |0637|Average of Levels in Binary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0637.Average-of-Levels-in-Binary-Tree)|68.7%|Easy||
 |0638|Shopping Offers|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0638.Shopping-Offers)|54.6%|Medium||
@@ -1080,7 +1080,7 @@
 |0939|Minimum Area Rectangle||53.5%|Medium||
 |0940|Distinct Subsequences II||44.3%|Hard||
 |0941|Valid Mountain Array||33.7%|Easy||
-|0942|DI String Match|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0942.DI-String-Match)|75.8%|Easy||
+|0942|DI String Match|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0942.DI-String-Match)|75.9%|Easy||
 |0943|Find the Shortest Superstring||45.4%|Hard||
 |0944|Delete Columns to Make Sorted||69.9%|Easy||
 |0945|Minimum Increment to Make Array Unique||49.1%|Medium||
@@ -1906,7 +1906,7 @@
 |1765|Map of Highest Peak||59.8%|Medium||
 |1766|Tree of Coprimes||38.2%|Hard||
 |1767|Find the Subtasks That Did Not Execute||84.2%|Hard||
-|1768|Merge Strings Alternately||75.6%|Easy||
+|1768|Merge Strings Alternately||75.7%|Easy||
 |1769|Minimum Number of Operations to Move All Balls to Each Box||85.7%|Medium||
 |1770|Maximum Score from Performing Multiplication Operations||35.6%|Medium||
 |1771|Maximize Palindrome Length From Subsequences||34.8%|Hard||
@@ -1958,7 +1958,7 @@
 |1817|Finding the Users Active Minutes||80.8%|Medium||
 |1818|Minimum Absolute Sum Difference|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1818.Minimum-Absolute-Sum-Difference)|29.4%|Medium||
 |1819|Number of Different Subsequences GCDs||37.1%|Hard||
-|1820|Maximum Number of Accepted Invitations||47.1%|Medium||
+|1820|Maximum Number of Accepted Invitations||47.2%|Medium||
 |1821|Find Customers With Positive Revenue this Year||89.7%|Easy||
 |1822|Sign of the Product of an Array||67.0%|Easy||
 |1823|Find the Winner of the Circular Game||76.4%|Medium||
@@ -2023,7 +2023,7 @@
 |1882|Process Tasks Using Servers||37.4%|Medium||
 |1883|Minimum Skips to Arrive at Meeting On Time||38.5%|Hard||
 |1884|Egg Drop With 2 Eggs and N Floors||70.0%|Medium||
-|1885|Count Pairs in Two Arrays||58.0%|Medium||
+|1885|Count Pairs in Two Arrays||58.1%|Medium||
 |1886|Determine Whether Matrix Can Be Obtained By Rotation||55.4%|Easy||
 |1887|Reduction Operations to Make the Array Elements Equal||61.6%|Medium||
 |1888|Minimum Number of Flips to Make the Binary String Alternating||37.2%|Medium||
@@ -2041,7 +2041,7 @@
 |1900|The Earliest and Latest Rounds Where Players Compete||51.7%|Hard||
 |1901|Find a Peak Element II||53.6%|Medium||
 |1902|Depth of BST Given Insertion Order||46.2%|Medium||
-|1903|Largest Odd Number in String||56.7%|Easy||
+|1903|Largest Odd Number in String||56.8%|Easy||
 |1904|The Number of Full Rounds You Have Played||46.8%|Medium||
 |1905|Count Sub Islands||66.0%|Medium||
 |1906|Minimum Absolute Difference Queries||42.8%|Medium||
@@ -2101,7 +2101,7 @@
 |1960|Maximum Product of the Length of Two Palindromic Substrings||29.1%|Hard||
 |1961|Check If String Is a Prefix of Array||54.6%|Easy||
 |1962|Remove Stones to Minimize the Total||56.6%|Medium||
-|1963|Minimum Number of Swaps to Make the String Balanced||67.4%|Medium||
+|1963|Minimum Number of Swaps to Make the String Balanced||67.5%|Medium||
 |1964|Find the Longest Valid Obstacle Course at Each Position||45.4%|Hard||
 |1965|Employees With Missing Information||81.4%|Easy||
 |1966|Binary Searchable Numbers in an Unsorted Array||66.6%|Medium||
@@ -2184,7 +2184,7 @@
 |2043|Simple Bank System||65.3%|Medium||
 |2044|Count Number of Maximum Bitwise-OR Subsets||74.8%|Medium||
 |2045|Second Minimum Time to Reach Destination||36.8%|Hard||
-|2046|Sort Linked List Already Sorted Using Absolute Values||69.8%|Medium||
+|2046|Sort Linked List Already Sorted Using Absolute Values||69.6%|Medium||
 |2047|Number of Valid Words in a Sentence||29.4%|Easy||
 |2048|Next Greater Numerically Balanced Number||46.4%|Medium||
 |2049|Count Nodes With the Highest Score||46.5%|Medium||
@@ -2240,7 +2240,7 @@
 |2099|Find Subsequence of Length K With the Largest Sum||43.6%|Easy||
 |2100|Find Good Days to Rob the Bank||46.7%|Medium||
 |2101|Detonate the Maximum Bombs||40.1%|Medium||
-|2102|Sequentially Ordinal Rank Tracker||62.5%|Hard||
+|2102|Sequentially Ordinal Rank Tracker||62.6%|Hard||
 |2103|Rings and Rods||81.8%|Easy||
 |2104|Sum of Subarray Ranges||60.4%|Medium||
 |2105|Watering Plants II||51.3%|Medium||
@@ -2291,14 +2291,14 @@
 |2150|Find All Lonely Numbers in the Array||60.7%|Medium||
 |2151|Maximum Good People Based on Statements||46.3%|Hard||
 |2152|Minimum Number of Lines to Cover Points||45.2%|Medium||
-|2153|The Number of Passengers in Each Bus II||51.5%|Hard||
+|2153|The Number of Passengers in Each Bus II||51.6%|Hard||
 |2154|Keep Multiplying Found Values by Two||73.6%|Easy||
 |2155|All Divisions With the Highest Score of a Binary Array||62.1%|Medium||
 |2156|Find Substring With Given Hash Value||21.0%|Hard||
 |2157|Groups of Strings||24.6%|Hard||
 |2158|Amount of New Area Painted Each Day||60.1%|Hard||
 |2159|Order Two Columns Independently||63.7%|Medium||
-|2160|Minimum Sum of Four Digit Number After Splitting Digits||88.1%|Easy||
+|2160|Minimum Sum of Four Digit Number After Splitting Digits||88.0%|Easy||
 |2161|Partition Array According to Given Pivot||82.6%|Medium||
 |2162|Minimum Cost to Set Cooking Time||33.9%|Medium||
 |2163|Minimum Difference in Sums After Removal of Elements||45.6%|Hard||
@@ -2313,7 +2313,7 @@
 |2172|Maximum AND Sum of Array||43.2%|Hard||
 |2173|Longest Winning Streak||52.6%|Hard||
 |2174|Remove All Ones With Row and Column Flips II||70.1%|Medium||
-|2175|The Change in Global Rankings||65.8%|Medium||
+|2175|The Change in Global Rankings||65.9%|Medium||
 |2176|Count Equal and Divisible Pairs in an Array||80.3%|Easy||
 |2177|Find Three Consecutive Integers That Sum to a Given Number||60.7%|Medium||
 |2178|Maximum Split of Positive Even Integers||55.9%|Medium||
@@ -2366,7 +2366,7 @@
 |2225|Find Players With Zero or One Losses||67.6%|Medium||
 |2226|Maximum Candies Allocated to K Children||34.8%|Medium||
 |2227|Encrypt and Decrypt Strings||38.1%|Hard||
-|2228|Users With Two Purchases Within Seven Days||47.0%|Medium||
+|2228|Users With Two Purchases Within Seven Days||46.9%|Medium||
 |2229|Check if an Array Is Consecutive||63.2%|Easy||
 |2230|The Users That Are Eligible for Discount||50.6%|Easy||
 |2231|Largest Number After Digit Swaps by Parity||57.5%|Easy||
@@ -2376,7 +2376,7 @@
 |2235|Add Two Integers||93.1%|Easy||
 |2236|Root Equals Sum of Children||89.7%|Easy||
 |2237|Count Positions on Street With Required Brightness||71.7%|Medium||
-|2238|Number of Times a Driver Was a Passenger||78.3%|Medium||
+|2238|Number of Times a Driver Was a Passenger||78.4%|Medium||
 |2239|Find Closest Number to Zero||46.3%|Easy||
 |2240|Number of Ways to Buy Pens and Pencils||54.7%|Medium||
 |2241|Design an ATM Machine||36.5%|Medium||
@@ -2401,7 +2401,7 @@
 |2260|Minimum Consecutive Cards to Pick Up||53.4%|Medium||
 |2261|K Divisible Elements Subarrays||44.2%|Medium||
 |2262|Total Appeal of A String||49.7%|Hard||
-|2263|Make Array Non-decreasing or Non-increasing||55.8%|Hard||
+|2263|Make Array Non-decreasing or Non-increasing||56.4%|Hard||
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
