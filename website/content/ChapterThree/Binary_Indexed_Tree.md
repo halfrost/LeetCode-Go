@@ -221,7 +221,7 @@ A_{1} + A_{2} + A_{3} + ...... + A_{n}\\
 ```go
 func (bit *BinaryIndexedTree) Add(index int, val int) {
 	for index <= bit.capacity {
-		bit.tree[index] = val
+		bit.tree[index] += val
 		for i := 1; i < lowbit(index); i = i << 1 {
 			bit.tree[index] = max(bit.tree[index], bit.tree[index-i])
 		}
