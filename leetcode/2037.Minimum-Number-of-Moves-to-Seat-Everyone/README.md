@@ -1,4 +1,4 @@
-# [2037. Minimum Number of Moves to Seat Everyone](https://leetcode-cn.com/problems/minimum-number-of-moves-to-seat-everyone/)
+# [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)
 
 ## 题目
 
