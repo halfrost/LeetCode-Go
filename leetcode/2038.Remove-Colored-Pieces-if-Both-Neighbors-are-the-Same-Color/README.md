@@ -1,4 +1,4 @@
-# [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
+# [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ## 题目
 
@@ -71,8 +71,8 @@ Alice 和 Bob 在玩一个游戏，他们轮流从这个字符串中删除颜色
 
 ## 解题思路
 
-- 统计Alice和Bob分别可以操作的次数记为As，Bs 
-- 因为Alice先手，所以只要As大于Bs，Alice获胜返回true，否则Bob获胜返回false
+- 统计 Alice 和 Bob 分别可以操作的次数记为 As，Bs 
+- 因为 Alice 先手，所以只要 As 大于 Bs，Alice 获胜返回 true，否则 Bob 获胜返回 false
 
 # 代码
 
