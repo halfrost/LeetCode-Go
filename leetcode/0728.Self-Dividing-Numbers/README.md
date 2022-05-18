@@ -1,4 +1,4 @@
-# [728. Self Dividing Numbers](https://leetcode-cn.com/problems/self-dividing-numbers/)
+# [728. Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)
 
 ## 题目
 
