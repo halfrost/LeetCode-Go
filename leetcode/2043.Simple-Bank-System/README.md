@@ -1,4 +1,4 @@
-# [2043. Simple Bank System](https://leetcode-cn.com/problems/simple-bank-system/)
+# [2043. Simple Bank System](https://leetcode.com/problems/simple-bank-system/)
 
 ## 题目
 
