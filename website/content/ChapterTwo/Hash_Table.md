@@ -18,23 +18,23 @@ weight: 13
 |0036|Valid Sudoku|[Go]({{< relref "/ChapterFour/0001~0099/0036.Valid-Sudoku.md" >}})|Medium| O(n^2)| O(n^2)||55.2%|
 |0041|First Missing Positive|[Go]({{< relref "/ChapterFour/0001~0099/0041.First-Missing-Positive.md" >}})|Hard||||36.0%|
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium| O(n log n)| O(n)||64.3%|
-|0073|Set Matrix Zeroes|[Go]({{< relref "/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes.md" >}})|Medium||||48.4%|
+|0073|Set Matrix Zeroes|[Go]({{< relref "/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes.md" >}})|Medium||||48.5%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|39.1%|
 |0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal.md" >}})|Medium||||57.8%|
 |0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go]({{< relref "/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal.md" >}})|Medium||||55.5%|
-|0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard||||27.0%|
+|0126|Word Ladder II|[Go]({{< relref "/ChapterFour/0100~0199/0126.Word-Ladder-II.md" >}})|Hard||||27.1%|
 |0127|Word Ladder|[Go]({{< relref "/ChapterFour/0100~0199/0127.Word-Ladder.md" >}})|Hard||||35.5%|
 |0128|Longest Consecutive Sequence|[Go]({{< relref "/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence.md" >}})|Medium||||48.7%|
 |0138|Copy List with Random Pointer|[Go]({{< relref "/ChapterFour/0100~0199/0138.Copy-List-with-Random-Pointer.md" >}})|Medium| O(n)| O(1)||48.3%|
 |0141|Linked List Cycle|[Go]({{< relref "/ChapterFour/0100~0199/0141.Linked-List-Cycle.md" >}})|Easy||||45.9%|
 |0142|Linked List Cycle II|[Go]({{< relref "/ChapterFour/0100~0199/0142.Linked-List-Cycle-II.md" >}})|Medium||||44.3%|
-|0146|LRU Cache|[Go]({{< relref "/ChapterFour/0100~0199/0146.LRU-Cache.md" >}})|Medium||||39.9%|
+|0146|LRU Cache|[Go]({{< relref "/ChapterFour/0100~0199/0146.LRU-Cache.md" >}})|Medium||||40.0%|
 |0160|Intersection of Two Linked Lists|[Go]({{< relref "/ChapterFour/0100~0199/0160.Intersection-of-Two-Linked-Lists.md" >}})|Easy||||50.1%|
 |0169|Majority Element|[Go]({{< relref "/ChapterFour/0100~0199/0169.Majority-Element.md" >}})|Easy||||63.0%|
 |0187|Repeated DNA Sequences|[Go]({{< relref "/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences.md" >}})|Medium||||44.8%|
 |0202|Happy Number|[Go]({{< relref "/ChapterFour/0200~0299/0202.Happy-Number.md" >}})|Easy| O(log n)| O(1)||53.3%|
 |0205|Isomorphic Strings|[Go]({{< relref "/ChapterFour/0200~0299/0205.Isomorphic-Strings.md" >}})|Easy| O(log n)| O(n)||42.1%|
-|0208|Implement Trie (Prefix Tree)|[Go]({{< relref "/ChapterFour/0200~0299/0208.Implement-Trie-Prefix-Tree.md" >}})|Medium||||58.3%|
+|0208|Implement Trie (Prefix Tree)|[Go]({{< relref "/ChapterFour/0200~0299/0208.Implement-Trie-Prefix-Tree.md" >}})|Medium||||58.4%|
 |0217|Contains Duplicate|[Go]({{< relref "/ChapterFour/0200~0299/0217.Contains-Duplicate.md" >}})|Easy| O(n)| O(n)||60.9%|
 |0219|Contains Duplicate II|[Go]({{< relref "/ChapterFour/0200~0299/0219.Contains-Duplicate-II.md" >}})|Easy| O(n)| O(n)||40.7%|
 |0229|Majority Element II|[Go]({{< relref "/ChapterFour/0200~0299/0229.Majority-Element-II.md" >}})|Medium||||42.5%|
@@ -44,16 +44,16 @@ weight: 13
 |0290|Word Pattern|[Go]({{< relref "/ChapterFour/0200~0299/0290.Word-Pattern.md" >}})|Easy|  O(n)| O(n) ||40.2%|
 |0299|Bulls and Cows|[Go]({{< relref "/ChapterFour/0200~0299/0299.Bulls-and-Cows.md" >}})|Medium||||47.3%|
 |0347|Top K Frequent Elements|[Go]({{< relref "/ChapterFour/0300~0399/0347.Top-K-Frequent-Elements.md" >}})|Medium|  O(n)| O(n) ||65.0%|
-|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||69.1%|
+|0349|Intersection of Two Arrays|[Go]({{< relref "/ChapterFour/0300~0399/0349.Intersection-of-Two-Arrays.md" >}})|Easy| O(n)| O(n) ||69.2%|
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||55.0%|
 |0383|Ransom Note|[Go]({{< relref "/ChapterFour/0300~0399/0383.Ransom-Note.md" >}})|Easy||||55.9%|
 |0387|First Unique Character in a String|[Go]({{< relref "/ChapterFour/0300~0399/0387.First-Unique-Character-in-a-String.md" >}})|Easy||||57.2%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||60.5%|
 |0395|Longest Substring with At Least K Repeating Characters|[Go]({{< relref "/ChapterFour/0300~0399/0395.Longest-Substring-with-At-Least-K-Repeating-Characters.md" >}})|Medium||||44.6%|
-|0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||53.6%|
+|0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||53.7%|
 |0421|Maximum XOR of Two Numbers in an Array|[Go]({{< relref "/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array.md" >}})|Medium||||54.3%|
 |0423|Reconstruct Original Digits from English|[Go]({{< relref "/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English.md" >}})|Medium||||51.2%|
-|0424|Longest Repeating Character Replacement|[Go]({{< relref "/ChapterFour/0400~0499/0424.Longest-Repeating-Character-Replacement.md" >}})|Medium||||50.8%|
+|0424|Longest Repeating Character Replacement|[Go]({{< relref "/ChapterFour/0400~0499/0424.Longest-Repeating-Character-Replacement.md" >}})|Medium||||50.9%|
 |0433|Minimum Genetic Mutation|[Go]({{< relref "/ChapterFour/0400~0499/0433.Minimum-Genetic-Mutation.md" >}})|Medium||||46.9%|
 |0438|Find All Anagrams in a String|[Go]({{< relref "/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String.md" >}})|Medium| O(n)| O(1) ||48.3%|
 |0447|Number of Boomerangs|[Go]({{< relref "/ChapterFour/0400~0499/0447.Number-of-Boomerangs.md" >}})|Medium| O(n)| O(1) ||54.3%|
@@ -61,10 +61,10 @@ weight: 13
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium| O(n log n)| O(1) ||67.8%|
 |0454|4Sum II|[Go]({{< relref "/ChapterFour/0400~0499/0454.4Sum-II.md" >}})|Medium| O(n^2)| O(n) ||57.1%|
 |0457|Circular Array Loop|[Go]({{< relref "/ChapterFour/0400~0499/0457.Circular-Array-Loop.md" >}})|Medium||||31.7%|
-|0460|LFU Cache|[Go]({{< relref "/ChapterFour/0400~0499/0460.LFU-Cache.md" >}})|Hard||||39.4%|
+|0460|LFU Cache|[Go]({{< relref "/ChapterFour/0400~0499/0460.LFU-Cache.md" >}})|Hard||||39.5%|
 |0480|Sliding Window Median|[Go]({{< relref "/ChapterFour/0400~0499/0480.Sliding-Window-Median.md" >}})|Hard||||41.0%|
 |0491|Increasing Subsequences|[Go]({{< relref "/ChapterFour/0400~0499/0491.Increasing-Subsequences.md" >}})|Medium||||51.0%|
-|0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy||||70.1%|
+|0496|Next Greater Element I|[Go]({{< relref "/ChapterFour/0400~0499/0496.Next-Greater-Element-I.md" >}})|Easy||||70.2%|
 |0500|Keyboard Row|[Go]({{< relref "/ChapterFour/0500~0599/0500.Keyboard-Row.md" >}})|Easy||||68.1%|
 |0508|Most Frequent Subtree Sum|[Go]({{< relref "/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum.md" >}})|Medium||||62.9%|
 |0519|Random Flip Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0519.Random-Flip-Matrix.md" >}})|Medium||||39.2%|
@@ -79,7 +79,7 @@ weight: 13
 |0594|Longest Harmonious Subsequence|[Go]({{< relref "/ChapterFour/0500~0599/0594.Longest-Harmonious-Subsequence.md" >}})|Easy||||52.7%|
 |0599|Minimum Index Sum of Two Lists|[Go]({{< relref "/ChapterFour/0500~0599/0599.Minimum-Index-Sum-of-Two-Lists.md" >}})|Easy||||52.7%|
 |0609|Find Duplicate File in System|[Go]({{< relref "/ChapterFour/0600~0699/0609.Find-Duplicate-File-in-System.md" >}})|Medium||||63.8%|
-|0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||58.6%|
+|0632|Smallest Range Covering Elements from K Lists|[Go]({{< relref "/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists.md" >}})|Hard||||58.7%|
 |0645|Set Mismatch|[Go]({{< relref "/ChapterFour/0600~0699/0645.Set-Mismatch.md" >}})|Easy||||41.2%|
 |0648|Replace Words|[Go]({{< relref "/ChapterFour/0600~0699/0648.Replace-Words.md" >}})|Medium| O(n)| O(n) ||62.0%|
 |0653|Two Sum IV - Input is a BST|[Go]({{< relref "/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST.md" >}})|Easy||||58.8%|
@@ -107,13 +107,14 @@ weight: 13
 |0819|Most Common Word|[Go]({{< relref "/ChapterFour/0800~0899/0819.Most-Common-Word.md" >}})|Easy||||45.2%|
 |0820|Short Encoding of Words|[Go]({{< relref "/ChapterFour/0800~0899/0820.Short-Encoding-of-Words.md" >}})|Medium||||55.3%|
 |0823|Binary Trees With Factors|[Go]({{< relref "/ChapterFour/0800~0899/0823.Binary-Trees-With-Factors.md" >}})|Medium||||43.7%|
+|0828|Count Unique Characters of All Substrings of a Given String|[Go]({{< relref "/ChapterFour/0800~0899/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String.md" >}})|Hard||||50.0%|
 |0846|Hand of Straights|[Go]({{< relref "/ChapterFour/0800~0899/0846.Hand-of-Straights.md" >}})|Medium||||56.2%|
 |0859|Buddy Strings|[Go]({{< relref "/ChapterFour/0800~0899/0859.Buddy-Strings.md" >}})|Easy||||28.8%|
 |0884|Uncommon Words from Two Sentences|[Go]({{< relref "/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences.md" >}})|Easy||||65.6%|
 |0888|Fair Candy Swap|[Go]({{< relref "/ChapterFour/0800~0899/0888.Fair-Candy-Swap.md" >}})|Easy||||60.4%|
 |0890|Find and Replace Pattern|[Go]({{< relref "/ChapterFour/0800~0899/0890.Find-and-Replace-Pattern.md" >}})|Medium||||75.6%|
 |0895|Maximum Frequency Stack|[Go]({{< relref "/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack.md" >}})|Hard| O(n)| O(n)  ||66.4%|
-|0904|Fruit Into Baskets|[Go]({{< relref "/ChapterFour/0900~0999/0904.Fruit-Into-Baskets.md" >}})|Medium||||42.8%|
+|0904|Fruit Into Baskets|[Go]({{< relref "/ChapterFour/0900~0999/0904.Fruit-Into-Baskets.md" >}})|Medium||||42.7%|
 |0911|Online Election|[Go]({{< relref "/ChapterFour/0900~0999/0911.Online-Election.md" >}})|Medium||||51.7%|
 |0914|X of a Kind in a Deck of Cards|[Go]({{< relref "/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards.md" >}})|Easy||||32.9%|
 |0916|Word Subsets|[Go]({{< relref "/ChapterFour/0900~0999/0916.Word-Subsets.md" >}})|Medium||||52.6%|
@@ -161,7 +162,8 @@ weight: 13
 |1695|Maximum Erasure Value|[Go]({{< relref "/ChapterFour/1600~1699/1695.Maximum-Erasure-Value.md" >}})|Medium||||52.4%|
 |1742|Maximum Number of Balls in a Box|[Go]({{< relref "/ChapterFour/1700~1799/1742.Maximum-Number-of-Balls-in-a-Box.md" >}})|Easy||||73.8%|
 |1748|Sum of Unique Elements|[Go]({{< relref "/ChapterFour/1700~1799/1748.Sum-of-Unique-Elements.md" >}})|Easy||||75.6%|
-|1763|Longest Nice Substring|[Go]({{< relref "/ChapterFour/1700~1799/1763.Longest-Nice-Substring.md" >}})|Easy||||61.7%|
+|1763|Longest Nice Substring|[Go]({{< relref "/ChapterFour/1700~1799/1763.Longest-Nice-Substring.md" >}})|Easy||||61.8%|
+|2043|Simple Bank System|[Go]({{< relref "/ChapterFour/2000~2099/2043.Simple-Bank-System.md" >}})|Medium||||65.3%|
 |2166|Design Bitset|[Go]({{< relref "/ChapterFour/2100~2199/2166.Design-Bitset.md" >}})|Medium||||29.9%|
 |2170|Minimum Operations to Make the Array Alternating|[Go]({{< relref "/ChapterFour/2100~2199/2170.Minimum-Operations-to-Make-the-Array-Alternating.md" >}})|Medium||||32.8%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
