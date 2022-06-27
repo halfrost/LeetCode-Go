@@ -2,6 +2,7 @@ package leetcode
 
 import (
 	"fmt"
+	"strconv"
 	"testing"
 )
 
@@ -23,7 +24,6 @@ type ans190 struct {
 }
 
 func Test_Problem190(t *testing.T) {
-
 	qs := []question190{
 
 		{
@@ -41,7 +41,12 @@ func Test_Problem190(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans190, q.para190
-		fmt.Printf("【input】:%v       【output】:%v\n", p, reverseBits(p.one))
+		input := strconv.FormatUint(uint64(p.one), 2) // 32位无符号整数转换为二进制字符串
+		input = fmt.Sprintf("%0*v", 32, input)        // 格式化输出32位,保留前置0
+		output := reverseBits(p.one)
+		outputBin := strconv.FormatUint(uint64(output), 2) // 32位无符号整数转换为二进制字符串
+		outputBin = fmt.Sprintf("%0*v", 32, outputBin)     // 格式化输出32位,保留前置0
+		fmt.Printf("【input】:%v       【output】:%v (%v)\n", input, output, outputBin)
 	}
 	fmt.Printf("\n\n\n")
 }
