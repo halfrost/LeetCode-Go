@@ -23,7 +23,7 @@ type ans1022 struct {
 	one int
 }
 
-func Test_Problem1021(t *testing.T) {
+func Test_Problem1022(t *testing.T) {
 
 	qs := []question1022{
 		{
