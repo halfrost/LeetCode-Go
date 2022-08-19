@@ -1,25 +1,43 @@
+/*
+* Author: Sk Shahriar Ahmed Raka
+* Email: skshahriarahmedraka@gmail.com
+ * Telegram: https://t.me/shahriarraka
+ * Github: https://github.com/skshahriarahmedraka
+ * StackOverflow: https://stackoverflow.com/users/12216779/
+ * Linkedin: https://linkedin.com/in/shahriarraka
+ * -----
+ * Last Modified:
+ * Modified By:
+ * -----
+ * Copyright (c) 2022 Your Company
+ * -----
+ * HISTORY:
+ */
+ 
+ // 311 / 311 test cases passed.
+ // Status: Accepted
+ // Runtime: 0 ms
+ // Memory Usage: 2.3 MB
+ 
+ // You are here!
+ // Your runtime beats 100.00 % of golang submissions.
+ 
+ // You are here!
+ // Your memory usage beats 77.90 % of golang submissions.
 package leetcode
 
+import (
+	"math/big"
+
+)
+
+
 func multiply(num1 string, num2 string) string {
-	if num1 == "0" || num2 == "0" {
-		return "0"
-	}
-	b1, b2, tmp := []byte(num1), []byte(num2), make([]int, len(num1)+len(num2))
-	for i := 0; i < len(b1); i++ {
-		for j := 0; j < len(b2); j++ {
-			tmp[i+j+1] += int(b1[i]-'0') * int(b2[j]-'0')
-		}
-	}
-	for i := len(tmp) - 1; i > 0; i-- {
-		tmp[i-1] += tmp[i] / 10
-		tmp[i] = tmp[i] % 10
-	}
-	if tmp[0] == 0 {
-		tmp = tmp[1:]
-	}
-	res := make([]byte, len(tmp))
-	for i := 0; i < len(tmp); i++ {
-		res[i] = '0' + byte(tmp[i])
-	}
-	return string(res)
+	var x big.Int
+	var y big.Int
+	var z big.Int 
+	x.SetString(num1,10)
+	y.SetString(num2,10)
+	z.Mul(&x,&y)
+	return z.String()
 }
