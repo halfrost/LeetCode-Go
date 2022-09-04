@@ -3,14 +3,15 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/halfrost/LeetCode-Go/ctl/util"
-	"github.com/spf13/cobra"
 	"io"
 	"io/ioutil"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/halfrost/leetcode-go/ctl/util"
+	"github.com/spf13/cobra"
 )
 
 var (
@@ -23,7 +24,7 @@ var (
 
 # 说明
 	
-此版本是 https://books.halfrost.com/leetcode 网页的离线版，由于网页版实时会更新，所以此 PDF 版难免会有一些排版或者错别字。如果读者遇到了，可以到网页版相应页面，点击页面 edit 按钮，提交 pr 进行更改。此 PDF 版本号是 V%v.%v.%v。PDF 永久更新地址是 https://github.com/halfrost/LeetCode-Go/releases/，以版本号区分不同版本。笔者还是强烈推荐看在线版，有任何错误都会立即更新。如果觉得此书对刷题有一点点帮助，可以给此书点一个 star，鼓励一下笔者早点更新更多题解。
+此版本是 https://books.halfrost.com/leetcode 网页的离线版，由于网页版实时会更新，所以此 PDF 版难免会有一些排版或者错别字。如果读者遇到了，可以到网页版相应页面，点击页面 edit 按钮，提交 pr 进行更改。此 PDF 版本号是 V%v.%v.%v。PDF 永久更新地址是 https://github.com/halfrost/leetcode-go/releases/，以版本号区分不同版本。笔者还是强烈推荐看在线版，有任何错误都会立即更新。如果觉得此书对刷题有一点点帮助，可以给此书点一个 star，鼓励一下笔者早点更新更多题解。
 	
 > 版本号说明，V%v.%v.%v，%v 是大版本号，%v 代表当前题解中有几百题，目前是 %v 题，所以第二个版本号是 %v，%v 代表当前题解中有几十题，目前是 %v 题，所以第三个版本号是 %v 。
 	

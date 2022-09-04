@@ -1,9 +1,10 @@
 package main
 
 import (
-	m "github.com/halfrost/LeetCode-Go/ctl/models"
-	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"sort"
+
+	m "github.com/halfrost/leetcode-go/ctl/models"
+	"github.com/halfrost/leetcode-go/ctl/util"
 )
 
 func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (easyTotal, mediumTotal, hardTotal, optimizingEasy, optimizingMedium, optimizingHard int32, optimizingIds []int) {

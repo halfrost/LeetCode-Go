@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	m "github.com/halfrost/LeetCode-Go/ctl/models"
-	"github.com/halfrost/LeetCode-Go/ctl/util"
+	m "github.com/halfrost/leetcode-go/ctl/models"
+	"github.com/halfrost/leetcode-go/ctl/util"
 	"github.com/spf13/cobra"
 )
 
@@ -163,7 +163,8 @@ func renderReadme(filePath string, total, try int, mdrows, omdrows m.Mdrows, use
 }
 
 // internal: true  渲染的链接都是 hugo 内部链接，用户生成 hugo web
-// 			 false 渲染的链接是外部 HTTPS 链接，用于生成 PDF
+//
+//	false 渲染的链接是外部 HTTPS 链接，用于生成 PDF
 func buildChapterTwo(internal bool) {
 	var (
 		gr        m.GraphQLResp

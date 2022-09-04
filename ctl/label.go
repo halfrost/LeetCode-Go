@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/halfrost/LeetCode-Go/ctl/util"
+	"github.com/halfrost/leetcode-go/ctl/util"
 	"github.com/spf13/cobra"
 )
 
