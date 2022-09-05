@@ -2,6 +2,7 @@ package structures
 
 import (
 	"fmt"
+	"strconv"
 )
 
 // TreeNode is tree's node
@@ -218,7 +219,7 @@ func Tree2ints(tn *TreeNode) []int {
 	return res[:i]
 }
 
-// T2s convert *TreeNode to []int
+// T2s converts *TreeNode to []int
 func T2s(head *TreeNode, array *[]int) {
 	fmt.Printf("运行到这里了 head = %v array = %v\n", head, array)
 	// fmt.Printf("****array = %v\n", array)
@@ -230,4 +231,84 @@ func T2s(head *TreeNode, array *[]int) {
 	if head.Right != nil {
 		T2s(head.Right, array)
 	}
+}
+
+// Strings2TreeNode converts []string to *TreeNode
+func Strings2TreeNode(strs []string) *TreeNode {
+	n := len(strs)
+	if n == 0 {
+		return nil
+	}
+	x, _ := strconv.Atoi(strs[0])
+	root := &TreeNode{Val: x}
+	queue := make([]*TreeNode, 1, n<<1)
+	queue[0] = root
+	i := 1
+	for i < n {
+		node := queue[0]
+		queue = queue[1:]
+		if i < n && strs[i] != "null" {
+			x, _ = strconv.Atoi(strs[i])
+			node.Left = &TreeNode{Val: x}
+			queue = append(queue, node.Left)
+		}
+		i++
+		if i < n && strs[i] != "null" {
+			x, _ = strconv.Atoi(strs[i])
+			node.Right = &TreeNode{Val: x}
+			queue = append(queue, node.Right)
+		}
+		i++
+	}
+	return root
+}
+
+// Tree2LevelOrderStrings converts *TreeNode into []string by level order traversal.
+func Tree2LevelOrderStrings(root *TreeNode) []string {
+	var ans []string
+	if root == nil {
+		return ans
+	}
+	queue := []*TreeNode{root}
+	var level int
+	for level = 0; len(queue) > 0; level++ {
+		size := len(queue)
+		for i := 0; i < size; i++ {
+			node := queue[i]
+			if node == nil {
+				ans = append(ans, "null")
+			} else {
+				ans = append(ans, strconv.Itoa(node.Val))
+				if node.Left != nil || node.Right != nil {
+					queue = append(queue, node.Left, node.Right)
+				}
+			}
+		}
+		queue = queue[size:]
+	}
+	level--
+	return ans
+}
+
+// Tree2PreOrderStrings converts *TreeNode into []string by preorder traversal.
+func Tree2PreOrderStrings(root *TreeNode) []string {
+	var ans []string
+	if root == nil {
+		return ans
+	}
+	stack := []*TreeNode{root}
+	node := root
+	for len(stack) > 0 {
+		if node == nil {
+			ans = append(ans, "null")
+		}
+		for node != nil {
+			ans = append(ans, strconv.Itoa(node.Val))
+			stack = append(stack, node)
+			node = node.Left
+		}
+		node = stack[len(stack)-1].Right
+		stack = stack[:len(stack)-1]
+	}
+	return ans
 }
