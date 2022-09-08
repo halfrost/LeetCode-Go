@@ -66,7 +66,7 @@ Explanation: The tree's pre-order traversal already matches voyage, so no nodes 
 package leetcode
 
 import (
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // TreeNode define

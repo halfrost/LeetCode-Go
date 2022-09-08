@@ -1,9 +1,9 @@
 package leetcode
 
-import "fmt"
-
 import (
-	"github.com/halfrost/LeetCode-Go/structures"
+	"fmt"
+
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // ListNode define

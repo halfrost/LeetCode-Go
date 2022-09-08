@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 type question1110 struct {

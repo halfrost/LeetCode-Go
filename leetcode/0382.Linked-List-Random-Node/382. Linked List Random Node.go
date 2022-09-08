@@ -3,7 +3,7 @@ package leetcode
 import (
 	"math/rand"
 
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // ListNode define
@@ -20,8 +20,10 @@ type Solution struct {
 	head *ListNode
 }
 
-/** @param head The linked list's head.
-  Note that the head is guaranteed to be not null, so it contains at least one node. */
+/*
+  - @param head The linked list's head.
+    Note that the head is guaranteed to be not null, so it contains at least one node.
+*/
 func Constructor(head *ListNode) Solution {
 	return Solution{head: head}
 }

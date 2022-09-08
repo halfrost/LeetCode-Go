@@ -3,7 +3,7 @@ package leetcode
 import (
 	"sort"
 
-	"github.com/halfrost/LeetCode-Go/template"
+	"github.com/halfrost/leetcode-go/template"
 )
 
 func smallestStringWithSwaps(s string, pairs [][]int) string {
