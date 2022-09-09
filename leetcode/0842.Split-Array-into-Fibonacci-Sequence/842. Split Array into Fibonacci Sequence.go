@@ -32,7 +32,7 @@ func splitIntoFibonacci(S string) []int {
 	return res
 }
 
-//Propagate for rest of the string
+// Propagate for rest of the string
 func findRecursiveCheck(S string, x1 int, x2 int, left int, res *[]int, isComplete *bool) {
 	if x1 >= 1<<31 || x2 >= 1<<31 { // 题目要求每个数都要小于 2^31 - 1 = 2147483647，此处剪枝很关键！
 		return
