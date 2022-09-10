@@ -2,19 +2,16 @@ package main
 
 import (
 	"sort"
-
-	m "github.com/halfrost/leetcode-go/ctl/models"
-	"github.com/halfrost/leetcode-go/ctl/util"
 )
 
-func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (easyTotal, mediumTotal, hardTotal, optimizingEasy, optimizingMedium, optimizingHard int32, optimizingIds []int) {
+func statisticalData(problemsMap map[int]StatStatusPairs, solutionIds []int) (easyTotal, mediumTotal, hardTotal, optimizingEasy, optimizingMedium, optimizingHard int32, optimizingIds []int) {
 	easyTotal, mediumTotal, hardTotal, optimizingEasy, optimizingMedium, optimizingHard, optimizingIds = 0, 0, 0, 0, 0, 0, []int{}
 	for _, v := range problemsMap {
-		switch m.DifficultyMap[v.Difficulty.Level] {
+		switch DifficultyMap[v.Difficulty.Level] {
 		case "Easy":
 			{
 				easyTotal++
-				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingEasy++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}
@@ -22,7 +19,7 @@ func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (
 		case "Medium":
 			{
 				mediumTotal++
-				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingMedium++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}
@@ -30,7 +27,7 @@ func statisticalData(problemsMap map[int]m.StatStatusPairs, solutionIds []int) (
 		case "Hard":
 			{
 				hardTotal++
-				if v.Status == "ac" && util.BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
+				if v.Status == "ac" && BinarySearch(solutionIds, int(v.Stat.FrontendQuestionID)) == -1 {
 					optimizingHard++
 					optimizingIds = append(optimizingIds, int(v.Stat.FrontendQuestionID))
 				}

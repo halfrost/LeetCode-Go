@@ -1,12 +1,10 @@
-package models
+package main
 
 import (
 	"encoding/json"
 	"fmt"
 	"strconv"
 	"strings"
-
-	"github.com/halfrost/leetcode-go/ctl/util"
 )
 
 // Graphql define
@@ -154,15 +152,15 @@ func standardizedTitle(orig string, frontendQuestionID int32) string {
 func GenerateTagMdRows(solutionIds []int, metaMap map[int]TagList, mdrows []Mdrow, internal bool) []TagList {
 	tl := []TagList{}
 	for _, row := range mdrows {
-		if util.BinarySearch(solutionIds, int(row.FrontendQuestionID)) != -1 {
+		if BinarySearch(solutionIds, int(row.FrontendQuestionID)) != -1 {
 			tmp := TagList{}
 			tmp.FrontendQuestionID = row.FrontendQuestionID
 			tmp.QuestionTitle = strings.TrimSpace(row.QuestionTitle)
 			s7 := standardizedTitle(row.QuestionTitle, row.FrontendQuestionID)
 			if internal {
-				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v/%v.md\" >}})", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+				tmp.SolutionPath = fmt.Sprintf("[Go]({{< relref \"/ChapterFour/%v/%v.md\" >}})", GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			} else {
-				tmp.SolutionPath = fmt.Sprintf("[Go](https://books.halfrost.com/leetcode/ChapterFour/%v/%v)", util.GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
+				tmp.SolutionPath = fmt.Sprintf("[Go](https://books.halfrost.com/leetcode/ChapterFour/%v/%v)", GetChpaterFourFileNum(int(row.FrontendQuestionID)), fmt.Sprintf("%04d.%v", int(row.FrontendQuestionID), s7))
 			}
 			tmp.Acceptance = row.Acceptance
 			tmp.Difficulty = row.Difficulty

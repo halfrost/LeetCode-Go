@@ -11,8 +11,6 @@ import (
 	"strconv"
 	"strings"
 
-	m "github.com/halfrost/leetcode-go/ctl/models"
-	"github.com/halfrost/leetcode-go/ctl/util"
 	"github.com/spf13/cobra"
 )
 
@@ -80,13 +78,13 @@ func newBuildMenu() *cobra.Command {
 
 func buildREADME() {
 	var (
-		problems []m.StatStatusPairs
-		lpa      m.LeetCodeProblemAll
-		info     m.UserInfo
+		problems []StatStatusPairs
+		lpa      LeetCodeProblemAll
+		info     UserInfo
 	)
 	// 请求所有题目信息
 	body := getProblemAllList()
-	problemsMap, optimizingIds := map[int]m.StatStatusPairs{}, []int{}
+	problemsMap, optimizingIds := map[int]StatStatusPairs{}, []int{}
 	err := json.Unmarshal(body, &lpa)
 	if err != nil {
 		fmt.Println(err)
@@ -96,30 +94,30 @@ func buildREADME() {
 
 	// 拼凑 README 需要渲染的数据
 	problems = lpa.StatStatusPairs
-	info = m.ConvertUserInfoModel(lpa)
+	info = ConvertUserInfoModel(lpa)
 	for _, v := range problems {
 		problemsMap[int(v.Stat.FrontendQuestionID)] = v
 	}
-	mdrows := m.ConvertMdModelFromSsp(problems)
-	sort.Sort(m.SortByQuestionID(mdrows))
-	solutionIds, _, try := util.LoadSolutionsDir()
-	m.GenerateMdRows(solutionIds, mdrows)
+	mdrows := ConvertMdModelFromSsp(problems)
+	sort.Sort(SortByQuestionID(mdrows))
+	solutionIds, _, try := LoadSolutionsDir()
+	GenerateMdRows(solutionIds, mdrows)
 	info.EasyTotal, info.MediumTotal, info.HardTotal, info.OptimizingEasy, info.OptimizingMedium, info.OptimizingHard, optimizingIds = statisticalData(problemsMap, solutionIds)
-	omdrows := m.ConvertMdModelFromIds(problemsMap, optimizingIds)
-	sort.Sort(m.SortByQuestionID(omdrows))
+	omdrows := ConvertMdModelFromIds(problemsMap, optimizingIds)
+	sort.Sort(SortByQuestionID(omdrows))
 
 	// 按照模板渲染 README
-	res, err := renderReadme("./template/template.markdown", len(solutionIds), try, m.Mdrows{Mdrows: mdrows}, m.Mdrows{Mdrows: omdrows}, info)
+	res, err := renderReadme("./template/template.markdown", len(solutionIds), try, Mdrows{Mdrows: mdrows}, Mdrows{Mdrows: omdrows}, info)
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
-	util.WriteFile("../README.md", res)
+	WriteFile("../README.md", res)
 	fmt.Println("write file successful")
 	//makeReadmeFile(mds)
 }
 
-func renderReadme(filePath string, total, try int, mdrows, omdrows m.Mdrows, user m.UserInfo) ([]byte, error) {
+func renderReadme(filePath string, total, try int, mdrows, omdrows Mdrows, user UserInfo) ([]byte, error) {
 	f, err := os.OpenFile(filePath, os.O_RDONLY, 0644)
 	if err != nil {
 		return nil, err
@@ -167,8 +165,8 @@ func renderReadme(filePath string, total, try int, mdrows, omdrows m.Mdrows, use
 //	false 渲染的链接是外部 HTTPS 链接，用于生成 PDF
 func buildChapterTwo(internal bool) {
 	var (
-		gr        m.GraphQLResp
-		questions []m.Question
+		gr        GraphQLResp
+		questions []Question
 		count     int
 	)
 	for index, tag := range chapterTwoSlug {
@@ -180,25 +178,25 @@ func buildChapterTwo(internal bool) {
 			return
 		}
 		questions = gr.Data.TopicTag.Questions
-		mdrows := m.ConvertMdModelFromQuestions(questions)
-		sort.Sort(m.SortByQuestionID(mdrows))
-		solutionIds, _, _ := util.LoadSolutionsDir()
+		mdrows := ConvertMdModelFromQuestions(questions)
+		sort.Sort(SortByQuestionID(mdrows))
+		solutionIds, _, _ := LoadSolutionsDir()
 		tl, err := loadMetaData(fmt.Sprintf("./meta/%v", chapterTwoFileName[index]))
 		if err != nil {
 			fmt.Printf("err = %v\n", err)
 		}
-		tls := m.GenerateTagMdRows(solutionIds, tl, mdrows, internal)
+		tls := GenerateTagMdRows(solutionIds, tl, mdrows, internal)
 		//fmt.Printf("tls = %v\n", tls)
 		//  按照模板渲染 README
-		res, err := renderChapterTwo(fmt.Sprintf("./template/%v.md", chapterTwoFileName[index]), m.TagLists{TagLists: tls})
+		res, err := renderChapterTwo(fmt.Sprintf("./template/%v.md", chapterTwoFileName[index]), TagLists{TagLists: tls})
 		if err != nil {
 			fmt.Println(err)
 			return
 		}
 		if internal {
-			util.WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+			WriteFile(fmt.Sprintf("../website/content/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
 		} else {
-			util.WriteFile(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
+			WriteFile(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", chapterTwoFileName[index]), res)
 		}
 
 		count++
@@ -206,13 +204,13 @@ func buildChapterTwo(internal bool) {
 	fmt.Printf("write %v files successful", count)
 }
 
-func loadMetaData(filePath string) (map[int]m.TagList, error) {
+func loadMetaData(filePath string) (map[int]TagList, error) {
 	f, err := os.OpenFile(filePath, os.O_RDONLY, 0644)
 	if err != nil {
 		return nil, err
 	}
 	defer f.Close()
-	reader, metaMap := bufio.NewReader(f), map[int]m.TagList{}
+	reader, metaMap := bufio.NewReader(f), map[int]TagList{}
 
 	for {
 		line, _, err := reader.ReadLine()
@@ -225,7 +223,7 @@ func loadMetaData(filePath string) (map[int]m.TagList, error) {
 		s := strings.Split(string(line), "|")
 		v, _ := strconv.Atoi(strings.Split(s[1], ".")[0])
 		// v[0] 是题号，s[4] time, s[5] space, s[6] favorite
-		metaMap[v] = m.TagList{
+		metaMap[v] = TagList{
 			FrontendQuestionID: int32(v),
 			Acceptance:         "",
 			Difficulty:         "",
@@ -236,7 +234,7 @@ func loadMetaData(filePath string) (map[int]m.TagList, error) {
 	}
 }
 
-func renderChapterTwo(filePath string, tls m.TagLists) ([]byte, error) {
+func renderChapterTwo(filePath string, tls TagLists) ([]byte, error) {
 	f, err := os.OpenFile(filePath, os.O_RDONLY, 0644)
 	if err != nil {
 		return nil, err
@@ -272,18 +270,18 @@ func buildBookMenu() {
 		fmt.Println(err)
 		return
 	}
-	util.WriteFile("../website/content/menu/index.md", res)
+	WriteFile("../website/content/menu/index.md", res)
 	fmt.Println("generate Menu successful")
 }
 
 // 拷贝 leetcode 目录下的题解 README 文件至第四章对应文件夹中
 func copyLackFile() {
-	solutionIds, soName, _ := util.LoadSolutionsDir()
-	_, ch4Ids := util.LoadChapterFourDir()
+	solutionIds, soName, _ := LoadSolutionsDir()
+	_, ch4Ids := LoadChapterFourDir()
 
 	needCopy := []string{}
 	for i := 0; i < len(solutionIds); i++ {
-		if util.BinarySearch(ch4Ids, solutionIds[i]) == -1 {
+		if BinarySearch(ch4Ids, solutionIds[i]) == -1 {
 			needCopy = append(needCopy, soName[i])
 		}
 	}
@@ -295,12 +293,12 @@ func copyLackFile() {
 				if err != nil {
 					fmt.Println(err)
 				}
-				err = os.MkdirAll(fmt.Sprintf("../website/content/ChapterFour/%v", util.GetChpaterFourFileNum(tmp)), os.ModePerm)
+				err = os.MkdirAll(fmt.Sprintf("../website/content/ChapterFour/%v", GetChpaterFourFileNum(tmp)), os.ModePerm)
 				if err != nil {
 					fmt.Println(err)
 				}
-				util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/%v.md", util.GetChpaterFourFileNum(tmp), needCopy[i]), fmt.Sprintf("../leetcode/%v/README.md", needCopy[i]))
-				util.CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/_index.md", util.GetChpaterFourFileNum(tmp)), "./template/collapseSection.md")
+				CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/%v.md", GetChpaterFourFileNum(tmp), needCopy[i]), fmt.Sprintf("../leetcode/%v/README.md", needCopy[i]))
+				CopyFile(fmt.Sprintf("../website/content/ChapterFour/%v/_index.md", GetChpaterFourFileNum(tmp)), "./template/collapseSection.md")
 			}
 		}
 	} else {

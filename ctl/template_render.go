@@ -6,12 +6,9 @@ import (
 	"html/template"
 	"io/ioutil"
 	"os"
-
-	m "github.com/halfrost/leetcode-go/ctl/models"
-	"github.com/halfrost/leetcode-go/ctl/util"
 )
 
-func makeReadmeFile(mdrows m.Mdrows) {
+func makeReadmeFile(mdrows Mdrows) {
 	file := "./README.md"
 	os.Remove(file)
 	var b bytes.Buffer
@@ -21,7 +18,7 @@ func makeReadmeFile(mdrows m.Mdrows) {
 		fmt.Println(err)
 	}
 	// 保存 README.md 文件
-	util.WriteFile(file, b.Bytes())
+	WriteFile(file, b.Bytes())
 }
 
 func readTMPL(path string) string {
