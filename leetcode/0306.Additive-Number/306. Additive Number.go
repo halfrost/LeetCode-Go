@@ -35,7 +35,7 @@ func max(a int, b int) int {
 	return b
 }
 
-//Propagate for rest of the string
+// Propagate for rest of the string
 func recursiveCheck(num string, x1 int, x2 int, left int) bool {
 	if left == len(num) {
 		return true

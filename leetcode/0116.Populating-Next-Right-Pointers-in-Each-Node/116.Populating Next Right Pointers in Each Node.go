@@ -7,7 +7,7 @@ type Node struct {
 	Next  *Node
 }
 
-//解法一：迭代
+// 解法一：迭代
 func connect(root *Node) *Node {
 	if root == nil {
 		return root

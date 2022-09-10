@@ -34,7 +34,7 @@ func findWord(roots map[byte][]string, word []byte) bool {
 	return false
 }
 
-//解法二 Trie
+// 解法二 Trie
 func replaceWords1(dict []string, sentence string) string {
 	trie := Constructor208()
 	for _, v := range dict {
