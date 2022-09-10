@@ -3,7 +3,7 @@ package leetcode
 import (
 	"fmt"
 
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 // ListNode define

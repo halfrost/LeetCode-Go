@@ -60,7 +60,7 @@ The above figure represents the given linked list. The modified list contains
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 // ListNode define

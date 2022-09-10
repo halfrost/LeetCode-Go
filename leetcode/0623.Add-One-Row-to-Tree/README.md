@@ -68,7 +68,7 @@ v = 1d = 3Output:
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 // TreeNode define

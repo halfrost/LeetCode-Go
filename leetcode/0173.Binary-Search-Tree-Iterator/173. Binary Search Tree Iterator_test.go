@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 func Test_Problem173(t *testing.T) {

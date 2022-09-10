@@ -42,7 +42,7 @@ Find the node in the BST that the node's value equals val and return the subtree
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 // TreeNode define

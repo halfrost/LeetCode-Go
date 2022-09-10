@@ -1,6 +1,6 @@
 package leetcode
 
-import "github.com/halfrost/leetcode-go/template"
+import "github.com/halfrost/LeetCode-Go/template"
 
 // NumArray define
 type NumArray struct {

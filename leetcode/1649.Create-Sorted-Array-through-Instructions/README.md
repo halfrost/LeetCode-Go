@@ -85,7 +85,7 @@ package leetcode
 import (
 	"sort"
 
-	"github.com/halfrost/leetcode-go/template"
+	"github.com/halfrost/LeetCode-Go/template"
 )
 
 // 解法一 树状数组 Binary Indexed Tree

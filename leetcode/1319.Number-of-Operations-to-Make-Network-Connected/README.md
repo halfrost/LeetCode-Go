@@ -66,7 +66,7 @@ Output: 0
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/template"
+	"github.com/halfrost/LeetCode-Go/template"
 )
 
 func makeConnected(n int, connections [][]int) int {

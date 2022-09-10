@@ -1,7 +1,7 @@
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/template"
+	"github.com/halfrost/LeetCode-Go/template"
 )
 
 //解法一 线段树，sumRange 时间复杂度 O(1)

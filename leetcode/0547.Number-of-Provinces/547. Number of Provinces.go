@@ -1,7 +1,7 @@
 package leetcode
 
 import (
-	"github.com/halfrost/leetcode-go/template"
+	"github.com/halfrost/LeetCode-Go/template"
 )
 
 // 解法一 并查集

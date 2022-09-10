@@ -3,7 +3,7 @@ package leetcode
 import (
 	"sort"
 
-	"github.com/halfrost/leetcode-go/structures"
+	"github.com/halfrost/LeetCode-Go/structures"
 )
 
 // Interval define
