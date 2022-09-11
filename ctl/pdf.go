@@ -10,6 +10,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"github.com/spf13/cobra"
 )
 
@@ -60,7 +61,7 @@ func generatePDF() {
 	// 先删除 pre-next
 	delPreNext()
 
-	chapterFourFileOrder, _ := LoadChapterFourDir()
+	chapterFourFileOrder, _ := util.LoadChapterFourDir()
 	totalSolutions = len(chapterFourFileOrder)
 	midVersion = totalSolutions / 100
 	lastVersion = totalSolutions % 100
@@ -79,7 +80,7 @@ func generatePDF() {
 	tmp, err = loadChapter(chapterThreeFileOrder, "./pdftemp", "ChapterThree")
 	pdf = append(pdf, tmp...)
 	// PDF 第四章
-	tmp, err = LoadFile("./pdftemp/ChapterFour/_index.md")
+	tmp, err = util.LoadFile("./pdftemp/ChapterFour/_index.md")
 	pdf = append(pdf, tmp...)
 	tmp, err = loadChapter(chapterFourFileOrder, "../website/content", "ChapterFour")
 	pdf = append(pdf, tmp...)
@@ -87,10 +88,10 @@ func generatePDF() {
 		fmt.Println(err)
 	}
 	// 生成 PDF
-	WriteFile(fmt.Sprintf("../PDF v%v.%v.%v.md", majorVersion, midVersion, lastVersion), pdf)
+	util.WriteFile(fmt.Sprintf("../PDF v%v.%v.%v.md", majorVersion, midVersion, lastVersion), pdf)
 	// 还原现场
 	addPreNext()
-	DestoryDir("./pdftemp")
+	util.DestoryDir("./pdftemp")
 }
 
 func loadChapter(order []string, path, chapter string) ([]byte, error) {
@@ -109,10 +110,10 @@ func loadChapter(order []string, path, chapter string) ([]byte, error) {
 					if err != nil {
 						fmt.Println(err)
 					}
-					tmp, err = LoadFile(fmt.Sprintf("%v/%v/%v/%v.md", path, chapter, GetChpaterFourFileNum(num), v))
+					tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v/%v.md", path, chapter, util.GetChpaterFourFileNum(num), v))
 				}
 			} else {
-				tmp, err = LoadFile(fmt.Sprintf("%v/%v/%v.md", path, chapter, v))
+				tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v.md", path, chapter, v))
 			}
 		}
 		if err != nil {
@@ -146,7 +147,7 @@ func prepare(path string) {
 	}
 	// 生成外部链接的 ChapterTwo
 	buildChapterTwo(false)
-	CopyFile("./pdftemp/ChapterTwo/_index.md", "../website/content/ChapterTwo/_index.md")
+	util.CopyFile("./pdftemp/ChapterTwo/_index.md", "../website/content/ChapterTwo/_index.md")
 
 	for _, v := range chapterTwoFileOrder {
 		removeHeader(fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), fmt.Sprintf("./pdftemp/ChapterTwo/%v.md", v), 5)

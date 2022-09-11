@@ -132,7 +132,7 @@ func (c *CLRUCache) worker() {
 	for {
 		select {
 		case el, ok := <-c.movePairs:
-			if ok == false {
+			if !ok {
 				goto clean
 			}
 			if c.doMove(el) && c.list.Len() > c.cap {
