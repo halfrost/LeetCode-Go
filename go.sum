@@ -7,10 +7,6 @@ github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869/go.mod h1:Ekp36dR
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/halfrost/LeetCode-Go/structures v0.0.0-20220910233101-aa0e2c897b18 h1:0GpuK4ECz6Q5AznkgjU2ZhxfqXyU5lt7wmzm7R0GyuA=
-github.com/halfrost/LeetCode-Go/structures v0.0.0-20220910233101-aa0e2c897b18/go.mod h1:PiB3scEe5vQhgf3BFfrj/wwApeH+2yyPRF3Jqpq+7AY=
-github.com/halfrost/LeetCode-Go/template v0.0.0-20220910233504-e2a72e6212ce h1:JQkZW/93bYrrUhM2xh4qLSZAXfw3DXQ15bfXis5TGpI=
-github.com/halfrost/LeetCode-Go/template v0.0.0-20220910233504-e2a72e6212ce/go.mod h1:Jiujq5ltPAr2X9Aw8KYqm8nzL02b73UtrVhryu383ag=
 github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=

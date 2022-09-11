@@ -2,6 +2,10 @@ module github.com/halfrost/LeetCode-Go
 
 go 1.19
 
+replace github.com/halfrost/LeetCode-Go/structures => ./structures
+
+replace github.com/halfrost/LeetCode-Go/template => ./template
+
 require (
 	github.com/BurntSushi/toml v1.2.0
 	github.com/halfrost/LeetCode-Go/structures v0.0.0-20220910233101-aa0e2c897b18
