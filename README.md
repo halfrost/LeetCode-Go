@@ -699,7 +699,7 @@
 |0558|Logical OR of Two Binary Grids Represented as Quad-Trees||48.2%|Medium||
 |0559|Maximum Depth of N-ary Tree|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0559.Maximum-Depth-of-N-ary-Tree)|71.6%|Easy||
 |0560|Subarray Sum Equals K|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0560.Subarray-Sum-Equals-K)|44.0%|Medium||
-|0561|Array Partition|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0561.Array-Partition)|76.6%|Easy||
+|0561|Array Partition|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0561.Array-Partition)|76.5%|Easy||
 |0562|Longest Line of Consecutive One in Matrix||50.0%|Medium||
 |0563|Binary Tree Tilt|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0563.Binary-Tree-Tilt)|59.3%|Easy||
 |0564|Find the Closest Palindrome||21.9%|Hard||
@@ -1083,7 +1083,7 @@
 |0942|DI String Match|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0942.DI-String-Match)|76.6%|Easy||
 |0943|Find the Shortest Superstring||45.0%|Hard||
 |0944|Delete Columns to Make Sorted||69.7%|Easy||
-|0945|Minimum Increment to Make Array Unique||49.7%|Medium||
+|0945|Minimum Increment to Make Array Unique||49.8%|Medium||
 |0946|Validate Stack Sequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0946.Validate-Stack-Sequences)|67.6%|Medium||
 |0947|Most Stones Removed with Same Row or Column|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0947.Most-Stones-Removed-with-Same-Row-or-Column)|57.0%|Medium||
 |0948|Bag of Tokens||52.0%|Medium||
@@ -1144,7 +1144,7 @@
 |1003|Check If Word Is Valid After Substitutions|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1003.Check-If-Word-Is-Valid-After-Substitutions)|58.2%|Medium||
 |1004|Max Consecutive Ones III|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1004.Max-Consecutive-Ones-III)|63.5%|Medium||
 |1005|Maximize Sum Of Array After K Negations|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1005.Maximize-Sum-Of-Array-After-K-Negations)|51.1%|Easy||
-|1006|Clumsy Factorial|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1006.Clumsy-Factorial)|54.8%|Medium||
+|1006|Clumsy Factorial|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1006.Clumsy-Factorial)|54.7%|Medium||
 |1007|Minimum Domino Rotations For Equal Row||52.4%|Medium||
 |1008|Construct Binary Search Tree from Preorder Traversal||80.9%|Medium||
 |1009|Complement of Base 10 Integer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1009.Complement-of-Base-10-Integer)|62.0%|Easy||
@@ -1199,7 +1199,7 @@
 |1058|Minimize Rounding Error to Meet Target||44.9%|Medium||
 |1059|All Paths from Source Lead to Destination||40.5%|Medium||
 |1060|Missing Element in Sorted Array||54.6%|Medium||
-|1061|Lexicographically Smallest Equivalent String||70.3%|Medium||
+|1061|Lexicographically Smallest Equivalent String||70.4%|Medium||
 |1062|Longest Repeating Substring||59.1%|Medium||
 |1063|Number of Valid Subarrays||74.1%|Hard||
 |1064|Fixed Point||63.6%|Easy||
@@ -1857,7 +1857,7 @@
 |1716|Calculate Money in Leetcode Bank|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1716.Calculate-Money-in-Leetcode-Bank)|65.0%|Easy||
 |1717|Maximum Score From Removing Substrings||46.0%|Medium||
 |1718|Construct the Lexicographically Largest Valid Sequence||51.7%|Medium||
-|1719|Number Of Ways To Reconstruct A Tree||42.6%|Hard||
+|1719|Number Of Ways To Reconstruct A Tree||42.5%|Hard||
 |1720|Decode XORed Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1720.Decode-XORed-Array)|86.0%|Easy||
 |1721|Swapping Nodes in a Linked List|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1721.Swapping-Nodes-in-a-Linked-List)|67.8%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||48.6%|Medium||
@@ -2095,7 +2095,7 @@
 |1954|Minimum Garden Perimeter to Collect Enough Apples||53.0%|Medium||
 |1955|Count Number of Special Subsequences||51.3%|Hard||
 |1956|Minimum Time For K Virus Variants to Spread||46.5%|Hard||
-|1957|Delete Characters to Make Fancy String||56.5%|Easy||
+|1957|Delete Characters to Make Fancy String||56.6%|Easy||
 |1958|Check if Move is Legal||44.2%|Medium||
 |1959|Minimum Total Space Wasted With K Resizing Operations||41.9%|Medium||
 |1960|Maximum Product of the Length of Two Palindromic Substrings||29.6%|Hard||
@@ -2386,7 +2386,7 @@
 |2245|Maximum Trailing Zeros in a Cornered Path||35.2%|Medium||
 |2246|Longest Path With Different Adjacent Characters||44.9%|Hard||
 |2247|Maximum Cost of Trip With K Highways||50.5%|Hard||
-|2248|Intersection of Multiple Arrays||69.6%|Easy||
+|2248|Intersection of Multiple Arrays||69.5%|Easy||
 |2249|Count Lattice Points Inside a Circle||50.4%|Medium||
 |2250|Count Number of Rectangles Containing Each Point||33.9%|Medium||
 |2251|Number of Flowers in Full Bloom||51.9%|Hard||
@@ -2472,13 +2472,13 @@
 |2331|Evaluate Boolean Binary Tree||79.5%|Easy||
 |2332|The Latest Time to Catch a Bus||22.7%|Medium||
 |2333|Minimum Sum of Squared Difference||24.9%|Medium||
-|2334|Subarray With Elements Greater Than Varying Threshold||40.2%|Hard||
+|2334|Subarray With Elements Greater Than Varying Threshold||40.1%|Hard||
 |2335|Minimum Amount of Time to Fill Cups||55.3%|Easy||
 |2336|Smallest Number in Infinite Set||71.8%|Medium||
 |2337|Move Pieces to Obtain a String||48.0%|Medium||
 |2338|Count the Number of Ideal Arrays||25.3%|Hard||
 |2339|All the Matches of the League||88.8%|Easy||
-|2340|Minimum Adjacent Swaps to Make a Valid Array||76.7%|Medium||
+|2340|Minimum Adjacent Swaps to Make a Valid Array||76.6%|Medium||
 |2341|Maximum Number of Pairs in Array||76.6%|Easy||
 |2342|Max Sum of a Pair With Equal Sum of Digits||52.9%|Medium||
 |2343|Query Kth Smallest Trimmed Number||40.7%|Medium||
@@ -2518,7 +2518,7 @@
 |2377|Sort the Olympic Table||80.2%|Easy||
 |2378|Choose Edges to Maximize Score in a Tree||61.9%|Medium||
 |2379|Minimum Recolors to Get K Consecutive Black Blocks||56.6%|Easy||
-|2380|Time Needed to Rearrange a Binary String||47.6%|Medium||
+|2380|Time Needed to Rearrange a Binary String||47.7%|Medium||
 |2381|Shifting Letters II||33.9%|Medium||
 |2382|Maximum Segment Sum After Removals||47.7%|Hard||
 |2383|Minimum Hours of Training to Win a Competition||40.8%|Easy||
@@ -2532,7 +2532,7 @@
 |2391|Minimum Amount of Time to Collect Garbage||85.4%|Medium||
 |2392|Build a Matrix With Conditions||59.1%|Hard||
 |2393|Count Strictly Increasing Subarrays||76.4%|Medium||
-|2394|Employees With Deductions||50.9%|Medium||
+|2394|Employees With Deductions||50.8%|Medium||
 |2395|Find Subarrays With Equal Sum||63.6%|Easy||
 |2396|Strictly Palindromic Number||87.7%|Medium||
 |2397|Maximum Rows Covered by Columns||52.2%|Medium||
@@ -2544,7 +2544,7 @@
 |2403|Minimum Time to Kill All Monsters||52.3%|Hard||
 |2404|Most Frequent Even Element||51.7%|Easy||
 |2405|Optimal Partition of String||74.1%|Medium||
-|2406|Divide Intervals Into Minimum Number of Groups||44.9%|Medium||
+|2406|Divide Intervals Into Minimum Number of Groups||45.0%|Medium||
 |2407|Longest Increasing Subsequence II||20.6%|Hard||
 |2408|Design SQL||87.3%|Medium||
 |2409|Count Days Spent Together||42.3%|Easy||
@@ -2561,7 +2561,7 @@
 |2420|Find All Good Indices||36.8%|Medium||
 |2421|Number of Good Paths||37.5%|Hard||
 |2422|Merge Operations to Turn Array Into a Palindrome||74.8%|Medium||
-|2423|Remove Letter To Equalize Frequency||19.5%|Easy||
+|2423|Remove Letter To Equalize Frequency||19.4%|Easy||
 |2424|Longest Uploaded Prefix||53.2%|Medium||
 |2425|Bitwise XOR of All Pairings||58.3%|Medium||
 |2426|Number of Pairs Satisfying Inequality||41.0%|Hard||
@@ -2578,7 +2578,7 @@
 |2437|Number of Valid Clock Times||40.3%|Easy||
 |2438|Range Product Queries of Powers||36.5%|Medium||
 |2439|Minimize Maximum of Array||30.1%|Medium||
-|2440|Create Components With Same Value||53.4%|Hard||
+|2440|Create Components With Same Value||53.5%|Hard||
 |2441|Largest Positive Integer That Exists With Its Negative||68.7%|Easy||
 |2442|Count Number of Distinct Integers After Reverse Operations||78.8%|Medium||
 |2443|Sum of Number and Its Reverse||40.6%|Medium||
