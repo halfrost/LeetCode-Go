@@ -74,7 +74,6 @@ weight: 5
 |1653|Minimum Deletions to Make String Balanced|[Go]({{< relref "/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced.md" >}})|Medium||||58.7%|
 |1673|Find the Most Competitive Subsequence|[Go]({{< relref "/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence.md" >}})|Medium||||49.3%|
 |1700|Number of Students Unable to Eat Lunch|[Go]({{< relref "/ChapterFour/1700~1799/1700.Number-of-Students-Unable-to-Eat-Lunch.md" >}})|Easy||||67.7%|
-|2281|Sum of Total Strength of Wizards|[Go]({{< relref "/ChapterFour/2200~2299/2281.Sum-of-Total-Strength-of-Wizards.md" >}})|Hard||||27.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 

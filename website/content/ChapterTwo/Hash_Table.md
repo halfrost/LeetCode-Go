@@ -152,7 +152,7 @@ weight: 13
 |1512|Number of Good Pairs|[Go]({{< relref "/ChapterFour/1500~1599/1512.Number-of-Good-Pairs.md" >}})|Easy||||88.2%|
 |1600|Throne Inheritance|[Go]({{< relref "/ChapterFour/1600~1699/1600.Throne-Inheritance.md" >}})|Medium||||63.6%|
 |1624|Largest Substring Between Two Equal Characters|[Go]({{< relref "/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters.md" >}})|Easy||||59.0%|
-|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||68.5%|
+|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||68.6%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||56.1%|
 |1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||85.3%|
 |1657|Determine if Two Strings Are Close|[Go]({{< relref "/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close.md" >}})|Medium||||54.2%|

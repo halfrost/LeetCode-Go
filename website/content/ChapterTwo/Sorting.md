@@ -109,7 +109,7 @@ weight: 14
 |1465|Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|[Go]({{< relref "/ChapterFour/1400~1499/1465.Maximum-Area-of-a-Piece-of-Cake-After-Horizontal-and-Vertical-Cuts.md" >}})|Medium||||40.8%|
 |1608|Special Array With X Elements Greater Than or Equal X|[Go]({{< relref "/ChapterFour/1600~1699/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X.md" >}})|Easy||||60.0%|
 |1619|Mean of Array After Removing Some Elements|[Go]({{< relref "/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements.md" >}})|Easy||||64.6%|
-|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||68.5%|
+|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||68.6%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||59.2%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.5%|
 |1657|Determine if Two Strings Are Close|[Go]({{< relref "/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close.md" >}})|Medium||||54.2%|

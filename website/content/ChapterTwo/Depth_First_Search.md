@@ -91,7 +91,7 @@ weight: 9
 |0928|Minimize Malware Spread II|[Go]({{< relref "/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II.md" >}})|Hard||||42.6%|
 |0938|Range Sum of BST|[Go]({{< relref "/ChapterFour/0900~0999/0938.Range-Sum-of-BST.md" >}})|Easy||||85.3%|
 |0947|Most Stones Removed with Same Row or Column|[Go]({{< relref "/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column.md" >}})|Medium||||57.0%|
-|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||69.0%|
+|0959|Regions Cut By Slashes|[Go]({{< relref "/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes.md" >}})|Medium||||69.1%|
 |0968|Binary Tree Cameras|[Go]({{< relref "/ChapterFour/0900~0999/0968.Binary-Tree-Cameras.md" >}})|Hard||||46.8%|
 |0971|Flip Binary Tree To Match Preorder Traversal|[Go]({{< relref "/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal.md" >}})|Medium||||49.9%|
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||72.0%|
