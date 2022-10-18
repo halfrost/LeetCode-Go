@@ -418,7 +418,6 @@ weight: 1
 |2170|Minimum Operations to Make the Array Alternating|[Go]({{< relref "/ChapterFour/2100~2199/2170.Minimum-Operations-to-Make-the-Array-Alternating.md" >}})|Medium||||33.2%|
 |2171|Removing Minimum Number of Magic Beans|[Go]({{< relref "/ChapterFour/2100~2199/2171.Removing-Minimum-Number-of-Magic-Beans.md" >}})|Medium||||42.0%|
 |2183|Count Array Pairs Divisible by K|[Go]({{< relref "/ChapterFour/2100~2199/2183.Count-Array-Pairs-Divisible-by-K.md" >}})|Hard||||28.3%|
-|2281|Sum of Total Strength of Wizards|[Go]({{< relref "/ChapterFour/2200~2299/2281.Sum-of-Total-Strength-of-Wizards.md" >}})|Hard||||27.9%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
 
 
