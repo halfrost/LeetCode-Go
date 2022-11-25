@@ -47,7 +47,7 @@ weight: 10
 |0559|Maximum Depth of N-ary Tree|[Go]({{< relref "/ChapterFour/0500~0599/0559.Maximum-Depth-of-N-ary-Tree.md" >}})|Easy||||71.7%|
 |0617|Merge Two Binary Trees|[Go]({{< relref "/ChapterFour/0600~0699/0617.Merge-Two-Binary-Trees.md" >}})|Easy||||78.6%|
 |0623|Add One Row to Tree|[Go]({{< relref "/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree.md" >}})|Medium||||59.5%|
-|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy||||71.7%|
+|0637|Average of Levels in Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree.md" >}})|Easy||||71.8%|
 |0653|Two Sum IV - Input is a BST|[Go]({{< relref "/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST.md" >}})|Easy||||61.0%|
 |0662|Maximum Width of Binary Tree|[Go]({{< relref "/ChapterFour/0600~0699/0662.Maximum-Width-of-Binary-Tree.md" >}})|Medium||||40.7%|
 |0684|Redundant Connection|[Go]({{< relref "/ChapterFour/0600~0699/0684.Redundant-Connection.md" >}})|Medium||||62.2%|
