@@ -64,7 +64,7 @@ weight: 7
 |0494|Target Sum|[Go]({{< relref "/ChapterFour/0400~0499/0494.Target-Sum.md" >}})|Medium||||45.7%|
 |0509|Fibonacci Number|[Go]({{< relref "/ChapterFour/0500~0599/0509.Fibonacci-Number.md" >}})|Easy||||69.8%|
 |0518|Coin Change II|[Go]({{< relref "/ChapterFour/0500~0599/0518.Coin-Change-II.md" >}})|Medium||||60.5%|
-|0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0500~0599/0526.Beautiful-Arrangement.md" >}})|Medium||||64.5%|
+|0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0500~0599/0526.Beautiful-Arrangement.md" >}})|Medium||||64.4%|
 |0542|01 Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0542.01-Matrix.md" >}})|Medium||||44.7%|
 |0576|Out of Boundary Paths|[Go]({{< relref "/ChapterFour/0500~0599/0576.Out-of-Boundary-Paths.md" >}})|Medium||||44.3%|
 |0583|Delete Operation for Two Strings|[Go]({{< relref "/ChapterFour/0500~0599/0583.Delete-Operation-for-Two-Strings.md" >}})|Medium||||59.8%|
