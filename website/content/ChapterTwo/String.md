@@ -30,7 +30,7 @@ weight: 2
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)||39.3%|
 |0076|Minimum Window Substring|[Go]({{< relref "/ChapterFour/0001~0099/0076.Minimum-Window-Substring.md" >}})|Hard| O(n)| O(n)|❤️|40.9%|
 |0091|Decode Ways|[Go]({{< relref "/ChapterFour/0001~0099/0091.Decode-Ways.md" >}})|Medium| O(n)| O(n)||32.7%|
-|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|47.3%|
+|0093|Restore IP Addresses|[Go]({{< relref "/ChapterFour/0001~0099/0093.Restore-IP-Addresses.md" >}})|Medium| O(n)| O(n)|❤️|47.4%|
 |0097|Interleaving String|[Go]({{< relref "/ChapterFour/0001~0099/0097.Interleaving-String.md" >}})|Medium||||37.3%|
 |0115|Distinct Subsequences|[Go]({{< relref "/ChapterFour/0100~0199/0115.Distinct-Subsequences.md" >}})|Hard||||44.4%|
 |0125|Valid Palindrome|[Go]({{< relref "/ChapterFour/0100~0199/0125.Valid-Palindrome.md" >}})|Easy| O(n)| O(1)||44.3%|
