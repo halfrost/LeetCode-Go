@@ -24,7 +24,7 @@ weight: 14
 |0049|Group Anagrams|[Go]({{< relref "/ChapterFour/0001~0099/0049.Group-Anagrams.md" >}})|Medium||||66.7%|
 |0056|Merge Intervals|[Go]({{< relref "/ChapterFour/0001~0099/0056.Merge-Intervals.md" >}})|Medium| O(n log n)| O(log n)||46.2%|
 |0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|58.5%|
-|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0088.Merge-Sorted-Array.md" >}})|Easy||||46.5%|
+|0088|Merge Sorted Array|[Go]({{< relref "/ChapterFour/0001~0099/0088.Merge-Sorted-Array.md" >}})|Easy||||46.6%|
 |0147|Insertion Sort List|[Go]({{< relref "/ChapterFour/0100~0199/0147.Insertion-Sort-List.md" >}})|Medium| O(n^2)| O(1) |❤️|51.0%|
 |0148|Sort List|[Go]({{< relref "/ChapterFour/0100~0199/0148.Sort-List.md" >}})|Medium|O(n log n)| O(log n)|❤️|55.1%|
 |0164|Maximum Gap|[Go]({{< relref "/ChapterFour/0100~0199/0164.Maximum-Gap.md" >}})|Hard| O(n log n)| O(log n) |❤️|43.3%|
@@ -51,8 +51,8 @@ weight: 14
 |0451|Sort Characters By Frequency|[Go]({{< relref "/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency.md" >}})|Medium||||70.1%|
 |0455|Assign Cookies|[Go]({{< relref "/ChapterFour/0400~0499/0455.Assign-Cookies.md" >}})|Easy||||50.0%|
 |0462|Minimum Moves to Equal Array Elements II|[Go]({{< relref "/ChapterFour/0400~0499/0462.Minimum-Moves-to-Equal-Array-Elements-II.md" >}})|Medium||||60.0%|
-|0475|Heaters|[Go]({{< relref "/ChapterFour/0400~0499/0475.Heaters.md" >}})|Medium||||36.4%|
-|0506|Relative Ranks|[Go]({{< relref "/ChapterFour/0500~0599/0506.Relative-Ranks.md" >}})|Easy||||60.4%|
+|0475|Heaters|[Go]({{< relref "/ChapterFour/0400~0499/0475.Heaters.md" >}})|Medium||||36.5%|
+|0506|Relative Ranks|[Go]({{< relref "/ChapterFour/0500~0599/0506.Relative-Ranks.md" >}})|Easy||||60.5%|
 |0524|Longest Word in Dictionary through Deleting|[Go]({{< relref "/ChapterFour/0500~0599/0524.Longest-Word-in-Dictionary-through-Deleting.md" >}})|Medium| O(n)| O(1) ||51.0%|
 |0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium||||41.1%|
 |0561|Array Partition|[Go]({{< relref "/ChapterFour/0500~0599/0561.Array-Partition.md" >}})|Easy||||77.2%|
@@ -70,7 +70,7 @@ weight: 14
 |0726|Number of Atoms|[Go]({{< relref "/ChapterFour/0700~0799/0726.Number-of-Atoms.md" >}})|Hard||||52.1%|
 |0747|Largest Number At Least Twice of Others|[Go]({{< relref "/ChapterFour/0700~0799/0747.Largest-Number-At-Least-Twice-of-Others.md" >}})|Easy||||47.1%|
 |0767|Reorganize String|[Go]({{< relref "/ChapterFour/0700~0799/0767.Reorganize-String.md" >}})|Medium| O(n log n)| O(log n)  |❤️|52.9%|
-|0786|K-th Smallest Prime Fraction|[Go]({{< relref "/ChapterFour/0700~0799/0786.K-th-Smallest-Prime-Fraction.md" >}})|Medium||||51.6%|
+|0786|K-th Smallest Prime Fraction|[Go]({{< relref "/ChapterFour/0700~0799/0786.K-th-Smallest-Prime-Fraction.md" >}})|Medium||||51.7%|
 |0791|Custom Sort String|[Go]({{< relref "/ChapterFour/0700~0799/0791.Custom-Sort-String.md" >}})|Medium||||69.1%|
 |0792|Number of Matching Subsequences|[Go]({{< relref "/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences.md" >}})|Medium||||51.6%|
 |0825|Friends Of Appropriate Ages|[Go]({{< relref "/ChapterFour/0800~0899/0825.Friends-Of-Appropriate-Ages.md" >}})|Medium||||46.3%|
@@ -90,7 +90,7 @@ weight: 14
 |0976|Largest Perimeter Triangle|[Go]({{< relref "/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle.md" >}})|Easy| O(n log n)| O(log n) ||54.6%|
 |0977|Squares of a Sorted Array|[Go]({{< relref "/ChapterFour/0900~0999/0977.Squares-of-a-Sorted-Array.md" >}})|Easy||||71.9%|
 |1005|Maximize Sum Of Array After K Negations|[Go]({{< relref "/ChapterFour/1000~1099/1005.Maximize-Sum-Of-Array-After-K-Negations.md" >}})|Easy||||50.9%|
-|1030|Matrix Cells in Distance Order|[Go]({{< relref "/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order.md" >}})|Easy| O(n^2)| O(1) ||69.6%|
+|1030|Matrix Cells in Distance Order|[Go]({{< relref "/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order.md" >}})|Easy| O(n^2)| O(1) ||69.7%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||55.9%|
 |1051|Height Checker|[Go]({{< relref "/ChapterFour/1000~1099/1051.Height-Checker.md" >}})|Easy||||75.6%|
 |1054|Distant Barcodes|[Go]({{< relref "/ChapterFour/1000~1099/1054.Distant-Barcodes.md" >}})|Medium| O(n log n)| O(log n) |❤️|45.8%|
@@ -105,12 +105,12 @@ weight: 14
 |1337|The K Weakest Rows in a Matrix|[Go]({{< relref "/ChapterFour/1300~1399/1337.The-K-Weakest-Rows-in-a-Matrix.md" >}})|Easy||||72.1%|
 |1353|Maximum Number of Events That Can Be Attended|[Go]({{< relref "/ChapterFour/1300~1399/1353.Maximum-Number-of-Events-That-Can-Be-Attended.md" >}})|Medium||||32.5%|
 |1383|Maximum Performance of a Team|[Go]({{< relref "/ChapterFour/1300~1399/1383.Maximum-Performance-of-a-Team.md" >}})|Hard||||48.5%|
-|1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.4%|
+|1385|Find the Distance Value Between Two Arrays|[Go]({{< relref "/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays.md" >}})|Easy||||66.5%|
 |1464|Maximum Product of Two Elements in an Array|[Go]({{< relref "/ChapterFour/1400~1499/1464.Maximum-Product-of-Two-Elements-in-an-Array.md" >}})|Easy||||79.9%|
 |1465|Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|[Go]({{< relref "/ChapterFour/1400~1499/1465.Maximum-Area-of-a-Piece-of-Cake-After-Horizontal-and-Vertical-Cuts.md" >}})|Medium||||40.9%|
 |1608|Special Array With X Elements Greater Than or Equal X|[Go]({{< relref "/ChapterFour/1600~1699/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X.md" >}})|Easy||||60.5%|
-|1619|Mean of Array After Removing Some Elements|[Go]({{< relref "/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements.md" >}})|Easy||||65.8%|
-|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||69.4%|
+|1619|Mean of Array After Removing Some Elements|[Go]({{< relref "/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements.md" >}})|Easy||||65.7%|
+|1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||69.5%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||59.1%|
 |1648|Sell Diminishing-Valued Colored Balls|[Go]({{< relref "/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls.md" >}})|Medium||||30.4%|
 |1657|Determine if Two Strings Are Close|[Go]({{< relref "/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close.md" >}})|Medium||||56.3%|
