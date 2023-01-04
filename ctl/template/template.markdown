@@ -10,9 +10,9 @@
 ![](./website/static/wechat-qr-code.png)
 
 <p align='center'>
-<a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
+<a href="https://github.com/halfrost/leetcode-go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
 <img src="https://img.shields.io/badge/Total%20Word%20Count-738884-success">
-<a href="https://github.com/halfrost/LeetCode-Go/actions" rel="nofollow"><img src="https://github.com/halfrost/LeetCode-Go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master"></a>
+<a href="https://github.com/halfrost/leetcode-go/actions" rel="nofollow"><img src="https://github.com/halfrost/leetcode-go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master"></a>
 <a href="https://travis-ci.org/github/halfrost/LeetCode-Go" rel="nofollow"><img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master"></a>
 <a href="https://goreportcard.com/report/github.com/halfrost/LeetCode-Go" rel="nofollow"><img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go"></a>
 <img src="https://img.shields.io/badge/runtime%20beats-100%25-success">
@@ -23,7 +23,7 @@
 </p>
 
 <p align='center'>
-<a href="https://github.com/halfrost/LeetCode-Go/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/halfrost/LeetCode-Go?label=License"></a>
+<a href="https://github.com/halfrost/leetcode-go/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/halfrost/LeetCode-Go?label=License"></a>
 <img src="https://img.shields.io/badge/License-CC-000000.svg">
 <a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-8751-yellow.svg">
 <img src="https://img.shields.io/badge/language-Golang-26C2F0.svg">
@@ -32,7 +32,7 @@
 <a href="https://twitter.com/halffrost"><img src="https://img.shields.io/badge/twitter-@halffrost-F8E81C.svg?style=flat&colorA=009df2"></a>
 <a href="https://www.zhihu.com/people/halfrost/activities"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@halfrost-fd6f32.svg?style=flat&colorA=0083ea"></a>
 <img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
-<a href="https://github.com/halfrost/LeetCode-Go/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
+<a href="https://github.com/halfrost/leetcode-go/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
 </p>
 
 支持 Progressive Web Apps 和 Dark Mode 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
@@ -42,10 +42,10 @@
 <a href="https://books.halfrost.com/leetcode/"><img src="https://img.halfrost.com/Leetcode/Cookbook_Chrome_PWA.png"></a>
 </p>
 
-离线版本的电子书《LeetCode Cookbook》PDF <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow">Download here</a>
+离线版本的电子书《LeetCode Cookbook》PDF <a href="https://github.com/halfrost/leetcode-go/releases/" rel="nofollow">Download here</a>
 
 <p align='center'>
-<a href="https://github.com/halfrost/LeetCode-Go/releases/"><img src="https://img.halfrost.com/Leetcode/Cookbook.png"></a>
+<a href="https://github.com/halfrost/leetcode-go/releases/"><img src="https://img.halfrost.com/Leetcode/Cookbook.png"></a>
 </p>
 
 通过 iOS / Android 浏览器安装 PWA 版《LeetCode Cookbook》至设备桌面随时学习
@@ -550,7 +550,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Mani
 
 ![](./topic/Union_Find.png)
 
-- 灵活使用并查集的思想，熟练掌握并查集的[模板](https://github.com/halfrost/LeetCode-Go/blob/master/template/UnionFind.go)，模板中有两种并查集的实现方式，一种是路径压缩 + 秩优化的版本，另外一种是计算每个集合中元素的个数 + 最大集合元素个数的版本，这两种版本都有各自使用的地方。能使用第一类并查集模板的题目有：第 128 题，第 130 题，第 547 题，第 684 题，第 721 题，第 765 题，第 778 题，第 839 题，第 924 题，第 928 题，第 947 题，第 952 题，第 959 题，第 990 题。能使用第二类并查集模板的题目有：第 803 题，第 952 题。第 803 题秩优化和统计集合个数这些地方会卡时间，如果不优化，会 TLE。
+- 灵活使用并查集的思想，熟练掌握并查集的[模板](https://github.com/halfrost/leetcode-go/blob/master/template/UnionFind.go)，模板中有两种并查集的实现方式，一种是路径压缩 + 秩优化的版本，另外一种是计算每个集合中元素的个数 + 最大集合元素个数的版本，这两种版本都有各自使用的地方。能使用第一类并查集模板的题目有：第 128 题，第 130 题，第 547 题，第 684 题，第 721 题，第 765 题，第 778 题，第 839 题，第 924 题，第 928 题，第 947 题，第 952 题，第 959 题，第 990 题。能使用第二类并查集模板的题目有：第 803 题，第 952 题。第 803 题秩优化和统计集合个数这些地方会卡时间，如果不优化，会 TLE。
 - 并查集是一种思想，有些题需要灵活使用这种思想，而不是死套模板，如第 399 题，这一题是 stringUnionFind，利用并查集思想实现的。这里每个节点是基于字符串和 map 的，而不是单纯的用 int 节点编号实现的。
 - 有些题死套模板反而做不出来，比如第 685 题，这一题不能路径压缩和秩优化，因为题目中涉及到有向图，需要知道节点的前驱节点，如果路径压缩了，这一题就没法做了。这一题不需要路径压缩和秩优化。
 - 灵活的抽象题目给的信息，将给定的信息合理的编号，使用并查集解题，并用 map 降低时间复杂度，如第 721 题，第 959 题。
@@ -630,10 +630,10 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_I
 ----------------------------------------------------------------------------------------
 
 <p align='center'>
-<a href="https://github.com/halfrost/LeetCode-Go/releases/tag/Special"><img src="https://img.halfrost.com/Leetcode/ACM-ICPC_Algorithm_Template.png"></a>
+<a href="https://github.com/halfrost/leetcode-go/releases/tag/Special"><img src="https://img.halfrost.com/Leetcode/ACM-ICPC_Algorithm_Template.png"></a>
 </p>
 
-Thank you for reading here. This is bonus. You can download my [《ACM-ICPC Algorithm Template》](https://github.com/halfrost/LeetCode-Go/releases/tag/Special/)
+Thank you for reading here. This is bonus. You can download my [《ACM-ICPC Algorithm Template》](https://github.com/halfrost/leetcode-go/releases/tag/Special/)
 
 
 

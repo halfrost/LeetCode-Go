@@ -54,7 +54,7 @@ Explanation: The node with value 7 isn't as far left as possible.
 package leetcode
 
 import (
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // TreeNode define

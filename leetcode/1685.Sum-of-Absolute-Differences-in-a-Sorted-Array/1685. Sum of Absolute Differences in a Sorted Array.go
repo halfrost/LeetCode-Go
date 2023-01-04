@@ -1,6 +1,6 @@
 package leetcode
 
-//解法一 优化版 prefixSum + sufixSum
+// 解法一 优化版 prefixSum + sufixSum
 func getSumAbsoluteDifferences(nums []int) []int {
 	size := len(nums)
 	sufixSum := make([]int, size)

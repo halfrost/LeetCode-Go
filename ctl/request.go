@@ -3,9 +3,10 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/mozillazg/request"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/mozillazg/request"
 )
 
 const (

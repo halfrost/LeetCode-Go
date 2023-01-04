@@ -3,11 +3,12 @@ package main
 import (
 	"bytes"
 	"fmt"
-	m "github.com/halfrost/LeetCode-Go/ctl/models"
-	"github.com/halfrost/LeetCode-Go/ctl/util"
 	"html/template"
 	"io/ioutil"
 	"os"
+
+	m "github.com/halfrost/LeetCode-Go/ctl/models"
+	"github.com/halfrost/LeetCode-Go/ctl/util"
 )
 
 func makeReadmeFile(mdrows m.Mdrows) {

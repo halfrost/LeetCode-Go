@@ -74,7 +74,7 @@ Output: [5,-99]
 package leetcode
 
 import (
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // ListNode define

@@ -2,9 +2,7 @@ package leetcode
 
 import (
 	"strconv"
-)
 
-import (
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

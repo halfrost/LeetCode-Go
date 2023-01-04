@@ -18,23 +18,21 @@ type TreeNode = structures.TreeNode
 
 // 解法一 非递归
 func flatten(root *TreeNode) {
-	list, cur := []int{}, &TreeNode{}
-	preorder(root, &list)
-	cur = root
+	list := preorder(root)
 	for i := 1; i < len(list); i++ {
-		cur.Left = nil
-		cur.Right = &TreeNode{Val: list[i], Left: nil, Right: nil}
-		cur = cur.Right
+		prev, cur := list[i-1], list[i]
+		prev.Left, prev.Right = nil, cur
 	}
 	return
 }
 
-func preorder(root *TreeNode, output *[]int) {
+func preorder(root *TreeNode) (ans []*TreeNode) {
 	if root != nil {
-		*output = append(*output, root.Val)
-		preorder(root.Left, output)
-		preorder(root.Right, output)
+		ans = append(ans, root)
+		ans = append(ans, preorder(root.Left)...)
+		ans = append(ans, preorder(root.Right)...)
 	}
+	return
 }
 
 // 解法二 递归

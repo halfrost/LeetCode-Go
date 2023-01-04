@@ -2,9 +2,7 @@ package leetcode
 
 import (
 	"sort"
-)
 
-import (
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

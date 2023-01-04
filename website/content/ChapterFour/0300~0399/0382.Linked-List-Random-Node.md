@@ -61,7 +61,7 @@ package leetcode
 import (
 	"math/rand"
 
-	"github.com/halfrost/LeetCode-Go/structures"
+	"github.com/halfrost/leetcode-go/structures"
 )
 
 // ListNode define

@@ -73,7 +73,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3  种类型�
 package leetcode
 
 import (
-	"github.com/halfrost/LeetCode-Go/template"
+	"github.com/halfrost/leetcode-go/template"
 )
 
 func maxNumEdgesToRemove(n int, edges [][]int) int {

@@ -22,7 +22,7 @@ type ans116 struct {
 	one *Node
 }
 
-func newQuestionNode()*Node{
+func newQuestionNode() *Node {
 	node7 := &Node{}
 	node7.Val = 7
 
@@ -55,7 +55,7 @@ func newQuestionNode()*Node{
 	return node1
 }
 
-func newResultNode()*Node{
+func newResultNode() *Node {
 	node7 := &Node{}
 	node7.Val = 7
 

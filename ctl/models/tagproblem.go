@@ -180,8 +180,8 @@ type TagLists struct {
 	TagLists []TagList
 }
 
-//| No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
-//|:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
+// | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
+// |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
 func (tls TagLists) table() string {
 	res := "| No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |\n"
 	res += "|:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |\n"

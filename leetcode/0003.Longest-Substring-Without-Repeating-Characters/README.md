@@ -34,7 +34,7 @@ Explanation: The answer is "wke", with the length of 3.
 ## 题目大意
 
 
-在一个字符串重寻找没有重复字母的最长子串。
+在一个字符串中寻找没有重复字母的最长子串。
 
 ## 解题思路
 

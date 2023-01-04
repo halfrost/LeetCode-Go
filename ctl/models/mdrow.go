@@ -29,7 +29,7 @@ func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
 				FrontendQuestionID: row.FrontendQuestionID,
 				QuestionTitle:      strings.TrimSpace(row.QuestionTitle),
 				QuestionTitleSlug:  row.QuestionTitleSlug,
-				SolutionPath:       fmt.Sprintf("[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", solutionIds[i], s7)),
+				SolutionPath:       fmt.Sprintf("[Go](https://github.com/halfrost/leetcode-go/tree/master/leetcode/%v)", fmt.Sprintf("%04d.%v", solutionIds[i], s7)),
 				Acceptance:         row.Acceptance,
 				Difficulty:         row.Difficulty,
 				Frequency:          row.Frequency,
@@ -52,7 +52,7 @@ func GenerateMdRows(solutionIds []int, mdrows []Mdrow) {
 	// fmt.Printf("mdrows = %v\n\n", mdrows)
 }
 
-// | 0001 | Two Sum  | [Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0001.Two-Sum)| 45.6%  | Easy | |
+// | 0001 | Two Sum  | [Go](https://github.com/halfrost/leetcode-go/tree/master/leetcode/0001.Two-Sum)| 45.6%  | Easy | |
 func (m Mdrow) tableLine() string {
 	return fmt.Sprintf("|%04d|%v|%v|%v|%v||\n", m.FrontendQuestionID, m.QuestionTitle, m.SolutionPath, m.Acceptance, m.Difficulty)
 }

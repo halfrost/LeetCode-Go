@@ -111,19 +111,19 @@ func fib5(N int) int {
 
 // 解法七 协程版，但是时间特别慢，不推荐，放在这里只是告诉大家，写 LeetCode 算法题的时候，启动 goroutine 特别慢
 func fib6(N int) int {
-    return <-fibb(N)
+	return <-fibb(N)
 }
 
-func fibb(n int) <- chan int {
-    result := make(chan int)
-    go func() {
-        defer close(result)
-        
-        if n <= 1 {
-            result <- n
-            return
-        }
-        result <- <-fibb(n-1) + <-fibb(n-2)
-    }()
-    return result
+func fibb(n int) <-chan int {
+	result := make(chan int)
+	go func() {
+		defer close(result)
+
+		if n <= 1 {
+			result <- n
+			return
+		}
+		result <- <-fibb(n-1) + <-fibb(n-2)
+	}()
+	return result
 }

@@ -1,8 +1,8 @@
 package leetcode
 
-import "fmt"
-
 import (
+	"fmt"
+
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

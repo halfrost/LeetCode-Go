@@ -2,7 +2,7 @@ package leetcode
 
 func countGoodRectangles(rectangles [][]int) int {
 	minLength, count := 0, 0
-	for i, _ := range rectangles {
+	for i := range rectangles {
 		minSide := 0
 		if rectangles[i][0] <= rectangles[i][1] {
 			minSide = rectangles[i][0]

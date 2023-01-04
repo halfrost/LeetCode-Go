@@ -1,10 +1,10 @@
 package leetcode
 
 /*
-	匹配跟单词中的字母顺序，字母个数都无关，可以用 bitmap 压缩
-	1. 记录 word 中 利用 map 记录各种 bit 标示的个数
-	2. puzzles 中各个字母都不相同! 记录 bitmap，然后搜索子空间中各种 bit 标识的个数的和
-	   因为 puzzles 长度最长是7，所以搜索空间 2^7
+匹配跟单词中的字母顺序，字母个数都无关，可以用 bitmap 压缩
+ 1. 记录 word 中 利用 map 记录各种 bit 标示的个数
+ 2. puzzles 中各个字母都不相同! 记录 bitmap，然后搜索子空间中各种 bit 标识的个数的和
+    因为 puzzles 长度最长是7，所以搜索空间 2^7
 */
 func findNumOfValidWords(words []string, puzzles []string) []int {
 	wordBitStatusMap, res := make(map[uint32]int, 0), []int{}
@@ -29,7 +29,7 @@ func toBitMap(word []byte) uint32 {
 	return res
 }
 
-//利用 dfs 搜索 puzzles 的子空间
+// 利用 dfs 搜索 puzzles 的子空间
 func findNum(puzzles []byte, bitMap uint32, totalNum *int, m map[uint32]int) {
 	if len(puzzles) == 0 {
 		*totalNum = *totalNum + m[bitMap]
