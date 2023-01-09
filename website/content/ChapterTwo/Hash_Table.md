@@ -157,7 +157,7 @@ weight: 13
 |1636|Sort Array by Increasing Frequency|[Go]({{< relref "/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency.md" >}})|Easy||||69.5%|
 |1640|Check Array Formation Through Concatenation|[Go]({{< relref "/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation.md" >}})|Easy||||56.2%|
 |1647|Minimum Deletions to Make Character Frequencies Unique|[Go]({{< relref "/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique.md" >}})|Medium||||59.1%|
-|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||85.2%|
+|1656|Design an Ordered Stream|[Go]({{< relref "/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream.md" >}})|Easy||||85.3%|
 |1657|Determine if Two Strings Are Close|[Go]({{< relref "/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close.md" >}})|Medium||||56.3%|
 |1658|Minimum Operations to Reduce X to Zero|[Go]({{< relref "/ChapterFour/1600~1699/1658.Minimum-Operations-to-Reduce-X-to-Zero.md" >}})|Medium||||37.6%|
 |1674|Minimum Moves to Make Array Complementary|[Go]({{< relref "/ChapterFour/1600~1699/1674.Minimum-Moves-to-Make-Array-Complementary.md" >}})|Medium||||38.6%|
