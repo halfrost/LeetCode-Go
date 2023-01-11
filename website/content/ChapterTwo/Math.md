@@ -128,7 +128,7 @@ weight: 12
 |1252|Cells with Odd Values in a Matrix|[Go]({{< relref "/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix.md" >}})|Easy||||78.5%|
 |1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.1%|
 |1281|Subtract the Product and Sum of Digits of an Integer|[Go]({{< relref "/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer.md" >}})|Easy||||86.7%|
-|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||82.2%|
+|1290|Convert Binary Number in a Linked List to Integer|[Go]({{< relref "/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer.md" >}})|Easy||||82.1%|
 |1304|Find N Unique Integers Sum up to Zero|[Go]({{< relref "/ChapterFour/1300~1399/1304.Find-N-Unique-Integers-Sum-up-to-Zero.md" >}})|Easy||||77.0%|
 |1317|Convert Integer to the Sum of Two No-Zero Integers|[Go]({{< relref "/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers.md" >}})|Easy||||55.4%|
 |1442|Count Triplets That Can Form Two Arrays of Equal XOR|[Go]({{< relref "/ChapterFour/1400~1499/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR.md" >}})|Medium||||76.1%|
