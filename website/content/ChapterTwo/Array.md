@@ -39,12 +39,12 @@ weight: 1
 |0057|Insert Interval|[Go]({{< relref "/ChapterFour/0001~0099/0057.Insert-Interval.md" >}})|Medium| O(n)| O(1)||39.0%|
 |0059|Spiral Matrix II|[Go]({{< relref "/ChapterFour/0001~0099/0059.Spiral-Matrix-II.md" >}})|Medium| O(n)| O(n^2)||67.3%|
 |0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||39.4%|
-|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||61.1%|
+|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||61.2%|
 |0066|Plus One|[Go]({{< relref "/ChapterFour/0001~0099/0066.Plus-One.md" >}})|Easy||||43.7%|
 |0073|Set Matrix Zeroes|[Go]({{< relref "/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes.md" >}})|Medium||||51.2%|
 |0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||47.7%|
 |0075|Sort Colors|[Go]({{< relref "/ChapterFour/0001~0099/0075.Sort-Colors.md" >}})|Medium| O(n)| O(1)|❤️|58.5%|
-|0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|74.8%|
+|0078|Subsets|[Go]({{< relref "/ChapterFour/0001~0099/0078.Subsets.md" >}})|Medium| O(n^2)| O(n)|❤️|74.9%|
 |0079|Word Search|[Go]({{< relref "/ChapterFour/0001~0099/0079.Word-Search.md" >}})|Medium| O(n^2)| O(n^2)|❤️|40.2%|
 |0080|Remove Duplicates from Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II.md" >}})|Medium| O(n)| O(1||52.3%|
 |0081|Search in Rotated Sorted Array II|[Go]({{< relref "/ChapterFour/0001~0099/0081.Search-in-Rotated-Sorted-Array-II.md" >}})|Medium||||35.7%|
@@ -63,7 +63,7 @@ weight: 1
 |0130|Surrounded Regions|[Go]({{< relref "/ChapterFour/0100~0199/0130.Surrounded-Regions.md" >}})|Medium||||36.7%|
 |0135|Candy|[Go]({{< relref "/ChapterFour/0100~0199/0135.Candy.md" >}})|Hard||||41.0%|
 |0136|Single Number|[Go]({{< relref "/ChapterFour/0100~0199/0136.Single-Number.md" >}})|Easy||||70.6%|
-|0137|Single Number II|[Go]({{< relref "/ChapterFour/0100~0199/0137.Single-Number-II.md" >}})|Medium||||58.4%|
+|0137|Single Number II|[Go]({{< relref "/ChapterFour/0100~0199/0137.Single-Number-II.md" >}})|Medium||||58.5%|
 |0150|Evaluate Reverse Polish Notation|[Go]({{< relref "/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation.md" >}})|Medium||||45.7%|
 |0152|Maximum Product Subarray|[Go]({{< relref "/ChapterFour/0100~0199/0152.Maximum-Product-Subarray.md" >}})|Medium| O(n)| O(1)||34.9%|
 |0153|Find Minimum in Rotated Sorted Array|[Go]({{< relref "/ChapterFour/0100~0199/0153.Find-Minimum-in-Rotated-Sorted-Array.md" >}})|Medium||||48.8%|
@@ -215,7 +215,7 @@ weight: 1
 |0744|Find Smallest Letter Greater Than Target|[Go]({{< relref "/ChapterFour/0700~0799/0744.Find-Smallest-Letter-Greater-Than-Target.md" >}})|Easy||||45.7%|
 |0746|Min Cost Climbing Stairs|[Go]({{< relref "/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs.md" >}})|Easy| O(n)| O(1)||63.1%|
 |0747|Largest Number At Least Twice of Others|[Go]({{< relref "/ChapterFour/0700~0799/0747.Largest-Number-At-Least-Twice-of-Others.md" >}})|Easy||||47.1%|
-|0748|Shortest Completing Word|[Go]({{< relref "/ChapterFour/0700~0799/0748.Shortest-Completing-Word.md" >}})|Easy||||59.2%|
+|0748|Shortest Completing Word|[Go]({{< relref "/ChapterFour/0700~0799/0748.Shortest-Completing-Word.md" >}})|Easy||||59.3%|
 |0752|Open the Lock|[Go]({{< relref "/ChapterFour/0700~0799/0752.Open-the-Lock.md" >}})|Medium||||55.6%|
 |0766|Toeplitz Matrix|[Go]({{< relref "/ChapterFour/0700~0799/0766.Toeplitz-Matrix.md" >}})|Easy| O(n)| O(1)||68.6%|
 |0775|Global and Local Inversions|[Go]({{< relref "/ChapterFour/0700~0799/0775.Global-and-Local-Inversions.md" >}})|Medium||||43.3%|
@@ -240,7 +240,7 @@ weight: 1
 |0839|Similar String Groups|[Go]({{< relref "/ChapterFour/0800~0899/0839.Similar-String-Groups.md" >}})|Hard||||48.0%|
 |0845|Longest Mountain in Array|[Go]({{< relref "/ChapterFour/0800~0899/0845.Longest-Mountain-in-Array.md" >}})|Medium||||40.2%|
 |0846|Hand of Straights|[Go]({{< relref "/ChapterFour/0800~0899/0846.Hand-of-Straights.md" >}})|Medium||||56.2%|
-|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0800~0899/0850.Rectangle-Area-II.md" >}})|Hard||||53.9%|
+|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0800~0899/0850.Rectangle-Area-II.md" >}})|Hard||||53.8%|
 |0851|Loud and Rich|[Go]({{< relref "/ChapterFour/0800~0899/0851.Loud-and-Rich.md" >}})|Medium||||58.4%|
 |0852|Peak Index in a Mountain Array|[Go]({{< relref "/ChapterFour/0800~0899/0852.Peak-Index-in-a-Mountain-Array.md" >}})|Medium||||69.1%|
 |0853|Car Fleet|[Go]({{< relref "/ChapterFour/0800~0899/0853.Car-Fleet.md" >}})|Medium||||50.3%|
@@ -334,7 +334,7 @@ weight: 1
 |1254|Number of Closed Islands|[Go]({{< relref "/ChapterFour/1200~1299/1254.Number-of-Closed-Islands.md" >}})|Medium||||64.1%|
 |1260|Shift 2D Grid|[Go]({{< relref "/ChapterFour/1200~1299/1260.Shift-2D-Grid.md" >}})|Easy||||67.8%|
 |1266|Minimum Time Visiting All Points|[Go]({{< relref "/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points.md" >}})|Easy||||79.1%|
-|1268|Search Suggestions System|[Go]({{< relref "/ChapterFour/1200~1299/1268.Search-Suggestions-System.md" >}})|Medium||||66.3%|
+|1268|Search Suggestions System|[Go]({{< relref "/ChapterFour/1200~1299/1268.Search-Suggestions-System.md" >}})|Medium||||66.2%|
 |1275|Find Winner on a Tic Tac Toe Game|[Go]({{< relref "/ChapterFour/1200~1299/1275.Find-Winner-on-a-Tic-Tac-Toe-Game.md" >}})|Easy||||54.2%|
 |1283|Find the Smallest Divisor Given a Threshold|[Go]({{< relref "/ChapterFour/1200~1299/1283.Find-the-Smallest-Divisor-Given-a-Threshold.md" >}})|Medium||||56.1%|
 |1287|Element Appearing More Than 25% In Sorted Array|[Go]({{< relref "/ChapterFour/1200~1299/1287.Element-Appearing-More-Than-25-In-Sorted-Array.md" >}})|Easy||||59.4%|
