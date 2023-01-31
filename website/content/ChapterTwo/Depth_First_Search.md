@@ -29,7 +29,7 @@ weight: 9
 |0199|Binary Tree Right Side View|[Go]({{< relref "/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View.md" >}})|Medium| O(n)| O(1)||61.6%|
 |0200|Number of Islands|[Go]({{< relref "/ChapterFour/0200~0299/0200.Number-of-Islands.md" >}})|Medium| O(n^2)| O(n^2)||57.0%|
 |0207|Course Schedule|[Go]({{< relref "/ChapterFour/0200~0299/0207.Course-Schedule.md" >}})|Medium| O(n^2)| O(n^2)||45.4%|
-|0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||48.4%|
+|0210|Course Schedule II|[Go]({{< relref "/ChapterFour/0200~0299/0210.Course-Schedule-II.md" >}})|Medium| O(n^2)| O(n^2)||48.5%|
 |0211|Design Add and Search Words Data Structure|[Go]({{< relref "/ChapterFour/0200~0299/0211.Design-Add-and-Search-Words-Data-Structure.md" >}})|Medium||||44.0%|
 |0222|Count Complete Tree Nodes|[Go]({{< relref "/ChapterFour/0200~0299/0222.Count-Complete-Tree-Nodes.md" >}})|Medium||||60.5%|
 |0226|Invert Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0226.Invert-Binary-Tree.md" >}})|Easy||||74.7%|
