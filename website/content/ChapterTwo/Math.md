@@ -71,7 +71,7 @@ weight: 12
 |0483|Smallest Good Base|[Go]({{< relref "/ChapterFour/0400~0499/0483.Smallest-Good-Base.md" >}})|Hard||||38.7%|
 |0492|Construct the Rectangle|[Go]({{< relref "/ChapterFour/0400~0499/0492.Construct-the-Rectangle.md" >}})|Easy||||54.7%|
 |0497|Random Point in Non-overlapping Rectangles|[Go]({{< relref "/ChapterFour/0400~0499/0497.Random-Point-in-Non-overlapping-Rectangles.md" >}})|Medium||||39.4%|
-|0504|Base 7|[Go]({{< relref "/ChapterFour/0500~0599/0504.Base-7.md" >}})|Easy||||48.4%|
+|0504|Base 7|[Go]({{< relref "/ChapterFour/0500~0599/0504.Base-7.md" >}})|Easy||||48.5%|
 |0507|Perfect Number|[Go]({{< relref "/ChapterFour/0500~0599/0507.Perfect-Number.md" >}})|Easy||||37.7%|
 |0509|Fibonacci Number|[Go]({{< relref "/ChapterFour/0500~0599/0509.Fibonacci-Number.md" >}})|Easy||||69.8%|
 |0519|Random Flip Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0519.Random-Flip-Matrix.md" >}})|Medium||||40.0%|
