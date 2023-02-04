@@ -46,7 +46,7 @@ weight: 18
 |0715|Range Module|[Go]({{< relref "/ChapterFour/0700~0799/0715.Range-Module.md" >}})|Hard| O(log n)| O(n)|❤️|44.6%|
 |0729|My Calendar I|[Go]({{< relref "/ChapterFour/0700~0799/0729.My-Calendar-I.md" >}})|Medium||||56.9%|
 |0732|My Calendar III|[Go]({{< relref "/ChapterFour/0700~0799/0732.My-Calendar-III.md" >}})|Hard| O(log n)| O(n)|❤️|71.5%|
-|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0800~0899/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|53.9%|
+|0850|Rectangle Area II|[Go]({{< relref "/ChapterFour/0800~0899/0850.Rectangle-Area-II.md" >}})|Hard| O(n log n)| O(n)|❤️|53.8%|
 |1157|Online Majority Element In Subarray|[Go]({{< relref "/ChapterFour/1100~1199/1157.Online-Majority-Element-In-Subarray.md" >}})|Hard| O(log n)| O(n)|❤️|41.8%|
 |1649|Create Sorted Array through Instructions|[Go]({{< relref "/ChapterFour/1600~1699/1649.Create-Sorted-Array-through-Instructions.md" >}})|Hard||||37.5%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
