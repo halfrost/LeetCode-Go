@@ -52,7 +52,7 @@ weight: 13
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||59.9%|
 |0395|Longest Substring with At Least K Repeating Characters|[Go]({{< relref "/ChapterFour/0300~0399/0395.Longest-Substring-with-At-Least-K-Repeating-Characters.md" >}})|Medium||||44.8%|
 |0409|Longest Palindrome|[Go]({{< relref "/ChapterFour/0400~0499/0409.Longest-Palindrome.md" >}})|Easy||||54.2%|
-|0421|Maximum XOR of Two Numbers in an Array|[Go]({{< relref "/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array.md" >}})|Medium||||54.1%|
+|0421|Maximum XOR of Two Numbers in an Array|[Go]({{< relref "/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array.md" >}})|Medium||||54.0%|
 |0423|Reconstruct Original Digits from English|[Go]({{< relref "/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English.md" >}})|Medium||||51.3%|
 |0424|Longest Repeating Character Replacement|[Go]({{< relref "/ChapterFour/0400~0499/0424.Longest-Repeating-Character-Replacement.md" >}})|Medium||||51.9%|
 |0433|Minimum Genetic Mutation|[Go]({{< relref "/ChapterFour/0400~0499/0433.Minimum-Genetic-Mutation.md" >}})|Medium||||52.3%|
