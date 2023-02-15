@@ -39,7 +39,7 @@ weight: 1
 |0057|Insert Interval|[Go]({{< relref "/ChapterFour/0001~0099/0057.Insert-Interval.md" >}})|Medium| O(n)| O(1)||39.0%|
 |0059|Spiral Matrix II|[Go]({{< relref "/ChapterFour/0001~0099/0059.Spiral-Matrix-II.md" >}})|Medium| O(n)| O(n^2)||67.3%|
 |0063|Unique Paths II|[Go]({{< relref "/ChapterFour/0001~0099/0063.Unique-Paths-II.md" >}})|Medium| O(n^2)| O(n^2)||39.4%|
-|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||61.3%|
+|0064|Minimum Path Sum|[Go]({{< relref "/ChapterFour/0001~0099/0064.Minimum-Path-Sum.md" >}})|Medium| O(n^2)| O(n^2)||61.4%|
 |0066|Plus One|[Go]({{< relref "/ChapterFour/0001~0099/0066.Plus-One.md" >}})|Easy||||43.7%|
 |0073|Set Matrix Zeroes|[Go]({{< relref "/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes.md" >}})|Medium||||51.2%|
 |0074|Search a 2D Matrix|[Go]({{< relref "/ChapterFour/0001~0099/0074.Search-a-2D-Matrix.md" >}})|Medium||||47.7%|
@@ -164,7 +164,7 @@ weight: 1
 |0526|Beautiful Arrangement|[Go]({{< relref "/ChapterFour/0500~0599/0526.Beautiful-Arrangement.md" >}})|Medium||||64.4%|
 |0528|Random Pick with Weight|[Go]({{< relref "/ChapterFour/0500~0599/0528.Random-Pick-with-Weight.md" >}})|Medium||||46.1%|
 |0529|Minesweeper|[Go]({{< relref "/ChapterFour/0500~0599/0529.Minesweeper.md" >}})|Medium||||65.7%|
-|0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium| O(n)| O(n)||41.1%|
+|0532|K-diff Pairs in an Array|[Go]({{< relref "/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array.md" >}})|Medium| O(n)| O(n)||41.2%|
 |0540|Single Element in a Sorted Array|[Go]({{< relref "/ChapterFour/0500~0599/0540.Single-Element-in-a-Sorted-Array.md" >}})|Medium||||59.1%|
 |0542|01 Matrix|[Go]({{< relref "/ChapterFour/0500~0599/0542.01-Matrix.md" >}})|Medium||||44.7%|
 |0554|Brick Wall|[Go]({{< relref "/ChapterFour/0500~0599/0554.Brick-Wall.md" >}})|Medium||||53.5%|
@@ -403,7 +403,7 @@ weight: 1
 |1705|Maximum Number of Eaten Apples|[Go]({{< relref "/ChapterFour/1700~1799/1705.Maximum-Number-of-Eaten-Apples.md" >}})|Medium||||38.0%|
 |1710|Maximum Units on a Truck|[Go]({{< relref "/ChapterFour/1700~1799/1710.Maximum-Units-on-a-Truck.md" >}})|Easy||||73.8%|
 |1720|Decode XORed Array|[Go]({{< relref "/ChapterFour/1700~1799/1720.Decode-XORed-Array.md" >}})|Easy||||85.8%|
-|1725|Number Of Rectangles That Can Form The Largest Square|[Go]({{< relref "/ChapterFour/1700~1799/1725.Number-Of-Rectangles-That-Can-Form-The-Largest-Square.md" >}})|Easy||||78.7%|
+|1725|Number Of Rectangles That Can Form The Largest Square|[Go]({{< relref "/ChapterFour/1700~1799/1725.Number-Of-Rectangles-That-Can-Form-The-Largest-Square.md" >}})|Easy||||78.6%|
 |1732|Find the Highest Altitude|[Go]({{< relref "/ChapterFour/1700~1799/1732.Find-the-Highest-Altitude.md" >}})|Easy||||78.9%|
 |1734|Decode XORed Permutation|[Go]({{< relref "/ChapterFour/1700~1799/1734.Decode-XORed-Permutation.md" >}})|Medium||||63.0%|
 |1738|Find Kth Largest XOR Coordinate Value|[Go]({{< relref "/ChapterFour/1700~1799/1738.Find-Kth-Largest-XOR-Coordinate-Value.md" >}})|Medium||||61.0%|
