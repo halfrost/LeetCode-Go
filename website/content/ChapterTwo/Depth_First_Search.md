@@ -36,7 +36,7 @@ weight: 9
 |0230|Kth Smallest Element in a BST|[Go]({{< relref "/ChapterFour/0200~0299/0230.Kth-Smallest-Element-in-a-BST.md" >}})|Medium||||70.1%|
 |0235|Lowest Common Ancestor of a Binary Search Tree|[Go]({{< relref "/ChapterFour/0200~0299/0235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md" >}})|Medium||||61.5%|
 |0236|Lowest Common Ancestor of a Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0236.Lowest-Common-Ancestor-of-a-Binary-Tree.md" >}})|Medium||||58.8%|
-|0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||61.3%|
+|0257|Binary Tree Paths|[Go]({{< relref "/ChapterFour/0200~0299/0257.Binary-Tree-Paths.md" >}})|Easy| O(n)| O(1)||61.4%|
 |0297|Serialize and Deserialize Binary Tree|[Go]({{< relref "/ChapterFour/0200~0299/0297.Serialize-and-Deserialize-Binary-Tree.md" >}})|Hard||||55.4%|
 |0329|Longest Increasing Path in a Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0329.Longest-Increasing-Path-in-a-Matrix.md" >}})|Hard||||52.4%|
 |0337|House Robber III|[Go]({{< relref "/ChapterFour/0300~0399/0337.House-Robber-III.md" >}})|Medium||||53.9%|
