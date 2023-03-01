@@ -59,7 +59,7 @@ weight: 9
 |0547|Number of Provinces|[Go]({{< relref "/ChapterFour/0500~0599/0547.Number-of-Provinces.md" >}})|Medium||||63.7%|
 |0559|Maximum Depth of N-ary Tree|[Go]({{< relref "/ChapterFour/0500~0599/0559.Maximum-Depth-of-N-ary-Tree.md" >}})|Easy||||71.7%|
 |0563|Binary Tree Tilt|[Go]({{< relref "/ChapterFour/0500~0599/0563.Binary-Tree-Tilt.md" >}})|Easy||||60.0%|
-|0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree.md" >}})|Easy||||46.3%|
+|0572|Subtree of Another Tree|[Go]({{< relref "/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree.md" >}})|Easy||||46.4%|
 |0589|N-ary Tree Preorder Traversal|[Go]({{< relref "/ChapterFour/0500~0599/0589.N-ary-Tree-Preorder-Traversal.md" >}})|Easy||||75.9%|
 |0617|Merge Two Binary Trees|[Go]({{< relref "/ChapterFour/0600~0699/0617.Merge-Two-Binary-Trees.md" >}})|Easy||||78.6%|
 |0623|Add One Row to Tree|[Go]({{< relref "/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree.md" >}})|Medium||||59.5%|
@@ -98,7 +98,7 @@ weight: 9
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||45.1%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy||||54.6%|
 |1020|Number of Enclaves|[Go]({{< relref "/ChapterFour/1000~1099/1020.Number-of-Enclaves.md" >}})|Medium||||65.5%|
-|1022|Sum of Root To Leaf Binary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers.md" >}})|Easy||||73.6%|
+|1022|Sum of Root To Leaf Binary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers.md" >}})|Easy||||73.5%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||75.8%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||73.3%|
 |1034|Coloring A Border|[Go]({{< relref "/ChapterFour/1000~1099/1034.Coloring-A-Border.md" >}})|Medium||||49.2%|
