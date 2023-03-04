@@ -37,7 +37,7 @@ weight: 12
 |0224|Basic Calculator|[Go]({{< relref "/ChapterFour/0200~0299/0224.Basic-Calculator.md" >}})|Hard| O(n)| O(n)||42.4%|
 |0227|Basic Calculator II|[Go]({{< relref "/ChapterFour/0200~0299/0227.Basic-Calculator-II.md" >}})|Medium||||42.4%|
 |0231|Power of Two|[Go]({{< relref "/ChapterFour/0200~0299/0231.Power-of-Two.md" >}})|Easy| O(1)| O(1)||46.0%|
-|0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||63.9%|
+|0258|Add Digits|[Go]({{< relref "/ChapterFour/0200~0299/0258.Add-Digits.md" >}})|Easy||||64.0%|
 |0263|Ugly Number|[Go]({{< relref "/ChapterFour/0200~0299/0263.Ugly-Number.md" >}})|Easy| O(log n)| O(1)||42.3%|
 |0264|Ugly Number II|[Go]({{< relref "/ChapterFour/0200~0299/0264.Ugly-Number-II.md" >}})|Medium||||46.2%|
 |0268|Missing Number|[Go]({{< relref "/ChapterFour/0200~0299/0268.Missing-Number.md" >}})|Easy||||62.5%|
@@ -113,7 +113,7 @@ weight: 12
 |1017|Convert to Base -2|[Go]({{< relref "/ChapterFour/1000~1099/1017.Convert-to-Base-2.md" >}})|Medium||||60.8%|
 |1025|Divisor Game|[Go]({{< relref "/ChapterFour/1000~1099/1025.Divisor-Game.md" >}})|Easy| O(1)| O(1)||67.6%|
 |1030|Matrix Cells in Distance Order|[Go]({{< relref "/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order.md" >}})|Easy||||69.7%|
-|1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.1%|
+|1037|Valid Boomerang|[Go]({{< relref "/ChapterFour/1000~1099/1037.Valid-Boomerang.md" >}})|Easy||||37.0%|
 |1040|Moving Stones Until Consecutive II|[Go]({{< relref "/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II.md" >}})|Medium||||55.9%|
 |1073|Adding Two Negabinary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers.md" >}})|Medium||||36.5%|
 |1093|Statistics from a Large Sample|[Go]({{< relref "/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample.md" >}})|Medium||||43.6%|
