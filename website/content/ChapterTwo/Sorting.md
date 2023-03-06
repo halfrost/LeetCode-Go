@@ -43,7 +43,7 @@ weight: 14
 |0350|Intersection of Two Arrays II|[Go]({{< relref "/ChapterFour/0300~0399/0350.Intersection-of-Two-Arrays-II.md" >}})|Easy| O(n)| O(n) ||55.9%|
 |0354|Russian Doll Envelopes|[Go]({{< relref "/ChapterFour/0300~0399/0354.Russian-Doll-Envelopes.md" >}})|Hard||||38.0%|
 |0368|Largest Divisible Subset|[Go]({{< relref "/ChapterFour/0300~0399/0368.Largest-Divisible-Subset.md" >}})|Medium||||41.5%|
-|0378|Kth Smallest Element in a Sorted Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0378.Kth-Smallest-Element-in-a-Sorted-Matrix.md" >}})|Medium||||61.8%|
+|0378|Kth Smallest Element in a Sorted Matrix|[Go]({{< relref "/ChapterFour/0300~0399/0378.Kth-Smallest-Element-in-a-Sorted-Matrix.md" >}})|Medium||||61.7%|
 |0389|Find the Difference|[Go]({{< relref "/ChapterFour/0300~0399/0389.Find-the-Difference.md" >}})|Easy||||59.9%|
 |0414|Third Maximum Number|[Go]({{< relref "/ChapterFour/0400~0499/0414.Third-Maximum-Number.md" >}})|Easy||||33.2%|
 |0435|Non-overlapping Intervals|[Go]({{< relref "/ChapterFour/0400~0499/0435.Non-overlapping-Intervals.md" >}})|Medium||||50.3%|
@@ -122,7 +122,7 @@ weight: 14
 |1846|Maximum Element After Decreasing and Rearranging|[Go]({{< relref "/ChapterFour/1800~1899/1846.Maximum-Element-After-Decreasing-and-Rearranging.md" >}})|Medium||||58.9%|
 |1877|Minimize Maximum Pair Sum in Array|[Go]({{< relref "/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array.md" >}})|Medium||||79.9%|
 |1984|Minimum Difference Between Highest and Lowest of K Scores|[Go]({{< relref "/ChapterFour/1900~1999/1984.Minimum-Difference-Between-Highest-and-Lowest-of-K-Scores.md" >}})|Easy||||54.4%|
-|2037|Minimum Number of Moves to Seat Everyone|[Go]({{< relref "/ChapterFour/2000~2099/2037.Minimum-Number-of-Moves-to-Seat-Everyone.md" >}})|Easy||||82.0%|
+|2037|Minimum Number of Moves to Seat Everyone|[Go]({{< relref "/ChapterFour/2000~2099/2037.Minimum-Number-of-Moves-to-Seat-Everyone.md" >}})|Easy||||82.1%|
 |2164|Sort Even and Odd Indices Independently|[Go]({{< relref "/ChapterFour/2100~2199/2164.Sort-Even-and-Odd-Indices-Independently.md" >}})|Easy||||65.0%|
 |2165|Smallest Value of the Rearranged Number|[Go]({{< relref "/ChapterFour/2100~2199/2165.Smallest-Value-of-the-Rearranged-Number.md" >}})|Medium||||51.4%|
 |2171|Removing Minimum Number of Magic Beans|[Go]({{< relref "/ChapterFour/2100~2199/2171.Removing-Minimum-Number-of-Magic-Beans.md" >}})|Medium||||42.1%|
