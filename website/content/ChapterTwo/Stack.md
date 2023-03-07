@@ -17,7 +17,7 @@ weight: 5
 
 | No.      | Title | Solution | Difficulty | TimeComplexity | SpaceComplexity |Favorite| Acceptance |
 |:--------:|:------- | :--------: | :----------: | :----: | :-----: | :-----: |:-----: |
-|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||40.3%|
+|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||40.2%|
 |0032|Longest Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses.md" >}})|Hard||||32.8%|
 |0042|Trapping Rain Water|[Go]({{< relref "/ChapterFour/0001~0099/0042.Trapping-Rain-Water.md" >}})|Hard| O(n)| O(1)|❤️|59.2%|
 |0071|Simplify Path|[Go]({{< relref "/ChapterFour/0001~0099/0071.Simplify-Path.md" >}})|Medium| O(n)| O(n)|❤️|39.3%|
