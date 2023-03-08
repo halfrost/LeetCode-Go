@@ -17,7 +17,7 @@ weight: 2
 |0013|Roman to Integer|[Go]({{< relref "/ChapterFour/0001~0099/0013.Roman-to-Integer.md" >}})|Easy||||58.5%|
 |0014|Longest Common Prefix|[Go]({{< relref "/ChapterFour/0001~0099/0014.Longest-Common-Prefix.md" >}})|Easy||||40.9%|
 |0017|Letter Combinations of a Phone Number|[Go]({{< relref "/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number.md" >}})|Medium| O(log n)| O(1)||56.5%|
-|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||40.3%|
+|0020|Valid Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0020.Valid-Parentheses.md" >}})|Easy| O(log n)| O(1)||40.2%|
 |0022|Generate Parentheses|[Go]({{< relref "/ChapterFour/0001~0099/0022.Generate-Parentheses.md" >}})|Medium| O(log n)| O(1)||72.5%|
 |0028|Find the Index of the First Occurrence in a String|[Go]({{< relref "/ChapterFour/0001~0099/0028.Find-the-Index-of-the-First-Occurrence-in-a-String.md" >}})|Easy| O(n)| O(1)||39.0%|
 |0030|Substring with Concatenation of All Words|[Go]({{< relref "/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words.md" >}})|Hard| O(n)| O(n)|❤️|31.2%|
