@@ -80,7 +80,7 @@ weight: 6
 |0979|Distribute Coins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree.md" >}})|Medium||||72.2%|
 |0987|Vertical Order Traversal of a Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree.md" >}})|Hard||||45.1%|
 |0993|Cousins in Binary Tree|[Go]({{< relref "/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree.md" >}})|Easy| O(n)| O(1)||54.6%|
-|1022|Sum of Root To Leaf Binary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers.md" >}})|Easy||||73.5%|
+|1022|Sum of Root To Leaf Binary Numbers|[Go]({{< relref "/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers.md" >}})|Easy||||73.6%|
 |1026|Maximum Difference Between Node and Ancestor|[Go]({{< relref "/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor.md" >}})|Medium||||75.8%|
 |1028|Recover a Tree From Preorder Traversal|[Go]({{< relref "/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal.md" >}})|Hard||||73.3%|
 |1038|Binary Search Tree to Greater Sum Tree|[Go]({{< relref "/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree.md" >}})|Medium||||85.5%|
