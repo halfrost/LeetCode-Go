@@ -44,6 +44,7 @@ void hello (int n){
 
 ```c
 bool isPrime (int n){
+    if (num <= 1) return false;
     for( int x = 2 ; x * x <= n ; x ++ )
         if( n % x == 0 )
             return false;
