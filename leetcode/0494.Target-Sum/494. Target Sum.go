@@ -6,7 +6,7 @@ func findTargetSumWays(nums []int, S int) int {
 	for _, n := range nums {
 		total += n
 	}
-	if S > total || (S+total)%2 == 1 || S+total < 0 {
+	if   S+total < 0 || S > total || (S+total)%2 == 1 {
 		return 0
 	}
 	target := (S + total) / 2
