@@ -63,25 +63,33 @@
 
 <a href="https://books.halfrost.com/leetcode/"><img src="./website/static/logo.png" alt="logo" height="550" align="right" /></a>
 
-* [Array](#array)
-* [String](#string)
-* [✅ Two Pointers](#two-pointers)
-* [✅ Linked List](#linked-list)
-* [✅ Stack](#stack)
-* [Tree](#tree)
-* [Dynamic programming](#dynamic-programming)
-* [✅ Backtracking](#backtracking)
-* [Depth First Search](#depth-first-search)
-* [Breadth First Search](#breadth-first-search)
-* [Binary Search](#binary-search)
-* [Math](#math)
-* [Hash Table](#hash-table)
-* [✅ Sort](#sort)
-* [✅ Bit Manipulation](#bit-manipulation)
-* [✅ Union Find](#union-find)
-* [✅ Sliding Window](#sliding-window)
-* [✅ Segment Tree](#segment-tree)
-* [✅ Binary Indexed Tree](#binary-indexed-tree)
+- [LeetCode in Go](#leetcode-in-go)
+	- [Data Structures](#data-structures)
+	- [Algorithm](#algorithm)
+	- [LeetCode Problems](#leetcode-problems)
+	- [一. 个人数据](#一-个人数据)
+	- [二. 目录](#二-目录)
+	- [三.分类](#三分类)
+	- [Array](#array)
+	- [String](#string)
+	- [Two Pointers](#two-pointers)
+	- [Linked List](#linked-list)
+	- [Stack](#stack)
+	- [Tree](#tree)
+	- [Dynamic Programming](#dynamic-programming)
+	- [Backtracking](#backtracking)
+	- [Depth First Search](#depth-first-search)
+	- [Breadth First Search](#breadth-first-search)
+	- [Binary Search](#binary-search)
+	- [Math](#math)
+	- [Hash Table](#hash-table)
+	- [Sort](#sort)
+	- [Bit Manipulation](#bit-manipulation)
+	- [Union Find](#union-find)
+	- [Sliding Window](#sliding-window)
+	- [Segment Tree](#segment-tree)
+	- [Binary Indexed Tree](#binary-indexed-tree)
+	- [♥️ Thanks](#️-thanks)
 
 <br>
 <br>
@@ -1252,8 +1260,8 @@
 |1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings)|73.3%|Medium||
 |1112|Highest Grade For Each Student||73.8%|Medium||
 |1113|Reported Posts||66.1%|Easy||
-|1114|Print in Order||68.1%|Easy||
-|1115|Print FooBar Alternately||61.7%|Medium||
+|1114|Print in Order|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1114.Print-in-Order)|68.1%|Easy||
+|1115|Print FooBar Alternately|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1115.Print-FooBar-Alternately)|61.7%|Medium||
 |1116|Print Zero Even Odd||60.1%|Medium||
 |1117|Building H2O||55.7%|Medium||
 |1118|Number of Days in a Month||56.7%|Easy||
