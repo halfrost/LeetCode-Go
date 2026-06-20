@@ -46,6 +46,7 @@ func Test_Problem589(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := int2NaryNode(p.one)
 		fmt.Printf("【output】:%v      \n", preorder(rootOne))
+		preorder1(rootOne)
 	}
 	fmt.Printf("\n\n\n")
 }

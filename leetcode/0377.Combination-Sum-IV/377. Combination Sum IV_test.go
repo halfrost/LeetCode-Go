@@ -43,6 +43,7 @@ func Test_Problem377(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans377, q.para377
 		fmt.Printf("【input】:%v       【output】:%v\n", p, combinationSum4(p.n, p.k))
+		combinationSum41(p.n, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

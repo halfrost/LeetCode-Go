@@ -79,6 +79,9 @@ func Test_Problem82(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans82, q.para82
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(deleteDuplicates1(structures.Ints2List(p.one))))
+		deleteDuplicates2(structures.Ints2List(p.one))
+		deleteDuplicates3(structures.Ints2List(p.one))
+		deleteDuplicates4(structures.Ints2List(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -48,6 +48,7 @@ func Test_Problem887(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans887, q.para887
 		fmt.Printf("【input】:%v       【output】:%v\n", p, superEggDrop(p.k, p.n))
+		superEggDrop1(p.k, p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

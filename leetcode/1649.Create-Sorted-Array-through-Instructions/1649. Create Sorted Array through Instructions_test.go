@@ -47,6 +47,7 @@ func Test_Problem1649(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1649, q.para1649
 		fmt.Printf("【input】:%v      【output】:%v      \n", p, createSortedArray(p.instructions))
+		createSortedArray1(p.instructions)
 	}
 	fmt.Printf("\n\n\n")
 }

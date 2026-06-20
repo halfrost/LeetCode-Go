@@ -51,6 +51,7 @@ func Test_Problem102(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", levelOrder(root))
+		levelOrder1(root)
 	}
 	fmt.Printf("\n\n\n")
 }

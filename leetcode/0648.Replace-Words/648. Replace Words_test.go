@@ -38,6 +38,7 @@ func Test_Problem648(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans648, q.para648
 		fmt.Printf("【input】:%v       【output】:%v\n", p, replaceWords(p.one, p.s))
+		replaceWords1(p.one, p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

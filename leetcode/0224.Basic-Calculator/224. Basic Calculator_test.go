@@ -51,6 +51,7 @@ func Test_Problem224(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans224, q.para224
 		fmt.Printf("【input】:%v       【output】:%v\n", p, calculate(p.one))
+		calculate1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

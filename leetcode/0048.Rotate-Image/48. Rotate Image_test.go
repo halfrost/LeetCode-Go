@@ -43,6 +43,7 @@ func Test_Problem48(t *testing.T) {
 		_, p := q.ans48, q.para48
 		fmt.Printf("【input】:%v \n", p)
 		rotate(p.s)
+		rotate1(p.s)
 		fmt.Printf("【output】:%v\n", p)
 		fmt.Printf("\n")
 	}

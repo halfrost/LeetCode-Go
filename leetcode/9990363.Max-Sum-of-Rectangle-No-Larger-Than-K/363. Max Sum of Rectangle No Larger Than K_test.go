@@ -53,6 +53,7 @@ func Test_Problem363(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans363, q.para363
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxSumSubmatrix(p.one, p.k))
+		maxSumSubmatrix1(p.one, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

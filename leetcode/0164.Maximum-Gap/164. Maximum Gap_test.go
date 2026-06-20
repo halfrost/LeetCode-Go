@@ -61,6 +61,7 @@ func Test_Problem164(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans164, q.para164
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maximumGap1(p.one))
+		maximumGap(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

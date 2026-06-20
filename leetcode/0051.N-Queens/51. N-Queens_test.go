@@ -45,6 +45,7 @@ func Test_Problem51(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans51, q.para51
 		fmt.Printf("【input】:%v       【output】:%v\n", p, solveNQueens(p.one))
+		solveNQueens2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,6 +42,7 @@ func Test_Problem387(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans387, q.para387
 		fmt.Printf("【input】:%v       【output】:%v\n", p, firstUniqChar(p.n))
+		firstUniqChar1(p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

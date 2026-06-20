@@ -47,6 +47,8 @@ func Test_Problem287(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans287, q.para287
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findDuplicate(p.one))
+		findDuplicate1(p.one)
+		findDuplicate2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

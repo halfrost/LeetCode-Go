@@ -58,6 +58,7 @@ func Test_Problem456(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans456, q.para456
 		fmt.Printf("【input】:%v       【output】:%v\n", p, find132pattern(p.one))
+		find132pattern1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -44,6 +44,7 @@ func Test_Problem189(t *testing.T) {
 		_, p := q.ans189, q.para189
 		fmt.Printf("【input】:%v       ", p)
 		rotate(p.nums, p.k)
+		rotate1(p.nums, p.k)
 		fmt.Printf("【output】:%v\n", p.nums)
 	}
 	fmt.Printf("\n\n\n")

@@ -58,6 +58,7 @@ func Test_Problem16(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans16, q.para16
 		fmt.Printf("【input】:%v       【output】:%v\n", p, threeSumClosest(p.a, p.target))
+		threeSumClosest1(p.a, p.target)
 	}
 	fmt.Printf("\n\n\n")
 }

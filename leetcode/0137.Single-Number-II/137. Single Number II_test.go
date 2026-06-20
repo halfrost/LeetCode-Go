@@ -42,6 +42,8 @@ func Test_Problem137(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans137, q.para137
 		fmt.Printf("【input】:%v       【output】:%v\n", p, singleNumberII(p.s))
+		singleNumberIIIII(p.s)
+		singleNumberIIIII1(p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

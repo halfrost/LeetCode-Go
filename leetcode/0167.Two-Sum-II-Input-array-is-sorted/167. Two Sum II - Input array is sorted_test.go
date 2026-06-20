@@ -38,6 +38,7 @@ func Test_Problem167(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans167, q.para167
 		fmt.Printf("【input】:%v    【output】:%v\n", p.one, twoSum167(p.one, p.two))
+		twoSum167_1(p.one, p.two)
 	}
 	fmt.Printf("\n\n\n")
 }

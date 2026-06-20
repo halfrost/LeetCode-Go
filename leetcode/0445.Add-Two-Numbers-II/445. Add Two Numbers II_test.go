@@ -76,6 +76,8 @@ func Test_Problem445(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans445, q.para445
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(addTwoNumbers445(structures.Ints2List(p.one), structures.Ints2List(p.another))))
+		addTwoNumbers(structures.Ints2List(p.one), structures.Ints2List(p.another))
+		addTwoNumbers1(structures.Ints2List(p.one), structures.Ints2List(p.another))
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -38,6 +38,7 @@ func Test_Problem494(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans494, q.para494
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findTargetSumWays(p.nums, p.S))
+		findTargetSumWays1(p.nums, p.S)
 	}
 	fmt.Printf("\n\n\n")
 }

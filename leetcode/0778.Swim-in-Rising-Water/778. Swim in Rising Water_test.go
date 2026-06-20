@@ -41,6 +41,7 @@ func Test_Problem778(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans778, q.para778
 		fmt.Printf("【input】:%v       【output】:%v\n", p, swimInWater(p.grid))
+		swimInWater1(p.grid)
 	}
 	fmt.Printf("\n\n\n")
 }

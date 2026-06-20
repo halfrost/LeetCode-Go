@@ -43,6 +43,7 @@ func Test_Problem201(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans201, q.para201
 		fmt.Printf("【input】:%v       【output】:%v\n", p, rangeBitwiseAnd(p.m, p.n))
+		rangeBitwiseAnd1(p.m, p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

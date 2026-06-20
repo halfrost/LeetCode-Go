@@ -52,6 +52,7 @@ func Test_Problem828(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans828, q.para828
 		fmt.Printf("【input】:%v       【output】:%v\n", p, uniqueLetterString(p.one))
+		uniqueLetterString1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

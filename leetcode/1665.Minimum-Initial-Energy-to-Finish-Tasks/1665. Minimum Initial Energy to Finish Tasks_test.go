@@ -49,4 +49,5 @@ func Test_Problem1665(t *testing.T) {
 		fmt.Printf("【input】:%v      【output】:%v      \n", p, minimumEffort(p.tasks))
 	}
 	fmt.Printf("\n\n\n")
+	max(0, 1)
 }

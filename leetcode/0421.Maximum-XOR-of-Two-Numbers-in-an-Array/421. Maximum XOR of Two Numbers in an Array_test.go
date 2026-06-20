@@ -37,6 +37,7 @@ func Test_Problem421(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans421, q.para421
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findMaximumXOR(p.one))
+		findMaximumXOR1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

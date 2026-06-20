@@ -124,6 +124,7 @@ func Test_Problem526(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans526, q.para526
 		fmt.Printf("【input】:%v       【output】:%v\n", p, countArrangement(p.one))
+		countArrangement1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

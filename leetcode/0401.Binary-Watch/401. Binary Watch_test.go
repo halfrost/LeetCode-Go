@@ -37,6 +37,7 @@ func Test_Problem401(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans401, q.para401
 		fmt.Printf("【input】:%v       【output】:%v\n", p, readBinaryWatch(p.n))
+		readBinaryWatch1(p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -64,6 +64,7 @@ func Test_Problem220(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans220, q.para220
 		fmt.Printf("【input】:%v       【output】:%v\n", p, containsNearbyAlmostDuplicate(p.one, p.k, p.t))
+		containsNearbyAlmostDuplicate1(p.one, p.k, p.t)
 	}
 	fmt.Printf("\n\n\n")
 }

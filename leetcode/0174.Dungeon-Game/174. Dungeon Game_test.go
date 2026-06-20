@@ -52,6 +52,7 @@ func Test_Problem174(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans174, q.para174
 		fmt.Printf("【input】:%v       【output】:%v\n", p, calculateMinimumHP1(p.s))
+		calculateMinimumHP(p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

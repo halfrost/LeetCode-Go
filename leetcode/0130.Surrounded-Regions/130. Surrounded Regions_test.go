@@ -43,6 +43,7 @@ func Test_Problem130(t *testing.T) {
 		_, p := q.ans130, q.para130
 		fmt.Printf("【input】:%v      ", p)
 		solve1(p.one)
+		solve(p.one)
 		fmt.Printf("【output】:%v      \n", p)
 	}
 	fmt.Printf("\n\n\n")

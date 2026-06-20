@@ -67,6 +67,7 @@ func Test_Problem162(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans162, q.para162
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findPeakElement(p.one))
+		findPeakElement1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

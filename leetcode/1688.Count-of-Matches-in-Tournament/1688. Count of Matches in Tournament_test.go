@@ -42,6 +42,7 @@ func Test_Problem1688(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1688, q.para1688
 		fmt.Printf("【input】:%v       【output】:%v\n", p, numberOfMatches(p.n))
+		numberOfMatches1(p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -43,6 +43,7 @@ func Test_Problem378(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans378, q.para378
 		fmt.Printf("【input】:%v       【output】:%v\n", p, kthSmallest378(p.matrix, p.k))
+		kthSmallest3781(p.matrix, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,6 +42,7 @@ func Test_Problem1079(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1079, q.para1079
 		fmt.Printf("【input】:%v       【output】:%v\n", p, numTilePossibilities(p.one))
+		numTilePossibilities1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -47,6 +47,8 @@ func Test_Problem218(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans218, q.para218
 		fmt.Printf("【input】:%v       【output】:%v\n", p, getSkyline(p.one))
+		getSkyline1(p.one)
+		getSkyline2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

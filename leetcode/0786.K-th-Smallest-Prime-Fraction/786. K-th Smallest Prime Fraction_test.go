@@ -53,6 +53,7 @@ func Test_Problem786(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans786, q.para786
 		fmt.Printf("【input】:%v       【output】:%v\n", p, kthSmallestPrimeFraction(p.A, p.K))
+		kthSmallestPrimeFraction1(p.A, p.K)
 	}
 	fmt.Printf("\n\n\n")
 }

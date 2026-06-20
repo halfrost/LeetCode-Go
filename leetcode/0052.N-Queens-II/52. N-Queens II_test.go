@@ -80,6 +80,7 @@ func Test_Problem52(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans52, q.para52
 		fmt.Printf("【input】:%v       【output】:%v\n", p, totalNQueens(p.one))
+		totalNQueens1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -56,6 +56,7 @@ func Test_Problem98(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", isValidBST(rootOne))
+		isValidBST1(rootOne)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,6 +42,7 @@ func Test_Problem441(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans441, q.para441
 		fmt.Printf("【input】:%v       【output】:%v\n", p, arrangeCoins(p.n))
+		arrangeCoins1(p.n)
 	}
 	fmt.Printf("\n\n\n")
 }

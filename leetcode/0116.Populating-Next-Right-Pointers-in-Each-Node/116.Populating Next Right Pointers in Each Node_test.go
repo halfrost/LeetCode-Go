@@ -112,6 +112,7 @@ func Test_Problem116(t *testing.T) {
 		_, p := q.ans116, q.para116
 		fmt.Printf("【input】:%v      ", p.one)
 		fmt.Printf("【output】:%v      \n", connect(p.one))
+		connect2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

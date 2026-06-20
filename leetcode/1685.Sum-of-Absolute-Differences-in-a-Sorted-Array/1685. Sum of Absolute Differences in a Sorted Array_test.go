@@ -42,6 +42,7 @@ func Test_Problem1685(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1685, q.para1685
 		fmt.Printf("【input】:%v       【output】:%v\n", p, getSumAbsoluteDifferences(p.nums))
+		getSumAbsoluteDifferences1(p.nums)
 	}
 	fmt.Printf("\n\n\n")
 }

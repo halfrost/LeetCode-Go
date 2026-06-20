@@ -58,6 +58,7 @@ func Test_Problem29(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans29, q.para29
 		fmt.Printf("【input】:%v    【output】:%v\n", p, divide(p.dividend, p.divisor))
+		divide1(p.dividend, p.divisor)
 	}
 	fmt.Printf("\n\n\n")
 }

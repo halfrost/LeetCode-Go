@@ -53,6 +53,7 @@ func Test_Problem1679(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1679, q.para1679
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxOperations(p.nums, p.k))
+		maxOperations_(p.nums, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

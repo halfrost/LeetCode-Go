@@ -72,6 +72,7 @@ func Test_Problem237(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(removeElements(structures.Ints2List(p.one), p.n)))
 	}
 	fmt.Printf("\n\n\n")
+	deleteNode(structures.Ints2List([]int{1, 2}))
 }
 
 func removeElements(head *ListNode, val int) *ListNode {

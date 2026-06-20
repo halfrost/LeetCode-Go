@@ -58,6 +58,7 @@ func Test_Problem1648(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1648, q.para1648
 		fmt.Printf("【input】:%v      【output】:%v      \n", p, maxProfit(p.inventory, p.orders))
+		maxProfit_(p.inventory, p.orders)
 	}
 	fmt.Printf("\n\n\n")
 }

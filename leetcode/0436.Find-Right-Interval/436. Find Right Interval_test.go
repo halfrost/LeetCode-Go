@@ -47,6 +47,7 @@ func Test_Problem436(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans436, q.para436
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findRightInterval(p.one))
+		findRightInterval1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

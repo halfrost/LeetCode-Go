@@ -37,6 +37,8 @@ func Test_Problem907(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans907, q.para907
 		fmt.Printf("【input】:%v       【output】:%v\n", p, sumSubarrayMins(p.one))
+		sumSubarrayMins1(p.one)
+		sumSubarrayMins2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

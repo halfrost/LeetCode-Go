@@ -42,6 +42,7 @@ func Test_Problem1111(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1111, q.para1111
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxDepthAfterSplit(p.one))
+		maxDepthAfterSplit1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

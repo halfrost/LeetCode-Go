@@ -60,4 +60,5 @@ func Test_Problem719(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, smallestDistancePair(p.num, p.k))
 	}
 	fmt.Printf("\n\n\n")
+	findDistanceCount1(p.num, p.k)
 }

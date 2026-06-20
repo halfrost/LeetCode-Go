@@ -72,6 +72,7 @@ func Test_Problem864(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans864, q.para864
 		fmt.Printf("【input】:%v       【output】:%v\n", p, shortestPathAllKeys(p.one))
+		shortestPathAllKeys1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

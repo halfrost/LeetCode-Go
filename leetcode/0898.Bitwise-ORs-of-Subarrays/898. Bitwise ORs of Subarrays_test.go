@@ -47,6 +47,7 @@ func Test_Problem898(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans898, q.para898
 		fmt.Printf("【input】:%v       【output】:%v\n", p, subarrayBitwiseORs(p.one))
+		subarrayBitwiseORs1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

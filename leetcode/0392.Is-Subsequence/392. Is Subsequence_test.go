@@ -53,6 +53,7 @@ func Test_Problem392(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans392, q.para392
 		fmt.Printf("【input】:%v       【output】:%v\n", p, isSubsequence(p.one, p.two))
+		isSubsequence1(p.one, p.two)
 	}
 	fmt.Printf("\n\n\n")
 }

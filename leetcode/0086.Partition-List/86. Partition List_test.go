@@ -70,6 +70,7 @@ func Test_Problem86(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans86, q.para86
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(partition(structures.Ints2List(p.one), p.x)))
+		partition1(structures.Ints2List(p.one), p.x)
 	}
 	fmt.Printf("\n\n\n")
 }

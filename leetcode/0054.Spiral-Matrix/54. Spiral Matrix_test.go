@@ -56,6 +56,7 @@ func Test_Problem54(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans54, q.para54
 		fmt.Printf("【input】:%v       【output】:%v\n", p, spiralOrder(p.one))
+		spiralOrder2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,6 +42,7 @@ func Test_Problem793(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans793, q.para793
 		fmt.Printf("【input】:%v       【output】:%v\n", p, preimageSizeFZF(p.one))
+		preimageSizeFZF1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

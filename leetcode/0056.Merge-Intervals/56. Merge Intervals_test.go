@@ -69,4 +69,6 @@ func Test_Problem56(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, merge56(p.one))
 	}
 	fmt.Printf("\n\n\n")
+	min(0, 1)
+	max(0, 1)
 }

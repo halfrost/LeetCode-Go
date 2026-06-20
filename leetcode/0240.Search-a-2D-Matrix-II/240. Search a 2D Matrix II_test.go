@@ -43,6 +43,7 @@ func Test_Problem240(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans240, q.para240
 		fmt.Printf("【input】:%v       【output】:%v\n", p, searchMatrix240(p.matrix, p.target))
+		searchMatrix2401(p.matrix, p.target)
 	}
 	fmt.Printf("\n\n\n")
 }

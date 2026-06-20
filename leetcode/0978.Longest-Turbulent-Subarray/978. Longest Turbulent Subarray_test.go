@@ -57,6 +57,7 @@ func Test_Problem978(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans978, q.para978
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxTurbulenceSize(p.one))
+		maxTurbulenceSize1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

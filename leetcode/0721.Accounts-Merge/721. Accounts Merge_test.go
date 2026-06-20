@@ -68,6 +68,7 @@ func Test_Problem721(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans721, q.para721
 		fmt.Printf("【input】:%v       【output】:%v\n", p, accountsMerge(p.w))
+		accountsMerge1(p.w)
 	}
 	fmt.Printf("\n\n\n")
 }

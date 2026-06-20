@@ -41,6 +41,7 @@ func Test_Problem1044(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1044, q.para1044
 		fmt.Printf("【input】:%v       【output】:%v\n", p, longestDupSubstring(p.one))
+		longestDupSubstring1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

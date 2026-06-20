@@ -69,6 +69,7 @@ func Test_Problem373(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans373, q.para373
 		fmt.Printf("【input】:%v       【output】:%v\n", p, kSmallestPairs(p.nums1, p.nums2, p.k))
+		kSmallestPairs1(p.nums1, p.nums2, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,6 +42,8 @@ func Test_Problem34(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans34, q.para34
 		fmt.Printf("【input】:%v       【output】:%v\n", p, searchRange(p.nums, p.target))
+		searchFirstGreaterElement(p.nums, p.target)
+		searchLastLessElement(p.nums, p.target)
 	}
 	fmt.Printf("\n\n\n")
 }

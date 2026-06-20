@@ -47,6 +47,8 @@ func Test_Problem1641(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1641, q.para1641
 		fmt.Printf("【input】:%v      【output】:%v      \n", p, countVowelStrings(p.n))
+		countVowelStrings1(p.n)
 	}
 	fmt.Printf("\n\n\n")
+	makeTable()
 }

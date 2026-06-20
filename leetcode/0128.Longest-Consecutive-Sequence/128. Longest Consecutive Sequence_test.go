@@ -57,6 +57,8 @@ func Test_Problem128(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans128, q.para128
 		fmt.Printf("【input】:%v       【output】:%v\n", p, longestConsecutive(p.one))
+		longestConsecutive1(p.one)
+		longestConsecutive2(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

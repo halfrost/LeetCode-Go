@@ -41,6 +41,7 @@ func Test_Problem106(t *testing.T) {
 		_, p := q.ans106, q.para106
 		fmt.Printf("【input】:%v      ", p)
 		fmt.Printf("【output】:%v      \n", structures.Tree2ints(buildTree(p.inorder, p.postorder)))
+		buildTree1(p.inorder, p.postorder)
 	}
 	fmt.Printf("\n\n\n")
 }

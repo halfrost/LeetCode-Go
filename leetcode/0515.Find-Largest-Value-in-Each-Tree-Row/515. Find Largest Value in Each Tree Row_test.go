@@ -56,6 +56,8 @@ func Test_Problem515(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", largestValues(root))
+		largestValues1(root)
+		largestValues3(root)
 	}
 	fmt.Printf("\n\n\n")
 }

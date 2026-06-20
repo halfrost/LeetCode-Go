@@ -52,6 +52,7 @@ func Test_Problem693(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans693, q.para693
 		fmt.Printf("【input】:%v       【output】:%v\n", p, hasAlternatingBits(p.one))
+		hasAlternatingBits1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

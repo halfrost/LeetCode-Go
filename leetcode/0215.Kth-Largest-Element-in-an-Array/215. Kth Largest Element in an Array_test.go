@@ -63,6 +63,8 @@ func Test_Problem215(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans215, q.para215
 		fmt.Printf("【input】:%v    【output】:%v\n", p.one, findKthLargest(p.one, p.two))
+		findKthLargest1(p.one, p.two)
 	}
 	fmt.Printf("\n\n\n")
+	getLeastNumbers(p.one, p.two)
 }

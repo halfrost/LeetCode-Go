@@ -71,6 +71,7 @@ func Test_Problem101(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", isSymmetric(rootOne))
+		isSymmetric1(rootOne)
 	}
 	fmt.Printf("\n\n\n")
 }

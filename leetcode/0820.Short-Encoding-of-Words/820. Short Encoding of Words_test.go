@@ -42,6 +42,7 @@ func Test_Problem820(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans820, q.para820
 		fmt.Printf("【input】:%v       【output】:%v\n", p, minimumLengthEncoding(p.words))
+		minimumLengthEncoding1(p.words)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -43,6 +43,8 @@ func Test_Problem1074(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1074, q.para1074
 		fmt.Printf("【input】:%v       【output】:%v\n", p, numSubmatrixSumTarget1(p.one, p.t))
+		numSubmatrixSumTarget(p.one, p.t)
+		numSubmatrixSumTarget2(p.one, p.t)
 	}
 	fmt.Printf("\n\n\n")
 }

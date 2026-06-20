@@ -46,6 +46,7 @@ func Test_Problem1021(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1021, q.para1021
 		fmt.Printf("【input】:%v       【output】:%v\n", p, removeOuterParentheses(p.one))
+		removeOuterParentheses1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

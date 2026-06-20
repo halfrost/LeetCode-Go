@@ -47,6 +47,8 @@ func Test_Problem1763(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1763, q.para1763
 		fmt.Printf("【input】:%v       【output】:%v\n", p, longestNiceSubstring(p.s))
+		longestNiceSubstring1(p.s)
+		longestNiceSubstring2(p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

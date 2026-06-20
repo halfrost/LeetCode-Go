@@ -43,6 +43,7 @@ func Test_Problem475(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans475, q.para475
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findRadius(p.houses, p.heaters))
+		findRadius1(p.houses, p.heaters)
 	}
 	fmt.Printf("\n\n\n")
 }

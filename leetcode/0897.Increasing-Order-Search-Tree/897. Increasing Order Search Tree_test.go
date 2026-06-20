@@ -76,6 +76,7 @@ func Test_Problem897(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", structures.Tree2ints(increasingBST(rootOne)))
+		increasingBST1(rootOne)
 	}
 	fmt.Printf("\n\n\n")
 }

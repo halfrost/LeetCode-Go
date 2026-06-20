@@ -52,6 +52,7 @@ func Test_Problem31(t *testing.T) {
 		_, p := q.ans31, q.para31
 		fmt.Printf("【input】:%v       ", p)
 		nextPermutation(p.nums)
+		nextPermutation1(p.nums)
 		fmt.Printf("【output】:%v\n", p.nums)
 	}
 	fmt.Printf("\n\n\n")

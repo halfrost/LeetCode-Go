@@ -42,6 +42,7 @@ func Test_Problem1690(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1690, q.para1690
 		fmt.Printf("【input】:%v       【output】:%v\n", p, stoneGameVII(p.stones))
+		stoneGameVII1(p.stones)
 	}
 	fmt.Printf("\n\n\n")
 }

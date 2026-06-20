@@ -37,6 +37,7 @@ func Test_Problem477(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans477, q.para477
 		fmt.Printf("【input】:%v       【output】:%v\n", p, totalHammingDistance(p.one))
+		totalHammingDistance1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

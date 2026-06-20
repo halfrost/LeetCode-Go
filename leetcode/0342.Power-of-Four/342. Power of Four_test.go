@@ -42,6 +42,7 @@ func Test_Problem342(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans342, q.para342
 		fmt.Printf("【input】:%v       【output】:%v\n", p, isPowerOfFour(p.one))
+		isPowerOfFour1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

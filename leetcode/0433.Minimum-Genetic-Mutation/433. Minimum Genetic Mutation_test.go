@@ -53,6 +53,7 @@ func Test_Problem433(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans433, q.para433
 		fmt.Printf("【input】:%v       【output】:%v\n", p, minMutation(p.start, p.end, p.bank))
+		minMutation1(p.start, p.end, p.bank)
 	}
 	fmt.Printf("\n\n\n")
 }

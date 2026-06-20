@@ -63,6 +63,7 @@ func Test_Problem28(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans28, q.para28
 		fmt.Printf("【input】:%v       【output】:%v\n", p, strStr(p.s, p.p))
+		strStr1(p.s, p.p)
 	}
 	fmt.Printf("\n\n\n")
 }

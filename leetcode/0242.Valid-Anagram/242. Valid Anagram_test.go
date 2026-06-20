@@ -67,6 +67,7 @@ func Test_Problem242(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans242, q.para242
 		fmt.Printf("【input】:%v       【output】:%v\n", p, isAnagram(p.one, p.two))
+		isAnagram1(p.one, p.two)
 	}
 	fmt.Printf("\n\n\n")
 }

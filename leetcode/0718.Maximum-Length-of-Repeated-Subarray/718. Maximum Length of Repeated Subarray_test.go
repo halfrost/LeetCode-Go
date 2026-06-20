@@ -53,6 +53,7 @@ func Test_Problem718(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans718, q.para718
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findLength(p.A, p.B))
+		findLength1(p.A, p.B)
 	}
 	fmt.Printf("\n\n\n")
 }

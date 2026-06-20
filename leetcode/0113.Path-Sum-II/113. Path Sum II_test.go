@@ -51,6 +51,7 @@ func Test_Problem113(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", pathSum(root, p.sum))
+		pathSum1(root, p.sum)
 	}
 	fmt.Printf("\n\n\n")
 }

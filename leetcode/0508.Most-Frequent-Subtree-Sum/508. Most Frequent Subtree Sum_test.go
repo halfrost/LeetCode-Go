@@ -61,6 +61,7 @@ func Test_Problem508(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", findFrequentTreeSum(root))
+		findFrequentTreeSum1(root)
 	}
 	fmt.Printf("\n\n\n")
 }

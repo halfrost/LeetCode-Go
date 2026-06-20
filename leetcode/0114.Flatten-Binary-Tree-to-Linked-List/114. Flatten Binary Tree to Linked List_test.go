@@ -51,6 +51,8 @@ func Test_Problem114(t *testing.T) {
 		fmt.Printf("【input】:%v       \n", p)
 		rootOne := structures.Strings2TreeNode(p.one)
 		flatten(rootOne)
+		flatten1(rootOne)
+		flatten2(rootOne)
 		fmt.Printf("【levelorder output】:%v       \n", structures.Tree2LevelOrderStrings(rootOne))
 		fmt.Printf("【preorder output】:%v      \n", structures.Tree2PreOrderStrings(rootOne))
 	}

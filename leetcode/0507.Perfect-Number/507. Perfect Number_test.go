@@ -48,6 +48,7 @@ func Test_Problem507(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans507, q.para507
 		fmt.Printf("【input】:%v       【output】:%v\n", p, checkPerfectNumber(p.num))
+		checkPerfectNumber_(p.num)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -62,6 +62,7 @@ func Test_Problem498(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans498, q.para498
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findDiagonalOrder(p.one))
+		findDiagonalOrder1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

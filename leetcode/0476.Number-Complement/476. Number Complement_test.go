@@ -42,6 +42,7 @@ func Test_Problem476(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans476, q.para476
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findComplement(p.one))
+		findComplement1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

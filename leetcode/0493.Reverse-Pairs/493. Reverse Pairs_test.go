@@ -57,6 +57,8 @@ func Test_Problem493(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans493, q.para493
 		fmt.Printf("【input】:%v       【output】:%v\n", p, reversePairs(p.nums))
+		reversePairs1(p.nums)
+		reversePairs2(p.nums)
 	}
 	fmt.Printf("\n\n\n")
 }

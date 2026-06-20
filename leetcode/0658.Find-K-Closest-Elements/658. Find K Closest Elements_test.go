@@ -44,6 +44,7 @@ func Test_Problem658(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans658, q.para658
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findClosestElements(p.arr, p.k, p.x))
+		findClosestElements1(p.arr, p.k, p.x)
 	}
 	fmt.Printf("\n\n\n")
 }

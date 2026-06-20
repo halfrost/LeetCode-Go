@@ -37,6 +37,7 @@ func Test_Problem300(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans300, q.para300
 		fmt.Printf("【input】:%v       【output】:%v\n", p, lengthOfLIS(p.one))
+		lengthOfLIS1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

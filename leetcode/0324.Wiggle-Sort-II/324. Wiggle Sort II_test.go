@@ -58,6 +58,7 @@ func Test_Problem324(t *testing.T) {
 		_, p := q.ans324, q.para324
 		fmt.Printf("【input】:%v      ", p)
 		wiggleSort(p.one)
+		wiggleSort1(p.one)
 		fmt.Printf("【output】:%v      \n", p)
 	}
 	fmt.Printf("\n\n\n")

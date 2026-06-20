@@ -47,6 +47,7 @@ func Test_Problem89(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans89, q.para89
 		fmt.Printf("【input】:%v       【output】:%v\n", p, grayCode(p.one))
+		grayCode1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

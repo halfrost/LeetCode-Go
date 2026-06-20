@@ -38,6 +38,7 @@ func Test_Problem239(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans239, q.para239
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxSlidingWindow(p.one, p.k))
+		maxSlidingWindow1(p.one, p.k)
 	}
 	fmt.Printf("\n\n\n")
 }

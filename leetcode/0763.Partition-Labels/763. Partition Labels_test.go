@@ -37,6 +37,7 @@ func Test_Problem763(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans763, q.para763
 		fmt.Printf("【input】:%v       【output】:%v\n", p, partitionLabels(p.one))
+		partitionLabels1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

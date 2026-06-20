@@ -72,6 +72,7 @@ func Test_Problem71(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans71, q.para71
 		fmt.Printf("【input】:%v       【output】:%v\n", p, simplifyPath(p.s))
+		simplifyPath1(p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

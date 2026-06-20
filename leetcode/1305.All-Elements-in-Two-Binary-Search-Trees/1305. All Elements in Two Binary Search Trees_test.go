@@ -61,6 +61,7 @@ func Test_Problem1305(t *testing.T) {
 		_, p := q.ans1305, q.para1305
 		fmt.Printf("【input】:%v      ", p)
 		fmt.Printf("【output】:%v      \n", getAllElements(structures.Ints2TreeNode(p.root1), structures.Ints2TreeNode(p.root2)))
+		getAllElements1(structures.Ints2TreeNode(p.root1), structures.Ints2TreeNode(p.root2))
 	}
 	fmt.Printf("\n\n\n")
 }

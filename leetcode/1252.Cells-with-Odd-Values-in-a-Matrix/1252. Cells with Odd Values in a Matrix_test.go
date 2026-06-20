@@ -44,6 +44,7 @@ func Test_Problem1252(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1252, q.para1252
 		fmt.Printf("【input】:%v       【output】:%v\n", p, oddCells(p.n, p.m, p.indices))
+		oddCells1(p.n, p.m, p.indices)
 	}
 	fmt.Printf("\n\n\n")
 }

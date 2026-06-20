@@ -42,6 +42,7 @@ func Test_Problem811(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans811, q.para811
 		fmt.Printf("【input】:%v       【output】:%v\n", p, subdomainVisits(p.one))
+		subdomainVisits1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

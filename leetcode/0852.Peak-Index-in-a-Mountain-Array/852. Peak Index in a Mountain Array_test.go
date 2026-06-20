@@ -42,6 +42,7 @@ func Test_Problem852(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans852, q.para852
 		fmt.Printf("【input】:%v       【output】:%v\n", p, peakIndexInMountainArray(p.one))
+		peakIndexInMountainArray1(p.one)
 	}
 	fmt.Printf("\n\n\n")
 }

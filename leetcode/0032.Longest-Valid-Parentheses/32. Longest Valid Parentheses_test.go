@@ -56,6 +56,7 @@ func Test_Problem32(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans32, q.para32
 		fmt.Printf("【input】:%v    【output】:%v\n", p, longestValidParentheses(p.s))
+		longestValidParentheses1(p.s)
 	}
 	fmt.Printf("\n\n\n")
 }

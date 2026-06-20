@@ -67,6 +67,7 @@ func Test_Problem1680(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans1680, q.para1680
 		fmt.Printf("【input】:%v       【output】:%v\n", p, concatenatedBinary(p.n))
+		concatenatedBinary1(p.n)
 	}
 	fmt.Printf("\n\n\n")
 }
