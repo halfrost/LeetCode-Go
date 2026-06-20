@@ -1,0 +1,28 @@
+name: Go Test & Coverage
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod   # 用 go.mod 里声明的 Go 版本(1.19)，与题解代码年代匹配
+
+      - name: Run tests with coverage   # 复用仓库原有的 gotest.sh，生成 coverage.txt
+        run: bash ./gotest.sh
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}   # 需在仓库 Settings → Secrets and variables → Actions 里添加（从 codecov.io 获取）
+          files: ./coverage.txt
+          fail_ci_if_error: false   # codecov 上传出问题时不让整个 CI 变红，构建徽章只反映测试本身
