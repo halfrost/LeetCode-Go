@@ -20,6 +20,21 @@ jobs:
       - name: Run tests with coverage   # 复用仓库原有的 gotest.sh，生成 coverage.txt
         run: bash ./gotest.sh
 
+      - name: Show coverage gaps   # 在日志里打印总覆盖率 + 所有未达 100% 的函数，方便定位
+        if: always()
+        run: |
+          echo "===== TOTAL ====="
+          go tool cover -func=coverage.txt | tail -n 1
+          echo "===== functions below 100% ====="
+          go tool cover -func=coverage.txt | grep -v '100.0%' || true
+
+      - name: Upload coverage profile   # 把 coverage.txt 作为构建产物，可在 run 页面 Artifacts 下载后发我
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-profile
+          path: coverage.txt
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
