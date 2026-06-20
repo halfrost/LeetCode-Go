@@ -25,4 +25,5 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}   # 需在仓库 Settings → Secrets and variables → Actions 里添加（从 codecov.io 获取）
           files: ./coverage.txt
+          verbose: true   # 输出详细日志，方便核对 codecov 实际解析到的覆盖率
           fail_ci_if_error: false   # codecov 上传出问题时不让整个 CI 变红，构建徽章只反映测试本身
