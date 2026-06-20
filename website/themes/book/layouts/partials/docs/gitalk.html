@@ -1,8 +1,11 @@
 {{ if .Site.Params.enableGitalk }}
 <div id="gitalk-container" style="width : 100%;"></div>
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="https://rawgit.com/qhh0205/78e9e0b1f3114db6737f3ed8cdd51d3a/raw/3894c5be5aa2378336b1f5ee0f296fa0b22d06e9/md5.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js"></script>
+<!-- 修复：原来的 md5 脚本托管在 rawgit.com，该免费 CDN 已停服，导致 md5 未定义、
+     下方 md5(location.pathname) 抛错，整个评论组件渲染失败。改用仍在维护的 jsDelivr。
+     md5 算法结果一致，生成的 id 不变，历史评论(GitHub issues)仍能正确对应。 -->
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
 <script>
   const gitalk = new Gitalk({
     clientID: '{{ .Site.Params.Gitalk.clientID }}',
