@@ -47,7 +47,9 @@ func Test_Problem509(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans509, q.para509
-		fmt.Printf("【input】:%v       【output】:%v\n", p, fib(p.one))
+		// 覆盖全部解法（fib2 经 memoize、fib4 经 matrixPower/multiply、fib6 经 fibb 间接覆盖）
+		fmt.Printf("【input】:%v       【output】:%v %v %v %v %v %v %v\n", p,
+			fib(p.one), fib1(p.one), fib2(p.one), fib3(p.one), fib4(p.one), fib5(p.one), fib6(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

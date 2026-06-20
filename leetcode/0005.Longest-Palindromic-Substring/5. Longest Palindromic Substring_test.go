@@ -61,7 +61,8 @@ func Test_Problem5(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans5, q.para5
-		fmt.Printf("【input】:%v       【output】:%v\n", p, longestPalindrome(p.s))
+		fmt.Printf("【input】:%v       【output】:%v %v %v %v\n", p,
+			longestPalindrome(p.s), longestPalindrome1(p.s), longestPalindrome2(p.s), longestPalindrome3(p.s))
 	}
 	fmt.Printf("\n\n\n")
 }

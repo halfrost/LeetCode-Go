@@ -46,7 +46,8 @@ func Test_Problem231(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans231, q.para231
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isPowerOfTwo(p.one))
+		fmt.Printf("【input】:%v       【output】:%v %v %v %v\n", p,
+			isPowerOfTwo(p.one), isPowerOfTwo1(p.one), isPowerOfTwo2(p.one), isPowerOfTwo3(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }
