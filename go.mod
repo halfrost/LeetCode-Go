@@ -1,6 +1,6 @@
 module github.com/halfrost/LeetCode-Go
 
-go 1.19
+go 1.23.0
 
 replace github.com/halfrost/LeetCode-Go/structures => ./structures
 
@@ -26,5 +26,5 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 )
