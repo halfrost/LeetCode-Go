@@ -12,7 +12,7 @@
 <p align='center'>
 <a href="https://github.com/halfrost/leetcode-go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
 <img src="https://img.shields.io/badge/Total%20Word%20Count-738884-success">
-<a href="https://github.com/halfrost/leetcode-go/actions" rel="nofollow"><img src="https://github.com/halfrost/leetcode-go/workflows/Deploy%20leetcode-cookbook/badge.svg?branch=master"></a>
+<a href="https://github.com/halfrost/LeetCode-Go/actions/workflows/deploy.yml" rel="nofollow"><img src="https://github.com/halfrost/LeetCode-Go/actions/workflows/deploy.yml/badge.svg?branch=master" alt="Deploy Status"></a>
 <a href="https://travis-ci.org/github/halfrost/LeetCode-Go" rel="nofollow"><img src="https://travis-ci.org/halfrost/LeetCode-Go.svg?branch=master"></a>
 <a href="https://goreportcard.com/report/github.com/halfrost/LeetCode-Go" rel="nofollow"><img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go"></a>
 <img src="https://img.shields.io/badge/runtime%20beats-100%25-success">
