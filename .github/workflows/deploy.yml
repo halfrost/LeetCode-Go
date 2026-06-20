@@ -30,12 +30,21 @@ jobs:
         cd ./website
         hugo -D --minify
 
-    - name: Deploy to Server  # 第四步，rsync推文件
-      uses: appleboy/ssh-action@v1.0.3  # 升级旧的 v0.1.3（2020 年版本，镜像老旧易失败）
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY }}
-        port: ${{ secrets.SERVER_PORT }}
-        script: |
-          rsync -avz --delete --exclude='*.pyc' ./website/public/ ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.SERVER_DESTINATION }}
+    - name: Deploy to Server  # 第四步：在 runner 上用 rsync 把构建产物推到服务器
+      # 关键修复：之前用 appleboy/ssh-action，它会把 script 放到“服务器上”执行，
+      # 于是 rsync 在服务器本机找不到 ./website/public/，还要再 SSH 回自己 → Permission denied。
+      # 正确做法是直接在 runner 上跑 rsync，用 DEPLOY_KEY 推到服务器。
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        SSH_HOST: ${{ secrets.SSH_HOST }}
+        SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+        SERVER_PORT: ${{ secrets.SERVER_PORT }}
+        SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION }}
+      run: |
+        mkdir -p ~/.ssh
+        printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+        chmod 600 ~/.ssh/deploy_key
+        rsync -avz --delete --exclude='*.pyc' \
+          -e "ssh -i ~/.ssh/deploy_key -p ${SERVER_PORT:-22} -o StrictHostKeyChecking=no" \
+          ./website/public/ \
+          "${SSH_USERNAME}@${SSH_HOST}:${SERVER_DESTINATION:-/var/www/books/leetcode/}"
