@@ -44,7 +44,10 @@ jobs:
         mkdir -p ~/.ssh
         printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
         chmod 600 ~/.ssh/deploy_key
+        # 服务器较旧（OpenSSH 5.x），只认旧的 ssh-rsa(SHA-1) 签名，
+        # 而新版 OpenSSH 默认禁用了它，所以要显式加回 PubkeyAcceptedAlgorithms=+ssh-rsa，
+        # 否则会报 "sign_and_send_pubkey: no mutual signature supported"。
         rsync -avz --delete --exclude='*.pyc' \
-          -e "ssh -i ~/.ssh/deploy_key -p ${SERVER_PORT:-22} -o StrictHostKeyChecking=no" \
+          -e "ssh -i ~/.ssh/deploy_key -p ${SERVER_PORT:-22} -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o PubkeyAcceptedAlgorithms=+ssh-rsa" \
           ./website/public/ \
           "${SSH_USERNAME}@${SSH_HOST}:${SERVER_DESTINATION:-/var/www/books/leetcode/}"
