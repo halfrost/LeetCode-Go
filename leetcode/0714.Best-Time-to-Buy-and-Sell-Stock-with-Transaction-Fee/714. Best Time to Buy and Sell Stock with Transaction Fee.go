@@ -30,6 +30,9 @@ func max(a int, b int) int {
 
 // 解法二 优化辅助空间的 DP
 func maxProfit714_1(prices []int, fee int) int {
+	if len(prices) <= 1 {
+		return 0
+	}
 	sell, buy := 0, -prices[0]
 	for i := 1; i < len(prices); i++ {
 		sell = max(sell, buy+prices[i]-fee)

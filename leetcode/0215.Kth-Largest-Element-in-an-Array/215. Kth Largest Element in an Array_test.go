@@ -23,6 +23,11 @@ type ans215 struct {
 	one int
 }
 
+// clone215 复制切片，避免多个就地改写的解法共享同一底层数组。
+func clone215(a []int) []int {
+	return append([]int(nil), a...)
+}
+
 func Test_Problem215(t *testing.T) {
 
 	qs := []question215{
@@ -61,10 +66,19 @@ func Test_Problem215(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 215------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans215, q.para215
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, findKthLargest(p.one, p.two))
-		findKthLargest1(p.one, p.two)
+		a, p := q.ans215, q.para215
+		// findKthLargest（快速选择）、findKthLargest1（排序）、getLeastNumbers 都会
+		// 就地改写传入切片，所以各给一份独立副本，互不污染。
+		got := findKthLargest(clone215(p.one), p.two)
+		got1 := findKthLargest1(clone215(p.one), p.two)
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, got)
+		if got != a.one || got1 != a.one {
+			t.Fatalf("input %v, k=%v: expected %v, got %v / %v", p.one, p.two, a.one, got, got1)
+		}
+		// getLeastNumbers 是扩展题（最小的 k 个数），返回前 k 小，校验长度即可。
+		if least := getLeastNumbers(clone215(p.one), p.two); len(least) != p.two {
+			t.Fatalf("getLeastNumbers(%v, %v) len = %v, want %v", p.one, p.two, len(least), p.two)
+		}
 	}
 	fmt.Printf("\n\n\n")
-	getLeastNumbers(p.one, p.two)
 }

@@ -52,11 +52,15 @@ func Test_Problem513(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 513------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans513, q.para513
+		a, p := q.ans513, q.para513
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", findBottomLeftValue(root))
-		findBottomLeftValue1(root)
+		got := findBottomLeftValue(root)
+		fmt.Printf("【output】:%v      \n", got)
+		got1 := findBottomLeftValue1(root)
+		if got != a.one || got1 != a.one {
+			t.Fatalf("input %v: expected %v, DFS got %v, BFS got %v", p.one, a.one, got, got1)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

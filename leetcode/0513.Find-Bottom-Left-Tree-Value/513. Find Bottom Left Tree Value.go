@@ -41,8 +41,12 @@ func findBottomLeftValueDFS(root *TreeNode, curHeight int, res, maxHeight *int) 
 
 // 解法二 BFS
 func findBottomLeftValue1(root *TreeNode) int {
-	queue := []*TreeNode{root}
+	if root == nil {
+		return 0
+	}
+	res, queue := root.Val, []*TreeNode{root}
 	for len(queue) > 0 {
+		res = queue[0].Val // 每层第一个节点即该层最左节点，最后停留的就是底层最左值
 		next := []*TreeNode{}
 		for _, node := range queue {
 			if node.Left != nil {
@@ -52,10 +56,7 @@ func findBottomLeftValue1(root *TreeNode) int {
 				next = append(next, node.Right)
 			}
 		}
-		if len(next) == 0 {
-			return queue[0].Val
-		}
 		queue = next
 	}
-	return 0
+	return res
 }

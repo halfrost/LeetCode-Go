@@ -51,9 +51,13 @@ func Test_Problem714(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 714------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans714, q.para714
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfit714(p.one, p.f))
-		maxProfit714_1(p.one, p.f)
+		a, p := q.ans714, q.para714
+		got := maxProfit714(p.one, p.f)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		got1 := maxProfit714_1(p.one, p.f)
+		if got != a.one || got1 != a.one {
+			t.Fatalf("input %v, fee=%v: expected %v, got %v / %v", p.one, p.f, a.one, got, got1)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

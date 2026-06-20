@@ -65,14 +65,30 @@ func Test_Problem864(t *testing.T) {
 			para864{[]string{"@..aA", "..B#.", "....b"}},
 			ans864{6},
 		},
+
+		{
+			para864{[]string{}},
+			ans864{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 864------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans864, q.para864
-		fmt.Printf("【input】:%v       【output】:%v\n", p, shortestPathAllKeys(p.one))
-		shortestPathAllKeys1(p.one)
+		a, p := q.ans864, q.para864
+		got := shortestPathAllKeys(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: expected %v, got %v", p.one, a.one, got)
+		}
+		// 解法二是指数级 DFS（剪枝不足，作者已注明会超时）。大网格（如第一个 10x10
+		// 用例）会跑到分钟级导致测试卡住，所以只在小网格上调用它来覆盖代码，
+		// 大网格只验证解法一。
+		if len(p.one) <= 5 {
+			if got1 := shortestPathAllKeys1(p.one); got1 != a.one {
+				t.Fatalf("input %v: expected %v, shortestPathAllKeys1 got %v", p.one, a.one, got1)
+			}
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

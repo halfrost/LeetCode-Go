@@ -56,9 +56,16 @@ func Test_Problem719(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 719------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans719, q.para719
-		fmt.Printf("【input】:%v       【output】:%v\n", p, smallestDistancePair(p.num, p.k))
+		a, p := q.ans719, q.para719
+		got := smallestDistancePair(p.num, p.k) // 会把 p.num 排序
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v, k=%v: expected %v, got %v", p.num, p.k, a.one, got)
+		}
+		// 双指针解法与暴力解法在已排序数组上对同一距离阈值的计数应当一致。
+		if c1, c2 := findDistanceCount(p.num, a.one), findDistanceCount1(p.num, a.one); c1 != c2 {
+			t.Fatalf("distance count mismatch for %v, num=%v: %v vs %v", p.num, a.one, c1, c2)
+		}
 	}
 	fmt.Printf("\n\n\n")
-	findDistanceCount1(p.num, p.k)
 }
