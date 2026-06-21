@@ -54,5 +54,14 @@ func Test_Problem148(t *testing.T) {
 		_, p := q.ans148, q.para148
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(sortList(structures.Ints2List(p.one))))
 	}
+
+	// cover middleNode guard branch: nil and single-node inputs
+	if middleNode(nil) != nil {
+		t.Fatalf("middleNode(nil) should return nil")
+	}
+	single := structures.Ints2List([]int{1})
+	if middleNode(single) != single {
+		t.Fatalf("middleNode(single) should return the same node")
+	}
 	fmt.Printf("\n\n\n")
 }

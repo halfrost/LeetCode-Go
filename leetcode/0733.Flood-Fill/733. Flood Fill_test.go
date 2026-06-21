@@ -41,13 +41,58 @@ func Test_Problem733(t *testing.T) {
 				{2, 0, 1},
 			}},
 		},
+
+		// newColor == color, floodFill returns image unchanged
+		{
+			para733{[][]int{
+				{0, 0, 0},
+				{0, 1, 1},
+			}, 1, 1, 1},
+			ans733{[][]int{
+				{0, 0, 0},
+				{0, 1, 1},
+			}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 733------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans733, q.para733
-		fmt.Printf("【input】:%v       【output】:%v\n", p, floodFill(p.one, p.sr, p.sc, p.c))
+		a, p := q.ans733, q.para733
+		got := floodFill(p.one, p.sr, p.sc, p.c)
+		if !equal733(got, a.one) {
+			t.Fatalf("floodFill(%v, %d, %d, %d) = %v, want %v", p.one, p.sr, p.sc, p.c, got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
+
+	// Cover the dfs733 early-return guard (image[x][y] == newColor) by
+	// calling dfs733 directly on a cell that already has newColor.
+	guard := [][]int{
+		{5, 0},
+		{0, 0},
+	}
+	dfs733(guard, 0, 0, 5)
+	if guard[0][0] != 5 {
+		t.Fatalf("dfs733 guard mutated cell: %v", guard)
+	}
+
 	fmt.Printf("\n\n\n")
+}
+
+func equal733(a, b [][]int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for i := range a {
+		if len(a[i]) != len(b[i]) {
+			return false
+		}
+		for j := range a[i] {
+			if a[i][j] != b[i][j] {
+				return false
+			}
+		}
+	}
+	return true
 }

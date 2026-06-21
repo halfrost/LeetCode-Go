@@ -40,15 +40,28 @@ func Test_Problem825(t *testing.T) {
 			para825{[]int{20, 30, 100, 110, 120}},
 			ans825{3},
 		},
+
+		{
+			para825{[]int{10, 16, 16}},
+			ans825{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 825------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans825, q.para825
-		fmt.Printf("【input】:%v       【output】:%v\n", p, numFriendRequests(p.ages))
-		numFriendRequests1(p.ages)
-		numFriendRequests2(p.ages)
+		a, p := q.ans825, q.para825
+		got := numFriendRequests(append([]int{}, p.ages...))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("numFriendRequests(%v) = %d, want %d", p.ages, got, a.one)
+		}
+		if got1 := numFriendRequests1(append([]int{}, p.ages...)); got1 != a.one {
+			t.Fatalf("numFriendRequests1(%v) = %d, want %d", p.ages, got1, a.one)
+		}
+		if got2 := numFriendRequests2(append([]int{}, p.ages...)); got2 != a.one {
+			t.Fatalf("numFriendRequests2(%v) = %d, want %d", p.ages, got2, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

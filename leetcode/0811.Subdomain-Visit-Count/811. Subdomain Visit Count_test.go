@@ -35,6 +35,11 @@ func Test_Problem811(t *testing.T) {
 			para811{[]string{"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"}},
 			ans811{[]string{"901 mail.com", "50 yahoo.com", "900 google.mail.com", "5 wiki.org", "5 org", "1 intel.mail.com", "951 com"}},
 		},
+
+		{
+			para811{[]string{}},
+			ans811{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 811------------------------\n")
@@ -45,4 +50,14 @@ func Test_Problem811(t *testing.T) {
 		subdomainVisits1(p.one)
 	}
 	fmt.Printf("\n\n\n")
+
+	// 覆盖 splitDomain 中非法访问次数触发 panic 的分支
+	func() {
+		defer func() {
+			if r := recover(); r == nil {
+				t.Fatalf("expected panic for invalid visit count")
+			}
+		}()
+		splitDomain("xx discuss.leetcode.com", make(map[string]int))
+	}()
 }

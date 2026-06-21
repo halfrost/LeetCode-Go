@@ -44,6 +44,16 @@ func Test_Problem224(t *testing.T) {
 			para224{"2-(5-6)"},
 			ans224{3},
 		},
+
+		{
+			para224{"100 + 23 - 12"},
+			ans224{111},
+		},
+
+		{
+			para224{"2-(3-(4-1))"},
+			ans224{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 224------------------------\n")
@@ -53,5 +63,19 @@ func Test_Problem224(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, calculate(p.one))
 		calculate1(p.one)
 	}
+
+	// 覆盖 calculateStr 中连续符号合并的分支：++、+-、-+、--
+	signCases := []question224{
+		{para224{"2++3"}, ans224{5}},
+		{para224{"2+(0-3)"}, ans224{-1}},
+		{para224{"2-+3"}, ans224{-1}},
+		{para224{"2-(0-3)"}, ans224{5}},
+	}
+	for _, q := range signCases {
+		if got := calculate1(q.para224.one); got != q.ans224.one {
+			t.Fatalf("calculate1(%q) = %v, want %v", q.para224.one, got, q.ans224.one)
+		}
+	}
+
 	fmt.Printf("\n\n\n")
 }

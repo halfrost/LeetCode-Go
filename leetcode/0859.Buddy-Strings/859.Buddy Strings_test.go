@@ -44,6 +44,21 @@ func Test_Problem859(t *testing.T) {
 			para859{"aaaaaaabc", "aaaaaaacb"},
 			ans859{true},
 		},
+
+		{
+			para859{"ab", "abc"},
+			ans859{false},
+		},
+
+		{
+			para859{"a", "a"},
+			ans859{false},
+		},
+
+		{
+			para859{"abcd", "badc"},
+			ans859{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 859------------------------\n")

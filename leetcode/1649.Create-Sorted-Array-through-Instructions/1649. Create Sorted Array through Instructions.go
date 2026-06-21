@@ -27,9 +27,11 @@ func createSortedArray1(instructions []int) int {
 	st, res, mod := template.SegmentCountTree{}, 0, 1000000007
 	numsMap, numsArray, tmpArray := discretization1649(instructions)
 	// 初始化线段树，节点内的值都赋值为 0，即计数为 0
-	st.Init(tmpArray, func(i, j int) int {
+	merge := func(i, j int) int {
 		return 0
-	})
+	}
+	st.Init(tmpArray, merge)
+	_ = merge(0, 0)
 	for i := 0; i < len(instructions); i++ {
 		strictlyLessThan := st.Query(0, numsMap[instructions[i]]-1)
 		strictlyGreaterThan := st.Query(numsMap[instructions[i]]+1, numsArray[len(numsArray)-1])

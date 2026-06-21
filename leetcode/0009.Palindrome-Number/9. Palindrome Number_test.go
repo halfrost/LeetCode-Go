@@ -60,14 +60,24 @@ func Test_Problem9(t *testing.T) {
 			para9{1534236469},
 			ans9{false},
 		},
+
+		{
+			para9{0},
+			ans9{true},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 9------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans9, q.para9
+		a, p := q.ans9, q.para9
 		fmt.Printf("【input】:%v    【output】:%v\n", p.one, isPalindrome(p.one))
-		isPalindrome1(p.one)
+		if got := isPalindrome(p.one); got != a.one {
+			t.Fatalf("isPalindrome(%v) = %v, want %v", p.one, got, a.one)
+		}
+		if got := isPalindrome1(p.one); got != a.one {
+			t.Fatalf("isPalindrome1(%v) = %v, want %v", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

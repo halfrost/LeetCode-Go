@@ -58,12 +58,9 @@ func widthOfBinaryTree(root *TreeNode) int {
 				}
 			}
 		}
-		switch {
-		// 某层只有一个点，那么此层宽度为 1
-		case left != nil && right == nil, left == nil && right != nil:
-			res = max(res, 1)
-		// 某层只有两个点，那么此层宽度为两点之间的距离
-		case left != nil && right != nil:
+		// left 和 right 总是同时被赋值，只有这一层存在节点时才更新结果
+		// 本层宽度为最左和最右两点之间的距离
+		if left != nil && right != nil {
 			res = max(res, *right-*left+1)
 		}
 	}

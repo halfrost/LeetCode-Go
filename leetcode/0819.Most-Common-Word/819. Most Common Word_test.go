@@ -31,6 +31,11 @@ func Test_Problem819(t *testing.T) {
 			para819{"Bob hit a ball, the hit BALL flew far after it was hit.", []string{"hit"}},
 			ans819{"ball"},
 		},
+
+		{
+			para819{"a a a b b", []string{}},
+			ans819{"a"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 819------------------------\n")

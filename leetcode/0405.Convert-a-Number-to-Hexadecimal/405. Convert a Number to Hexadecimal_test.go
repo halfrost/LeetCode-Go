@@ -35,13 +35,21 @@ func Test_Problem405(t *testing.T) {
 			para405{-1},
 			ans405{"ffffffff"},
 		},
+
+		{
+			para405{0},
+			ans405{"0"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 405------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans405, q.para405
+		a, p := q.ans405, q.para405
 		fmt.Printf("【input】:%v       【output】:%v\n", p, toHex(p.one))
+		if got := toHex(p.one); got != a.one {
+			t.Fatalf("toHex(%d) = %q, want %q", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

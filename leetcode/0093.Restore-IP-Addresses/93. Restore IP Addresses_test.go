@@ -40,6 +40,11 @@ func Test_Problem93(t *testing.T) {
 			para93{"010010"},
 			ans93{[]string{"0.10.0.10", "0.100.1.0"}},
 		},
+
+		{
+			para93{""},
+			ans93{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 93------------------------\n")

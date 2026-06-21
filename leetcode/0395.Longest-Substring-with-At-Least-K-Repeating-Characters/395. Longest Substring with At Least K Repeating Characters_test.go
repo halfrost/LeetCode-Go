@@ -41,8 +41,16 @@ func Test_Problem395(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 395------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans395, q.para395
-		fmt.Printf("【input】:%v       【output】:%v\n", p, longestSubstring(p.s, p.k))
+		a, p := q.ans395, q.para395
+		ret := longestSubstring(p.s, p.k)
+		if ret != a.one {
+			t.Fatalf("longestSubstring(%q, %d) = %d, want %d", p.s, p.k, ret, a.one)
+		}
+		ret1 := longestSubstring1(p.s, p.k)
+		if ret1 != a.one {
+			t.Fatalf("longestSubstring1(%q, %d) = %d, want %d", p.s, p.k, ret1, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, ret)
 	}
 	fmt.Printf("\n\n\n")
 }

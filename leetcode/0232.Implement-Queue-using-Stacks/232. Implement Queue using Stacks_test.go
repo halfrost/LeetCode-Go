@@ -18,4 +18,14 @@ func Test_Problem232(t *testing.T) {
 	fmt.Printf("param_3 = %v\n", param3)
 	param4 := obj.Empty()
 	fmt.Printf("param_4 = %v\n", param4)
+
+	// Peek when the Queue is empty so it triggers fromStackToQueue.
+	obj2 := Constructor232()
+	obj2.Push(5)
+	obj2.Push(7)
+	peeked := obj2.Peek()
+	if peeked != 5 {
+		t.Fatalf("Peek() = %v, want %v", peeked, 5)
+	}
+	fmt.Printf("peeked = %v\n", peeked)
 }

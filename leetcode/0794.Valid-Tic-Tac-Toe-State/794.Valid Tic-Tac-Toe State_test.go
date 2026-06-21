@@ -43,6 +43,18 @@ func Test_Problem794(t *testing.T) {
 			para794{[]string{"XOX", "O O", "XOX"}},
 			ans794{true},
 		},
+
+		{
+			// X wins via right column, cntX == cntO -> process(board, 'X') column branch
+			para794{[]string{"  X", " OX", "OOX"}},
+			ans794{false},
+		},
+
+		{
+			// O wins via anti-diagonal, cntX == cntO -> process(board, 'O')
+			para794{[]string{"XXO", "XOX", "OXO"}},
+			ans794{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 794------------------------\n")

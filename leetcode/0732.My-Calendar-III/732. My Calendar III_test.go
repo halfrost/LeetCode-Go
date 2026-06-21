@@ -13,4 +13,7 @@ func Test_Problem732(t *testing.T) {
 	fmt.Printf("book = %v\n\n", obj.Book(5, 15))  // returns 3
 	fmt.Printf("book = %v\n\n", obj.Book(5, 10))  // returns 3
 	fmt.Printf("book = %v\n\n", obj.Book(25, 55)) // returns 3
+	if got := obj.Book(30, 30); got != 3 {        // empty interval, height unchanged
+		t.Fatalf("Book(30, 30) = %v, want 3", got)
+	}
 }

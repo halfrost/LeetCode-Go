@@ -51,15 +51,63 @@ func Test_Problem18(t *testing.T) {
 			para18{[]int{1, 0, -1, 0, -2, 2, 0, 0, 0, 0}, 1},
 			ans18{[][]int{{-1, 0, 0, 2}, {-2, 0, 1, 2}, {0, 0, 0, 1}}},
 		},
+
+		{
+			para18{[]int{1, 1, 3, 3, 2}, 8},
+			ans18{[][]int{{1, 1, 3, 3}}},
+		},
+
+		{
+			para18{[]int{1, 1, 2, 3, 3, 2}, 7},
+			ans18{[][]int{{1, 1, 2, 3}}},
+		},
+
+		{
+			para18{[]int{2, 2, 2, 2, 1}, 8},
+			ans18{[][]int{{2, 2, 2, 2}}},
+		},
+
+		// 右端有重复值（5,5）且左指针不会吃掉它，覆盖右指针去重分支
+		{
+			para18{[]int{1, 1, 3, 4, 5, 5}, 10},
+			ans18{[][]int{{1, 1, 3, 5}}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 18------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans18, q.para18
-		fmt.Printf("【input】:%v       【output】:%v\n", p, fourSum(p.a, p.t))
-		fourSum1(p.a, p.t)
-		fourSum2(p.a, p.t)
+		a, p := q.ans18, q.para18
+		got := fourSum(append([]int{}, p.a...), p.t)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		fourSum1(append([]int{}, p.a...), p.t)
+		fourSum2(append([]int{}, p.a...), p.t)
+		if !sameQuads(got, a.one) {
+			t.Fatalf("fourSum(%v, %d) = %v, want %v", p.a, p.t, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
+}
+
+// sameQuads compares two sets of quadruplets ignoring order.
+func sameQuads(a, b [][]int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	key := func(q []int) string {
+		return fmt.Sprintf("%v", q)
+	}
+	count := map[string]int{}
+	for _, q := range a {
+		count[key(q)]++
+	}
+	for _, q := range b {
+		count[key(q)]--
+	}
+	for _, v := range count {
+		if v != 0 {
+			return false
+		}
+	}
+	return true
 }

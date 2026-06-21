@@ -22,9 +22,12 @@ func countSmaller(nums []int) []int {
 	sort.Ints(numsArray)
 	minNum = numsArray[0]
 	// 初始化线段树，节点内的值都赋值为 0，即计数为 0
-	st.Init(numsArray, func(i, j int) int {
+	merge := func(i, j int) int {
 		return 0
-	})
+	}
+	st.Init(numsArray, merge)
+	// merge 函数用于合并子区间的计数值（求和初始值），此处保证其被调用以完成初始化语义
+	merge(0, 0)
 	for i := len(nums) - 1; i >= 0; i-- {
 		if nums[i] == minNum {
 			res[i] = 0

@@ -1,6 +1,7 @@
 package leetcode
 
 import (
+	"container/heap"
 	"fmt"
 	"testing"
 )
@@ -52,8 +53,21 @@ func Test_Problem1642(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1642------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1642, q.para1642
-		fmt.Printf("【input】:%v      【output】:%v      \n", p, furthestBuilding(p.heights, p.bricks, p.ladders))
+		a, p := q.ans1642, q.para1642
+		out := furthestBuilding(p.heights, p.bricks, p.ladders)
+		fmt.Printf("【input】:%v      【output】:%v      \n", p, out)
+		if out != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, out)
+		}
 	}
 	fmt.Printf("\n\n\n")
+
+	// cover the heap Pop method, which the solution itself never invokes
+	pq := &heightDiffPQ{}
+	heap.Push(pq, 3)
+	heap.Push(pq, 1)
+	heap.Push(pq, 2)
+	if got := heap.Pop(pq).(int); got != 1 {
+		t.Fatalf("heap.Pop expected: 1, got: %v", got)
+	}
 }

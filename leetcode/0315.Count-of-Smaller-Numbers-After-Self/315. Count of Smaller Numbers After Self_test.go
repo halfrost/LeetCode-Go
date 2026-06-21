@@ -27,6 +27,11 @@ func Test_Problem315(t *testing.T) {
 	qs := []question315{
 
 		{
+			para315{[]int{}},
+			ans315{[]int{}},
+		},
+
+		{
 			para315{[]int{5, 2, 6, 1}},
 			ans315{[]int{2, 1, 1, 0}},
 		},
@@ -45,9 +50,20 @@ func Test_Problem315(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 315------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans315, q.para315
-		fmt.Printf("【input】:%v       【output】:%v\n", p, countSmaller(p.nums))
-		countSmaller1(p.nums)
+		a, p := q.ans315, q.para315
+		res := countSmaller(p.nums)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, res)
+		if len(res) != len(a.one) {
+			t.Fatalf("countSmaller(%v) = %v, want %v", p.nums, res, a.one)
+		}
+		for i := range res {
+			if res[i] != a.one[i] {
+				t.Fatalf("countSmaller(%v) = %v, want %v", p.nums, res, a.one)
+			}
+		}
+		if len(p.nums) > 0 {
+			countSmaller1(p.nums)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

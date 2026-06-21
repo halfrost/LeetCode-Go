@@ -2,6 +2,7 @@ package leetcode
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
 )
 
@@ -35,6 +36,10 @@ var tcs = []struct {
 func Test_fizzBuzz(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 412------------------------\n")
 	for _, tc := range tcs {
+		got := fizzBuzz(tc.n)
+		if !reflect.DeepEqual(got, tc.ans) {
+			t.Fatalf("n=%d got %v, want %v", tc.n, got, tc.ans)
+		}
 		fmt.Printf("【output】:%v\n", tc)
 	}
 	fmt.Printf("\n\n\n")

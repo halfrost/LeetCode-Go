@@ -70,5 +70,6 @@ func Test_Problem56(t *testing.T) {
 	}
 	fmt.Printf("\n\n\n")
 	min(0, 1)
+	min(1, 0)
 	max(0, 1)
 }

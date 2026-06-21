@@ -27,6 +27,11 @@ func Test_Problem526(t *testing.T) {
 	qs := []question526{
 
 		{
+			para526{0},
+			ans526{0},
+		},
+
+		{
 			para526{1},
 			ans526{1},
 		},
@@ -122,9 +127,15 @@ func Test_Problem526(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 526------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans526, q.para526
-		fmt.Printf("【input】:%v       【output】:%v\n", p, countArrangement(p.one))
-		countArrangement1(p.one)
+		a, p := q.ans526, q.para526
+		got := countArrangement(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("countArrangement(%d) = %d, want %d", p.one, got, a.one)
+		}
+		if got1 := countArrangement1(p.one); got1 != a.one {
+			t.Fatalf("countArrangement1(%d) = %d, want %d", p.one, got1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

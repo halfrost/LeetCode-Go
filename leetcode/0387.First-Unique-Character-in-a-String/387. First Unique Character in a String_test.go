@@ -35,14 +35,24 @@ func Test_Problem387(t *testing.T) {
 			para387{"loveleetcode"},
 			ans387{2},
 		},
+
+		{
+			para387{"aabb"},
+			ans387{-1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 387------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans387, q.para387
+		a, p := q.ans387, q.para387
 		fmt.Printf("【input】:%v       【output】:%v\n", p, firstUniqChar(p.n))
-		firstUniqChar1(p.n)
+		if got := firstUniqChar(p.n); got != a.one {
+			t.Fatalf("firstUniqChar(%q) = %d, want %d", p.n, got, a.one)
+		}
+		if got := firstUniqChar1(p.n); got != a.one {
+			t.Fatalf("firstUniqChar1(%q) = %d, want %d", p.n, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

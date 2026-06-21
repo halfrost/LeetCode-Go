@@ -68,6 +68,11 @@ func Test_Problem445(t *testing.T) {
 			para445{[]int{1, 8, 3}, []int{7, 1}},
 			ans445{[]int{2, 5, 4}},
 		},
+
+		{
+			para445{[]int{1, 2, 3}, []int{}},
+			ans445{[]int{1, 2, 3}},
+		},
 		// 如需多个测试，可以复制上方元素。
 	}
 

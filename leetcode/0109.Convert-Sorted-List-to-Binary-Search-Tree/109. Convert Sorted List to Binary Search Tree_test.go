@@ -57,5 +57,14 @@ func Test_Problem109(t *testing.T) {
 		structures.T2s(sortedListToBST(structures.Ints2List(p.one)), &arr)
 		fmt.Printf("【input】:%v       【output】:%v\n", p, arr)
 	}
+
+	// cover middleNodeAndPreNode guard branch (nil and single-node inputs)
+	if m, pre := middleNodeAndPreNode(nil); m != nil || pre != nil {
+		t.Fatalf("middleNodeAndPreNode(nil) = %v, %v, want nil, nil", m, pre)
+	}
+	single := structures.Ints2List([]int{42})
+	if m, pre := middleNodeAndPreNode(single); m != nil || pre != single {
+		t.Fatalf("middleNodeAndPreNode(single) = %v, %v, want nil, single", m, pre)
+	}
 	fmt.Printf("\n\n\n")
 }

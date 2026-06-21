@@ -42,6 +42,11 @@ func Test_Problem327(t *testing.T) {
 			para327{[]int{-3, 1, 2, -2, 2, -1}, -3, -1},
 			ans327{7},
 		},
+
+		{
+			para327{[]int{}, -2, 2},
+			ans327{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 327------------------------\n")
@@ -51,6 +56,9 @@ func Test_Problem327(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, countRangeSum(p.nums, p.lower, p.upper))
 		countRangeSum1(p.nums, p.lower, p.upper)
 		countRangeSum2(p.nums, p.lower, p.upper)
+		if got := countMerge(1, 2); got != 0 {
+			t.Fatalf("countMerge(1, 2) = %d, want 0", got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

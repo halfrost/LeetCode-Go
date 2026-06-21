@@ -41,6 +41,11 @@ func Test_Problem1028(t *testing.T) {
 			para1028{"1-401--349---90--88"},
 			ans1028{[]int{1, 401, structures.NULL, 349, 88, 90}},
 		},
+
+		{
+			para1028{""},
+			ans1028{[]int{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1028------------------------\n")

@@ -31,6 +31,12 @@ func Test_Problem2043(t *testing.T) {
 				[][]int64{{10, 100, 20, 50, 30}, {3, 10}, {5, 1, 20}, {5, 20}, {3, 4, 15}, {10, 50}}},
 			ans2043{[]bool{true, true, true, false, false}},
 		},
+		{
+			para2043{
+				[]string{"Bank", "deposit", "transfer", "deposit", "transfer", "withdraw", "withdraw"},
+				[][]int64{{10, 20, 30}, {2, 5}, {10, 1, 5}, {10, 5}, {1, 2, 100}, {10, 5}, {1, 100}}},
+			ans2043{[]bool{true, false, false, false, false, false}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 2043------------------------\n")

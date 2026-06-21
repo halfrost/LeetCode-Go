@@ -35,6 +35,11 @@ func Test_Problem525(t *testing.T) {
 			para525{[]int{0, 1, 0}},
 			ans525{2},
 		},
+
+		{
+			para525{[]int{1, 0, 0, 1, 0, 0}},
+			ans525{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 525------------------------\n")

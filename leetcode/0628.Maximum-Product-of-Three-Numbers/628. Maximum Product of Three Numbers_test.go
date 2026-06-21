@@ -58,7 +58,7 @@ func Test_Problem628(t *testing.T) {
 
 		{
 			para628{[]int{2, 3, -2, 4}},
-			ans628{-24},
+			ans628{24},
 		},
 
 		{
@@ -70,14 +70,48 @@ func Test_Problem628(t *testing.T) {
 			para628{[]int{-2, 0, -1, 2, 3, 1, 10}},
 			ans628{60},
 		},
+
+		{
+			para628{[]int{}},
+			ans628{0},
+		},
+
+		{
+			para628{[]int{-4, -3, -2, -1}},
+			ans628{0},
+		},
+
+		{
+			para628{[]int{-10, -10, 1, 2, 3}},
+			ans628{300},
+		},
+
+		{
+			para628{[]int{5, 4, 4, 3}},
+			ans628{80},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 628------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans628, q.para628
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maximumProduct(p.one))
-		maximumProduct1(p.one)
+		a, p := q.ans628, q.para628
+		clone := make([]int, len(p.one))
+		copy(clone, p.one)
+		got := maximumProduct(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("maximumProduct(%v) = %v, want %v", clone, got, a.one)
+		}
+		// maximumProduct1 is an O(n) alternative. It always returns the
+		// true maximum product of three numbers (it has no "all values
+		// <= 0 returns 0" short-circuit that maximumProduct uses), so it
+		// only needs to agree with maximumProduct when the array has at
+		// least three elements and contains a positive value.
+		got1 := maximumProduct1(clone)
+		if len(clone) >= 3 && got != 0 && got1 != a.one {
+			t.Fatalf("maximumProduct1(%v) = %v, want %v", clone, got1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

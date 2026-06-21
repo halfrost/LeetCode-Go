@@ -10,7 +10,7 @@ func kthSmallest(mat [][]int, k int) int {
 	for i := 1; i < len(mat); i++ {
 		prev = kSmallestPairs(prev, mat[i], k)
 	}
-	if k < len(prev) {
+	if k != len(prev) {
 		return -1
 	}
 	return prev[k-1]

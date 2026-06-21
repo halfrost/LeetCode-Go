@@ -35,13 +35,27 @@ func Test_Problem45(t *testing.T) {
 			para45{[]int{2, 3, 0, 1, 4}},
 			ans45{2},
 		},
+
+		{
+			para45{[]int{0}},
+			ans45{0},
+		},
+
+		{
+			para45{[]int{}},
+			ans45{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 45------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans45, q.para45
-		fmt.Printf("【input】:%v       【output】:%v\n", p, jump(p.nums))
+		a, p := q.ans45, q.para45
+		got := jump(p.nums)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

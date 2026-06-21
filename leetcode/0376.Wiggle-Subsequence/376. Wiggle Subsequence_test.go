@@ -40,6 +40,11 @@ func Test_Problem376(t *testing.T) {
 			para376{[]int{1, 2, 3, 4, 5, 6, 7, 8, 9}},
 			ans376{2},
 		},
+
+		{
+			para376{[]int{1}},
+			ans376{1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 376------------------------\n")

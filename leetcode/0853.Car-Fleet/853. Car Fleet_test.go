@@ -32,6 +32,14 @@ func Test_Problem853(t *testing.T) {
 			para853{12, []int{10, 8, 0, 5, 3}, []int{2, 4, 1, 1, 3}},
 			ans853{3},
 		},
+		{
+			para853{10, []int{3}, []int{3}},
+			ans853{1},
+		},
+		{
+			para853{10, []int{}, []int{}},
+			ans853{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 853------------------------\n")

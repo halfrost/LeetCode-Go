@@ -40,6 +40,11 @@ func Test_Problem507(t *testing.T) {
 			para507{500},
 			ans507{false},
 		},
+
+		{
+			para507{1},
+			ans507{false},
+		},
 		// 如需多个测试，可以复制上方元素。
 	}
 

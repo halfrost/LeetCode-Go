@@ -20,4 +20,14 @@ func Test_Problem208(t *testing.T) {
 	fmt.Printf("obj = %v\n", obj)
 	param4 := obj.Search("app")
 	fmt.Printf("param_4 = %v obj = %v\n", param4, obj)
+	param5 := obj.Search("banana")
+	if param5 {
+		t.Fatalf("Search(\"banana\") = %v, want false", param5)
+	}
+	fmt.Printf("param_5 = %v obj = %v\n", param5, obj)
+	param6 := obj.StartsWith("ban")
+	if param6 {
+		t.Fatalf("StartsWith(\"ban\") = %v, want false", param6)
+	}
+	fmt.Printf("param_6 = %v obj = %v\n", param6, obj)
 }

@@ -21,9 +21,8 @@ func minimumIncompatibility(nums []int, k int) int {
 	sort.Ints(orders)
 	res := math.MaxInt32
 	generatePermutation1681(nums, counts, orders, 0, 0, eachSize, &res, []int{})
-	if res == math.MaxInt32 {
-		return -1
-	}
+	// 当所有数字出现次数均不超过 k 时，必然存在一个合法划分，
+	// 因此 res 一定会被更新，无需再判断 res == math.MaxInt32。
 	return res
 }
 

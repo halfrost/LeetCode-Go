@@ -37,6 +37,11 @@ func Test_Problem496(t *testing.T) {
 			ans496{[]int{3, -1}},
 		},
 
+		{
+			para496{[]int{}, []int{}},
+			ans496{[]int{}},
+		},
+
 		// 如需多个测试，可以复制上方元素。
 	}
 

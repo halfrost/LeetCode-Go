@@ -55,13 +55,32 @@ func Test_Problem498(t *testing.T) {
 			para498{[][]int{{}}},
 			ans498{[]int{}},
 		},
+
+		{
+			para498{[][]int{}},
+			ans498{[]int{}},
+		},
+
+		{
+			para498{[][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}},
+			ans498{[]int{1, 2, 5, 9, 6, 3, 4, 7, 10, 11, 8, 12}},
+		},
+
+		{
+			para498{[][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}, {10, 11, 12}}},
+			ans498{[]int{1, 2, 4, 7, 5, 3, 6, 8, 10, 11, 9, 12}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 498------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans498, q.para498
-		fmt.Printf("【input】:%v       【output】:%v\n", p, findDiagonalOrder(p.one))
+		a, p := q.ans498, q.para498
+		got := findDiagonalOrder(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if fmt.Sprintf("%v", got) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("findDiagonalOrder(%v) = %v, want %v", p.one, got, a.one)
+		}
 		findDiagonalOrder1(p.one)
 	}
 	fmt.Printf("\n\n\n")

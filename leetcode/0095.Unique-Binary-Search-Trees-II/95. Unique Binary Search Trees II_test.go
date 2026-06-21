@@ -29,6 +29,11 @@ func Test_Problem95(t *testing.T) {
 	qs := []question95{
 
 		{
+			para95{0},
+			ans95{[]*TreeNode{}},
+		},
+
+		{
 			para95{1},
 			ans95{[]*TreeNode{{Val: 1, Left: nil, Right: nil}}},
 		},

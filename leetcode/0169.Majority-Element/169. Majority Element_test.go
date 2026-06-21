@@ -50,9 +50,20 @@ func Test_Problem169(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 169------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans169, q.para169
-		fmt.Printf("【input】:%v       【output】:%v\n", p, majorityElement(p.s))
-		majorityElement1(p.s)
+		a, p := q.ans169, q.para169
+		got := majorityElement(p.s)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("majorityElement(%v) = %v, want %v", p.s, got, a.one)
+		}
+		if got1 := majorityElement1(p.s); got1 != a.one {
+			t.Fatalf("majorityElement1(%v) = %v, want %v", p.s, got1, a.one)
+		}
+	}
+
+	// 当不存在多数元素时（例如空切片），解法二返回 0
+	if got := majorityElement1([]int{}); got != 0 {
+		t.Fatalf("majorityElement1([]) = %v, want 0", got)
 	}
 	fmt.Printf("\n\n\n")
 }

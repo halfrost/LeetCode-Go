@@ -36,6 +36,11 @@ func Test_Problem74(t *testing.T) {
 			para74{[][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 50}}, 13},
 			ans74{false},
 		},
+
+		{
+			para74{[][]int{}, 1},
+			ans74{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 74------------------------\n")

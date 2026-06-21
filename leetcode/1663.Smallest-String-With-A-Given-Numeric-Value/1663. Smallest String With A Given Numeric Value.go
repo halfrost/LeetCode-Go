@@ -28,10 +28,7 @@ func getSmallestString1(n int, k int) string {
 func findSmallestString(value int, length, k, index int, str []byte, res *string) {
 	if len(str) == length && value == k {
 		tmp := string(str)
-		if (*res) == "" {
-			*res = tmp
-		}
-		if tmp < *res && *res != "" {
+		if (*res) == "" || tmp < *res {
 			*res = tmp
 		}
 		return

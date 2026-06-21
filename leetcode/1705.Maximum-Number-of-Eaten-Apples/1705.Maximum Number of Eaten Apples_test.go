@@ -34,13 +34,32 @@ func Test_Problem1705(t *testing.T) {
 			para1705{[]int{3, 0, 0, 0, 0, 2}, []int{3, 0, 0, 0, 0, 2}},
 			ans1705{5},
 		},
+
+		{
+			para1705{[]int{10}, []int{2}},
+			ans1705{2},
+		},
+
+		{
+			para1705{[]int{5, 1}, []int{2, 1}},
+			ans1705{2},
+		},
+
+		{
+			para1705{[]int{2}, []int{5}},
+			ans1705{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1705------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1705, q.para1705
-		fmt.Printf("【input】:%v    【output】:%v\n", p, eatenApples(p.apples, p.days))
+		a, p := q.ans1705, q.para1705
+		got := eatenApples(p.apples, p.days)
+		fmt.Printf("【input】:%v    【output】:%v\n", p, got)
+		if got != a.ans {
+			t.Fatalf("input %v expected %d got %d", p, a.ans, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -50,6 +50,11 @@ func Test_Problem990(t *testing.T) {
 			para990{[]string{"c==c", "b==d", "x!=z"}},
 			ans990{true},
 		},
+
+		{
+			para990{[]string{}},
+			ans990{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 990------------------------\n")

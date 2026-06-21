@@ -41,13 +41,27 @@ func Test_Problem1658(t *testing.T) {
 			para1658{[]int{3, 2, 20, 1, 1, 3}, 10},
 			ans1658{5},
 		},
+
+		{
+			para1658{[]int{1, 1}, 5},
+			ans1658{-1},
+		},
+
+		{
+			para1658{[]int{1, 2, 3}, 6},
+			ans1658{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1658------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1658, q.para1658
-		fmt.Printf("【input】:%v      【output】:%v      \n", p, minOperations(p.nums, p.x))
+		a, p := q.ans1658, q.para1658
+		got := minOperations(p.nums, p.x)
+		if got != a.one {
+			t.Fatalf("input:%v x:%v expected:%v got:%v", p.nums, p.x, a.one, got)
+		}
+		fmt.Printf("【input】:%v      【output】:%v      \n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

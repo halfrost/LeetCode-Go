@@ -55,15 +55,32 @@ func Test_Problem357(t *testing.T) {
 			para357{6},
 			ans357{168571},
 		},
+
+		{
+			para357{0},
+			ans357{1},
+		},
+
+		{
+			para357{11},
+			ans357{8877691},
+		},
 		// 如需多个测试，可以复制上方元素。
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 357------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans357, q.para357
-		fmt.Printf("【input】:%v       【output】:%v\n", p, countNumbersWithUniqueDigits(p.one))
-		countNumbersWithUniqueDigits1(p.one)
+		a, p := q.ans357, q.para357
+		out := countNumbersWithUniqueDigits(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, out)
+		if out != a.one {
+			t.Fatalf("countNumbersWithUniqueDigits(%d) = %d, want %d", p.one, out, a.one)
+		}
+		out1 := countNumbersWithUniqueDigits1(p.one)
+		if out1 != a.one {
+			t.Fatalf("countNumbersWithUniqueDigits1(%d) = %d, want %d", p.one, out1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

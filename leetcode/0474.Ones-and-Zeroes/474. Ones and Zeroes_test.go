@@ -42,6 +42,11 @@ func Test_Problem474(t *testing.T) {
 			para474{[]string{}, 0, 0},
 			ans474{0},
 		},
+
+		{
+			para474{[]string{"0", "00", "000", "1", "11"}, 4, 2},
+			ans474{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 474------------------------\n")

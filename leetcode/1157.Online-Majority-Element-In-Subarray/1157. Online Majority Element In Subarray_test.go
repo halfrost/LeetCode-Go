@@ -12,4 +12,10 @@ func Test_Problem1157(t *testing.T) {
 	fmt.Printf("query(0,5,4) = %v\n", obj.Query(0, 5, 4)) //1
 	fmt.Printf("query(0,3,3) = %v\n", obj.Query(0, 3, 3)) //-1
 	fmt.Printf("query(2,3,2) = %v\n", obj.Query(2, 3, 2)) //2
+
+	empty := Constructor1157([]int{})
+	if got := empty.Query(0, 0, 1); got != -1 {
+		t.Fatalf("empty.Query(0,0,1) = %v, want -1", got)
+	}
+	fmt.Printf("empty.Query(0,0,1) = %v\n", empty.Query(0, 0, 1)) //-1
 }

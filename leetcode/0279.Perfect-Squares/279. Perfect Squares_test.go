@@ -34,6 +34,14 @@ func Test_Problem279(t *testing.T) {
 			para279{12},
 			ans279{3},
 		},
+		{
+			para279{1},
+			ans279{1},
+		},
+		{
+			para279{7},
+			ans279{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 279------------------------\n")

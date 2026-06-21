@@ -81,5 +81,13 @@ func Test_Problem19(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, structures.List2Ints(removeNthFromEnd(structures.Ints2List(p.one), p.n)))
 		removeNthFromEnd1(structures.Ints2List(p.one), p.n)
 	}
+
+	// 覆盖 removeNthFromEnd1 的边界分支
+	if got := removeNthFromEnd1(nil, 1); got != nil {
+		t.Fatalf("removeNthFromEnd1(nil, 1) = %v, want nil", got)
+	}
+	if got := structures.List2Ints(removeNthFromEnd1(structures.Ints2List([]int{1, 2, 3}), 0)); fmt.Sprintf("%v", got) != fmt.Sprintf("%v", []int{1, 2, 3}) {
+		t.Fatalf("removeNthFromEnd1([1 2 3], 0) = %v, want [1 2 3]", got)
+	}
 	fmt.Printf("\n\n\n")
 }

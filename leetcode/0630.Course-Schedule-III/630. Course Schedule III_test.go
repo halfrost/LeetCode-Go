@@ -30,13 +30,21 @@ func Test_Problem630(t *testing.T) {
 			para630{[][]int{{100, 200}, {200, 1300}, {1000, 1250}, {2000, 3200}}},
 			ans630{3},
 		},
+		{
+			para630{[][]int{{5, 5}, {4, 6}, {2, 6}}},
+			ans630{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 630------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans630, q.para630
-		fmt.Printf("【input】:%v       【output】:%v\n", p, scheduleCourse(p.courses))
+		a, p := q.ans630, q.para630
+		got := scheduleCourse(p.courses)
+		if got != a.one {
+			t.Fatalf("courses=%v expected %v got %v", p.courses, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

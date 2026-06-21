@@ -35,6 +35,16 @@ func Test_Problem368(t *testing.T) {
 			para368{[]int{1, 2, 4, 8}},
 			ans368{[]int{1, 2, 4, 8}},
 		},
+
+		{
+			para368{[]int{5}},
+			ans368{[]int{5}},
+		},
+
+		{
+			para368{[]int{2, 3, 5, 7}},
+			ans368{[]int{7}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 368------------------------\n")

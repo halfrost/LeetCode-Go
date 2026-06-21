@@ -57,14 +57,51 @@ func Test_Problem220(t *testing.T) {
 			para220{[]int{1, 2, 1, 1}, 1, 0},
 			ans220{true},
 		},
+
+		{
+			para220{[]int{2, 4}, 2, 2},
+			ans220{true},
+		},
+
+		{
+			para220{[]int{4, 2}, 2, 2},
+			ans220{true},
+		},
+
+		{
+			para220{[]int{-3, -1}, 2, 1},
+			ans220{false},
+		},
+
+		{
+			para220{[]int{-3, -10}, 2, 3},
+			ans220{false},
+		},
+
+		{
+			para220{[]int{5}, 1, 1},
+			ans220{false},
+		},
+
+		{
+			para220{[]int{1, 2, 3}, 0, 1},
+			ans220{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 220------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans220, q.para220
-		fmt.Printf("【input】:%v       【output】:%v\n", p, containsNearbyAlmostDuplicate(p.one, p.k, p.t))
-		containsNearbyAlmostDuplicate1(p.one, p.k, p.t)
+		a, p := q.ans220, q.para220
+		got := containsNearbyAlmostDuplicate(p.one, p.k, p.t)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("containsNearbyAlmostDuplicate(%v, %d, %d) = %v, want %v", p.one, p.k, p.t, got, a.one)
+		}
+		got1 := containsNearbyAlmostDuplicate1(p.one, p.k, p.t)
+		if got1 != a.one {
+			t.Fatalf("containsNearbyAlmostDuplicate1(%v, %d, %d) = %v, want %v", p.one, p.k, p.t, got1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

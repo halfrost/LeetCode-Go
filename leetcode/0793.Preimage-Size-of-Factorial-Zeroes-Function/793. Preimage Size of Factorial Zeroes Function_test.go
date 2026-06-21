@@ -35,14 +35,21 @@ func Test_Problem793(t *testing.T) {
 			para793{5},
 			ans793{0},
 		},
+
+		{
+			para793{6},
+			ans793{5},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 793------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans793, q.para793
+		a, p := q.ans793, q.para793
 		fmt.Printf("【input】:%v       【output】:%v\n", p, preimageSizeFZF(p.one))
-		preimageSizeFZF1(p.one)
+		if got := preimageSizeFZF1(p.one); got != a.one {
+			t.Fatalf("preimageSizeFZF1(%d) = %d, want %d", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

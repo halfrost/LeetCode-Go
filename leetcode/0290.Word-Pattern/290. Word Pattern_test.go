@@ -46,6 +46,11 @@ func Test_Problem290(t *testing.T) {
 			para290{"abba", "dog dog dog dog"},
 			ans290{false},
 		},
+
+		{
+			para290{"", ""},
+			ans290{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 290------------------------\n")

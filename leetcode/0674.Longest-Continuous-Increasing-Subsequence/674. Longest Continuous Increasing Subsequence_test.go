@@ -40,13 +40,22 @@ func Test_Problem674(t *testing.T) {
 			para674{[]int{1, 3, 5, 7}},
 			ans674{4},
 		},
+
+		{
+			para674{[]int{}},
+			ans674{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 674------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans674, q.para674
-		fmt.Printf("【input】:%v       【output】:%v\n", p, findLengthOfLCIS(p.nums))
+		a, p := q.ans674, q.para674
+		got := findLengthOfLCIS(p.nums)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", p.nums, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

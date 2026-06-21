@@ -37,6 +37,11 @@ func Test_Problem1078(t *testing.T) {
 			para1078{"we will we will rock you", "we", "will"},
 			ans1078{[]string{"we", "rock"}},
 		},
+
+		{
+			para1078{"a good", "a", "good"},
+			ans1078{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1078------------------------\n")

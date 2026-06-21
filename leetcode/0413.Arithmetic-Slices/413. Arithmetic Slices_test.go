@@ -38,15 +38,24 @@ func Test_Problem413(t *testing.T) {
 
 		{
 			para413{[]int{1, 2, 3, 4, 5, 6, 7}},
-			ans413{3},
+			ans413{15},
+		},
+
+		{
+			para413{[]int{1, 2}},
+			ans413{0},
 		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 413------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans413, q.para413
-		fmt.Printf("【input】:%v       【output】:%v\n", p, numberOfArithmeticSlices(p.A))
+		a, p := q.ans413, q.para413
+		out := numberOfArithmeticSlices(p.A)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, out)
+		if out != a.one {
+			t.Fatalf("input %v: got %d, want %d", p.A, out, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

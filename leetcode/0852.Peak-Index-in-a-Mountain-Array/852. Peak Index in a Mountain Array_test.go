@@ -35,14 +35,25 @@ func Test_Problem852(t *testing.T) {
 			para852{[]int{0, 2, 1, 0}},
 			ans852{1},
 		},
+
+		{
+			para852{[]int{0, 5, 10, 9, 8, 7, 6, 5, 4}},
+			ans852{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 852------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans852, q.para852
-		fmt.Printf("【input】:%v       【output】:%v\n", p, peakIndexInMountainArray(p.one))
-		peakIndexInMountainArray1(p.one)
+		a, p := q.ans852, q.para852
+		got := peakIndexInMountainArray(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("peakIndexInMountainArray(%v) = %d, want %d", p.one, got, a.one)
+		}
+		if got1 := peakIndexInMountainArray1(p.one); got1 != a.one {
+			t.Fatalf("peakIndexInMountainArray1(%v) = %d, want %d", p.one, got1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

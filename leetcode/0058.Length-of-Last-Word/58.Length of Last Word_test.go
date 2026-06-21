@@ -38,13 +38,22 @@ func Test_Problem58(t *testing.T) {
 			para58{"luffy is still joyboy"},
 			ans58{6},
 		},
+
+		{
+			para58{"    "},
+			ans58{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 58------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans58, q.para58
-		fmt.Printf("【input】:%v       【output】:%v\n", p, lengthOfLastWord(p.s))
+		a, p := q.ans58, q.para58
+		got := lengthOfLastWord(p.s)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.ans {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.ans, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -35,13 +35,22 @@ func Test_Problem390(t *testing.T) {
 			para390{1},
 			ans390{1},
 		},
+
+		{
+			para390{6},
+			ans390{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 390------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans390, q.para390
-		fmt.Printf("【input】:%v       【output】:%v\n", p, lastRemaining(p.n))
+		a, p := q.ans390, q.para390
+		got := lastRemaining(p.n)
+		if got != a.one {
+			t.Fatalf("input %v: expected %v, got %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

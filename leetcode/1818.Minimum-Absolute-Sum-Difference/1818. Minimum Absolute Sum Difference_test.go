@@ -41,13 +41,22 @@ func Test_Problem1818(t *testing.T) {
 			para1818{[]int{1, 10, 4, 4, 2, 7}, []int{9, 3, 5, 1, 7, 4}},
 			ans1818{20},
 		},
+
+		{
+			para1818{[]int{1, 200000}, []int{200000, 1}},
+			ans1818{199999},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1818------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1818, q.para1818
-		fmt.Printf("【input】:%v       【output】:%v\n", p, minAbsoluteSumDiff(p.nums1, p.nums2))
+		a, p := q.ans1818, q.para1818
+		got := minAbsoluteSumDiff(p.nums1, p.nums2)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -44,17 +44,32 @@ func Test_Problem235(t *testing.T) {
 			para235{[]int{6, 2, 8, 0, 4, 7, 9, structures.NULL, structures.NULL, 3, 5}, []int{2}, []int{4}},
 			ans235{[]int{2}},
 		},
+
+		{
+			para235{[]int{6, 2, 8, 0, 4, 7, 9, structures.NULL, structures.NULL, 3, 5}, []int{7}, []int{9}},
+			ans235{[]int{8}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 235------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans235, q.para235
+		a, p := q.ans235, q.para235
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := structures.Ints2TreeNode(p.one)
 		rootTwo := structures.Ints2TreeNode(p.two)
 		rootThr := structures.Ints2TreeNode(p.thr)
-		fmt.Printf("【output】:%v      \n", lowestCommonAncestor(rootOne, rootTwo, rootThr))
+		got := lowestCommonAncestor(rootOne, rootTwo, rootThr)
+		fmt.Printf("【output】:%v      \n", got)
+		if len(a.one) == 0 {
+			if got != nil {
+				t.Fatalf("input %v: expected nil, got %v", p, got)
+			}
+			continue
+		}
+		if got == nil || got.Val != a.one[0] {
+			t.Fatalf("input %v: expected %v, got %v", p, a.one[0], got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

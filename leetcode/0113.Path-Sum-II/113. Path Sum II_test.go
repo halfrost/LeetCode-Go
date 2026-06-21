@@ -2,6 +2,7 @@ package leetcode
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
 
 	"github.com/halfrost/LeetCode-Go/structures"
@@ -42,6 +43,11 @@ func Test_Problem113(t *testing.T) {
 			para113{[]int{5, 4, 8, 11, structures.NULL, 13, 4, 7, 2, structures.NULL, structures.NULL, 5, 1}, 22},
 			ans113{[][]int{{5, 4, 11, 2}, {5, 8, 4, 5}}},
 		},
+
+		{
+			para113{[]int{5}, 5},
+			ans113{[][]int{{5}}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 113------------------------\n")
@@ -51,7 +57,14 @@ func Test_Problem113(t *testing.T) {
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
 		fmt.Printf("【output】:%v      \n", pathSum(root, p.sum))
-		pathSum1(root, p.sum)
+		root1 := structures.Ints2TreeNode(p.one)
+		got1 := pathSum1(root1, p.sum)
+		if len(p.one) > 0 {
+			want1 := pathSum(structures.Ints2TreeNode(p.one), p.sum)
+			if !reflect.DeepEqual(got1, want1) {
+				t.Fatalf("pathSum1(%v, %d) = %v, want %v", p.one, p.sum, got1, want1)
+			}
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

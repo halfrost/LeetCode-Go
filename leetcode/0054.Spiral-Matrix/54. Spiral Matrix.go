@@ -35,9 +35,6 @@ func spiralOrder(matrix [][]int) []int {
 		if (x == 0 && y == n-1) || (x == m-1 && y == n-1) || (y == 0 && x == m-1) {
 			round++
 		}
-		if x > m-1 || y > n-1 || x < 0 || y < 0 {
-			return res
-		}
 		if visit[x][y] == 0 {
 			visit[x][y] = 1
 			res = append(res, matrix[x][y])

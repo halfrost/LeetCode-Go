@@ -48,13 +48,22 @@ func Test_Problem1446(t *testing.T) {
 			para1446{"tourist"},
 			ans1446{1},
 		},
+
+		{
+			para1446{"aabbb"},
+			ans1446{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1446------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1446, q.para1446
-		fmt.Printf("【input】:%v    【output】:%v\n", p.s, maxPower(p.s))
+		a, p := q.ans1446, q.para1446
+		got := maxPower(p.s)
+		if got != a.ans {
+			t.Fatalf("input: %v, expected: %v, got: %v", p.s, a.ans, got)
+		}
+		fmt.Printf("【input】:%v    【output】:%v\n", p.s, got)
 	}
 	fmt.Printf("\n\n\n")
 }

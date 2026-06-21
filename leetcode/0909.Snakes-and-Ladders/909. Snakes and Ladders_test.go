@@ -35,11 +35,24 @@ func Test_Problem909(t *testing.T) {
 			}},
 			ans909{4},
 		},
+		{
+			// 无法到达终点，返回 -1
+			para909{[][]int{
+				{1, 1, -1},
+				{1, 1, 1},
+				{-1, 1, 1},
+			}},
+			ans909{-1},
+		},
 	}
 	fmt.Printf("------------------------Leetcode Problem 909------------------------\n")
 	for _, q := range qs {
-		_, p := q.ans909, q.para909
-		fmt.Printf("【input】:%v       【output】:%v\n", p, snakesAndLadders(p.one))
+		a, p := q.ans909, q.para909
+		got := snakesAndLadders(p.one)
+		if got != a.one {
+			t.Fatalf("input %v: got %d, want %d", p.one, got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -43,7 +43,11 @@ func Test_Problem372(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans372, q.para372
-		fmt.Printf("【input】:%v       【output】:%v\n", p, superPow(p.a, p.b))
+		got := superPow(p.a, p.b)
+		if got1 := superPow1(p.a, p.b); got1 != got {
+			t.Fatalf("superPow1(%d, %v) = %d, want %d", p.a, p.b, got1, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

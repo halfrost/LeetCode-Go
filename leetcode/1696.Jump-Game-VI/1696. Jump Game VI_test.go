@@ -41,14 +41,21 @@ func Test_Problem1696(t *testing.T) {
 			para1696{[]int{1, -5, -20, 4, -1, 3, -6, -3}, 2},
 			ans1696{0},
 		},
+
+		{
+			para1696{[]int{1, 2}, 5},
+			ans1696{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1696------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1696, q.para1696
+		a, p := q.ans1696, q.para1696
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxResult(p.nums, p.k))
-		maxResult1(p.nums, p.k)
+		if got := maxResult1(p.nums, p.k); got != a.one {
+			t.Fatalf("maxResult1(%v, %v) = %v, want %v", p.nums, p.k, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

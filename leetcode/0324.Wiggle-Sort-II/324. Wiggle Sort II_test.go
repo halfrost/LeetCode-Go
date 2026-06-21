@@ -54,6 +54,10 @@ func Test_Problem324(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 324------------------------\n")
 
+	if got := findKthLargest324([]int{}, 1); got != 0 {
+		t.Fatalf("findKthLargest324 empty slice = %d, want 0", got)
+	}
+
 	for _, q := range qs {
 		_, p := q.ans324, q.para324
 		fmt.Printf("【input】:%v      ", p)

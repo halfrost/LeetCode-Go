@@ -33,6 +33,14 @@ func Test_Problem1110(t *testing.T) {
 			para1110{[]int{1, 2, 3, 4, 5, 6, 7}, []int{3, 5}},
 			ans1110{[][]int{{1, 2, structures.NULL, 4}, {6}, {7}}},
 		},
+		{
+			para1110{[]int{1, 2, 4, 2}, []int{2}},
+			ans1110{[][]int{{1}}},
+		},
+		{
+			para1110{[]int{}, []int{1}},
+			ans1110{[][]int{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1110------------------------\n")

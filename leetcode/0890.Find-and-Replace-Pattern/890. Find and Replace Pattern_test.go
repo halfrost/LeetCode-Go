@@ -36,6 +36,11 @@ func Test_Problem890(t *testing.T) {
 			para890{[]string{"a", "b", "c"}, "a"},
 			ans890{[]string{"a", "b", "c"}},
 		},
+
+		{
+			para890{[]string{"ab", "abc", "x"}, "ab"},
+			ans890{[]string{"ab"}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 890------------------------\n")

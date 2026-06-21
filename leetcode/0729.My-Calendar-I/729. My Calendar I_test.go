@@ -35,4 +35,15 @@ func Test_Problem729(t *testing.T) {
 	fmt.Printf("param = %v obj = %v\n", param2, obj1)
 	param2 = obj1.Book(18, 27)
 	fmt.Printf("param = %v obj = %v\n", param2, obj1)
+
+	obj2 := Constructor729()
+	param3 := obj2.Book(10, 20)
+	fmt.Printf("param = %v obj = %v\n", param3, obj2)
+	param3 = obj2.Book(20, 30)
+	fmt.Printf("param = %v obj = %v\n", param3, obj2)
+	param3 = obj2.Book(30, 40)
+	fmt.Printf("param = %v obj = %v\n", param3, obj2)
+	if !param3 {
+		t.Fatalf("expected Book(30, 40) to succeed, got %v", param3)
+	}
 }

@@ -85,6 +85,15 @@ func Test_Problem234(t *testing.T) {
 		_, p := q.ans234, q.para234
 		fmt.Printf("【input】:%v       【output】:%v\n", p, isPalindrome(structures.Ints2List(p.one)))
 		isPalindrome1(structures.Ints2List(p.one))
+		got := L2ss(structures.Ints2List(p.one))
+		if len(got) != len(p.one) {
+			t.Fatalf("L2ss(%v) = %v, want %v", p.one, got, p.one)
+		}
+		for i := range got {
+			if got[i] != p.one[i] {
+				t.Fatalf("L2ss(%v) = %v, want %v", p.one, got, p.one)
+			}
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

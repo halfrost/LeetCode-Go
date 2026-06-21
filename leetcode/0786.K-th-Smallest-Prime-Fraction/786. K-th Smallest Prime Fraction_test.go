@@ -51,9 +51,21 @@ func Test_Problem786(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 786------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans786, q.para786
+		a, p := q.ans786, q.para786
 		fmt.Printf("【input】:%v       【output】:%v\n", p, kthSmallestPrimeFraction(p.A, p.K))
-		kthSmallestPrimeFraction1(p.A, p.K)
+		got := kthSmallestPrimeFraction1(p.A, p.K)
+		if got[0] != a.one[0] || got[1] != a.one[1] {
+			t.Fatalf("kthSmallestPrimeFraction1(%v, %d) = %v, want %v", p.A, p.K, got, a.one)
+		}
 	}
+
+	// 覆盖暴力解法的边界分支：空输入或 K 超过分数总数时返回空切片
+	if got := kthSmallestPrimeFraction1([]int{}, 1); len(got) != 0 {
+		t.Fatalf("kthSmallestPrimeFraction1([], 1) = %v, want []", got)
+	}
+	if got := kthSmallestPrimeFraction1([]int{1, 2}, 5); len(got) != 0 {
+		t.Fatalf("kthSmallestPrimeFraction1([1 2], 5) = %v, want []", got)
+	}
+
 	fmt.Printf("\n\n\n")
 }

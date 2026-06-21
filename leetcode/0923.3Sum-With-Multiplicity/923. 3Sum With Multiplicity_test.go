@@ -36,6 +36,11 @@ func Test_Problem923(t *testing.T) {
 			para923{[]int{1, 1, 2, 2, 2, 2}, 5},
 			ans923{12},
 		},
+
+		{
+			para923{[]int{1, 1, 1, 1}, 3},
+			ans923{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 923------------------------\n")

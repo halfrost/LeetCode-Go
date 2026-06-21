@@ -42,6 +42,11 @@ func Test_Problem114(t *testing.T) {
 			para114{[]string{"1", "2", "3", "4", "5", "6"}},
 			ans114{[]string{"1", "2", "4", "5", "3", "6", "null"}},
 		},
+
+		{
+			para114{[]string{}},
+			ans114{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 114------------------------\n")
@@ -51,8 +56,20 @@ func Test_Problem114(t *testing.T) {
 		fmt.Printf("【input】:%v       \n", p)
 		rootOne := structures.Strings2TreeNode(p.one)
 		flatten(rootOne)
-		flatten1(rootOne)
-		flatten2(rootOne)
+		want := structures.Tree2PreOrderStrings(rootOne)
+
+		root1 := structures.Strings2TreeNode(p.one)
+		flatten1(root1)
+		if got := structures.Tree2PreOrderStrings(root1); fmt.Sprintf("%v", got) != fmt.Sprintf("%v", want) {
+			t.Fatalf("flatten1 mismatch: got %v, want %v", got, want)
+		}
+
+		root2 := structures.Strings2TreeNode(p.one)
+		flatten2(root2)
+		if got := structures.Tree2PreOrderStrings(root2); fmt.Sprintf("%v", got) != fmt.Sprintf("%v", want) {
+			t.Fatalf("flatten2 mismatch: got %v, want %v", got, want)
+		}
+
 		fmt.Printf("【levelorder output】:%v       \n", structures.Tree2LevelOrderStrings(rootOne))
 		fmt.Printf("【preorder output】:%v      \n", structures.Tree2PreOrderStrings(rootOne))
 	}

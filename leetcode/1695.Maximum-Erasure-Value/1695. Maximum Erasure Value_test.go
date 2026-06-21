@@ -35,6 +35,11 @@ func Test_Problem1695(t *testing.T) {
 			para1695{[]int{5, 2, 1, 2, 5, 2, 1, 2, 5}},
 			ans1695{8},
 		},
+
+		{
+			para1695{[]int{}},
+			ans1695{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1695------------------------\n")

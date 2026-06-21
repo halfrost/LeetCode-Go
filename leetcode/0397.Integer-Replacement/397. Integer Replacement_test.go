@@ -35,6 +35,11 @@ func Test_Problem397(t *testing.T) {
 			para397{7},
 			ans397{4},
 		},
+
+		{
+			para397{3},
+			ans397{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 397------------------------\n")

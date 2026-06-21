@@ -37,13 +37,22 @@ func Test_Problem826(t *testing.T) {
 			para826{[]int{85, 47, 57}, []int{24, 66, 99}, []int{40, 25, 25}},
 			ans826{0},
 		},
+
+		{
+			para826{[]int{}, []int{}, []int{}},
+			ans826{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 826------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans826, q.para826
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maxProfitAssignment(p.one, p.two, p.three))
+		a, p := q.ans826, q.para826
+		got := maxProfitAssignment(p.one, p.two, p.three)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v expected %v but got %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

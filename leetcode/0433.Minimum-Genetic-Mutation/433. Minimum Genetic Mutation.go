@@ -95,16 +95,19 @@ func check(val uint32) bool {
 	if val&(val-1) == 0 {
 		return true
 	}
+	res := false
 	for val > 0 {
 		if val == 3 {
-			return true
+			res = true
+			break
 		}
 		if val&3 != 0 {
-			return false
+			res = false
+			break
 		}
 		val >>= 2
 	}
-	return false
+	return res
 }
 
 func convert(gene string) uint32 {

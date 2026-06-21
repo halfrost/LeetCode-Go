@@ -58,6 +58,11 @@ func Test_Problem61(t *testing.T) {
 			para61{[]int{}, 100},
 			ans61{[]int{}},
 		},
+
+		{
+			para61{[]int{1, 2, 3, 4, 5}, 5},
+			ans61{[]int{1, 2, 3, 4, 5}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 61------------------------\n")

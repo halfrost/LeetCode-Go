@@ -32,13 +32,26 @@ func Test_Problem815(t *testing.T) {
 			para815{[][]int{{1, 2, 7}, {3, 6, 7}}, 1, 6},
 			ans815{2},
 		},
+
+		{
+			para815{[][]int{{1, 2, 7}, {3, 6, 7}}, 5, 5},
+			ans815{0},
+		},
+
+		{
+			para815{[][]int{{1, 2, 7}, {3, 6, 7}}, 1, 100},
+			ans815{-1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 815------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans815, q.para815
+		a, p := q.ans815, q.para815
 		fmt.Printf("【input】:%v       【output】:%v\n", p, numBusesToDestination(p.r, p.s, p.t))
+		if got := numBusesToDestination(p.r, p.s, p.t); got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

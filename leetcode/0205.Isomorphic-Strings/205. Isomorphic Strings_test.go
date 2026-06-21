@@ -46,6 +46,16 @@ func Test_Problem205(t *testing.T) {
 			para205{"", ""},
 			ans205{true},
 		},
+
+		{
+			para205{"ab", "aa"},
+			ans205{false},
+		},
+
+		{
+			para205{"ab", "a"},
+			ans205{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 205------------------------\n")

@@ -31,6 +31,21 @@ func Test_Problem65(t *testing.T) {
 			".1",
 			true,
 		},
+
+		{
+			"2e10",
+			true,
+		},
+
+		{
+			"-90E3",
+			true,
+		},
+
+		{
+			"+6e-1",
+			true,
+		},
 	}
 	fmt.Printf("------------------------Leetcode Problem 65------------------------\n")
 

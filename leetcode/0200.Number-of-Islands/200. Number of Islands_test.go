@@ -45,13 +45,27 @@ func Test_Problem200(t *testing.T) {
 			}},
 			ans200{3},
 		},
+
+		{
+			para200{[][]byte{}},
+			ans200{0},
+		},
+
+		{
+			para200{[][]byte{{}}},
+			ans200{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 200------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans200, q.para200
-		fmt.Printf("【input】:%v       【output】:%v\n", p, numIslands(p.one))
+		a, p := q.ans200, q.para200
+		out := numIslands(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, out)
+		if out != a.one {
+			t.Fatalf("input %v expected %v got %v", p, a.one, out)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

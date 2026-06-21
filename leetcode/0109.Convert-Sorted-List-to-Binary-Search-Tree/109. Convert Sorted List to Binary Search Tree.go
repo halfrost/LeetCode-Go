@@ -35,9 +35,6 @@ func sortedListToBST(head *ListNode) *TreeNode {
 		return &TreeNode{Val: head.Val, Left: nil, Right: nil}
 	}
 	middleNode, preNode := middleNodeAndPreNode(head)
-	if middleNode == nil {
-		return nil
-	}
 	if preNode != nil {
 		preNode.Next = nil
 	}

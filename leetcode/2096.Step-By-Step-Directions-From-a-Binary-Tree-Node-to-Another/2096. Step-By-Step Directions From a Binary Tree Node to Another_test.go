@@ -54,6 +54,11 @@ func Test_Problem2096(t *testing.T) {
 			para2096{[]int{7, 8, 3, 1, structures.NULL, 4, 5, 6, structures.NULL, structures.NULL, structures.NULL, structures.NULL, structures.NULL, structures.NULL, 2}, 7, 5},
 			ans2096{"RR"},
 		},
+
+		{
+			para2096{[]int{5, 1, 2, 3, structures.NULL, 6, 4}, 6, 4},
+			ans2096{"UR"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 2096------------------------\n")

@@ -36,14 +36,32 @@ func Test_Problem378(t *testing.T) {
 			para378{[][]int{{1, 5, 7}, {11, 12, 13}, {12, 13, 15}}, 3},
 			ans378{9},
 		},
+
+		{
+			para378{[][]int{{1, 3, 5}, {2, 4, 6}}, 2},
+			ans378{2},
+		},
+
+		{
+			para378{[][]int{}, 1},
+			ans378{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 378------------------------\n")
 
 	for _, q := range qs {
 		_, p := q.ans378, q.para378
-		fmt.Printf("【input】:%v       【output】:%v\n", p, kthSmallest378(p.matrix, p.k))
-		kthSmallest3781(p.matrix, p.k)
+		got := kthSmallest3781(p.matrix, p.k)
+		if len(p.matrix) != 0 && len(p.matrix[0]) != 0 {
+			primary := kthSmallest378(p.matrix, p.k)
+			if got != primary {
+				t.Fatalf("kthSmallest3781(%v, %d) = %d, kthSmallest378 = %d", p.matrix, p.k, got, primary)
+			}
+			fmt.Printf("【input】:%v       【output】:%v\n", p, primary)
+		} else {
+			fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

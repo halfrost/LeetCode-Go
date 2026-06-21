@@ -39,6 +39,11 @@ func Test_Problem997(t *testing.T) {
 			para997{3, [][]int{{1, 3}, {2, 3}, {3, 1}}},
 			ans997{-1},
 		},
+
+		{
+			para997{1, [][]int{}},
+			ans997{1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 997------------------------\n")

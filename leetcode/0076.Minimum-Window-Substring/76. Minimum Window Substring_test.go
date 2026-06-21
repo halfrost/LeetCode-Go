@@ -41,13 +41,22 @@ func Test_Problem76(t *testing.T) {
 			para76{"a", "a"},
 			ans76{"a"},
 		},
+
+		{
+			para76{"", "a"},
+			ans76{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 76------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans76, q.para76
-		fmt.Printf("【input】:%v       【output】:%v\n\n\n", p, minWindow(p.s, p.p))
+		a, p := q.ans76, q.para76
+		got := minWindow(p.s, p.p)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n\n\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -30,13 +30,37 @@ func Test_Problem132(t *testing.T) {
 			para132{"aab"},
 			ans132{1},
 		},
+
+		{
+			para132{""},
+			ans132{0},
+		},
+
+		{
+			para132{"a"},
+			ans132{0},
+		},
+
+		{
+			para132{"aba"},
+			ans132{0},
+		},
+
+		{
+			para132{"aaa"},
+			ans132{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 132------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans132, q.para132
-		fmt.Printf("【input】:%v       【output】:%v\n", p, minCut(p.s))
+		a, p := q.ans132, q.para132
+		got := minCut(p.s)
+		if got != a.one {
+			t.Fatalf("minCut(%q) = %d, want %d", p.s, got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

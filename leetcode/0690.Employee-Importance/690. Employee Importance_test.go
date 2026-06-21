@@ -31,13 +31,22 @@ func Test_Problem690(t *testing.T) {
 			para690{[]*Employee{{1, 5, []int{2, 3}}, {2, 3, []int{}}, {3, 3, []int{}}}, 1},
 			ans690{11},
 		},
+		// subordinate id 99 has no matching employee, exercising the nil guard
+		{
+			para690{[]*Employee{{1, 5, []int{99}}}, 1},
+			ans690{5},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 690------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans690, q.para690
-		fmt.Printf("【input】:%v       【output】:%v\n", p, getImportance(p.employees, p.id))
+		a, p := q.ans690, q.para690
+		got := getImportance(p.employees, p.id)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", p, got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

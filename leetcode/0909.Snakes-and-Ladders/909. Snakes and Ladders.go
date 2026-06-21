@@ -11,11 +11,8 @@ func snakesAndLadders(board [][]int) int {
 	for len(queue) > 0 {
 		p := queue[0]
 		queue = queue[1:]
-		for i := 1; i <= 6; i++ {
+		for i := 1; i <= 6 && p.id+i <= n*n; i++ { // 限制在棋盘范围内
 			nxt := p.id + i
-			if nxt > n*n { // 超出边界
-				break
-			}
 			r, c := getRowCol(nxt, n) // 得到下一步的行列
 			if board[r][c] > 0 {      // 存在蛇或梯子
 				nxt = board[r][c]

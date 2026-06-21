@@ -40,6 +40,11 @@ func Test_Problem1678(t *testing.T) {
 			para1678{"(al)G(al)()()G"},
 			ans1678{"alGalooG"},
 		},
+
+		{
+			para1678{""},
+			ans1678{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1678------------------------\n")

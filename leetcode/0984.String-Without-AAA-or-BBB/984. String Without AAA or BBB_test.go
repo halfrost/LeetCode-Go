@@ -36,6 +36,21 @@ func Test_Problem984(t *testing.T) {
 			para984{4, 1},
 			ans984{"aabaa"},
 		},
+
+		{
+			para984{1, 1},
+			ans984{"ba"},
+		},
+
+		{
+			para984{2, 5},
+			ans984{"bbabbab"},
+		},
+
+		{
+			para984{3, 4},
+			ans984{"bbabbababa"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 984------------------------\n")

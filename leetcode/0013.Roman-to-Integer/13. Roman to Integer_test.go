@@ -55,13 +55,22 @@ func Test_Problem13(t *testing.T) {
 			para13{"MCMXICIVI"},
 			ans13{2014},
 		},
+
+		{
+			para13{""},
+			ans13{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 13------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans13, q.para13
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, romanToInt(p.one))
+		a, p := q.ans13, q.para13
+		got := romanToInt(p.one)
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, got)
+		if got != a.one {
+			t.Fatalf("input %q: got %d, want %d", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

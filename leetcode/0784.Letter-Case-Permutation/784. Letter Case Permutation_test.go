@@ -50,6 +50,11 @@ func Test_Problem784(t *testing.T) {
 			para784{"12345"},
 			ans784{[]string{"12345"}},
 		},
+
+		{
+			para784{""},
+			ans784{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 784------------------------\n")

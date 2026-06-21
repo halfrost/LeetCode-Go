@@ -60,13 +60,22 @@ func Test_Problem162(t *testing.T) {
 			para162{[]int{1, 2, 1, 3, 5, 6, 4}},
 			ans162{5},
 		},
+
+		{
+			para162{[]int{1, 1}},
+			ans162{-1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 162------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans162, q.para162
-		fmt.Printf("【input】:%v       【output】:%v\n", p, findPeakElement(p.one))
+		a, p := q.ans162, q.para162
+		got := findPeakElement(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("findPeakElement(%v) = %d, want %d", p.one, got, a.one)
+		}
 		findPeakElement1(p.one)
 	}
 	fmt.Printf("\n\n\n")
