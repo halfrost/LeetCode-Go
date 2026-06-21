@@ -66,5 +66,10 @@ func Test_Problem1073(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, addNegabinary1(p.arr1, p.arr2))
 		addNegabinary(p.arr1, p.arr2)
 	}
+
+	// 覆盖 negabinaryToInt 空切片分支
+	if got := negabinaryToInt([]int{}); got != 0 {
+		t.Fatalf("negabinaryToInt([]) = %d, want 0", got)
+	}
 	fmt.Printf("\n\n\n")
 }

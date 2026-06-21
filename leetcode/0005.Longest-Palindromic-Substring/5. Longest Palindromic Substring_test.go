@@ -37,6 +37,11 @@ func Test_Problem5(t *testing.T) {
 		},
 
 		{
+			para5{""},
+			ans5{""},
+		},
+
+		{
 			para5{"a"},
 			ans5{"a"},
 		},

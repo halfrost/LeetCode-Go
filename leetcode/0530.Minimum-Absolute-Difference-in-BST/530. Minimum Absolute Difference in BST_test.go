@@ -42,6 +42,11 @@ func Test_Problem530(t *testing.T) {
 			para530{[]int{90, 69, structures.NULL, 49, 89, structures.NULL, 52}},
 			ans530{1},
 		},
+
+		{
+			para530{[]int{1, 1}},
+			ans530{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 530------------------------\n")

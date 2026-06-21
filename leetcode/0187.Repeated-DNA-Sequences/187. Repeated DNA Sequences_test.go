@@ -30,6 +30,10 @@ func Test_Problem187(t *testing.T) {
 			para187{"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"},
 			ans187{[]string{"AAAAACCCCC", "CCCCCAAAAA"}},
 		},
+		{
+			para187{"AAAAA"},
+			ans187{[]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 187------------------------\n")

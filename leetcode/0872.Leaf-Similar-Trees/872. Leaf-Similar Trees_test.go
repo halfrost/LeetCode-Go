@@ -33,15 +33,27 @@ func Test_Problem872(t *testing.T) {
 			para872{[]int{-10, -3, 0, 5, 9}, []int{-10, -3, 0, 5, 9}},
 			ans872{true},
 		},
+		{
+			para872{[]int{1, 2, 3}, []int{1, 3, 2}},
+			ans872{false},
+		},
+		{
+			para872{[]int{1, 2}, []int{1, 2, 3}},
+			ans872{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 872------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans872, q.para872
+		a, p := q.ans872, q.para872
 		tree1 := structures.Ints2TreeNode(p.one)
 		tree2 := structures.Ints2TreeNode(p.two)
-		fmt.Printf("【input】:%v       【output】:%v\n", p, leafSimilar(tree1, tree2))
+		got := leafSimilar(tree1, tree2)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

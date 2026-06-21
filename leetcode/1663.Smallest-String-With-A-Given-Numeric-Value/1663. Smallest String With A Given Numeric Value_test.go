@@ -47,8 +47,16 @@ func Test_Problem1663(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans1663, q.para1663
-		fmt.Printf("【input】:%v      【output】:%v      \n", p, getSmallestString(p.n, p.k))
-		getSmallestString1(p.n, p.k)
+		want := getSmallestString(p.n, p.k)
+		fmt.Printf("【input】:%v      【output】:%v      \n", p, want)
+		if got := getSmallestString1(p.n, p.k); got != want {
+			t.Fatalf("getSmallestString1(%d, %d) = %q, want %q", p.n, p.k, got, want)
+		}
+	}
+
+	// 覆盖 n == 0 的分支
+	if got := getSmallestString1(0, 0); got != "" {
+		t.Fatalf("getSmallestString1(0, 0) = %q, want %q", got, "")
 	}
 	fmt.Printf("\n\n\n")
 }

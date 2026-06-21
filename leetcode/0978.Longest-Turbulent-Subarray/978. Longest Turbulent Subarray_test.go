@@ -50,14 +50,35 @@ func Test_Problem978(t *testing.T) {
 			para978{[]int{100}},
 			ans978{1},
 		},
+
+		{
+			para978{[]int{9, 4}},
+			ans978{2},
+		},
+
+		{
+			para978{[]int{}},
+			ans978{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 978------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans978, q.para978
+		a, p := q.ans978, q.para978
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxTurbulenceSize(p.one))
-		maxTurbulenceSize1(p.one)
+		if got := maxTurbulenceSize(p.one); got != a.one {
+			t.Fatalf("maxTurbulenceSize(%v) = %d, want %d", p.one, got, a.one)
+		}
+		// maxTurbulenceSize1 does not handle len(arr) < 2 the same way,
+		// so only cross-check on inputs with at least 2 elements.
+		if len(p.one) >= 2 {
+			if got := maxTurbulenceSize1(p.one); got != a.one {
+				t.Fatalf("maxTurbulenceSize1(%v) = %d, want %d", p.one, got, a.one)
+			}
+		} else {
+			maxTurbulenceSize1(p.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

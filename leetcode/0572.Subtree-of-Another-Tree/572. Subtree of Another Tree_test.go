@@ -48,16 +48,25 @@ func Test_Problem572(t *testing.T) {
 			para572{[]int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}, []int{1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, structures.NULL, 1, 2}},
 			ans572{true},
 		},
+
+		{
+			para572{[]int{3, 4, 5, 1, 2}, []int{3, 1, 2}},
+			ans572{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 572------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans572, q.para572
+		a, p := q.ans572, q.para572
 		fmt.Printf("【input】:%v      ", p)
 		roots := structures.Ints2TreeNode(p.s)
 		roott := structures.Ints2TreeNode(p.t)
-		fmt.Printf("【output】:%v      \n", isSubtree(roots, roott))
+		got := isSubtree(roots, roott)
+		fmt.Printf("【output】:%v      \n", got)
+		if got != a.one {
+			t.Fatalf("isSubtree(%v, %v) = %v, want %v", p.s, p.t, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

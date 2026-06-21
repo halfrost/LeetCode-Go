@@ -33,14 +33,23 @@ func Test_Problem540(t *testing.T) {
 			para540{[]int{3, 3, 7, 7, 10, 11, 11}},
 			ans540{10},
 		},
+
+		{
+			para540{[]int{1, 1, 3, 3, 5}},
+			ans540{5},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 540------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans540, q.para540
+		a, p := q.ans540, q.para540
 		fmt.Printf("【input】:%v      ", p.nums)
-		fmt.Printf("【output】:%v      \n", singleNonDuplicate(p.nums))
+		got := singleNonDuplicate(p.nums)
+		fmt.Printf("【output】:%v      \n", got)
+		if got != a.ans {
+			t.Fatalf("input %v: expected %v, got %v", p.nums, a.ans, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

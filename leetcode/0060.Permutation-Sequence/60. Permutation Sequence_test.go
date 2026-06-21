@@ -36,13 +36,22 @@ func Test_Problem60(t *testing.T) {
 			para60{4, 9},
 			ans60{"2314"},
 		},
+
+		{
+			para60{3, 0},
+			ans60{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 60------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans60, q.para60
-		fmt.Printf("【input】:%v       【output】:%v\n", p, getPermutation(p.n, p.k))
+		a, p := q.ans60, q.para60
+		got := getPermutation(p.n, p.k)
+		if got != a.one {
+			t.Fatalf("input %v expected %v got %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -37,15 +37,24 @@ func Test_Problem968(t *testing.T) {
 			para968{[]int{0, 0, structures.NULL, 0, structures.NULL, 0, structures.NULL, structures.NULL, 0}},
 			ans968{2},
 		},
+
+		{
+			para968{[]int{0}},
+			ans968{1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 968------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans968, q.para968
+		a, p := q.ans968, q.para968
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", minCameraCover(root))
+		got := minCameraCover(root)
+		if got != a.one {
+			t.Fatalf("input %v: expected %d, got %d", p.one, a.one, got)
+		}
+		fmt.Printf("【output】:%v      \n", got)
 	}
 	fmt.Printf("\n\n\n")
 }

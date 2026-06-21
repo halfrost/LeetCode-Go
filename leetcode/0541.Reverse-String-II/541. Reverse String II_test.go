@@ -46,13 +46,22 @@ func Test_Problem541(t *testing.T) {
 			para541{"", 100},
 			ans541{""},
 		},
+
+		{
+			para541{"abcde", 2},
+			ans541{"bacde"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 541------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans541, q.para541
-		fmt.Printf("【input】:%v       【output】:%v\n", p, reverseStr(p.s, p.k))
+		a, p := q.ans541, q.para541
+		got := reverseStr(p.s, p.k)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v expected %v got %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

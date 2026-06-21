@@ -50,4 +50,5 @@ func Test_Problem1665(t *testing.T) {
 	}
 	fmt.Printf("\n\n\n")
 	max(0, 1)
+	max(1, 0)
 }

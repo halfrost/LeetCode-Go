@@ -53,9 +53,6 @@ func numFriendRequests2(ages []int) int {
 			if (j-7)*2 <= i {
 				continue
 			}
-			if j > 100 && i < 100 {
-				continue
-			}
 			if i != j {
 				res += count[i] * count[j]
 			} else {

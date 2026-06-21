@@ -34,6 +34,11 @@ func Test_Problem767(t *testing.T) {
 			para767{"aaab"},
 			ans767{""},
 		},
+
+		{
+			para767{""},
+			ans767{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 767------------------------\n")

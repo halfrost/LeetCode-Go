@@ -59,12 +59,25 @@ func Test_Problem236(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 236------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans236, q.para236
+		a, p := q.ans236, q.para236
 		fmt.Printf("【input】:%v      ", p)
 		rootOne := structures.Ints2TreeNode(p.one)
-		rootTwo := structures.Ints2TreeNode(p.two)
-		rootThr := structures.Ints2TreeNode(p.thr)
-		fmt.Printf("【output】:%v      \n", lowestCommonAncestor236(rootOne, rootTwo, rootThr))
+		var pNode, qNode *TreeNode
+		if len(p.two) > 0 {
+			pNode = structures.GetTargetNode(rootOne, p.two[0])
+		}
+		if len(p.thr) > 0 {
+			qNode = structures.GetTargetNode(rootOne, p.thr[0])
+		}
+		got := lowestCommonAncestor236(rootOne, pNode, qNode)
+		fmt.Printf("【output】:%v      \n", got)
+		if len(a.one) > 0 {
+			if got == nil || got.Val != a.one[0] {
+				t.Fatalf("input %v expected %v but got %v", p, a.one, got)
+			}
+		} else if got != nil {
+			t.Fatalf("input %v expected nil but got %v", p, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

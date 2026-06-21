@@ -35,6 +35,24 @@ func Test_Problem393(t *testing.T) {
 			para393{[]int{235, 140, 4}},
 			ans393{false},
 		},
+
+		{
+			// d >= 248 -> return false
+			para393{[]int{248}},
+			ans393{false},
+		},
+
+		{
+			// d >= 240 -> count = 3, valid 4-byte sequence
+			para393{[]int{240, 130, 130, 130}},
+			ans393{true},
+		},
+
+		{
+			// d > 127 (but < 192) at count==0 -> return false
+			para393{[]int{130}},
+			ans393{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 393------------------------\n")

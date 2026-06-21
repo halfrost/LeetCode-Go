@@ -40,6 +40,11 @@ func Test_Problem1239(t *testing.T) {
 			para1239{[]string{"abcdefghijklmnopqrstuvwxyz"}},
 			ans1239{26},
 		},
+
+		{
+			para1239{[]string{"aa", "bb"}},
+			ans1239{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1239------------------------\n")

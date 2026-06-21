@@ -73,11 +73,6 @@ func medianSlidingWindow1(nums []int, k int) []float64 {
 	ans := []float64{}
 	minH := MinHeapR{}
 	maxH := MaxHeapR{}
-	if minH.Len() > maxH.Len()+1 {
-		maxH.Push(minH.Pop())
-	} else if minH.Len() < maxH.Len() {
-		minH.Push(maxH.Pop())
-	}
 	for i := range nums {
 		if minH.Len() == 0 || nums[i] >= minH.Top() {
 			minH.Push(nums[i])

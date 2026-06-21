@@ -35,6 +35,11 @@ func Test_Problem665(t *testing.T) {
 			para665{[]int{4, 2, 1}},
 			ans665{false},
 		},
+
+		{
+			para665{[]int{3, 4, 2, 3}},
+			ans665{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 665------------------------\n")

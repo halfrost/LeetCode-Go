@@ -27,6 +27,11 @@ func Test_Problem726(t *testing.T) {
 	qs := []question726{
 
 		{
+			para726{""},
+			ans726{""},
+		},
+
+		{
 			para726{"H200P"},
 			ans726{"H200P"},
 		},
@@ -50,8 +55,12 @@ func Test_Problem726(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 726------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans726, q.para726
-		fmt.Printf("【input】:%v       【output】:%v\n", p, countOfAtoms(p.one))
+		a, p := q.ans726, q.para726
+		got := countOfAtoms(p.one)
+		if got != a.one {
+			t.Fatalf("countOfAtoms(%q) = %q, want %q", p.one, got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

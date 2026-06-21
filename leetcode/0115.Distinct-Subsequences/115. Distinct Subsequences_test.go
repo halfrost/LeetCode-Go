@@ -36,14 +36,21 @@ func Test_Problem115(t *testing.T) {
 			para115{"babgbag", "bag"},
 			ans115{5},
 		},
+
+		{
+			para115{"ab", "abc"},
+			ans115{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 115------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans115, q.para115
+		a, p := q.ans115, q.para115
 		fmt.Printf("【input】:%v       【output】:%v\n", p, numDistinct(p.s, p.t))
-		numDistinct1(p.s, p.t)
+		if got := numDistinct1(p.s, p.t); got != a.one {
+			t.Fatalf("numDistinct1(%q, %q) = %d, want %d", p.s, p.t, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

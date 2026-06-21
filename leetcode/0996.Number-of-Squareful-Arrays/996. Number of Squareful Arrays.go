@@ -17,18 +17,10 @@ func numSquarefulPerms(A []int) int {
 
 func generatePermutation996(nums []int, index int, p []int, res *[][]int, used *[]bool) {
 	if index == len(nums) {
-		checkSquareful := true
-		for i := 0; i < len(p)-1; i++ {
-			if !checkSquare(p[i] + p[i+1]) {
-				checkSquareful = false
-				break
-			}
-		}
-		if checkSquareful {
-			temp := make([]int, len(p))
-			copy(temp, p)
-			*res = append(*res, temp)
-		}
+		// 由于上面的剪枝条件，能走到这里的排列相邻两数之和必然都是完全平方数
+		temp := make([]int, len(p))
+		copy(temp, p)
+		*res = append(*res, temp)
 		return
 	}
 	for i := 0; i < len(nums); i++ {

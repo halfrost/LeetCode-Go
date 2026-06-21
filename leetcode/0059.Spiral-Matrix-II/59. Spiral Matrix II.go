@@ -25,9 +25,6 @@ func generateMatrix(n int) [][]int {
 		if (x == 0 && y == n-1) || (x == n-1 && y == n-1) || (y == 0 && x == n-1) {
 			round++
 		}
-		if x > n-1 || y > n-1 || x < 0 || y < 0 {
-			return res
-		}
 		if visit[x][y] == 0 {
 			visit[x][y] = 1
 			res[x][y] = i + 2

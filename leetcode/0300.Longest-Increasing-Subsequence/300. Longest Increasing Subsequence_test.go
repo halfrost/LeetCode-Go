@@ -30,14 +30,24 @@ func Test_Problem300(t *testing.T) {
 			para300{[]int{10, 9, 2, 5, 3, 7, 101, 18}},
 			ans300{4},
 		},
+
+		{
+			para300{[]int{1, 2, 3, 1}},
+			ans300{3},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 300------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans300, q.para300
+		a, p := q.ans300, q.para300
 		fmt.Printf("【input】:%v       【output】:%v\n", p, lengthOfLIS(p.one))
-		lengthOfLIS1(p.one)
+		if got := lengthOfLIS(p.one); got != a.one {
+			t.Fatalf("lengthOfLIS(%v) = %d, want %d", p.one, got, a.one)
+		}
+		if got := lengthOfLIS1(p.one); got != a.one {
+			t.Fatalf("lengthOfLIS1(%v) = %d, want %d", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

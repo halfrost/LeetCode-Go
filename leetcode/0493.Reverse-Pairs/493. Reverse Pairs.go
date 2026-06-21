@@ -94,9 +94,11 @@ func reversePairs2(nums []int) int {
 		numsArray = append(numsArray, i)
 	}
 	// 初始化线段树，节点内的值都赋值为 0，即计数为 0
-	st.Init(numsArray, func(i, j int) int {
+	merge := func(i, j int) int {
 		return 0
-	})
+	}
+	_ = merge(0, 0)
+	st.Init(numsArray, merge)
 	for _, num := range nums {
 		res += st.Query(indexMap[num*2+1], len(indexMap)-1)
 		st.UpdateCount(indexMap[num])

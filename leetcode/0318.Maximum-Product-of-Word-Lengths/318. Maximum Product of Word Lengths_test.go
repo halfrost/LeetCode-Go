@@ -40,6 +40,11 @@ func Test_Problem318(t *testing.T) {
 			para318{[]string{"a", "aa", "aaa", "aaaa"}},
 			ans318{0},
 		},
+
+		{
+			para318{[]string{}},
+			ans318{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 318------------------------\n")

@@ -27,6 +27,16 @@ func Test_Problem198(t *testing.T) {
 	qs := []question198{
 
 		{
+			para198{[]int{}},
+			ans198{0},
+		},
+
+		{
+			para198{[]int{5}},
+			ans198{5},
+		},
+
+		{
 			para198{[]int{1, 2}},
 			ans198{2},
 		},
@@ -44,10 +54,17 @@ func Test_Problem198(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 198------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans198, q.para198
+		a, p := q.ans198, q.para198
 		fmt.Printf("【input】:%v       【output】:%v\n", p, rob198(p.one))
-		rob(p.one)
-		rob198_1(p.one)
+		if got := rob198(p.one); got != a.one {
+			t.Fatalf("rob198(%v) = %v, want %v", p.one, got, a.one)
+		}
+		if got := rob(p.one); got != a.one {
+			t.Fatalf("rob(%v) = %v, want %v", p.one, got, a.one)
+		}
+		if got := rob198_1(p.one); got != a.one {
+			t.Fatalf("rob198_1(%v) = %v, want %v", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -44,13 +44,22 @@ func Test_Problem299(t *testing.T) {
 			para299{"1", "1"},
 			ans299{"1A0B"},
 		},
+
+		{
+			para299{"1122", "2211"},
+			ans299{"0A4B"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 299------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans299, q.para299
-		fmt.Printf("【input】:%v       【output】:%v\n", p, getHint(p.secret, p.guess))
+		a, p := q.ans299, q.para299
+		got := getHint(p.secret, p.guess)
+		if got != a.ans {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.ans, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

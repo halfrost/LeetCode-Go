@@ -45,6 +45,11 @@ func Test_Problem765(t *testing.T) {
 			para765{[]int{10, 7, 4, 2, 3, 0, 9, 11, 1, 5, 6, 8}},
 			ans765{4},
 		},
+
+		{
+			para765{[]int{0, 1, 2}},
+			ans765{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 765------------------------\n")

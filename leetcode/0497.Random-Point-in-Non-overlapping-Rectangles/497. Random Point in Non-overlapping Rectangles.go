@@ -33,7 +33,8 @@ func Constructor497(rects [][]int) Solution497 {
 func (so *Solution497) Pick() []int {
 	r := rand.Int() % so.arr[len(so.arr)-1]
 	//get rectangle first
-	low, high, index := 0, len(so.arr)-1, -1
+	// Since r < so.arr[len(so.arr)-1], the binary search always finds an index.
+	low, high, index := 0, len(so.arr)-1, 0
 	for low <= high {
 		mid := low + (high-low)>>1
 		if so.arr[mid] > r {
@@ -45,9 +46,6 @@ func (so *Solution497) Pick() []int {
 		} else {
 			low = mid + 1
 		}
-	}
-	if index == -1 {
-		index = low
 	}
 	if index > 0 {
 		r = r - so.arr[index-1]

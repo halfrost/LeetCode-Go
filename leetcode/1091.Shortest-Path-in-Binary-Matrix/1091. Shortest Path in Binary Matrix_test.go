@@ -35,14 +35,32 @@ func Test_Problem1091(t *testing.T) {
 			para1091{[][]int{{0, 0, 0}, {1, 1, 0}, {1, 1, 0}}},
 			ans1091{4},
 		},
+
+		{
+			para1091{[][]int{{1, 0}, {0, 0}}},
+			ans1091{-1},
+		},
+
+		{
+			para1091{[][]int{{0}}},
+			ans1091{1},
+		},
+
+		{
+			para1091{[][]int{{0, 0, 0}, {1, 1, 0}, {1, 1, 1}}},
+			ans1091{-1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1091------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1091, q.para1091
-		fmt.Printf("【input】:%v       【output】:%v\n", p, shortestPathBinaryMatrix(p.grid))
-
+		a, p := q.ans1091, q.para1091
+		got := shortestPathBinaryMatrix(p.grid)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v expected %v got %v", p.grid, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

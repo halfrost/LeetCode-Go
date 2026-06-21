@@ -55,6 +55,16 @@ func Test_Problem896(t *testing.T) {
 			para896{[]int{1, 1, 1}},
 			ans896{true},
 		},
+
+		{
+			para896{[]int{1}},
+			ans896{true},
+		},
+
+		{
+			para896{[]int{}},
+			ans896{true},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 896------------------------\n")

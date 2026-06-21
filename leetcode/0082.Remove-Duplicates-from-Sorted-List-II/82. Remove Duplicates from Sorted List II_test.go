@@ -82,6 +82,7 @@ func Test_Problem82(t *testing.T) {
 		deleteDuplicates2(structures.Ints2List(p.one))
 		deleteDuplicates3(structures.Ints2List(p.one))
 		deleteDuplicates4(structures.Ints2List(p.one))
+		deleteDuplicates(structures.Ints2List(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }

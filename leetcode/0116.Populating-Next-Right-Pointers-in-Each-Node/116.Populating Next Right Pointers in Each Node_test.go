@@ -104,6 +104,10 @@ func Test_Problem116(t *testing.T) {
 			para116{newQuestionNode()},
 			ans116{newResultNode()},
 		},
+		{
+			para116{nil},
+			ans116{nil},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 116------------------------\n")

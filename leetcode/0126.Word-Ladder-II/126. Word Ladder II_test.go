@@ -36,6 +36,12 @@ func Test_Problem126(t *testing.T) {
 			para126{"hit", "cog", []string{"hot", "dot", "dog", "lot", "log"}},
 			ans126{[][]string{}},
 		},
+
+		{
+			// endWord is in wordList but unreachable, exercises the final return
+			para126{"hit", "cog", []string{"cog", "xyz"}},
+			ans126{[][]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 126------------------------\n")

@@ -39,5 +39,13 @@ func Test_Problem401(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, readBinaryWatch(p.n))
 		readBinaryWatch1(p.n)
 	}
+	// cover the num > 8 early return branch
+	if got := readBinaryWatch1(9); len(got) != 0 {
+		t.Fatalf("readBinaryWatch1(9) expected empty, got %v", got)
+	}
+	// cover the table-generating helper functions
+	var res []string
+	findReadBinaryWatchMinute(1, 0, []int{}, &res)
+	findReadBinaryWatchHour(1, 0, []int{}, &res)
 	fmt.Printf("\n\n\n")
 }

@@ -26,6 +26,26 @@ func Test_Problem146(t *testing.T) {
 	fmt.Printf("param_1 = %v obj = %v\n", param1, MList2Ints(&obj))
 	param1 = obj.Get(4)
 	fmt.Printf("param_1 = %v obj = %v\n", param1, MList2Ints(&obj))
+
+	// Exercise the update-existing-key path in Put (lines 28-33),
+	// the Remove-head branch and the Remove-middle branch.
+	obj2 := Constructor(3)
+	obj2.Put(1, 1)
+	obj2.Put(2, 2)
+	obj2.Put(3, 3)
+	// Update existing key 2 -> triggers Put's "key exists" branch and
+	// removes a middle node, then re-adds it at the head.
+	obj2.Put(2, 20)
+	if v := obj2.Get(2); v != 20 {
+		t.Fatalf("expected Get(2)=20, got %v", v)
+	}
+	fmt.Printf("obj2 = %v\n", MList2Ints(&obj2))
+	// Update the current head key to exercise Remove-head branch.
+	obj2.Put(2, 200)
+	if v := obj2.Get(2); v != 200 {
+		t.Fatalf("expected Get(2)=200, got %v", v)
+	}
+	fmt.Printf("obj2 = %v\n", MList2Ints(&obj2))
 }
 
 func MList2Ints(lru *LRUCache) [][]int {

@@ -55,5 +55,13 @@ func Test_Problem1738(t *testing.T) {
 		fmt.Printf("【input】:%v       【output】:%v\n", p, kthLargestValue(p.matrix, p.k))
 		kthLargestValue1(p.matrix, p.k)
 	}
+
+	// 覆盖空矩阵的边界分支
+	if got := kthLargestValue([][]int{}, 1); got != 0 {
+		t.Fatalf("kthLargestValue empty matrix: got %d, want 0", got)
+	}
+	if got := kthLargestValue([][]int{{}}, 1); got != 0 {
+		t.Fatalf("kthLargestValue empty row: got %d, want 0", got)
+	}
 	fmt.Printf("\n\n\n")
 }

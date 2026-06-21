@@ -40,6 +40,11 @@ func Test_Problem1189(t *testing.T) {
 			para1189{"leetcode"},
 			ans1189{0},
 		},
+
+		{
+			para1189{"bballoonn"},
+			ans1189{1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1189------------------------\n")

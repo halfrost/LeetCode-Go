@@ -44,6 +44,11 @@ func Test_Problem417(t *testing.T) {
 				{4, 0},
 			}},
 		},
+
+		{
+			para417{[][]int{}},
+			ans417{nil},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 417------------------------\n")

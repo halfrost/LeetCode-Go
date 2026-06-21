@@ -2,6 +2,7 @@ package leetcode
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
 )
 
@@ -22,9 +23,23 @@ type ans542 struct {
 	one [][]int
 }
 
+func clone542(matrix [][]int) [][]int {
+	res := make([][]int, len(matrix))
+	for i, row := range matrix {
+		res[i] = make([]int, len(row))
+		copy(res[i], row)
+	}
+	return res
+}
+
 func Test_Problem542(t *testing.T) {
 
 	qs := []question542{
+
+		{
+			para542{[][]int{}},
+			ans542{[][]int{}},
+		},
 
 		{
 			para542{[][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}},
@@ -45,10 +60,20 @@ func Test_Problem542(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 542------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans542, q.para542
-		fmt.Printf("【input】:%v       【output】:%v\n", p, updateMatrixDP(p.one))
-		updateMatrixBFS(p.one)
-		updateMatrixDFS(p.one)
+		a, p := q.ans542, q.para542
+		dp := updateMatrixDP(clone542(p.one))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, dp)
+		if !reflect.DeepEqual(dp, a.one) {
+			t.Fatalf("updateMatrixDP(%v) = %v, want %v", p.one, dp, a.one)
+		}
+		bfs := updateMatrixBFS(clone542(p.one))
+		if len(p.one) > 0 && !reflect.DeepEqual(bfs, a.one) {
+			t.Fatalf("updateMatrixBFS(%v) = %v, want %v", p.one, bfs, a.one)
+		}
+		dfs := updateMatrixDFS(clone542(p.one))
+		if len(p.one) > 0 && !reflect.DeepEqual(dfs, a.one) {
+			t.Fatalf("updateMatrixDFS(%v) = %v, want %v", p.one, dfs, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -42,12 +42,6 @@ func divide(dividend int, divisor int) int {
 	// 	}
 	// }
 	res = binarySearchQuotient(0, abs(dividend), abs(divisor), abs(dividend))
-	if res > math.MaxInt32 {
-		return sign * math.MaxInt32
-	}
-	if res < math.MinInt32 {
-		return sign * math.MinInt32
-	}
 	return sign * res
 }
 
@@ -62,10 +56,7 @@ func binarySearchQuotient(low, high, val, dividend int) int {
 	if (quotient+1)*val > dividend && quotient*val > dividend {
 		return binarySearchQuotient(low, quotient-1, val, dividend)
 	}
-	if (quotient+1)*val < dividend && quotient*val < dividend {
-		return binarySearchQuotient(quotient+1, high, val, dividend)
-	}
-	return 0
+	return binarySearchQuotient(quotient+1, high, val, dividend)
 }
 
 // 解法二 非递归版的二分搜索

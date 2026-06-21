@@ -40,14 +40,27 @@ func Test_Problem436(t *testing.T) {
 			para436{[][]int{{1, 2}}},
 			ans436{[]int{-1}},
 		},
+
+		{
+			para436{[][]int{}},
+			ans436{[]int{}},
+		},
+
+		{
+			para436{[][]int{{1, 1}, {2, 2}, {3, 3}, {4, 4}, {5, 5}}},
+			ans436{[]int{0, 1, 2, 3, 4}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 436------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans436, q.para436
+		a, p := q.ans436, q.para436
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findRightInterval(p.one))
-		findRightInterval1(p.one)
+		got := findRightInterval1(p.one)
+		if fmt.Sprintf("%v", got) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("findRightInterval1(%v) = %v, want %v", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

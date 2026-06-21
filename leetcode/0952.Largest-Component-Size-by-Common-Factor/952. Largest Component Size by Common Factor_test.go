@@ -44,14 +44,21 @@ func Test_Problem952(t *testing.T) {
 			para952{[]int{2, 3, 6, 7, 4, 12, 21, 39}},
 			ans952{8},
 		},
+
+		{
+			para952{[]int{2, 2}},
+			ans952{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 952------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans952, q.para952
+		a, p := q.ans952, q.para952
 		fmt.Printf("【input】:%v       【output】:%v\n", p, largestComponentSize(p.one))
-		largestComponentSize1(p.one)
+		if got := largestComponentSize1(p.one); got != a.one {
+			t.Fatalf("largestComponentSize1(%v) = %v, want %v", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

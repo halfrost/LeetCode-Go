@@ -36,13 +36,27 @@ func Test_Problem419(t *testing.T) {
 			para419{[][]byte{{'.'}}},
 			ans419{0},
 		},
+
+		{
+			para419{[][]byte{{'X', 'X', 'X', '.'}, {'.', '.', '.', 'X'}}},
+			ans419{2},
+		},
+
+		{
+			para419{[][]byte{}},
+			ans419{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 419------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans419, q.para419
-		fmt.Printf("【input】:%v       【output】:%v\n", bytesArrayToStringArray(p.one), countBattleships(p.one))
+		a, p := q.ans419, q.para419
+		got := countBattleships(p.one)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", bytesArrayToStringArray(p.one), got, a.one)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", bytesArrayToStringArray(p.one), got)
 	}
 	fmt.Printf("\n\n\n")
 

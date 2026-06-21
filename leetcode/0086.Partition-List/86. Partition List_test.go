@@ -63,6 +63,11 @@ func Test_Problem86(t *testing.T) {
 			para86{[]int{1, 2}, 3},
 			ans86{[]int{1, 2}},
 		},
+
+		{
+			para86{[]int{}, 3},
+			ans86{[]int{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 86------------------------\n")

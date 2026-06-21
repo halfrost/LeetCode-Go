@@ -36,13 +36,27 @@ func Test_Problem713(t *testing.T) {
 			para713{[]int{10, 9, 10, 4, 3, 8, 3, 3, 6, 2, 10, 10, 9, 3}, 19},
 			ans713{18},
 		},
+
+		{
+			para713{[]int{}, 100},
+			ans713{0},
+		},
+
+		{
+			para713{[]int{1, 2, 3}, 0},
+			ans713{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 713------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans713, q.para713
-		fmt.Printf("【input】:%v       【output】:%v\n", p, numSubarrayProductLessThanK(p.s, p.k))
+		a, p := q.ans713, q.para713
+		got := numSubarrayProductLessThanK(p.s, p.k)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

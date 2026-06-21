@@ -58,5 +58,17 @@ func Test_Problem37(t *testing.T) {
 		solveSudoku(p.s)
 		fmt.Printf("【output】:%v \n\n", p)
 	}
+
+	// 直接覆盖 putSudoku 中 *succ 已为 true 时的提前返回分支
+	already := true
+	board := [][]byte{
+		{'.', '.'},
+		{'.', '.'},
+	}
+	putSudoku(&board, []position{{x: 0, y: 0}}, 0, &already)
+	if !already {
+		t.Fatalf("expected succ to remain true")
+	}
+
 	fmt.Printf("\n\n\n")
 }

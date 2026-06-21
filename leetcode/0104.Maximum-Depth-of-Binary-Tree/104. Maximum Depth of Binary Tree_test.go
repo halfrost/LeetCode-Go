@@ -37,15 +37,24 @@ func Test_Problem104(t *testing.T) {
 			para104{[]int{3, 9, 20, structures.NULL, structures.NULL, 15, 7}},
 			ans104{3},
 		},
+
+		{
+			para104{[]int{1, 2, 3, 4, structures.NULL, structures.NULL, structures.NULL, 5}},
+			ans104{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 104------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans104, q.para104
+		a, p := q.ans104, q.para104
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", maxDepth(root))
+		got := maxDepth(root)
+		fmt.Printf("【output】:%v      \n", got)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p.one, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

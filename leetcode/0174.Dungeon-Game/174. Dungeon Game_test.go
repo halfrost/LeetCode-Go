@@ -50,9 +50,15 @@ func Test_Problem174(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 174------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans174, q.para174
+		a, p := q.ans174, q.para174
 		fmt.Printf("【input】:%v       【output】:%v\n", p, calculateMinimumHP1(p.s))
-		calculateMinimumHP(p.s)
+		if got := calculateMinimumHP(p.s); got != a.one {
+			t.Fatalf("calculateMinimumHP(%v) = %d, want %d", p.s, got, a.one)
+		}
+	}
+
+	if got := calculateMinimumHP([][]int{}); got != 0 {
+		t.Fatalf("calculateMinimumHP(empty) = %d, want 0", got)
 	}
 	fmt.Printf("\n\n\n")
 }

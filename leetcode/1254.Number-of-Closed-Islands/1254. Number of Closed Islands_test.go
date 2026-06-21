@@ -78,13 +78,27 @@ func Test_Problem1254(t *testing.T) {
 			}},
 			ans1254{2},
 		},
+
+		{
+			para1254{[][]int{}},
+			ans1254{0},
+		},
+
+		{
+			para1254{[][]int{{}}},
+			ans1254{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1254------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1254, q.para1254
-		fmt.Printf("【input】:%v       【output】:%v\n", p, closedIsland(p.one))
+		a, p := q.ans1254, q.para1254
+		got := closedIsland(p.one)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

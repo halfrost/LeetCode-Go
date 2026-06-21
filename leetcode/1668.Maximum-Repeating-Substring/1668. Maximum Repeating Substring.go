@@ -5,14 +5,16 @@ import (
 )
 
 func maxRepeating(sequence string, word string) int {
-	for i := len(sequence) / len(word); i >= 0; i-- {
+	res := 0
+	for i := len(sequence) / len(word); i >= 1; i-- {
 		tmp := ""
 		for j := 0; j < i; j++ {
 			tmp += word
 		}
 		if strings.Contains(sequence, tmp) {
-			return i
+			res = i
+			break
 		}
 	}
-	return 0
+	return res
 }

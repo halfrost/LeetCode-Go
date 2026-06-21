@@ -36,6 +36,10 @@ func Test_Problem22(t *testing.T) {
 				"()()()",
 			}},
 		},
+		{
+			para22{0},
+			ans22{[]string{}},
+		},
 		// 如需多个测试，可以复制上方元素。
 	}
 

@@ -27,6 +27,11 @@ func Test_Problem996(t *testing.T) {
 	qs := []question996{
 
 		{
+			para996{[]int{}},
+			ans996{0},
+		},
+
+		{
 			para996{[]int{1, 17, 8}},
 			ans996{2},
 		},

@@ -41,13 +41,27 @@ func Test_Problem219(t *testing.T) {
 			para219{[]int{1, 2, 3, 1, 2, 3}, 2},
 			ans219{false},
 		},
+
+		{
+			para219{[]int{1}, 1},
+			ans219{false},
+		},
+
+		{
+			para219{[]int{1, 1}, 0},
+			ans219{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 219------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans219, q.para219
-		fmt.Printf("【input】:%v       【output】:%v\n", p, containsNearbyDuplicate(p.one, p.k))
+		a, p := q.ans219, q.para219
+		got := containsNearbyDuplicate(p.one, p.k)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -66,13 +66,32 @@ func Test_Problem925(t *testing.T) {
 			para925{"kikcxmvzi", "kiikcxxmmvvzz"},
 			ans925{false},
 		},
+
+		{
+			para925{"", ""},
+			ans925{true},
+		},
+
+		{
+			para925{"", "a"},
+			ans925{false},
+		},
+
+		{
+			para925{"a", ""},
+			ans925{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 925------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans925, q.para925
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isLongPressedName(p.name, p.typed))
+		a, p := q.ans925, q.para925
+		got := isLongPressedName(p.name, p.typed)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

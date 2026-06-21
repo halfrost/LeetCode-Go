@@ -45,6 +45,11 @@ func Test_Problem131(t *testing.T) {
 			para131{"abbab"},
 			ans131{[][]string{{"a", "b", "b", "a", "b"}, {"a", "b", "bab"}, {"a", "bb", "a", "b"}, {"abba", "b"}}},
 		},
+
+		{
+			para131{""},
+			ans131{[][]string{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 131------------------------\n")

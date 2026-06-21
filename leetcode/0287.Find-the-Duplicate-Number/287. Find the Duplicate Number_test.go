@@ -45,10 +45,22 @@ func Test_Problem287(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 287------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans287, q.para287
+		a, p := q.ans287, q.para287
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findDuplicate(p.one))
-		findDuplicate1(p.one)
-		findDuplicate2(p.one)
+		if got := findDuplicate1(p.one); got != a.one {
+			t.Fatalf("findDuplicate1(%v) = %v, want %v", p.one, got, a.one)
+		}
+		if got := findDuplicate2(p.one); got != a.one {
+			t.Fatalf("findDuplicate2(%v) = %v, want %v", p.one, got, a.one)
+		}
+	}
+
+	// 覆盖 findDuplicate2 的边界分支
+	if got := findDuplicate2([]int{}); got != 0 {
+		t.Fatalf("findDuplicate2(empty) = %v, want 0", got)
+	}
+	if got := findDuplicate2([]int{0}); got != 0 {
+		t.Fatalf("findDuplicate2([0]) = %v, want 0", got)
 	}
 	fmt.Printf("\n\n\n")
 }

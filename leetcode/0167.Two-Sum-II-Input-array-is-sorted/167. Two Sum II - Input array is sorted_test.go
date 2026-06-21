@@ -31,14 +31,31 @@ func Test_Problem167(t *testing.T) {
 			para167{[]int{2, 7, 11, 15}, 9},
 			ans167{[]int{1, 2}},
 		},
+		// 命中 j-- 分支：初始 numbers[i]+numbers[j] > target
+		{
+			para167{[]int{2, 3, 4}, 6},
+			ans167{[]int{1, 3}},
+		},
+		// 无解：覆盖 return nil 分支
+		{
+			para167{[]int{1, 2, 3}, 100},
+			ans167{nil},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 167------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans167, q.para167
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, twoSum167(p.one, p.two))
-		twoSum167_1(p.one, p.two)
+		a, p := q.ans167, q.para167
+		got := twoSum167(p.one, p.two)
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, got)
+		if fmt.Sprintf("%v", got) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("twoSum167(%v, %v) = %v, want %v", p.one, p.two, got, a.one)
+		}
+		got1 := twoSum167_1(p.one, p.two)
+		if fmt.Sprintf("%v", got1) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("twoSum167_1(%v, %v) = %v, want %v", p.one, p.two, got1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

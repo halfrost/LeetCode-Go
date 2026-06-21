@@ -35,13 +35,42 @@ func Test_Problem306(t *testing.T) {
 			para306{"199100199"},
 			ans306{true},
 		},
+
+		{
+			para306{"12"},
+			ans306{false},
+		},
+
+		{
+			para306{"1023"},
+			ans306{false},
+		},
+
+		{
+			para306{"100203"},
+			ans306{false},
+		},
+
+		{
+			para306{"1991001990"},
+			ans306{false},
+		},
+
+		{
+			para306{"01234"},
+			ans306{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 306------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans306, q.para306
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isAdditiveNumber(p.one))
+		a, p := q.ans306, q.para306
+		got := isAdditiveNumber(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

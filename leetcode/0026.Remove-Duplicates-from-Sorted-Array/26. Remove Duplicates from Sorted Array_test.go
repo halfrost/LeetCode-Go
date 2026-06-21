@@ -22,9 +22,20 @@ type ans26 struct {
 	one int
 }
 
+func clone26(nums []int) []int {
+	c := make([]int, len(nums))
+	copy(c, nums)
+	return c
+}
+
 func Test_Problem26(t *testing.T) {
 
 	qs := []question26{
+
+		{
+			para26{[]int{}},
+			ans26{0},
+		},
 
 		{
 			para26{[]int{1, 1, 2}},
@@ -50,9 +61,26 @@ func Test_Problem26(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 26------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans26, q.para26
-		fmt.Printf("【input】:%v    【output】:%v\n", p.one, removeDuplicates(p.one))
-		removeDuplicates1(p.one)
+		a, p := q.ans26, q.para26
+		got := removeDuplicates(clone26(p.one))
+		if got != a.one {
+			t.Fatalf("removeDuplicates(%v) = %v, want %v", p.one, got, a.one)
+		}
+		got1 := removeDuplicates1(clone26(p.one))
+		if got1 != a.one {
+			t.Fatalf("removeDuplicates1(%v) = %v, want %v", p.one, got1, a.one)
+		}
+		fmt.Printf("【input】:%v    【output】:%v\n", p.one, got)
 	}
+
+	// directly exercise removeElement1 helper, covering empty input,
+	// the equal-index branch and the swap branch.
+	if removeElement1([]int{}, 0, 0) != 0 {
+		t.Fatalf("removeElement1 empty should return 0")
+	}
+	if removeElement1([]int{2, 1, 3, 1, 4}, 0, 1) != 3 {
+		t.Fatalf("removeElement1 unexpected result")
+	}
+
 	fmt.Printf("\n\n\n")
 }

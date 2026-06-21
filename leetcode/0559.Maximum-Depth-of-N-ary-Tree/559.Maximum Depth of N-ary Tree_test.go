@@ -48,13 +48,22 @@ func Test_Problem559(t *testing.T) {
 			}},
 			ans559{5},
 		},
+
+		{
+			para559{nil},
+			ans559{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 559------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans559, q.para559
-		fmt.Printf("【input】:%v    【output】:%v\n", p, maxDepth(p.root))
+		a, p := q.ans559, q.para559
+		out := maxDepth(p.root)
+		fmt.Printf("【input】:%v    【output】:%v\n", p, out)
+		if out != a.ans {
+			t.Fatalf("expected %v, got %v", a.ans, out)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -58,7 +58,33 @@ func Test_Problem385(t *testing.T) {
 		_, p := q.ans385, q.para385
 		fmt.Printf("【input】:%v       【output】: \n", p)
 		fmt.Printf("NestedInteger = ")
-		deserialize(p.n).Print()
+		ni := deserialize(p.n)
+		ni.Print()
+
+		// exercise NestedInteger interface methods
+		if ni.IsInteger() {
+			if ni.GetInteger() != ni.Num {
+				t.Fatalf("GetInteger mismatch: got %v, want %v", ni.GetInteger(), ni.Num)
+			}
+		}
+	}
+
+	// exercise Add, IsInteger, GetInteger explicitly
+	parent := &NestedInteger{}
+	child := NestedInteger{}
+	child.SetInteger(42)
+	if !child.IsInteger() {
+		t.Fatalf("expected child to be integer")
+	}
+	if child.GetInteger() != 42 {
+		t.Fatalf("GetInteger mismatch: got %v, want 42", child.GetInteger())
+	}
+	parent.Add(child)
+	if parent.IsInteger() {
+		t.Fatalf("expected parent to be a list after Add")
+	}
+	if len(parent.GetList()) != 1 {
+		t.Fatalf("expected list length 1, got %v", len(parent.GetList()))
 	}
 	fmt.Printf("\n\n\n")
 }

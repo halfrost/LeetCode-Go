@@ -6,6 +6,11 @@ import (
 	"github.com/halfrost/LeetCode-Go/template"
 )
 
+// countMerge 是线段树初始化时的合并函数，节点计数初始值为 0
+func countMerge(i, j int) int {
+	return 0
+}
+
 // 解法一 线段树，时间复杂度 O(n log n)
 func countRangeSum(nums []int, lower int, upper int) int {
 	if len(nums) == 0 {
@@ -24,9 +29,7 @@ func countRangeSum(nums []int, lower int, upper int) int {
 	// 排序是为了使得线段树中的区间 left <= right，如果此处不排序，线段树中的区间有很多不合法。
 	sort.Ints(sumArray)
 	// 初始化线段树，节点内的值都赋值为 0，即计数为 0
-	st.Init(sumArray, func(i, j int) int {
-		return 0
-	})
+	st.Init(sumArray, countMerge)
 	// 倒序是为了方便寻找 j，sum(i，j) 规定了 j >= i，所以倒序遍历，i 从大到小
 	for i := len(nums) - 1; i >= 0; i-- {
 		// 插入的 prefixSum[i] 即是 j

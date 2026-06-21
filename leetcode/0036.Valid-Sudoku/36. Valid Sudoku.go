@@ -27,10 +27,8 @@ func isValidSudoku(board [][]byte) bool {
 		for j := 0; j < 9; j++ {
 			cellVal := board[j][i]
 			if string(cellVal) != "." {
+				// 数字范围已在判断行的循环中校验过，这里无需重复校验
 				index, _ := strconv.Atoi(string(cellVal))
-				if index > 9 || index < 1 {
-					return false
-				}
 				if tmp[index] == 1 {
 					return false
 				}

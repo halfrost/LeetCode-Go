@@ -30,6 +30,11 @@ func Test_Problem500(t *testing.T) {
 			para500{[]string{"Hello", "Alaska", "Dad", "Peace"}},
 			ans500{[]string{"Alaska", "Dad"}},
 		},
+
+		{
+			para500{[]string{"", "qwe", "asd"}},
+			ans500{[]string{"qwe", "asd"}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 500------------------------\n")

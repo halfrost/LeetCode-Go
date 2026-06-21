@@ -30,13 +30,29 @@ func Test_Problem1128(t *testing.T) {
 			para1128{[][]int{{1, 2}, {2, 1}, {3, 4}, {5, 6}}},
 			ans1128{1},
 		},
+		{
+			para1128{[][]int{{1, 2}, {1, 2}, {1, 1}, {1, 2}, {2, 2}}},
+			ans1128{3},
+		},
+		{
+			para1128{[][]int{}},
+			ans1128{0},
+		},
+		{
+			para1128{nil},
+			ans1128{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1128------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1128, q.para1128
-		fmt.Printf("【input】:%v       【output】:%v\n", p, numEquivDominoPairs(p.dominoes))
+		a, p := q.ans1128, q.para1128
+		got := numEquivDominoPairs(p.dominoes)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p.dominoes, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

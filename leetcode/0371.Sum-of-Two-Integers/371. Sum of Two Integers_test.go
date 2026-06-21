@@ -36,14 +36,28 @@ func Test_Problem371(t *testing.T) {
 			para371{-2, 3},
 			ans371{1},
 		},
+
+		{
+			para371{0, 5},
+			ans371{5},
+		},
+
+		{
+			para371{7, 0},
+			ans371{7},
+		},
 		// 如需多个测试，可以复制上方元素。
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 371------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans371, q.para371
-		fmt.Printf("【input】:%v       【output】:%v\n", p, getSum(p.a, p.b))
+		a, p := q.ans371, q.para371
+		got := getSum(p.a, p.b)
+		if got != a.one {
+			t.Fatalf("input %v: expected %v, got %v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

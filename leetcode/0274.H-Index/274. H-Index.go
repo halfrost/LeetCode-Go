@@ -11,14 +11,15 @@ func hIndex(citations []int) int {
 			buckets[c]++
 		}
 	}
-	count := 0
+	count, res := 0, 0
 	for i := n; i >= 0; i-- {
 		count += buckets[i]
 		if count >= i {
-			return i
+			res = i
+			break
 		}
 	}
-	return 0
+	return res
 }
 
 // 解法二

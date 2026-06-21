@@ -54,6 +54,9 @@ func Test_Problem352(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 352------------------------\n")
 
 	obj := Constructor()
+	if empty := obj.GetIntervals(); empty != nil {
+		t.Fatalf("expected empty intervals on fresh constructor, got %v", empty)
+	}
 	for _, q := range qs {
 		_, p := q.ans352, q.para352
 		obj.AddNum(p.num)

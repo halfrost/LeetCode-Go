@@ -44,6 +44,11 @@ func Test_Problem1040(t *testing.T) {
 			para1040{[]int{1, 3, 5, 7, 10}},
 			ans1040{[]int{2, 4}},
 		},
+
+		{
+			para1040{[]int{}},
+			ans1040{[]int{0, 0}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1040------------------------\n")

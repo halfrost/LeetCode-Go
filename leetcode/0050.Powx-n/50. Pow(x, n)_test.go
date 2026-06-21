@@ -41,6 +41,11 @@ func Test_Problem50(t *testing.T) {
 			para50{2.00000, -2},
 			ans50{0.25000},
 		},
+
+		{
+			para50{2.00000, 0},
+			ans50{1.00000},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 50------------------------\n")

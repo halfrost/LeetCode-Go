@@ -44,6 +44,11 @@ func Test_Problem53(t *testing.T) {
 			para53{[]int{-1, -2}},
 			ans53{-1},
 		},
+
+		{
+			para53{[]int{}},
+			ans53{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 53------------------------\n")
@@ -51,7 +56,9 @@ func Test_Problem53(t *testing.T) {
 	for _, q := range qs {
 		_, p := q.ans53, q.para53
 		fmt.Printf("【input】:%v       【output】:%v\n", p, maxSubArray(p.one))
-		maxSubArray1(p.one)
+		if len(p.one) > 0 {
+			maxSubArray1(p.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

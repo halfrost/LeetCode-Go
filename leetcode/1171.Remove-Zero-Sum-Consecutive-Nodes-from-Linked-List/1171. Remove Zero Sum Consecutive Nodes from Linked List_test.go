@@ -47,6 +47,11 @@ func Test_Problem1171(t *testing.T) {
 			para1171{[]int{1, -1}},
 			ans1171{[]int{}},
 		},
+
+		{
+			para1171{[]int{}},
+			ans1171{[]int{}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1171------------------------\n")

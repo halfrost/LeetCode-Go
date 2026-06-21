@@ -145,6 +145,12 @@ func (sat *SegmentAreaTree) queryInTree(treeIndex, left, right, queryLeft, query
 		}
 		return 0
 	}
+	if left == right-1 { // leaf node partially overlapped by the query range
+		if sat.tree[treeIndex].count > 0 {
+			return sat.tree[treeIndex].val
+		}
+		return 0
+	}
 	if queryLeft > midTreeIndex {
 		return sat.queryInTree(rightTreeIndex, midTreeIndex, right, queryLeft, queryRight)
 	} else if queryRight <= midTreeIndex {

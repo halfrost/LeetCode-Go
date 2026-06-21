@@ -48,5 +48,10 @@ func Test_Problem969(t *testing.T) {
 		_, p := q.ans969, q.para969
 		fmt.Printf("【input】:%v       【output】:%v\n", p, pancakeSort(p.one))
 	}
+
+	// cover the not-found branch of find
+	if got := find([]int{1, 2, 3}, 4); got != -1 {
+		t.Fatalf("find not-found expected -1, got %d", got)
+	}
 	fmt.Printf("\n\n\n")
 }

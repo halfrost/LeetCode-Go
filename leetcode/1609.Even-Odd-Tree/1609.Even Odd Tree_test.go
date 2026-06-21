@@ -52,6 +52,37 @@ func Test_Problem1609(t *testing.T) {
 		},
 
 		{
+			// root even -> even() returns false at line 59-61
+			para1609{&TreeNode{2, nil, nil}},
+			ans1609{false},
+		},
+
+		{
+			// level 0 ok (root 1 odd), level 1 (odd level) has num >= cur -> odd() line 46-48
+			para1609{&TreeNode{1,
+				&TreeNode{4, nil, nil},
+				&TreeNode{6, nil, nil}}},
+			ans1609{false},
+		},
+
+		{
+			// level 1 (odd level) decreasing but has odd value -> odd() line 49-51
+			para1609{&TreeNode{1,
+				&TreeNode{8, nil, nil},
+				&TreeNode{5, nil, nil}}},
+			ans1609{false},
+		},
+
+		{
+			// level 2 (even level) increasing but has even value -> even() line 66-68
+			// level0: 1 (odd ok); level1: 4,2 (odd level: even & decreasing ok); level2: 3,6 (even level: 6 even -> false)
+			para1609{&TreeNode{1,
+				&TreeNode{4, &TreeNode{3, nil, nil}, nil},
+				&TreeNode{2, &TreeNode{6, nil, nil}, nil}}},
+			ans1609{false},
+		},
+
+		{
 			para1609{&TreeNode{11,
 				&TreeNode{8,
 					&TreeNode{1, &TreeNode{30, &TreeNode{17, nil, nil}, nil}, &TreeNode{20, nil, nil}},

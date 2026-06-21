@@ -39,6 +39,11 @@ func Test_Problem383(t *testing.T) {
 			para383{"aa", "aab"},
 			ans383{true},
 		},
+
+		{
+			para383{"aab", "aa"},
+			ans383{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 383------------------------\n")

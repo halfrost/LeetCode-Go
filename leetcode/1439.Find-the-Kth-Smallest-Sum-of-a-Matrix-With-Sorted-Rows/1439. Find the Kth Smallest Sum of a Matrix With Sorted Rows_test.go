@@ -44,13 +44,33 @@ func Test_Problem1439(t *testing.T) {
 			para1439{[][]int{{1, 1, 10}, {2, 2, 9}}, 7},
 			ans1439{12},
 		},
+		{
+			para1439{[][]int{}, 5},
+			ans1439{0},
+		},
+		{
+			para1439{[][]int{{1, 3, 5}}, 0},
+			ans1439{0},
+		},
+		{
+			para1439{[][]int{{1, 3, 5}}, 1},
+			ans1439{-1},
+		},
+		{
+			para1439{[][]int{{1, 3, 5}, {}}, 1},
+			ans1439{-1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1439------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1439, q.para1439
-		fmt.Printf("【input】:%v       【output】:%v\n", p, kthSmallest(p.mat, p.k))
+		a, p := q.ans1439, q.para1439
+		got := kthSmallest(p.mat, p.k)
+		if got != a.one {
+			t.Fatalf("input:%v expected:%v got:%v", p, a.one, got)
+		}
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -10,9 +10,7 @@ func oddEvenJumps(A []int) int {
 		for j := i + 1; j < len(A); j++ {
 			if v, ok := oddJumpMap[i]; ok {
 				if A[i] <= A[j] && A[j] <= A[v] {
-					if A[j] == A[v] && j < oddJumpMap[i] {
-						oddJumpMap[i] = j
-					} else if A[j] < A[v] {
+					if A[j] < A[v] {
 						oddJumpMap[i] = j
 					}
 				}
@@ -27,9 +25,7 @@ func oddEvenJumps(A []int) int {
 		for j := i + 1; j < len(A); j++ {
 			if v, ok := evenJumpMap[i]; ok {
 				if A[i] >= A[j] && A[j] >= A[v] {
-					if A[j] == A[v] && j < evenJumpMap[i] {
-						evenJumpMap[i] = j
-					} else if A[j] > A[v] {
+					if A[j] > A[v] {
 						evenJumpMap[i] = j
 					}
 				}

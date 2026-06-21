@@ -37,13 +37,21 @@ func Test_Problem223(t *testing.T) {
 			para223{-3, 0, 3, 4, 0, -1, 9, 2},
 			ans223{45},
 		},
+		{
+			para223{0, 0, 1, 1, 2, 2, 3, 3},
+			ans223{2},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 223------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans223, q.para223
-		fmt.Printf("【input】:%v       【output】:%v\n", p, computeArea(p.A, p.B, p.C, p.D, p.E, p.F, p.G, p.H))
+		a, p := q.ans223, q.para223
+		got := computeArea(p.A, p.B, p.C, p.D, p.E, p.F, p.G, p.H)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", p, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

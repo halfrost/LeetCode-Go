@@ -52,13 +52,30 @@ func Test_Problem63(t *testing.T) {
 			}},
 			ans63{0},
 		},
+
+		{
+			para63{[][]int{}},
+			ans63{0},
+		},
+
+		{
+			para63{[][]int{
+				{1, 0},
+				{0, 0},
+			}},
+			ans63{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 63------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans63, q.para63
-		fmt.Printf("【input】:%v       【output】:%v\n", p, uniquePathsWithObstacles(p.og))
+		a, p := q.ans63, q.para63
+		got := uniquePathsWithObstacles(p.og)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input: %v, expected: %v, got: %v", p, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

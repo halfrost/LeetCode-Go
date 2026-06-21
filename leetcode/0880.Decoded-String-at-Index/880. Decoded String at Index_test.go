@@ -56,6 +56,11 @@ func Test_Problem880(t *testing.T) {
 			para880{"y959q969u3hb22odq595", 222280369},
 			ans880{"q"},
 		},
+
+		{
+			para880{"", 1},
+			ans880{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 880------------------------\n")

@@ -39,6 +39,11 @@ func Test_Problem451(t *testing.T) {
 			para451{"Aabb"},
 			ans451{"bbAa"},
 		},
+
+		{
+			para451{""},
+			ans451{""},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 451------------------------\n")

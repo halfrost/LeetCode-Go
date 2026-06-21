@@ -37,14 +37,26 @@ func Test_Problem658(t *testing.T) {
 			para658{[]int{1, 2, 3, 4, 5}, 4, -1},
 			ans658{[]int{1, 2, 3, 4}},
 		},
+
+		{
+			para658{[]int{1, 2, 3, 4, 5}, 4, 100},
+			ans658{[]int{2, 3, 4, 5}},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 658------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans658, q.para658
-		fmt.Printf("【input】:%v       【output】:%v\n", p, findClosestElements(p.arr, p.k, p.x))
-		findClosestElements1(p.arr, p.k, p.x)
+		a, p := q.ans658, q.para658
+		out := findClosestElements(p.arr, p.k, p.x)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, out)
+		out1 := findClosestElements1(p.arr, p.k, p.x)
+		if fmt.Sprintf("%v", out) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("findClosestElements(%v) = %v, want %v", p, out, a.one)
+		}
+		if fmt.Sprintf("%v", out1) != fmt.Sprintf("%v", a.one) {
+			t.Fatalf("findClosestElements1(%v) = %v, want %v", p, out1, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

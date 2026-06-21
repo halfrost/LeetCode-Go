@@ -40,14 +40,24 @@ func Test_Problem1649(t *testing.T) {
 			para1649{[]int{1, 3, 3, 3, 2, 4, 2, 1, 2}},
 			ans1649{4},
 		},
+
+		{
+			para1649{[]int{}},
+			ans1649{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1649------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1649, q.para1649
+		a, p := q.ans1649, q.para1649
 		fmt.Printf("【input】:%v      【output】:%v      \n", p, createSortedArray(p.instructions))
-		createSortedArray1(p.instructions)
+		if got := createSortedArray(p.instructions); got != a.one {
+			t.Fatalf("createSortedArray(%v) = %v, want %v", p.instructions, got, a.one)
+		}
+		if got := createSortedArray1(p.instructions); got != a.one {
+			t.Fatalf("createSortedArray1(%v) = %v, want %v", p.instructions, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

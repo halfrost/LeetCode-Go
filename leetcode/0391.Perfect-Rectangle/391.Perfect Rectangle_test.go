@@ -43,13 +43,22 @@ func Test_Problem391(t *testing.T) {
 			para391{[][]int{{1, 1, 3, 3}, {3, 1, 4, 2}, {1, 3, 2, 4}, {2, 2, 4, 4}}},
 			ans391{false},
 		},
+
+		{
+			para391{[][]int{{0, 0, 1, 1}, {0, 1, 1, 2}, {0, 1, 1, 3}, {0, 1, 2, 2}, {1, 0, 2, 1}, {2, 0, 3, 1}, {2, 2, 3, 3}}},
+			ans391{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 391------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans391, q.para391
-		fmt.Printf("【input】:%v       【output】:%v\n", p, isRectangleCover(p.rectangles))
+		a, p := q.ans391, q.para391
+		got := isRectangleCover(p.rectangles)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.ans {
+			t.Fatalf("input %v expected %v got %v", p, a.ans, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

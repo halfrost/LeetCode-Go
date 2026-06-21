@@ -65,15 +65,33 @@ func Test_Problem153(t *testing.T) {
 			para153{[]int{4, 5, 6, 7, 0, 1, 2}},
 			ans153{0},
 		},
+
+		{
+			para153{[]int{3, 3, 1, 3}},
+			ans153{1},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 153------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans153, q.para153
+		a, p := q.ans153, q.para153
 		fmt.Printf("【input】:%v    【output】:%v\n", p, findMin(p.nums))
-		findMin1(p.nums)
-		findMin2(p.nums)
+		if got := findMin1(p.nums); got != a.one {
+			t.Fatalf("findMin1(%v) = %v, want %v", p.nums, got, a.one)
+		}
+		if got := findMin2(p.nums); got != a.one {
+			t.Fatalf("findMin2(%v) = %v, want %v", p.nums, got, a.one)
+		}
+	}
+
+	// 覆盖 findMin1 的空输入分支
+	if got := findMin1([]int{}); got != 0 {
+		t.Fatalf("findMin1([]) = %v, want 0", got)
+	}
+	// 覆盖 findMin1 全相等输入的兜底分支（题目保证元素唯一，此为非法输入）
+	if got := findMin1([]int{2, 2, 2}); got != -1 {
+		t.Fatalf("findMin1([2,2,2]) = %v, want -1", got)
 	}
 	fmt.Printf("\n\n\n")
 }

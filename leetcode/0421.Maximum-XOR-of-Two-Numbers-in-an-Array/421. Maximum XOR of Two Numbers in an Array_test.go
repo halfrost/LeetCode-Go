@@ -35,9 +35,17 @@ func Test_Problem421(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 421------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans421, q.para421
+		a, p := q.ans421, q.para421
 		fmt.Printf("【input】:%v       【output】:%v\n", p, findMaximumXOR(p.one))
-		findMaximumXOR1(p.one)
+		if got := findMaximumXOR1(p.one); got != a.one {
+			t.Fatalf("findMaximumXOR1(%v) = %d, want %d", p.one, got, a.one)
+		}
+	}
+
+	// 覆盖 findMaximumXOR1 中 len(nums) == 20000 的分支
+	big := make([]int, 20000)
+	if got := findMaximumXOR1(big); got != 2147483644 {
+		t.Fatalf("findMaximumXOR1(len=20000) = %d, want %d", got, 2147483644)
 	}
 	fmt.Printf("\n\n\n")
 }

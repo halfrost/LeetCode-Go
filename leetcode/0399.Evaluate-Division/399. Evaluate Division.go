@@ -14,21 +14,13 @@ func (suf stringUnionFind) add(x string) {
 }
 
 func (suf stringUnionFind) find(x string) string {
-	p := ""
-	if v, ok := suf.parents[x]; ok {
-		p = v
-	} else {
-		p = x
-	}
+	p := suf.parents[x]
 	if x != p {
 		pp := suf.find(p)
 		suf.vals[x] *= suf.vals[p]
 		suf.parents[x] = pp
 	}
-	if v, ok := suf.parents[x]; ok {
-		return v
-	}
-	return x
+	return suf.parents[x]
 }
 
 func (suf stringUnionFind) union(x, y string, v float64) {

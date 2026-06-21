@@ -32,6 +32,14 @@ func Test_Problem213(t *testing.T) {
 		},
 
 		{
+			para213{[]int{}},
+			ans213{0},
+		},
+		{
+			para213{[]int{5}},
+			ans213{5},
+		},
+		{
 			para213{[]int{2, 3, 2}},
 			ans213{3},
 		},

@@ -100,6 +100,26 @@ func Test_Problem1670(t *testing.T) {
 	fmt.Printf("obj = %v %v\n", MList2Ints(&obj), obj)
 	// 	["FrontMiddleBackQueue","popMiddle","pushMiddle","pushFront","pushMiddle","pushMiddle","popMiddle","pushMiddle","popMiddle","pushMiddle"]
 	// [[],[],[3],[6],[6],[3],[],[7],[],[8]]
+	fmt.Printf("-----------------------------------------------------------------\n")
+	obj = Constructor()
+	// PushBack onto empty queue: covers middle == nil branch in PushBack
+	obj.PushBack(1)
+	fmt.Printf("obj = %v\n", MList2Ints(&obj))
+	// PushBack to make odd length so middle advances via Next: covers else-if branch in PushBack
+	obj.PushBack(2)
+	fmt.Printf("obj = %v\n", MList2Ints(&obj))
+	obj.PushBack(3)
+	fmt.Printf("obj = %v\n", MList2Ints(&obj))
+	// PopFront down to single element then pop it: covers Len()==1 branch in PopFront
+	param1 = obj.PopFront()
+	fmt.Printf("param1 = %v obj = %v\n", param1, MList2Ints(&obj))
+	param1 = obj.PopFront()
+	fmt.Printf("param1 = %v obj = %v\n", param1, MList2Ints(&obj))
+	param1 = obj.PopFront()
+	if param1 != 3 {
+		t.Fatalf("expected last PopFront to return 3, got %v", param1)
+	}
+	fmt.Printf("param1 = %v obj = %v\n", param1, MList2Ints(&obj))
 }
 
 func MList2Ints(this *FrontMiddleBackQueue) []int {

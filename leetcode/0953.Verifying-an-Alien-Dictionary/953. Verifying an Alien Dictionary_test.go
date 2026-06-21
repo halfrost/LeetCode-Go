@@ -40,6 +40,11 @@ func Test_Problem953(t *testing.T) {
 			para953{[]string{"apple", "app"}, "abcdefghijklmnopqrstuvwxyz"},
 			ans953{false},
 		},
+
+		{
+			para953{[]string{"apple"}, "abcdefghijklmnopqrstuvwxyz"},
+			ans953{true},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 953------------------------\n")

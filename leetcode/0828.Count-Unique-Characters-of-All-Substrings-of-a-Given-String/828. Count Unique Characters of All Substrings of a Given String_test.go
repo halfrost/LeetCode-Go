@@ -45,14 +45,21 @@ func Test_Problem828(t *testing.T) {
 			para828{"ABAB"},
 			ans828{12},
 		},
+
+		{
+			para828{""},
+			ans828{0},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 828------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans828, q.para828
+		a, p := q.ans828, q.para828
 		fmt.Printf("【input】:%v       【output】:%v\n", p, uniqueLetterString(p.one))
-		uniqueLetterString1(p.one)
+		if got := uniqueLetterString1(p.one); got != a.one {
+			t.Fatalf("uniqueLetterString1(%q) = %d, want %d", p.one, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

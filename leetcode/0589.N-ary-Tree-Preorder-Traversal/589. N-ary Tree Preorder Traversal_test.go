@@ -48,6 +48,14 @@ func Test_Problem589(t *testing.T) {
 		fmt.Printf("【output】:%v      \n", preorder(rootOne))
 		preorder1(rootOne)
 	}
+
+	// 覆盖 root == nil 分支
+	if got := preorder(nil); len(got) != 0 {
+		t.Fatalf("preorder(nil) = %v, want empty", got)
+	}
+	if got := preorder1(nil); len(got) != 0 {
+		t.Fatalf("preorder1(nil) = %v, want empty", got)
+	}
 	fmt.Printf("\n\n\n")
 }
 

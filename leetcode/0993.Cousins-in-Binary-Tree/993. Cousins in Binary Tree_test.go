@@ -44,17 +44,35 @@ func Test_Problem993(t *testing.T) {
 			para993{[]int{1, 2, 3, structures.NULL, 4}, 2, 3},
 			ans993{false},
 		},
+
+		{
+			para993{[]int{}, 1, 2},
+			ans993{false},
+		},
+
+		{
+			para993{[]int{1, 2, 3, 4}, 4, 9},
+			ans993{false},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 993------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans993, q.para993
+		a, p := q.ans993, q.para993
 		fmt.Printf("【input】:%v      ", p)
 		root := structures.Ints2TreeNode(p.one)
-		fmt.Printf("【output】:%v      \n", isCousins(root, p.x, p.y))
-		isCousinsBFS(root, p.x, p.y)
-		isCousinsDFS(root, p.x, p.y)
+		got := isCousins(root, p.x, p.y)
+		fmt.Printf("【output】:%v      \n", got)
+		if got != a.one {
+			t.Fatalf("isCousins(%v, %d, %d) = %v, want %v", p.one, p.x, p.y, got, a.one)
+		}
+		if gotBFS := isCousinsBFS(root, p.x, p.y); gotBFS != a.one {
+			t.Fatalf("isCousinsBFS(%v, %d, %d) = %v, want %v", p.one, p.x, p.y, gotBFS, a.one)
+		}
+		if gotDFS := isCousinsDFS(root, p.x, p.y); gotDFS != a.one {
+			t.Fatalf("isCousinsDFS(%v, %d, %d) = %v, want %v", p.one, p.x, p.y, gotDFS, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

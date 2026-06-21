@@ -40,6 +40,11 @@ func Test_Problem1017(t *testing.T) {
 			para1017{4},
 			ans1017{"110"},
 		},
+
+		{
+			para1017{0},
+			ans1017{"0"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1017------------------------\n")

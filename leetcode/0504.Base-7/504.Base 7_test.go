@@ -33,14 +33,23 @@ func Test_Problem504(t *testing.T) {
 			para504{-7},
 			ans504{"-10"},
 		},
+
+		{
+			para504{0},
+			ans504{"0"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 504------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans504, q.para504
+		a, p := q.ans504, q.para504
 		fmt.Printf("【input】:%v      ", p.num)
-		fmt.Printf("【output】:%v      \n", convertToBase7(p.num))
+		out := convertToBase7(p.num)
+		fmt.Printf("【output】:%v      \n", out)
+		if out != a.ans {
+			t.Fatalf("input %v, expected %v, got %v", p.num, a.ans, out)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

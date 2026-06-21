@@ -30,6 +30,11 @@ func Test_Problem810(t *testing.T) {
 			para810{[]int{1, 1, 2}},
 			ans810{false},
 		},
+
+		{
+			para810{[]int{1, 2}},
+			ans810{true},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 810------------------------\n")

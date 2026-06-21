@@ -40,13 +40,32 @@ func Test_Problem1736(t *testing.T) {
 			para1736{"1?:22"},
 			ans1736{"19:22"},
 		},
+
+		{
+			para1736{"?4:00"},
+			ans1736{"14:00"},
+		},
+
+		{
+			para1736{"?3:00"},
+			ans1736{"23:00"},
+		},
+
+		{
+			para1736{"??:??"},
+			ans1736{"23:59"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 1736------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans1736, q.para1736
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maximumTime(p.time))
+		a, p := q.ans1736, q.para1736
+		got := maximumTime(p.time)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: got %v, want %v", p.time, got, a.one)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

@@ -36,6 +36,11 @@ func Test_Problem67(t *testing.T) {
 			para67{"1010", "1011"},
 			ans67{"10101"},
 		},
+
+		{
+			para67{"1", "111"},
+			ans67{"1000"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 67------------------------\n")

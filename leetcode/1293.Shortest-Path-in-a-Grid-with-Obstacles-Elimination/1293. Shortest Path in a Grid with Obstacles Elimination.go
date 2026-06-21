@@ -37,13 +37,6 @@ func shortestPath(grid [][]int, k int) int {
 				newX := node.x + dir[i][0]
 				newY := node.y + dir[i][1]
 				if newX == m-1 && newY == n-1 {
-					if node.obstacle != 0 {
-						if node.obstacle <= k {
-							return node.step + 1
-						} else {
-							continue
-						}
-					}
 					return node.step + 1
 				}
 				if isInBoard(grid, newX, newY) {

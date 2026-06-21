@@ -14,6 +14,8 @@ func Test_Problem211(t *testing.T) {
 	fmt.Printf("obj = %v\n", obj)
 	obj.AddWord("mad")
 	fmt.Printf("obj = %v\n", obj)
+	obj.AddWord("bat")
+	fmt.Printf("obj = %v\n", obj)
 
 	param1 := obj.Search("pad")
 	fmt.Printf("param_1 = %v obj = %v\n", param1, obj)
