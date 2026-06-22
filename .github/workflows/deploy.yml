@@ -51,3 +51,40 @@ jobs:
           -e "ssh -i ~/.ssh/deploy_key -p ${SERVER_PORT:-22} -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o PubkeyAcceptedAlgorithms=+ssh-rsa" \
           ./website/public/ \
           "${SSH_USERNAME}@${SSH_HOST}:${SERVER_DESTINATION:-/var/www/books/leetcode/}"
+
+  word-count:   # 重新统计总字数并把 README 里的徽章数字刷新、自动提交回仓库
+    # 只在 master 上跑（add_hugo 等分支不自动改 README）。
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 需要写权限才能 commit & push 回仓库
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Compute total word count   # 跑仓库自带脚本（标准库即可，ubuntu-latest 自带 python3）
+      id: wc
+      run: |
+        COUNT=$(python3 website/content/ChapterFour/pytool/WordCount.py | awk '/total word count/{print $NF}')
+        # 防御：脚本异常时不要用空值/非数字去覆盖徽章
+        if ! echo "$COUNT" | grep -qE '^[0-9]+$'; then
+          echo "WordCount.py 未返回有效数字：'$COUNT'"; exit 1
+        fi
+        echo "total word count = $COUNT"
+        echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+    - name: Update badge & commit if changed
+      run: |
+        # 只替换 README 里 Total Word Count 徽章的数字部分
+        COUNT="${{ steps.wc.outputs.count }}"
+        sed -i -E "s#(Total%20Word%20Count-)[0-9]+(-success)#\1${COUNT}\2#" README.md
+        if git diff --quiet -- README.md; then
+          echo "徽章已是最新（${COUNT}），无需提交。"
+        else
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # [skip ci]：这次只改 README 的自动提交不必再触发任何 workflow（deploy 已 paths-ignore，
+          # 但 test.yml 没有，所以统一用 skip ci 防止多余构建，也彻底杜绝循环触发）。
+          git commit -m "chore: update Total Word Count badge to ${COUNT} [skip ci]"
+          git push
+        fi
