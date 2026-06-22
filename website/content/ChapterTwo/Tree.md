@@ -94,10 +94,3 @@ weight: 6
 |1609|Even Odd Tree|[Go]({{< relref "/ChapterFour/1600~1699/1609.Even-Odd-Tree.md" >}})|Medium||||54.3%|
 |2096|Step-By-Step Directions From a Binary Tree Node to Another|[Go]({{< relref "/ChapterFour/2000~2099/2096.Step-By-Step-Directions-From-a-Binary-Tree-Node-to-Another.md" >}})|Medium||||48.4%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
-
-
-----------------------------------------------
-<div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Stack/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Dynamic_Programming/">下一页➡️</a></p>
-</div>

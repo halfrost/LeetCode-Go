@@ -30,13 +30,37 @@ func Test_Problem85(t *testing.T) {
 			para85{[][]byte{{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}}},
 			ans85{6},
 		},
+
+		{
+			para85{[][]byte{}},
+			ans85{0},
+		},
+
+		{
+			para85{[][]byte{{'0'}}},
+			ans85{0},
+		},
+
+		{
+			para85{[][]byte{{'1'}}},
+			ans85{1},
+		},
+
+		{
+			para85{[][]byte{{'1', '1'}, {'1', '1'}}},
+			ans85{4},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 85------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans85, q.para85
-		fmt.Printf("【input】:%v       【output】:%v\n", p, maximalRectangle(p.one))
+		a, p := q.ans85, q.para85
+		got := maximalRectangle(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %v: expected %v, got %v", p.one, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

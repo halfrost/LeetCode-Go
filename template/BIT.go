@@ -28,12 +28,15 @@ func (bit *BinaryIndexedTree) Query(index int) int {
 }
 
 // InitWithNums define
+// O(n) 建树：先把 nums[i-1] 放到 tree[i]，再把 tree[i] 整体累加到父节点 i+lowbit(i)。
+// 比原先逐个节点向左累加的写法（总复杂度 O(n log n)）更快。
 func (bit *BinaryIndexedTree) InitWithNums(nums []int) {
-	bit.tree, bit.capacity = make([]int, len(nums)+1), len(nums)
-	for i := 1; i <= len(nums); i++ {
+	n := len(nums)
+	bit.tree, bit.capacity = make([]int, n+1), n
+	for i := 1; i <= n; i++ {
 		bit.tree[i] += nums[i-1]
-		for j := i - 2; j >= i-lowbit(i); j-- {
-			bit.tree[i] += nums[j]
+		if parent := i + lowbit(i); parent <= n {
+			bit.tree[parent] += bit.tree[i]
 		}
 	}
 }

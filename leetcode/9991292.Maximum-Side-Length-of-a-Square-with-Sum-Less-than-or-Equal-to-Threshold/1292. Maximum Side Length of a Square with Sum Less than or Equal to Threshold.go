@@ -1,48 +1,31 @@
 package leetcode
 
+// 解法一 二维前缀和。sum[i+1][j+1] 表示左上角到 (i,j) 的矩形和。
+// 边长 ans 从 0 开始递增：每次检查是否存在一个边长为 ans+1、且和不超过 threshold 的正方形，
+// 存在就把 ans 加一。由于答案具有单调性，整体相当于一次扫描，时间复杂度 O(m*n)。
 func maxSideLength(mat [][]int, threshold int) int {
-	return 0
-	// m, n, sum := len(mat), len(mat[0]), make([][]int, len(mat[0])+1, len(mat[0])+1)
-	// for i := range sum {
-	// 	sum[i] = make([]int, n+1, n+1)
-	// }
-	// for i := 0; i < m; i++ {
-	// 	for j := 0; j < n; j++ {
-	// 		sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + mat[i][j]
-	// 	}
-	// }
-	// low, high := 0, min(m, n)
-	// for low < high {
-	// 	mid := low + (high-low)>>1
-	// 	if !inThreshold(&sum, threshold, mid) {
-	// 		high = mid + 1
-	// 	} else {
-	// 		low = mid
-	// 	}
-	// }
-	// if inThreshold(&sum, threshold, high) {
-	// 	return high
-	// }
-	// return low
+	m, n := len(mat), len(mat[0])
+	sum := make([][]int, m+1)
+	for i := range sum {
+		sum[i] = make([]int, n+1)
+	}
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			sum[i+1][j+1] = sum[i][j+1] + sum[i+1][j] - sum[i][j] + mat[i][j]
+		}
+	}
+	ans := 0
+	for i := 1; i <= m; i++ {
+		for j := 1; j <= n; j++ {
+			// 尝试以 (i,j) 为右下角、边长为 ans+1 的正方形
+			k := ans + 1
+			if i >= k && j >= k {
+				area := sum[i][j] - sum[i-k][j] - sum[i][j-k] + sum[i-k][j-k]
+				if area <= threshold {
+					ans++
+				}
+			}
+		}
+	}
+	return ans
 }
-
-// func min(a int, b int) int {
-// 	if a > b {
-// 		return b
-// 	}
-// 	return a
-// }
-
-// func inThreshold(sum *[][]int, threshold int, length int) bool {
-// 	for i := 1; i < len(*sum); i++ {
-// 		for j := 1; j < len((*sum)[0]); j++ {
-// 			if i < length || j < length {
-// 				continue
-// 			}
-// 			if (*sum)[i][j]+(*sum)[i-length][j-length]-(*sum)[i-length][j]-(*sum)[i][j-length] <= threshold {
-// 				return true
-// 			}
-// 		}
-// 	}
-// 	return false
-// }

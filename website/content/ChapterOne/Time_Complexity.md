@@ -130,10 +130,3 @@ int f(int n){
 
 
 > 关于更加复杂的递归的复杂度分析，请参考主定理。主定理中针对各种复杂情况都给出了正确的结论。
-
-
-----------------------------------------------
-<div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterOne/Algorithm/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/">下一章➡️</a></p>
-</div>

@@ -1,0 +1,22 @@
+{{ if .Content }}
+{{/* Hugo 0.74 quirk: within a weight-sorted section, .NextInSection points to the
+     LOWER-weight page (earlier in reading order) and .PrevInSection to the
+     higher-weight one (later). So map them to reading order explicitly. */}}
+{{ $earlier := .NextInSection }}
+{{ $later := .PrevInSection }}
+{{ if or $earlier $later }}
+<hr style="margin-top:2rem;" />
+<div class="book-prev-next" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:1rem 0;">
+  {{ with $earlier }}
+  <a class="flex align-center" href="{{ .RelPermalink }}" rel="prev" title="{{ partial "docs/title" . }}">⬅️ 上一页</a>
+  {{ else }}
+  <span></span>
+  {{ end }}
+  {{ with $later }}
+  <a class="flex align-center" href="{{ .RelPermalink }}" rel="next" style="margin-left:auto;" title="{{ partial "docs/title" . }}">下一页 ➡️</a>
+  {{ else }}
+  <span></span>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

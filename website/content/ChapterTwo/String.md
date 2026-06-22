@@ -190,10 +190,3 @@ weight: 2
 |2167|Minimum Time to Remove All Cars Containing Illegal Goods|[Go]({{< relref "/ChapterFour/2100~2199/2167.Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods.md" >}})|Hard||||40.7%|
 |2182|Construct String With Repeat Limit|[Go]({{< relref "/ChapterFour/2100~2199/2182.Construct-String-With-Repeat-Limit.md" >}})|Medium||||52.2%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
-
-
-----------------------------------------------
-<div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Array/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Two_Pointers/">下一页➡️</a></p>
-</div>

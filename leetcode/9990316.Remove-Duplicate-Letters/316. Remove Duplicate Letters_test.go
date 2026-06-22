@@ -34,13 +34,25 @@ func Test_Problem316(t *testing.T) {
 			para316{"cbacdcbc"},
 			ans316{"acdb"},
 		},
+		{
+			para316{""},
+			ans316{""},
+		},
+		{
+			para316{"abcd"},
+			ans316{"abcd"},
+		},
 	}
 
 	fmt.Printf("------------------------Leetcode Problem 316------------------------\n")
 
 	for _, q := range qs {
-		_, p := q.ans316, q.para316
-		fmt.Printf("【input】:%v       【output】:%v\n", p, removeDuplicateLetters(p.one))
+		a, p := q.ans316, q.para316
+		got := removeDuplicateLetters(p.one)
+		fmt.Printf("【input】:%v       【output】:%v\n", p, got)
+		if got != a.one {
+			t.Fatalf("input %q: expected %q, got %q", p.one, a.one, got)
+		}
 	}
 	fmt.Printf("\n\n\n")
 }

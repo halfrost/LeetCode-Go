@@ -52,12 +52,16 @@ jobs:
           ./website/public/ \
           "${SSH_USERNAME}@${SSH_HOST}:${SERVER_DESTINATION:-/var/www/books/leetcode/}"
 
-  word-count:   # 重新统计总字数并把 README 里的徽章数字刷新、自动提交回仓库
+  word-count:   # 重新统计总字数，并通过 PR 刷新 README 里的徽章数字
     # 只在 master 上跑（add_hugo 等分支不自动改 README）。
+    # master 是受保护分支（必须走 PR），所以这里不直接 push，而是开/更新一个 PR。
+    # 需要在 Settings → Actions → General → Workflow permissions 勾选
+    # "Allow GitHub Actions to create and approve pull requests"。
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # 需要写权限才能 commit & push 回仓库
+      contents: write        # 推送 PR 分支
+      pull-requests: write   # 创建/更新 PR
     steps:
     - uses: actions/checkout@v5
 
@@ -72,19 +76,22 @@ jobs:
         echo "total word count = $COUNT"
         echo "count=$COUNT" >> "$GITHUB_OUTPUT"
 
-    - name: Update badge & commit if changed
+    - name: Update badge number in README
       run: |
-        # 只替换 README 里 Total Word Count 徽章的数字部分
-        COUNT="${{ steps.wc.outputs.count }}"
-        sed -i -E "s#(Total%20Word%20Count-)[0-9]+(-success)#\1${COUNT}\2#" README.md
-        if git diff --quiet -- README.md; then
-          echo "徽章已是最新（${COUNT}），无需提交。"
-        else
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          # [skip ci]：这次只改 README 的自动提交不必再触发任何 workflow（deploy 已 paths-ignore，
-          # 但 test.yml 没有，所以统一用 skip ci 防止多余构建，也彻底杜绝循环触发）。
-          git commit -m "chore: update Total Word Count badge to ${COUNT} [skip ci]"
-          git push
-        fi
+        sed -i -E "s#(Total%20Word%20Count-)[0-9]+(-success)#\1${{ steps.wc.outputs.count }}\2#" README.md
+
+    - name: Open/update PR if the badge changed
+      # 仅当 README 真的变了才会建/更新 PR；固定分支名 chore/word-count-badge，
+      # 始终复用同一个 PR，不会刷屏。合并即可更新徽章。
+      uses: peter-evans/create-pull-request@v6
+      with:
+        add-paths: README.md
+        branch: chore/word-count-badge
+        delete-branch: true
+        commit-message: "chore: update Total Word Count badge to ${{ steps.wc.outputs.count }}"
+        title: "chore: update Total Word Count badge to ${{ steps.wc.outputs.count }}"
+        body: |
+          自动刷新 README 的 Total Word Count 徽章为 **${{ steps.wc.outputs.count }}**
+          （口径：汉字 + 英文单词，已剔除代码块；由 `website/content/ChapterFour/pytool/WordCount.py` 统计）。
+
+          合并即可更新徽章；若数字没变化则不会创建本 PR。

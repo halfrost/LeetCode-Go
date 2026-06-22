@@ -123,16 +123,16 @@ func newDeletePreNext() *cobra.Command {
 }
 
 func addPreNext() {
-	// Chpater one add pre-next
-	addPreNextLabel(chapterOneFileOrder, []string{}, []int{}, "", "ChapterOne", "ChapterTwo")
-	// Chpater two add pre-next
-	addPreNextLabel(chapterTwoFileOrder, chapterOneFileOrder, []int{}, "ChapterOne", "ChapterTwo", "ChapterThree")
-	// Chpater three add pre-next
-	addPreNextLabel(chapterThreeFileOrder, chapterTwoFileOrder, []int{}, "ChapterTwo", "ChapterThree", "ChapterFour")
-	// Chpater four add pre-next
-	//fmt.Printf("%v\n", getChapterFourFileOrder())
-	chapterFourFileOrder, solutionIds := getChapterFourFileOrder()
-	addPreNextLabel(chapterFourFileOrder, chapterThreeFileOrder, solutionIds, "ChapterThree", "ChapterFour", "")
+	// 上/下页导航已改由 Hugo 主题在渲染时动态生成
+	// （themes/book/layouts/partials/docs/inject/content-after.html），
+	// 不再把导航 HTML 写进 markdown，避免与主题渲染的导航重复。
+	// 如需恢复写入 markdown 的旧行为，取消下面的注释即可。
+	//
+	// addPreNextLabel(chapterOneFileOrder, []string{}, []int{}, "", "ChapterOne", "ChapterTwo")
+	// addPreNextLabel(chapterTwoFileOrder, chapterOneFileOrder, []int{}, "ChapterOne", "ChapterTwo", "ChapterThree")
+	// addPreNextLabel(chapterThreeFileOrder, chapterTwoFileOrder, []int{}, "ChapterTwo", "ChapterThree", "ChapterFour")
+	// chapterFourFileOrder, solutionIds := getChapterFourFileOrder()
+	// addPreNextLabel(chapterFourFileOrder, chapterThreeFileOrder, solutionIds, "ChapterThree", "ChapterFour", "")
 }
 
 func addPreNextLabel(order, preOrder []string, chapterFourIds []int, preChapter, chapter, nextChapter string) {

@@ -151,10 +151,3 @@ weight: 12
 |2180|Count Integers With Even Digit Sum|[Go]({{< relref "/ChapterFour/2100~2199/2180.Count-Integers-With-Even-Digit-Sum.md" >}})|Easy||||65.5%|
 |2183|Count Array Pairs Divisible by K|[Go]({{< relref "/ChapterFour/2100~2199/2183.Count-Array-Pairs-Divisible-by-K.md" >}})|Hard||||28.3%|
 |------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|
-
-
-----------------------------------------------
-<div style="display: flex;justify-content: space-between;align-items: center;">
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/">⬅️上一页</a></p>
-<p><a href="https://books.halfrost.com/leetcode/ChapterTwo/Hash_Table/">下一页➡️</a></p>
-</div>

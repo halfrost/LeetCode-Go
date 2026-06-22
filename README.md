@@ -488,7 +488,7 @@
 |0348|Design Tic-Tac-Toe||57.6%|Medium||
 |0349|Intersection of Two Arrays|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0349.Intersection-of-Two-Arrays)|70.2%|Easy||
 |0350|Intersection of Two Arrays II|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0350.Intersection-of-Two-Arrays-II)|55.5%|Easy||
-|0351|Android Unlock Patterns||51.3%|Medium||
+|0351|Android Unlock Patterns|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0351.Android-Unlock-Patterns)|51.3%|Medium||
 |0352|Data Stream as Disjoint Intervals|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0352.Data-Stream-as-Disjoint-Intervals)|51.5%|Hard||
 |0353|Design Snake Game||39.0%|Medium||
 |0354|Russian Doll Envelopes|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0354.Russian-Doll-Envelopes)|38.3%|Hard||
