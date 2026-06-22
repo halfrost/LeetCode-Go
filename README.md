@@ -10,28 +10,27 @@
 ![](./website/static/wechat-qr-code.png)
 
 <p align='center'>
-<a href="https://github.com/halfrost/leetcode-go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
-<img src="https://img.shields.io/badge/Total%20Word%20Count-738884-success">
+<a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow"><img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/halfrost/LeetCode-Go/total?label=PDF%20downloads"></a>
+<img src="https://img.shields.io/badge/Total%20Word%20Count-717961-success">
 <a href="https://github.com/halfrost/LeetCode-Go/actions/workflows/deploy.yml" rel="nofollow"><img src="https://github.com/halfrost/LeetCode-Go/actions/workflows/deploy.yml/badge.svg?branch=master" alt="Deploy Status"></a>
 <a href="https://github.com/halfrost/LeetCode-Go/actions/workflows/test.yml" rel="nofollow"><img src="https://github.com/halfrost/LeetCode-Go/actions/workflows/test.yml/badge.svg?branch=master" alt="Go Test Status"></a>
 <a href="https://goreportcard.com/report/github.com/halfrost/LeetCode-Go" rel="nofollow"><img src="https://goreportcard.com/badge/github.com/halfrost/LeetCode-Go"></a>
 <img src="https://img.shields.io/badge/runtime%20beats-100%25-success">
 <a href="https://codecov.io/gh/halfrost/LeetCode-Go"><img src="https://codecov.io/gh/halfrost/LeetCode-Go/branch/master/graph/badge.svg" /></a>
-<!--<img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/halfrost/LeetCode-Go?color=26C2F0">-->
-<img alt="Support Go version" src="https://img.shields.io/badge/Go-v1.15-26C2F0">
+<img alt="Go Version" src="https://img.shields.io/github/go-mod/go-version/halfrost/LeetCode-Go?label=Go&color=26C2F0">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=halfrost.LeetCode-Go">
 </p>
 
 <p align='center'>
-<a href="https://github.com/halfrost/leetcode-go/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/halfrost/LeetCode-Go?label=License"></a>
-<img src="https://img.shields.io/badge/License-CC-000000.svg">
+<a href="https://github.com/halfrost/LeetCode-Go/blob/master/LICENSE"><img alt="Code License" src="https://img.shields.io/github/license/halfrost/LeetCode-Go?label=Code%20License"></a>
+<img alt="Book License" src="https://img.shields.io/badge/Book%20License-CC-000000.svg">
 <a href="https://leetcode.com/halfrost/"><img src="https://img.shields.io/badge/@halfrost-8751-yellow.svg">
 <img src="https://img.shields.io/badge/language-Golang-26C2F0.svg">
 <a href="https://halfrost.com"><img src="https://img.shields.io/badge/Blog-Halfrost--Field-80d4f9.svg?style=flat"></a>
 <a href="http://weibo.com/halfrost"><img src="https://img.shields.io/badge/weibo-@halfrost-f974ce.svg?style=flat&colorA=f4292e"></a>
 <a href="https://twitter.com/halffrost"><img src="https://img.shields.io/badge/twitter-@halffrost-F8E81C.svg?style=flat&colorA=009df2"></a>
 <a href="https://www.zhihu.com/people/halfrost/activities"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-@halfrost-fd6f32.svg?style=flat&colorA=0083ea"></a>
-<img src="https://img.shields.io/badge/made%20with-=1-blue.svg">
+<img src="https://img.shields.io/badge/made%20with-%E2%99%A5-blue.svg">
 <a href="https://github.com/halfrost/LeetCode-Go/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
 </p>
 
@@ -3089,6 +3088,10 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_I
 Thank you for reading here. This is bonus. You can download my [《ACM-ICPC Algorithm Template》](https://github.com/halfrost/LeetCode-Go/releases/tag/Special/)
 
 
+
+## License
+
+The **code** in this repository (all Go solutions) is licensed under the [MIT License](https://github.com/halfrost/LeetCode-Go/blob/master/LICENSE). The **book content** of *LeetCode Cookbook* (the articles and illustrations served from the website) is licensed under a Creative Commons (CC) license. In short: feel free to reuse the code under MIT; the written/illustrated book content is shared under CC.
 
 ## ♥️ Thanks
 
