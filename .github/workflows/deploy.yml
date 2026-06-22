@@ -95,3 +95,4 @@ jobs:
           # test.yml 没有，所以统一用 skip ci 防止多余构建，也杜绝循环触发）。
           git commit -m "chore: update Total Word Count badge to ${COUNT} [skip ci]"
           git push
+        fi
