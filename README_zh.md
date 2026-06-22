@@ -1,7 +1,7 @@
 
 # LeetCode in Go
 
-<p align="right"><strong>English</strong> | <a href="./README_zh.md">中文</a></p>
+<p align="right"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 [LeetCode Online Judge](https://leetcode.com/) is a website containing many **algorithm questions**. Most of them are real interview questions of **Google, Facebook, LinkedIn, Apple**, etc. and it always help to sharp our algorithm Skills. Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview. This repo shows my solutions in Go with the code style strictly follows the [Google Golang Style Guide](https://github.com/golang/go/wiki/CodeReviewComments). Please feel free to reference and **STAR** to support this repo, thank you!
 
@@ -37,20 +37,20 @@
 <a href="https://github.com/halfrost/LeetCode-Go/pulls"><img src="https://img.shields.io/badge/PR-Welcome-brightgreen.svg"></a>
 </p>
 
-The solution e-book *LeetCode Cookbook*, with Progressive Web App and Dark Mode support — <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
+支持 Progressive Web Apps 和 Dark Mode 的题解电子书《LeetCode Cookbook》 <a href="https://books.halfrost.com/leetcode/" rel="nofollow">Online Reading</a>
 
 <p align='center'>
 <a href="https://books.halfrost.com/leetcode/"><img src="https://img.halfrost.com/Leetcode/Cookbook_Safari_0.png"></a>
 <a href="https://books.halfrost.com/leetcode/"><img src="https://img.halfrost.com/Leetcode/Cookbook_Chrome_PWA.png"></a>
 </p>
 
-Offline PDF edition of the e-book *LeetCode Cookbook* — <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow">Download here</a>
+离线版本的电子书《LeetCode Cookbook》PDF <a href="https://github.com/halfrost/LeetCode-Go/releases/" rel="nofollow">Download here</a>
 
 <p align='center'>
 <a href="https://github.com/halfrost/LeetCode-Go/releases/"><img src="https://img.halfrost.com/Leetcode/Cookbook.png"></a>
 </p>
 
-Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS / Android browser and study anytime.
+通过 iOS / Android 浏览器安装 PWA 版《LeetCode Cookbook》至设备桌面随时学习
 
 <p align='center'>
 <a href="https://books.halfrost.com/leetcode/"><img src="https://img.halfrost.com/Leetcode/Cookbook_PWA_iPad.png"></a>
@@ -61,7 +61,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 
 ## Data Structures
 
-> Topics marked with ✅ have all their problems completed; those without the mark still have problems left to solve.
+> 标识了 ✅ 的专题是完成所有题目了的，没有标识的是还没有做完所有题目的
 
 <a href="https://books.halfrost.com/leetcode/"><img src="./website/static/logo.png" alt="logo" height="550" align="right" /></a>
 
@@ -88,43 +88,43 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 <br>
 <br>
 
-| Data Structure | Variants | Related Problems | Articles |
+| 数据结构 | 变种 | 相关题目 | 讲解文章 | 
 |:-------:|:-------|:------|:------|
-|Sequential list: vector||||
-|Singly linked list|1. Doubly linked list<br>2. Static linked list<br>3. Symmetric matrix<br>4. Sparse matrix|||
-|Hash table|1. Hash functions<br>2. Collision resolution / load factor<br>|||
-|Stack and queue|1. Generalized stack<br>2. Deque<br>|||
-|Queue|1. Linked-list implementation<br>2. Circular-array implementation<br>3. Deque|||
-|String|1. KMP algorithm<br>2. Finite-state automaton<br>3. Pattern-matching finite-state automaton<br>4. Boyer-Moore (BM) algorithm<br>5. BM-KMP algorithm<br>6. Brute-force (BF) algorithm|||
-|Tree|1. Binary tree<br>2. Union-Find (disjoint set)<br>3. Huffman tree|||
-|Array-based heap|1. Max-heap and min-heap<br>2. Min-max heap<br>3. Double-ended heap (deap)<br>4. d-ary heap|||
-|Tree-based heap|1. Leftist heap<br>2. Skew heap<br>3. Binomial heap<br>4. Fibonacci heap<br>5. Pairing heap|||
-|Search|1. Hash table<br>2. Skip list<br>3. Binary search tree<br>4. AVL tree<br>5. B-tree / B+ tree / B* tree<br>6. AA tree<br>7. Red-black tree<br>8. Sorted binary heap<br>9. Splay tree<br>10. Double-chained tree<br>11. Trie<br>12. R-tree|||
+|顺序线性表：向量||||
+|单链表|1. 双向链表<br>2. 静态链表<br>3. 对称矩阵<br>4. 稀疏矩阵|||
+|哈希表|1. 散列函数<br>2. 解决碰撞/填充因子<br>|||
+|栈和队列|1. 广义栈<br>2. 双端队列<br>|||
+|队列|1. 链表实现<br>2. 循环数组实现<br>3. 双端队列|||
+|字符串|1. KMP算法<br>2. 有限状态自动机<br>3. 模式匹配有限状态自动机<br>4. BM 模式匹配算法<br>5. BM-KMP 算法<br>6. BF 算法|||
+|树|1. 二叉树<br>2. 并查集<br>3. Huffman 树|||
+|数组实现的堆|1. 极大堆和极小堆<br>2. 极大极小堆<br>3. 双端堆<br>4. d 叉堆|||
+|树实现的堆|1. 左堆<br>2. 扁堆<br>3. 二项式堆<br>4. 斐波那契堆<br>5. 配对堆|||
+|查找|1. 哈希表<br>2. 跳跃表<br>3. 排序二叉树<br>4. AVL 树<br>5. B 树 / B+ 树 / B* 树<br>6. AA 树<br>7. 红黑树<br>8. 排序二叉堆<br>9. Splay 树<br>10. 双链树<br>11. Trie 树<br>12. R 树|||
 |--------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
 
 
 ## Algorithm
 
 
-| Algorithm | Specific Types | Related Problems | Articles |
+| 算法 | 具体类型 | 相关题目 | 讲解文章 | 
 |:-------:|:-------|:------|:------|
-|Sorting algorithms|1. Bubble sort<br>2. Insertion sort<br>3. Selection sort<br>4. Shell sort<br>5. Quicksort<br>6. Merge sort<br>7. Heap sort<br>8. Linear-time sorting<br>9. Introsort<br>10. Indirect sort<br>11. Counting sort<br>12. Radix sort<br>13. Bucket sort<br>14. External sort - k-way merge with a loser tree<br>15. External sort - optimal merge tree|||
-|Recursion & divide and conquer||1. Binary search<br>2. Multiplication of large integers<br>3. Strassen's matrix multiplication<br>4. Chessboard covering<br>5. Merge sort<br>6. Quicksort<br>7. Linear-time selection<br>8. Closest pair of points<br>9. Round-robin tournament scheduling<br>||
-|Dynamic programming||1. Matrix-chain multiplication<br>2. Longest common subsequence<br>3. Maximum subarray sum<br>4. Optimal triangulation of a convex polygon<br>5. The polygon game<br>6. Image compression<br>7. Circuit wiring<br>8. Flow-shop scheduling<br>9. 0-1 knapsack / the "nine knapsack lectures"<br>10. Optimal binary search tree<br>11. DP speed-up principles<br>12. Tree DP<br>||
-|Greedy||1. Activity-selection problem<br>2. Optimal loading<br>3. Huffman coding<br>4. Single-source shortest paths<br>5. Minimum spanning tree<br>6. Multi-machine scheduling<br>||
-|Backtracking||1. Loading problem<br>2. Batch-job scheduling<br>3. Sign-of-triangle problem<br>4. n-queens problem<br>5. 0-1 knapsack<br>6. Maximum-clique problem<br>7. Graph m-coloring problem<br>8. Traveling-salesman problem<br>9. Circle-arrangement problem<br>10. Circuit-board placement problem<br>11. Consecutive-postage problem<br>||
-|Search|1. Enumeration<br>2. DFS<br>3. BFS<br>4. Heuristic search<br>|||
-|Randomization|1. Random numbers<br>2. Numerical randomized algorithms<br>3. Sherwood algorithm<br>4. Las Vegas algorithm<br>5. Monte Carlo algorithm<br>|1. Computing the value of π<br>2. Computing definite integrals<br>3. Solving nonlinear systems<br>4. Linear-time selection<br>5. Skip list<br>6. n-queens problem<br>7. Integer factorization<br>8. Majority-element problem<br>9. Primality testing<br>||
-|Graph theory|1. Traversal: DFS / BFS<br>2. AOV / AOE networks<br>3. Kruskal's algorithm (MST)<br>4. Prim's algorithm (MST)<br>5. Borůvka's algorithm (MST)<br>6. Dijkstra's algorithm (single-source shortest path)<br>7. Bellman-Ford algorithm (single-source shortest path)<br>8. SPFA algorithm (single-source shortest path)<br>9. Floyd algorithm (all-pairs shortest path)<br>10. Johnson's algorithm (all-pairs shortest path)<br>11. Fleury's algorithm (Eulerian circuit)<br>12. Ford-Fulkerson algorithm (max-flow augmenting path)<br>13. Edmonds-Karp algorithm (max flow)<br>14. Dinic's algorithm (max flow)<br>15. Generic push-relabel algorithm<br>16. Highest-label push-relabel (HLPP) algorithm<br>17. Primal-Dual algorithm (min-cost flow)18. Kosaraju's algorithm (strongly connected components)<br>19. Tarjan's algorithm (strongly connected components)<br>20. Gabow's algorithm (strongly connected components)<br>21. Hungarian algorithm (bipartite matching)<br>22. Hopcroft-Karp algorithm (bipartite matching)<br>23. Kuhn-Munkres algorithm (optimal bipartite matching)<br>24. Edmonds' Blossom-Contraction algorithm (general graph matching)<br>|1. Graph traversal<br>2. Strong/weak connectivity of directed and undirected graphs<br>3. Cut vertices / cut edges<br>3. AOV networks and topological sorting<br>4. AOE networks and the critical path<br>5. Minimum-cost spanning tree / second-best MST<br>6. Shortest-path problem / K-th shortest path<br>7. Maximum-flow problem<br>8. Minimum-cost flow problem<br>9. Graph-coloring problem<br>10. System of difference constraints<br>11. Eulerian circuit<br>12. Chinese postman problem<br>13. Hamiltonian cycle<br>14. Best edge/vertex cut set / minimum edge/vertex cut set / minimum path cover / minimum vertex cover <br>15. Edge cover set<br>16. Bipartite perfect matching and maximum matching<br>17. Cactus graph<br>18. Chordal graph<br>19. Stable-marriage problem<br>20. Maximum-clique problem<br>||
-|Number theory||1. Greatest common divisor<br> 2. Least common multiple<br>3. Prime factorization<br>4. Primality testing<br>5. Base conversion<br>6. Arbitrary-precision arithmetic<br>7. Divisibility<br>8. Congruences<br>9. Euler's totient function<br>10. Extended Euclidean algorithm<br>11. Permutation groups<br>12. Generating functions<br>13. Discrete transforms<br>14. Cantor expansion<br>15. Matrices<br>16. Vectors<br>17. Systems of linear equations<br>18. Linear programming<br> ||
-|Geometry||1. Convex hull - gift wrapping<br>2. Convex hull - Graham scan<br>3. Line-segment problems<br> 4. Problems on polygons and polyhedra<br>||
-|NP-completeness|1. Computation models<br>2. Class-P and class-NP problems<br>3. NP-complete problems<br>4. Approximation algorithms for NP-complete problems<br>|1. Random-access machine (RAM)<br>2. Random-access stored-program machine (RASP)<br>3. Turing machine<br>4. Non-deterministic Turing machine<br>5. Class-P and class-NP languages<br>6. Polynomial-time verification<br>7. Polynomial-time reduction<br>8. Cook's theorem<br>9. CNF satisfiability (CNF-SAT)<br>10. 3-CNF satisfiability (3-SAT)<br>11. Clique problem (CLIQUE)<br>12. Vertex-cover problem (VERTEX-COVER)<br>13. Subset-sum problem (SUBSET-SUM)<br>14. Hamiltonian-cycle problem (HAM-CYCLE)<br>15. Traveling-salesman problem (TSP)<br>16. Approximation algorithm for vertex cover<br>17. Approximation algorithm for TSP<br>18. TSP with the triangle inequality<br>19. General TSP<br>20. Approximation algorithm for set cover<br>21. Approximation algorithm for subset sum<br>22. Exponential-time algorithm for subset sum<br>23. Polynomial-time approximation scheme for subset sum<br>||
+|排序算法|1. 冒泡排序<br>2. 插入排序<br>3. 选择排序<br>4. 希尔 Shell 排序<br>5. 快速排序<br>6. 归并排序<br>7. 堆排序<br>8. 线性排序算法<br>9. 自省排序<br>10. 间接排序<br>11. 计数排序<br>12. 基数排序<br>13. 桶排序<br>14. 外部排序 - k 路归并败者树<br>15. 外部排序 - 最佳归并树|||
+|递归与分治||1. 二分搜索/查找<br>2. 大整数的乘法<br>3. Strassen 矩阵乘法<br>4. 棋盘覆盖<br>5. 合并排序<br>6. 快速排序<br>7. 线性时间选择<br>8. 最接近点对问题<br>9. 循环赛日程表<br>||
+|动态规划||1. 矩阵连乘问题<br>2. 最长公共子序列<br>3. 最大子段和<br>4. 凸多边形最优三角剖分<br>5. 多边形游戏<br>6. 图像压缩<br>7. 电路布线<br>8. 流水作业调度<br>9. 0-1 背包问题/背包九讲<br>10. 最优二叉搜索树<br>11. 动态规划加速原理<br>12. 树型 DP<br>||
+|贪心||1. 活动安排问题<br>2. 最优装载<br>3. 哈夫曼编码<br>4. 单源最短路径<br>5. 最小生成树<br>6. 多机调度问题<br>||
+|回溯法||1. 装载问题<br>2. 批处理作业调度<br>3. 符号三角形问题<br>4. n 后问题<br>5. 0-1 背包问题<br>6. 最大团问题<br>7. 图的 m 着色问题<br>8. 旅行售货员问题<br>9. 圆排列问题<br>10. 电路板排列问题<br>11. 连续邮资问题<br>||
+|搜索|1. 枚举<br>2. DFS<br>3. BFS<br>4. 启发式搜索<br>|||
+|随机化|1. 随机数<br>2. 数值随机化算法<br>3. Sherwood 舍伍德算法<br>4. Las Vegas 拉斯维加斯算法<br>5. Monte Carlo 蒙特卡罗算法<br>|1. 计算 π 值<br>2. 计算定积分<br>3. 解非线性方程组<br>4. 线性时间选择算法<br>5. 跳跃表<br>6. n 后问题<br>7. 整数因子分解<br>8. 主元素问题<br>9. 素数测试<br>||
+|图论|1. 遍历 DFS / BFS<br>2. AOV / AOE 网络<br>3. Kruskal 算法(最小生成树)<br>4. Prim 算法(最小生成树)<br>5. Boruvka 算法(最小生成树)<br>6. Dijkstra 算法(单源最短路径)<br>7. Bellman-Ford 算法(单源最短路径)<br>8. SPFA 算法(单源最短路径)<br>9. Floyd 算法(多源最短路径)<br>10. Johnson 算法(多源最短路径)<br>11. Fleury 算法(欧拉回路)<br>12. Ford-Fulkerson 算法(最大网络流增广路)<br>13. Edmonds-Karp 算法(最大网络流)<br>14. Dinic 算法(最大网络流)<br>15. 一般预流推进算法<br>16. 最高标号预流推进 HLPP 算法<br>17. Primal-Dual 原始对偶算法(最小费用流)18. Kosaraju 算法(有向图强连通分量)<br>19. Tarjan 算法(有向图强连通分量)<br>20. Gabow 算法(有向图强连通分量)<br>21. 匈牙利算法(二分图匹配)<br>22. Hopcroft－Karp 算法(二分图匹配)<br>23. kuhn munkras 算法(二分图最佳匹配)<br>24. Edmonds’ Blossom-Contraction 算法(一般图匹配)<br>|1. 图遍历<br>2. 有向图和无向图的强弱连通性<br>3. 割点/割边<br>3. AOV 网络和拓扑排序<br>4. AOE 网络和关键路径<br>5. 最小代价生成树/次小生成树<br>6. 最短路径问题/第 K 短路问题<br>7. 最大网络流问题<br>8. 最小费用流问题<br>9. 图着色问题<br>10. 差分约束系统<br>11. 欧拉回路<br>12. 中国邮递员问题<br>13. 汉密尔顿回路<br>14. 最佳边割集/最佳点割集/最小边割集/最小点割集/最小路径覆盖/最小点集覆盖 <br>15. 边覆盖集<br>16. 二分图完美匹配和最大匹配问题<br>17. 仙人掌图<br>18. 弦图<br>19. 稳定婚姻问题<br>20. 最大团问题<br>||
+|数论||1. 最大公约数<br> 2. 最小公倍数<br>3. 分解质因数<br>4. 素数判定<br>5. 进制转换<br>6. 高精度计算<br>7. 整除问题<br>8. 同余问题<br>9. 欧拉函数<br>10. 扩展欧几里得<br>11. 置换群<br>12. 母函数<br>13. 离散变换<br>14. 康托展开<br>15. 矩阵<br>16. 向量<br>17. 线性方程组<br>18. 线性规划<br> ||
+|几何||1. 凸包 - Gift wrapping<br>2. 凸包 - Graham scan<br>3. 线段问题<br> 4. 多边形和多面体相关问题<br>||
+|NP 完全|1. 计算模型<br>2. P 类与 NP 类问题<br>3. NP 完全问题<br>4. NP 完全问题的近似算法<br>|1. 随机存取机 RAM<br>2. 随机存取存储程序机 RASP<br>3. 图灵机<br>4. 非确定性图灵机<br>5. P 类与 NP 类语言<br>6. 多项式时间验证<br>7. 多项式时间变换<br>8. Cook定理<br>9. 合取范式的可满足性问题 CNF-SAT<br>10. 3 元合取范式的可满足性问题 3-SAT<br>11. 团问题 CLIQUE<br>12. 顶点覆盖问题 VERTEX-COVER<br>13. 子集和问题 SUBSET-SUM<br>14. 哈密顿回路问题 HAM-CYCLE<br>15. 旅行售货员问题 TSP<br>16. 顶点覆盖问题的近似算法<br>17. 旅行售货员问题近似算法<br>18. 具有三角不等式性质的旅行售货员问题<br>19. 一般的旅行售货员问题<br>20. 集合覆盖问题的近似算法<br>21. 子集和问题的近似算法<br>22. 子集和问题的指数时间算法<br>23. 子集和问题的多项式时间近似格式<br>||
 |------------|------------------------------------------------------------------|-----------------------------------------------------------------|--------------------|
 
 
 ## LeetCode Problems
 
-## 1. Personal Stats
+## 一. 个人数据
 
 |    |  Easy  |  Medium  |  Hard |  Total |
 |:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -135,9 +135,9 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |Completion Rate|47.8%|37.1%|26.3%|37.4%|
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
-## 2. Directory
+## 二. 目录
 
-787 problems already have solutions here; another 11 are still being optimized toward beats 100%.
+以下已经收录了 787 道题的题解，还有 11 道题在尝试优化到 beats 100%
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
@@ -2589,14 +2589,14 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 
 ------------------------------------------------------------------
 
-The following are free problems that don't have a Go solution yet:
+下面这些是免费的算法题，但是暂时还不能使用 Go 解答的：
 
-None
+暂无
 
 ------------------------------------------------------------------
 
 
-## 3. Categories
+## 三.分类
 
 ## Array
 
@@ -2614,7 +2614,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
 
 ![](./topic/Two_pointers.png)
 
-- The classic two-pointer sliding-window pattern. Keep moving the right pointer rightward until it can no longer move (the exact condition depends on the problem). Once the right pointer reaches the far right, start moving the left pointer to release the window's left boundary. Problems 3, 76, 209, 424, 438, 567, 713, 763, 845, 881, 904, 978, 992, 1004, 1040, 1052.
+- 双指针滑动窗口的经典写法。右指针不断往右移，移动到不能往右移动为止(具体条件根据题目而定)。当右指针到最右边以后，开始挪动左指针，释放窗口左边界。第 3 题，第 76 题，第 209 题，第 424 题，第 438 题，第 567 题，第 713 题，第 763 题，第 845 题，第 881 题，第 904 题，第 978 题，第 992 题，第 1004 题，第 1040 题，第 1052 题。
 
 ```c
 	left, right := 0, -1
@@ -2631,9 +2631,9 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
 	}
 ```
 
-- Fast and slow pointers can find a duplicate number in O(n) time. Problem 287.
-- The longest run of a single repeated character achievable after replacements. Problem 424.
-- The SUM problem set. Problems 1, 15, 16, 18, 167, 923, 1074.
+- 快慢指针可以查找重复数字，时间复杂度 O(n)，第 287 题。
+- 替换字母以后，相同字母能出现连续最长的长度。第 424 题。
+- SUM 问题集。第 1 题，第 15 题，第 16 题，第 18 题，第 167 题，第 923 题，第 1074 题。
 
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Pointers/)
@@ -2644,14 +2644,14 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Poin
 ![](./topic/Linked_List.png)
 
 
-- Cleverly introduce a dummy head node to make the traversal logic more uniform.
-- Use recursion flexibly. Set up the right recursive conditions and recursion solves problems elegantly. Note, however, that some problems can't use recursion: too deep a recursion causes TLE and stack overflow.
-- Reversing a sub-range of a linked list. Problem 92.
-- Finding the middle node of a linked list. Problem 876. Finding the n-th node from the end of a linked list. Problem 19. A single pass is enough.
-- Merging K sorted linked lists. Problems 21, 23.
-- Partitioning / grouping a linked list. Problems 86, 328.
-- Sorting a linked list in O(n * log n) time and O(1) space. There's only one approach: top-down merge sort. Problem 148.
-- Detecting whether a linked list has a cycle and, if so, outputting the index of the cycle's entry node; detecting whether two linked lists intersect and, if so, outputting the intersection node. Problems 141, 142, 160.
+- 巧妙的构造虚拟头结点。可以使遍历处理逻辑更加统一。
+- 灵活使用递归。构造递归条件，使用递归可以巧妙的解题。不过需要注意有些题目不能使用递归，因为递归深度太深会导致超时和栈溢出。
+- 链表区间逆序。第 92 题。
+- 链表寻找中间节点。第 876 题。链表寻找倒数第 n 个节点。第 19 题。只需要一次遍历就可以得到答案。
+- 合并 K 个有序链表。第 21 题，第 23 题。
+- 链表归类。第 86 题，第 328 题。
+- 链表排序，时间复杂度要求 O(n * log n)，空间复杂度 O(1)。只有一种做法，归并排序，至顶向下归并。第 148 题。
+- 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。
 
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_List/)
@@ -2663,10 +2663,10 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_L
 
 ![](./topic/Stack.png)
 
-- Parentheses-matching problems and the like. Problems 20, 921, 1021.
-- Basic stack pop and push operations. Problems 71, 150, 155, 224, 225, 232, 946, 1047.
-- Using a stack for encoding/decoding problems. Problems 394, 682, 856, 880.
-- **Monotonic stack**. **Use a stack to maintain a monotonically increasing or decreasing array of indices**. Problems 84, 456, 496, 503, 739, 901, 907, 1019.
+- 括号匹配问题及类似问题。第 20 题，第 921 题，第 1021 题。
+- 栈的基本 pop 和 push 操作。第 71 题，第 150 题，第 155 题，第 224 题，第 225 题，第 232 题，第 946 题，第 1047 题。
+- 利用栈进行编码问题。第 394 题，第 682 题，第 856 题，第 880 题。
+- **单调栈**。**利用栈维护一个单调递增或者递减的下标数组**。第 84 题，第 456 题，第 496 题，第 503 题，第 739 题，第 901 题，第 907 题，第 1019 题。
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Stack/)
 
@@ -2691,16 +2691,16 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Dynamic_
 
 ![](./topic/Backtracking.png)
 
-- Permutation problems. Problems 46, 47, 60, 526, 996.
-- Combination problems. Problems 39, 40, 77, 216.
-- Hybrid permutation-and-combination problems. Problem 1079.
-- The ultimate N-Queens solution (bitwise approach). Problems 51, 52.
-- Sudoku. Problem 37.
-- Four-directional search. Problems 79, 212, 980.
-- Subset problems. Problems 78, 90.
-- Trie. Problems 208, 211.
-- BFS optimization. Problems 126, 127.
-- DFS template. (Just an example; not tied to any particular problem.)
+- 排列问题 Permutations。第 46 题，第 47 题。第 60 题，第 526 题，第 996 题。
+- 组合问题 Combination。第 39 题，第 40 题，第 77 题，第 216 题。
+- 排列和组合杂交问题。第 1079 题。
+- N 皇后终极解法(二进制解法)。第 51 题，第 52 题。
+- 数独问题。第 37 题。
+- 四个方向搜索。第 79 题，第 212 题，第 980 题。
+- 子集合问题。第 78 题，第 90 题。
+- Trie。第 208 题，第 211 题。
+- BFS 优化。第 126 题，第 127 题。
+- DFS 模板。(只是一个例子，不对应任何题)
 
 ```go
 func combinationSum2(candidates []int, target int) [][]int {
@@ -2721,7 +2721,7 @@ func findcombinationSum2(nums []int, target, index int, c []int, res *[][]int) {
 		return
 	}
 	for i := index; i < len(nums); i++ {
-		if i > index && nums[i] == nums[i-1] { // this is the key de-duplication logic
+		if i > index && nums[i] == nums[i-1] { // 这里是去重的关键逻辑
 			continue
 		}
 		if target >= nums[i] {
@@ -2732,7 +2732,7 @@ func findcombinationSum2(nums []int, target, index int, c []int, res *[][]int) {
 	}
 }
 ```
-- BFS template. (Just an example; not tied to any particular problem.)
+- BFS 模板。(只是一个例子，不对应任何题)
 
 ```go
 func updateMatrix_BFS(matrix [][]int) [][]int {
@@ -2807,10 +2807,10 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Breadth_
 
 ![]()
 
-- The classic binary-search pattern. Three things to watch out for:
-	1. The loop-exit condition: note it is low <= high, not low < high.
-	2. Computing mid: mid := low + (high-low)>>1
-	3. Updating low and high: low = mid + 1, high = mid - 1.
+- 二分搜索的经典写法。需要注意的三点：
+	1. 循环退出条件，注意是 low <= high，而不是 low < high。
+	2. mid 的取值，mid := low + (high-low)>>1
+	3. low 和 high 的更新。low = mid + 1，high = mid - 1。
 
 ```go
 func binarySearchMatrix(nums []int, target int) int {
@@ -2829,14 +2829,14 @@ func binarySearchMatrix(nums []int, target int) int {
 }
 ```
 
-- Variants of binary search. There are 4 basic variants:
-	1. Find the first element equal to target, in O(log n).
-	2. Find the last element equal to target, in O(log n).
-	3. Find the first element >= target, in O(log n).
-	4. Find the last element <= target, in O(log n).
+- 二分搜索的变种写法。有 4 个基本变种:
+	1. 查找第一个与 target 相等的元素，时间复杂度 O(logn)
+	2. 查找最后一个与 target 相等的元素，时间复杂度 O(logn)
+	3. 查找第一个大于等于 target 的元素，时间复杂度 O(logn)
+	4. 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
 
 ```go
-// Binary-search for the first element equal to target, O(log n)
+// 二分查找第一个与 target 相等的元素，时间复杂度 O(logn)
 func searchFirstEqualElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
@@ -2846,7 +2846,7 @@ func searchFirstEqualElement(nums []int, target int) int {
 		} else if nums[mid] < target {
 			low = mid + 1
 		} else {
-			if (mid == 0) || (nums[mid-1] != target) { // found the first element equal to target
+			if (mid == 0) || (nums[mid-1] != target) { // 找到第一个与 target 相等的元素
 				return mid
 			}
 			high = mid - 1
@@ -2855,7 +2855,7 @@ func searchFirstEqualElement(nums []int, target int) int {
 	return -1
 }
 
-// Binary-search for the last element equal to target, O(log n)
+// 二分查找最后一个与 target 相等的元素，时间复杂度 O(logn)
 func searchLastEqualElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
@@ -2865,7 +2865,7 @@ func searchLastEqualElement(nums []int, target int) int {
 		} else if nums[mid] < target {
 			low = mid + 1
 		} else {
-			if (mid == len(nums)-1) || (nums[mid+1] != target) { // found the last element equal to target
+			if (mid == len(nums)-1) || (nums[mid+1] != target) { // 找到最后一个与 target 相等的元素
 				return mid
 			}
 			low = mid + 1
@@ -2874,13 +2874,13 @@ func searchLastEqualElement(nums []int, target int) int {
 	return -1
 }
 
-// Binary-search for the first element >= target, O(log n)
+// 二分查找第一个大于等于 target 的元素，时间复杂度 O(logn)
 func searchFirstGreaterElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
 		mid := low + ((high - low) >> 1)
 		if nums[mid] >= target {
-			if (mid == 0) || (nums[mid-1] < target) { // found the first element >= target
+			if (mid == 0) || (nums[mid-1] < target) { // 找到第一个大于等于 target 的元素
 				return mid
 			}
 			high = mid - 1
@@ -2891,13 +2891,13 @@ func searchFirstGreaterElement(nums []int, target int) int {
 	return -1
 }
 
-// Binary-search for the last element <= target, O(log n)
+// 二分查找最后一个小于等于 target 的元素，时间复杂度 O(logn)
 func searchLastLessElement(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
 		mid := low + ((high - low) >> 1)
 		if nums[mid] <= target {
-			if (mid == len(nums)-1) || (nums[mid+1] > target) { // found the last element <= target
+			if (mid == len(nums)-1) || (nums[mid+1] > target) { // 找到最后一个小于等于 target 的元素
 				return mid
 			}
 			low = mid + 1
@@ -2909,14 +2909,14 @@ func searchLastLessElement(nums []int, target int) int {
 }
 ```
 
-- Binary search on a mostly-sorted array. Both the classic and the variant forms work; common cases include finding the peak in a mountain array and finding the pivot in a rotated sorted array. Problems 33, 81, 153, 154, 162, 852.
+- 在基本有序的数组中用二分搜索。经典解法可以解，变种写法也可以写，常见的题型，在山峰数组中找山峰，在旋转有序数组中找分界点。第 33 题，第 81 题，第 153 题，第 154 题，第 162 题，第 852 题
 
 ```go
 func peakIndexInMountainArray(A []int) int {
 	low, high := 0, len(A)-1
 	for low < high {
 		mid := low + (high-low)>>1
-		// if mid is larger, a peak lies on the left, so high = mid; if mid+1 is larger, a peak lies on the right, so low = mid + 1
+		// 如果 mid 较大，则左侧存在峰值，high = m，如果 mid + 1 较大，则右侧存在峰值，low = mid + 1
 		if A[mid] > A[mid+1] {
 			high = mid
 		} else {
@@ -2927,7 +2927,7 @@ func peakIndexInMountainArray(A []int) int {
 }
 ```
 
-- The max-min (minimize-the-maximum) problem: find the largest value while satisfying the constraint as tightly as possible. Problems 410, 875, 1011, 1283.
+- max-min 最大值最小化问题。求在最小满足条件的情况下的最大值。第 410 题，第 875 题，第 1011 题，第 1283 题。
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/)
 
@@ -2952,12 +2952,12 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Hash_Tab
 
 ![](./topic/Sort.png)
 
-- Develop a deep understanding of multi-way quicksort. Problem 75.
-- Sorting a linked list: insertion sort (Problem 147) and merge sort (Problem 148).
-- Bucket sort and radix sort. Problem 164.
-- "Wiggle sort". Problem 324.
-- Reordering so that no two adjacent elements are equal. Problems 767, 1054.
-- "Pancake sorting". Problem 969.
+- 深刻的理解多路快排。第 75 题。
+- 链表的排序，插入排序(第 147 题)和归并排序(第 148 题)
+- 桶排序和基数排序。第 164 题。
+- "摆动排序"。第 324 题。
+- 两两不相邻的排序。第 767 题，第 1054 题。
+- "饼子排序"。第 969 题。
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sort/)
 
@@ -2966,35 +2966,35 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sort/)
 
 ![](./topic/Bit_Manipulation.png)
 
-- Properties of XOR. Problems 136, 268, 389, 421.
+- 异或的特性。第 136 题，第 268 题，第 389 题，第 421 题，
 
 ```go
 x ^ 0 = x
 x ^ 11111……1111 = ~x
 x ^ (~x) = 11111……1111
 x ^ x = 0
-a ^ b = c  => a ^ c = b  => b ^ c = a (commutativity)
-a ^ b ^ c = a ^ (b ^ c) = (a ^ b) ^ c (associativity)
+a ^ b = c  => a ^ c = b  => b ^ c = a (交换律)
+a ^ b ^ c = a ^ (b ^ c) = (a ^ b）^ c (结合律)
 ```
 
-- Construct special masks to set particular bits to 0 or 1.
+- 构造特殊 Mask，将特殊位置放 0 或 1。
 
 ```go
-Clear the rightmost n bits of x: x & (~0 << n)
-Get the n-th bit of x (0 or 1): (x >> n) & 1
-Get the n-th bit of x as its power-of-two value: x & (1 << (n - 1))
-Set only the n-th bit to 1: x | (1 << n)
-Set only the n-th bit to 0: x & (~(1 << n))
-Clear x's bits from the most significant bit down to the n-th bit (inclusive): x & ((1 << n) - 1)
-Clear the bits from the n-th bit down to bit 0 (inclusive): x & (~((1 << (n + 1)) - 1))
+将 x 最右边的 n 位清零， x & ( ~0 << n )
+获取 x 的第 n 位值(0 或者 1)，(x >> n) & 1
+获取 x 的第 n 位的幂值，x & (1 << (n - 1))
+仅将第 n 位置为 1，x | (1 << n)
+仅将第 n 位置为 0，x & (~(1 << n))
+将 x 最高位至第 n 位(含)清零，x & ((1 << n) - 1)
+将第 n 位至第 0 位(含)清零，x & (~((1 << (n + 1)) - 1)）
 ```
 
-- Bitwise-AND tricks with special meaning. Problems 260, 201, 318, 371, 397, 461, 693.
+- 有特殊意义的 & 位操作运算。第 260 题，第 201 题，第 318 题，第 371 题，第 397 题，第 461 题，第 693 题，
 
 ```go
-X & 1 == 1 tests whether X is odd (otherwise even)
-X &= (X - 1) clears the lowest set bit (LSB)
-X & -X isolates the lowest set bit (LSB)
+X & 1 == 1 判断是否是奇数(偶数)
+X & = (X - 1) 将最低位(LSB)的 1 清零
+X & -X 得到最低位(LSB)的 1
 X & ~X = 0
 ```
 
@@ -3005,12 +3005,12 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Mani
 
 ![](./topic/Union_Find.png)
 
-- Use the union-find idea flexibly and get comfortable with the union-find [template](https://github.com/halfrost/LeetCode-Go/blob/master/template/UnionFind.go). The template offers two implementations: one with path compression + union by rank, and one that tracks the size of each set + the largest set size; each has its own use cases. Problems that fit the first template: 128, 130, 547, 684, 721, 765, 778, 839, 924, 928, 947, 952, 959, 990. Problems that fit the second template: 803, 952. In Problem 803, union by rank and counting set sizes are where time gets tight; skip these optimizations and you'll TLE.
-- Union-Find is an idea; some problems require applying it flexibly rather than blindly reusing the template, e.g. Problem 399, a stringUnionFind built on the union-find idea. Here each node is keyed by strings and a map rather than plain integer node IDs.
-- Some problems can't be solved by blindly applying the template, e.g. Problem 685: it cannot use path compression or union by rank, because it involves a directed graph and you need each node's predecessor; with path compression, the problem becomes unsolvable. This one needs neither path compression nor union by rank.
-- Abstract the given information flexibly, number it sensibly, solve with union-find, and use a map to lower the time complexity, e.g. Problems 721, 959.
-- For problems about maps, bricks, or grids, create a special node and union() all the border bricks or cells to it. Problems 130, 803.
-- Problems solvable with union-find can generally also be solved with DFS and BFS, just at a somewhat higher time complexity.
+- 灵活使用并查集的思想，熟练掌握并查集的[模板](https://github.com/halfrost/LeetCode-Go/blob/master/template/UnionFind.go)，模板中有两种并查集的实现方式，一种是路径压缩 + 秩优化的版本，另外一种是计算每个集合中元素的个数 + 最大集合元素个数的版本，这两种版本都有各自使用的地方。能使用第一类并查集模板的题目有：第 128 题，第 130 题，第 547 题，第 684 题，第 721 题，第 765 题，第 778 题，第 839 题，第 924 题，第 928 题，第 947 题，第 952 题，第 959 题，第 990 题。能使用第二类并查集模板的题目有：第 803 题，第 952 题。第 803 题秩优化和统计集合个数这些地方会卡时间，如果不优化，会 TLE。
+- 并查集是一种思想，有些题需要灵活使用这种思想，而不是死套模板，如第 399 题，这一题是 stringUnionFind，利用并查集思想实现的。这里每个节点是基于字符串和 map 的，而不是单纯的用 int 节点编号实现的。
+- 有些题死套模板反而做不出来，比如第 685 题，这一题不能路径压缩和秩优化，因为题目中涉及到有向图，需要知道节点的前驱节点，如果路径压缩了，这一题就没法做了。这一题不需要路径压缩和秩优化。
+- 灵活的抽象题目给的信息，将给定的信息合理的编号，使用并查集解题，并用 map 降低时间复杂度，如第 721 题，第 959 题。
+- 关于地图，砖块，网格的题目，可以新建一个特殊节点，将四周边缘的砖块或者网格都 union() 到这个特殊节点上。第 130 题，第 803 题。
+- 能用并查集的题目，一般也可以用 DFS 和 BFS 解答，只不过时间复杂度会高一点。
 
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Find/)
@@ -3021,7 +3021,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Fi
 
 ![](./topic/Sliding_Window.png)
 
-- The classic two-pointer sliding-window pattern. Keep moving the right pointer rightward until it can no longer move (the exact condition depends on the problem). Once the right pointer reaches the far right, start moving the left pointer to release the window's left boundary. Problems 3, 76, 209, 424, 438, 567, 713, 763, 845, 881, 904, 978, 992, 1004, 1040, 1052.
+- 双指针滑动窗口的经典写法。右指针不断往右移，移动到不能往右移动为止(具体条件根据题目而定)。当右指针到最右边以后，开始挪动左指针，释放窗口左边界。第 3 题，第 76 题，第 209 题，第 424 题，第 438 题，第 567 题，第 713 题，第 763 题，第 845 题，第 881 题，第 904 题，第 978 题，第 992 题，第 1004 题，第 1040 题，第 1052 题。
 
 ```c
 	left, right := 0, -1
@@ -3037,7 +3037,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Fi
 		result = max(result, right-left+1)
 	}
 ```
-- Classic sliding-window problems. Problems 239, 480.
+- 滑动窗口经典题。第 239 题，第 480 题。
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/)
 
@@ -3046,31 +3046,31 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sliding_
 
 ![](./topic/Segment_Tree.png)
 
-- The classic array-based segment-tree implementation. The pushUp logic for merging two nodes is abstracted out, so it can support arbitrary operations (common ones: addition, max, min, etc.). Problems 218, 303, 307, 699.
-- The classic counting segment tree. Problems 315, 327, 493.
-- The pointer-based (tree) segment-tree implementation. Problems 715, 732.
-- Lazy range updates. Problems 218, 699.
-- Discretization (coordinate compression). Watch out for one special case: suppose the three intervals are [1,10], [1,4], [6,10]; after discretization x[1]=1, x[2]=4, x[3]=6, x[4]=10, so the first interval becomes [1,4], the second [1,2], the third [3,4]. Then interval one = interval two + interval three, which contradicts the original model — before discretization it is clear that interval one > interval two + interval three. The correct fix is to insert an extra value between any two values that differ by more than 1; e.g. insert 5 between 1 4 6 10 above, giving x[1]=1, x[2]=4, x[3]=5, x[4]=6, x[5]=10. After this, interval one is 1-5, interval two is 1-2, and interval three is 4-5.
-- Build segment trees flexibly. A node can store multiple pieces of information, and the pushUp that merges two nodes can take many forms. Problems 850, 1157.
+- 线段树的经典数组实现写法。将合并两个节点 pushUp 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)。第 218 题，第 303 题，第 307 题，第 699 题。
+- 计数线段树的经典写法。第 315 题，第 327 题，第 493 题。
+- 线段树的树的实现写法。第 715 题，第 732 题。
+- 区间懒惰更新。第 218 题，第 699 题。
+- 离散化。离散化需要注意一个特殊情况：假如三个区间为 [1,10] [1,4] [6,10]，离散化后 x[1]=1,x[2]=4,x[3]=6,x[4]=10。第一个区间为 [1,4]，第二个区间为 [1,2]，第三个区间为 [3,4]，这样一来，区间一 = 区间二 + 区间三，这和离散前的模型不符，离散前，很明显，区间一 > 区间二 + 区间三。正确的做法是：在相差大于 1 的数间加一个数，例如在上面 1 4 6 10 中间加 5，即可 x[1]=1,x[2]=4,x[3]=5,x[4]=6,x[5]=10。这样处理之后，区间一是 1-5 ，区间二是 1-2 ，区间三是 4-5 。
+- 灵活构建线段树。线段树节点可以存储多条信息，合并两个节点的 pushUp 操作也可以是多样的。第 850 题，第 1157 题。
 
 
-Segment-tree [problem types](https://blog.csdn.net/xuechelingxiao/article/details/38313105), from easy to hard:
+线段树[题型](https://blog.csdn.net/xuechelingxiao/article/details/38313105)从简单到困难:
 
-1. Point update:
-	[HDU 1166 敌兵布阵](http://acm.hdu.edu.cn/showproblem.php?pid=1166) update: point add/subtract; query: range sum
-	[HDU 1754 I Hate It](http://acm.hdu.edu.cn/showproblem.php?pid=1754) update: point assignment; query: range min/max
-	[HDU 1394 Minimum Inversion Number](http://acm.hdu.edu.cn/showproblem.php?pid=1394) update: point add/subtract; query: range sum
-	[HDU 2795 Billboard](http://acm.hdu.edu.cn/showproblem.php?pid=2795) query: the position of the range maximum (the update is folded into the query)
-2. Range update:
-	[HDU 1698 Just a Hook](http://acm.hdu.edu.cn/showproblem.php?pid=1698) update: range assignment (since the whole range is queried only once, you can simply output the info at node 1)
-	[POJ 3468 A Simple Problem with Integers](http://poj.org/problem?id=3468) update: range add/subtract; query: range sum
-	[POJ 2528 Mayor’s posters](http://poj.org/problem?id=2528) discretization + update: range assignment; query: simple hash
-	[POJ 3225 Help with Intervals](http://poj.org/problem?id=3225) update: range assignment, range XOR; query: simple hash
-3. Range merging (these problems ask for the longest contiguous range satisfying a condition, so pushUp must merge the ranges of the left and right children):
-	[POJ 3667 Hotel](http://poj.org/problem?id=3667) update: range assignment; query: the leftmost endpoint satisfying the condition
-4. Sweep line (these problems require sorting some operations, then sweeping a line from left to right; the most typical are union of rectangle areas, union of perimeters, etc.):
-	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update: range add/subtract; query: read the root node's value directly
-	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update: range add/subtract; query: read the root node's value directly
+1. 单点更新:  
+	[HDU 1166 敌兵布阵](http://acm.hdu.edu.cn/showproblem.php?pid=1166) update:单点增减 query:区间求和  
+	[HDU 1754 I Hate It](http://acm.hdu.edu.cn/showproblem.php?pid=1754) update:单点替换 query:区间最值  
+	[HDU 1394 Minimum Inversion Number](http://acm.hdu.edu.cn/showproblem.php?pid=1394) update:单点增减 query:区间求和  
+	[HDU 2795 Billboard](http://acm.hdu.edu.cn/showproblem.php?pid=2795) query:区间求最大值的位子(直接把update的操作在query里做了)
+2. 区间更新:  
+	[HDU 1698 Just a Hook](http://acm.hdu.edu.cn/showproblem.php?pid=1698) update:成段替换 (由于只query一次总区间,所以可以直接输出 1 结点的信息)  
+	[POJ 3468 A Simple Problem with Integers](http://poj.org/problem?id=3468) update:成段增减 query:区间求和  
+	[POJ 2528 Mayor’s posters](http://poj.org/problem?id=2528) 离散化 + update:成段替换 query:简单hash  
+	[POJ 3225 Help with Intervals](http://poj.org/problem?id=3225) update:成段替换,区间异或 query:简单hash
+3. 区间合并(这类题目会询问区间中满足条件的连续最长区间,所以PushUp的时候需要对左右儿子的区间进行合并):  
+	[POJ 3667 Hotel](http://poj.org/problem?id=3667) update:区间替换 query:询问满足条件的最左端点
+4. 扫描线(这类题目需要将一些操作排序,然后从左到右用一根扫描线扫过去最典型的就是矩形面积并,周长并等题):  
+	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update:区间增减 query:直接取根节点的值  
+	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update:区间增减 query:直接取根节点的值
 
 Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Segment_Tree/)
 
@@ -3088,7 +3088,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_I
 <a href="https://github.com/halfrost/LeetCode-Go/releases/tag/Special"><img src="https://img.halfrost.com/Leetcode/ACM-ICPC_Algorithm_Template.png"></a>
 </p>
 
-Thank you for reading this far — here's a bonus. You can download my [ACM-ICPC Algorithm Template](https://github.com/halfrost/LeetCode-Go/releases/tag/Special/).
+Thank you for reading here. This is bonus. You can download my [《ACM-ICPC Algorithm Template》](https://github.com/halfrost/LeetCode-Go/releases/tag/Special/)
 
 
 
