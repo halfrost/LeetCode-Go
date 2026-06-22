@@ -24,6 +24,14 @@
       return;
     }
 
+    // Don't hijack typing in other editable fields (e.g. the Gitalk comment box).
+    // Otherwise a search hotkey ("s" / "/") typed there steals focus to the search
+    // box, making it lose focus after every keystroke.
+    const active = document.activeElement;
+    if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.tagName === 'SELECT' || active.isContentEditable)) {
+      return;
+    }
+
     const characterPressed = String.fromCharCode(event.charCode);
     if (!isHotkey(characterPressed)) {
       return;
