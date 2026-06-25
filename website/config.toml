@@ -9,55 +9,78 @@ enableGitInfo = true
 # Book configuration
 disablePathToLower = true
 
+# 多语言默认语言（必须放在任何 [table] 之前，否则会被误嵌套）。
+# 英文为默认；英文在 /en/、中文在 /zh/，根路径 / 自动跳转到默认语言 /en/，
+# 这样英文既是默认、又保留独立的 /en/ 入口（与 /zh/ 对称）。
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
   unsafe = true
 
 [markup.tableOfContents]
-  startLevel = 1
+  # 从 2 级标题开始收录，右侧目录不再收录很长的 H1 题目标题（英文标题很长会撑出右边栏）
+  startLevel = 2
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-#[languages]
-#[languages.en]
-#  languageName = 'English'
-#  contentDir = 'content'
-#  weight = 1
+# Multi-lingual mode: 中文(默认, 根路径 /) + English(/en/)，两套都预渲染成静态页面，
+# 由主题右下角的语言下拉一键切换（footer 里 IsMultiLingual 时显示）。
+# 中文内容在 content/，英文内容在 content.en/（由翻译脚本生成）。
+[languages]
+[languages.zh]
+  languageName = "中文"
+  languageCode = "zh-CN"
+  contentDir = "content"
+  weight = 2
+  [languages.zh.menu]
+  [[languages.zh.menu.before]]
+    name = "Blog"
+    url = "https://halfrost.com"
+    weight = 10
+  [[languages.zh.menu.before]]
+    name = "Github"
+    url = "https://github.com/halfrost"
+    weight = 20
+  [[languages.zh.menu.before]]
+    name = "WeChat Official Accounts"
+    url = "https://img.halfrost.com/wechat-qr-code.png"
+    weight = 30
+  [[languages.zh.menu.before]]
+    name = "Twitter"
+    url = "https://twitter.com/halffrost"
+    weight = 40
+  [[languages.zh.menu.before]]
+    name = "Weibo"
+    url = "https://weibo.com/halfrost"
+    weight = 50
 
-#[languages.ru]
-#  languageName = 'Russian'
-#  contentDir = 'content.ru'
-#  weight = 2
-
-#[languages.cn]
-#  languageName = 'Chinese'
-#  contentDir = 'content.cn'
-#  weight = 3
-
-[menu]
-[[menu.before]]
-  name = "Blog"
-  url = "https://halfrost.com"
-  weight = 10
-[[menu.before]]
-  name = "Github"
-  url = "https://github.com/halfrost"
-  weight = 20
-[[menu.before]]
-  name = "WeChat Official Accounts"
-  url = "https://img.halfrost.com/wechat-qr-code.png"
-  weight = 30
-[[menu.before]]
-  name = "Twitter"
-  url = "https://twitter.com/halffrost"
-  weight = 40
-[[menu.before]]
-  name = "Weibo"
-  url = "https://weibo.com/halfrost"
-  weight = 50
+[languages.en]
+  languageName = "English"
+  languageCode = "en-US"
+  contentDir = "content.en"
+  weight = 1
+  [languages.en.menu]
+  [[languages.en.menu.before]]
+    name = "Blog"
+    url = "https://halfrost.com"
+    weight = 10
+  [[languages.en.menu.before]]
+    name = "Github"
+    url = "https://github.com/halfrost"
+    weight = 20
+  [[languages.en.menu.before]]
+    name = "WeChat Official Accounts"
+    url = "https://img.halfrost.com/wechat-qr-code.png"
+    weight = 30
+  [[languages.en.menu.before]]
+    name = "Twitter"
+    url = "https://twitter.com/halffrost"
+    weight = 40
+  [[languages.en.menu.before]]
+    name = "Weibo"
+    url = "https://weibo.com/halfrost"
+    weight = 50
 #[[menu.after]]
 #  name = "Github"
 #  url = "https://github.com/alex-shpak/hugo-book"

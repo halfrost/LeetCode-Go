@@ -14,11 +14,13 @@ $border-radius: $padding-4 !default;
 $body-font-weight: normal !default;
 
 $body-min-width: 20rem !default;
-$container-max-width: 80rem !default;
+// 调宽居中容器：减少左右留白、让左侧栏更靠左（原 80rem）
+$container-max-width: 96rem !default;
 
 $header-height: 3.5rem !default;
-$menu-width: 16rem !default;
-$toc-width: 16rem !default;
+// 左右侧栏都加宽（原各 16rem）
+$menu-width: 19rem !default;
+$toc-width: 13rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 

@@ -8,12 +8,74 @@
 <link href="{{ "apple-touch-icon-1024x1024.png" | relURL }}" rel="apple-touch-icon" sizes="1024x1024" />
 
 <script>
-    var html = document.documentElement;  
-    //Check Storage. Keep user preference on page reload
-    if (localStorage.getItem('themeMode') == 'dark') {
-      html.setAttribute("data-theme","dark");
+    var html = document.documentElement;
+    var stored = localStorage.getItem('themeMode');
+    // 跟随系统：没有手动选择时，按操作系统的深色/浅色偏好自动切换
+    function applyAutoTheme() {
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        html.setAttribute("data-theme", "dark");
+      } else {
+        html.setAttribute("data-theme", "light");
+      }
     }
-    if (localStorage.getItem('themeMode') == 'light') {
-      html.setAttribute("data-theme","light");
+    if (stored === 'dark') {
+      html.setAttribute("data-theme", "dark");        // 用户手动选了深色
+    } else if (stored === 'light') {
+      html.setAttribute("data-theme", "light");       // 用户手动选了浅色
+    } else {
+      applyAutoTheme();                                // 未手动选择 → 跟随系统
+    }
+    // 系统深浅色变化时实时跟随（仅当用户没有手动指定时）
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var onSchemeChange = function () {
+        if (!localStorage.getItem('themeMode')) {
+          applyAutoTheme();
+        }
+      };
+      if (mq.addEventListener) { mq.addEventListener('change', onSchemeChange); }
+      else if (mq.addListener) { mq.addListener(onSchemeChange); }
     }
   </script>
+
+<style>
+  /* 左右侧栏（左菜单、右目录）本就 position:fixed + overflow-y:auto 可滚动；
+     英文比中文长，目录变高后最后几项会贴到视口底边、或被右下角的语言切换按钮遮住。
+     这里给底部留白，并显式约束高度可滚动，确保所有目录项都能露出、滚得到。 */
+  .book-toc .book-toc-content,
+  aside.book-menu .book-menu-content {
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 4.5rem;
+  }
+  /* 右侧目录限宽 + 长英文标题自动换行，避免标题撑出页面右边缘 */
+  .book-toc .book-toc-content {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .book-toc .book-toc-content nav,
+  .book-toc .book-toc-content nav ul,
+  .book-toc .book-toc-content nav li,
+  .book-toc .book-toc-content nav a {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  /* 表格滚动容器：窄表铺满正文，宽表在此容器内左右滑动（容器由 JS 包裹生成） */
+  .markdown .table-scroll {
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  .markdown .table-scroll > table {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* 首屏加载期间禁用布局过渡，消除正文/侧栏“铺满→收缩”的一闪；load 后由 JS 移除 no-anim */
+  html.no-anim .book-menu-content,
+  html.no-anim .book-toc-content,
+  html.no-anim .book-page,
+  html.no-anim .markdown {
+    transition: none !important;
+  }
+</style>

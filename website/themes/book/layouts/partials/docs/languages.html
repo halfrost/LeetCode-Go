@@ -21,7 +21,7 @@
   <ul class="book-languages-list">
     {{ range .Site.Languages }}{{ with index $translations .Lang }}
     <li class="{{ if (eq $.Site.Language .Language) }}active{{ end }}">
-      <a href="{{ .Permalink }}" class="flex align-center">
+      <a href="{{ .Permalink }}" data-lang="{{ .Language.Lang }}" class="flex align-center">
         <img src="{{ "svg/translate.svg" | relURL }}" class="book-icon" alt="Languages" />
         {{ .Language.LanguageName }}
       </a>

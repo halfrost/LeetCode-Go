@@ -102,8 +102,10 @@
   }
 
   table {
-    overflow: auto;
-    display: block;
+    // 铺满正文宽度：width:100% 让表格占满整行、单元格按需换行（不会被强行撑宽）。
+    // 只有当内容的最小宽度确实超过容器时，才由外层 .table-scroll 容器左右滑动。
+    display: table;
+    width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
     margin-top: $padding-16;

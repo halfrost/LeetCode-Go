@@ -1,3 +1,58 @@
+{{ if .Site.IsMultiLingual }}
+{{- $cur := .Site.Language.Lang -}}
+{{- $otherName := "" -}}{{- $otherLang := "" -}}{{- $otherURL := "" -}}
+{{- range .Site.Languages -}}{{- if ne .Lang $cur -}}{{- $otherLang = .Lang -}}{{- $otherName = .LanguageName -}}{{- end -}}{{- end -}}
+{{- range .AllTranslations -}}{{- if eq .Language.Lang $otherLang -}}{{- $otherURL = .Permalink -}}{{- end -}}{{- end -}}
+{{- if not $otherURL -}}{{- range .Site.Home.AllTranslations -}}{{- if eq .Language.Lang $otherLang -}}{{- $otherURL = .Permalink -}}{{- end -}}{{- end -}}{{- end -}}
+{{- if $otherURL -}}
+<a class="lang-switch-top" href="{{ $otherURL }}" data-lang="{{ $otherLang }}" title="{{ if eq $cur "en" }}Switch language{{ else }}切换语言{{ end }}" aria-label="Switch language">
+  <img src="{{ "svg/translate.svg" | relURL }}" alt="" style="height:1em;width:1em;vertical-align:-0.12em;margin-right:.35em;" />{{ $otherName }}
+</a>
+<script>
+  // 点击任意语言切换入口（右下角浮动按钮 / footer 语言下拉）时，记住用户选择，
+  // 下次进入站点会被 head 里的脚本自动跳到这个语言。
+  (function () {
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('[data-lang]');
+      if (a && a.getAttribute('data-lang')) {
+        try { localStorage.setItem('preferredLang', a.getAttribute('data-lang')); } catch (err) {}
+      }
+    }, true);
+  })();
+</script>
+<style>
+.lang-switch-top{position:fixed;bottom:22px;right:22px;z-index:101;display:inline-flex;align-items:center;
+  padding:.4em 1em;border:1px solid var(--gray-300, #d0d7de);border-radius:999px;
+  background:var(--body-background, #fff);color:var(--body-font-color, #24292f);
+  font-size:.85rem;line-height:1;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.18);transition:border-color .15s ease, box-shadow .15s ease;}
+.lang-switch-top:hover{border-color:#64CEAA;box-shadow:0 3px 12px rgba(0,0,0,.24);}
+@media (max-width:768px){.lang-switch-top{bottom:14px;right:14px;padding:.34em .8em;font-size:.8rem;}}
+</style>
+{{- end -}}
+{{ end }}
+
+<script>
+  // 给每个正文表格套一层可横向滚动的容器：窄表铺满正文宽度，宽表在容器内左右滑动，
+  // 不会把整页撑出横向滚动条。（Hugo 0.74 没有表格 render hook，故用 JS 包裹。）
+  (function () {
+    function wrapTables() {
+      var tables = document.querySelectorAll('.markdown table');
+      for (var i = 0; i < tables.length; i++) {
+        var t = tables[i];
+        if (t.closest('.table-scroll') || (t.parentElement && t.parentElement.classList.contains('highlight'))) continue;
+        var w = document.createElement('div');
+        w.className = 'table-scroll';
+        t.parentNode.insertBefore(w, t);
+        w.appendChild(t);
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', wrapTables);
+    } else {
+      wrapTables();
+    }
+  })();
+</script>
 <script src="/leetcode/prism.js"></script>
 
 <script async="async">

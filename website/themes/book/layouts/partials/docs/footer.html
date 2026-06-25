@@ -23,6 +23,11 @@
   </div>
 {{ end }}
 {{ partial "docs/gitalk.html" . }}
+{{ if eq .Site.Language.Lang "en" }}
+<span id="busuanzi_container_site_pv">Total visits: <span id="busuanzi_value_site_pv"></span> &nbsp;</span>
+<span id="busuanzi_container_site_uv">You are visitor No. <span id="busuanzi_value_site_uv"></span></span>
+{{ else }}
 <span id="busuanzi_container_site_pv">本站总访问量: <span id="busuanzi_value_site_pv"></span> &nbsp;次</span>
 <span id="busuanzi_container_site_uv">您是本站第 <span id="busuanzi_value_site_uv"></span> &nbsp;位访问者</span>
+{{ end }}
 </div>

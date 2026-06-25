@@ -1,5 +1,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  // 首屏加载期间禁用布局过渡，避免左右栏/正文从“铺满”动画收缩到位的一闪。
+  // 加载完成后移除，恢复移动端菜单滑入等过渡。
+  document.documentElement.classList.add('no-anim');
+  window.addEventListener('load', function () {
+    requestAnimationFrame(function () { document.documentElement.classList.remove('no-anim'); });
+  });
+</script>
+
+{{ if .Site.IsMultiLingual }}
+{{- $cur := .Site.Language.Lang -}}
+{{- $otherLang := "" -}}{{- $otherURL := "" -}}
+{{- range .Site.Languages -}}{{- if ne .Lang $cur -}}{{- $otherLang = .Lang -}}{{- end -}}{{- end -}}
+{{- range .AllTranslations -}}{{- if eq .Language.Lang $otherLang -}}{{- $otherURL = .Permalink -}}{{- end -}}{{- end -}}
+{{- if not $otherURL -}}{{- range .Site.Home.AllTranslations -}}{{- if eq .Language.Lang $otherLang -}}{{- $otherURL = .Permalink -}}{{- end -}}{{- end -}}{{- end -}}
+<script>
+  // 记住用户的语言选择（存在 localStorage —— 本地缓存，同步读取、瞬时完成，比异步的 Cache API 更快）。
+  // 放在 <head> 最前面，渲染前最早执行：若用户偏好的是另一种语言且本页有对应翻译，直接跳转，几乎无闪烁。
+  (function () {
+    try {
+      var cur = "{{ $cur }}", otherLang = "{{ $otherLang }}", otherURL = "{{ $otherURL }}";
+      var pref = localStorage.getItem('preferredLang');
+      if (pref && pref === otherLang && otherURL) { location.replace(otherURL); }
+    } catch (e) {}
+  })();
+</script>
+{{ end }}
 <meta name="description" content="{{ default .Summary .Description }}">
 <meta name="theme-color" content="#FFFFFF">
 
