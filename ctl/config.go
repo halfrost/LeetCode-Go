@@ -25,7 +25,7 @@ func (c config) String() string {
 func getConfig() *config {
 	cfg := new(config)
 	if _, err := toml.DecodeFile(configTOML, &cfg); err != nil {
-		log.Panicf(err.Error())
+		log.Panic(err)
 	}
 	// log.Printf("get config: %s", cfg)
 	return cfg

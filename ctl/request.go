@@ -50,14 +50,14 @@ func getRaw(URL string) []byte {
 	req := newReq()
 	resp, err := req.Get(URL)
 	if err != nil {
-		fmt.Printf("getRaw: Get Error: " + err.Error())
+		fmt.Printf("getRaw: Get Error: %s\n", err.Error())
 		return []byte{}
 	}
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		fmt.Printf("getRaw: Read Error: " + err.Error())
+		fmt.Printf("getRaw: Read Error: %s\n", err.Error())
 		return []byte{}
 	}
 	if resp.StatusCode == 200 {
@@ -79,14 +79,14 @@ func getQraphql(payload string) []byte {
 	req := newReq()
 	resp, err := req.PostForm(QraphqlURL, bytes.NewBuffer([]byte(payload)))
 	if err != nil {
-		fmt.Printf("getRaw: Get Error: " + err.Error())
+		fmt.Printf("getRaw: Get Error: %s\n", err.Error())
 		return []byte{}
 	}
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		fmt.Printf("getRaw: Read Error: " + err.Error())
+		fmt.Printf("getRaw: Read Error: %s\n", err.Error())
 		return []byte{}
 	}
 	if resp.StatusCode == 200 {

@@ -58,8 +58,8 @@ func generatePDF() {
 		pdf, tmp []byte
 		err      error
 	)
-	// 先删除 pre-next
-	delPreNext()
+	// 上/下页导航由 Hugo 主题渲染时动态生成，markdown 中不再写入导航 HTML，
+	// 因此这里无需再做删除/还原导航的操作。
 
 	chapterFourFileOrder, _ := util.LoadChapterFourDir()
 	totalSolutions = len(chapterFourFileOrder)
@@ -90,7 +90,6 @@ func generatePDF() {
 	// 生成 PDF
 	util.WriteFile(fmt.Sprintf("../PDF v%v.%v.%v.md", majorVersion, midVersion, lastVersion), pdf)
 	// 还原现场
-	addPreNext()
 	util.DestoryDir("./pdftemp")
 }
 
@@ -106,9 +105,9 @@ func loadChapter(order []string, path, chapter string) ([]byte, error) {
 		} else {
 			if chapter == "ChapterFour" {
 				if v[4] == '.' {
-					num, err := strconv.Atoi(v[:4])
-					if err != nil {
-						fmt.Println(err)
+					num, atoiErr := strconv.Atoi(v[:4])
+					if atoiErr != nil {
+						fmt.Println(atoiErr)
 					}
 					tmp, err = util.LoadFile(fmt.Sprintf("%v/%v/%v/%v.md", path, chapter, util.GetChpaterFourFileNum(num), v))
 				}

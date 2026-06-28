@@ -69,4 +69,4 @@ func constructRectangle(area int) []int {
 	return ans
 }
 
-``
+```

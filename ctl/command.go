@@ -23,7 +23,6 @@ func init() {
 	rootCmd.AddCommand(
 		versionCmd,
 		newBuildCommand(),
-		newLabelCommand(),
 		newPDFCommand(),
 		newRefresh(),
 	)
