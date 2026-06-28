@@ -12,10 +12,10 @@ func winnerOfGame(colors string) bool {
 			Acont = 0
 		}
 		if Acont >= 3 {
-			As += Acont - 2
+			As++
 		}
 		if Bcont >= 3 {
-			Bs += Bcont - 2
+			Bs++
 		}
 	}
 	if As > Bs {

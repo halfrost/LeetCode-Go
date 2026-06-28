@@ -49,8 +49,8 @@ func signin() *request.Request {
 func getRaw(URL string) []byte {
 	req := newReq()
 	resp, err := req.Get(URL)
-	if err != nil {
-		fmt.Printf("getRaw: Get Error: %s\n", err.Error())
+	if err != nil || resp == nil {
+		fmt.Printf("getRaw: Get Error: %v\n", err)
 		return []byte{}
 	}
 	defer resp.Body.Close()
@@ -60,9 +60,12 @@ func getRaw(URL string) []byte {
 		fmt.Printf("getRaw: Read Error: %s\n", err.Error())
 		return []byte{}
 	}
-	if resp.StatusCode == 200 {
-		fmt.Println("Get problem Success!")
+	// 非 200（如被限流的 429）直接返回空，让调用方做返回值校验后跳过，避免拿错误页继续解析
+	if resp.StatusCode != 200 {
+		fmt.Printf("getRaw: non-200 status %d for %s\n", resp.StatusCode, URL)
+		return []byte{}
 	}
+	fmt.Println("Get problem Success!")
 	return body
 }
 
@@ -78,20 +81,23 @@ type Variables struct {
 func getQraphql(payload string) []byte {
 	req := newReq()
 	resp, err := req.PostForm(QraphqlURL, bytes.NewBuffer([]byte(payload)))
-	if err != nil {
-		fmt.Printf("getRaw: Get Error: %s\n", err.Error())
+	if err != nil || resp == nil {
+		fmt.Printf("getQraphql: Post Error: %v\n", err)
 		return []byte{}
 	}
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		fmt.Printf("getRaw: Read Error: %s\n", err.Error())
+		fmt.Printf("getQraphql: Read Error: %s\n", err.Error())
 		return []byte{}
 	}
-	if resp.StatusCode == 200 {
-		fmt.Println("Get problem Success!")
+	// 非 200（如被限流的 429）直接返回空，让调用方做返回值校验后跳过
+	if resp.StatusCode != 200 {
+		fmt.Printf("getQraphql: non-200 status %d\n", resp.StatusCode)
+		return []byte{}
 	}
+	fmt.Println("Get problem Success!")
 	return body
 }
 

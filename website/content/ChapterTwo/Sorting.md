@@ -126,4 +126,3 @@ weight: 14
 |2164|Sort Even and Odd Indices Independently|[Go]({{< relref "/ChapterFour/2100~2199/2164.Sort-Even-and-Odd-Indices-Independently.md" >}})|Easy||||65.0%|
 |2165|Smallest Value of the Rearranged Number|[Go]({{< relref "/ChapterFour/2100~2199/2165.Smallest-Value-of-the-Rearranged-Number.md" >}})|Medium||||51.4%|
 |2171|Removing Minimum Number of Magic Beans|[Go]({{< relref "/ChapterFour/2100~2199/2171.Removing-Minimum-Number-of-Magic-Beans.md" >}})|Medium||||42.1%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

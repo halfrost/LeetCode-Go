@@ -67,4 +67,3 @@ weight: 4
 |1670|Design Front Middle Back Queue|[Go]({{< relref "/ChapterFour/1600~1699/1670.Design-Front-Middle-Back-Queue.md" >}})|Medium||||57.2%|
 |1721|Swapping Nodes in a Linked List|[Go]({{< relref "/ChapterFour/1700~1799/1721.Swapping-Nodes-in-a-Linked-List.md" >}})|Medium||||67.1%|
 |2181|Merge Nodes in Between Zeros|[Go]({{< relref "/ChapterFour/2100~2199/2181.Merge-Nodes-in-Between-Zeros.md" >}})|Medium||||86.3%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

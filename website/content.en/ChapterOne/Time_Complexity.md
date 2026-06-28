@@ -27,7 +27,6 @@ Data scale of problems that can be solved within 1s: 10^6 ~ 10^7
 |8|10^9|O(sqrt(n))|Prime sieving, square root calculation|
 |9|10^10|O(log n)|Binary search|
 |10|+∞|O(1)|Math-related algorithms|
-|------------------------------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
 
 
 Some misleading examples:

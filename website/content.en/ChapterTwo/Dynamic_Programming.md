@@ -107,4 +107,3 @@ weight: 7
 |1691|Maximum Height by Stacking Cuboids|[Go]({{< relref "/ChapterFour/1600~1699/1691.Maximum-Height-by-Stacking-Cuboids.md" >}})|Hard||||54.6%|
 |1696|Jump Game VI|[Go]({{< relref "/ChapterFour/1600~1699/1696.Jump-Game-VI.md" >}})|Medium||||46.1%|
 |2167|Minimum Time to Remove All Cars Containing Illegal Goods|[Go]({{< relref "/ChapterFour/2100~2199/2167.Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods.md" >}})|Hard||||40.8%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

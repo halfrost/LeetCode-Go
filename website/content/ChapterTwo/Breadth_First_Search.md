@@ -89,4 +89,3 @@ weight: 10
 |1609|Even Odd Tree|[Go]({{< relref "/ChapterFour/1600~1699/1609.Even-Odd-Tree.md" >}})|Medium||||54.4%|
 |1631|Path With Minimum Effort|[Go]({{< relref "/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort.md" >}})|Medium||||55.7%|
 |1654|Minimum Jumps to Reach Home|[Go]({{< relref "/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home.md" >}})|Medium||||29.1%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

@@ -22,4 +22,3 @@ The following is data-structure-related knowledge compiled by the author. I hope
 |Array-Implemented Heap<br>Heap|1. Max Heap and Min Heap Max Heap and Min Heap<br>2. Min-Max Heap<br>3. Deap Deap<br>4. d-ary Heap|||
 |Tree-Implemented Heap<br>Heap|1. Leftist Tree Leftist Tree/Leftist Heap<br>2. Flat Heap<br>3. Binomial Heap<br>4. Fibonacci Heap Fibonacco Heap<br>5. Pairing Heap Pairing Heap|||
 |Search<br>Search|1. Hash Table Hash<br>2. Skip List Skip List<br>3. Binary Sort Tree Binary Sort Tree<br>4. AVL Tree<br>5. B Tree / B+ Tree / B* Tree<br>6. AA Tree<br>7. Red Black Tree Red Black Tree<br>8. Binary Heap Binary Heap<br>9. Splay Tree<br>10. Double Chained Tree Double Chained Tree<br>11. Trie Tree<br>12. R Tree|||
-|--------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|

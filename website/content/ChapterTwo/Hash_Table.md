@@ -170,4 +170,3 @@ weight: 13
 |2043|Simple Bank System|[Go]({{< relref "/ChapterFour/2000~2099/2043.Simple-Bank-System.md" >}})|Medium||||65.2%|
 |2166|Design Bitset|[Go]({{< relref "/ChapterFour/2100~2199/2166.Design-Bitset.md" >}})|Medium||||31.8%|
 |2170|Minimum Operations to Make the Array Alternating|[Go]({{< relref "/ChapterFour/2100~2199/2170.Minimum-Operations-to-Make-the-Array-Alternating.md" >}})|Medium||||33.2%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

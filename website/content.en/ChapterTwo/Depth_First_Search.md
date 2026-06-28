@@ -116,4 +116,3 @@ weight: 9
 |1600|Throne Inheritance|[Go]({{< relref "/ChapterFour/1600~1699/1600.Throne-Inheritance.md" >}})|Medium||||63.6%|
 |1631|Path With Minimum Effort|[Go]({{< relref "/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort.md" >}})|Medium||||55.7%|
 |2096|Step-By-Step Directions From a Binary Tree Node to Another|[Go]({{< relref "/ChapterFour/2000~2099/2096.Step-By-Step-Directions-From-a-Binary-Tree-Node-to-Another.md" >}})|Medium||||48.5%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

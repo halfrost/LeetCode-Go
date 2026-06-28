@@ -150,4 +150,3 @@ weight: 12
 |2169|Count Operations to Obtain Zero|[Go]({{< relref "/ChapterFour/2100~2199/2169.Count-Operations-to-Obtain-Zero.md" >}})|Easy||||75.2%|
 |2180|Count Integers With Even Digit Sum|[Go]({{< relref "/ChapterFour/2100~2199/2180.Count-Integers-With-Even-Digit-Sum.md" >}})|Easy||||65.5%|
 |2183|Count Array Pairs Divisible by K|[Go]({{< relref "/ChapterFour/2100~2199/2183.Count-Array-Pairs-Divisible-by-K.md" >}})|Hard||||28.3%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

@@ -87,10 +87,36 @@ func generatePDF() {
 	if err != nil {
 		fmt.Println(err)
 	}
+	// 动态删除表格中多余的 "---" 占位行（仅影响 PDF 输出，不改动网页源文件）
+	pdf = removeTablePlaceholder(pdf)
 	// 生成 PDF
 	util.WriteFile(fmt.Sprintf("../PDF v%v.%v.%v.md", majorVersion, midVersion, lastVersion), pdf)
 	// 还原现场
 	util.DestoryDir("./pdftemp")
+}
+
+// removeTablePlaceholder 删除表格里多余的纯破折号占位行（如
+// "|------------|------------|...|"）。真正的 GFM 分隔行带对齐冒号且后面紧跟
+// 数据行，这里通过「不含冒号」且「下一行不是表格行」来精确区分，避免误删。
+var tablePlaceholderRe = regexp.MustCompile(`^\s*\|[-\s|]*-[-\s|]*\|\s*$`)
+
+func removeTablePlaceholder(content []byte) []byte {
+	lines := strings.Split(string(content), "\n")
+	out := make([]string, 0, len(lines))
+	for i, line := range lines {
+		if tablePlaceholderRe.MatchString(line) && !strings.Contains(line, ":") {
+			next := ""
+			if i+1 < len(lines) {
+				next = strings.TrimSpace(lines[i+1])
+			}
+			// 分隔行后面会紧跟数据行（以 | 开头）；占位行后面不是表格行 → 删除
+			if !strings.HasPrefix(next, "|") {
+				continue
+			}
+		}
+		out = append(out, line)
+	}
+	return []byte(strings.Join(out, "\n"))
 }
 
 func loadChapter(order []string, path, chapter string) ([]byte, error) {

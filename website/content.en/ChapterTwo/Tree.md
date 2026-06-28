@@ -93,4 +93,3 @@ weight: 6
 |1600|Throne Inheritance|[Go]({{< relref "/ChapterFour/1600~1699/1600.Throne-Inheritance.md" >}})|Medium||||63.6%|
 |1609|Even Odd Tree|[Go]({{< relref "/ChapterFour/1600~1699/1609.Even-Odd-Tree.md" >}})|Medium||||54.3%|
 |2096|Step-By-Step Directions From a Binary Tree Node to Another|[Go]({{< relref "/ChapterFour/2000~2099/2096.Step-By-Step-Directions-From-a-Binary-Tree-Node-to-Another.md" >}})|Medium||||48.4%|
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|-------------|-------------|

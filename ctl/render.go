@@ -174,12 +174,22 @@ func buildChapterTwo(internal bool) {
 	for index, tag := range chapterTwoSlug {
 		body := getTagProblemList(tag)
 		// fmt.Printf("%v\n", string(body))
+		// 返回值校验：接口为空 / 解析失败 / 未取到题目（多见于被限流）时跳过该 tag，
+		// 避免后续用空数据继续处理时偶发 panic。跳过的 tag 重新运行即可补齐。
+		if len(body) == 0 {
+			fmt.Printf("跳过 ChapterTwo[%v]：接口返回为空（可能被限流）\n", tag)
+			continue
+		}
 		err := json.Unmarshal(body, &gr)
 		if err != nil {
-			fmt.Println(err)
-			return
+			fmt.Printf("跳过 ChapterTwo[%v]：JSON 解析失败 %v\n", tag, err)
+			continue
 		}
 		questions = gr.Data.TopicTag.Questions
+		if len(questions) == 0 {
+			fmt.Printf("跳过 ChapterTwo[%v]：未取到题目数据（可能被限流）\n", tag)
+			continue
+		}
 		mdrows := m.ConvertMdModelFromQuestions(questions)
 		sort.Sort(m.SortByQuestionID(mdrows))
 		solutionIds, _, _ := util.LoadSolutionsDir()
@@ -223,6 +233,10 @@ func loadMetaData(filePath string) (map[int]m.TagList, error) {
 			return nil, err
 		}
 		s := strings.Split(string(line), "|")
+		// 字段不足的行（空行 / 格式异常）直接跳过，避免下面取 s[1]、s[4..6] 时越界 panic
+		if len(s) < 7 {
+			continue
+		}
 		v, _ := strconv.Atoi(strings.Split(s[1], ".")[0])
 		// v[0] 是题号，s[4] time, s[5] space, s[6] favorite
 		metaMap[v] = m.TagList{
