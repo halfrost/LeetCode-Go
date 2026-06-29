@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0802.Find-Eventual-Safe-States/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0802.Find-Eventual-Safe-States/</guid>
+      <description>802. Find Eventual Safe States #  Problem #  In a directed graph, we start at some node and every turn, walk along a directed edge of the graph. If we reach a node that is terminal (that is, it has no outgoing directed edges), we stop.
+Now, say our starting node is eventually safe if and only if we must eventually walk to a terminal node. More specifically, there exists a natural number K so that for any choice of where to walk, we must have stopped at a terminal node in less than K steps.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0803.Bricks-Falling-When-Hit/</guid>
+      <description>803. Bricks Falling When Hit #  Problem #  We have a grid of 1s and 0s; the 1s in a cell represent bricks. A brick will not drop if and only if it is directly connected to the top of the grid, or at least one of its (4-way) adjacent bricks will not drop.
+We will do some erasures sequentially. Each time we want to do the erasure at the location (i, j), the brick (if it exists) on that location will disappear, and then some other bricks may drop because of that erasure.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0807.Max-Increase-to-Keep-City-Skyline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0807.Max-Increase-to-Keep-City-Skyline/</guid>
+      <description>807. Max Increase to Keep City Skyline #  Problem #  There is a city composed of n x n blocks, where each block contains a single building shaped like a vertical square prism. You are given a 0-indexed n x n integer matrix grid where grid[r][c] represents the height of the building located in the block at row r and column c.
+A city&amp;rsquo;s skyline is the the outer contour formed by all the building when viewing the side of the city from a distance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0810.Chalkboard-XOR-Game/</guid>
+      <description>810. Chalkboard XOR Game #  Problem #  We are given non-negative integers nums[i] which are written on a chalkboard. Alice and Bob take turns erasing exactly one number from the chalkboard, with Alice starting first. If erasing a number causes the bitwise XOR of all the elements of the chalkboard to become 0, then that player loses. (Also, we&amp;rsquo;ll say the bitwise XOR of one element is that element itself, and the bitwise XOR of no elements is 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0811.Subdomain-Visit-Count/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0811.Subdomain-Visit-Count/</guid>
+      <description>811. Subdomain Visit Count #  Problem #  A website domain like &amp;ldquo;discuss.leetcode.com&amp;rdquo; consists of various subdomains. At the top level, we have &amp;ldquo;com&amp;rdquo;, at the next level, we have &amp;ldquo;leetcode.com&amp;rdquo;, and at the lowest level, &amp;ldquo;discuss.leetcode.com&amp;rdquo;. When we visit a domain like &amp;ldquo;discuss.leetcode.com&amp;rdquo;, we will also visit the parent domains &amp;ldquo;leetcode.com&amp;rdquo; and &amp;ldquo;com&amp;rdquo; implicitly.
+Now, call a &amp;ldquo;count-paired domain&amp;rdquo; to be a count (representing the number of visits this domain received), followed by a space, followed by the address.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0812.Largest-Triangle-Area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0812.Largest-Triangle-Area/</guid>
+      <description>812. Largest Triangle Area #  Problem #  You have a list of points in the plane. Return the area of the largest triangle that can be formed by any 3 of the points.
+Example: Input: points = [[0,0],[0,1],[1,0],[0,2],[2,0]] Output: 2 Explanation: The five points are show in the figure below. The red triangle is the largest.  Notes:
+ 3 &amp;lt;= points.length &amp;lt;= 50. No points will be duplicated.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0815.Bus-Routes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0815.Bus-Routes/</guid>
+      <description>815. Bus Routes #  Problem #  We have a list of bus routes. Each routes[i] is a bus route that the i-th bus repeats forever. For example if routes[0] = [1, 5, 7], this means that the first bus (0-th indexed) travels in the sequence 1-&amp;gt;5-&amp;gt;7-&amp;gt;1-&amp;gt;5-&amp;gt;7-&amp;gt;1-&amp;gt;&amp;hellip; forever.
+We start at bus stop S (initially not on a bus), and we want to go to bus stop T. Travelling by buses only, what is the least number of buses we must take to reach our destination?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0816.Ambiguous-Coordinates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0816.Ambiguous-Coordinates/</guid>
+      <description>816. Ambiguous Coordinates #  Problem #  We had some 2-dimensional coordinates, like &amp;quot;(1, 3)&amp;quot; or &amp;quot;(2, 0.5)&amp;quot;. Then, we removed all commas, decimal points, and spaces, and ended up with the string s. Return a list of strings representing all possibilities for what our original coordinates could have been.
+Our original representation never had extraneous zeroes, so we never started with numbers like &amp;ldquo;00&amp;rdquo;, &amp;ldquo;0.0&amp;rdquo;, &amp;ldquo;0.00&amp;rdquo;, &amp;ldquo;1.0&amp;rdquo;, &amp;ldquo;001&amp;rdquo;, &amp;ldquo;00.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0817.Linked-List-Components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0817.Linked-List-Components/</guid>
+      <description>817. Linked List Components #  Problem #  We are given head, the head node of a linked list containing unique integer values.
+We are also given the list G, a subset of the values in the linked list.
+Return the number of connected components in G, where two values are connected if they appear consecutively in the linked list.
+Example 1:
+ Input: head: 0-&amp;gt;1-&amp;gt;2-&amp;gt;3 G = [0, 1, 3] Output: 2 Explanation: 0 and 1 are connected, so [0, 1] and [3] are the two connected components.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0819.Most-Common-Word/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0819.Most-Common-Word/</guid>
+      <description>819. Most Common Word #  Problem #  Given a paragraph and a list of banned words, return the most frequent word that is not in the list of banned words. It is guaranteed there is at least one word that isn&amp;rsquo;t banned, and that the answer is unique.
+Words in the list of banned words are given in lowercase, and free of punctuation. Words in the paragraph are not case sensitive.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0820.Short-Encoding-of-Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0820.Short-Encoding-of-Words/</guid>
+      <description>820. Short Encoding of Words #  Problem #  A valid encoding of an array of words is any reference string s and array of indices indices such that:
+ words.length == indices.length The reference string s ends with the &#39;#&#39; character. For each index indices[i], the substring of s starting from indices[i] and up to (but not including) the next &#39;#&#39; character is equal to words[i].  Given an array of words, return the length of the shortest reference string s possible of any valid encoding of words*.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0821.Shortest-Distance-to-a-Character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0821.Shortest-Distance-to-a-Character/</guid>
+      <description>821. Shortest Distance to a Character #  Problem #  Given a string s and a character c that occurs in s, return an array of integers answer where answer.length == s.length and answer[i] is the shortest distance from s[i] to the character c in s.
+Example 1:
+Input: s = &amp;quot;loveleetcode&amp;quot;, c = &amp;quot;e&amp;quot; Output: [3,2,1,0,1,0,0,1,2,2,1,0] Example 2:
+Input: s = &amp;quot;aaab&amp;quot;, c = &amp;quot;b&amp;quot; Output: [3,2,1,0] Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0823.Binary-Trees-With-Factors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0823.Binary-Trees-With-Factors/</guid>
+      <description>823. Binary Trees With Factors #  Problem #  Given an array of unique integers, arr, where each integer arr[i] is strictly greater than 1.
+We make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node&amp;rsquo;s value should be equal to the product of the values of its children.
+Return the number of binary trees we can make. The answer may be too large so return the answer modulo 109 + 7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0825.Friends-Of-Appropriate-Ages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0825.Friends-Of-Appropriate-Ages/</guid>
+      <description>825. Friends Of Appropriate Ages #  Problem #  There are n persons on a social media website. You are given an integer array ages where ages[i] is the age of the ith person.
+A Person x will not send a friend request to a person y (x != y) if any of the following conditions is true:
+ age[y] &amp;lt;= 0.5 * age+ 7 age[y] &amp;gt; age[x] age[y] &amp;gt; 100 &amp;amp;&amp;amp; age&amp;lt; 100  Otherwise, x will send a friend request to y.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0826.Most-Profit-Assigning-Work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0826.Most-Profit-Assigning-Work/</guid>
+      <description>826. Most Profit Assigning Work #  Problem #  We have jobs: difficulty[i] is the difficulty of the ith job, and profit[i] is the profit of the ith job.
+Now we have some workers. worker[i] is the ability of the ith worker, which means that this worker can only complete a job with difficulty at most worker[i].
+Every worker can be assigned at most one job, but one job can be completed multiple times.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String/</guid>
+      <description>828. Count Unique Characters of All Substrings of a Given String #  Problem #  Let&amp;rsquo;s define a function countUniqueChars(s) that returns the number of unique characters on s, for example if s = &amp;quot;LEETCODE&amp;quot; then &amp;quot;L&amp;quot;, &amp;quot;T&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;O&amp;quot;,&amp;quot;D&amp;quot; are the unique characters since they appear only once in s, therefore countUniqueChars(s) = 5.On this problem given a string s we need to return the sum of countUniqueChars(t) where t is a substring of s.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0830.Positions-of-Large-Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0830.Positions-of-Large-Groups/</guid>
+      <description>830. Positions of Large Groups #  Problem #  In a string s of lowercase letters, these letters form consecutive groups of the same character.
+For example, a string like s = &amp;quot;abbxxxxzyy&amp;quot; has the groups &amp;quot;a&amp;quot;, &amp;quot;bb&amp;quot;, &amp;quot;xxxx&amp;quot;, &amp;quot;z&amp;quot;, and &amp;quot;yy&amp;quot;.
+A group is identified by an interval [start, end], where start and end denote the start and end indices (inclusive) of the group. In the above example, &amp;quot;xxxx&amp;quot; has the interval [3,6].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0832.Flipping-an-Image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0832.Flipping-an-Image/</guid>
+      <description>832. Flipping an Image #  Problem #  Given a binary matrix A, we want to flip the image horizontally, then invert it, and return the resulting image.
+To flip an image horizontally means that each row of the image is reversed. For example, flipping [1, 1, 0] horizontally results in [0, 1, 1].
+To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0834.Sum-of-Distances-in-Tree/</guid>
+      <description>834. Sum of Distances in Tree #  Problem #  An undirected, connected tree with N nodes labelled 0...N-1 and N-1edges are given.
+The ith edge connects nodes edges[i][0] and edges[i][1] together.
+Return a list ans, where ans[i] is the sum of the distances between node iand all other nodes.
+Example 1:
+Input: N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]] Output: [8,12,6,10,10,10] Explanation: Here is a diagram of the given tree: 0 / \ 1 2 /|\ 3 4 5 We can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5) equals 1 + 1 + 2 + 2 + 2 = 8.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0836.Rectangle-Overlap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0836.Rectangle-Overlap/</guid>
+      <description>836. Rectangle Overlap #  Problem #  A rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) are the coordinates of its bottom-left corner, and (x2, y2) are the coordinates of its top-right corner.
+Two rectangles overlap if the area of their intersection is positive. To be clear, two rectangles that only touch at the corner or edges do not overlap.
+Given two (axis-aligned) rectangles, return whether they overlap.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0838.Push-Dominoes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0838.Push-Dominoes/</guid>
+      <description>838. Push Dominoes #  Problem #  There are N dominoes in a line, and we place each domino vertically upright.
+In the beginning, we simultaneously push some of the dominoes either to the left or to the right.
+ After each second, each domino that is falling to the left pushes the adjacent domino on the left.
+Similarly, the dominoes falling to the right push their adjacent dominoes standing on the right.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0839.Similar-String-Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0839.Similar-String-Groups/</guid>
+      <description>839. Similar String Groups #  Problem #  Two strings X and Y are similar if we can swap two letters (in different positions) of X, so that it equals Y.
+For example, &amp;quot;tars&amp;quot; and &amp;quot;rats&amp;quot; are similar (swapping at positions 0 and 2), and &amp;quot;rats&amp;quot; and &amp;quot;arts&amp;quot; are similar, but &amp;quot;star&amp;quot; is not similar to &amp;quot;tars&amp;quot;, &amp;quot;rats&amp;quot;, or &amp;quot;arts&amp;quot;.
+Together, these form two connected groups by similarity: {&amp;quot;tars&amp;quot;, &amp;quot;rats&amp;quot;, &amp;quot;arts&amp;quot;} and {&amp;quot;star&amp;quot;}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0841.Keys-and-Rooms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0841.Keys-and-Rooms/</guid>
+      <description>841. Keys and Rooms #  Problem #  There are N rooms and you start in room 0. Each room has a distinct number in 0, 1, 2, ..., N-1, and each room may have some keys to access the next room.
+Formally, each room i has a list of keys rooms[i], and each key rooms[i][j] is an integer in [0, 1, ..., N-1] where N = rooms.length. A key rooms[i][j] = v opens the room with number v.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0842.Split-Array-into-Fibonacci-Sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0842.Split-Array-into-Fibonacci-Sequence/</guid>
+      <description>842. Split Array into Fibonacci Sequence #  Problem #  Given a string S of digits, such as S = &amp;quot;123456579&amp;quot;, we can split it into a Fibonacci-like sequence [123, 456, 579].
+Formally, a Fibonacci-like sequence is a list F of non-negative integers such that:
+ 0 &amp;lt;= F[i] &amp;lt;= 2^31 - 1, (that is, each integer fits a 32-bit signed integer type); F.length &amp;gt;= 3; and F[i] + F[i+1] = F[i+2] for all 0 &amp;lt;= i &amp;lt; F.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0844.Backspace-String-Compare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0844.Backspace-String-Compare/</guid>
+      <description>844. Backspace String Compare #  Problem #  Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+Example 1:
+ Input: S = &amp;quot;ab#c&amp;quot;, T = &amp;quot;ad#c&amp;quot; Output: true Explanation: Both S and T become &amp;quot;ac&amp;quot;. Example 2:
+ Input: S = &amp;quot;ab##&amp;quot;, T = &amp;quot;c#d#&amp;quot; Output: true Explanation: Both S and T become &amp;quot;&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0845.Longest-Mountain-in-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0845.Longest-Mountain-in-Array/</guid>
+      <description>845. Longest Mountain in Array #  Problem #  Let&amp;rsquo;s call any (contiguous) subarray B (of A) a mountain if the following properties hold:
+ B.length &amp;gt;= 3 There exists some 0 &amp;lt; i &amp;lt; B.length - 1 such that B[0] &amp;lt; B[1] &amp;lt; &amp;hellip; B[i-1] &amp;lt; B[i] &amp;gt; B[i+1] &amp;gt; &amp;hellip; &amp;gt; B[B.length - 1] (Note that B could be any subarray of A, including the entire array A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0846.Hand-of-Straights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0846.Hand-of-Straights/</guid>
+      <description>846. Hand of Straights #  Problem #  Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.
+Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0850.Rectangle-Area-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0850.Rectangle-Area-II/</guid>
+      <description>850. Rectangle Area II #  Problem #  We are given a list of (axis-aligned) rectangles. Each rectangle[i] = [x1, y1, x2, y2] , where (x1, y1) are the coordinates of the bottom-left corner, and (x2, y2) are the coordinates of the top-right corner of the ith rectangle.
+Find the total area covered by all rectangles in the plane. Since the answer may be too large, return it modulo 10^9 + 7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0851.Loud-and-Rich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0851.Loud-and-Rich/</guid>
+      <description>851. Loud and Rich #  Problem #  In a group of N people (labelled 0, 1, 2, ..., N-1), each person has different amounts of money, and different levels of quietness.
+For convenience, we&amp;rsquo;ll call the person with label x, simply &amp;ldquo;person x&amp;rdquo;.
+We&amp;rsquo;ll say that richer[i] = [x, y] if person x definitely has more money than person y. Note that richer may only be a subset of valid observations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0852.Peak-Index-in-a-Mountain-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0852.Peak-Index-in-a-Mountain-Array/</guid>
+      <description>852. Peak Index in a Mountain Array #  Problem #  Let&amp;rsquo;s call an array A a mountain if the following properties hold:
+ A.length &amp;gt;= 3 There exists some 0 &amp;lt; i &amp;lt; A.length - 1 such that A[0] &amp;lt; A[1] &amp;lt; ... A[i-1] &amp;lt; A[i] &amp;gt; A[i+1] &amp;gt; ... &amp;gt; A[A.length - 1]  Given an array that is definitely a mountain, return any i such that A[0] &amp;lt; A[1] &amp;lt; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0853.Car-Fleet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0853.Car-Fleet/</guid>
+      <description>853. Car Fleet #  Problem #  N cars are going to the same destination along a one lane road. The destination is target miles away.
+Each car i has a constant speed speed[i] (in miles per hour), and initial position position[i] miles towards the target along the road.
+A car can never pass another car ahead of it, but it can catch up to it, and drive bumper to bumper at the same speed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0856.Score-of-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0856.Score-of-Parentheses/</guid>
+      <description>856. Score of Parentheses #  Problem #  Given a balanced parentheses string S, compute the score of the string based on the following rule:
+() has score 1 AB has score A + B, where A and B are balanced parentheses strings. (A) has score 2 * A, where A is a balanced parentheses string.
+Example 1:
+ Input: &amp;quot;()&amp;quot; Output: 1 Example 2:
+ Input: &amp;quot;(())&amp;quot; Output: 2 Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0859.Buddy-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0859.Buddy-Strings/</guid>
+      <description>859. Buddy Strings #  Problem #  Given two strings s and goal, return true if you can swap two letters in s so the result is equal to goal, otherwise, return false.
+Swapping letters is defined as taking two indices i and j (0-indexed) such that i != j and swapping the characters at s[i] and s[j].
+For example, swapping at indices 0 and 2 in &amp;ldquo;abcd&amp;rdquo; results in &amp;ldquo;cbad&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0862.Shortest-Subarray-with-Sum-at-Least-K/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0862.Shortest-Subarray-with-Sum-at-Least-K/</guid>
+      <description>862. Shortest Subarray with Sum at Least K #  Problem #  Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K.
+If there is no non-empty subarray with sum at least K, return -1.
+Example 1:
+Input: A = [1], K = 1 Output: 1 Example 2:
+Input: A = [1,2], K = 4 Output: -1 Example 3:
+Input: A = [2,-1,2], K = 3 Output: 3 Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0863.All-Nodes-Distance-K-in-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0863.All-Nodes-Distance-K-in-Binary-Tree/</guid>
+      <description>863. All Nodes Distance K in Binary Tree #  Problem #  We are given a binary tree (with root node root), a target node, and an integer value K.
+Return a list of the values of all nodes that have a distance K from the target node. The answer can be returned in any order.
+Example 1:
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, K = 2 Output: [7,4,1] Explanation: The nodes that are a distance 2 from the target node (with value 5) have values 7, 4, and 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0864.Shortest-Path-to-Get-All-Keys/</guid>
+      <description>864. Shortest Path to Get All Keys #  Problem #  We are given a 2-dimensional grid. &amp;quot;.&amp;quot; is an empty cell, &amp;quot;#&amp;quot; is a wall, &amp;quot;@&amp;quot; is the starting point, (&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;hellip;) are keys, and (&amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;hellip;) are locks.
+We start at the starting point, and one move consists of walking one space in one of the 4 cardinal directions. We cannot walk outside the grid, or walk into a wall.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0867.Transpose-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0867.Transpose-Matrix/</guid>
+      <description>867. Transpose Matrix #  Problem #  Given a matrix A, return the transpose of A.
+The transpose of a matrix is the matrix flipped over it&amp;rsquo;s main diagonal, switching the row and column indices of the matrix.
+Example 1:
+Input: [[1,2,3],[4,5,6],[7,8,9]] Output: [[1,4,7],[2,5,8],[3,6,9]]  Example 2:
+Input: [[1,2,3],[4,5,6]] Output: [[1,4],[2,5],[3,6]]  Note:
+ 1 &amp;lt;= A.length &amp;lt;= 1000 1 &amp;lt;= A[0].length &amp;lt;= 1000  Problem Summary #  Given a matrix A, return the transpose of A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0869.Reordered-Power-of-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0869.Reordered-Power-of-2/</guid>
+      <description>869. Reordered Power of 2 #  Problem #  Starting with a positive integer N, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
+Return true if and only if we can do this in a way such that the resulting number is a power of 2.
+Example 1:
+Input:1 Output:true Example 2:
+Input:10 Output:false Example 3:
+Input:16 Output:true Example 4:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0870.Advantage-Shuffle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0870.Advantage-Shuffle/</guid>
+      <description>870. Advantage Shuffle #  Problem #  Given two arrays A and B of equal size, the advantage of A with respect to B is the number of indices i for which A[i] &amp;gt; B[i].
+Return any permutation of A that maximizes its advantage with respect to B.
+Example 1:
+Input:A = [2,7,11,15], B = [1,10,4,11] Output:[2,11,7,15] Example 2:
+Input:A = [12,24,8,32], B = [13,25,32,11] Output:[24,32,8,12] Note:
+ 1 &amp;lt;= A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0872.Leaf-Similar-Trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0872.Leaf-Similar-Trees/</guid>
+      <description>872. Leaf-Similar Trees #  Problem #  Consider all the leaves of a binary tree. From left to right order, the values of those leaves form a leaf value sequence.
+ For example, in the given tree above, the leaf value sequence is (6, 7, 4, 9, 8).
+Two binary trees are considered leaf-similar if their leaf value sequence is the same.
+Return true if and only if the two given trees with head nodes root1 and root2 are leaf-similar.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0874.Walking-Robot-Simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0874.Walking-Robot-Simulation/</guid>
+      <description>874. Walking Robot Simulation #  Problem #  A robot on an infinite XY-plane starts at point (0, 0) and faces north. The robot can receive one of three possible types of commands:
+ 2: turn left 90 degrees, 1: turn right 90 degrees, or 1 &amp;lt;= k &amp;lt;= 9: move forward k units.  Some of the grid squares are obstacles. The ith obstacle is at grid point obstacles[i] = (xi, yi).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0875.Koko-Eating-Bananas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0875.Koko-Eating-Bananas/</guid>
+      <description>875. Koko Eating Bananas #  Problem #  Koko loves to eat bananas. There are N piles of bananas, the i-th pile has piles[i] bananas. The guards have gone and will come back in H hours.
+Koko can decide her bananas-per-hour eating speed of K. Each hour, she chooses some pile of bananas, and eats K bananas from that pile. If the pile has less than K bananas, she eats all of them instead, and won&amp;rsquo;t eat any more bananas during this hour.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0876.Middle-of-the-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0876.Middle-of-the-Linked-List/</guid>
+      <description>876. Middle of the Linked List #  Problem #  Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+If there are two middle nodes, return the second middle node.
+Example 1:
+ Input: [1,2,3,4,5] Output: Node 3 from this list (Serialization: [3,4,5]) The returned node has value 3. (The judge&#39;s serialization of this node is [3,4,5]). Note that we returned a ListNode object ans, such that: ans.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0877.Stone-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0877.Stone-Game/</guid>
+      <description>877. Stone Game #  Problem #  Alex and Lee play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].
+The objective of the game is to end with the most stones. The total number of stones is odd, so there are no ties.
+Alex and Lee take turns, with Alex starting first.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0878.Nth-Magical-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0878.Nth-Magical-Number/</guid>
+      <description>878. Nth Magical Number #  Problem #  A positive integer is magical if it is divisible by either A or B.
+Return the N-th magical number. Since the answer may be very large, return it modulo 10^9 + 7.
+Example 1:
+Input: N = 1, A = 2, B = 3 Output: 2  Example 2:
+Input: N = 4, A = 2, B = 3 Output: 6  Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0880.Decoded-String-at-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0880.Decoded-String-at-Index/</guid>
+      <description>880. Decoded String at Index #  Problem #  An encoded string S is given. To find and write the decoded string to a tape, the encoded string is read one character at a time and the following steps are taken:
+If the character read is a letter, that letter is written onto the tape. If the character read is a digit (say d), the entire current tape is repeatedly written d-1 more times in total.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0881.Boats-to-Save-People/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0881.Boats-to-Save-People/</guid>
+      <description>881. Boats to Save People #  Problem #  The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
+Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most limit.
+Return the minimum number of boats to carry every given person. (It is guaranteed each person can be carried by a boat.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0884.Uncommon-Words-from-Two-Sentences/</guid>
+      <description>884. Uncommon Words from Two Sentences #  Problem #  We are given two sentences A and B. (A sentence is a string of space separated words. Each word consists only of lowercase letters.)
+A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+Return a list of all uncommon words.
+You may return the list in any order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0885.Spiral-Matrix-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0885.Spiral-Matrix-III/</guid>
+      <description>885. Spiral Matrix III #  Problem #  On a 2 dimensional grid with R rows and C columns, we start at (r0, c0) facing east.
+Here, the north-west corner of the grid is at the first row and column, and the south-east corner of the grid is at the last row and column.
+Now, we walk in a clockwise spiral shape to visit every position in this grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0887.Super-Egg-Drop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0887.Super-Egg-Drop/</guid>
+      <description>887. Super Egg Drop #  Problem #  You are given K eggs, and you have access to a building with N floors from 1 to N.
+Each egg is identical in function, and if an egg breaks, you cannot drop it again.
+You know that there exists a floor F with 0 &amp;lt;= F &amp;lt;= N such that any egg dropped at a floor higher than F will break, and any egg dropped at or below floor F will not break.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0888.Fair-Candy-Swap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0888.Fair-Candy-Swap/</guid>
+      <description>888. Fair Candy Swap #  Problem #  Alice and Bob have candy bars of different sizes: A[i] is the size of the i-th bar of candy that Alice has, and B[j] is the size of the j-th bar of candy that Bob has.
+Since they are friends, they would like to exchange one candy bar each so that after the exchange, they both have the same total amount of candy.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0890.Find-and-Replace-Pattern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0890.Find-and-Replace-Pattern/</guid>
+      <description>890. Find and Replace Pattern #  Problem #  Given a list of strings words and a string pattern, return a list of words[i] that match pattern. You may return the answer in any order.
+A word matches the pattern if there exists a permutation of letters p so that after replacing every letter x in the pattern with p(x), we get the desired word.
+Recall that a permutation of letters is a bijection from letters to letters: every letter maps to another letter, and no two letters map to the same letter.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0891.Sum-of-Subsequence-Widths/</guid>
+      <description>891. Sum of Subsequence Widths #  Problem #  Given an array of integers A, consider all non-empty subsequences of A.
+For any sequence S, let the width of S be the difference between the maximum and minimum element of S.
+Return the sum of the widths of all subsequences of A.
+As the answer may be very large, return the answer modulo 10^9 + 7.
+Example 1:
+ Input: [2,1,3] Output: 6 Explanation: Subsequences are [1], [2], [3], [2,1], [2,3], [1,3], [2,1,3].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0892.Surface-Area-of-3D-Shapes/</guid>
+      <description>892. Surface Area of 3D Shapes #  Problem #  On a N * N grid, we place some 1 * 1 * 1 cubes.
+Each value v = grid[i][j] represents a tower of v cubes placed on top of grid cell (i, j).
+Return the total surface area of the resulting shapes.
+Example 1:
+Input: [[2]] Output: 10 Example 2:
+Input: [[1,2],[3,4]] Output: 34 Example 3:
+Input: [[1,0],[0,2]] Output: 16 Example 4:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0895.Maximum-Frequency-Stack/</guid>
+      <description>895. Maximum Frequency Stack #  Problem #  Implement FreqStack, a class which simulates the operation of a stack-like data structure.
+FreqStack has two functions:
+push(int x), which pushes an integer x onto the stack. pop(), which removes and returns the most frequent element in the stack.
+If there is a tie for most frequent element, the element closest to the top of the stack is removed and returned.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0896.Monotonic-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0896.Monotonic-Array/</guid>
+      <description>896. Monotonic Array #  Problem #  An array is monotonic if it is either monotone increasing or monotone decreasing.
+An array A is monotone increasing if for all i &amp;lt;= j, A[i] &amp;lt;= A[j]. An array A is monotone decreasing if for all i &amp;lt;= j, A[i] &amp;gt;= A[j].
+Return true if and only if the given array A is monotonic.
+Example 1:
+Input: [1,2,2,3] Output: true Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0897.Increasing-Order-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0897.Increasing-Order-Search-Tree/</guid>
+      <description>897. Increasing Order Search Tree #  Problem #  Given a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only 1 right child.
+Example 1:
+Input: [5,3,6,2,4,null,8,1,null,null,null,7,9] 5 / \ 3 6 / \ \ 2 4 8 / / \ 1 7 9 Output: [1,null,2,null,3,null,4,null,5,null,6,null,7,null,8,null,9] 1 \ 2 \ 3 \ 4 \ 5 \ 6 \ 7 \ 8 \ 9  Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0898.Bitwise-ORs-of-Subarrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0800~0899/0898.Bitwise-ORs-of-Subarrays/</guid>
+      <description>898. Bitwise ORs of Subarrays #  Problem #  We have an array A of non-negative integers.
+For every (contiguous) subarray B = [A[i], A[i+1], ..., A[j]] (with i &amp;lt;= j), we take the bitwise OR of all the elements in B, obtaining a result A[i] | A[i+1] | ... | A[j].
+Return the number of possible results. (Results that occur more than once are only counted once in the final answer.</description>
+    </item>
+    
+  </channel>
+</rss>

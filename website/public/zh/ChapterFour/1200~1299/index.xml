@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1200.Minimum-Absolute-Difference/</guid>
+      <description>1200. Minimum Absolute Difference #  题目 #  Given an array of distinct integers arr, find all pairs of elements with the minimum absolute difference of any two elements.
+Return a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows
+ a, b are from arr a &amp;lt; b b - a equals to the minimum absolute difference of any two elements in arr  Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1201.Ugly-Number-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1201.Ugly-Number-III/</guid>
+      <description>1201. Ugly Number III #  题目 #  Write a program to find the n-th ugly number.
+Ugly numbers are positive integers which are divisible by a or b or c.
+Example 1:
+Input: n = 3, a = 2, b = 3, c = 5 Output: 4 Explanation: The ugly numbers are 2, 3, 4, 5, 6, 8, 9, 10... The 3rd is 4.  Example 2:
+Input: n = 4, a = 2, b = 3, c = 4 Output: 6 Explanation: The ugly numbers are 2, 3, 4, 6, 8, 9, 10, 12.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1202.Smallest-String-With-Swaps/</guid>
+      <description>1202. Smallest String With Swaps #  题目 #  You are given a string s, and an array of pairs of indices in the string pairs where pairs[i] = [a, b] indicates 2 indices(0-indexed) of the string.
+You can swap the characters at any pair of indices in the given pairs any number of times.
+Return the lexicographically smallest string that s can be changed to after using the swaps.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1203.Sort-Items-by-Groups-Respecting-Dependencies/</guid>
+      <description>1203. Sort Items by Groups Respecting Dependencies #  题目 #  There are n items each belonging to zero or one of m groups where group[i] is the group that the i-th item belongs to and it&amp;rsquo;s equal to -1 if the i-th item belongs to no group. The items and the groups are zero indexed. A group can have no item belonging to it.
+Return a sorted list of the items such that:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1207.Unique-Number-of-Occurrences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1207.Unique-Number-of-Occurrences/</guid>
+      <description>1207. Unique Number of Occurrences #  题目 #  Given an array of integers arr, write a function that returns true if and only if the number of occurrences of each value in the array is unique.
+Example 1:
+Input: arr = [1,2,2,1,1,3] Output: true Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1208.Get-Equal-Substrings-Within-Budget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1208.Get-Equal-Substrings-Within-Budget/</guid>
+      <description>1208. Get Equal Substrings Within Budget #  题目 #  You are given two strings s and t of the same length. You want to change s to t. Changing the i-th character of s to i-th character of t costs |s[i] - t[i]| that is, the absolute difference between the ASCII values of the characters.
+You are also given an integer maxCost.
+Return the maximum length of a substring of s that can be changed to be the same as the corresponding substring of twith a cost less than or equal to maxCost.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1209.Remove-All-Adjacent-Duplicates-in-String-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1209.Remove-All-Adjacent-Duplicates-in-String-II/</guid>
+      <description>1209. Remove All Adjacent Duplicates in String II #  题目 #  Given a string s, a k duplicate removal consists of choosing k adjacent and equal letters from s and removing them causing the left and the right side of the deleted substring to concatenate together.
+We repeatedly make k duplicate removals on s until we no longer can.
+Return the final string after all such duplicate removals have been made.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1217.Minimum-Cost-to-Move-Chips-to-The-Same-Position/</guid>
+      <description>1217. Minimum Cost to Move Chips to The Same Position #  题目 #  There are some chips, and the i-th chip is at position chips[i].
+You can perform any of the two following types of moves any number of times (possibly zero) on any chip:
+ Move the i-th chip by 2 units to the left or to the right with a cost of 0. Move the i-th chip by 1 unit to the left or to the right with a cost of 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1221.Split-a-String-in-Balanced-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1221.Split-a-String-in-Balanced-Strings/</guid>
+      <description>1221. Split a String in Balanced Strings #  题目 #  Balanced strings are those who have equal quantity of &amp;lsquo;L&amp;rsquo; and &amp;lsquo;R&amp;rsquo; characters.
+Given a balanced string s split it in the maximum amount of balanced strings.
+Return the maximum amount of splitted balanced strings.
+Example 1:
+Input: s = &amp;quot;RLRRLLRLRL&amp;quot; Output: 4 Explanation: s can be split into &amp;quot;RL&amp;quot;, &amp;quot;RRLL&amp;quot;, &amp;quot;RL&amp;quot;, &amp;quot;RL&amp;quot;, each substring contains same number of &#39;L&#39; and &#39;R&#39;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1232.Check-If-It-Is-a-Straight-Line/</guid>
+      <description>1232. Check If It Is a Straight Line #  题目 #  You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
+Example 1:
+ Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]] Output: true  Example 2:
+ Input: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]] Output: false  Constraints:
+ 2 &amp;lt;= coordinates.length &amp;lt;= 1000 coordinates[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1234.Replace-the-Substring-for-Balanced-String/</guid>
+      <description>1234. Replace the Substring for Balanced String #  题目 #  You are given a string containing only 4 kinds of characters &#39;Q&#39;, &#39;W&#39;, &#39;E&#39; and &#39;R&#39;.
+A string is said to be balanced **if each of its characters appears n/4 times where n is the length of the string.
+Return the minimum length of the substring that can be replaced with any other string of the same length to make the original string s balanced.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1235.Maximum-Profit-in-Job-Scheduling/</guid>
+      <description>1235. Maximum Profit in Job Scheduling #  题目 #  We have n jobs, where every job is scheduled to be done from startTime[i] to endTime[i], obtaining a profit of profit[i].
+You&amp;rsquo;re given the startTime , endTime and profit arrays, you need to output the maximum profit you can take such that there are no 2 jobs in the subset with overlapping time range.
+If you choose a job that ends at time X you will be able to start another job that starts at time X.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters/</guid>
+      <description>1239. Maximum Length of a Concatenated String with Unique Characters #  题目 #  Given an array of strings arr. String s is a concatenation of a sub-sequence of arr which have unique characters.
+Return the maximum possible length of s.
+Example 1:
+Input: arr = [&amp;quot;un&amp;quot;,&amp;quot;iq&amp;quot;,&amp;quot;ue&amp;quot;] Output: 4 Explanation: All possible concatenations are &amp;quot;&amp;quot;,&amp;quot;un&amp;quot;,&amp;quot;iq&amp;quot;,&amp;quot;ue&amp;quot;,&amp;quot;uniq&amp;quot; and &amp;quot;ique&amp;quot;. Maximum length is 4. Example 2:
+Input: arr = [&amp;quot;cha&amp;quot;,&amp;quot;r&amp;quot;,&amp;quot;act&amp;quot;,&amp;quot;ers&amp;quot;] Output: 6 Explanation: Possible solutions are &amp;quot;chaers&amp;quot; and &amp;quot;acters&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1249.Minimum-Remove-to-Make-Valid-Parentheses/</guid>
+      <description>1249. Minimum Remove to Make Valid Parentheses #  题目 #  Given a string s of &#39;(&#39; , &#39;)&#39; and lowercase English characters.
+Your task is to remove the minimum number of parentheses ( &#39;(&#39; or &#39;)&#39;, in any positions ) so that the resulting parentheses string is valid and return any valid string.
+Formally, a parentheses string is valid if and only if:
+ It is the empty string, contains only lowercase characters, or It can be written as AB (A concatenated with B), where A and B are valid strings, or It can be written as (A), where A is a valid string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1252.Cells-with-Odd-Values-in-a-Matrix/</guid>
+      <description>1252. Cells with Odd Values in a Matrix #  题目 #  Given n and m which are the dimensions of a matrix initialized by zeros and given an array indices where indices[i] = [ri, ci]. For each pair of [ri, ci] you have to increment all cells in row ri and column ci by 1.
+Return the number of cells with odd values in the matrix after applying the increment to all indices.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1254.Number-of-Closed-Islands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1254.Number-of-Closed-Islands/</guid>
+      <description>1254. Number of Closed Islands #  题目 #  Given a 2D grid consists of 0s (land) and 1s (water). An island is a maximal 4-directionally connected group of 0s and a closed island is an island totally (all left, top, right, bottom) surrounded by 1s.
+Return the number of closed islands.
+Example 1:
+ Input: grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]] Output: 2 Explanation: Islands in gray are closed because they are completely surrounded by water (group of 1s).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1260.Shift-2D-Grid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1260.Shift-2D-Grid/</guid>
+      <description>1260. Shift 2D Grid #  题目 #  Given a 2D grid of size m x n and an integer k. You need to shift the grid k times.
+In one shift operation:
+ Element at grid[i][j] moves to grid[i][j + 1]. Element at grid[i][n - 1] moves to grid[i + 1][0]. Element at grid[m - 1][n - 1] moves to grid[0][0].  Return the 2D grid after applying shift operation k times.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1266.Minimum-Time-Visiting-All-Points/</guid>
+      <description>1266. Minimum Time Visiting All Points #  题目 #  On a plane there are n points with integer coordinates points[i] = [xi, yi]. Your task is to find the minimum time in seconds to visit all points.
+You can move according to the next rules:
+ In one second always you can either move vertically, horizontally by one unit or diagonally (it means to move one unit vertically and one unit horizontally in one second).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1268.Search-Suggestions-System/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1268.Search-Suggestions-System/</guid>
+      <description>1268. Search Suggestions System #  题目 #  Given an array of strings products and a string searchWord. We want to design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with the searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.
+Return list of lists of the suggested products after each character of searchWord is typed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1275.Find-Winner-on-a-Tic-Tac-Toe-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1275.Find-Winner-on-a-Tic-Tac-Toe-Game/</guid>
+      <description>1275. Find Winner on a Tic Tac Toe Game #  题目 #  Tic-tac-toe is played by two players A and B on a 3 x 3 grid.
+Here are the rules of Tic-Tac-Toe:
+ Players take turns placing characters into empty squares (&amp;rdquo; &amp;ldquo;). The first player A always places &amp;ldquo;X&amp;rdquo; characters, while the second player B always places &amp;ldquo;O&amp;rdquo; characters. &amp;ldquo;X&amp;rdquo; and &amp;ldquo;O&amp;rdquo; characters are always placed into empty squares, never on filled ones.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1281.Subtract-the-Product-and-Sum-of-Digits-of-an-Integer/</guid>
+      <description>1281. Subtract the Product and Sum of Digits of an Integer #  题目 #  Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+Example 1:
+Input: n = 234 Output: 15 Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Result = 24 - 9 = 15 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1283.Find-the-Smallest-Divisor-Given-a-Threshold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1283.Find-the-Smallest-Divisor-Given-a-Threshold/</guid>
+      <description>1283. Find the Smallest Divisor Given a Threshold #  题目 #  Given an array of integers nums and an integer threshold, we will choose a positive integer divisor and divide all the array by it and sum the result of the division. Find the smallest divisor such that the result mentioned above is less than or equal to threshold.
+Each result of division is rounded to the nearest integer greater than or equal to that element.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1287.Element-Appearing-More-Than-25-In-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1287.Element-Appearing-More-Than-25-In-Sorted-Array/</guid>
+      <description>1287. Element Appearing More Than 25% In Sorted Array #  题目 #  Given an integer array sorted in non-decreasing order, there is exactly one integer in the array that occurs more than 25% of the time.
+Return that integer.
+Example 1:
+Input: arr = [1,2,2,6,6,6,6,7,10] Output: 6 Constraints:
+ 1 &amp;lt;= arr.length &amp;lt;= 10^4 0 &amp;lt;= arr[i] &amp;lt;= 10^5  题目大意 #  给你一个非递减的 有序 整数数组，已知这个数组中恰好有一个整数，它的出现次数超过数组元素总数的 25%。请你找到并返回这个整数。
+提示：</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer/</guid>
+      <description>1290. Convert Binary Number in a Linked List to Integer #  题目 #  Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number.
+Return the decimal value of the number in the linked list.
+Example 1:
+ Input: head = [1,0,1] Output: 5 Explanation: (101) in base 2 = (5) in base 10 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold/</guid>
+      <description>1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold #  题目 #  Given a m x n matrix mat and an integer threshold, return _the maximum side-length of a square with a sum less than or equal to_threshold _or return_0 if there is no such square.
+Example 1:
+Input: mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4 Output: 2 Explanation: The maximum side length of square with sum less than or equal to 4 is 2 as shown.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination/</guid>
+      <description>1293. Shortest Path in a Grid with Obstacles Elimination #  题目 #  You are given an m x n integer matrix grid where each cell is either 0 (empty) or 1 (obstacle). You can move up, down, left, or right from and to an empty cell in one step.
+Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1) given that you can eliminate at most k obstacles.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1295.Find-Numbers-with-Even-Number-of-Digits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1295.Find-Numbers-with-Even-Number-of-Digits/</guid>
+      <description>1295. Find Numbers with Even Number of Digits #  题目 #  Given an array nums of integers, return how many of them contain an even number of digits.
+Example 1:
+Input: nums = [12,345,2,6,7896] Output: 2 Explanation: 12 contains 2 digits (even number of digits). 345 contains 3 digits (odd number of digits). 2 contains 1 digit (odd number of digits). 6 contains 1 digit (odd number of digits).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1296.Divide-Array-in-Sets-of-K-Consecutive-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1296.Divide-Array-in-Sets-of-K-Consecutive-Numbers/</guid>
+      <description>1296. Divide Array in Sets of K Consecutive Numbers #  题目 #  Given an array of integers nums and a positive integer k, check whether it is possible to divide this array into sets of k consecutive numbers.
+Return true if it is possible. Otherwise, return false.
+Example 1:
+Input: nums = [1,2,3,3,4,4,5,6], k = 4 Output: true Explanation: Array can be divided into [1,2,3,4] and [3,4,5,6].  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1299.Replace-Elements-with-Greatest-Element-on-Right-Side/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1200~1299/1299.Replace-Elements-with-Greatest-Element-on-Right-Side/</guid>
+      <description>1299. Replace Elements with Greatest Element on Right Side #  题目 #  Given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
+After doing so, return the array.
+Example 1:
+Input: arr = [17,18,5,4,6,1] Output: [18,6,6,6,1,-1] Constraints:
+ 1 &amp;lt;= arr.length &amp;lt;= 10^4 1 &amp;lt;= arr[i] &amp;lt;= 10^5  题目大意 #  给你一个数组 arr ，请你将每个元素用它右边最大的元素替换，如果是最后一个元素，用 -1 替换。完成所有替换操作后，请你返回这个数组。</description>
+    </item>
+    
+  </channel>
+</rss>

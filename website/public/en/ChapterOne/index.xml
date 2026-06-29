@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 1 Prologue on LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterOne/</link>
+    <description>Recent content in Chapter 1 Prologue on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterOne/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.1 Data Structure Knowledge</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterOne/Data_Structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterOne/Data_Structure/</guid>
+      <description>Data Structure Knowledge #  The following is data-structure-related knowledge compiled by the author. I hope to enumerate all common data structures as exhaustively as possible. If there are any omissions, everyone is welcome to enlighten me and submit a PR. Related problems are still being gradually organized, and explanatory articles are still being written.
+ Solving problems is only a means to improve algorithmic ability; the ultimate goal should be to improve one&amp;rsquo;s own thinking ability.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Algorithm Knowledge</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterOne/Algorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterOne/Algorithm/</guid>
+      <description>Algorithm Knowledge #  The following is algorithm-related knowledge compiled by the author. I hope to enumerate all common algorithms exhaustively. If anything is missing, everyone is welcome to give advice and submit PRs. Related problems are still being gradually organized, and explanatory articles are still being created.
+ Solving problems is only a means to improve algorithmic ability; the ultimate goal should be to improve one&amp;rsquo;s thinking ability. Knowledge needs to be condensed into blocks, so summarize these in the two sections of Chapter 1 and let it be sublimated~ I hope readers will come back to look at this table after finishing problem practice, so they can clearly organize their own knowledge system, check for gaps, and improve it as soon as possible.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Time Complexity</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterOne/Time_Complexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterOne/Time_Complexity/</guid>
+      <description>Time Complexity and Space Complexity #  I. Data Scale for Time Complexity #  Data scale of problems that can be solved within 1s: 10^6 ~ 10^7
+ An O(n^2) algorithm can handle data at the 10^4 level (conservative estimate; handling problems at the 1000 level is definitely fine) An O(n) algorithm can handle data at the 10^8 level (conservative estimate; handling problems at the 10^7 level is definitely fine) An O(nlog n) algorithm can handle data at the 10^7 level (conservative estimate; handling problems at the 10^6 level is definitely fine)      Data Scale Time Complexity Algorithm Examples     1 10 O(n!</description>
+    </item>
+    
+  </channel>
+</rss>

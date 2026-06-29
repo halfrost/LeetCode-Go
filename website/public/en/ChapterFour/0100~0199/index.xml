@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0100.Same-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0100.Same-Tree/</guid>
+      <description>100. Same Tree #  Problem #  Given two binary trees, write a function to check if they are the same or not.
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+Example 1:
+ Input: 1 1 / \ / \ 2 3 2 3 [1,2,3], [1,2,3] Output: true Example 2:
+ Input: 1 1 / \ 2 2 [1,2], [1,null,2] Output: false Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0101.Symmetric-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0101.Symmetric-Tree/</guid>
+      <description>101. Symmetric Tree #  Problem #  Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
+ 1 / \ 2 2 / \ / \ 3 4 4 3 But the following [1,2,2,null,3,null,3] is not:
+ 1 / \ 2 2 \ \ 3 3 Note:
+Bonus points if you could solve it both recursively and iteratively.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0102.Binary-Tree-Level-Order-Traversal/</guid>
+      <description>102. Binary Tree Level Order Traversal #  Problem #  Given a binary tree, return the level order traversal of its nodes&amp;rsquo; values. (ie, from left to right, level by level).
+For Example:
+Given binary tree [3,9,20,null,null,15,7],
+ 3 / \ 9 20 / \ 15 7 return its level order traversal as:
+ [ [3], [9,20], [15,7] ] Summary #  Traverse a tree from top to bottom in level order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0103.Binary-Tree-Zigzag-Level-Order-Traversal/</guid>
+      <description>103. Binary Tree Zigzag Level Order Traversal #  Problem #  Given a binary tree, return the zigzag level order traversal of its nodes&amp;rsquo; values. (ie, from left to right, then right to left for the next level and alternate between).
+For Example: Given binary tree [3,9,20,null,null,15,7],
+ 3 / \ 9 20 / \ 15 7 return its zigzag level order traversal as:
+ [ [3], [20,9], [15,7] ] Problem Summary #  Traverse a tree in zigzag level order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0104.Maximum-Depth-of-Binary-Tree/</guid>
+      <description>104. Maximum Depth of Binary Tree #  Problem #  Given a binary tree, find its maximum depth.
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+Note: A leaf is a node with no children.
+Example:
+Given binary tree [3,9,20,null,null,15,7],
+ 3 / \ 9 20 / \ 15 7 return its depth = 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/</guid>
+      <description>105. Construct Binary Tree from Preorder and Inorder Traversal #  Problem #  Given preorder and inorder traversal of a tree, construct the binary tree.
+Note:You may assume that duplicates do not exist in the tree.
+For example, given
+preorder = [3,9,20,15,7] inorder = [9,3,15,20,7]  Return the following binary tree:
+ 3 / \ 9 20 / \ 15 7  Problem Summary #  Construct a binary tree from the preorder traversal and inorder traversal of a tree.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/</guid>
+      <description>106. Construct Binary Tree from Inorder and Postorder Traversal #  Problem #  Given inorder and postorder traversal of a tree, construct the binary tree.
+Note: You may assume that duplicates do not exist in the tree.
+For example, given
+inorder = [9,3,15,20,7] postorder = [9,15,7,20,3]  Return the following binary tree:
+ 3 / \ 9 20 / \ 15 7  Summary #  Construct a binary tree from the inorder traversal and postorder traversal of a tree.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0107.Binary-Tree-Level-Order-Traversal-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0107.Binary-Tree-Level-Order-Traversal-II/</guid>
+      <description>107. Binary Tree Level Order Traversal II #  Problem #  Given a binary tree, return the bottom-up level order traversal of its nodes&amp;rsquo; values. (ie, from left to right, level by level from leaf to root).
+For Example:
+Given binary tree [3,9,20,null,null,15,7],
+ 3 / \ 9 20 / \ 15 7 return its bottom-up level order traversal as:
+ [ [15,7], [9,20], [3] ] Main Idea of the Problem #  Traverse a tree level by level from bottom to top.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0108.Convert-Sorted-Array-to-Binary-Search-Tree/</guid>
+      <description>108. Convert Sorted Array to Binary Search Tree #  Problem #  Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+Example:
+Given the sorted array: [-10,-3,0,5,9], One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST: 0 / \ -3 9 / / -10 5  Problem Summary #  Convert a sorted array in ascending order into a height-balanced binary search tree.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0109.Convert-Sorted-List-to-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0109.Convert-Sorted-List-to-Binary-Search-Tree/</guid>
+      <description>109. Convert Sorted List to Binary Search Tree #  Problem #  Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+Example:
+ Given the sorted linked list: [-10,-3,0,5,9], One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST: 0 / \ -3 9 / / -10 5 Problem Summary #  Convert the linked list into a height-balanced binary search tree.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0110.Balanced-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0110.Balanced-Binary-Tree/</guid>
+      <description>110. Balanced Binary Tree #  Problem #  Given a binary tree, determine if it is height-balanced.
+For this problem, a height-balanced binary tree is defined as:
+a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+Example 1:
+Given the following tree [3,9,20,null,null,15,7]:
+ 3 / \ 9 20 / \ 15 7 Return true.
+Example 2:
+Given the following tree [1,2,2,3,3,null,null,4,4]:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0111.Minimum-Depth-of-Binary-Tree/</guid>
+      <description>111. Minimum Depth of Binary Tree #  Problem #  Given a binary tree, find its minimum depth.
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+Note: A leaf is a node with no children.
+Example:
+Given binary tree [3,9,20,null,null,15,7],
+ 3 / \ 9 20 / \ 15 7  return its minimum depth = 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0112.Path-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0112.Path-Sum/</guid>
+      <description>112. Path Sum #  Problem #  Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
+Note: A leaf is a node with no children.
+Example:
+Given the below binary tree and sum = 22,
+ 5 / \ 4 8 / / \ 11 13 4 / \ \ 7 2 1  return true, as there exist a root-to-leaf path 5-&amp;gt;4-&amp;gt;11-&amp;gt;2 which sum is 22.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0113.Path-Sum-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0113.Path-Sum-II/</guid>
+      <description>113. Path Sum II #  Problem #  Given a binary tree and a sum, find all root-to-leaf paths where each path&amp;rsquo;s sum equals the given sum.
+Note: A leaf is a node with no children.
+Example:
+Given the below binary tree and sum = 22,
+ 5 / \ 4 8 / / \ 11 13 4 / \ / \ 7 2 5 1  Return:
+[ [5,4,11,2], [5,8,4,5] ]  Problem Summary #  Given a binary tree and a target sum, find all paths from the root node to leaf nodes whose path sums equal the given target sum.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0114.Flatten-Binary-Tree-to-Linked-List/</guid>
+      <description>114. Flatten Binary Tree to Linked List #  Problem #  Given a binary tree, flatten it to a linked list in-place.
+For example, given the following tree:
+ 1 / \ 2 5 / \ \ 3 4 6  The flattened tree should look like:
+1 \ 2 \ 3 \ 4 \ 5 \ 6  Problem Summary #  Given a binary tree, flatten it to a linked list in-place.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0115.Distinct-Subsequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0115.Distinct-Subsequences/</guid>
+      <description>115. Distinct Subsequences #  Problem #  Given two strings s and t, return the number of distinct subsequences of s which equals t.
+A string&amp;rsquo;s subsequence is a new string formed from the original string by deleting some (can be none) of the characters without disturbing the remaining characters&amp;rsquo; relative positions. (i.e., &amp;quot;ACE&amp;quot; is a subsequence of &amp;quot;ABCDE&amp;quot; while &amp;quot;AEC&amp;quot; is not).
+It is guaranteed the answer fits on a 32-bit signed integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0116.Populating-Next-Right-Pointers-in-Each-Node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0116.Populating-Next-Right-Pointers-in-Each-Node/</guid>
+      <description>116. Populating Next Right Pointers in Each Node #  Problem #  You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
+struct Node { int val; Node *left; Node *right; Node *next; } Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0118.Pascals-Triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0118.Pascals-Triangle/</guid>
+      <description>118. Pascal&amp;rsquo;s Triangle #  Problem #  Given a non-negative integer numRows, generate the first numRows of Pascal&amp;rsquo;s triangle.
+ Note: In Pascal&amp;rsquo;s triangle, each number is the sum of the two numbers directly above it.
+Example:
+Input: 5 Output: [ [1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1] ] Problem Summary #  Given a non-negative integer numRows, generate the first numRows rows of Pascal&amp;rsquo;s triangle. In Pascal&amp;rsquo;s triangle, each number is the sum of the numbers to its upper left and upper right.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0119.Pascals-Triangle-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0119.Pascals-Triangle-II/</guid>
+      <description>119. Pascal&amp;rsquo;s Triangle II #  Problem #  Given an integer rowIndex, return the rowIndexth row of the Pascal&amp;rsquo;s triangle.
+Notice that the row index starts from 0.
+ In Pascal&amp;rsquo;s triangle, each number is the sum of the two numbers directly above it.
+Follow up:
+Could you optimize your algorithm to use only O(k) extra space?
+Example 1:
+Input: rowIndex = 3 Output: [1,3,3,1] Example 2:
+Input: rowIndex = 0 Output: [1] Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0120.Triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0120.Triangle/</guid>
+      <description>120. Triangle #  Problem #  Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+For example, given the following triangle
+[ [2], [3,4], [6,5,7], [4,1,8,3] ]  The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
+Note:
+Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0121.Best-Time-to-Buy-and-Sell-Stock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0121.Best-Time-to-Buy-and-Sell-Stock/</guid>
+      <description>121. Best Time to Buy and Sell Stock #  Problem #  Say you have an array for which the ith element is the price of a given stock on day i.
+If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+Note that you cannot sell a stock before you buy one.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0122.Best-Time-to-Buy-and-Sell-Stock-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0122.Best-Time-to-Buy-and-Sell-Stock-II/</guid>
+      <description>122. Best Time to Buy and Sell Stock II #  Problem #  Say you have an array for which the ith element is the price of a given stock on day i.
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+Note: You may not engage in multiple transactions at the same time (i.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0124.Binary-Tree-Maximum-Path-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0124.Binary-Tree-Maximum-Path-Sum/</guid>
+      <description>124. Binary Tree Maximum Path Sum #  Problem #  Given a non-empty binary tree, find the maximum path sum.
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+Example 1:
+Input: [1,2,3] 1 / \ 2 3 Output: 6  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0125.Valid-Palindrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0125.Valid-Palindrome/</guid>
+      <description>125. Valid Palindrome #  Problem #  Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+For example,
+ &amp;quot;A man, a plan, a canal: Panama&amp;quot; is a palindrome. &amp;quot;race a car&amp;quot; is not a palindrome. Note:
+Have you consider that the string might be empty? This is a good question to ask during an interview.
+For the purpose of this problem, we define empty string as valid palindrome.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0126.Word-Ladder-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0126.Word-Ladder-II/</guid>
+      <description>126. Word Ladder II #  Problem #  Given two words (beginWord and endWord), and a dictionary&amp;rsquo;s word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:
+ Only one letter can be changed at a time Each transformed word must exist in the word list. Note that beginWord is not a transformed word.  Note:
+ Return an empty list if there is no such transformation sequence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0127.Word-Ladder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0127.Word-Ladder/</guid>
+      <description>127. Word Ladder #  Problem #  Given two words (beginWord and endWord), and a dictionary&amp;rsquo;s word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
+ Only one letter can be changed at a time. Each transformed word must exist in the word list. Note that beginWord is not a transformed word.  Note:
+ Return 0 if there is no such transformation sequence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0128.Longest-Consecutive-Sequence/</guid>
+      <description>128. Longest Consecutive Sequence #  Problem #  Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+Your algorithm should run in O(n) complexity.
+Example:
+Input: [100, 4, 200, 1, 3, 2] Output: 4 Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefore its length is 4.  Problem Summary #  Given an unsorted array of integers, find the length of the longest consecutive sequence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0129.Sum-Root-to-Leaf-Numbers/</guid>
+      <description>129. Sum Root to Leaf Numbers #  Problem #  Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
+An example is the root-to-leaf path 1-&amp;gt;2-&amp;gt;3 which represents the number 123.
+Find the total sum of all root-to-leaf numbers.
+Note: A leaf is a node with no children.
+Example:
+Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0130.Surrounded-Regions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0130.Surrounded-Regions/</guid>
+      <description>130. Surrounded Regions #  Problem #  Given a 2D board containing &#39;X&#39; and &#39;O&#39; (the letter O), capture all regions surrounded by &#39;X&#39;.
+A region is captured by flipping all &#39;O&#39;s into &#39;X&#39;s in that surrounded region.
+Example:
+X X X X X O O X X X O X X O X X  After running your function, the board should be:
+X X X X X X X X X X X X X O X X  Explanation:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0131.Palindrome-Partitioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0131.Palindrome-Partitioning/</guid>
+      <description>131. Palindrome Partitioning #  Problem #  Given a string s, partition s such that every substring of the partition is a palindrome.
+Return all possible palindrome partitioning of s.
+Example:
+Input: &amp;quot;aab&amp;quot; Output: [ [&amp;quot;aa&amp;quot;,&amp;quot;b&amp;quot;], [&amp;quot;a&amp;quot;,&amp;quot;a&amp;quot;,&amp;quot;b&amp;quot;] ]  Problem Summary #  Given a string s, partition s into some substrings so that every substring is a palindrome. Return all possible partitioning schemes of s.
+Solution Ideas #   The problem asks for all solutions in which a string can be split into palindromic strings; use DFS recursion to solve it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0132.Palindrome-Partitioning-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0132.Palindrome-Partitioning-II/</guid>
+      <description>132. Palindrome Partitioning II #  Problem #  Given a string s, partition s such that every substring of the partition is a palindrome.
+Return theminimum cuts needed for a palindrome partitioning of s.
+Example 1:
+Input: s = &amp;quot;aab&amp;quot; Output: 1 Explanation: The palindrome partitioning [&amp;quot;aa&amp;quot;,&amp;quot;b&amp;quot;] could be produced using 1 cut. Example 2:
+Input: s = &amp;quot;a&amp;quot; Output: 0 Example 3:
+Input: s = &amp;quot;ab&amp;quot; Output: 1 Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0134.Gas-Station/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0134.Gas-Station/</guid>
+      <description>134. Gas Station #  Problem #  There are n gas stations along a circular route, where the amount of gas at the i^th station is gas[i].
+You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from the i^th station to its next (i + 1)^th station. You begin the journey with an empty tank at one of the gas stations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0135.Candy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0135.Candy/</guid>
+      <description>135. Candy #  Problem #  There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.
+You are giving candies to these children subjected to the following requirements:
+ Each child must have at least one candy. Children with a higher rating get more candies than their neighbors.  Return the minimum number of candies you need to have to distribute the candies to the children.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0136.Single-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0136.Single-Number/</guid>
+      <description>136. Single Number #  Problem #  Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+Note:
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+Example 1:
+Input: [2,2,1] Output: 1  Example 2:
+Input: [4,1,2,1,2] Output: 4  Problem Summary #  Given a non-empty array of integers, every element appears twice except for one element that appears only once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0137.Single-Number-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0137.Single-Number-II/</guid>
+      <description>137. Single Number II #  Problem #  Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
+Note:
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+Example 1:
+Input: [2,2,3,2] Output: 3  Example 2:
+Input: [0,1,0,1,0,1,99] Output: 99  Problem Summary #  Given a non-empty integer array, every element appears three times except for one element that appears only once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0138.Copy-List-With-Random-Pointer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0138.Copy-List-With-Random-Pointer/</guid>
+      <description>138. Copy List with Random Pointer #  Problem #  A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+Return a  deep copy of the list.
+The Linked List is represented in the input/output as a list of n nodes. Each node is represented as a pair of [val, random_index] where:
+ val: an integer representing Node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0141.Linked-List-Cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0141.Linked-List-Cycle/</guid>
+      <description>141. Linked List Cycle #  Problem #  Given a linked list, determine if it has a cycle in it.
+Follow up:
+Can you solve it without using extra space?
+Problem Summary #  Determine whether a linked list has a cycle, without using extra space.
+Solution #  Use 2 pointers, where one pointer is ahead of the other. The fast pointer moves 2 steps at a time, and the slow pointer moves 1 step at a time.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0142.Linked-List-Cycle-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0142.Linked-List-Cycle-II/</guid>
+      <description>142. Linked List Cycle II #  Title #  Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
+Note: Do not modify the linked list.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0143.Reorder-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0143.Reorder-List/</guid>
+      <description>143. Reorder List #  Problem #  Given a singly linked list L: L0→L1→…→Ln-1→Ln, reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
+You may not modify the values in the list&amp;rsquo;s nodes, only nodes itself may be changed.
+Example 1:
+ Given 1-&amp;gt;2-&amp;gt;3-&amp;gt;4, reorder it to 1-&amp;gt;4-&amp;gt;2-&amp;gt;3. Example 2:
+ Given 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, reorder it to 1-&amp;gt;5-&amp;gt;2-&amp;gt;4-&amp;gt;3. Problem Summary #  Reorder the linked list according to the specified rules: the first element and the last element are arranged together, then the second element and the second-to-last element are arranged together, then the third element and the third-to-last element are arranged together.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0144.Binary-Tree-Preorder-Traversal/</guid>
+      <description>144. Binary Tree Preorder Traversal #  Problem #  Given a binary tree, return the preorder traversal of its nodes&amp;rsquo; values.
+Example:
+ Input: [1,null,2,3] 1 \ 2 / 3 Output: [1,2,3] Follow up: Recursive solution is trivial, could you do it iteratively?
+Summary #  Preorder traverse a tree.
+Solution Approach #  Two recursive implementation methods; see the code.
+Code #  package leetcode /** * Definition for a binary tree node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0145.Binary-Tree-Postorder-Traversal/</guid>
+      <description>145. Binary Tree Postorder Traversal #  Problem #  Given a binary tree, return the postorder traversal of its nodes&amp;rsquo; values.
+Example:
+ Input: [1,null,2,3] 1 \ 2 / 3 Output: [3,2,1] Follow up: Recursive solution is trivial, could you do it iteratively?
+Problem Summary #  Postorder traverse a tree.
+Solution Approach #  Recursive implementation; see the code.
+Code #  package leetcode /** * Definition for a binary tree node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0146.LRU-Cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0146.LRU-Cache/</guid>
+      <description>146. LRU Cache #  Problem #  Design a data structure that follows the constraints of a  Least Recently Used (LRU) cache.
+Implement the LRUCache class:
+ LRUCache(int capacity) Initialize the LRU cache with positive size capacity. int get(int key) Return the value of the key if the key exists, otherwise return 1. void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0147.Insertion-Sort-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0147.Insertion-Sort-List/</guid>
+      <description>147. Insertion Sort List #  Problem #  Sort a linked list using insertion sort.
+ A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list. With each iteration one element (red) is removed from the input data and inserted in-place into the sorted list
+Algorithm of Insertion Sort:
+Insertion sort iterates, consuming one input element each repetition, and growing a sorted output list.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0148.Sort-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0148.Sort-List/</guid>
+      <description>148. Sort List #  Problem #  Sort a linked list in O(n log n) time using constant space complexity.
+Example 1:
+ Input: 4-&amp;gt;2-&amp;gt;1-&amp;gt;3 Output: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4 Example 2:
+ Input: -1-&amp;gt;5-&amp;gt;3-&amp;gt;4-&amp;gt;0 Output: -1-&amp;gt;0-&amp;gt;3-&amp;gt;4-&amp;gt;5 Summary #  Sort a linked list, requiring the time complexity to be O(n log n) and the space complexity to be O(1)
+Solution Approach #  This problem can only use merge sort to meet the requirements.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0150.Evaluate-Reverse-Polish-Notation/</guid>
+      <description>150. Evaluate Reverse Polish Notation #  Problem #  Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+Valid operators are +, -, *, /. Each operand may be an integer or another expression.
+Note:
+ Division between two integers should truncate toward zero. The given RPN expression is always valid. That means the expression would always evaluate to a result and there won&amp;rsquo;t be any divide by zero operation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0151.Reverse-Words-in-a-String/</guid>
+      <description>151. Reverse Words in a String #  Problem #  Given an input string, reverse the string word by word.
+Example 1:
+Input: &amp;quot;the sky is blue&amp;quot; Output: &amp;quot;blue is sky the&amp;quot;  Example 2:
+Input: &amp;quot; hello world! &amp;quot; Output: &amp;quot;world! hello&amp;quot; Explanation: Your reversed string should not contain leading or trailing spaces.  Example 3:
+Input: &amp;quot;a good example&amp;quot; Output: &amp;quot;example good a&amp;quot; Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0152.Maximum-Product-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0152.Maximum-Product-Subarray/</guid>
+      <description>152. Maximum Product Subarray #  Problem #  Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+Example 1:
+Input: [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6.  Example 2:
+Input: [-2,0,-1] Output: 0 Explanation: The result cannot be 2, because [-2,-1] is not a subarray.  Problem Summary #  Given an integer array nums, find the contiguous subsequence within the sequence that has the largest product (the sequence must contain at least one number).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0153.Find-Minimum-in-Rotated-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0153.Find-Minimum-in-Rotated-Sorted-Array/</guid>
+      <description>153. Find Minimum in Rotated Sorted Array #  Problem #  Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+Find the minimum element.
+You may assume no duplicate exists in the array.
+Example 1:
+Input: [3,4,5,1,2] Output: 1  Example 2:
+Input: [4,5,6,7,0,1,2] Output: 0  Problem Summary #  Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0154.Find-Minimum-in-Rotated-Sorted-Array-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0154.Find-Minimum-in-Rotated-Sorted-Array-II/</guid>
+      <description>154. Find Minimum in Rotated Sorted Array II #  Problem #  Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+Find the minimum element.
+The array may contain duplicates.
+Example 1:
+Input: [1,3,5] Output: 1  Example 2:
+Input: [2,2,2,0,1] Output: 0  Note:
+ This is a follow up problem to Find Minimum in Rotated Sorted Array.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0155.Min-Stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0155.Min-Stack/</guid>
+      <description>155. Min Stack #  Problem #  Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+push(x) &amp;ndash; Push element x onto stack. pop() &amp;ndash; Removes the element on top of the stack. top() &amp;ndash; Get the top element. getMin() &amp;ndash; Retrieve the minimum element in the stack.
+Example:
+ MinStack minStack = new MinStack(); minStack.push(-2); minStack.push(0); minStack.push(-3); minStack.getMin(); --&amp;gt; Returns -3. minStack.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0160.Intersection-of-Two-Linked-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0160.Intersection-of-Two-Linked-Lists/</guid>
+      <description>160. Intersection of Two Linked Lists #  Problem #  Write a program to find the node at which the intersection of two singly linked lists begins.
+For example, the following two linked lists:
+ begin to intersect at node c1.
+Example 1:
+  Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,0,1,8,4,5], skipA = 2, skipB = 3 Output: Reference of the node with value = 8 Input Explanation: The intersected node&#39;s value is 8 (note that this must not be 0 if the two lists intersect).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0162.Find-Peak-Element/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0162.Find-Peak-Element/</guid>
+      <description>162. Find Peak Element #  Problem #  A peak element is an element that is greater than its neighbors.
+Given an input array nums, where nums[i] ≠ nums[i+1], find a peak element and return its index.
+The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
+You may imagine that nums[-1] = nums[n] = -∞.
+Example 1:
+Input: nums = [1,2,3,1] Output: 2 Explanation: 3 is a peak element and your function should return the index number 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0164.Maximum-Gap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0164.Maximum-Gap/</guid>
+      <description>164. Maximum Gap #  Problem #  Given an unsorted array, find the maximum difference between the successive elements in its sorted form.
+Return 0 if the array contains less than 2 elements.
+Example 1:
+ Input: [3,6,9,1] Output: 3 Explanation: The sorted form of the array is [1,3,6,9], either (3,6) or (6,9) has the maximum difference 3. Example 2:
+ Input: [10] Output: 0 Explanation: The array contains less than 2 elements, therefore return 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0167.Two-Sum-II-Input-array-is-sorted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0167.Two-Sum-II-Input-array-is-sorted/</guid>
+      <description>167. Two Sum II - Input array is sorted #  Problem #  Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+Note:
+ Your returned answers (both index1 and index2) are not zero-based.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0168.Excel-Sheet-Column-Title/</guid>
+      <description>168. Excel Sheet Column Title #  Problem #  Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+For example:
+ 1 -&amp;gt; A 2 -&amp;gt; B 3 -&amp;gt; C ... 26 -&amp;gt; Z 27 -&amp;gt; AA 28 -&amp;gt; AB ... Example 1:
+Input: 1 Output: &amp;quot;A&amp;quot; Example 2:
+Input: 28 Output: &amp;quot;AB&amp;quot; Example 3:
+Input: 701 Output: &amp;quot;ZY&amp;quot; Problem Summary #  Given a positive integer, return its corresponding column title in an Excel sheet.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0169.Majority-Element/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0169.Majority-Element/</guid>
+      <description>169. Majority Element #  Problem #  Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+You may assume that the array is non-empty and the majority element always exist in the array.
+Example 1:
+Input: [3,2,3] Output: 3  Example 2:
+Input: [2,2,1,1,1,2,2] Output: 2  Problem Summary #  Given an array of size n, find the majority element in it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0171.Excel-Sheet-Column-Number/</guid>
+      <description>171. Excel Sheet Column Number #  Problem #  Given a column title as appear in an Excel sheet, return its corresponding column number.
+For example:
+ A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB -&amp;gt; 28 ... Example 1:
+Input: &amp;quot;A&amp;quot; Output: 1 Example 2:
+Input: &amp;quot;AB&amp;quot; Output: 28 Example 3:
+Input: &amp;quot;ZY&amp;quot; Output: 701 Problem Summary #  Given a column title in an Excel sheet, return its corresponding column number.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0172.Factorial-Trailing-Zeroes/</guid>
+      <description>172. Factorial Trailing Zeroes #  Problem #  Given an integer n, return the number of trailing zeroes in n!.
+Example 1:
+Input: 3 Output: 0 Explanation: 3! = 6, no trailing zero.  Example 2:
+Input: 5 Output: 1 Explanation: 5! = 120, one trailing zero.  Note: Your solution should be in logarithmic time complexity.
+Problem Summary #  Given an integer n, return the number of zeroes at the end of the result of n!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0173.Binary-Search-Tree-Iterator/</guid>
+      <description>173. Binary Search Tree Iterator #  Problem #  Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
+Calling next() will return the next smallest number in the BST.
+Example:
+ BSTIterator iterator = new BSTIterator(root); iterator.next(); // return 3 iterator.next(); // return 7 iterator.hasNext(); // return true iterator.next(); // return 9 iterator.hasNext(); // return true iterator.next(); // return 15 iterator.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0174.Dungeon-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0174.Dungeon-Game/</guid>
+      <description>174. Dungeon Game #  Problem #  The demons had captured the princess (P) and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of M x N rooms laid out in a 2D grid. Our valiant knight (K) was initially positioned in the top-left room and must fight his way through the dungeon to rescue the princess.
+The knight has an initial health point represented by a positive integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0179.Largest-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0179.Largest-Number/</guid>
+      <description>179. Largest Number #  Problem #  Given a list of non negative integers, arrange them such that they form the largest number.
+Example 1:
+ Input: [10,2] Output: &amp;quot;210&amp;quot; Example 2:
+ Input: [3,30,34,5,9] Output: &amp;quot;9534330&amp;quot; Note:
+The result may be very large, so you need to return a string instead of an integer.
+Problem Summary #  Given an array, arrange the elements in the array so that the final arranged number is the largest.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0187.Repeated-DNA-Sequences/</guid>
+      <description>187. Repeated DNA Sequences #  Problem #  All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for Example: &amp;ldquo;ACGAATTCCG&amp;rdquo;. When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.
+Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
+Example:
+Input: s = &amp;quot;AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT&amp;quot; Output: [&amp;quot;AAAAACCCCC&amp;quot;, &amp;quot;CCCCCAAAAA&amp;quot;]  Problem Summary #  All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: &amp;ldquo;ACGAATTCCG&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0189.Rotate-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0189.Rotate-Array/</guid>
+      <description>189. Rotate Array #  Problem #  Given an array, rotate the array to the right by k steps, where k is non-negative.
+Follow up:
+ Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem. Could you do it in-place with O(1) extra space?  Example 1:
+Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4] Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0190.Reverse-Bits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0190.Reverse-Bits/</guid>
+      <description>190. Reverse Bits #  Problem #  Reverse bits of a given 32 bits unsigned integer.
+Example 1:
+Input: 00000010100101000001111010011100 Output: 00111001011110000010100101000000 Explanation: The input binary string 00000010100101000001111010011100 represents the unsigned integer 43261596, so return 964176192 which its binary representation is 00111001011110000010100101000000.  Example 2:
+Input: 11111111111111111111111111111101 Output: 10111111111111111111111111111111 Explanation: The input binary string 11111111111111111111111111111101 represents the unsigned integer 4294967293, so return 3221225471 which its binary representation is 10101111110010110010011101101001.  Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0191.Number-of-1-Bits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0191.Number-of-1-Bits/</guid>
+      <description>191. Number of 1 Bits #  Problem #  Write a function that takes an unsigned integer and return the number of &amp;lsquo;1&amp;rsquo; bits it has (also known as the Hamming weight).
+Example 1:
+Input: 00000000000000000000000000001011 Output: 3 Explanation: The input binary string 00000000000000000000000000001011 has a total of three &#39;1&#39; bits.  Example 2:
+Input: 00000000000000000000000010000000 Output: 1 Explanation: The input binary string 00000000000000000000000010000000 has a total of one &#39;1&#39; bit.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0198.House-Robber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0198.House-Robber/</guid>
+      <description>198. House Robber #  Problem #  You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security system connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+Given a list of non-negative integers representing the amount of money of each house, determine the maximum amount of money you can rob tonight without alerting the police.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0100~0199/0199.Binary-Tree-Right-Side-View/</guid>
+      <description>199. Binary Tree Right Side View #  Problem #  Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+Example:
+ Input: [1,2,3,null,5,null,4] Output: [1, 3, 4] Explanation: 1 &amp;lt;--- / \ 2 3 &amp;lt;--- \ \ 5 4 &amp;lt;--- Problem Summary #  Look at a tree from the right side and output the numbers you can see.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1104.Path-In-Zigzag-Labelled-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1104.Path-In-Zigzag-Labelled-Binary-Tree/</guid>
+      <description>1104. Path In Zigzag Labelled Binary Tree #  题目 #  In an infinite binary tree where every node has two children, the nodes are labelled in row order.
+In the odd numbered rows (ie., the first, third, fifth,&amp;hellip;), the labelling is left to right, while in the even numbered rows (second, fourth, sixth,&amp;hellip;), the labelling is right to left.
+ Given the label of a node in this tree, return the labels in the path from the root of the tree to the node with that label.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1105.Filling-Bookcase-Shelves/</guid>
+      <description>1105. Filling Bookcase Shelves #  题目 #  We have a sequence of books: the i-th book has thickness books[i][0]and height books[i][1].
+We want to place these books in order onto bookcase shelves that have total width shelf_width.
+We choose some of the books to place on this shelf (such that the sum of their thickness is &amp;lt;= shelf_width), then build another level of shelf of the bookcase so that the total height of the bookcase has increased by the maximum height of the books we just put down.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1108.Defanging-an-IP-Address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1108.Defanging-an-IP-Address/</guid>
+      <description>1108. Defanging an IP Address #  题目 #  Given a valid (IPv4) IP address, return a defanged version of that IP address.
+A defanged IP address replaces every period &amp;quot;.&amp;quot; with &amp;quot;[.]&amp;quot;.
+Example 1:
+Input: address = &amp;quot;1.1.1.1&amp;quot; Output: &amp;quot;1[.]1[.]1[.]1&amp;quot;  Example 2:
+Input: address = &amp;quot;255.100.50.0&amp;quot; Output: &amp;quot;255[.]100[.]50[.]0&amp;quot;  Constraints:
+ The given address is a valid IPv4 address.  题目大意 #  给你一个有效的 IPv4 地址 address，返回这个 IP 地址的无效化版本。所谓无效化 IP 地址，其实就是用 &amp;ldquo;[.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1110.Delete-Nodes-And-Return-Forest/</guid>
+      <description>1110. Delete Nodes And Return Forest #  题目 #  Given the root of a binary tree, each node in the tree has a distinct value.
+After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).
+Return the roots of the trees in the remaining forest. You may return the result in any order.
+Example 1:
+ Input: root = [1,2,3,4,5,6,7], to_delete = [3,5] Output: [[1,2,null,4],[6],[7]] Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1111.Maximum-Nesting-Depth-of-Two-Valid-Parentheses-Strings/</guid>
+      <description>1111. Maximum Nesting Depth of Two Valid Parentheses Strings #  题目 #  A string is a valid parentheses string (denoted VPS) if and only if it consists of &amp;quot;(&amp;quot; and &amp;quot;)&amp;quot; characters only, and:
+ It is the empty string, or It can be written as AB (A concatenated with B), where A and B are VPS&amp;rsquo;s, or It can be written as (A), where A is a VPS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1122.Relative-Sort-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1122.Relative-Sort-Array/</guid>
+      <description>1122. Relative Sort Array #  题目 #  Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.
+Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2. Elements that don&amp;rsquo;t appear in arr2 should be placed at the end of arr1 in ascending order.
+Example 1:
+Input: arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6] Output: [2,2,2,1,4,3,3,9,6,7,19]  Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1123.Lowest-Common-Ancestor-of-Deepest-Leaves/</guid>
+      <description>1123. Lowest Common Ancestor of Deepest Leaves #  题目 #  Given a rooted binary tree, return the lowest common ancestor of its deepest leaves.
+Recall that:
+ The node of a binary tree is a leaf if and only if it has no children The depth of the root of the tree is 0, and if the depth of a node is d, the depth of each of its children is d+1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1128.Number-of-Equivalent-Domino-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1128.Number-of-Equivalent-Domino-Pairs/</guid>
+      <description>1128. Number of Equivalent Domino Pairs #  题目 #  Given a list of dominoes, dominoes[i] = [a, b] is equivalent to dominoes[j] = [c, d] if and only if either (a==c and b==d), or (a==d and b==c) - that is, one domino can be rotated to be equal to another domino.
+Return the number of pairs (i, j) for which 0 &amp;lt;= i &amp;lt; j &amp;lt; dominoes.length, and dominoes[i] is equivalent to dominoes[j].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1137.N-th-Tribonacci-Number/</guid>
+      <description>1137. N-th Tribonacci Number #  题目 #  The Tribonacci sequence Tn is defined as follows:
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n &amp;gt;= 0.
+Given n, return the value of Tn.
+Example 1:
+Input: n = 4 Output: 4 Explanation: T_3 = 0 + 1 + 1 = 2 T_4 = 1 + 1 + 2 = 4  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1143.Longest-Common-Subsequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1143.Longest-Common-Subsequence/</guid>
+      <description>1143. Longest Common Subsequence #  题目 #  Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+ For example, &amp;quot;ace&amp;quot; is a subsequence of &amp;quot;abcde&amp;quot;.  A common subsequence of two strings is a subsequence that is common to both strings.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1145.Binary-Tree-Coloring-Game/</guid>
+      <description>1145. Binary Tree Coloring Game #  题目 #  Two players play a turn based game on a binary tree. We are given the root of this binary tree, and the number of nodes n in the tree. n is odd, and each node has a distinct value from 1 to n.
+Initially, the first player names a value x with 1 &amp;lt;= x &amp;lt;= n, and the second player names a value y with 1 &amp;lt;= y &amp;lt;= n and y !</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1154.Day-of-the-Year/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1154.Day-of-the-Year/</guid>
+      <description>1154. Day of the Year #  题目 #  Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
+Example 1:
+Input: date = &amp;quot;2019-01-09&amp;quot; Output: 9 Explanation: Given date is the 9th day of the year in 2019.  Example 2:
+Input: date = &amp;quot;2019-02-10&amp;quot; Output: 41  Example 3:
+Input: date = &amp;quot;2003-03-01&amp;quot; Output: 60  Example 4:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1157.Online-Majority-Element-In-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1157.Online-Majority-Element-In-Subarray/</guid>
+      <description>1157. Online Majority Element In Subarray #  题目 #  Implementing the class MajorityChecker, which has the following API:
+ MajorityChecker(int[] arr) constructs an instance of MajorityChecker with the given array arr; int query(int left, int right, int threshold) has arguments such that:  0 &amp;lt;= left &amp;lt;= right &amp;lt; arr.length representing a subarray of arr; 2 * threshold &amp;gt; right - left + 1, ie. the threshold is always a strict majority of the length of the subarray    Each query(.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1160.Find-Words-That-Can-Be-Formed-by-Characters/</guid>
+      <description>1160. Find Words That Can Be Formed by Characters #  题目 #  You are given an array of strings words and a string chars.
+A string is good if it can be formed by characters from chars (each character can only be used once).
+Return the sum of lengths of all good strings in words.
+Example 1:
+Input: words = [&amp;quot;cat&amp;quot;,&amp;quot;bt&amp;quot;,&amp;quot;hat&amp;quot;,&amp;quot;tree&amp;quot;], chars = &amp;quot;atach&amp;quot; Output: 6 Explanation: The strings that can be formed are &amp;quot;cat&amp;quot; and &amp;quot;hat&amp;quot; so the answer is 3 + 3 = 6.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1170.Compare-Strings-by-Frequency-of-the-Smallest-Character/</guid>
+      <description>1170. Compare Strings by Frequency of the Smallest Character #  题目 #  Let&amp;rsquo;s define a function f(s) over a non-empty string s, which calculates the frequency of the smallest character in s. For example, if s = &amp;quot;dcce&amp;quot; then f(s) = 2 because the smallest character is &amp;quot;c&amp;quot; and its frequency is 2.
+Now, given string arrays queries and words, return an integer array answer, where each answer[i] is the number of words such that f(queries[i]) &amp;lt; f(W), where W is a word in words.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1171.Remove-Zero-Sum-Consecutive-Nodes-from-Linked-List/</guid>
+      <description>1171. Remove Zero Sum Consecutive Nodes from Linked List #  题目 #  Given the head of a linked list, we repeatedly delete consecutive sequences of nodes that sum to 0 until there are no such sequences.
+After doing so, return the head of the final linked list. You may return any such answer.
+(Note that in the examples below, all sequences are serializations of ListNode objects.)
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1175.Prime-Arrangements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1175.Prime-Arrangements/</guid>
+      <description>1175. Prime Arrangements #  题目 #  Return the number of permutations of 1 to n so that prime numbers are at prime indices (1-indexed.)
+(Recall that an integer is prime if and only if it is greater than 1, and cannot be written as a product of two positive integers both smaller than it.)
+Since the answer may be large, return the answer modulo 10^9 + 7.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1178.Number-of-Valid-Words-for-Each-Puzzle/</guid>
+      <description>1178. Number of Valid Words for Each Puzzle #  题目 #  With respect to a given puzzle string, a word is valid if both the following conditions are satisfied:
+ word contains the first letter of puzzle. For each letter in word, that letter is in puzzle.For example, if the puzzle is &amp;ldquo;abcdefg&amp;rdquo;, then valid words are &amp;ldquo;faced&amp;rdquo;, &amp;ldquo;cabbage&amp;rdquo;, and &amp;ldquo;baggage&amp;rdquo;; while invalid words are &amp;ldquo;beefed&amp;rdquo; (doesn&amp;rsquo;t include &amp;ldquo;a&amp;rdquo;) and &amp;ldquo;based&amp;rdquo; (includes &amp;ldquo;s&amp;rdquo; which isn&amp;rsquo;t in the puzzle).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1184.Distance-Between-Bus-Stops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1184.Distance-Between-Bus-Stops/</guid>
+      <description>1184. Distance Between Bus Stops #  题目 #  A bus has n stops numbered from 0 to n - 1 that form a circle. We know the distance between all pairs of neighboring stops where distance[i] is the distance between the stops number i and (i + 1) % n.
+The bus goes along both directions i.e. clockwise and counterclockwise.
+Return the shortest distance between the given start and destination stops.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1185.Day-of-the-Week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1185.Day-of-the-Week/</guid>
+      <description>1185. Day of the Week #  题目 #  Given a date, return the corresponding day of the week for that date.
+The input is given as three integers representing the day, month and year respectively.
+Return the answer as one of the following values {&amp;quot;Sunday&amp;quot;, &amp;quot;Monday&amp;quot;, &amp;quot;Tuesday&amp;quot;, &amp;quot;Wednesday&amp;quot;, &amp;quot;Thursday&amp;quot;, &amp;quot;Friday&amp;quot;, &amp;quot;Saturday&amp;quot;}.
+Example 1:
+Input: day = 31, month = 8, year = 2019 Output: &amp;quot;Saturday&amp;quot;  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1189.Maximum-Number-of-Balloons/</guid>
+      <description>1189. Maximum Number of Balloons #  题目 #  Given a string text, you want to use the characters of text to form as many instances of the word &amp;ldquo;balloon&amp;rdquo; as possible.
+You can use each character in text at most once. Return the maximum number of instances that can be formed.
+Example 1:
+ Input: text = &amp;quot;nlaebolko&amp;quot; Output: 1  Example 2:
+ Input: text = &amp;quot;loonbalxballpoon&amp;quot; Output: 2  Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1100~1199/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses/</guid>
+      <description>1190. Reverse Substrings Between Each Pair of Parentheses #  题目 #  You are given a string s that consists of lower case English letters and brackets.
+Reverse the strings in each pair of matching parentheses, starting from the innermost one.
+Your result should not contain any brackets.
+Example 1:
+Input: s = &amp;quot;(abcd)&amp;quot; Output: &amp;quot;dcba&amp;quot; Example 2:
+Input: s = &amp;quot;(u(love)i)&amp;quot; Output: &amp;quot;iloveu&amp;quot; Explanation: The substring &amp;quot;love&amp;quot; is reversed first, then the whole string is reversed.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0400.Nth-Digit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0400.Nth-Digit/</guid>
+      <description>400. Nth Digit #  题目 #  Given an integer n, return the nth digit of the infinite integer sequence [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, &amp;hellip;].
+Example 1:
+Input: n = 3 Output: 3  Example 2:
+Input: n = 11 Output: 0 Explanation: The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0401.Binary-Watch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0401.Binary-Watch/</guid>
+      <description>401. Binary Watch #  题目 #  A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59).
+Each LED represents a zero or one, with the least significant bit on the right.
+ For example, the above binary watch reads &amp;ldquo;3:25&amp;rdquo;.
+Given a non-negative integer n which represents the number of LEDs that are currently on, return all possible times the watch could represent.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0402.Remove-K-Digits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0402.Remove-K-Digits/</guid>
+      <description>402. Remove K Digits #  题目 #  Given a non-negative integer num represented as a string, remove k digits from the number so that the new number is the smallest possible.
+Note:
+ The length of num is less than 10002 and will be ≥ k. The given num does not contain any leading zero.  Example 1:
+ Input: num = &amp;quot;1432219&amp;quot;, k = 3 Output: &amp;quot;1219&amp;quot; Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0404.Sum-of-Left-Leaves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0404.Sum-of-Left-Leaves/</guid>
+      <description>404. Sum of Left Leaves #  题目 #  Find the sum of all left leaves in a given binary tree.
+Example:
+ 3 / \ 9 20 / \ 15 7 There are two left leaves in the binary tree, with values 9 and 15 respectively. Return 24.  题目大意 #  计算给定二叉树的所有左叶子之和。
+解题思路 #   这一题是微软的面试题。递归求解即可  代码 #  package leetcode /** * Definition for a binary tree node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0405.Convert-a-Number-to-Hexadecimal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0405.Convert-a-Number-to-Hexadecimal/</guid>
+      <description>405. Convert a Number to Hexadecimal #  题目 #  Given an integer, write an algorithm to convert it to hexadecimal. For negative integer, two’s complement method is used.
+Note:
+ All letters in hexadecimal (a-f) must be in lowercase. The hexadecimal string must not contain extra leading 0s. If the number is zero, it is represented by a single zero character &#39;0&#39;; otherwise, the first character in the hexadecimal string will not be the zero character.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0409.Longest-Palindrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0409.Longest-Palindrome/</guid>
+      <description>409. Longest Palindrome #  题目 #  Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.
+This is case sensitive, for example &amp;quot;Aa&amp;quot; is not considered a palindrome here.
+Note:Assume the length of given string will not exceed 1,010.
+Example:
+Input: &amp;quot;abccccdd&amp;quot; Output: 7 Explanation: One longest palindrome that can be built is &amp;quot;dccaccd&amp;quot;, whose length is 7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0410.Split-Array-Largest-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0410.Split-Array-Largest-Sum/</guid>
+      <description>410. Split Array Largest Sum #  题目 #  Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.
+Note:If n is the length of array, assume the following constraints are satisfied:
+ 1 ≤ n ≤ 1000 1 ≤ m ≤ min(50, n)  Examples:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0412.Fizz-Buzz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0412.Fizz-Buzz/</guid>
+      <description>412. Fizz Buzz #  题目 #  Write a program that outputs the string representation of numbers from 1 to n.
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+Example:
+n = 15, Return: [ &amp;quot;1&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;Fizz&amp;quot;, &amp;quot;4&amp;quot;, &amp;quot;Buzz&amp;quot;, &amp;quot;Fizz&amp;quot;, &amp;quot;7&amp;quot;, &amp;quot;8&amp;quot;, &amp;quot;Fizz&amp;quot;, &amp;quot;Buzz&amp;quot;, &amp;quot;11&amp;quot;, &amp;quot;Fizz&amp;quot;, &amp;quot;13&amp;quot;, &amp;quot;14&amp;quot;, &amp;quot;FizzBuzz&amp;quot; ] 题目大意 #  3的倍数输出 &amp;ldquo;Fizz&amp;rdquo;，5的倍数输出 &amp;ldquo;Buzz&amp;rdquo;，15的倍数输出 &amp;ldquo;FizzBuzz&amp;rdquo;，其他时候都输出原本的数字。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0413.Arithmetic-Slices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0413.Arithmetic-Slices/</guid>
+      <description>413. Arithmetic Slices #  题目 #  A sequence of numbers is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.
+For example, these are arithmetic sequences:
+1, 3, 5, 7, 9 7, 7, 7, 7 3, -1, -5, -9 The following sequence is not arithmetic.
+1, 1, 2, 5, 7 A zero-indexed array A consisting of N numbers is given.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0414.Third-Maximum-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0414.Third-Maximum-Number/</guid>
+      <description>414. Third Maximum Number #  题目 #  Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+Example 1:
+Input: [3, 2, 1] Output: 1 Explanation: The third maximum is 1.  Example 2:
+Input: [1, 2] Output: 2 Explanation: The third maximum does not exist, so the maximum (2) is returned instead.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0416.Partition-Equal-Subset-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0416.Partition-Equal-Subset-Sum/</guid>
+      <description>416. Partition Equal Subset Sum #  题目 #  Given a non-empty array containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+Note:
+ Each of the array element will not exceed 100. The array size will not exceed 200.  Example 1:
+Input: [1, 5, 11, 5] Output: true Explanation: The array can be partitioned as [1, 5, 5] and [11].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0417.Pacific-Atlantic-Water-Flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0417.Pacific-Atlantic-Water-Flow/</guid>
+      <description>417. Pacific Atlantic Water Flow #  题目 #  Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, the &amp;ldquo;Pacific ocean&amp;rdquo; touches the left and top edges of the matrix and the &amp;ldquo;Atlantic ocean&amp;rdquo; touches the right and bottom edges.
+Water can only flow in four directions (up, down, left, or right) from a cell to another one with height equal or lower.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0419.Battleships-in-a-Board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0419.Battleships-in-a-Board/</guid>
+      <description>419. Battleships in a Board #  题目 #  Given an m x n matrix board where each cell is a battleship &#39;X&#39; or empty &#39;.&#39;, return the number of the battleships on board.
+Battleships can only be placed horizontally or vertically on board. In other words, they can only be made of the shape 1 x k (1 row, k columns) or k x 1 (k rows, 1 column), where k can be of any size.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0421.Maximum-XOR-of-Two-Numbers-in-an-Array/</guid>
+      <description>421. Maximum XOR of Two Numbers in an Array #  题目 #  Given a non-empty array of numbers, a0, a1, a2, … , an-1, where 0 ≤ ai &amp;lt; 231.
+Find the maximum result of ai XOR aj, where 0 ≤ i, j &amp;lt; n.
+Could you do this in O(n) runtime?
+Example:
+Input: [3, 10, 5, 25, 2, 8] Output: 28 Explanation: The maximum result is 5 ^ 25 = 28.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0423.Reconstruct-Original-Digits-from-English/</guid>
+      <description>423. Reconstruct Original Digits from English #  题目 #  Given a non-empty string containing an out-of-order English representation of digits 0-9, output the digits in ascending order.
+Note:
+ Input contains only lowercase English letters. Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as &amp;ldquo;abc&amp;rdquo; or &amp;ldquo;zerone&amp;rdquo; are not permitted. Input length is less than 50,000.  Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0424.Longest-Repeating-Character-Replacement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0424.Longest-Repeating-Character-Replacement/</guid>
+      <description>424. Longest Repeating Character Replacement #  题目 #  Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.
+Note:
+Both the string&amp;rsquo;s length and k will not exceed 10^4.
+Example 1:
+ Input: s = &amp;quot;ABAB&amp;quot;, k = 2 Output: 4 Explanation: Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0429.N-ary-Tree-Level-Order-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0429.N-ary-Tree-Level-Order-Traversal/</guid>
+      <description>429.N-ary Tree Level Order Traversal #  题目 #  Given an n-ary tree, return the level order traversal of its nodes&amp;rsquo; values.
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+Example 1:
+ Input: root = [1,null,3,2,4,null,5,6] Output: [[1],[3,2,4],[5,6]] Example 2:
+ Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14] Output: [[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]] Constraints:
+ The height of the n-ary tree is less than or equal to 1000 The total number of nodes is between [0, 104]  题目大意 #  给定一个 N 叉树，返回其节点值的层序遍历。（即从左到右，逐层遍历）。树的序列化输入是用层序遍历，每组子节点都由 null 值分隔（参见示例）。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0433.Minimum-Genetic-Mutation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0433.Minimum-Genetic-Mutation/</guid>
+      <description>433. Minimum Genetic Mutation #  题目 #  A gene string can be represented by an 8-character long string, with choices from &amp;quot;A&amp;quot;, &amp;quot;C&amp;quot;, &amp;quot;G&amp;quot;, &amp;quot;T&amp;quot;.
+Suppose we need to investigate about a mutation (mutation from &amp;ldquo;start&amp;rdquo; to &amp;ldquo;end&amp;rdquo;), where ONE mutation is defined as ONE single character changed in the gene string.
+For example, &amp;quot;AACCGGTT&amp;quot; -&amp;gt; &amp;quot;AACCGGTA&amp;quot; is 1 mutation.
+Also, there is a given gene &amp;ldquo;bank&amp;rdquo;, which records all the valid gene mutations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0434.Number-of-Segments-in-a-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0434.Number-of-Segments-in-a-String/</guid>
+      <description>434. Number of Segments in a String #  题目 #  You are given a string s, return the number of segments in the string.
+A segment is defined to be a contiguous sequence of non-space characters.
+Example 1:
+Input: s = &amp;quot;Hello, my name is John&amp;quot; Output: 5 Explanation: The five segments are [&amp;quot;Hello,&amp;quot;, &amp;quot;my&amp;quot;, &amp;quot;name&amp;quot;, &amp;quot;is&amp;quot;, &amp;quot;John&amp;quot;]  Example 2:
+Input: s = &amp;quot;Hello&amp;quot; Output: 1  Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0435.Non-overlapping-Intervals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0435.Non-overlapping-Intervals/</guid>
+      <description>435. Non-overlapping Intervals #  题目 #  Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+Note:
+ You may assume the interval&amp;rsquo;s end point is always bigger than its start point. Intervals like [1,2] and [2,3] have borders &amp;ldquo;touching&amp;rdquo; but they don&amp;rsquo;t overlap each other.  Example 1:
+Input: [ [1,2], [2,3], [3,4], [1,3] ] Output: 1 Explanation: [1,3] can be removed and the rest of intervals are non-overlapping.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0436.Find-Right-Interval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0436.Find-Right-Interval/</guid>
+      <description>436. Find Right Interval #  题目 #  Given a set of intervals, for each of the interval i, check if there exists an interval j whose start point is bigger than or equal to the end point of the interval i, which can be called that j is on the &amp;ldquo;right&amp;rdquo; of i.
+For any interval i, you need to store the minimum interval j&amp;rsquo;s index, which means that the interval j has the minimum start point to build the &amp;ldquo;right&amp;rdquo; relationship for interval i.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0437.Path-Sum-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0437.Path-Sum-III/</guid>
+      <description>437. Path Sum III #  题目 #  Given the root of a binary tree and an integer targetSum, return the number of paths where the sum of the values along the path equals targetSum.
+The path does not need to start or end at the root or a leaf, but it must go downwards (i.e., traveling only from parent nodes to child nodes).
+Example 1:
+ Input: root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8 Output: 3 Explanation: The paths that sum to 8 are shown.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0438.Find-All-Anagrams-in-a-String/</guid>
+      <description>438. Find All Anagrams in a String #  题目 #  Given a string s and a non-empty string p, find all the start indices of p&amp;rsquo;s anagrams in s.
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.
+The order of output does not matter.
+Example 1:
+ Input: s: &amp;quot;cbaebabacd&amp;quot; p: &amp;quot;abc&amp;quot; Output: [0, 6] Explanation: The substring with start index = 0 is &amp;quot;cba&amp;quot;, which is an anagram of &amp;quot;abc&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0441.Arranging-Coins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0441.Arranging-Coins/</guid>
+      <description>441. Arranging Coins #  题目 #  You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.
+Given n, find the total number of full staircase rows that can be formed.
+n is a non-negative integer and fits within the range of a 32-bit signed integer.
+Example 1:
+n = 5 The coins can form the following rows: ¤ ¤ ¤ ¤ ¤ Because the 3rd row is incomplete, we return 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0445.Add-Two-Numbers-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0445.Add-Two-Numbers-II/</guid>
+      <description>445. Add Two Numbers II #  题目 #  You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Follow up: What if you cannot modify the input lists?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0447.Number-of-Boomerangs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0447.Number-of-Boomerangs/</guid>
+      <description>447. Number of Boomerangs #  题目 #  Given n points in the plane that are all pairwise distinct, a &amp;ldquo;boomerang&amp;rdquo; is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the tuple matters).
+Find the number of boomerangs. You may assume that n will be at most 500 and coordinates of points are all in the range [-10000, 10000] (inclusive).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0448.Find-All-Numbers-Disappeared-in-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0448.Find-All-Numbers-Disappeared-in-an-Array/</guid>
+      <description>448. Find All Numbers Disappeared in an Array #  题目 #  Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+Find all the elements of [1, n] inclusive that do not appear in this array.
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0451.Sort-Characters-By-Frequency/</guid>
+      <description>451. Sort Characters By Frequency #  题目 #  Given a string, sort it in decreasing order based on the frequency of characters.
+Example 1:
+ Input: &amp;quot;tree&amp;quot; Output: &amp;quot;eert&amp;quot; Explanation: &#39;e&#39; appears twice while &#39;r&#39; and &#39;t&#39; both appear once. So &#39;e&#39; must appear before both &#39;r&#39; and &#39;t&#39;. Therefore &amp;quot;eetr&amp;quot; is also a valid answer. Example 2:
+ Input: &amp;quot;cccaaa&amp;quot; Output: &amp;quot;cccaaa&amp;quot; Explanation: Both &#39;c&#39; and &#39;a&#39; appear three times, so &amp;quot;aaaccc&amp;quot; is also a valid answer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0453.Minimum-Moves-to-Equal-Array-Elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0453.Minimum-Moves-to-Equal-Array-Elements/</guid>
+      <description>453. Minimum Moves to Equal Array Elements #  题目 #  Given a non-empty integer array of size n, find the minimum number of moves required to make all array elements equal, where a move is incrementing n - 1 elements by 1.
+Example:
+Input: [1,2,3] Output: 3 Explanation: Only three moves are needed (remember each move increments two elements): [1,2,3] =&amp;gt; [2,3,3] =&amp;gt; [3,4,3] =&amp;gt; [4,4,4] 题目大意 #  给定一个长度为 n 的非空整数数组，找到让数组所有元素相等的最小移动次数。每次移动将会使 n - 1 个元素增加 1。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0454.4Sum-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0454.4Sum-II/</guid>
+      <description>454. 4Sum II #  题目 #  Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.
+To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N ≤ 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0455.Assign-Cookies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0455.Assign-Cookies/</guid>
+      <description>455. Assign Cookies #  题目 #  Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child i has a greed factor gi, which is the minimum size of a cookie that the child will be content with; and each cookie j has a size sj. If sj &amp;gt;= gi, we can assign the cookie j to the child i, and the child i will be content.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0456.132-Pattern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0456.132-Pattern/</guid>
+      <description>456. 132 Pattern #  题目 #  Given a sequence of n integers a1, a2, &amp;hellip;, an, a 132 pattern is a subsequence ai, aj, ak such that i &amp;lt; j &amp;lt; k and ai &amp;lt; ak &amp;lt; aj. Design an algorithm that takes a list of n numbers as input and checks whether there is a 132 pattern in the list.
+Note: n will be less than 15,000.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0457.Circular-Array-Loop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0457.Circular-Array-Loop/</guid>
+      <description>457. Circular Array Loop #  题目 #  You are given a circular array nums of positive and negative integers. If a number k at an index is positive, then move forward k steps. Conversely, if it&amp;rsquo;s negative (-k), move backward k steps. Since the array is circular, you may assume that the last element&amp;rsquo;s next element is the first element, and the first element&amp;rsquo;s previous element is the last element.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0458.Poor-Pigs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0458.Poor-Pigs/</guid>
+      <description>458. Poor Pigs #  题目 #  There are buckets buckets of liquid, where exactly one of the buckets is poisonous. To figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. Unfortunately, you only have minutesToTest minutes to determine which bucket is poisonous.
+You can feed the pigs according to these steps:
+ Choose some live pigs to feed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0460.LFU-Cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0460.LFU-Cache/</guid>
+      <description>460. LFU Cache #  题目 #  Design and implement a data structure for Least Frequently Used (LFU) cache.
+Implement the LFUCache class:
+ LFUCache(int capacity) Initializes the object with the capacity of the data structure. int get(int key) Gets the value of the key if the key exists in the cache. Otherwise, returns 1. void put(int key, int value) Sets or inserts the value if the key is not already present.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0461.Hamming-Distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0461.Hamming-Distance/</guid>
+      <description>461. Hamming Distance #  题目 #  The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+Given two integers x and y, calculate the Hamming distance.
+Note: 0 ≤ x, y &amp;lt; 231.
+Example:
+Input: x = 1, y = 4 Output: 2 Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑ The above arrows point to positions where the corresponding bits are different.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0462.Minimum-Moves-to-Equal-Array-Elements-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0462.Minimum-Moves-to-Equal-Array-Elements-II/</guid>
+      <description>462. Minimum Moves to Equal Array Elements II #  题目 #  Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
+In one move, you can increment or decrement an element of the array by 1.
+Example 1:
+Input: nums = [1,2,3] Output: 2 Explanation: Only two moves are needed (remember each move increments or decrements one element): [1,2,3] =&amp;gt; [2,2,3] =&amp;gt; [2,2,2] Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0463.Island-Perimeter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0463.Island-Perimeter/</guid>
+      <description>463. Island Perimeter #  题目 #  You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+The island doesn&amp;rsquo;t have &amp;ldquo;lakes&amp;rdquo; (water inside that isn&amp;rsquo;t connected to the water around the island).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0470.Implement-Rand10-Using-Rand7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0470.Implement-Rand10-Using-Rand7/</guid>
+      <description>470. Implement Rand10() Using Rand7() #  题目 #  Given a function rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10.
+Do NOT use system&amp;rsquo;s Math.random().
+Example 1:
+Input: 1 Output: [7]  Example 2:
+Input: 2 Output: [8,4]  Example 3:
+Input: 3 Output: [8,1,10]  Note:
+ rand7 is predefined.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0473.Matchsticks-to-Square/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0473.Matchsticks-to-Square/</guid>
+      <description>473. Matchsticks to Square #  题目 #  You are given an integer array matchsticks where matchsticks[i] is the length of the ith matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time.
+Return true if you can make this square and false otherwise.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0474.Ones-and-Zeroes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0474.Ones-and-Zeroes/</guid>
+      <description>474. Ones and Zeroes #  题目 #  In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.
+For now, suppose you are a dominator of m 0s and n 1s respectively. On the other hand, there is an array with strings consisting of only 0s and 1s.
+Now your task is to find the maximum number of strings that you can form with given m0s and n 1s.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0475.Heaters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0475.Heaters/</guid>
+      <description>475. Heaters #  题目 #  Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.
+Now, you are given positions of houses and heaters on a horizontal line, find out minimum radius of heaters so that all houses could be covered by those heaters.
+So, your input will be the positions of houses and heaters seperately, and your expected output will be the minimum radius standard of heaters.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0476.Number-Complement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0476.Number-Complement/</guid>
+      <description>476. Number Complement #  题目 #  Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
+Note:
+ The given integer is guaranteed to fit within the range of a 32-bit signed integer. You could assume no leading zero bit in the integer’s binary representation.  Example 1:
+Input: 5 Output: 2 Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0477.Total-Hamming-Distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0477.Total-Hamming-Distance/</guid>
+      <description>477. Total Hamming Distance #  题目 #  The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+Now your job is to find the total Hamming distance between all pairs of the given numbers.
+Example:
+Input: 4, 14, 2 Output: 6 Explanation: In binary representation, the 4 is 0100, 14 is 1110, and 2 is 0010 (just showing the four bits relevant in this case).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0478.Generate-Random-Point-in-a-Circle/</guid>
+      <description>478. Generate Random Point in a Circle #  题目 #  Given the radius and x-y positions of the center of a circle, write a function randPoint which generates a uniform random point in the circle.
+Note:
+ input and output values are in floating-point. radius and x-y position of the center of the circle is passed into the class constructor. a point on the circumference of the circle is considered to be in the circle.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0480.Sliding-Window-Median/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0480.Sliding-Window-Median/</guid>
+      <description>480. Sliding Window Median #  题目 #  Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.
+Examples:
+[2,3,4] , the median is 3
+[2,3], the median is (2 + 3) / 2 = 2.5
+Given an array nums, there is a sliding window of size k which is moving from the very left of the array to the very right.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0483.Smallest-Good-Base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0483.Smallest-Good-Base/</guid>
+      <description>483. Smallest Good Base #  题目 #  For an integer n, we call k&amp;gt;=2 a good base of n, if all digits of n base k are 1.
+Now given a string representing n, you should return the smallest good base of n in string format.
+Example 1:
+Input: &amp;quot;13&amp;quot; Output: &amp;quot;3&amp;quot; Explanation: 13 base 3 is 111.  Example 2:
+Input: &amp;quot;4681&amp;quot; Output: &amp;quot;8&amp;quot; Explanation: 4681 base 8 is 11111.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0485.Max-Consecutive-Ones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0485.Max-Consecutive-Ones/</guid>
+      <description>485. Max Consecutive Ones #  题目 #  Given a binary array, find the maximum number of consecutive 1s in this array.
+Example 1:
+Input: [1,1,0,1,1,1] Output: 3 Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3. Note:
+ The input array will only contain 0 and 1. The length of input array is a positive integer and will not exceed 10,000  题目大意 #  给定一个二进制数组， 计算其中最大连续1的个数。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0488.Zuma-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0488.Zuma-Game/</guid>
+      <description>488. Zuma Game #  题目 #  You are playing a variation of the game Zuma.
+In this variation of Zuma, there is a single row of colored balls on a board, where each ball can be colored red &amp;lsquo;R&amp;rsquo;, yellow &amp;lsquo;Y&amp;rsquo;, blue &amp;lsquo;B&amp;rsquo;, green &amp;lsquo;G&amp;rsquo;, or white &amp;lsquo;W&amp;rsquo;. You also have several colored balls in your hand.
+Your goal is to clear all of the balls from the board.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0491.Non-decreasing-Subsequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0491.Non-decreasing-Subsequences/</guid>
+      <description>491. Non-decreasing Subsequences #  题目 #  Given an integer array, your task is to find all the different possible increasing subsequences of the given array, and the length of an increasing subsequence should be at least 2.
+Example:
+Input: [4, 6, 7, 7] Output: [[4, 6], [4, 7], [4, 6, 7], [4, 6, 7, 7], [6, 7], [6, 7, 7], [7,7], [4,7,7]]  Note:
+ The length of the given array will not exceed 15.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0492.Construct-the-Rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0492.Construct-the-Rectangle/</guid>
+      <description>492. Construct the Rectangle #  题目 #  A web developer needs to know how to design a web page&amp;rsquo;s size. So, given a specific rectangular web page’s area, your job by now is to design a rectangular web page, whose length L and width W satisfy the following requirements:
+The area of the rectangular web page you designed must equal to the given target area. The width W should not be larger than the length L, which means L &amp;gt;= W.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0493.Reverse-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0493.Reverse-Pairs/</guid>
+      <description>493. Reverse Pairs #  题目 #  Given an array nums, we call (i, j) an important reverse pair if i &amp;lt; j and nums[i] &amp;gt; 2*nums[j].
+You need to return the number of important reverse pairs in the given array.
+Example1:
+Input: [1,3,2,3,1] Output: 2  Example2:
+Input: [2,4,3,5,1] Output: 3  Note:
+ The length of the given array will not exceed 50,000. All the numbers in the input array are in the range of 32-bit integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0494.Target-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0494.Target-Sum/</guid>
+      <description>494. Target Sum #  题目 #  You are given a list of non-negative integers, a1, a2, &amp;hellip;, an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
+Find out how many ways to assign symbols to make sum of integers equal to target S.
+Example 1:
+Input: nums is [1, 1, 1, 1, 1], S is 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0495.Teemo-Attacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0495.Teemo-Attacking/</guid>
+      <description>495. Teemo Attacking #  题目 #  Our hero Teemo is attacking an enemy Ashe with poison attacks! When Teemo attacks Ashe, Ashe gets poisoned for a exactly duration seconds.
+More formally, an attack at second t will mean Ashe is poisoned during the inclusive time interval [t, t + duration - 1].
+If Teemo attacks again before the poison effect ends, the timer for it is reset, and the poison effect will end duration seconds after the new attack.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0496.Next-Greater-Element-I/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0496.Next-Greater-Element-I/</guid>
+      <description>496. Next Greater Element I #  题目 #  You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. Find all the next greater numbers for nums1&amp;rsquo;s elements in the corresponding places of nums2.
+The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0497.Random-Point-in-Non-overlapping-Rectangles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0497.Random-Point-in-Non-overlapping-Rectangles/</guid>
+      <description>497. Random Point in Non-overlapping Rectangles #  题目 #  Given a list of non-overlapping axis-aligned rectangles rects, write a function pick which randomly and uniformily picks an integer point in the space covered by the rectangles.
+Note:
+ An integer point is a point that has integer coordinates. A point on the perimeter of a rectangle is included in the space covered by the rectangles. ith rectangle = rects[i] = [x1,y1,x2,y2], where [x1, y1] are the integer coordinates of the bottom-left corner, and [x2, y2] are the integer coordinates of the top-right corner.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0498.Diagonal-Traverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0400~0499/0498.Diagonal-Traverse/</guid>
+      <description>498. Diagonal Traverse #  题目 #  Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
+Example:
+Input: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ] Output: [1,2,4,7,5,3,6,8,9] Explanation:   Note:
+The total number of elements of the given matrix will not exceed 10,000.</description>
+    </item>
+    
+  </channel>
+</rss>

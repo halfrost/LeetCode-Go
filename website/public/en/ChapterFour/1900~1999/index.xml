@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/1900~1999/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/1900~1999/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1900~1999/1984.Minimum-Difference-Between-Highest-and-Lowest-of-K-Scores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1900~1999/1984.Minimum-Difference-Between-Highest-and-Lowest-of-K-Scores/</guid>
+      <description>1984. Minimum Difference Between Highest and Lowest of K Scores #  Problem #  You are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. You are also given an integer k.
+Pick the scores of any k students from the array so that the difference between the highest and the lowest of the k scores is minimized.
+Return the minimum possible difference.</description>
+    </item>
+    
+  </channel>
+</rss>

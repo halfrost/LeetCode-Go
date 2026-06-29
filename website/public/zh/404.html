@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  
+  
+  document.documentElement.classList.add('no-anim');
+  window.addEventListener('load', function () {
+    requestAnimationFrame(function () { document.documentElement.classList.remove('no-anim'); });
+  });
+</script>
+
+<script>
+  
+  
+  (function () {
+    try {
+      var cur = "zh", otherLang = "en", otherURL = "https:\/\/books.halfrost.com\/leetcode\/en\/";
+      var pref = localStorage.getItem('preferredLang');
+      if (pref && pref === otherLang && otherURL) { location.replace(otherURL); }
+    } catch (e) {}
+  })();
+</script>
+
+<meta name="description" content="">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="404 Page not found" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://books.halfrost.com/leetcode/zh/404.html" />
+
+<title>404 Page not found | LeetCode Cookbook</title>
+<link rel="manifest" href="/leetcode/manifest.json">
+<link rel="icon" href="/leetcode/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/leetcode/book.min.f8a130404c630c0548ad12d48a6b211d58536bddb42de301908d62338ec5bc78.css" integrity="sha256-&#43;KEwQExjDAVIrRLUimshHVhTa920LeMBkI1iM47FvHg=">
+<script defer src="/leetcode/zh.search.min.057a4941d4e7b2be973e5deb120ed9fe048908cea71f272abe7c617f21c06caa.js" integrity="sha256-BXpJQdTnsr6XPl3rEg7Z/gSJCM6nHycqvnxhfyHAbKo="></script>
+
+
+<script async>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.3b670f07e91c506468df879f46040abc66c3be76ba5dbb98ae3a4b3bf63913c0.js").then(function() {
+          if (navigator.serviceWorker.controller) {
+            console.log('Assets cached by the controlling service worker.');
+          } else {
+            console.log('Please reload this page to allow the service worker to handle network operations.');
+          }
+      }).catch(function(error) {
+          console.log('ERROR: ' + error);
+        });
+  } else {
+      console.log('Service workers are not supported in the current browser.');
+  }
+</script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-82753806-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+    <link rel="stylesheet" href="/leetcode/prism.css"/>
+<link href="/leetcode/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" />
+<link href="/leetcode/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="/leetcode/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="/leetcode/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="/leetcode/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/leetcode/apple-touch-icon-512x512.png" rel="apple-touch-icon" sizes="512x512" />
+<link href="/leetcode/apple-touch-icon-1024x1024.png" rel="apple-touch-icon" sizes="1024x1024" />
+
+<script>
+    var html = document.documentElement;
+    var stored = localStorage.getItem('themeMode');
+    
+    function applyAutoTheme() {
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        html.setAttribute("data-theme", "dark");
+      } else {
+        html.setAttribute("data-theme", "light");
+      }
+    }
+    if (stored === 'dark') {
+      html.setAttribute("data-theme", "dark");        
+    } else if (stored === 'light') {
+      html.setAttribute("data-theme", "light");       
+    } else {
+      applyAutoTheme();                                
+    }
+    
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var onSchemeChange = function () {
+        if (!localStorage.getItem('themeMode')) {
+          applyAutoTheme();
+        }
+      };
+      if (mq.addEventListener) { mq.addEventListener('change', onSchemeChange); }
+      else if (mq.addListener) { mq.addListener(onSchemeChange); }
+    }
+  </script>
+
+<style>
+   
+  .book-toc .book-toc-content,
+  aside.book-menu .book-menu-content {
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 4.5rem;
+  }
+   
+  .book-toc .book-toc-content {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .book-toc .book-toc-content nav,
+  .book-toc .book-toc-content nav ul,
+  .book-toc .book-toc-content nav li,
+  .book-toc .book-toc-content nav a {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+   
+  .markdown .table-scroll {
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  .markdown .table-scroll > table {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+   
+  html.no-anim .book-menu-content,
+  html.no-anim .book-toc-content,
+  html.no-anim .book-page,
+  html.no-anim .markdown {
+    transition: none !important;
+  }
+</style>
+
+    <style>
+      .not-found {
+        text-align: center;
+      }
+      .not-found h1 {
+        margin: .25em 0 0 0;
+        opacity: .25;
+        font-size: 40vmin;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="flex justify-center not-found">
+      <div>
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <h3>
+          <a href="/leetcode/zh/">LeetCode Cookbook</a>
+        </h3>
+      </div>
+    </main>
+
+    <a class="lang-switch-top" href="https://books.halfrost.com/leetcode/en/" data-lang="en" title="切换语言" aria-label="Switch language">
+  <img src="/leetcode/svg/translate.svg" alt="" style="height:1em;width:1em;vertical-align:-0.12em;margin-right:.35em;" />English
+</a>
+<script>
+  
+  
+  (function () {
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('[data-lang]');
+      if (a && a.getAttribute('data-lang')) {
+        try { localStorage.setItem('preferredLang', a.getAttribute('data-lang')); } catch (err) {}
+      }
+    }, true);
+  })();
+</script>
+<style>
+.lang-switch-top{position:fixed;bottom:22px;right:22px;z-index:101;display:inline-flex;align-items:center;
+  padding:.4em 1em;border:1px solid var(--gray-300, #d0d7de);border-radius:999px;
+  background:var(--body-background, #fff);color:var(--body-font-color, #24292f);
+  font-size:.85rem;line-height:1;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.18);transition:border-color .15s ease, box-shadow .15s ease;}
+.lang-switch-top:hover{border-color:#64CEAA;box-shadow:0 3px 12px rgba(0,0,0,.24);}
+@media (max-width:768px){.lang-switch-top{bottom:14px;right:14px;padding:.34em .8em;font-size:.8rem;}}
+</style>
+
+<script>
+  
+  
+  (function () {
+    function wrapTables() {
+      var tables = document.querySelectorAll('.markdown table');
+      for (var i = 0; i < tables.length; i++) {
+        var t = tables[i];
+        if (t.closest('.table-scroll') || (t.parentElement && t.parentElement.classList.contains('highlight'))) continue;
+        var w = document.createElement('div');
+        w.className = 'table-scroll';
+        t.parentNode.insertBefore(w, t);
+        w.appendChild(t);
+      }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', wrapTables);
+    } else {
+      wrapTables();
+    }
+  })();
+</script>
+<script src="/leetcode/prism.js"></script>
+
+<script async="async">
+    var html = document.documentElement;
+    var switcher = document.getElementsByClassName('js-toggle')[0];
+    if(typeof(Storage) !== 'undefined') {
+        if (localStorage.getItem('themeMode') == 'dark' || document.documentElement.getAttribute('data-theme') == 'dark') {
+            switcher.classList.add('js-toggle--checked');
+        }
+        switcher.classList.add('js-toggle--focus');
+    }
+    
+    switcher.addEventListener("click", function() {
+            this.classList.toggle('js-toggle--checked');
+            this.classList.add('js-toggle--focus');
+            
+            if (this.classList.contains('js-toggle--checked')) {
+                html.setAttribute("data-theme","dark");
+                
+                localStorage.setItem('themeMode', 'dark');
+            } else {
+                html.setAttribute("data-theme","light");
+                localStorage.setItem('themeMode', 'light');
+            }
+        })
+</script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-82753806-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+
+  </html>

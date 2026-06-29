@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0700.Search-in-a-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0700.Search-in-a-Binary-Search-Tree/</guid>
+      <description>700. Search in a Binary Search Tree #  题目 #  You are given the root of a binary search tree (BST) and an integer val.
+Find the node in the BST that the node&amp;rsquo;s value equals val and return the subtree rooted with that node. If such a node does not exist, return null.
+Example 1:
+ Input: root = [4,2,7,1,3], val = 2 Output: [2,1,3]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0701.Insert-into-a-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0701.Insert-into-a-Binary-Search-Tree/</guid>
+      <description>701. Insert into a Binary Search Tree #  题目 #  You are given the root node of a binary search tree (BST) and a value to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
+Notice that there may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0703.Kth-Largest-Element-in-a-Stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0703.Kth-Largest-Element-in-a-Stream/</guid>
+      <description>703. Kth Largest Element in a Stream #  题目 #  Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.
+Implement KthLargest class:
+ KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums. int add(int val) Returns the element representing the kth largest element in the stream.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0704.Binary-Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0704.Binary-Search/</guid>
+      <description>704. Binary Search #  题目 #  Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.
+Example 1:
+Input: nums = [-1,0,3,5,9,12], target = 9 Output: 4 Explanation: 9 exists in nums and its index is 4  Example 2:
+Input: nums = [-1,0,3,5,9,12], target = 2 Output: -1 Explanation: 2 does not exist in nums so return -1  Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0705.Design-HashSet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0705.Design-HashSet/</guid>
+      <description>705. Design HashSet #  题目 #  Design a HashSet without using any built-in hash table libraries.
+To be specific, your design should include these functions:
+ add(value): Insert a value into the HashSet. contains(value) : Return whether the value exists in the HashSet or not. remove(value): Remove a value in the HashSet. If the value does not exist in the HashSet, do nothing.  Example:
+MyHashSet hashSet = new MyHashSet(); hashSet.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0706.Design-HashMap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0706.Design-HashMap/</guid>
+      <description>706. Design HashMap #  题目 #  Design a HashMap without using any built-in hash table libraries.
+To be specific, your design should include these functions:
+ put(key, value) : Insert a (key, value) pair into the HashMap. If the value already exists in the HashMap, update the value. get(key): Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0707.Design-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0707.Design-Linked-List/</guid>
+      <description>707. Design Linked List #  题目 #  Design your implementation of the linked list. You can choose to use the singly linked list or the doubly linked list. A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node. If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0709.To-Lower-Case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0709.To-Lower-Case/</guid>
+      <description>709. To Lower Case #  题目 #  Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+Example 1:
+Input: s = &amp;quot;Hello&amp;quot; Output: &amp;quot;hello&amp;quot; Example 2:
+Input: s = &amp;quot;here&amp;quot; Output: &amp;quot;here&amp;quot; Example 3:
+Input: s = &amp;quot;LOVELY&amp;quot; Output: &amp;quot;lovely&amp;quot; Constraints:
+ 1 &amp;lt;= s.length &amp;lt;= 100 s consists of printable ASCII characters.  题目大意 #  给你一个字符串 s ，将该字符串中的大写字母转换成相同的小写字母，返回新的字符串。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0710.Random-Pick-with-Blacklist/</guid>
+      <description>710. Random Pick with Blacklist #  题目 #  Given a blacklist B containing unique integers from [0, N), write a function to return a uniform random integer from [0, N) which is NOT in B.
+Optimize it such that it minimizes the call to system’s Math.random().
+Note:
+ 1 &amp;lt;= N &amp;lt;= 1000000000 0 &amp;lt;= B.length &amp;lt; min(100000, N) [0, N) does NOT include N. See interval notation.  Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0713.Subarray-Product-Less-Than-K/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0713.Subarray-Product-Less-Than-K/</guid>
+      <description>713. Subarray Product Less Than K #  题目 #  Your are given an array of positive integers nums.
+Count and print the number of (contiguous) subarrays where the product of all the elements in the subarray is less than k.
+Example 1:
+ Input: nums = [10, 5, 2, 6], k = 100 Output: 8 Explanation: The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/</guid>
+      <description>714. Best Time to Buy and Sell Stock with Transaction Fee #  题目 #  Your are given an array of integers prices, for which the i-th element is the price of a given stock on day i; and a non-negative integer fee representing a transaction fee.
+You may complete as many transactions as you like, but you need to pay the transaction fee for each transaction. You may not buy more than 1 share of a stock at a time (ie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0715.Range-Module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0715.Range-Module/</guid>
+      <description>715. Range Module #  题目 #  A Range Module is a module that tracks ranges of numbers. Your task is to design and implement the following interfaces in an efficient manner.
+ addRange(int left, int right) Adds the half-open interval [left, right), tracking every real number in that interval. Adding an interval that partially overlaps with currently tracked numbers should add any numbers in the interval [left, right) that are not already tracked.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0717.1-bit-and-2-bit-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0717.1-bit-and-2-bit-Characters/</guid>
+      <description>717. 1-bit and 2-bit Characters #  题目: #  We have two special characters. The first character can be represented by one bit 0. The second character can be represented by two bits (10 or 11).
+Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The given string will always end with a zero.
+Example 1:
+Input: bits = [1, 0, 0] Output: True Explanation: The only way to decode it is two-bit character and one-bit character.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0718.Maximum-Length-of-Repeated-Subarray/</guid>
+      <description>718. Maximum Length of Repeated Subarray #  题目 #  Given two integer arrays A and B, return the maximum length of an subarray that appears in both arrays.
+Example 1:
+Input: A: [1,2,3,2,1] B: [3,2,1,4,7] Output: 3 Explanation: The repeated subarray with maximum length is [3, 2, 1].  Note:
+ 1 &amp;lt;= len(A), len(B) &amp;lt;= 1000 0 &amp;lt;= A[i], B[i] &amp;lt; 100  题目大意 #  给两个整数数组 A 和 B ，返回两个数组中公共的、长度最长的子数组的长度。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0719.Find-K-th-Smallest-Pair-Distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0719.Find-K-th-Smallest-Pair-Distance/</guid>
+      <description>719. Find K-th Smallest Pair Distance #  题目 #  Given an integer array, return the k-th smallest distance among all the pairs. The distance of a pair (A, B) is defined as the absolute difference between A and B.
+Example 1:
+Input: nums = [1,3,1] k = 1 Output: 0 Explanation: Here are all the pairs: (1,3) -&amp;gt; 2 (1,1) -&amp;gt; 0 (3,1) -&amp;gt; 2 Then the 1st smallest distance pair is (1,1), and its distance is 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0720.Longest-Word-in-Dictionary/</guid>
+      <description>720. Longest Word in Dictionary #  题目 #  Given a list of strings words representing an English Dictionary, find the longest word in words that can be built one character at a time by other words in words. If there is more than one possible answer, return the longest word with the smallest lexicographical order.
+If there is no answer, return the empty string.
+Example 1:
+Input: words = [&amp;quot;w&amp;quot;,&amp;quot;wo&amp;quot;,&amp;quot;wor&amp;quot;,&amp;quot;worl&amp;quot;, &amp;quot;world&amp;quot;] Output: &amp;quot;world&amp;quot; Explanation: The word &amp;quot;world&amp;quot; can be built one character at a time by &amp;quot;w&amp;quot;, &amp;quot;wo&amp;quot;, &amp;quot;wor&amp;quot;, and &amp;quot;worl&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0721.Accounts-Merge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0721.Accounts-Merge/</guid>
+      <description>721. Accounts Merge #  题目 #  Given a list accounts, each element accounts[i] is a list of strings, where the first element accounts[i][0] is a name, and the rest of the elements are emailsrepresenting emails of the account.
+Now, we would like to merge these accounts. Two accounts definitely belong to the same person if there is some email that is common to both accounts. Note that even if two accounts have the same name, they may belong to different people as people could have the same name.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0724.Find-Pivot-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0724.Find-Pivot-Index/</guid>
+      <description>724. Find Pivot Index #  题目 #  Given an array of integers nums, write a method that returns the &amp;ldquo;pivot&amp;rdquo; index of this array.
+We define the pivot index as the index where the sum of all the numbers to the left of the index is equal to the sum of all the numbers to the right of the index.
+If no such index exists, we should return -1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0725.Split-Linked-List-in-Parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0725.Split-Linked-List-in-Parts/</guid>
+      <description>725. Split Linked List in Parts #  题目 #  Given a (singly) linked list with head node root, write a function to split the linked list into k consecutive linked list &amp;ldquo;parts&amp;rdquo;.
+The length of each part should be as equal as possible: no two parts should have a size differing by more than 1. This may lead to some parts being null.
+The parts should be in order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal parts occurring later.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0726.Number-of-Atoms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0726.Number-of-Atoms/</guid>
+      <description>726. Number of Atoms #  题目 #  Given a chemical formula (given as a string), return the count of each atom.
+An atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.
+1 or more digits representing the count of that element may follow if the count is greater than 1. If the count is 1, no digits will follow. For example, H2O and H2O2 are possible, but H1O2 is impossible.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0728.Self-Dividing-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0728.Self-Dividing-Numbers/</guid>
+      <description>728. Self Dividing Numbers #  题目 #  A self-dividing number is a number that is divisible by every digit it contains.
+ For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.  A self-dividing number is not allowed to contain the digit zero.
+Given two integers left and right, return a list of all the self-dividing numbers in the range [left, right].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0729.My-Calendar-I/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0729.My-Calendar-I/</guid>
+      <description>729. My Calendar I #  题目 #  Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
+Your class will have the method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start &amp;lt;= x &amp;lt; end.
+A double booking happens when two events have some non-empty intersection (ie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0732.My-Calendar-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0732.My-Calendar-III/</guid>
+      <description>732. My Calendar III #  题目 #  Implement a MyCalendarThree class to store your events. A new event can always be added.
+Your class will have one method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start &amp;lt;= x &amp;lt; end.
+A K-booking happens when K events have some non-empty intersection (ie., there is some time that is common to all K events.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0733.Flood-Fill/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0733.Flood-Fill/</guid>
+      <description>733. Flood Fill #  题目 #  An image is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
+Given a coordinate (sr, sc) representing the starting pixel (row and column) of the flood fill, and a pixel value newColor, &amp;ldquo;flood fill&amp;rdquo; the image.
+To perform a &amp;ldquo;flood fill&amp;rdquo;, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same color as the starting pixel), and so on.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0735.Asteroid-Collision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0735.Asteroid-Collision/</guid>
+      <description>735. Asteroid Collision #  题目 #  We are given an array asteroids of integers representing asteroids in a row.
+For each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed.
+Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0739.Daily-Temperatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0739.Daily-Temperatures/</guid>
+      <description>739. Daily Temperatures #  题目 #  Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put 0 instead.
+For example, given the list of temperatures T = [73, 74, 75, 71, 69, 72, 76, 73], your output should be [1, 1, 4, 2, 1, 1, 0, 0].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0744.Find-Smallest-Letter-Greater-Than-Target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0744.Find-Smallest-Letter-Greater-Than-Target/</guid>
+      <description>744. Find Smallest Letter Greater Than Target #  题目 #  Given a list of sorted characters letters containing only lowercase letters, and given a target letter target, find the smallest element in the list that is larger than the given target.
+Letters also wrap around. For example, if the target is target = &#39;z&#39; and letters = [&#39;a&#39;, &#39;b&#39;], the answer is &#39;a&#39;.
+Examples:
+Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;a&amp;quot; Output: &amp;quot;c&amp;quot; Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;c&amp;quot; Output: &amp;quot;f&amp;quot; Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;d&amp;quot; Output: &amp;quot;f&amp;quot; Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;g&amp;quot; Output: &amp;quot;j&amp;quot; Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;j&amp;quot; Output: &amp;quot;c&amp;quot; Input: letters = [&amp;quot;c&amp;quot;, &amp;quot;f&amp;quot;, &amp;quot;j&amp;quot;] target = &amp;quot;k&amp;quot; Output: &amp;quot;c&amp;quot;  Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0745.Prefix-and-Suffix-Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0745.Prefix-and-Suffix-Search/</guid>
+      <description>745. Prefix and Suffix Search #  题目 #  Given many words, words[i] has weight i.
+Design a class WordFilter that supports one function, WordFilter.f(String prefix, String suffix). It will return the word with given prefix and suffix with maximum weight. If no word exists, return -1.
+Examples:
+Input: WordFilter([&amp;quot;apple&amp;quot;]) WordFilter.f(&amp;quot;a&amp;quot;, &amp;quot;e&amp;quot;) // returns 0 WordFilter.f(&amp;quot;b&amp;quot;, &amp;quot;&amp;quot;) // returns -1  Note:
+ words has length in range [1, 15000].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0746.Min-Cost-Climbing-Stairs/</guid>
+      <description>746. Min Cost Climbing Stairs #  题目 #  On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
+Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach the top of the floor, and you can either start from the step with index 0, or the step with index 1.
+Example 1:
+Input: cost = [10, 15, 20] Output: 15 Explanation: Cheapest is start on cost[1], pay that cost and go to the top.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0747.Largest-Number-At-Least-Twice-of-Others/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0747.Largest-Number-At-Least-Twice-of-Others/</guid>
+      <description>747. Largest Number At Least Twice of Others #  题目 #  You are given an integer array nums where the largest integer is unique.
+Determine whether the largest element in the array is at least twice as much as every other number in the array. If it is, return the index of the largest element, or return -1 otherwise.
+Example 1:
+Input: nums = [3,6,1,0] Output: 1 Explanation: 6 is the largest integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0748.Shortest-Completing-Word/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0748.Shortest-Completing-Word/</guid>
+      <description>748. Shortest Completing Word #  题目 #  Find the minimum length word from a given dictionary words, which has all the letters from the string licensePlate. Such a word is said to complete the given string licensePlate
+Here, for letters we ignore case. For example, &amp;quot;P&amp;quot; on the licensePlate still matches &amp;quot;p&amp;quot; on the word.
+It is guaranteed an answer exists. If there are multiple answers, return the one that occurs first in the array.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0752.Open-the-Lock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0752.Open-the-Lock/</guid>
+      <description>752. Open the Lock #  题目 #  You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: &#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;. The wheels can rotate freely and wrap around: for example we can turn &#39;9&#39; to be &#39;0&#39;, or &#39;0&#39; to be &#39;9&#39;. Each move consists of turning one wheel one slot.
+The lock initially starts at &#39;0000&#39;, a string representing the state of the 4 wheels.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0753.Cracking-the-Safe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0753.Cracking-the-Safe/</guid>
+      <description>753. Cracking the Safe #  题目 #  There is a box protected by a password. The password is a sequence of n digits where each digit can be one of the first k digits 0, 1, ..., k-1.
+While entering a password, the last n digits entered will automatically be matched against the correct password.
+For example, assuming the correct password is &amp;quot;345&amp;quot;, if you type &amp;quot;012345&amp;quot;, the box will open because the correct password matches the suffix of the entered password.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0756.Pyramid-Transition-Matrix/</guid>
+      <description>756. Pyramid Transition Matrix #  题目 #  We are stacking blocks to form a pyramid. Each block has a color which is a one letter string.
+We are allowed to place any color block C on top of two adjacent blocks of colors A and B, if and only if ABC is an allowed triple.
+We start with a bottom row of bottom, represented as a single string. We also start with a list of allowed triples allowed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0762.Prime-Number-of-Set-Bits-in-Binary-Representation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0762.Prime-Number-of-Set-Bits-in-Binary-Representation/</guid>
+      <description>762. Prime Number of Set Bits in Binary Representation #  题目 #  Given two integers L and R, find the count of numbers in the range [L, R] (inclusive) having a prime number of set bits in their binary representation.
+(Recall that the number of set bits an integer has is the number of 1s present when written in binary. For example, 21 written in binary is 10101 which has 3 set bits.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0763.Partition-Labels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0763.Partition-Labels/</guid>
+      <description>763. Partition Labels #  题目 #  A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
+Example 1:
+ Input: S = &amp;quot;ababcbacadefegdehijhklij&amp;quot; Output: [9,7,8] Explanation: The partition is &amp;quot;ababcbaca&amp;quot;, &amp;quot;defegde&amp;quot;, &amp;quot;hijhklij&amp;quot;. This is a partition so that each letter appears in at most one part.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0765.Couples-Holding-Hands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0765.Couples-Holding-Hands/</guid>
+      <description>765. Couples Holding Hands #  题目 #  N couples sit in 2N seats arranged in a row and want to hold hands. We want to know the minimum number of swaps so that every couple is sitting side by side. A swap consists of choosing any two people, then they stand up and switch seats.
+The people and seats are represented by an integer from 0 to 2N-1, the couples are numbered in order, the first couple being (0, 1), the second couple being (2, 3), and so on with the last couple being (2N-2, 2N-1).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0766.Toeplitz-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0766.Toeplitz-Matrix/</guid>
+      <description>766. Toeplitz Matrix #  题目 #  A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
+Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
+Example 1:
+Input: matrix = [ [1,2,3,4], [5,1,2,3], [9,5,1,2] ] Output: True Explanation: In the above grid, the diagonals are: &amp;quot;[9]&amp;quot;, &amp;quot;[5, 5]&amp;quot;, &amp;quot;[1, 1, 1]&amp;quot;, &amp;quot;[2, 2, 2]&amp;quot;, &amp;quot;[3, 3]&amp;quot;, &amp;quot;[4]&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0767.Reorganize-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0767.Reorganize-String/</guid>
+      <description>767. Reorganize String #  题目 #  Given a string S, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.
+If possible, output any possible result. If not possible, return the empty string.
+Example 1:
+ Input: S = &amp;quot;aab&amp;quot; Output: &amp;quot;aba&amp;quot; Example 2:
+ Input: S = &amp;quot;aaab&amp;quot; Output: &amp;quot;&amp;quot; Note:
+S will consist of lowercase letters and have length in range [1, 500].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0771.Jewels-and-Stones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0771.Jewels-and-Stones/</guid>
+      <description>771. Jewels and Stones #  题目 #  You&amp;rsquo;re given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels.
+The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &amp;quot;a&amp;quot; is considered a different type of stone from &amp;quot;A&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0775.Global-and-Local-Inversions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0775.Global-and-Local-Inversions/</guid>
+      <description>775. Global and Local Inversions #  题目 #  We have some permutation A of [0, 1, ..., N - 1], where N is the length of A.
+The number of (global) inversions is the number of i &amp;lt; j with 0 &amp;lt;= i &amp;lt; j &amp;lt; N and A[i] &amp;gt; A[j].
+The number of local inversions is the number of i with 0 &amp;lt;= i &amp;lt; N and A[i] &amp;gt; A[i+1].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0778.Swim-in-Rising-Water/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0778.Swim-in-Rising-Water/</guid>
+      <description>778. Swim in Rising Water #  题目 #  On an N x N grid, each square grid[i][j] represents the elevation at that point (i,j).
+Now rain starts to fall. At time t, the depth of the water everywhere is t. You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are at most t. You can swim infinite distance in zero time.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0781.Rabbits-in-Forest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0781.Rabbits-in-Forest/</guid>
+      <description>781. Rabbits in Forest #  题目 #  In a forest, each rabbit has some color. Some subset of rabbits (possibly all of them) tell you how many other rabbits have the same color as them. Those answers are placed in an array.
+Return the minimum number of rabbits that could be in the forest.
+Examples:
+Input: answers = [1, 1, 2] Output: 5 Explanation: The two rabbits that answered &amp;quot;1&amp;quot; could both be the same color, say red.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0783.Minimum-Distance-Between-BST-Nodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0783.Minimum-Distance-Between-BST-Nodes/</guid>
+      <description>783. Minimum Distance Between BST Nodes #  题目 #  Given the root of a Binary Search Tree (BST), return the minimum difference between the values of any two different nodes in the tree.
+Note: This question is the same as 530: https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+Example 1:
+ Input: root = [4,2,6,1,3] Output: 1 Example 2:
+ Input: root = [1,0,48,null,null,12,49] Output: 1 Constraints:
+ The number of nodes in the tree is in the range [2, 100].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0784.Letter-Case-Permutation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0784.Letter-Case-Permutation/</guid>
+      <description>784. Letter Case Permutation #  题目 #  Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string. Return a list of all possible strings we could create.
+Examples:
+Input: S = &amp;quot;a1b2&amp;quot; Output: [&amp;quot;a1b2&amp;quot;, &amp;quot;a1B2&amp;quot;, &amp;quot;A1b2&amp;quot;, &amp;quot;A1B2&amp;quot;] Input: S = &amp;quot;3z4&amp;quot; Output: [&amp;quot;3z4&amp;quot;, &amp;quot;3Z4&amp;quot;] Input: S = &amp;quot;12345&amp;quot; Output: [&amp;quot;12345&amp;quot;]  Note:
+ S will be a string with length between 1 and 12.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0785.Is-Graph-Bipartite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0785.Is-Graph-Bipartite/</guid>
+      <description>785. Is Graph Bipartite? #  题目 #  Given an undirected graph, return true if and only if it is bipartite.
+Recall that a graph is bipartite if we can split it&amp;rsquo;s set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B.
+The graph is given in the following form: graph[i] is a list of indexes j for which the edge between nodes i and j exists.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0786.K-th-Smallest-Prime-Fraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0786.K-th-Smallest-Prime-Fraction/</guid>
+      <description>786. K-th Smallest Prime Fraction #  题目 #  A sorted list A contains 1, plus some number of primes. Then, for every p &amp;lt; q in the list, we consider the fraction p/q.
+What is the K-th smallest fraction considered? Return your answer as an array of ints, where answer[0] = p and answer[1] = q.
+Examples:
+Input: A = [1, 2, 3, 5], K = 3 Output: [2, 5] Explanation: The fractions to be considered in sorted order are: 1/5, 1/3, 2/5, 1/2, 3/5, 2/3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0791.Custom-Sort-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0791.Custom-Sort-String/</guid>
+      <description>791. Custom Sort String #  题目 #  order and str are strings composed of lowercase letters. In order, no letter occurs more than once.
+order was sorted in some custom order previously. We want to permute the characters of str so that they match the order that order was sorted. More specifically, if x occurs before y in order, then x should occur before y in the returned string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0792.Number-of-Matching-Subsequences/</guid>
+      <description>792. Number of Matching Subsequences #  题目 #  Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+ For example, &amp;quot;ace&amp;quot; is a subsequence of &amp;quot;abcde&amp;quot;.  Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0793.Preimage-Size-of-Factorial-Zeroes-Function/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0793.Preimage-Size-of-Factorial-Zeroes-Function/</guid>
+      <description>793. Preimage Size of Factorial Zeroes Function #  题目 #  Let f(x) be the number of zeroes at the end of x!. (Recall that x! = 1 * 2 * 3 * ... * x, and by convention, 0! = 1.)
+For example, f(3) = 0 because 3! = 6 has no zeroes at the end, while f(11) = 2 because 11! = 39916800 has 2 zeroes at the end.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0794.Valid-Tic-Tac-Toe-State/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0794.Valid-Tic-Tac-Toe-State/</guid>
+      <description>794. Valid Tic-Tac-Toe State #  题目 #  Given a Tic-Tac-Toe board as a string array board, return true if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.
+The board is a 3 x 3 array that consists of characters &#39; &amp;lsquo;, &amp;lsquo;X&amp;rsquo;, and &amp;lsquo;O&amp;rsquo;. The &#39; &#39; character represents an empty square.
+Here are the rules of Tic-Tac-Toe:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0795.Number-of-Subarrays-with-Bounded-Maximum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0700~0799/0795.Number-of-Subarrays-with-Bounded-Maximum/</guid>
+      <description>795. Number of Subarrays with Bounded Maximum #  题目 #  We are given an array nums of positive integers, and two positive integers left and right (left &amp;lt;= right).
+Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least left and at most right.
+Example:Input: nums = [2, 1, 4, 3] left = 2 right = 3 Output: 3 Explanation: There are three subarrays that meet the requirements: [2], [2, 1], [3].</description>
+    </item>
+    
+  </channel>
+</rss>

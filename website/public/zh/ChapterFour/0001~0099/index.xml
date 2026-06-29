@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0001.Two-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0001.Two-Sum/</guid>
+      <description>1. Two Sum #  题目 #  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:
+ Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1] 题目大意 #  在数组中找到 2 个数之和等于给定值的数字，结果返回 2 个数字在数组中的下标。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0002.Add-Two-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0002.Add-Two-Numbers/</guid>
+      <description>2. Add Two Numbers #  题目 #  You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Example:
+ Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) Output: 7 -&amp;gt; 0 -&amp;gt; 8 Explanation: 342 + 465 = 807.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0003.Longest-Substring-Without-Repeating-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0003.Longest-Substring-Without-Repeating-Characters/</guid>
+      <description>3. Longest Substring Without Repeating Characters #  题目 #  Given a string, find the length of the longest substring without repeating characters.
+Example 1:
+ Input: &amp;quot;abcabcbb&amp;quot; Output: 3 Explanation: The answer is &amp;quot;abc&amp;quot;, with the length of 3. Example 2:
+ Input: &amp;quot;bbbbb&amp;quot; Output: 1 Explanation: The answer is &amp;quot;b&amp;quot;, with the length of 1. Example 3:
+ Input: &amp;quot;pwwkew&amp;quot; Output: 3 Explanation: The answer is &amp;quot;wke&amp;quot;, with the length of 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0004.Median-of-Two-Sorted-Arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0004.Median-of-Two-Sorted-Arrays/</guid>
+      <description>4. Median of Two Sorted Arrays #  题目 #  There are two sorted arrays nums1 and nums2 of size m and n respectively.
+Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+You may assume nums1 and nums2 cannot be both empty.
+Example 1:
+nums1 = [1, 3] nums2 = [2] The median is 2.0  Example 2:
+nums1 = [1, 2] nums2 = [3, 4] The median is (2 + 3)/2 = 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0005.Longest-Palindromic-Substring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0005.Longest-Palindromic-Substring/</guid>
+      <description>5. Longest Palindromic Substring #  题目 #  Given a string s, return the longest palindromic substring in s.
+Example 1:
+Input: s = &amp;quot;babad&amp;quot; Output: &amp;quot;bab&amp;quot; Note: &amp;quot;aba&amp;quot; is also a valid answer. Example 2:
+Input: s = &amp;quot;cbbd&amp;quot; Output: &amp;quot;bb&amp;quot; Example 3:
+Input: s = &amp;quot;a&amp;quot; Output: &amp;quot;a&amp;quot; Example 4:
+Input: s = &amp;quot;ac&amp;quot; Output: &amp;quot;a&amp;quot; Constraints:
+ 1 &amp;lt;= s.length &amp;lt;= 1000 s consist of only digits and English letters (lower-case and/or upper-case),  题目大意 #  给你一个字符串 s，找到 s 中最长的回文子串。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0006.ZigZag-Conversion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0006.ZigZag-Conversion/</guid>
+      <description>6. ZigZag Conversion #  题目 #  The string &amp;quot;PAYPALISHIRING&amp;quot; is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+P A H N A P L S I I G Y I R And then read line by line: &amp;quot;PAHNAPLSIIGYIR&amp;quot;
+Write the code that will take a string and make this conversion given a number of rows:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0007.Reverse-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0007.Reverse-Integer/</guid>
+      <description>7. Reverse Integer #  题目 #  Given a 32-bit signed integer, reverse digits of an integer.
+Example 1:
+Input: 123 Output: 321  Example 2:
+Input: -123 Output: -321  Example 3:
+Input: 120 Output: 21  Note: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31, 2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0008.String-to-Integer-atoi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0008.String-to-Integer-atoi/</guid>
+      <description>8. String to Integer (atoi) #  题目 #  Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++&#39;s atoi function).
+The algorithm for myAtoi(string s) is as follows:
+ Read in and ignore any leading whitespace. Check if the next character (if not already at the end of the string) is &#39;-&#39; or &#39;+&#39;. Read this character in if it is either.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0009.Palindrome-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0009.Palindrome-Number/</guid>
+      <description>9. Palindrome Number #  题目 #  Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+Example 1:
+Input: 121 Output: true Example 2:
+Input: -121 Output: false Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome. Example 3:
+Input: 10 Output: false Explanation: Reads 01 from right to left.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0011.Container-With-Most-Water/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0011.Container-With-Most-Water/</guid>
+      <description>11. Container With Most Water #  题目 #  Given n non-negative integers a1, a2, &amp;hellip;, an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+Note: You may not slant the container and n is at least 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0012.Integer-to-Roman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0012.Integer-to-Roman/</guid>
+      <description>12. Integer to Roman #  题目 #  Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000 For example, 2 is written as II in Roman numeral, just two one&amp;rsquo;s added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0013.Roman-to-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0013.Roman-to-Integer/</guid>
+      <description>13. Roman to Integer #  题目 #  Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000 For example, two is written as II in Roman numeral, just two one&amp;rsquo;s added together. Twelve is written as, XII, which is simply X + II. The number twenty seven is written as XXVII, which is XX + V + II.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0014.Longest-Common-Prefix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0014.Longest-Common-Prefix/</guid>
+      <description>14. Longest Common Prefix #  题目 #  Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string &amp;ldquo;&amp;rdquo;.
+Example 1:
+Input: strs = [&amp;quot;flower&amp;quot;,&amp;quot;flow&amp;quot;,&amp;quot;flight&amp;quot;] Output: &amp;quot;fl&amp;quot;  Example 2:
+Input: strs = [&amp;quot;dog&amp;quot;,&amp;quot;racecar&amp;quot;,&amp;quot;car&amp;quot;] Output: &amp;quot;&amp;quot; Explanation: There is no common prefix among the input strings.  Constraints:
+ 1 &amp;lt;= strs.length &amp;lt;= 200 0 &amp;lt;= strs[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0015.3Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0015.3Sum/</guid>
+      <description>15. 3Sum #  题目 #  Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+Note:
+The solution set must not contain duplicate triplets.
+Example:
+ Given array nums = [-1, 0, 1, 2, -1, -4], A solution set is: [ [-1, 0, 1], [-1, -1, 2] ] 题目大意 #  给定一个数组，要求在这个数组中找出 3 个数之和为 0 的所有组合。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0016.3Sum-Closest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0016.3Sum-Closest/</guid>
+      <description>16. 3Sum Closest #  题目 #  Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+Example:
+ Given array nums = [-1, 2, 1, -4], and target = 1. The sum that is closest to the target is 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0017.Letter-Combinations-of-a-Phone-Number/</guid>
+      <description>17. Letter Combinations of a Phone Number #  题目 #  Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+ Example:
+ Input: &amp;quot;23&amp;quot; Output: [&amp;quot;ad&amp;quot;, &amp;quot;ae&amp;quot;, &amp;quot;af&amp;quot;, &amp;quot;bd&amp;quot;, &amp;quot;be&amp;quot;, &amp;quot;bf&amp;quot;, &amp;quot;cd&amp;quot;, &amp;quot;ce&amp;quot;, &amp;quot;cf&amp;quot;]. Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0018.4Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0018.4Sum/</guid>
+      <description>18. 4Sum #  题目 #  Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+Note:
+The solution set must not contain duplicate quadruplets.
+Example:
+ Given array nums = [1, 0, -1, 0, -2, 2], and target = 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0019.Remove-Nth-Node-From-End-of-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0019.Remove-Nth-Node-From-End-of-List/</guid>
+      <description>19. Remove Nth Node From End of List #  题目 #  Given the head of a linked list, remove the nth node from the end of the list and return its head.
+Follow up: Could you do this in one pass?
+Example 1:
+ Input: head = [1,2,3,4,5], n = 2 Output: [1,2,3,5] Example 2:
+Input: head = [1], n = 1 Output: [] Example 3:
+Input: head = [1,2], n = 1 Output: [1] Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0020.Valid-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0020.Valid-Parentheses/</guid>
+      <description>20. Valid Parentheses #  题目 #  Given a string containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Note that an empty string is also considered valid.
+Example 1:
+ Input: &amp;quot;()&amp;quot; Output: true Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0021.Merge-Two-Sorted-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0021.Merge-Two-Sorted-Lists/</guid>
+      <description>21. Merge Two Sorted Lists #  题目 #  Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+Example:
+ Input: 1-&amp;gt;2-&amp;gt;4, 1-&amp;gt;3-&amp;gt;4 Output: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4 题目大意 #  合并 2 个有序链表
+解题思路 #  按照题意做即可。
+代码 #  package leetcode /** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0022.Generate-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0022.Generate-Parentheses/</guid>
+      <description>22. Generate Parentheses #  题目 #  Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+For example, given n = 3, a solution set is:
+[ &amp;quot;((()))&amp;quot;, &amp;quot;(()())&amp;quot;, &amp;quot;(())()&amp;quot;, &amp;quot;()(())&amp;quot;, &amp;quot;()()()&amp;quot; ]  题目大意 #  给出 n 代表生成括号的对数，请你写出一个函数，使其能够生成所有可能的并且有效的括号组合。
+解题思路 #   这道题乍一看需要判断括号是否匹配的问题，如果真的判断了，那时间复杂度就到 O(n * 2^n)了，虽然也可以 AC，但是时间复杂度巨高。 这道题实际上不需要判断括号是否匹配的问题。因为在 DFS 回溯的过程中，会让 ( 和 ) 成对的匹配上的。  代码 #  package leetcode func generateParenthesis(n int) []string { if n == 0 { return []string{} } res := []string{} findGenerateParenthesis(n, n, &amp;#34;&amp;#34;, &amp;amp;res) return res } func findGenerateParenthesis(lindex, rindex int, str string, res *[]string) { if lindex == 0 &amp;amp;&amp;amp; rindex == 0 { *res = append(*res, str) return } if lindex &amp;gt; 0 { findGenerateParenthesis(lindex-1, rindex, str+&amp;#34;(&amp;#34;, res) } if rindex &amp;gt; 0 &amp;amp;&amp;amp; lindex &amp;lt; rindex { findGenerateParenthesis(lindex, rindex-1, str+&amp;#34;)&amp;#34;, res) } } </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0023.Merge-k-Sorted-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0023.Merge-k-Sorted-Lists/</guid>
+      <description>23. Merge k Sorted Lists #  题目 #  Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+Example:
+ Input: [ 1-&amp;gt;4-&amp;gt;5, 1-&amp;gt;3-&amp;gt;4, 2-&amp;gt;6 ] Output: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5-&amp;gt;6 题目大意 #  合并 K 个有序链表
+解题思路 #  借助分治的思想，把 K 个有序链表两两合并即可。相当于是第 21 题的加强版。
+代码 #  package leetcode /** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func mergeKLists(lists []*ListNode) *ListNode { length := len(lists) if length &amp;lt; 1 { return nil } if length == 1 { return lists[0] } num := length / 2 left := mergeKLists(lists[:num]) right := mergeKLists(lists[num:]) return mergeTwoLists1(left, right) } func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode { if l1 == nil { return l2 } if l2 == nil { return l1 } if l1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0024.Swap-Nodes-in-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0024.Swap-Nodes-in-Pairs/</guid>
+      <description>24. Swap Nodes in Pairs #  题目 #  Given a linked list, swap every two adjacent nodes and return its head.
+You may not modify the values in the list&amp;rsquo;s nodes, only nodes itself may be changed.
+Example:
+ Given 1-&amp;gt;2-&amp;gt;3-&amp;gt;4, you should return the list as 2-&amp;gt;1-&amp;gt;4-&amp;gt;3. 题目大意 #  两两相邻的元素，翻转链表
+解题思路 #  按照题意做即可。
+代码 #  package leetcode import ( &amp;#34;github.com/halfrost/leetcode-go/structures&amp;#34; ) // ListNode define type ListNode = structures.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0025.Reverse-Nodes-in-k-Group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0025.Reverse-Nodes-in-k-Group/</guid>
+      <description>25. Reverse Nodes in k-Group #  题目 #  Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0026.Remove-Duplicates-from-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0026.Remove-Duplicates-from-Sorted-Array/</guid>
+      <description>26. Remove Duplicates from Sorted Array #  题目 #  Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+Example 1:
+ Given nums = [1,1,2], Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0027.Remove-Element/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0027.Remove-Element/</guid>
+      <description>27. Remove Element #  题目 #  Given an array nums and a value val, remove all instances of that value in-place and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+The order of elements can be changed. It doesn&amp;rsquo;t matter what you leave beyond the new length.
+Example 1:
+ Given nums = [3,2,2,3], val = 3, Your function should return length = 2, with the first two elements of nums being 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0028.Find-the-Index-of-the-First-Occurrence-in-a-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0028.Find-the-Index-of-the-First-Occurrence-in-a-String/</guid>
+      <description>28. Find the Index of the First Occurrence in a String #  题目 #  Implement strStr().
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+Example 1:
+ Input: haystack = &amp;quot;hello&amp;quot;, needle = &amp;quot;ll&amp;quot; Output: 2 Example 2:
+ Input: haystack = &amp;quot;aaaaa&amp;quot;, needle = &amp;quot;bba&amp;quot; Output: -1 Clarification:
+What should we return when needle is an empty string?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0029.Divide-Two-Integers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0029.Divide-Two-Integers/</guid>
+      <description>29. Divide Two Integers #  题目 #  Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.
+Return the quotient after dividing dividend by divisor.
+The integer division should truncate toward zero.
+Example 1:
+Input: dividend = 10, divisor = 3 Output: 3  Example 2:
+Input: dividend = 7, divisor = -3 Output: -2  Note:
+ Both dividend and divisor will be 32-bit signed integers.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0030.Substring-with-Concatenation-of-All-Words/</guid>
+      <description>30. Substring with Concatenation of All Words #  题目 #  You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.
+Example 1:
+ Input: s = &amp;quot;barfoothefoobarman&amp;quot;, words = [&amp;quot;foo&amp;quot;,&amp;quot;bar&amp;quot;] Output: [0,9] Explanation: Substrings starting at index 0 and 9 are &amp;quot;barfoor&amp;quot; and &amp;quot;foobar&amp;quot; respectively.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0031.Next-Permutation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0031.Next-Permutation/</guid>
+      <description>31. Next Permutation #  题目 #  Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).
+The replacement must be  in place and use only constant extra memory.
+Example 1:
+Input: nums = [1,2,3] Output: [1,3,2] Example 2:
+Input: nums = [3,2,1] Output: [1,2,3] Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0032.Longest-Valid-Parentheses/</guid>
+      <description>32. Longest Valid Parentheses #  题目 #  Given a string containing just the characters &#39;(&#39; and &#39;)&#39;, find the length of the longest valid (well-formed) parentheses substring.
+Example 1:
+Input: s = &amp;quot;(()&amp;quot; Output: 2 Explanation: The longest valid parentheses substring is &amp;quot;()&amp;quot;. Example 2:
+Input: s = &amp;quot;)()())&amp;quot; Output: 4 Explanation: The longest valid parentheses substring is &amp;quot;()()&amp;quot;. Example 3:
+Input: s = &amp;quot;&amp;quot; Output: 0 Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0033.Search-in-Rotated-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0033.Search-in-Rotated-Sorted-Array/</guid>
+      <description>33. Search in Rotated Sorted Array #  题目 #  Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+You are given a target value to search. If found in the array return its index, otherwise return -1.
+You may assume no duplicate exists in the array.
+Your algorithm&amp;rsquo;s runtime complexity must be in the order of O(log n).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0034.Find-First-and-Last-Position-of-Element-in-Sorted-Array/</guid>
+      <description>34. Find First and Last Position of Element in Sorted Array #  题目 #  Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+Your algorithm&amp;rsquo;s runtime complexity must be in the order of O(log n).
+If the target is not found in the array, return [-1, -1].
+Example 1:
+Input: nums = [5,7,7,8,8,10], target = 8 Output: [3,4]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0035.Search-Insert-Position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0035.Search-Insert-Position/</guid>
+      <description>35. Search Insert Position #  题目 #  Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You may assume no duplicates in the array.
+Example 1:
+Input: [1,3,5,6], 5 Output: 2  Example 2:
+Input: [1,3,5,6], 2 Output: 1  Example 3:
+Input: [1,3,5,6], 7 Output: 4  Example 4:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0036.Valid-Sudoku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0036.Valid-Sudoku/</guid>
+      <description>36. Valid Sudoku #  题目 #  Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+ Each row must contain the digits 1-9 without repetition. Each column must contain the digits 1-9 without repetition. Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.   A partially filled sudoku which is valid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0037.Sudoku-Solver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0037.Sudoku-Solver/</guid>
+      <description>37. Sudoku Solver #  题目 #  Write a program to solve a Sudoku puzzle by filling the empty cells.
+A sudoku solution must satisfy all of the following rules:
+ Each of the digits 1-9 must occur exactly once in each row. Each of the digits 1-9 must occur exactly once in each column. Each of the the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0039.Combination-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0039.Combination-Sum/</guid>
+      <description>39. Combination Sum #  题目 #  Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+The same repeated number may be chosen from candidates unlimited number of times.
+Note:
+ All numbers (including target) will be positive integers. The solution set must not contain duplicate combinations.  Example 1:
+Input: candidates = [2,3,6,7], target = 7, A solution set is: [ [7], [2,2,3] ]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0040.Combination-Sum-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0040.Combination-Sum-II/</guid>
+      <description>40. Combination Sum II #  题目 #  Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+Each number in candidates may only be used once in the combination.
+Note:
+ All numbers (including target) will be positive integers. The solution set must not contain duplicate combinations.  Example 1:
+Input: candidates = [10,1,2,7,6,1,5], target = 8, A solution set is: [ [1, 7], [1, 2, 5], [2, 6], [1, 1, 6] ]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0041.First-Missing-Positive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0041.First-Missing-Positive/</guid>
+      <description>41. First Missing Positive #  题目 #  Given an unsorted integer array, find the smallest missing positive integer.
+Example 1:
+ Input: [1,2,0] Output: 3 Example 2:
+ Input: [3,4,-1,1] Output: 2 Example 3:
+ Input: [7,8,9,11,12] Output: 1 Note:
+Your algorithm should run in O(n) time and uses constant extra space.
+题目大意 #  找到缺失的第一个正整数。
+解题思路 #  为了减少时间复杂度，可以把 input 数组都装到 map 中，然后 i 循环从 1 开始，依次比对 map 中是否存在 i，只要不存在 i 就立即返回结果，即所求。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0042.Trapping-Rain-Water/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0042.Trapping-Rain-Water/</guid>
+      <description>42. Trapping Rain Water #  题目 #  Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+ The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped. Thanks Marcos for contributing this image!
+Example:
+Input: [0,1,0,2,1,0,1,3,2,1,2,1] Output: 6 题目大意 #  从 x 轴开始，给出一个数组，数组里面的数字代表从 (0,0) 点开始，宽度为 1 个单位，高度为数组元素的值。如果下雨了，问这样一个容器能装多少单位的水？</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0043.Multiply-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0043.Multiply-Strings/</guid>
+      <description>43. Multiply Strings #  题目 #  Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
+Example 1:
+Input: num1 = &amp;quot;2&amp;quot;, num2 = &amp;quot;3&amp;quot; Output: &amp;quot;6&amp;quot; Example 2:
+Input: num1 = &amp;quot;123&amp;quot;, num2 = &amp;quot;456&amp;quot; Output: &amp;quot;56088&amp;quot; Constraints:
+ 1 &amp;lt;= num1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0045.Jump-Game-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0045.Jump-Game-II/</guid>
+      <description>45. Jump Game II #  题目 #  Given an array of non-negative integers nums, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Your goal is to reach the last index in the minimum number of jumps.
+You can assume that you can always reach the last index.
+Example 1:
+Input: nums = [2,3,1,1,4] Output: 2 Explanation: The minimum number of jumps to reach the last index is 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0046.Permutations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0046.Permutations/</guid>
+      <description>46. Permutations #  题目 #  Given a collection of distinct integers, return all possible permutations.
+Example:
+Input: [1,2,3] Output: [ [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], [3,2,1] ]  题目大意 #  给定一个没有重复数字的序列，返回其所有可能的全排列。
+解题思路 #   求出一个数组的排列组合中的所有排列，用 DFS 深搜即可。  代码 #  package leetcode func permute(nums []int) [][]int { if len(nums) == 0 { return [][]int{} } used, p, res := make([]bool, len(nums)), []int{}, [][]int{} generatePermutation(nums, 0, p, &amp;amp;res, &amp;amp;used) return res } func generatePermutation(nums []int, index int, p []int, res *[][]int, used *[]bool) { if index == len(nums) { temp := make([]int, len(p)) copy(temp, p) *res = append(*res, temp) return } for i := 0; i &amp;lt; len(nums); i++ { if !</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0047.Permutations-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0047.Permutations-II/</guid>
+      <description>47. Permutations II #  题目 #  Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+Example:
+Input: [1,1,2] Output: [ [1,1,2], [1,2,1], [2,1,1] ]  题目大意 #  给定一个可包含重复数字的序列，返回所有不重复的全排列。
+解题思路 #   这一题是第 46 题的加强版，第 46 题中求数组的排列，数组中元素不重复，但是这一题中，数组元素会重复，所以需要最终排列出来的结果需要去重。 去重的方法是经典逻辑，将数组排序以后，判断重复元素再做逻辑判断。 其他思路和第 46 题完全一致，DFS 深搜即可。  代码 #  package leetcode import &amp;#34;sort&amp;#34; func permuteUnique(nums []int) [][]int { if len(nums) == 0 { return [][]int{} } used, p, res := make([]bool, len(nums)), []int{}, [][]int{} sort.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0048.Rotate-Image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0048.Rotate-Image/</guid>
+      <description>48. Rotate Image #  题目 #  You are given an n x n 2D matrix representing an image.
+Rotate the image by 90 degrees (clockwise).
+Note:
+You have to rotate the image  in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
+Example 1:
+ Given input matrix = [ [1,2,3], [4,5,6], [7,8,9] ], rotate the input matrix in-place such that it becomes: [ [7,4,1], [8,5,2], [9,6,3] ]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0049.Group-Anagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0049.Group-Anagrams/</guid>
+      <description>49. Group Anagrams #  题目 #  Given an array of strings, group anagrams together.
+Example:
+ Input: [&amp;quot;eat&amp;quot;, &amp;quot;tea&amp;quot;, &amp;quot;tan&amp;quot;, &amp;quot;ate&amp;quot;, &amp;quot;nat&amp;quot;, &amp;quot;bat&amp;quot;], Output: [ [&amp;quot;ate&amp;quot;,&amp;quot;eat&amp;quot;,&amp;quot;tea&amp;quot;], [&amp;quot;nat&amp;quot;,&amp;quot;tan&amp;quot;], [&amp;quot;bat&amp;quot;] ] Note:
+ All inputs will be in lowercase. The order of your output does not matter.  题目大意 #  给出一个字符串数组，要求对字符串数组里面有 Anagrams 关系的字符串进行分组。Anagrams 关系是指两个字符串的字符完全相同，顺序不同，两者是由排列组合组成。
+解题思路 #  这道题可以将每个字符串都排序，排序完成以后，相同 Anagrams 的字符串必然排序结果一样。把排序以后的字符串当做 key 存入到 map 中。遍历数组以后，就能得到一个 map，key 是排序以后的字符串，value 对应的是这个排序字符串以后的 Anagrams 字符串集合。最后再将这些 value 对应的字符串数组输出即可。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0050.Powx-n/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0050.Powx-n/</guid>
+      <description>50. Pow(x, n) #  题目 #  Implement pow(x, n), which calculates x raised to the power n (xn).
+Example 1:
+Input: 2.00000, 10 Output: 1024.00000  Example 2:
+Input: 2.10000, 3 Output: 9.26100  Example 3:
+Input: 2.00000, -2 Output: 0.25000 Explanation: 2-2 = 1/22 = 1/4 = 0.25  Note:
+ -100.0 &amp;lt; x &amp;lt; 100.0 n is a 32-bit signed integer, within the range [−2^31, 2^31− 1]  题目大意 #  实现 pow(x, n) ，即计算 x 的 n 次幂函数。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0051.N-Queens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0051.N-Queens/</guid>
+      <description>51. N-Queens #  题目 #  The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+ Given an integer n, return all distinct solutions to the n-queens puzzle.
+Each solution contains a distinct board configuration of the n-queens&amp;rsquo; placement, where &#39;Q&#39; and &#39;.&#39; both indicate a queen and an empty space respectively.
+Example:
+Input: 4 Output: [ [&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0052.N-Queens-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0052.N-Queens-II/</guid>
+      <description>52. N-Queens II #  题目 #  The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+ Given an integer n, return the number of distinct solutions to the n-queens puzzle.
+Example:
+Input: 4 Output: 2 Explanation: There are two distinct solutions to the 4-queens puzzle as shown below. [ [&amp;quot;.Q..&amp;quot;, // Solution 1 &amp;quot;...Q&amp;quot;, &amp;quot;Q...&amp;quot;, &amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0053.Maximum-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0053.Maximum-Subarray/</guid>
+      <description>53. Maximum Subarray #  题目 #  Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+Example:
+Input: [-2,1,-3,4,-1,2,1,-5,4], Output: 6 Explanation: [4,-1,2,1] has the largest sum = 6.  Follow up:
+If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+题目大意 #  给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0054.Spiral-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0054.Spiral-Matrix/</guid>
+      <description>54. Spiral Matrix #  题目 #  Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+Example 1:
+Input: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ] Output: [1,2,3,6,9,8,7,4,5]  Example 2:
+Input: [ [1, 2, 3, 4], [5, 6, 7, 8], [9,10,11,12] ] Output: [1,2,3,4,8,12,11,10,9,5,6,7]  题目大意 #  给定一个包含 m x n 个元素的矩阵（m 行, n 列），请按照顺时针螺旋顺序，返回矩阵中的所有元素。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0055.Jump-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0055.Jump-Game/</guid>
+      <description>55. Jump Game #  题目 #  Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Determine if you are able to reach the last index.
+Example 1:
+Input: [2,3,1,1,4] Output: true Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index. Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0056.Merge-Intervals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0056.Merge-Intervals/</guid>
+      <description>56. Merge Intervals #  题目 #  Given a collection of intervals, merge all overlapping intervals.
+Example 1:
+ Input: [[1,3],[2,6],[8,10],[15,18]] Output: [[1,6],[8,10],[15,18]] Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6]. Example 2:
+ Input: [[1,4],[4,5]] Output: [[1,5]] Explanation: Intervals [1,4] and [4,5] are considered overlapping. 题目大意 #  合并给的多个区间，区间有重叠的要进行区间合并。
+解题思路 #  先按照区间起点进行排序。然后从区间起点小的开始扫描，依次合并每个有重叠的区间。
+代码 #  package leetcode /** * Definition for an interval. * type Interval struct { *	Start int *	End int * } */ // Interval define type Interval struct { Start int End int } func merge56(intervals []Interval) []Interval { if len(intervals) == 0 { return intervals } quickSort(intervals, 0, len(intervals)-1) res := make([]Interval, 0) res = append(res, intervals[0]) curIndex := 0 for i := 1; i &amp;lt; len(intervals); i++ { if intervals[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0057.Insert-Interval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0057.Insert-Interval/</guid>
+      <description>57. Insert Interval #  题目 #  Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+You may assume that the intervals were initially sorted according to their start times.
+Example 1:
+ Input: intervals = [[1,3],[6,9]], newInterval = [2,5] Output: [[1,5],[6,9]] Example 2:
+ Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8] Output: [[1,2],[3,10],[12,16]] Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0058.Length-of-Last-Word/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0058.Length-of-Last-Word/</guid>
+      <description>58. Length of Last Word #  题目 #  Given a string s consisting of some words separated by some number of spaces, return the length of the last word in the string.
+A word is a maximal substring consisting of non-space characters only.
+Example 1:
+Input: s = &amp;quot;Hello World&amp;quot; Output: 5 Explanation: The last word is &amp;quot;World&amp;quot; with length 5. Example 2:
+Input: s = &amp;quot; fly me to the moon &amp;quot; Output: 4 Explanation: The last word is &amp;quot;moon&amp;quot; with length 4.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0059.Spiral-Matrix-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0059.Spiral-Matrix-II/</guid>
+      <description>59. Spiral Matrix II #  题目 #  Given a positive integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+Example:
+Input: 3 Output: [ [ 1, 2, 3 ], [ 8, 9, 4 ], [ 7, 6, 5 ] ]  题目大意 #  给定一个正整数 n，生成一个包含 1 到 n^2 所有元素，且元素按顺时针顺序螺旋排列的正方形矩阵。
+解题思路 #   给出一个数组 n，要求输出一个 n * n 的二维数组，里面元素是 1 - n*n，且数组排列顺序是螺旋排列的 这一题是第 54 题的加强版，没有需要注意的特殊情况，直接模拟即可。  代码 #  package leetcode func generateMatrix(n int) [][]int { if n == 0 { return [][]int{} } if n == 1 { return [][]int{[]int{1}} } res, visit, round, x, y, spDir := make([][]int, n), make([][]int, n), 0, 0, 0, [][]int{ []int{0, 1}, // 朝右 	[]int{1, 0}, // 朝下 	[]int{0, -1}, // 朝左 	[]int{-1, 0}, // 朝上 	} for i := 0; i &amp;lt; n; i++ { visit[i] = make([]int, n) res[i] = make([]int, n) } visit[x][y] = 1 res[x][y] = 1 for i := 0; i &amp;lt; n*n; i++ { x += spDir[round%4][0] y += spDir[round%4][1] if (x == 0 &amp;amp;&amp;amp; y == n-1) || (x == n-1 &amp;amp;&amp;amp; y == n-1) || (y == 0 &amp;amp;&amp;amp; x == n-1) { round++ } if x &amp;gt; n-1 || y &amp;gt; n-1 || x &amp;lt; 0 || y &amp;lt; 0 { return res } if visit[x][y] == 0 { visit[x][y] = 1 res[x][y] = i + 2 } switch round % 4 { case 0: if y+1 &amp;lt;= n-1 &amp;amp;&amp;amp; visit[x][y+1] == 1 { round++ continue } case 1: if x+1 &amp;lt;= n-1 &amp;amp;&amp;amp; visit[x+1][y] == 1 { round++ continue } case 2: if y-1 &amp;gt;= 0 &amp;amp;&amp;amp; visit[x][y-1] == 1 { round++ continue } case 3: if x-1 &amp;gt;= 0 &amp;amp;&amp;amp; visit[x-1][y] == 1 { round++ continue } } } return res } </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0060.Permutation-Sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0060.Permutation-Sequence/</guid>
+      <description>60. Permutation Sequence #  题目 #  The set [1,2,3,...,*n*] contains a total of n! unique permutations.
+By listing and labeling all of the permutations in order, we get the following sequence for n = 3:
+ &amp;quot;123&amp;quot; &amp;quot;132&amp;quot; &amp;quot;213&amp;quot; &amp;quot;231&amp;quot; &amp;quot;312&amp;quot; &amp;quot;321&amp;quot;  Given n and k, return the kth permutation sequence.
+Note:
+ Given n will be between 1 and 9 inclusive. Given k will be between 1 and n!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0061.Rotate-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0061.Rotate-List/</guid>
+      <description>61. Rotate List #  题目 #  Given a linked list, rotate the list to the right by k places, where k is non-negative.
+Example 1:
+ Input: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5-&amp;gt;NULL, k = 2 Output: 4-&amp;gt;5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;NULL Explanation: rotate 1 steps to the right: 5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;NULL rotate 2 steps to the right: 4-&amp;gt;5-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;NULL Example 2:
+ Input: 0-&amp;gt;1-&amp;gt;2-&amp;gt;NULL, k = 4 Output: 2-&amp;gt;0-&amp;gt;1-&amp;gt;NULL Explanation: rotate 1 steps to the right: 2-&amp;gt;0-&amp;gt;1-&amp;gt;NULL rotate 2 steps to the right: 1-&amp;gt;2-&amp;gt;0-&amp;gt;NULL rotate 3 steps to the right: 0-&amp;gt;1-&amp;gt;2-&amp;gt;NULL rotate 4 steps to the right: 2-&amp;gt;0-&amp;gt;1-&amp;gt;NULL 题目大意 #  旋转链表 K 次。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0062.Unique-Paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0062.Unique-Paths/</guid>
+      <description>62. Unique Paths #  题目 #  A robot is located at the top-left corner of a m x n grid (marked &amp;lsquo;Start&amp;rsquo; in the diagram below).
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked &amp;lsquo;Finish&amp;rsquo; in the diagram below).
+How many possible unique paths are there?
+ Above is a 7 x 3 grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0063.Unique-Paths-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0063.Unique-Paths-II/</guid>
+      <description>63. Unique Paths II #  题目 #  A robot is located at the top-left corner of a m x n grid (marked &amp;lsquo;Start&amp;rsquo; in the diagram below).
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked &amp;lsquo;Finish&amp;rsquo; in the diagram below).
+Now consider if some obstacles are added to the grids.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0064.Minimum-Path-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0064.Minimum-Path-Sum/</guid>
+      <description>64. Minimum Path Sum #  题目 #  Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+Note: You can only move either down or right at any point in time.
+Example:
+Input: [ [1,3,1], [1,5,1], [4,2,1] ] Output: 7 Explanation: Because the path 1→3→1→1→1 minimizes the sum.  题目大意 #  给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。说明：每次只能向下或者向右移动一步。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0065.Valid-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0065.Valid-Number/</guid>
+      <description>65. Valid Number #  题目 #  A valid number can be split up into these components (in order):
+ A decimal number or an integer. (Optional) An &amp;lsquo;e&amp;rsquo; or &amp;lsquo;E&amp;rsquo;, followed by an integer.  A decimal number can be split up into these components (in order):
+ (Optional) A sign character (either &amp;lsquo;+&amp;rsquo; or &amp;lsquo;-&#39;). One of the following formats:  One or more digits, followed by a dot &amp;lsquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0066.Plus-One/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0066.Plus-One/</guid>
+      <description>66. Plus One #  题目 #  Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+Example 1:
+Input: [1,2,3] Output: [1,2,4] Explanation: The array represents the integer 123.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0067.Add-Binary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0067.Add-Binary/</guid>
+      <description>67. Add Binary #  题目 #  Given two binary strings, return their sum (also a binary string).
+The input strings are both non-empty and contains only characters 1 or 0.
+Example 1:
+Input: a = &amp;quot;11&amp;quot;, b = &amp;quot;1&amp;quot; Output: &amp;quot;100&amp;quot; Example 2:
+Input: a = &amp;quot;1010&amp;quot;, b = &amp;quot;1011&amp;quot; Output: &amp;quot;10101&amp;quot; 题目大意 #  给你两个二进制字符串，返回它们的和（用二进制表示）。输入为 非空 字符串且只包含数字 1 和 0。
+解题思路 #   要求输出 2 个二进制数的和，结果也用二进制表示。 简单题。按照二进制的加法规则做加法即可。  代码 #  package leetcode import ( &amp;#34;strconv&amp;#34; &amp;#34;strings&amp;#34; ) func addBinary(a string, b string) string { if len(b) &amp;gt; len(a) { a, b = b, a } res := make([]string, len(a)+1) i, j, k, c := len(a)-1, len(b)-1, len(a), 0 for i &amp;gt;= 0 &amp;amp;&amp;amp; j &amp;gt;= 0 { ai, _ := strconv.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0069.Sqrtx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0069.Sqrtx/</guid>
+      <description>69. Sqrt(x) #  题目 #  Implement int sqrt(int x).
+Compute and return the square root of x, where x is guaranteed to be a non-negative integer.
+Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
+Example 1:
+Input: 4 Output: 2  Example 2:
+Input: 8 Output: 2 Explanation: The square root of 8 is 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0070.Climbing-Stairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0070.Climbing-Stairs/</guid>
+      <description>70. Climbing Stairs #  题目 #  You are climbing a stair case. It takes n steps to reach to the top.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+Note: Given n will be a positive integer.
+Example 1:
+Input: 2 Output: 2 Explanation: There are two ways to climb to the top. 1. 1 step + 1 step 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0071.Simplify-Path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0071.Simplify-Path/</guid>
+      <description>71. Simplify Path #  题目 #  Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path.
+In a UNIX-style file system, a period . refers to the current directory. Furthermore, a double period .. moves the directory up a level. For more information, see: Absolute path vs relative path in Linux/Unix
+Note that the returned canonical path must always begin with a slash /, and there must be only a single slash / between two directory names.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0073.Set-Matrix-Zeroes/</guid>
+      <description>73. Set Matrix Zeroes #  题目 #  Given an *m* x *n* matrix. If an element is 0, set its entire row and column to 0. Do it  in-place.
+Follow up:
+ A straight forward solution using O(mn) space is probably a bad idea. A simple improvement uses O(m + n) space, but still not the best solution. Could you devise a constant space solution?  Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0074.Search-a-2D-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0074.Search-a-2D-Matrix/</guid>
+      <description>74. Search a 2D Matrix #  题目 #  Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+ Integers in each row are sorted from left to right. The first integer of each row is greater than the last integer of the previous row.  Example 1:
+Input: matrix = [ [1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50] ] target = 3 Output: true  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0075.Sort-Colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0075.Sort-Colors/</guid>
+      <description>75. Sort Colors #  题目 #  Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+Note: You are not suppose to use the library&amp;rsquo;s sort function for this problem.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0076.Minimum-Window-Substring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0076.Minimum-Window-Substring/</guid>
+      <description>76. Minimum Window Substring #  题目 #  Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).
+Example:
+ Input: S = &amp;quot;ADOBECODEBANC&amp;quot;, T = &amp;quot;ABC&amp;quot; Output: &amp;quot;BANC&amp;quot; Note:
+ If there is no such window in S that covers all characters in T, return the empty string &amp;ldquo;&amp;rdquo;. If there is such window, you are guaranteed that there will always be only one unique minimum window in S.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0077.Combinations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0077.Combinations/</guid>
+      <description>77. Combinations #  题目 #  Given two integers n and k, return all possible combinations of k numbers out of 1 &amp;hellip; n.
+Example:
+Input: n = 4, k = 2 Output: [ [2,4], [3,4], [2,3], [1,2], [1,3], [1,4], ]  题目大意 #  给定两个整数 n 和 k，返回 1 &amp;hellip; n 中所有可能的 k 个数的组合。
+解题思路 #   计算排列组合中的组合，用 DFS 深搜即可，注意剪枝  代码 #  package leetcode func combine(n int, k int) [][]int { if n &amp;lt;= 0 || k &amp;lt;= 0 || k &amp;gt; n { return [][]int{} } c, res := []int{}, [][]int{} generateCombinations(n, k, 1, c, &amp;amp;res) return res } func generateCombinations(n, k, start int, c []int, res *[][]int) { if len(c) == k { b := make([]int, len(c)) copy(b, c) *res = append(*res, b) return } // i will at most be n - (k - c.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0078.Subsets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0078.Subsets/</guid>
+      <description>78. Subsets #  题目 #  Given a set of distinct integers, nums, return all possible subsets (the power set).
+Note: The solution set must not contain duplicate subsets.
+Example:
+Input: nums = [1,2,3] Output: [ [3], [1], [2], [1,2,3], [1,3], [2,3], [1,2], [] ]  题目大意 #  给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。说明：解集不能包含重复的子集。
+解题思路 #   找出一个集合中的所有子集，空集也算是子集。且数组中的数字不会出现重复。用 DFS 暴力枚举即可。 这一题和第 90 题，第 491 题类似，可以一起解答和复习。  代码 #  package leetcode import &amp;#34;sort&amp;#34; // 解法一 func subsets(nums []int) [][]int { c, res := []int{}, [][]int{} for k := 0; k &amp;lt;= len(nums); k++ { generateSubsets(nums, k, 0, c, &amp;amp;res) } return res } func generateSubsets(nums []int, k, start int, c []int, res *[][]int) { if len(c) == k { b := make([]int, len(c)) copy(b, c) *res = append(*res, b) return } // i will at most be n - (k - c.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0079.Word-Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0079.Word-Search/</guid>
+      <description>79. Word Search #  题目 #  Given a 2D board and a word, find if the word exists in the grid.
+The word can be constructed from letters of sequentially adjacent cell, where &amp;ldquo;adjacent&amp;rdquo; cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+Example:
+board = [ [&#39;A&#39;,&#39;B&#39;,&#39;C&#39;,&#39;E&#39;], [&#39;S&#39;,&#39;F&#39;,&#39;C&#39;,&#39;S&#39;], [&#39;A&#39;,&#39;D&#39;,&#39;E&#39;,&#39;E&#39;] ] Given word = &amp;quot;ABCCED&amp;quot;, return true. Given word = &amp;quot;SEE&amp;quot;, return true.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0080.Remove-Duplicates-from-Sorted-Array-II/</guid>
+      <description>80. Remove Duplicates from Sorted Array II #  题目 #  Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+Example 1:
+ Given nums = [1,1,1,2,2,3], Your function should return length = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0081.Search-in-Rotated-Sorted-Array-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0081.Search-in-Rotated-Sorted-Array-II/</guid>
+      <description>81. Search in Rotated Sorted Array II #  题目 #  Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,0,1,2,2,5,6] might become [2,5,6,0,0,1,2]).
+You are given a target value to search. If found in the array return true, otherwise return false.
+Example 1:
+Input: nums = [2,5,6,0,0,1,2], target = 0 Output: true  Example 2:
+Input: nums = [2,5,6,0,0,1,2], target = 3 Output: false  Follow up:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0082.Remove-Duplicates-from-Sorted-List-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0082.Remove-Duplicates-from-Sorted-List-II/</guid>
+      <description>82. Remove Duplicates from Sorted List II #  题目 #  Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+Example 1:
+ Input: 1-&amp;gt;2-&amp;gt;3-&amp;gt;3-&amp;gt;4-&amp;gt;4-&amp;gt;5 Output: 1-&amp;gt;2-&amp;gt;5 Example 2:
+ Input: 1-&amp;gt;1-&amp;gt;1-&amp;gt;2-&amp;gt;3 Output: 2-&amp;gt;3 题目大意 #  删除链表中重复的结点，只要是有重复过的结点，全部删除。
+解题思路 #  按照题意做即可。
+代码 #  package leetcode /** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ // 解法一 func deleteDuplicates1(head *ListNode) *ListNode { if head == nil { return nil } if head.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0083.Remove-Duplicates-from-Sorted-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0083.Remove-Duplicates-from-Sorted-List/</guid>
+      <description>83. Remove Duplicates from Sorted List #  题目 #  Given a sorted linked list, delete all duplicates such that each element appear only once.
+Example 1:
+ Input: 1-&amp;gt;1-&amp;gt;2 Output: 1-&amp;gt;2 Example 2:
+ Input: 1-&amp;gt;1-&amp;gt;2-&amp;gt;3-&amp;gt;3 Output: 1-&amp;gt;2-&amp;gt;3 题目大意 #  删除链表中重复的结点，以保障每个结点只出现一次。
+解题思路 #  按照题意做即可。
+代码 #  package leetcode /** * Definition for singly-linked list. * type ListNode struct { * Val int * Next *ListNode * } */ func deleteDuplicates(head *ListNode) *ListNode { cur := head if head == nil { return nil } if head.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0084.Largest-Rectangle-in-Histogram/</guid>
+      <description>84. Largest Rectangle in Histogram #  题目 #  Given n non-negative integers representing the histogram&amp;rsquo;s bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.
+ Above is a histogram where width of each bar is 1, given height = [2,1,5,6,2,3].
+ The largest rectangle is shown in the shaded area, which has area = 10 unit.
+Example:
+ Input: [2,1,5,6,2,3] Output: 10 题目大意 #  给出每个直方图的高度，要求在这些直方图之中找到面积最大的矩形，输出矩形的面积。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0085.Maximal-Rectangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0085.Maximal-Rectangle/</guid>
+      <description>85. Maximal Rectangle #  题目 #  Given a rows x cols binary matrix filled with 0&#39;s and 1&#39;s, find the largest rectangle containing only 1&#39;s and return its area.
+Example 1:
+Input: matrix = [[&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;,&amp;quot;0&amp;quot;],[&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;],[&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;1&amp;quot;],[&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;,&amp;quot;0&amp;quot;,&amp;quot;1&amp;quot;,&amp;quot;0&amp;quot;]] Output: 6 Explanation: The maximal rectangle is shown in the above picture. Example 2:
+Input: matrix = [[&amp;quot;0&amp;quot;]] Output: 0 Example 3:
+Input: matrix = [[&amp;quot;1&amp;quot;]] Output: 1 Constraints:
+ rows == matrix.length cols == matrix[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0086.Partition-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0086.Partition-List/</guid>
+      <description>86. Partition List #  题目 #  Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+You should preserve the original relative order of the nodes in each of the two partitions.
+Example:
+ Input: head = 1-&amp;gt;4-&amp;gt;3-&amp;gt;2-&amp;gt;5-&amp;gt;2, x = 3 Output: 1-&amp;gt;2-&amp;gt;2-&amp;gt;4-&amp;gt;3-&amp;gt;5 题目大意 #  给定一个数 x，比 x 大或等于的数字都要排列在比 x 小的数字后面，并且相对位置不能发生变化。由于相对位置不能发生变化，所以不能用类似冒泡排序的思想。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0088.Merge-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0088.Merge-Sorted-Array/</guid>
+      <description>88. Merge Sorted Array #  题目 #  Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+Note:
+ The number of elements initialized in nums1 and nums2 are m and n respectively. You may assume that nums1 has enough space (size that is equal to m + n) to hold additional elements from nums2.  Example:
+Input: nums1 = [1,2,3,0,0,0], m = 3 nums2 = [2,5,6], n = 3 Output: [1,2,2,3,5,6]  Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0089.Gray-Code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0089.Gray-Code/</guid>
+      <description>89. Gray Code #  题目 #  The gray code is a binary numeral system where two successive values differ in only one bit.
+Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
+Example 1:
+Input: 2 Output: [0,1,3,2] Explanation: 00 - 0 01 - 1 11 - 3 10 - 2 For a given n, a gray code sequence may not be uniquely defined.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0090.Subsets-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0090.Subsets-II/</guid>
+      <description>90. Subsets II #  题目 #  Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
+Note: The solution set must not contain duplicate subsets.
+Example:
+Input: [1,2,2] Output: [ [2], [1], [1,2,2], [2,2], [1,2], [] ]  题目大意 #  给定一个可能包含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。说明：解集不能包含重复的子集。
+解题思路 #   这一题是第 78 题的加强版，比第 78 题多了一个条件，数组中的数字会出现重复。 解题方法依旧是 DFS，需要在回溯的过程中加上一些判断。 这一题和第 78 题，第 491 题类似，可以一起解答和复习。  代码 #  package leetcode import ( &amp;#34;fmt&amp;#34; &amp;#34;sort&amp;#34; ) func subsetsWithDup(nums []int) [][]int { c, res := []int{}, [][]int{} sort.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0091.Decode-Ways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0091.Decode-Ways/</guid>
+      <description>91. Decode Ways #  题目 #  A message containing letters from A-Z is being encoded to numbers using the following mapping:
+&#39;A&#39; -&amp;gt; 1 &#39;B&#39; -&amp;gt; 2 ... &#39;Z&#39; -&amp;gt; 26  Given a non-empty string containing only digits, determine the total number of ways to decode it.
+Example 1:
+Input: &amp;quot;12&amp;quot; Output: 2 Explanation: It could be decoded as &amp;quot;AB&amp;quot; (1 2) or &amp;quot;L&amp;quot; (12).  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0092.Reverse-Linked-List-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0092.Reverse-Linked-List-II/</guid>
+      <description>92. Reverse Linked List II #  题目 #  Reverse a linked list from position m to n. Do it in one-pass.
+Note: 1 ≤ m ≤ n ≤ length of list.
+Example:
+ Input: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5-&amp;gt;NULL, m = 2, n = 4 Output: 1-&amp;gt;4-&amp;gt;3-&amp;gt;2-&amp;gt;5-&amp;gt;NULL 题目大意 #  给定 2 个链表中结点的位置 m, n，反转这个两个位置区间内的所有结点。
+解题思路 #  由于有可能整个链表都被反转，所以构造一个新的头结点指向当前的头。之后的处理方法是：找到第一个需要反转的结点的前一个结点 p，从这个结点开始，依次把后面的结点用“头插”法，插入到 p 结点的后面。循环次数用 n-m 来控制。
+这一题结点可以原地变化，更改各个结点的 next 指针就可以。不需要游标 p 指针。因为每次逆序以后，原有结点的相对位置就发生了变化，相当于游标指针已经移动了，所以不需要再有游标 p = p.Next 的操作了。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0093.Restore-IP-Addresses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0093.Restore-IP-Addresses/</guid>
+      <description>93. Restore IP Addresses #  题目 #  Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+Example:
+Input: &amp;quot;25525511135&amp;quot; Output: [&amp;quot;255.255.11.135&amp;quot;, &amp;quot;255.255.111.35&amp;quot;]  题目大意 #  给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式。
+解题思路 #   DFS 深搜 需要注意的点是 IP 的规则，以 0 开头的数字和超过 255 的数字都为非法的。  代码 #  package leetcode import ( &amp;#34;strconv&amp;#34; ) func restoreIPAddresses(s string) []string { if s == &amp;#34;&amp;#34; { return []string{} } res, ip := []string{}, []int{} dfs(s, 0, ip, &amp;amp;res) return res } func dfs(s string, index int, ip []int, res *[]string) { if index == len(s) { if len(ip) == 4 { *res = append(*res, getString(ip)) } return } if index == 0 { num, _ := strconv.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0094.Binary-Tree-Inorder-Traversal/</guid>
+      <description>94. Binary Tree Inorder Traversal #  题目 #  Given a binary tree, return the inorder traversal of its nodes&amp;rsquo; values.
+Example:
+ Input: [1,null,2,3] 1 \ 2 / 3 Output: [1,3,2] Follow up: Recursive solution is trivial, could you do it iteratively?
+题目大意 #  中根遍历一颗树。
+解题思路 #  递归的实现方法，见代码。
+代码 #  package leetcode /** * Definition for a binary tree node. * type TreeNode struct { * Val int * Left *TreeNode * Right *TreeNode * } */ func inorderTraversal(root *TreeNode) []int { var result []int inorder(root, &amp;amp;result) return result } func inorder(root *TreeNode, output *[]int) { if root !</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0095.Unique-Binary-Search-Trees-II/</guid>
+      <description>95. Unique Binary Search Trees II #  题目 #  Given an integer n, generate all structurally unique BST&amp;rsquo;s (binary search trees) that store values 1 &amp;hellip; n.
+Example:
+Input: 3 Output: [ [1,null,3,2], [3,2,null,1], [3,1,null,null,2], [2,1,3], [1,null,2,null,3] ] Explanation: The above output corresponds to the 5 unique BST&#39;s shown below: 1 3 3 2 1 \ / / / \ \ 3 2 1 1 3 2 / / \ \ 2 1 2 3  题目大意 #  给定一个整数 n，生成所有由 1 &amp;hellip; n 为节点所组成的二叉搜索树。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0096.Unique-Binary-Search-Trees/</guid>
+      <description>96. Unique Binary Search Trees #  题目 #  Given n, how many structurally unique BST&amp;rsquo;s (binary search trees) that store values 1 &amp;hellip; n?
+Example:
+Input: 3 Output: 5 Explanation: Given n = 3, there are a total of 5 unique BST&#39;s: 1 3 3 2 1 \ / / / \ \ 3 2 1 1 3 2 / / \ \ 2 1 2 3  题目大意 #  给定一个整数 n，求以 1 &amp;hellip; n 为节点组成的二叉搜索树有多少种？</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0097.Interleaving-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0097.Interleaving-String/</guid>
+      <description>97. Interleaving String #  题目 #  Given strings s1, s2, and s3, find whether s3 is formed by an interleaving of s1 and s2.
+An interleaving of two strings s and t is a configuration where they are divided into non-empty substrings such that:
+ s = s1 + s2 + ... + sn t = t1 + t2 + ... + tm |n - m| &amp;lt;= 1 The interleaving is s1 + t1 + s2 + t2 + s3 + t3 + .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0098.Validate-Binary-Search-Tree/</guid>
+      <description>98. Validate Binary Search Tree #  题目 #  Given a binary tree, determine if it is a valid binary search tree (BST).
+Assume a BST is defined as follows:
+ The left subtree of a node contains only nodes with keys less than the node&amp;rsquo;s key. The right subtree of a node contains only nodes with keys greater than the node&amp;rsquo;s key. Both the left and right subtrees must also be binary search trees.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0001~0099/0099.Recover-Binary-Search-Tree/</guid>
+      <description>99. Recover Binary Search Tree #  题目 #  Two elements of a binary search tree (BST) are swapped by mistake.
+Recover the tree without changing its structure.
+Example 1:
+Input: [1,3,null,null,2] 1 / 3 \ 2 Output: [3,1,null,null,2] 3 / 1 \ 2  Example 2:
+Input: [3,1,4,null,null,2] 3 / \ 1 4 / 2 Output: [2,1,4,null,null,3] 2 / \ 1 4 / 3  Follow up:
+ A solution using O(n) space is pretty straight forward.</description>
+    </item>
+    
+  </channel>
+</rss>

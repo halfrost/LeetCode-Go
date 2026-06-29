@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 2 Algorithm Topics on LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterTwo/</link>
+    <description>Recent content in Chapter 2 Algorithm Topics on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterTwo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.01 Array</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Array/</guid>
+      <description>Array #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0001 Two Sum Go Easy O(n) O(n)  49.7%   0004 Median of Two Sorted Arrays Go Hard    36.2%   0011 Container With Most Water Go Medium O(n) O(1)  54.0%   0015 3Sum Go Medium O(n^2) O(n) ❤️ 32.6%   0016 3Sum Closest Go Medium O(n^2) O(1) ❤️ 45.</description>
+    </item>
+    
+    <item>
+      <title>2.02 String</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/String/</guid>
+      <description>String #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0003 Longest Substring Without Repeating Characters Go Medium O(n) O(1) ❤️ 33.8%   0005 Longest Palindromic Substring Go Medium    32.4%   0006 Zigzag Conversion Go Medium    44.8%   0008 String to Integer (atoi) Go Medium    16.6%   0012 Integer to Roman Go Medium    62.</description>
+    </item>
+    
+    <item>
+      <title>2.03 ✅ Two Pointers</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Two_Pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Two_Pointers/</guid>
+      <description>Two Pointers #    Classic way to write the two-pointer sliding window. The right pointer keeps moving to the right until it can no longer move right (the specific condition depends on the problem). After the right pointer reaches the far right, start moving the left pointer to release the left boundary of the window. Problem 3, Problem 76, Problem 209, Problem 424, Problem 438, Problem 567, Problem 713, Problem 763, Problem 845, Problem 881, Problem 904, Problem 978, Problem 992, Problem 1004, Problem 1040, Problem 1052.</description>
+    </item>
+    
+    <item>
+      <title>2.04 ✅ Linked List</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Linked_List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Linked_List/</guid>
+      <description>Linked List #    Cleverly construct a dummy head node. This can make the traversal and processing logic more uniform. Use recursion flexibly. By constructing recursive conditions, recursion can be used to solve problems cleverly. However, note that recursion cannot be used for some problems, because excessive recursion depth can cause timeouts and stack overflow. Reverse a linked list interval. Problem 92. Find the middle node of a linked list.</description>
+    </item>
+    
+    <item>
+      <title>2.05 ✅ Stack</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Stack/</guid>
+      <description>Stack #    Parentheses matching problems and similar problems. Problem 20, Problem 921, Problem 1021. Basic stack pop and push operations. Problem 71, Problem 150, Problem 155, Problem 224, Problem 225, Problem 232, Problem 946, Problem 1047. Encoding problems using a stack. Problem 394, Problem 682, Problem 856, Problem 880. Monotonic stack. Use a stack to maintain a monotonically increasing or decreasing index array. Problem 84, Problem 456, Problem 496, Problem 503, Problem 739, Problem 901, Problem 907, Problem 1019.</description>
+    </item>
+    
+    <item>
+      <title>2.06 Tree</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Tree/</guid>
+      <description>Tree #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0094 Binary Tree Inorder Traversal Go Easy O(n) O(1)  73.8%   0095 Unique Binary Search Trees II Go Medium    52.3%   0096 Unique Binary Search Trees Go Medium O(n^2) O(n)  59.6%   0098 Validate Binary Search Tree Go Medium O(n) O(1)  32.0%   0099 Recover Binary Search Tree Go Medium O(n) O(1)  51.</description>
+    </item>
+    
+    <item>
+      <title>2.07 Dynamic Programming</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Dynamic_Programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Dynamic_Programming/</guid>
+      <description>Dynamic Programming #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0005 Longest Palindromic Substring Go Medium    32.4%   0022 Generate Parentheses Go Medium    72.5%   0032 Longest Valid Parentheses Go Hard    32.8%   0042 Trapping Rain Water Go Hard    59.3%   0045 Jump Game II Go Medium    39.</description>
+    </item>
+    
+    <item>
+      <title>2.08 ✅ Backtracking</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Backtracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Backtracking/</guid>
+      <description>Backtracking #    Permutation problems Permutations. Problem 46, Problem 47. Problem 60, Problem 526, Problem 996. Combination problems Combination. Problem 39, Problem 40, Problem 77, Problem 216. Hybrid permutation and combination problems. Problem 1079. Ultimate solution for N-Queens (binary solution). Problem 51, Problem 52. Sudoku problem. Problem 37. Search in four directions. Problem 79, Problem 212, Problem 980. Subset problems. Problem 78, Problem 90. Trie. Problem 208, Problem 211.</description>
+    </item>
+    
+    <item>
+      <title>2.09 Depth First Search</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Depth_First_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Depth_First_Search/</guid>
+      <description>Depth First Search #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0094 Binary Tree Inorder Traversal Go Easy    73.8%   0098 Validate Binary Search Tree Go Medium O(n) O(1)  32.0%   0099 Recover Binary Search Tree Go Medium O(n) O(1)  51.0%   0100 Same Tree Go Easy O(n) O(1)  58.2%   0101 Symmetric Tree Go Easy O(n) O(1)  54.</description>
+    </item>
+    
+    <item>
+      <title>2.10 Breadth First Search</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Breadth_First_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Breadth_First_Search/</guid>
+      <description>Breadth First Search #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0100 Same Tree Go Easy    58.2%   0101 Symmetric Tree Go Easy O(n) O(1)  54.3%   0102 Binary Tree Level Order Traversal Go Medium O(n) O(1)  64.4%   0103 Binary Tree Zigzag Level Order Traversal Go Medium O(n) O(n)  56.9%   0104 Maximum Depth of Binary Tree Go Easy    73.</description>
+    </item>
+    
+    <item>
+      <title>2.11 Binary Search</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Search/</guid>
+      <description>Binary Search #   The classic way to write binary search. Three points to note:  The loop exit condition: note that it is low &amp;lt;= high, not low &amp;lt; high. The value of mid: mid := low + (high-low)&amp;raquo;1 Updating low and high. low = mid + 1, high = mid - 1.    func binarySearchMatrix(nums []int, target int) int { low, high := 0, len(nums)-1 for low &amp;lt;= high { mid := low + (high-low)&amp;gt;&amp;gt;1 if nums[mid] == target { return mid } else if nums[mid] &amp;gt; target { high = mid - 1 } else { low = mid + 1 } } return -1 }  Variant ways to write binary search.</description>
+    </item>
+    
+    <item>
+      <title>2.12 Math</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Math/</guid>
+      <description>Math #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0002 Add Two Numbers Go Medium O(n) O(1)  40.4%   0007 Reverse Integer Go Medium    27.5%   0009 Palindrome Number Go Easy    53.5%   0012 Integer to Roman Go Medium    62.0%   0013 Roman to Integer Go Easy    58.</description>
+    </item>
+    
+    <item>
+      <title>2.13 Hash Table</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Hash_Table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Hash_Table/</guid>
+      <description>Hash Table #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0001 Two Sum Go Easy O(n) O(n)  49.7%   0003 Longest Substring Without Repeating Characters Go Medium O(n) O(1) ❤️ 33.8%   0012 Integer to Roman Go Medium    62.0%   0013 Roman to Integer Go Easy    58.6%   0017 Letter Combinations of a Phone Number Go Medium    56.</description>
+    </item>
+    
+    <item>
+      <title>2.14 ✅ Sorting</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Sorting/</guid>
+      <description>Sorting #    Deeply understand multi-way quicksort. Problem 75. Sorting linked lists, insertion sort (Problem 147) and merge sort (Problem 148) Bucket sort and radix sort. Problem 164. &amp;ldquo;Wiggle Sort&amp;rdquo;. Problem 324. Sorting so that no two adjacent elements are the same. Problem 767, Problem 1054. &amp;ldquo;Pancake Sorting&amp;rdquo;. Problem 969.     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0015 3Sum Go Medium    32.</description>
+    </item>
+    
+    <item>
+      <title>2.15 ✅ Bit Manipulation</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Bit_Manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Bit_Manipulation/</guid>
+      <description>Bit Manipulation #    Properties of XOR。Problem 136，Problem 268，Problem 389，Problem 421，  x ^ 0 = x x ^ 11111……1111 = ~x x ^ (~x) = 11111……1111 x ^ x = 0 a ^ b = c =&amp;gt; a ^ c = b =&amp;gt; b ^ c = a (commutative law) a ^ b ^ c = a ^ (b ^ c) = (a ^ b）^ c (associative law)  Construct a special Mask，put special positions as 0 or 1。  Clear the rightmost n bits of x， x &amp;amp; ( ~0 &amp;lt;&amp;lt; n ) Get the nth bit value of x(0 or 1)，(x &amp;gt;&amp;gt; n) &amp;amp; 1 Get the power value of the nth bit of x，x &amp;amp; (1 &amp;lt;&amp;lt; (n - 1)) Set only the nth bit to 1，x | (1 &amp;lt;&amp;lt; n) Set only the nth bit to 0，x &amp;amp; (~(1 &amp;lt;&amp;lt; n)) Clear from the most significant bit of x to the nth bit(inclusive)，x &amp;amp; ((1 &amp;lt;&amp;lt; n) - 1) Clear from the nth bit to the 0th bit(inclusive)，x &amp;amp; (~((1 &amp;lt;&amp;lt; (n + 1)) - 1)）  &amp;amp; bit operations with special meanings。Problem 260，Problem 201，Problem 318，Problem 371，Problem 397，Problem 461，Problem 693，  X &amp;amp; 1 == 1 determine whether it is odd(even) X &amp;amp; = (X - 1) clear the 1 in the least significant bit(LSB) X &amp;amp; -X get the 1 in the least significant bit(LSB) X &amp;amp; ~X = 0    No.</description>
+    </item>
+    
+    <item>
+      <title>2.16 ✅ Union Find</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Union_Find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Union_Find/</guid>
+      <description>Union Find #    Flexibly use the idea of union find, and be proficient with the union find template. There are two implementations of union find in the template: one is the path compression + union by rank version, and the other is the version that calculates the number of elements in each set + the number of elements in the largest set. Both versions have their own use cases.</description>
+    </item>
+    
+    <item>
+      <title>2.17 ✅ Sliding Window</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Sliding_Window/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Sliding_Window/</guid>
+      <description>Sliding Window #    The classic way to write a two-pointer sliding window. The right pointer keeps moving to the right until it can no longer move right (the specific condition depends on the problem). After the right pointer reaches the far right, start moving the left pointer to release the left boundary of the window. Problem 3, Problem 76, Problem 209, Problem 424, Problem 438, Problem 567, Problem 713, Problem 763, Problem 845, Problem 881, Problem 904, Problem 978, Problem 992, Problem 1004, Problem 1040, Problem 1052.</description>
+    </item>
+    
+    <item>
+      <title>2.18 ✅ Segment Tree</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Segment_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Segment_Tree/</guid>
+      <description>Segment Tree #    Classic array-based implementation of a segment tree. The pushUp logic for merging two nodes is abstracted out, so any operation can be implemented (common operations include addition, taking max, min, and so on). Problem 218, Problem 303, Problem 307, Problem 699. Classic implementation of a counting segment tree. Problem 315, Problem 327, Problem 493. Tree-based implementation of a segment tree. Problem 715, Problem 732. Lazy range update.</description>
+    </item>
+    
+    <item>
+      <title>2.19 ✅ Binary Indexed Tree</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Indexed_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Indexed_Tree/</guid>
+      <description>Binary Indexed Tree #      No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0218 The Skyline Problem Go Hard    41.9%   0307 Range Sum Query - Mutable Go Medium    40.7%   0315 Count of Smaller Numbers After Self Go Hard    42.6%   0327 Count of Range Sum Go Hard    35.</description>
+    </item>
+    
+  </channel>
+</rss>

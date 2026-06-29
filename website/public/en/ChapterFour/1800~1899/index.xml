@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1816.Truncate-Sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1816.Truncate-Sentence/</guid>
+      <description>1816. Truncate Sentence #  Problem #  A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each of the words consists of only uppercase and lowercase English letters (no punctuation).
+ For example, &amp;ldquo;Hello World&amp;rdquo;, &amp;ldquo;HELLO&amp;rdquo;, and &amp;ldquo;hello world hello world&amp;rdquo; are all sentences.  You are given a sentence s and an integer k. You want to truncate s such that it contains only the first k words.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1818.Minimum-Absolute-Sum-Difference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1818.Minimum-Absolute-Sum-Difference/</guid>
+      <description>1818. Minimum Absolute Sum Difference #  Problem #  You are given two positive integer arrays nums1 and nums2, both of length n.
+The absolute sum difference of arrays nums1 and nums2 is defined as the sum of |nums1[i] - nums2[i]| for each 0 &amp;lt;= i &amp;lt; n (0-indexed).
+You can replace at most one element of nums1 with any other element in nums1 to minimize the absolute sum difference.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1846.Maximum-Element-After-Decreasing-and-Rearranging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1846.Maximum-Element-After-Decreasing-and-Rearranging/</guid>
+      <description>1846. Maximum Element After Decreasing and Rearranging #  Problem #  You are given an array of positive integers arr. Perform some operations (possibly none) on arr so that it satisfies these conditions:
+ The value of the first element in arr must be 1. The absolute difference between any 2 adjacent elements must be less than or equal to 1. In other words, abs(arr[i] - arr[i - 1]) &amp;lt;= 1 for each i where 1 &amp;lt;= i &amp;lt; arr.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1800~1899/1877.Minimize-Maximum-Pair-Sum-in-Array/</guid>
+      <description>1877. Minimize Maximum Pair Sum in Array #  Problem #  The pair sum of a pair (a,b) is equal to a + b. The maximum pair sum is the largest pair sum in a list of pairs.
+ For example, if we have pairs (1,5), (2,3), and (4,4), the maximum pair sum would be max(1+5, 2+3, 4+4) = max(6, 5, 8) = 8.  Given an array nums of even length n, pair up the elements of nums into n / 2 pairs such that:</description>
+    </item>
+    
+  </channel>
+</rss>

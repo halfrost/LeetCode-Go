@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0901.Online-Stock-Span/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0901.Online-Stock-Span/</guid>
+      <description>901. Online Stock Span #  Problem #  Write a class StockSpanner which collects daily price quotes for some stock, and returns the span of that stock&amp;rsquo;s price for the current day.
+The span of the stock&amp;rsquo;s price today is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stock was less than or equal to today&amp;rsquo;s price.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0904.Fruit-Into-Baskets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0904.Fruit-Into-Baskets/</guid>
+      <description>904. Fruit Into Baskets #  Problem #  In a row of trees, the i-th tree produces fruit with type tree[i].
+You start at any tree of your choice, then repeatedly perform the following steps:
+ Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0907.Sum-of-Subarray-Minimums/</guid>
+      <description>907. Sum of Subarray Minimums #  Problem #  Given an array of integers A, find the sum of min(B), where B ranges over every (contiguous) subarray of A.
+Since the answer may be large, return the answer modulo 10^9 + 7.
+Example 1:
+ Input: [3,1,2,4] Output: 17 Explanation: Subarrays are [3], [1], [2], [4], [3,1], [1,2], [2,4], [3,1,2], [1,2,4], [3,1,2,4]. Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0909.Snakes-and-Ladders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0909.Snakes-and-Ladders/</guid>
+      <description>909. Snakes and Ladders #  Problem #  On an N x N board, the numbers from 1 to N*N are written boustrophedonically starting from the bottom left of the board, and alternating direction each row. For example, for a 6 x 6 board, the numbers are written as follows:
+ You start on square 1 of the board (which is always in the last row and first column). Each move, starting from square x, consists of the following:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0910.Smallest-Range-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0910.Smallest-Range-II/</guid>
+      <description>910. Smallest Range II #  Problem #  Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
+After this process, we have some array B.
+Return the smallest possible difference between the maximum value of B and the minimum value of B.
+Example 1:
+Input: A = [1], K = 0 Output: 0 Explanation: B = [1] Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0911.Online-Election/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0911.Online-Election/</guid>
+      <description>911. Online Election #  Problem #  In an election, the i-th vote was cast for persons[i] at time times[i].
+Now, we would like to implement the following query function: TopVotedCandidate.q(int t) will return the number of the person that was leading the election at time t.
+Votes cast at time t will count towards our query. In the case of a tie, the most recent vote (among tied candidates) wins.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0914.X-of-a-Kind-in-a-Deck-of-Cards/</guid>
+      <description>914. X of a Kind in a Deck of Cards #  Problem #  In a deck of cards, each card has an integer written on it.
+Return true if and only if you can choose X &amp;gt;= 2 such that it is possible to split the entire deck into 1 or more groups of cards, where:
+ Each group has exactly X cards. All the cards in each group have the same integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0916.Word-Subsets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0916.Word-Subsets/</guid>
+      <description>916. Word Subsets #  Problem #  We are given two arrays A and B of words. Each word is a string of lowercase letters.
+Now, say that word b is a subset of word a ****if every letter in b occurs in a, including multiplicity. For example, &amp;quot;wrr&amp;quot; is a subset of &amp;quot;warrior&amp;quot;, but is not a subset of &amp;quot;world&amp;quot;.
+Now say a word a from A is universal if for every b in B, b is a subset of a.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0918.Maximum-Sum-Circular-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0918.Maximum-Sum-Circular-Subarray/</guid>
+      <description>918. Maximum Sum Circular Subarray #  Problem #  Given a circular array C of integers represented by A, find the maximum possible sum of a non-empty subarray of C.
+Here, a circular array means the end of the array connects to the beginning of the array. (Formally, C[i] = A[i] when 0 &amp;lt;= i &amp;lt; A.length, and C[i+A.length] = C[i] when i &amp;gt;= 0.)
+Also, a subarray may only include each element of the fixed buffer A at most once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0920.Number-of-Music-Playlists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0920.Number-of-Music-Playlists/</guid>
+      <description>920. Number of Music Playlists #  Problem #  Your music player contains N different songs and she wants to listen to L ****(not necessarily different) songs during your trip. You create a playlist so that:
+ Every song is played at least once A song can only be played again only if K other songs have been played  Return the number of possible playlists. As the answer can be very large, return it modulo 10^9 + 7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0921.Minimum-Add-to-Make-Parentheses-Valid/</guid>
+      <description>921. Minimum Add to Make Parentheses Valid #  Problem #  Given a string S of &amp;lsquo;(&amp;rsquo; and &amp;lsquo;)&amp;rsquo; parentheses, we add the minimum number of parentheses ( &amp;lsquo;(&amp;rsquo; or &amp;lsquo;)&amp;rsquo;, and in any positions ) so that the resulting parentheses string is valid.
+Formally, a parentheses string is valid if and only if:
+ It is the empty string, or It can be written as AB (A concatenated with B), where A and B are valid strings, or It can be written as (A), where A is a valid string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0922.Sort-Array-By-Parity-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0922.Sort-Array-By-Parity-II/</guid>
+      <description>922. Sort Array By Parity II #  Problem #  Given an array A of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+Sort the array so that whenever A[i] is odd, i is odd; and whenever A[i] is even, i is even.
+You may return any answer array that satisfies this condition.
+Example 1:
+ Input: [4,2,5,7] Output: [4,5,2,7] Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0923.3Sum-With-Multiplicity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0923.3Sum-With-Multiplicity/</guid>
+      <description>923. 3Sum With Multiplicity #  Problem #  Given an integer array A, and an integer target, return the number of tuples i, j, k such that i &amp;lt; j &amp;lt; k and A[i] + A[j] + A[k] == target.
+As the answer can be very large, return it modulo 10^9 + 7.
+Example 1:
+ Input: A = [1,1,2,2,3,3,4,4,5,5], target = 8 Output: 20 Explanation: Enumerating by the values (A[i], A[j], A[k]): (1, 2, 5) occurs 8 times; (1, 3, 4) occurs 8 times; (2, 2, 4) occurs 2 times; (2, 3, 3) occurs 2 times.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0924.Minimize-Malware-Spread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0924.Minimize-Malware-Spread/</guid>
+      <description>924. Minimize Malware Spread #  Problem #  In a network of nodes, each node i is directly connected to another node j if and only if graph[i][j] = 1.
+Some nodes initial are initially infected by malware. Whenever two nodes are directly connected and at least one of those two nodes is infected by malware, both nodes will be infected by malware. This spread of malware will continue until no more nodes can be infected in this manner.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0925.Long-Pressed-Name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0925.Long-Pressed-Name/</guid>
+      <description>925. Long Pressed Name #  Problem #  Your friend is typing his name into a keyboard. Sometimes, when typing a character c, the key might get long pressed, and the character will be typed 1 or more times.
+You examine the typed characters of the keyboard. Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0927.Three-Equal-Parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0927.Three-Equal-Parts/</guid>
+      <description>927. Three Equal Parts #  Problem #  Given an array A of 0s and 1s, divide the array into 3 non-empty parts such that all of these parts represent the same binary value.
+If it is possible, return any [i, j] with i+1 &amp;lt; j, such that:
+ A[0], A[1], ..., A[i] is the first part; A[i+1], A[i+2], ..., A[j-1] is the second part, and A[j], A[j+1], ..., A[A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0928.Minimize-Malware-Spread-II/</guid>
+      <description>928. Minimize Malware Spread II #  Problem #  (This problem is the same as Minimize Malware Spread, with the differences bolded.)
+In a network of nodes, each node i is directly connected to another node j if and only if graph[i][j] = 1.
+Some nodes initial are initially infected by malware. Whenever two nodes are directly connected and at least one of those two nodes is infected by malware, both nodes will be infected by malware.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0930.Binary-Subarrays-With-Sum/</guid>
+      <description>930. Binary Subarrays With Sum #  Problem #  In an array A of 0s and 1s, how many non-empty subarrays have sum S?
+Example 1:
+ Input: A = [1,0,1,0,1], S = 2 Output: 4 Explanation: The 4 subarrays are bolded below: [1,0,1,0,1] [1,0,1,0,1] [1,0,1,0,1] [1,0,1,0,1] Note:
+ A.length &amp;lt;= 30000 0 &amp;lt;= S &amp;lt;= A.length A[i] is either 0 or 1.  Problem Summary #  Given an array whose elements are only 0 and 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0933.Number-of-Recent-Calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0933.Number-of-Recent-Calls/</guid>
+      <description>933. Number of Recent Calls #  Problem #  Write a class RecentCounter to count recent requests.
+It has only one method: ping(int t), where t represents some time in milliseconds.
+Return the number of pings that have been made from 3000 milliseconds ago until now.
+Any ping with time in [t - 3000, t] will count, including the current ping.
+It is guaranteed that every call to ping uses a strictly larger value of t than before.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0938.Range-Sum-of-BST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0938.Range-Sum-of-BST/</guid>
+      <description>938. Range Sum of BST #  Problem #  Given the root node of a binary search tree, return the sum of values of all nodes with a value in the range [low, high].
+Example 1:
+ Input: root = [10,5,15,3,7,null,18], low = 7, high = 15 Output: 32 Example 2:
+ Input: root = [10,5,15,3,7,13,18,1,null,6], low = 6, high = 10 Output: 23 Constraints:
+ The number of nodes in the tree is in the range [1, 2 * 10^4].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0942.DI-String-Match/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0942.DI-String-Match/</guid>
+      <description>942. DI String Match #  Problem #  Given a string S that only contains &amp;ldquo;I&amp;rdquo; (increase) or &amp;ldquo;D&amp;rdquo; (decrease), let N = S.length.
+Return any permutation A of [0, 1, ..., N] such that for all i = 0, ..., N-1:
+ If S[i] == &amp;quot;I&amp;quot;, then A[i] &amp;lt; A[i+1] If S[i] == &amp;quot;D&amp;quot;, then A[i] &amp;gt; A[i+1]  Example 1:
+Input: &amp;quot;IDID&amp;quot; Output: [0,4,1,3,2]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0946.Validate-Stack-Sequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0946.Validate-Stack-Sequences/</guid>
+      <description>946. Validate Stack Sequences #  Problem #  Given two sequences pushed and popped with distinct values, return true if and only if this could have been the result of a sequence of push and pop operations on an initially empty stack.
+Example 1:
+ Input: pushed = [1,2,3,4,5], popped = [4,5,3,2,1] Output: true Explanation: We might do the following sequence: push(1), push(2), push(3), push(4), pop() -&amp;gt; 4, push(5), pop() -&amp;gt; 5, pop() -&amp;gt; 3, pop() -&amp;gt; 2, pop() -&amp;gt; 1 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0947.Most-Stones-Removed-with-Same-Row-or-Column/</guid>
+      <description>947. Most Stones Removed with Same Row or Column #  Problem #  On a 2D plane, we place stones at some integer coordinate points. Each coordinate point may have at most one stone.
+Now, a move consists of removing a stone that shares a column or row with another stone on the grid.
+What is the largest possible number of moves we can make?
+Example 1:
+Input: stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]] Output: 5  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0949.Largest-Time-for-Given-Digits/</guid>
+      <description>949. Largest Time for Given Digits #  Problem #  Given an array of 4 digits, return the largest 24 hour time that can be made.
+The smallest 24 hour time is 00:00, and the largest is 23:59. Starting from 00:00, a time is larger if more time has elapsed since midnight.
+Return the answer as a string of length 5. If no valid time can be made, return an empty string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0952.Largest-Component-Size-by-Common-Factor/</guid>
+      <description>952. Largest Component Size by Common Factor #  Problem #  Given a non-empty array of unique positive integers A, consider the following graph:
+ There are A.length nodes, labelled A[0] to A[A.length - 1]; There is an edge between A[i] and A[j] if and only if A[i]and A[j] share a common factor greater than 1.  Return the size of the largest connected component in the graph.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0953.Verifying-an-Alien-Dictionary/</guid>
+      <description>953. Verifying an Alien Dictionary #  Problem #  In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The orderof the alphabet is some permutation of lowercase letters.
+Given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographicaly in this alien language.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0958.Check-Completeness-of-a-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0958.Check-Completeness-of-a-Binary-Tree/</guid>
+      <description>958. Check Completeness of a Binary Tree #  Problem #  Given the root of a binary tree, determine if it is a complete binary tree.
+In a  complete binary tree, every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0959.Regions-Cut-By-Slashes/</guid>
+      <description>959. Regions Cut By Slashes #  Problem #  In a N x N grid composed of 1 x 1 squares, each 1 x 1 square consists of a /, \, or blank space. These characters divide the square into contiguous regions.
+(Note that backslash characters are escaped, so a \ is represented as &amp;quot;\\&amp;quot;.)
+Return the number of regions.
+Example 1:
+Input: [ &amp;quot; /&amp;quot;, &amp;quot;/ &amp;quot; ] Output: 2 Explanation: The 2x2 grid is as follows:   Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0961.N-Repeated-Element-in-Size-2N-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0961.N-Repeated-Element-in-Size-2N-Array/</guid>
+      <description>961. N-Repeated Element in Size 2N Array #  Problem #  In a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
+Return the element repeated N times.
+Example 1:
+Input: [1,2,3,3] Output: 3  Example 2:
+Input: [2,1,2,5,3,2] Output: 2  Example 3:
+Input: [5,1,5,2,5,3,5,4] Output: 5  Note:
+ 4 &amp;lt;= A.length &amp;lt;= 10000 0 &amp;lt;= A[i] &amp;lt; 10000 A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0966.Vowel-Spellchecker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0966.Vowel-Spellchecker/</guid>
+      <description>966. Vowel Spellchecker #  Problem #  Given a wordlist, we want to implement a spellchecker that converts a query word into a correct word.
+For a given query word, the spell checker handles two categories of spelling mistakes:
+ Capitalization: If the query matches a word in the wordlist (case-insensitive), then the query word is returned with the same case as the case in the wordlist.  Example: wordlist = [&amp;quot;yellow&amp;quot;], query = &amp;quot;YellOw&amp;quot;: correct = &amp;quot;yellow&amp;quot; Example: wordlist = [&amp;quot;Yellow&amp;quot;], query = &amp;quot;yellow&amp;quot;: correct = &amp;quot;Yellow&amp;quot; Example: wordlist = [&amp;quot;yellow&amp;quot;], query = &amp;quot;yellow&amp;quot;: correct = &amp;quot;yellow&amp;quot;   Vowel Errors: If after replacing the vowels (&amp;lsquo;a&amp;rsquo;, &amp;lsquo;e&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;u&amp;rsquo;) of the query word with any vowel individually, it matches a word in the wordlist (case-insensitive), then the query word is returned with the same case as the match in the wordlist.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0968.Binary-Tree-Cameras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0968.Binary-Tree-Cameras/</guid>
+      <description>968. Binary Tree Cameras #  Problem #  Given a binary tree, we install cameras on the nodes of the tree.
+Each camera at a node can monitor its parent, itself, and its immediate children.
+Calculate the minimum number of cameras needed to monitor all nodes of the tree.
+Example 1:
+ Input: [0,0,null,0,0] Output: 1 Explanation: One camera is enough to monitor all nodes if placed as shown.  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0969.Pancake-Sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0969.Pancake-Sorting/</guid>
+      <description>969. Pancake Sorting #  Problem #  Given an array A, we can perform a pancake flip: We choose some positive integer k &amp;lt;= A.length, then reverse the order of the first k elements of A. We want to perform zero or more pancake flips (doing them one after another in succession) to sort the array A.
+Return the k-values corresponding to a sequence of pancake flips that sort A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0970.Powerful-Integers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0970.Powerful-Integers/</guid>
+      <description>970. Powerful Integers #  Problem #  Given two positive integers x and y, an integer is powerful if it is equal to x^i + y^j for some integers i &amp;gt;= 0 and j &amp;gt;= 0.
+Return a list of all powerful integers that have value less than or equal to bound.
+You may return the answer in any order. In your answer, each value should occur at most once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0971.Flip-Binary-Tree-To-Match-Preorder-Traversal/</guid>
+      <description>971. Flip Binary Tree To Match Preorder Traversal #  Problem #  You are given the root of a binary tree with n nodes, where each node is uniquely assigned a value from 1 to n. You are also given a sequence of n values voyage, which is the desired  pre-order traversal of the binary tree.
+Any node in the binary tree can be flipped by swapping its left and right subtrees.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0973.K-Closest-Points-to-Origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0973.K-Closest-Points-to-Origin/</guid>
+      <description>973. K Closest Points to Origin #  Problem #  We have a list of points on the plane. Find the K closest points to the origin (0, 0).
+(Here, the distance between two points on a plane is the Euclidean distance.)
+You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in.)
+Example 1:
+ Input: points = [[1,3],[-2,2]], K = 1 Output: [[-2,2]] Explanation: The distance between (1, 3) and the origin is sqrt(10).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0975.Odd-Even-Jump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0975.Odd-Even-Jump/</guid>
+      <description>975. Odd Even Jump #  Problem #  You are given an integer array arr. From some starting index, you can make a series of jumps. The (1^st, 3^rd, 5^th, &amp;hellip;) jumps in the series are called odd-numbered jumps , and the (2^nd, 4^th, 6^th, &amp;hellip;) jumps in the series are called even-numbered jumps. Note that the jumps are numbered, not the indices.
+You may jump forward from index i to index j (with i &amp;lt; j) in the following way:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0976.Largest-Perimeter-Triangle/</guid>
+      <description>976. Largest Perimeter Triangle #  Problem #  Given an array A of positive lengths, return the largest perimeter of a triangle with non-zero area, formed from 3 of these lengths.
+If it is impossible to form any triangle of non-zero area, return 0.
+Example 1:
+ Input: [2,1,2] Output: 5 Example 2:
+ Input: [1,2,1] Output: 0 Example 3:
+ Input: [3,2,3,4] Output: 10 Example 4:
+ Input: [3,6,2,3] Output: 8 Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0977.Squares-of-a-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0977.Squares-of-a-Sorted-Array/</guid>
+      <description>977. Squares of a Sorted Array #  Problem #  Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
+Example 1:
+ Input: [-4,-1,0,3,10] Output: [0,1,9,16,100] Example 2:
+ Input: [-7,-3,2,3,11] Output: [4,9,9,49,121] Note:
+ 1 &amp;lt;= A.length &amp;lt;= 10000 -10000 &amp;lt;= A[i] &amp;lt;= 10000 A is sorted in non-decreasing order.  Problem Summary #  Given an already sorted array, the returned array must also be sorted, and each element in the array is obtained by squaring each number in the original array.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0978.Longest-Turbulent-Subarray/</guid>
+      <description>978. Longest Turbulent Subarray #  Problem #  A subarray A[i], A[i+1], ..., A[j] of A is said to be turbulent if and only if:
+ For i &amp;lt;= k &amp;lt; j, A[k] &amp;gt; A[k+1] when k is odd, and A[k] &amp;lt; A[k+1] when k is even; OR, for i &amp;lt;= k &amp;lt; j, A[k] &amp;gt; A[k+1] when k is even, and A[k] &amp;lt; A[k+1] when k is odd.  That is, the subarray is turbulent if the comparison sign flips between each adjacent pair of elements in the subarray.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0979.Distribute-Coins-in-Binary-Tree/</guid>
+      <description>979. Distribute Coins in Binary Tree #  Problem #  Given the root of a binary tree with N nodes, each node in the tree has node.val coins, and there are N coins total.
+In one move, we may choose two adjacent nodes and move one coin from one node to another. (The move may be from parent to child, or from child to parent.)
+Return the number of moves required to make every node have exactly one coin.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0980.Unique-Paths-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0980.Unique-Paths-III/</guid>
+      <description>980. Unique Paths III #  Problem #  On a 2-dimensional grid, there are 4 types of squares:
+ 1 represents the starting square. There is exactly one starting square. 2 represents the ending square. There is exactly one ending square. 0 represents empty squares we can walk over. -1 represents obstacles that we cannot walk over.  Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0981.Time-Based-Key-Value-Store/</guid>
+      <description>981. Time Based Key-Value Store #  Problem #  Create a timebased key-value store class TimeMap, that supports two operations.
+1. set(string key, string value, int timestamp)
+ Stores the key and value, along with the given timestamp.  2. get(string key, int timestamp)
+ Returns a value such that set(key, value, timestamp_prev) was called previously, with timestamp_prev &amp;lt;= timestamp. If there are multiple such values, it returns the one with the largest timestamp_prev.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0984.String-Without-AAA-or-BBB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0984.String-Without-AAA-or-BBB/</guid>
+      <description>984. String Without AAA or BBB #  Problem #  Given two integers A and B, return any string S such that:
+ S has length A + B and contains exactly A &#39;a&#39; letters, and exactly B &#39;b&#39;letters; The substring &#39;aaa&#39; does not occur in S; The substring &#39;bbb&#39; does not occur in S.  Example 1:
+Input: A = 1, B = 2 Output: &amp;quot;abb&amp;quot; Explanation: &amp;quot;abb&amp;quot;, &amp;quot;bab&amp;quot; and &amp;quot;bba&amp;quot; are all correct answers.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0985.Sum-of-Even-Numbers-After-Queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0985.Sum-of-Even-Numbers-After-Queries/</guid>
+      <description>985. Sum of Even Numbers After Queries #  Problem #  We have an array A of integers, and an array queries of queries.
+For the i-th query val = queries[i][0], index = queries[i][1], we add val to A[index]. Then, the answer to the i-th query is the sum of the even values of A.
+(Here, the given index = queries[i][1] is a 0-based index, and each query permanently modifies the array A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0986.Interval-List-Intersections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0986.Interval-List-Intersections/</guid>
+      <description>986. Interval List Intersections #  Problem #  Given two lists of closed intervals, each list of intervals is pairwise disjoint and in sorted order.
+Return the intersection of these two interval lists.
+(Formally, a closed interval [a, b] (with a &amp;lt;= b) denotes the set of real numbers x with a &amp;lt;= x &amp;lt;= b. The intersection of two closed intervals is a set of real numbers that is either empty, or can be represented as a closed interval.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0987.Vertical-Order-Traversal-of-a-Binary-Tree/</guid>
+      <description>987. Vertical Order Traversal of a Binary Tree #  Problem #  Given the root of a binary tree, calculate the vertical order traversal of the binary tree.
+For each node at position (row, col), its left and right children will be at positions (row + 1, col - 1) and (row + 1, col + 1) respectively. The root of the tree is at (0, 0).
+The vertical order traversal of a binary tree is a list of top-to-bottom orderings for each column index starting from the leftmost column and ending on the rightmost column.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0989.Add-to-Array-Form-of-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0989.Add-to-Array-Form-of-Integer/</guid>
+      <description>989. Add to Array-Form of Integer #  Problem #  For a non-negative integer X, the array-form of X is an array of its digits in left to right order. For example, if X = 1231, then the array form is [1,2,3,1].
+Given the array-form A of a non-negative integer X, return the array-form of the integer X+K.
+Example 1:
+Input: A = [1,2,0,0], K = 34 Output: [1,2,3,4] Explanation: 1200 + 34 = 1234 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0990.Satisfiability-of-Equality-Equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0990.Satisfiability-of-Equality-Equations/</guid>
+      <description>990. Satisfiability of Equality Equations #  Problem #  Given an array equations of strings that represent relationships between variables, each string equations[i] has length 4 and takes one of two different forms: &amp;quot;a==b&amp;quot; or &amp;quot;a!=b&amp;quot;. Here, a and b are lowercase letters (not necessarily different) that represent one-letter variable names.
+Return true if and only if it is possible to assign integers to variable names so as to satisfy all the given equations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0991.Broken-Calculator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0991.Broken-Calculator/</guid>
+      <description>991. Broken Calculator #  Problem #  On a broken calculator that has a number showing on its display, we can perform two operations:
+ Double: Multiply the number on the display by 2, or; Decrement: Subtract 1 from the number on the display.  Initially, the calculator is displaying the number X.
+Return the minimum number of operations needed to display the number Y.
+Example 1:
+Input: X = 2, Y = 3 Output: 2 Explanation: Use double operation and then decrement operation {2 -&amp;gt; 4 -&amp;gt; 3}.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0992.Subarrays-with-K-Different-Integers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0992.Subarrays-with-K-Different-Integers/</guid>
+      <description>992. Subarrays with K Different Integers #  Problem #  Given an array A of positive integers, call a (contiguous, not necessarily distinct) subarray of A good if the number of different integers in that subarray is exactly K.
+(For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.)
+Return the number of good subarrays of A.
+Example 1:
+ Input: A = [1,2,1,2,3], K = 2 Output: 7 Explanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0993.Cousins-in-Binary-Tree/</guid>
+      <description>993. Cousins in Binary Tree #  Problem #  In a binary tree, the root node is at depth 0, and children of each depth k node are at depth k+1.
+Two nodes of a binary tree are cousins if they have the same depth, but have different parents.
+We are given the root of a binary tree with unique values, and the values x and y of two different nodes in the tree.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0995.Minimum-Number-of-K-Consecutive-Bit-Flips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0995.Minimum-Number-of-K-Consecutive-Bit-Flips/</guid>
+      <description>995. Minimum Number of K Consecutive Bit Flips #  Problem #  In an array A containing only 0s and 1s, a K-bit flip consists of choosing a (contiguous) subarray of length K and simultaneously changing every 0 in the subarray to 1, and every 1 in the subarray to 0.
+Return the minimum number of K-bit flips required so that there is no 0 in the array. If it is not possible, return -1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0996.Number-of-Squareful-Arrays/</guid>
+      <description>996. Number of Squareful Arrays #  Problem #  Given an array A of non-negative integers, the array is squareful if for every pair of adjacent elements, their sum is a perfect square.
+Return the number of permutations of A that are squareful. Two permutations A1 and A2 differ if and only if there is some index i such that A1[i] != A2[i].
+Example 1:
+Input: [1,17,8] Output: 2 Explanation: [1,8,17] and [17,8,1] are the valid permutations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0997.Find-the-Town-Judge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0997.Find-the-Town-Judge/</guid>
+      <description>997. Find the Town Judge #  Problem #  In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
+If the town judge exists, then:
+ The town judge trusts nobody. Everybody (except for the town judge) trusts the town judge. There is exactly one person that satisfies properties 1 and 2.  You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0999.Available-Captures-for-Rook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0900~0999/0999.Available-Captures-for-Rook/</guid>
+      <description>999. Available Captures for Rook #  Problem #  On an 8 x 8 chessboard, there is one white rook. There also may be empty squares, white bishops, and black pawns. These are given as characters &amp;lsquo;R&amp;rsquo;, &amp;lsquo;.&amp;rsquo;, &amp;lsquo;B&amp;rsquo;, and &amp;lsquo;p&amp;rsquo; respectively. Uppercase characters represent white pieces, and lowercase characters represent black pieces.
+The rook moves as in the rules of Chess: it chooses one of four cardinal directions (north, east, west, and south), then moves in that direction until it chooses to stop, reaches the edge of the board, or captures an opposite colored pawn by moving to the same square it occupies.</description>
+    </item>
+    
+  </channel>
+</rss>

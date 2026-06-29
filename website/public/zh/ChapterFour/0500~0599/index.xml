@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0500.Keyboard-Row/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0500.Keyboard-Row/</guid>
+      <description>500. Keyboard Row #  题目 #  Given a List of words, return the words that can be typed using letters of alphabet on only one row&amp;rsquo;s of American keyboard like the image below.
+ Example:
+Input: [&amp;quot;Hello&amp;quot;, &amp;quot;Alaska&amp;quot;, &amp;quot;Dad&amp;quot;, &amp;quot;Peace&amp;quot;] Output: [&amp;quot;Alaska&amp;quot;, &amp;quot;Dad&amp;quot;]  Note:
+ You may use one character in the keyboard more than once. You may assume the input string will only contain letters of alphabet.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0503.Next-Greater-Element-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0503.Next-Greater-Element-II/</guid>
+      <description>503. Next Greater Element II #  题目 #  Given a circular array (the next element of the last element is the first element of the array), print the Next Greater Number for every element. The Next Greater Number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn&amp;rsquo;t exist, output -1 for this number.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0504.Base-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0504.Base-7/</guid>
+      <description>504. Base 7 #  题目 #  Given an integer num, return a string of its base 7 representation.
+Example 1:
+Input: num = 100 Output: &amp;quot;202&amp;quot;  Example 2:
+Input: num = -7 Output: &amp;quot;-10&amp;quot;  Constraints:
+ -10000000 &amp;lt;= num &amp;lt;= 10000000  题目大意 #  给定一个整数 num，将其转化为 7 进制，并以字符串形式输出。
+解题思路 #  num反复除以7，然后倒排余数  代码 #  package leetcode import &amp;#34;strconv&amp;#34; func convertToBase7(num int) string { if num == 0 { return &amp;#34;0&amp;#34; } negative := false if num &amp;lt; 0 { negative = true num = -num } var ans string var nums []int for num !</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0506.Relative-Ranks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0506.Relative-Ranks/</guid>
+      <description>506. Relative Ranks #  题目 #  You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.
+The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0507.Perfect-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0507.Perfect-Number/</guid>
+      <description>507. Perfect Number #  题目 #  We define the Perfect Number is a positive integer that is equal to the sum of all its positive divisors except itself.
+Now, given an
+integer
+n, write a function that returns true when it is a perfect number and false when it is not.
+Example:
+Input: 28 Output: True Explanation: 28 = 1 + 2 + 4 + 7 + 14 Note: The input number n will not exceed 100,000,000.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0508.Most-Frequent-Subtree-Sum/</guid>
+      <description>508. Most Frequent Subtree Sum #  题目 #  Given the root of a tree, you are asked to find the most frequent subtree sum. The subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself). So what is the most frequent subtree sum value? If there is a tie, return all the values with the highest frequency in any order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0509.Fibonacci-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0509.Fibonacci-Number/</guid>
+      <description>509. Fibonacci Number #  题目 #  The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+F(0) = 0, F(1) = 1 F(N) = F(N - 1) + F(N - 2), for N &amp;gt; 1.  Given N, calculate F(N).
+Example 1:
+Input: 2 Output: 1 Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0513.Find-Bottom-Left-Tree-Value/</guid>
+      <description>513. Find Bottom Left Tree Value #  题目 #  Given a binary tree, find the leftmost value in the last row of the tree.
+Example 1:
+Input: 2 / \ 1 3 Output: 1  Example 2:
+Input: 1 / \ 2 3 / / \ 4 5 6 / 7 Output: 7  Note: You may assume the tree (i.e., the given root node) is not NULL.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0515.Find-Largest-Value-in-Each-Tree-Row/</guid>
+      <description>515. Find Largest Value in Each Tree Row #  题目 #  You need to find the largest value in each row of a binary tree.
+Example:
+Input: 1 / \ 3 2 / \ \ 5 3 9 Output: [1, 3, 9]  题目大意 #  求在二叉树的每一行中找到最大的值。
+解题思路 #   给出一个二叉树，要求依次输出每行的最大值 用 BFS 层序遍历，将每层排序取出最大值。改进的做法是遍历中不断更新每层的最大值。  代码 #  package leetcode import ( &amp;#34;math&amp;#34; &amp;#34;sort&amp;#34; ) /** * Definition for a binary tree node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0518.Coin-Change-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0518.Coin-Change-II/</guid>
+      <description>518. Coin Change II #  题目 #  You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
+Return the number of combinations that make up that amount. If that amount of money cannot be made up by any combination of the coins, return 0.
+You may assume that you have an infinite number of each kind of coin.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0519.Random-Flip-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0519.Random-Flip-Matrix/</guid>
+      <description>519. Random Flip Matrix #  题目 #  There is an m x n binary grid matrix with all the values set 0 initially. Design an algorithm to randomly pick an index (i, j) where matrix[i][j] == 0 and flips it to 1. All the indices (i, j) where matrix[i][j] == 0 should be equally likely to be returned.
+Optimize your algorithm to minimize the number of calls made to the built-in random function of your language and optimize the time and space complexity.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0520.Detect-Capital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0520.Detect-Capital/</guid>
+      <description>520. Detect Capital #  题目 #  We define the usage of capitals in a word to be right when one of the following cases holds:
+All letters in this word are capitals, like &amp;ldquo;USA&amp;rdquo;.
+All letters in this word are not capitals, like &amp;ldquo;leetcode&amp;rdquo;.
+Only the first letter in this word is capital, like &amp;ldquo;Google&amp;rdquo;.
+Given a string word, return true if the usage of capitals in it is right.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0523.Continuous-Subarray-Sum/</guid>
+      <description>523. Continuous Subarray Sum #  题目 #  Given an integer array nums and an integer k, return true if nums has a continuous subarray of size at least two whose elements sum up to a multiple of k*, or* false *otherwise*.
+An integer x is a multiple of k if there exists an integer n such that x = n * k. 0 is always a multiple of k.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0524.Longest-Word-in-Dictionary-through-Deleting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0524.Longest-Word-in-Dictionary-through-Deleting/</guid>
+      <description>524. Longest Word in Dictionary through Deleting #  题目 #  Given a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.
+Example 1:
+ Input: s = &amp;quot;abpcplea&amp;quot;, d = [&amp;quot;ale&amp;quot;,&amp;quot;apple&amp;quot;,&amp;quot;monkey&amp;quot;,&amp;quot;plea&amp;quot;] Output: &amp;quot;apple&amp;quot; Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0525.Contiguous-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0525.Contiguous-Array/</guid>
+      <description>525. Contiguous Array #  题目 #  Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
+Example 1:
+Input: nums = [0,1] Output: 2 Explanation: [0, 1] is the longest contiguous subarray with an equal number of 0 and 1. Example 2:
+Input: nums = [0,1,0] Output: 2 Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0526.Beautiful-Arrangement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0526.Beautiful-Arrangement/</guid>
+      <description>526. Beautiful Arrangement #  题目 #  Suppose you have N integers from 1 to N. We define a beautiful arrangement as an array that is constructed by these N numbers successfully if one of the following is true for the ith position (1 &amp;lt;= i &amp;lt;= N) in this array:
+ The number at the i position is divisible by i.th i is divisible by the number at the i position.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0528.Random-Pick-with-Weight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0528.Random-Pick-with-Weight/</guid>
+      <description>528. Random Pick with Weight #  题目 #  Given an array w of positive integers, where w[i] describes the weight of index i, write a function pickIndex which randomly picks an index in proportion to its weight.
+Note:
+ 1 &amp;lt;= w.length &amp;lt;= 10000 1 &amp;lt;= w[i] &amp;lt;= 10^5 pickIndex will be called at most 10000 times.  Example 1:
+Input: [&amp;quot;Solution&amp;quot;,&amp;quot;pickIndex&amp;quot;] [[[1]],[]] Output: [null,0]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0529.Minesweeper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0529.Minesweeper/</guid>
+      <description>529. Minesweeper #  题目 #  Let&amp;rsquo;s play the minesweeper game ( Wikipedia, online game)!
+You are given a 2D char matrix representing the game board. &amp;lsquo;M&amp;rsquo; represents an unrevealed mine, &amp;lsquo;E&amp;rsquo; represents an unrevealed empty square, &amp;lsquo;B&amp;rsquo; represents a revealed blank square that has no adjacent (above, below, left, right, and all 4 diagonals) mines, digit (&amp;lsquo;1&amp;rsquo; to &amp;lsquo;8&amp;rsquo;) represents how many mines are adjacent to this revealed square, and finally &amp;lsquo;X&amp;rsquo; represents a revealed mine.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0530.Minimum-Absolute-Difference-in-BST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0530.Minimum-Absolute-Difference-in-BST/</guid>
+      <description>530. Minimum Absolute Difference in BST #  题目 #  Given a binary search tree with non-negative values, find the minimum absolute difference between values of any two nodes.
+Example:
+Input: 1 \ 3 / 2 Output: 1 Explanation: The minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3). Note:
+ There are at least two nodes in this BST. This question is the same as 783: https://leetcode.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0532.K-diff-Pairs-in-an-Array/</guid>
+      <description>532. K-diff Pairs in an Array #  题目 #  Given an array of integers and an integer k, you need to find the number of unique k-diff pairs in the array. Here a k-diff pair is defined as an integer pair (i, j), where i and j are both numbers in the array and their absolute difference is k.
+Example 1:
+ Input: [3, 1, 4, 1, 5], k = 2 Output: 2 Explanation: There are two 2-diff pairs in the array, (1, 3) and (3, 5).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0535.Encode-and-Decode-TinyURL/</guid>
+      <description>535. Encode and Decode TinyURL #  题目 #   Note: This is a companion problem to the System Design problem: Design TinyURL.
+ TinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk.
+Design the encode and decode methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0537.Complex-Number-Multiplication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0537.Complex-Number-Multiplication/</guid>
+      <description>537. Complex Number Multiplication #  题目 #  Given two strings representing two complex numbers.
+You need to return a string representing their multiplication. Note i2 = -1 according to the definition.
+Example 1:
+Input: &amp;quot;1+1i&amp;quot;, &amp;quot;1+1i&amp;quot; Output: &amp;quot;0+2i&amp;quot; Explanation: (1 + i) * (1 + i) = 1 + i2 + 2 * i = 2i, and you need convert it to the form of 0+2i. Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0538.Convert-BST-to-Greater-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0538.Convert-BST-to-Greater-Tree/</guid>
+      <description>538. Convert BST to Greater Tree #  题目 #  Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.
+As a reminder, a binary search tree is a tree that satisfies these constraints:
+ The left subtree of a node contains only nodes with keys less than the node&amp;rsquo;s key.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0540.Single-Element-in-a-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0540.Single-Element-in-a-Sorted-Array/</guid>
+      <description>540. Single Element in a Sorted Array #  题目 #  You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
+Return the single element that appears only once.
+Your solution must run in O(log n) time and O(1) space.
+Example 1:
+Input: nums = [1,1,2,3,3,4,4,8,8] Output: 2  Example 2:
+Input: nums = [3,3,7,7,10,11,11] Output: 10  Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0541.Reverse-String-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0541.Reverse-String-II/</guid>
+      <description>541. Reverse String II #  题目 #  Given a string and an integer k, you need to reverse the first k characters for every 2k characters counting from the start of the string. If there are less than k characters left, reverse all of them. If there are less than 2k but greater than or equal to k characters, then reverse the first k characters and left the other as original.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0542.01-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0542.01-Matrix/</guid>
+      <description>542. 01 Matrix #  题目 #  Given a matrix consists of 0 and 1, find the distance of the nearest 0 for each cell.
+The distance between two adjacent cells is 1.
+Example 1:
+Input: [[0,0,0], [0,1,0], [0,0,0]] Output: [[0,0,0], [0,1,0], [0,0,0]]  Example 2:
+Input: [[0,0,0], [0,1,0], [1,1,1]] Output: [[0,0,0], [0,1,0], [1,2,1]]  Note:
+ The number of elements of the given matrix will not exceed 10,000. There are at least one 0 in the given matrix.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0543.Diameter-of-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0543.Diameter-of-Binary-Tree/</guid>
+      <description>543. Diameter of Binary Tree #  题目 #  Given the root of a binary tree, return the length of the diameter of the tree.
+The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+The length of a path between two nodes is represented by the number of edges between them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0547.Number-of-Provinces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0547.Number-of-Provinces/</guid>
+      <description>547. Number of Provinces #  题目 #  There are N students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a direct friend of B, and B is a directfriend of C, then A is an indirect friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0551.Student-Attendance-Record-I/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0551.Student-Attendance-Record-I/</guid>
+      <description>551. Student Attendance Record I #  题目 #  You are given a string s representing an attendance record for a student where each character signifies whether the student was absent, late, or present on that day. The record only contains the following three characters:
+ &#39;A&#39;: Absent. &#39;L&#39;: Late. &#39;P&#39;: Present.  The student is eligible for an attendance award if they meet both of the following criteria:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0554.Brick-Wall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0554.Brick-Wall/</guid>
+      <description>554. Brick Wall #  题目 #  There is a rectangular brick wall in front of you with n rows of bricks. The ith row has some number of bricks each of the same height (i.e., one unit) but they can be of different widths. The total width of each row is the same.
+Draw a vertical line from the top to the bottom and cross the least bricks. If your line goes through the edge of a brick, then the brick is not considered as crossed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0557.Reverse-Words-in-a-String-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0557.Reverse-Words-in-a-String-III/</guid>
+      <description>557. Reverse Words in a String III #  题目 #  Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+Example 1:
+Input: &amp;quot;Let&#39;s take LeetCode contest&amp;quot; Output: &amp;quot;s&#39;teL ekat edoCteeL tsetnoc&amp;quot;  Note: In the string, each word is separated by single space and there will not be any extra space in the string.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0559.Maximum-Depth-of-N-ary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0559.Maximum-Depth-of-N-ary-Tree/</guid>
+      <description>559. Maximum Depth of N-ary Tree #  题目 #  Given a n-ary tree, find its maximum depth.
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+Example 1:
+ Input: root = [1,null,3,2,4,null,5,6] Output: 3  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0560.Subarray-Sum-Equals-K/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0560.Subarray-Sum-Equals-K/</guid>
+      <description>560. Subarray Sum Equals K #  题目 #  Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+Example 1:
+Input: nums = [1,1,1], k = 2 Output: 2 Example 2:
+Input: nums = [1,2,3], k = 3 Output: 2 Constraints:
+ 1 &amp;lt;= nums.length &amp;lt;= 2 * 104 -1000 &amp;lt;= nums[i] &amp;lt;= 1000 -10^7 &amp;lt;= k &amp;lt;= 10^7  题目大意 #  给你一个整数数组 nums 和一个整数 k ，请你统计并返回该数组中和为 k ****的连续子数组的个数。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0561.Array-Partition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0561.Array-Partition/</guid>
+      <description>561. Array Partition #  题目 #  Given an array of 2n integers, your task is to group these integers into n pairs of integer, say (a1, b1), (a2, b2), &amp;hellip;, (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
+Example 1:
+Input: [1,4,3,2] Output: 4 Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0563.Binary-Tree-Tilt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0563.Binary-Tree-Tilt/</guid>
+      <description>563. Binary Tree Tilt #  题目 #  Given a binary tree, return the tilt of the whole tree.
+The tilt of a tree node is defined as the absolute difference between the sum of all left subtree node values and the sum of all right subtree node values. Null node has tilt 0.
+The tilt of the whole tree is defined as the sum of all nodes&amp;rsquo; tilt.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0566.Reshape-the-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0566.Reshape-the-Matrix/</guid>
+      <description>566. Reshape the Matrix #  题目 #  In MATLAB, there is a very useful function called &amp;lsquo;reshape&amp;rsquo;, which can reshape a matrix into a new one with different size but keep its original data.
+You&amp;rsquo;re given a matrix represented by a two-dimensional array, and two positive integers r and crepresenting the row number and column number of the wanted reshaped matrix, respectively.
+The reshaped matrix need to be filled with all the elements of the original matrix in the same row-traversing order as they were.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0567.Permutation-in-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0567.Permutation-in-String/</guid>
+      <description>567. Permutation in String #  题目 #  Given two strings s1 and s2, write a function to return true if s2 contains the permutation of s1. In other words, one of the first string&amp;rsquo;s permutations is the substring of the second string.
+Example 1:
+ Input:s1 = &amp;quot;ab&amp;quot; s2 = &amp;quot;eidbaooo&amp;quot; Output:True Explanation: s2 contains one permutation of s1 (&amp;quot;ba&amp;quot;). Example 2:
+ Input:s1= &amp;quot;ab&amp;quot; s2 = &amp;quot;eidboaoo&amp;quot; Output: False Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0572.Subtree-of-Another-Tree/</guid>
+      <description>572. Subtree of Another Tree #  题目 #  Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node&amp;rsquo;s descendants. The tree s could also be considered as a subtree of itself.
+Example 1:
+Given tree s:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0575.Distribute-Candies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0575.Distribute-Candies/</guid>
+      <description>575. Distribute Candies #  题目 #  Given an integer array with even length, where different numbers in this array represent different kinds of candies. Each number means one candy of the corresponding kind. You need to distribute these candies equally in number to brother and sister. Return the maximum number of kinds of candies the sister could gain.
+Example 1:
+Input: candies = [1,1,2,2,3,3] Output: 3 Explanation: There are three different kinds of candies (1, 2 and 3), and two candies for each kind.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0576.Out-of-Boundary-Paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0576.Out-of-Boundary-Paths/</guid>
+      <description>576. Out of Boundary Paths #  题目 #  There is an m x n grid with a ball. The ball is initially at the position [startRow, startColumn]. You are allowed to move the ball to one of the four adjacent four cells in the grid (possibly out of the grid crossing the grid boundary). You can apply at most maxMove moves to the ball.
+Given the five integers m, n, maxMove, startRow, startColumn, return the number of paths to move the ball out of the grid boundary.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0581.Shortest-Unsorted-Continuous-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0581.Shortest-Unsorted-Continuous-Subarray/</guid>
+      <description>581. Shortest Unsorted Continuous Subarray #  题目 #  Given an integer array nums, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order.
+Return the shortest such subarray and output its length.
+Example 1:
+Input: nums = [2,6,4,8,10,9,15] Output: 5 Explanation: You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sorted in ascending order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0583.Delete-Operation-for-Two-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0583.Delete-Operation-for-Two-Strings/</guid>
+      <description>583. Delete Operation for Two Strings #  题目 #  Given two strings word1 and word2, return the minimum number of steps required to make word1 and word2 the same.
+In one step, you can delete exactly one character in either string.
+Example 1:
+Input: word1 = &amp;quot;sea&amp;quot;, word2 = &amp;quot;eat&amp;quot; Output: 2 Explanation: You need one step to make &amp;quot;sea&amp;quot; to &amp;quot;ea&amp;quot; and another step to make &amp;quot;eat&amp;quot; to &amp;quot;ea&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0589.N-ary-Tree-Preorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0589.N-ary-Tree-Preorder-Traversal/</guid>
+      <description>589. N-ary Tree Preorder Traversal #  题目 #  Given the root of an n-ary tree, return the preorder traversal of its nodes&amp;rsquo; values.
+Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
+Example 1:
+ Input: root = [1,null,3,2,4,null,5,6] Output: [1,3,5,6,2,4] Example 2:
+ Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14] Output: [1,2,3,6,7,11,14,4,8,12,5,9,13,10] Constraints:
+ The number of nodes in the tree is in the range [0, 104].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0594.Longest-Harmonious-Subsequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0594.Longest-Harmonious-Subsequence/</guid>
+      <description>594. Longest Harmonious Subsequence #  题目 #  We define a harmounious array as an array where the difference between its maximum value and its minimum value is exactly 1.
+Now, given an integer array, you need to find the length of its longest harmonious subsequence among all its possible subsequences.
+Example 1:
+Input: [1,3,2,2,5,2,3,7] Output: 5 Explanation: The longest harmonious subsequence is [3,2,2,2,3].  Note: The length of the input array will not exceed 20,000.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0598.Range-Addition-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0598.Range-Addition-II/</guid>
+      <description>598. Range Addition II #  题目 #  Given an m * n matrix M initialized with all 0&amp;rsquo;s and several update operations.
+Operations are represented by a 2D array, and each operation is represented by an array with two positive integers a and b, which means M[i][j] should be added by one for all 0 &amp;lt;= i &amp;lt; a and 0 &amp;lt;= j &amp;lt; b.
+You need to count and return the number of maximum integers in the matrix after performing all the operations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0599.Minimum-Index-Sum-of-Two-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/0500~0599/0599.Minimum-Index-Sum-of-Two-Lists/</guid>
+      <description>599. Minimum Index Sum of Two Lists #  题目 #  Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.
+You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.</description>
+    </item>
+    
+  </channel>
+</rss>

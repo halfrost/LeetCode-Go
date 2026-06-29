@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1423.Maximum-Points-You-Can-Obtain-from-Cards/</guid>
+      <description>1423. Maximum Points You Can Obtain from Cards #  题目 #  There are several cards arranged in a row, and each card has an associated number of points The points are given in the integer array cardPoints.
+In one step, you can take one card from the beginning or from the end of the row. You have to take exactly k cards.
+Your score is the sum of the points of the cards you have taken.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1437.Check-If-All-1s-Are-at-Least-Length-K-Places-Away/</guid>
+      <description>1437. Check If All 1&amp;rsquo;s Are at Least Length K Places Away #  题目 #  Given an array nums of 0s and 1s and an integer k, return True if all 1&amp;rsquo;s are at least k places away from each other, otherwise return False.
+Example 1:
+ Input: nums = [1,0,0,0,1,0,0,1], k = 2 Output: true Explanation: Each of the 1s are at least 2 places away from each other.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit/</guid>
+      <description>1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit #  题目 #  Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit*.*
+Example 1:
+Input: nums = [8,2,4,7], limit = 4 Output: 2 Explanation: All subarrays are: [8] with maximum absolute diff |8-8| = 0 &amp;lt;= 4.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows/</guid>
+      <description>1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows #  题目 #  You are given an m * n matrix, mat, and an integer k, which has its rows sorted in non-decreasing order.
+You are allowed to choose exactly 1 element from each row to form an array. Return the Kth smallest array sum among all possible arrays.
+Example 1:
+Input: mat = [[1,3,11],[2,4,6]], k = 5 Output: 7 Explanation: Choosing one element from each row, the first k smallest sum are: [1,2], [1,4], [3,2], [3,4], [1,6].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR/</guid>
+      <description>1442. Count Triplets That Can Form Two Arrays of Equal XOR #  题目 #  Given an array of integers arr.
+We want to select three indices i, j and k where (0 &amp;lt;= i &amp;lt; j &amp;lt;= k &amp;lt; arr.length).
+Let&amp;rsquo;s define a and b as follows:
+ a = arr[i] ^ arr[i + 1] ^ ... ^ arr[j - 1] b = arr[j] ^ arr[j + 1] ^ .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1446.Consecutive-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1446.Consecutive-Characters/</guid>
+      <description>1446. Consecutive Characters #  题目 #  The power of the string is the maximum length of a non-empty substring that contains only one unique character.
+Given a string s, return the power of s.
+Example 1:
+Input: s = &amp;quot;leetcode&amp;quot; Output: 2 Explanation: The substring &amp;quot;ee&amp;quot; is of length 2 with the character &#39;e&#39; only.  Example 2:
+Input: s = &amp;quot;abbcccddddeeeeedcba&amp;quot; Output: 5 Explanation: The substring &amp;quot;eeeee&amp;quot; is of length 5 with the character &#39;e&#39; only.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1455.Check-If-a-Word-Occurs-As-a-Prefix-of-Any-Word-in-a-Sentence/</guid>
+      <description>1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence #  题目 #  Given a sentence that consists of some words separated by a single space, and a searchWord.
+You have to check if searchWord is a prefix of any word in sentence.
+Return the index of the word in sentence where searchWord is a prefix of this word (1-indexed).
+If searchWord is a prefix of more than one word, return the index of the first word (minimum index).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K/</guid>
+      <description>1461. Check If a String Contains All Binary Codes of Size K #  题目 #  Given a binary string s and an integer k.
+Return True if every binary code of length k is a substring of s. Otherwise, return False.
+Example 1:
+Input: s = &amp;quot;00110110&amp;quot;, k = 2 Output: true Explanation: The binary codes of length 2 are &amp;quot;00&amp;quot;, &amp;quot;01&amp;quot;, &amp;quot;10&amp;quot; and &amp;quot;11&amp;quot;. They can be all found as substrings at indicies 0, 1, 3 and 2 respectively.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1463.Cherry-Pickup-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1463.Cherry-Pickup-II/</guid>
+      <description>1463. Cherry Pickup II #  题目 #  Given a rows x cols matrix grid representing a field of cherries. Each cell in grid represents the number of cherries that you can collect.
+You have two robots that can collect cherries for you, Robot #1 is located at the top-left corner (0,0) , and Robot #2 is located at the top-right corner (0, cols-1) of the grid.
+Return the maximum number of cherries collection using both robots by following the rules below:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1464.Maximum-Product-of-Two-Elements-in-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1464.Maximum-Product-of-Two-Elements-in-an-Array/</guid>
+      <description>1464. Maximum Product of Two Elements in an Array #  题目 #  Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
+Example 1:
+Input: nums = [3,4,5,2] Output: 12 Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1465.Maximum-Area-of-a-Piece-of-Cake-After-Horizontal-and-Vertical-Cuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1465.Maximum-Area-of-a-Piece-of-Cake-After-Horizontal-and-Vertical-Cuts/</guid>
+      <description>1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts #  题目 #  Given a rectangular cake with height h and width w, and two arrays of integers horizontalCuts and verticalCuts where horizontalCuts[i] is the distance from the top of the rectangular cake to the ith horizontal cut and similarly, verticalCuts[j] is the distance from the left of the rectangular cake to the jth vertical cut.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1470.Shuffle-the-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1470.Shuffle-the-Array/</guid>
+      <description>1470. Shuffle the Array #  题目 #  Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
+Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+Example 1:
+Input: nums = [2,5,1,3,4,7], n = 3 Output: [2,3,5,4,1,7] Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7]. Example 2:
+Input: nums = [1,2,3,4,4,3,2,1], n = 4 Output: [1,4,2,3,3,2,4,1] Example 3:
+Input: nums = [1,1,2,2], n = 2 Output: [1,2,1,2] Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1480.Running-Sum-of-1d-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1480.Running-Sum-of-1d-Array/</guid>
+      <description>1480. Running Sum of 1d Array #  题目 #  Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+Return the running sum of nums.
+Example 1:
+Input: nums = [1,2,3,4] Output: [1,3,6,10] Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]. Example 2:
+Input: nums = [1,1,1,1,1] Output: [1,2,3,4,5] Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1482.Minimum-Number-of-Days-to-Make-m-Bouquets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1482.Minimum-Number-of-Days-to-Make-m-Bouquets/</guid>
+      <description>1482. Minimum Number of Days to Make m Bouquets #  题目 #  Given an integer array bloomDay, an integer m and an integer k.
+We need to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.
+The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.
+Return the minimum number of days you need to wait to be able to make m bouquets from the garden.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1486.XOR-Operation-in-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1400~1499/1486.XOR-Operation-in-an-Array/</guid>
+      <description>1486. XOR Operation in an Array #  题目 #  Given an integer n and an integer start.
+Define an array nums where nums[i] = start + 2*i (0-indexed) and n == nums.length.
+Return the bitwise XOR of all elements of nums.
+Example 1:
+Input: n = 5, start = 0 Output: 8 Explanation:Array nums is equal to [0, 2, 4, 6, 8] where (0 ^ 2 ^ 4 ^ 6 ^ 8) = 8.</description>
+    </item>
+    
+  </channel>
+</rss>

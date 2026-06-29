@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第二章 算法专题 on LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/</link>
+    <description>Recent content in 第二章 算法专题 on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterTwo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.01 Array</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Array/</guid>
+      <description>Array #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0001 Two Sum Go Easy O(n) O(n)  49.7%   0004 Median of Two Sorted Arrays Go Hard    36.2%   0011 Container With Most Water Go Medium O(n) O(1)  54.0%   0015 3Sum Go Medium O(n^2) O(n) ❤️ 32.6%   0016 3Sum Closest Go Medium O(n^2) O(1) ❤️ 45.</description>
+    </item>
+    
+    <item>
+      <title>2.02 String</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/String/</guid>
+      <description>String #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0003 Longest Substring Without Repeating Characters Go Medium O(n) O(1) ❤️ 33.8%   0005 Longest Palindromic Substring Go Medium    32.4%   0006 Zigzag Conversion Go Medium    44.8%   0008 String to Integer (atoi) Go Medium    16.6%   0012 Integer to Roman Go Medium    62.</description>
+    </item>
+    
+    <item>
+      <title>2.03 ✅ Two Pointers</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Two_Pointers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Two_Pointers/</guid>
+      <description>Two Pointers #    双指针滑动窗口的经典写法。右指针不断往右移，移动到不能往右移动为止(具体条件根据题目而定)。当右指针到最右边以后，开始挪动左指针，释放窗口左边界。第 3 题，第 76 题，第 209 题，第 424 题，第 438 题，第 567 题，第 713 题，第 763 题，第 845 题，第 881 题，第 904 题，第 978 题，第 992 题，第 1004 题，第 1040 题，第 1052 题。  left, right := 0, -1 for left &amp;lt; len(s) { if right+1 &amp;lt; len(s) &amp;amp;&amp;amp; freq[s[right+1]-&amp;#39;a&amp;#39;] == 0 { freq[s[right+1]-&amp;#39;a&amp;#39;]++ right++ } else { freq[s[left]-&amp;#39;a&amp;#39;]-- left++ } result = max(result, right-left+1) }  快慢指针可以查找重复数字，时间复杂度 O(n)，第 287 题。 替换字母以后，相同字母能出现连续最长的长度。第 424 题。 SUM 问题集。第 1 题，第 15 题，第 16 题，第 18 题，第 167 题，第 923 题，第 1074 题。     No.</description>
+    </item>
+    
+    <item>
+      <title>2.04 ✅ Linked List</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Linked_List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Linked_List/</guid>
+      <description>Linked List #    巧妙的构造虚拟头结点。可以使遍历处理逻辑更加统一。 灵活使用递归。构造递归条件，使用递归可以巧妙的解题。不过需要注意有些题目不能使用递归，因为递归深度太深会导致超时和栈溢出。 链表区间逆序。第 92 题。 链表寻找中间节点。第 876 题。链表寻找倒数第 n 个节点。第 19 题。只需要一次遍历就可以得到答案。 合并 K 个有序链表。第 21 题，第 23 题。 链表归类。第 86 题，第 328 题。 链表排序，时间复杂度要求 O(n * log n)，空间复杂度 O(1)。只有一种做法，归并排序，至顶向下归并。第 148 题。 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0002 Add Two Numbers Go Medium O(n) O(1)  40.</description>
+    </item>
+    
+    <item>
+      <title>2.05 ✅ Stack</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Stack/</guid>
+      <description>Stack #    括号匹配问题及类似问题。第 20 题，第 921 题，第 1021 题。 栈的基本 pop 和 push 操作。第 71 题，第 150 题，第 155 题，第 224 题，第 225 题，第 232 题，第 946 题，第 1047 题。 利用栈进行编码问题。第 394 题，第 682 题，第 856 题，第 880 题。 单调栈。利用栈维护一个单调递增或者递减的下标数组。第 84 题，第 456 题，第 496 题，第 503 题，第 739 题，第 901 题，第 907 题，第 1019 题。     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0020 Valid Parentheses Go Easy O(log n) O(1)  40.</description>
+    </item>
+    
+    <item>
+      <title>2.06 Tree</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Tree/</guid>
+      <description>Tree #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0094 Binary Tree Inorder Traversal Go Easy O(n) O(1)  73.8%   0095 Unique Binary Search Trees II Go Medium    52.3%   0096 Unique Binary Search Trees Go Medium O(n^2) O(n)  59.6%   0098 Validate Binary Search Tree Go Medium O(n) O(1)  32.0%   0099 Recover Binary Search Tree Go Medium O(n) O(1)  51.</description>
+    </item>
+    
+    <item>
+      <title>2.07 Dynamic Programming</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Dynamic_Programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Dynamic_Programming/</guid>
+      <description>Dynamic Programming #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0005 Longest Palindromic Substring Go Medium    32.4%   0022 Generate Parentheses Go Medium    72.5%   0032 Longest Valid Parentheses Go Hard    32.8%   0042 Trapping Rain Water Go Hard    59.3%   0045 Jump Game II Go Medium    39.</description>
+    </item>
+    
+    <item>
+      <title>2.08 ✅ Backtracking</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Backtracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Backtracking/</guid>
+      <description>Backtracking #    排列问题 Permutations。第 46 题，第 47 题。第 60 题，第 526 题，第 996 题。 组合问题 Combination。第 39 题，第 40 题，第 77 题，第 216 题。 排列和组合杂交问题。第 1079 题。 N 皇后终极解法(二进制解法)。第 51 题，第 52 题。 数独问题。第 37 题。 四个方向搜索。第 79 题，第 212 题，第 980 题。 子集合问题。第 78 题，第 90 题。 Trie。第 208 题，第 211 题。 BFS 优化。第 126 题，第 127 题。 DFS 模板。(只是一个例子，不对应任何题)  func combinationSum2(candidates []int, target int) [][]int { if len(candidates) == 0 { return [][]int{} } c, res := []int{}, [][]int{} sort.</description>
+    </item>
+    
+    <item>
+      <title>2.09 Depth First Search</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Depth_First_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Depth_First_Search/</guid>
+      <description>Depth First Search #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0094 Binary Tree Inorder Traversal Go Easy    73.8%   0098 Validate Binary Search Tree Go Medium O(n) O(1)  32.0%   0099 Recover Binary Search Tree Go Medium O(n) O(1)  51.0%   0100 Same Tree Go Easy O(n) O(1)  58.2%   0101 Symmetric Tree Go Easy O(n) O(1)  54.</description>
+    </item>
+    
+    <item>
+      <title>2.10 Breadth First Search</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Breadth_First_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Breadth_First_Search/</guid>
+      <description>Breadth First Search #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0100 Same Tree Go Easy    58.2%   0101 Symmetric Tree Go Easy O(n) O(1)  54.3%   0102 Binary Tree Level Order Traversal Go Medium O(n) O(1)  64.4%   0103 Binary Tree Zigzag Level Order Traversal Go Medium O(n) O(n)  56.9%   0104 Maximum Depth of Binary Tree Go Easy    73.</description>
+    </item>
+    
+    <item>
+      <title>2.11 Binary Search</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Search/</guid>
+      <description>Binary Search #   二分搜索的经典写法。需要注意的三点：  循环退出条件，注意是 low &amp;lt;= high，而不是 low &amp;lt; high。 mid 的取值，mid := low + (high-low)&amp;raquo;1 low 和 high 的更新。low = mid + 1，high = mid - 1。    func binarySearchMatrix(nums []int, target int) int { low, high := 0, len(nums)-1 for low &amp;lt;= high { mid := low + (high-low)&amp;gt;&amp;gt;1 if nums[mid] == target { return mid } else if nums[mid] &amp;gt; target { high = mid - 1 } else { low = mid + 1 } } return -1 }  二分搜索的变种写法。有 4 个基本变种:  查找第一个与 target 相等的元素，时间复杂度 O(logn) 查找最后一个与 target 相等的元素，时间复杂度 O(logn) 查找第一个大于等于 target 的元素，时间复杂度 O(logn) 查找最后一个小于等于 target 的元素，时间复杂度 O(logn)    // 二分查找第一个与 target 相等的元素，时间复杂度 O(logn) func searchFirstEqualElement(nums []int, target int) int { low, high := 0, len(nums)-1 for low &amp;lt;= high { mid := low + ((high - low) &amp;gt;&amp;gt; 1) if nums[mid] &amp;gt; target { high = mid - 1 } else if nums[mid] &amp;lt; target { low = mid + 1 } else { if (mid == 0) || (nums[mid-1] !</description>
+    </item>
+    
+    <item>
+      <title>2.12 Math</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Math/</guid>
+      <description>Math #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0002 Add Two Numbers Go Medium O(n) O(1)  40.4%   0007 Reverse Integer Go Medium    27.5%   0009 Palindrome Number Go Easy    53.5%   0012 Integer to Roman Go Medium    62.0%   0013 Roman to Integer Go Easy    58.</description>
+    </item>
+    
+    <item>
+      <title>2.13 Hash Table</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Hash_Table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Hash_Table/</guid>
+      <description>Hash Table #     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0001 Two Sum Go Easy O(n) O(n)  49.7%   0003 Longest Substring Without Repeating Characters Go Medium O(n) O(1) ❤️ 33.8%   0012 Integer to Roman Go Medium    62.0%   0013 Roman to Integer Go Easy    58.6%   0017 Letter Combinations of a Phone Number Go Medium    56.</description>
+    </item>
+    
+    <item>
+      <title>2.14 ✅ Sorting</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Sorting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Sorting/</guid>
+      <description>Sorting #    深刻的理解多路快排。第 75 题。 链表的排序，插入排序(第 147 题)和归并排序(第 148 题) 桶排序和基数排序。第 164 题。 &amp;ldquo;摆动排序&amp;rdquo;。第 324 题。 两两不相邻的排序。第 767 题，第 1054 题。 &amp;ldquo;饼子排序&amp;rdquo;。第 969 题。     No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0015 3Sum Go Medium    32.6%   0016 3Sum Closest Go Medium    45.8%   0018 4Sum Go Medium    35.</description>
+    </item>
+    
+    <item>
+      <title>2.15 ✅ Bit Manipulation</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Bit_Manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Bit_Manipulation/</guid>
+      <description>Bit Manipulation #    异或的特性。第 136 题，第 268 题，第 389 题，第 421 题，  x ^ 0 = x x ^ 11111……1111 = ~x x ^ (~x) = 11111……1111 x ^ x = 0 a ^ b = c =&amp;gt; a ^ c = b =&amp;gt; b ^ c = a (交换律) a ^ b ^ c = a ^ (b ^ c) = (a ^ b）^ c (结合律)  构造特殊 Mask，将特殊位置放 0 或 1。  将 x 最右边的 n 位清零， x &amp;amp; ( ~0 &amp;lt;&amp;lt; n ) 获取 x 的第 n 位值(0 或者 1)，(x &amp;gt;&amp;gt; n) &amp;amp; 1 获取 x 的第 n 位的幂值，x &amp;amp; (1 &amp;lt;&amp;lt; (n - 1)) 仅将第 n 位置为 1，x | (1 &amp;lt;&amp;lt; n) 仅将第 n 位置为 0，x &amp;amp; (~(1 &amp;lt;&amp;lt; n)) 将 x 最高位至第 n 位(含)清零，x &amp;amp; ((1 &amp;lt;&amp;lt; n) - 1) 将第 n 位至第 0 位(含)清零，x &amp;amp; (~((1 &amp;lt;&amp;lt; (n + 1)) - 1)）  有特殊意义的 &amp;amp; 位操作运算。第 260 题，第 201 题，第 318 题，第 371 题，第 397 题，第 461 题，第 693 题，  X &amp;amp; 1 == 1 判断是否是奇数(偶数) X &amp;amp; = (X - 1) 将最低位(LSB)的 1 清零 X &amp;amp; -X 得到最低位(LSB)的 1 X &amp;amp; ~X = 0    No.</description>
+    </item>
+    
+    <item>
+      <title>2.16 ✅ Union Find</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Union_Find/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Union_Find/</guid>
+      <description>Union Find #    灵活使用并查集的思想，熟练掌握并查集的 模板，模板中有两种并查集的实现方式，一种是路径压缩 + 秩优化的版本，另外一种是计算每个集合中元素的个数 + 最大集合元素个数的版本，这两种版本都有各自使用的地方。能使用第一类并查集模板的题目有：第 128 题，第 130 题，第 547 题，第 684 题，第 721 题，第 765 题，第 778 题，第 839 题，第 924 题，第 928 题，第 947 题，第 952 题，第 959 题，第 990 题。能使用第二类并查集模板的题目有：第 803 题，第 952 题。第 803 题秩优化和统计集合个数这些地方会卡时间，如果不优化，会 TLE。 并查集是一种思想，有些题需要灵活使用这种思想，而不是死套模板，如第 399 题，这一题是 stringUnionFind，利用并查集思想实现的。这里每个节点是基于字符串和 map 的，而不是单纯的用 int 节点编号实现的。 有些题死套模板反而做不出来，比如第 685 题，这一题不能路径压缩和秩优化，因为题目中涉及到有向图，需要知道节点的前驱节点，如果路径压缩了，这一题就没法做了。这一题不需要路径压缩和秩优化。 灵活的抽象题目给的信息，将给定的信息合理的编号，使用并查集解题，并用 map 降低时间复杂度，如第 721 题，第 959 题。 关于地图，砖块，网格的题目，可以新建一个特殊节点，将四周边缘的砖块或者网格都 union() 到这个特殊节点上。第 130 题，第 803 题。 能用并查集的题目，一般也可以用 DFS 和 BFS 解答，只不过时间复杂度会高一点。     No.</description>
+    </item>
+    
+    <item>
+      <title>2.17 ✅ Sliding Window</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Sliding_Window/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Sliding_Window/</guid>
+      <description>Sliding Window #    双指针滑动窗口的经典写法。右指针不断往右移，移动到不能往右移动为止(具体条件根据题目而定)。当右指针到最右边以后，开始挪动左指针，释放窗口左边界。第 3 题，第 76 题，第 209 题，第 424 题，第 438 题，第 567 题，第 713 题，第 763 题，第 845 题，第 881 题，第 904 题，第 978 题，第 992 题，第 1004 题，第 1040 题，第 1052 题。  left, right := 0, -1 for left &amp;lt; len(s) { if right+1 &amp;lt; len(s) &amp;amp;&amp;amp; freq[s[right+1]-&amp;#39;a&amp;#39;] == 0 { freq[s[right+1]-&amp;#39;a&amp;#39;]++ right++ } else { freq[s[left]-&amp;#39;a&amp;#39;]-- left++ } result = max(result, right-left+1) }  滑动窗口经典题。第 239 题，第 480 题。     No.</description>
+    </item>
+    
+    <item>
+      <title>2.18 ✅ Segment Tree</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Segment_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Segment_Tree/</guid>
+      <description>Segment Tree #    线段树的经典数组实现写法。将合并两个节点 pushUp 逻辑抽象出来了，可以实现任意操作(常见的操作有：加法，取 max，min 等等)。第 218 题，第 303 题，第 307 题，第 699 题。 计数线段树的经典写法。第 315 题，第 327 题，第 493 题。 线段树的树的实现写法。第 715 题，第 732 题。 区间懒惰更新。第 218 题，第 699 题。 离散化。离散化需要注意一个特殊情况：假如三个区间为 [1,10] [1,4] [6,10]，离散化后 x[1]=1,x[2]=4,x[3]=6,x[4]=10。第一个区间为 [1,4]，第二个区间为 [1,2]，第三个区间为 [3,4]，这样一来，区间一 = 区间二 + 区间三，这和离散前的模型不符，离散前，很明显，区间一 &amp;gt; 区间二 + 区间三。正确的做法是：在相差大于 1 的数间加一个数，例如在上面 1 4 6 10 中间加 5，即可 x[1]=1,x[2]=4,x[3]=5,x[4]=6,x[5]=10。这样处理之后，区间一是 1-5 ，区间二是 1-2 ，区间三是 4-5 。 灵活构建线段树。线段树节点可以存储多条信息，合并两个节点的 pushUp 操作也可以是多样的。第 850 题，第 1157 题。  线段树 题型从简单到困难:</description>
+    </item>
+    
+    <item>
+      <title>2.19 ✅ Binary Indexed Tree</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Indexed_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Indexed_Tree/</guid>
+      <description>Binary Indexed Tree #      No. Title Solution Difficulty TimeComplexity SpaceComplexity Favorite Acceptance     0218 The Skyline Problem Go Hard    41.9%   0307 Range Sum Query - Mutable Go Medium    40.7%   0315 Count of Smaller Numbers After Self Go Hard    42.6%   0327 Count of Range Sum Go Hard    35.</description>
+    </item>
+    
+  </channel>
+</rss>

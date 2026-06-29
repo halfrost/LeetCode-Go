@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1300.Sum-of-Mutated-Array-Closest-to-Target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1300.Sum-of-Mutated-Array-Closest-to-Target/</guid>
+      <description>1300. Sum of Mutated Array Closest to Target #  题目 #  Given an integer array arr and a target value target, return the integer value such that when we change all the integers larger than value in the given array to be equal to value, the sum of the array gets as close as possible (in absolute difference) to target.
+In case of a tie, return the minimum such integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1302.Deepest-Leaves-Sum/</guid>
+      <description>1302. Deepest Leaves Sum #  题目 #  Given a binary tree, return the sum of values of its deepest leaves.
+Example 1:
+ Input: root = [1,2,3,4,5,null,6,7,null,null,null,null,8] Output: 15 Constraints:
+ The number of nodes in the tree is between 1 and 10^4. The value of nodes is between 1 and 100.  题目大意 #  给你一棵二叉树，请你返回层数最深的叶子节点的和。
+提示：
+ 树中节点数目在 1 到 10^4 之间。 每个节点的值在 1 到 100 之间。  解题思路 #   给你一棵二叉树，请你返回层数最深的叶子节点的和。 这一题不难，DFS 遍历把最底层的叶子节点和都加起来即可。  代码 #  func deepestLeavesSum(root *TreeNode) int { maxLevel, sum := 0, 0 dfsDeepestLeavesSum(root, 0, &amp;amp;maxLevel, &amp;amp;sum) return sum } func dfsDeepestLeavesSum(root *TreeNode, level int, maxLevel, sum *int) { if root == nil { return } if level &amp;gt; *maxLevel { *maxLevel, *sum = level, root.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1304.Find-N-Unique-Integers-Sum-up-to-Zero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1304.Find-N-Unique-Integers-Sum-up-to-Zero/</guid>
+      <description>1304. Find N Unique Integers Sum up to Zero #  题目 #  Given an integer n, return any array containing n unique integers such that they add up to 0.
+Example 1:
+Input: n = 5 Output: [-7,-1,1,3,4] Explanation: These arrays also are accepted [-5,-1,1,2,3] , [-3,-1,2,-2,4]. Example 2:
+Input: n = 3 Output: [-1,0,1] Example 3:
+Input: n = 1 Output: [0] Constraints:
+ 1 &amp;lt;= n &amp;lt;= 1000  题目大意 #  给你一个整数 n，请你返回 任意 一个由 n 个 各不相同 的整数组成的数组，并且这 n 个数相加和为 0 。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1305.All-Elements-in-Two-Binary-Search-Trees/</guid>
+      <description>1305. All Elements in Two Binary Search Trees #  题目 #  Given two binary search trees root1 and root2.
+Return a list containing all the integers from both trees sorted in ascending order.
+Example 1:
+ Input: root1 = [2,1,4], root2 = [1,0,3] Output: [0,1,1,2,3,4] Example 2:
+Input: root1 = [0,-10,10], root2 = [5,1,7,0,2] Output: [-10,0,0,1,2,5,7,10] Example 3:
+Input: root1 = [], root2 = [5,1,7,0,2] Output: [0,1,2,5,7] Example 4:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1306.Jump-Game-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1306.Jump-Game-III/</guid>
+      <description>1306. Jump Game III #  题目 #  Given an array of non-negative integers arr, you are initially positioned at start index of the array. When you are at index i, you can jump to i + arr[i] or i - arr[i], check if you can reach to any index with value 0.
+Notice that you can not jump outside of the array at any time.
+Example 1:
+Input: arr = [4,2,3,0,3,1,2], start = 5 Output: true Explanation: All possible ways to reach at index 3 with value 0 are: index 5 -&amp;gt; index 4 -&amp;gt; index 1 -&amp;gt; index 3 index 5 -&amp;gt; index 6 -&amp;gt; index 4 -&amp;gt; index 1 -&amp;gt; index 3 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1310.XOR-Queries-of-a-Subarray/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1310.XOR-Queries-of-a-Subarray/</guid>
+      <description>1310. XOR Queries of a Subarray #  题目 #  Given the array arr of positive integers and the array queries where queries[i] = [Li,Ri], for each query i compute the XOR of elements from Li to Ri (that is, arr[Li]xor arr[Li+1]xor ...xor arr[Ri]). Return an array containing the result for the given queries.
+Example 1:
+Input: arr = [1,3,4,8], queries = [[0,1],[1,2],[0,3],[3,3]] Output: [2,7,14,8] Explanation: The binary representation of the elements in the array are: 1 = 0001 3 = 0011 4 = 0100 8 = 1000 The XOR values for queries are: [0,1] = 1 xor 3 = 2 [1,2] = 3 xor 4 = 7 [0,3] = 1 xor 3 xor 4 xor 8 = 14 [3,3] = 8 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1313.Decompress-Run-Length-Encoded-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1313.Decompress-Run-Length-Encoded-List/</guid>
+      <description>1313. Decompress Run-Length Encoded List #  题目 #  We are given a list nums of integers representing a list compressed with run-length encoding.
+Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i &amp;gt;= 0). For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list.
+Return the decompressed list.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1317.Convert-Integer-to-the-Sum-of-Two-No-Zero-Integers/</guid>
+      <description>1317. Convert Integer to the Sum of Two No-Zero Integers #  题目 #  Given an integer n. No-Zero integer is a positive integer which doesn&amp;rsquo;t contain any 0 in its decimal representation.
+Return a list of two integers [A, B] where:
+ A and B are No-Zero integers. A + B = n  It&amp;rsquo;s guarateed that there is at least one valid solution. If there are many valid solutions you can return any of them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1319.Number-of-Operations-to-Make-Network-Connected/</guid>
+      <description>1319. Number of Operations to Make Network Connected #  题目 #  There are n computers numbered from 0 to n-1 connected by ethernet cables connections forming a network where connections[i] = [a, b] represents a connection between computers a and b. Any computer can reach any other computer directly or indirectly through the network.
+Given an initial computer network connections. You can extract certain cables between two directly connected computers, and place them between any pair of disconnected computers to make them directly connected.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1329.Sort-the-Matrix-Diagonally/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1329.Sort-the-Matrix-Diagonally/</guid>
+      <description>1329. Sort the Matrix Diagonally #  题目 #  A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix&amp;rsquo;s end. For example, the matrix diagonal starting from mat[2][0], where mat is a 6 x 3 matrix, includes cells mat[2][0], mat[3][1], and mat[4][2].
+Given an m x n matrix mat of integers, sort each matrix diagonal in ascending order and return the resulting matrix.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1332.Remove-Palindromic-Subsequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1332.Remove-Palindromic-Subsequences/</guid>
+      <description>1332. Remove Palindromic Subsequences #  题目 #  Given a string s consisting only of letters &#39;a&#39; and &#39;b&#39;. In a single step you can remove one palindromic subsequence from s.
+Return the minimum number of steps to make the given string empty.
+A string is a subsequence of a given string, if it is generated by deleting some characters of a given string without changing its order.
+A string is called palindrome if is one that reads the same backward as well as forward.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1337.The-K-Weakest-Rows-in-a-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1337.The-K-Weakest-Rows-in-a-Matrix/</guid>
+      <description>1337. The K Weakest Rows in a Matrix #  题目 #  Given a m * n matrix mat of ones (representing soldiers) and zeros (representing civilians), return the indexes of the k weakest rows in the matrix ordered from the weakest to the strongest.
+A row i is weaker than row j, if the number of soldiers in row i is less than the number of soldiers in row j, or they have the same number of soldiers but i is less than j.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1353.Maximum-Number-of-Events-That-Can-Be-Attended/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1353.Maximum-Number-of-Events-That-Can-Be-Attended/</guid>
+      <description>1353. Maximum Number of Events That Can Be Attended #  题目 #  Given an array of events where events[i] = [startDayi, endDayi]. Every event i starts at startDayi and ends at endDayi.
+You can attend an event i at any day d where startTimei &amp;lt;= d &amp;lt;= endTimei. Notice that you can only attend one event at any time d.
+Return the maximum number of events you can attend.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1380.Lucky-Numbers-in-a-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1380.Lucky-Numbers-in-a-Matrix/</guid>
+      <description>1380. Lucky Numbers in a Matrix #  题目 #  Given a m * n matrix of distinct numbers, return all lucky numbers in the matrix in any order.
+A lucky number is an element of the matrix such that it is the minimum element in its row and maximum in its column.
+Example 1:
+Input: matrix = [[3,7,8],[9,11,13],[15,16,17]] Output: [15] Explanation: 15 is the only lucky number since it is the minimum in its row and the maximum in its column Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1383.Maximum-Performance-of-a-Team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1383.Maximum-Performance-of-a-Team/</guid>
+      <description>1383. Maximum Performance of a Team #  题目 #  You are given two integers n and k and two integer arrays speed and efficiency both of length n. There are n engineers numbered from 1 to n. speed[i] and efficiency[i] represent the speed and efficiency of the ith engineer respectively.
+Choose at most k different engineers out of the n engineers to form a team with the maximum performance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1385.Find-the-Distance-Value-Between-Two-Arrays/</guid>
+      <description>1385. Find the Distance Value Between Two Arrays #  题目 #  Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
+The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| &amp;lt;= d.
+Example 1:
+Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2 Output: 2 Explanation: For arr1[0]=4 we have: |4-10|=6 &amp;gt; d=2 |4-9|=5 &amp;gt; d=2 |4-1|=3 &amp;gt; d=2 |4-8|=4 &amp;gt; d=2 For arr1[1]=5 we have: |5-10|=5 &amp;gt; d=2 |5-9|=4 &amp;gt; d=2 |5-1|=4 &amp;gt; d=2 |5-8|=3 &amp;gt; d=2 For arr1[2]=8 we have: |8-10|=2 &amp;lt;= d=2 |8-9|=1 &amp;lt;= d=2 |8-1|=7 &amp;gt; d=2 |8-8|=0 &amp;lt;= d=2 Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1389.Create-Target-Array-in-the-Given-Order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1389.Create-Target-Array-in-the-Given-Order/</guid>
+      <description>1389. Create Target Array in the Given Order #  题目 #  Given two arrays of integers nums and index. Your task is to create target array under the following rules:
+ Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1396.Design-Underground-System/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1300~1399/1396.Design-Underground-System/</guid>
+      <description>1396. Design Underground System #  题目 #  Implement the UndergroundSystem class:
+ void checkIn(int id, string stationName, int t)  A customer with a card id equal to id, gets in the station stationName at time t. A customer can only be checked into one place at a time.   void checkOut(int id, string stationName, int t)  A customer with a card id equal to id, gets out from the station stationName at time t.</description>
+    </item>
+    
+  </channel>
+</rss>

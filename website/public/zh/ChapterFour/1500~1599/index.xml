@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1512.Number-of-Good-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1512.Number-of-Good-Pairs/</guid>
+      <description>1512. Number of Good Pairs #  题目 #  Given an array of integers nums.
+A pair (i,j) is called good if nums[i] == nums[j] and i &amp;lt; j.
+Return the number of good pairs.
+Example 1:
+Input: nums = [1,2,3,1,1,3] Output: 4 Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed. Example 2:
+Input: nums = [1,1,1,1] Output: 6 Explanation: Each pair in the array are good.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1518.Water-Bottles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1518.Water-Bottles/</guid>
+      <description>1518. Water Bottles #  题目 #  Given numBottles full water bottles, you can exchange numExchange empty water bottles for one full water bottle.
+The operation of drinking a full water bottle turns it into an empty bottle.
+Return the maximum number of water bottles you can drink.
+Example 1:
+ Input: numBottles = 9, numExchange = 3 Output: 13 Explanation: You can exchange 3 empty bottles to get 1 full water bottle.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1539.Kth-Missing-Positive-Number/</guid>
+      <description>1539. Kth Missing Positive Number #  题目 #  Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.
+Find the kth positive integer that is missing from this array.
+Example 1:
+Input: arr = [2,3,4,7,11], k = 5 Output: 9 Explanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9. Example 2:
+Input: arr = [1,2,3,4], k = 2 Output: 6 Explanation: The missing positive integers are [5,6,7,.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1551.Minimum-Operations-to-Make-Array-Equal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1551.Minimum-Operations-to-Make-Array-Equal/</guid>
+      <description>1551. Minimum Operations to Make Array Equal #  题目 #  You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 &amp;lt;= i &amp;lt; n).
+In one operation, you can select two indices x and y where 0 &amp;lt;= x, y &amp;lt; n and subtract 1 from arr[x] and add 1 to arr[y] (i.e. perform arr[x] -=1 and arr[y] += 1).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1572.Matrix-Diagonal-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1572.Matrix-Diagonal-Sum/</guid>
+      <description>1572. Matrix Diagonal Sum #  题目 #  Given a square matrix mat, return the sum of the matrix diagonals.
+Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+Example 1:
+ Input: mat = [[1,2,3], [4,5,6], [7,8,9]] Output: 25 Explanation:Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25 Notice that element mat[1][1] = 5 is counted only once.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1573.Number-of-Ways-to-Split-a-String/</guid>
+      <description>1573. Number of Ways to Split a String #  题目 #  Given a binary string s (a string consisting only of &amp;lsquo;0&amp;rsquo;s and &amp;lsquo;1&amp;rsquo;s), we can split s into 3 non-empty strings s1, s2, s3 (s1+ s2+ s3 = s).
+Return the number of ways s can be split such that the number of characters &amp;lsquo;1&amp;rsquo; is the same in s1, s2, and s3.
+Since the answer may be too large, return it modulo 10^9 + 7.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1576.Replace-All-s-to-Avoid-Consecutive-Repeating-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1576.Replace-All-s-to-Avoid-Consecutive-Repeating-Characters/</guid>
+      <description>1576. Replace All ?&amp;rsquo;s to Avoid Consecutive Repeating Characters #  题目 #  Given a string s containing only lowercase English letters and the &#39;?&#39; character, convert all the &#39;?&#39; characters into lowercase letters such that the final string does not contain any consecutive repeating characters. You cannot modify the non &#39;?&#39; characters.
+It is guaranteed that there are no consecutive repeating characters in the given string except for &#39;?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1579.Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterFour/1500~1599/1579.Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable/</guid>
+      <description>1579. Remove Max Number of Edges to Keep Graph Fully Traversable #  题目 #  Alice and Bob have an undirected graph of n nodes and 3 types of edges:
+ Type 1: Can be traversed by Alice only. Type 2: Can be traversed by Bob only. Type 3: Can by traversed by both Alice and Bob.  Given an array edges where edges[i] = [typei, ui, vi] represents a bidirectional edge of type typei between nodes ui and vi, find the maximum number of edges you can remove so that after removing the edges, the graph can still be fully traversed by both Alice and Bob.</description>
+    </item>
+    
+  </channel>
+</rss>

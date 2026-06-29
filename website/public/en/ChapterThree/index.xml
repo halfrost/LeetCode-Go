@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 3 Some Templates on LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterThree/</link>
+    <description>Recent content in Chapter 3 Some Templates on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterThree/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.1 Segment Tree</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterThree/Segment_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterThree/Segment_Tree/</guid>
+      <description>Segment Tree Segment Tree #  A segment tree Segment tree is a binary tree data structure, invented by Jon Louis Bentley in 1977, used to store intervals or line segments and to allow fast queries for all intervals in the structure that contain a certain point.
+For a segment tree containing   \(n \)  intervals, the space complexity is  \( O(n) \)  , and the query time complexity is  \(O(log n&amp;#43;k) \)  , where  \( k \)  is the number of intervals that meet the condition.</description>
+    </item>
+    
+    <item>
+      <title>3.2 UnionFind</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterThree/UnionFind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterThree/UnionFind/</guid>
+      <description>Union-Find UnionFind #  package template // UnionFind defind // Path compression + rank optimization type UnionFind struct { parent, rank []int count int } // Init define func (uf *UnionFind) Init(n int) { uf.count = n uf.parent = make([]int, n) uf.rank = make([]int, n) for i := range uf.parent { uf.parent[i] = i } } // Find define func (uf *UnionFind) Find(p int) int { root := p for root !</description>
+    </item>
+    
+    <item>
+      <title>3.3 LRUCache</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterThree/LRUCache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterThree/LRUCache/</guid>
+      <description>Least Recently Used LRUCache #   LRU is the abbreviation for Least Recently Used. It is a commonly used page replacement algorithm that selects the page that has not been used for the longest time recently for eviction. As shown above, when inserting F, one of the original pages needs to be evicted.
+ According to the LRU strategy, the page that has not been used for the longest time recently is evicted each time, so page A is evicted first.</description>
+    </item>
+    
+    <item>
+      <title>3.4 LFUCache</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterThree/LFUCache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterThree/LFUCache/</guid>
+      <description>Least Frequently Used LFUCache #   LFU is the abbreviation of Least Frequently Used, which is also a common page replacement algorithm. It selects the page with the smallest access counter for eviction. As shown below, each page in the cache has an access counter.
+ According to the LFU strategy, the access counter must be updated on every access. When inserting B, B is found in the cache, so the access counter is incremented, and B is moved to the position sorted by access counter in descending order.</description>
+    </item>
+    
+    <item>
+      <title>3.5 Binary Indexed Tree</title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterThree/Binary_Indexed_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterThree/Binary_Indexed_Tree/</guid>
+      <description>Binary Indexed Tree Binary Indexed Tree (Binary Indexed Tree) #  A Binary Indexed Tree, also named a Fenwick tree after its inventor, was first published by Peter M. Fenwick in 1994 in SOFTWARE PRACTICE AND EXPERIENCE under the title A New Data Structure for Cumulative Frequency Tables. Its original purpose was to solve the problem of calculating cumulative frequencies in data compression, and today it is mostly used to efficiently compute prefix sums and range sums of sequences.</description>
+    </item>
+    
+  </channel>
+</rss>

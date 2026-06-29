@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>第三章 一些模板 on LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/zh/ChapterThree/</link>
+    <description>Recent content in 第三章 一些模板 on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/zh/ChapterThree/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.1 Segment Tree</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterThree/Segment_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterThree/Segment_Tree/</guid>
+      <description>线段树 Segment Tree #  线段树 Segment tree 是一种二叉树形数据结构，1977年由 Jon Louis Bentley 发明，用以存储区间或线段，并且允许快速查询结构内包含某一点的所有区间。
+一个包含   \(n \)  个区间的线段树，空间复杂度为  \( O(n) \)  ，查询的时间复杂度则为 \(O(log n&amp;#43;k) \)  ，其中  \( k \)  是符合条件的区间数量。线段树的数据结构也可推广到高维度。
+一. 什么是线段树 #  以一维的线段树为例。
+ 令 S 是一维线段的集合。将这些线段的端点坐标由小到大排序，令其为 \(x_{1},x_{2},\cdots ,x_{m} \)  。我们将被这些端点切分的每一个区间称为“单位区间”（每个端点所在的位置会单独成为一个单位区间），从左到右包含：
+ \[ (-\infty ,x_{1}),[x_{1},x_{1}],(x_{1},x_{2}),[x_{2},x_{2}],...,(x_{m-1},x_{m}),[x_{m},x_{m}],(x_{m},&amp;#43;\infty )\]  线段树的结构为一个二叉树，每个节点都代表一个坐标区间，节点 N 所代表的区间记为 Int(N)，则其需符合以下条件：
+ 其每一个叶节点，从左到右代表每个单位区间。 其内部节点代表的区间是其两个儿子代表的区间之并集。 每个节点（包含叶子）中有一个存储线段的数据结构。若一个线段 S 的坐标区间包含 Int(N) 但不包含 Int(parent(N))，则节点 N 中会存储线段 S。   线段树是二叉树，其中每个节点代表一个区间。通常，一个节点将存储一个或多个合并的区间的数据，以便可以执行查询操作。</description>
+    </item>
+    
+    <item>
+      <title>3.2 UnionFind</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterThree/UnionFind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterThree/UnionFind/</guid>
+      <description>并查集 UnionFind #  package template // UnionFind defind // 路径压缩 + 秩优化 type UnionFind struct { parent, rank []int count int } // Init define func (uf *UnionFind) Init(n int) { uf.count = n uf.parent = make([]int, n) uf.rank = make([]int, n) for i := range uf.parent { uf.parent[i] = i } } // Find define func (uf *UnionFind) Find(p int) int { root := p for root != uf.</description>
+    </item>
+    
+    <item>
+      <title>3.3 LRUCache</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterThree/LRUCache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterThree/LRUCache/</guid>
+      <description>最近最少使用 LRUCache #   LRU 是 Least Recently Used 的缩写，即最近最少使用，是一种常用的页面置换算法，选择最近最久未使用的页面予以淘汰。如上图，要插入 F 的时候，此时需要淘汰掉原来的一个页面。
+ 根据 LRU 的策略，每次都淘汰最近最久未使用的页面，所以先淘汰 A 页面。再插入 C 的时候，发现缓存中有 C 页面，这个时候需要把 C 页面放到首位，因为它被使用了。以此类推，插入 G 页面，G 页面是新页面，不在缓存中，所以淘汰掉 B 页面。插入 H 页面，H 页面是新页面，不在缓存中，所以淘汰掉 D 页面。插入 E 的时候，发现缓存中有 E 页面，这个时候需要把 E 页面放到首位。插入 I 页面，I 页面是新页面，不在缓存中，所以淘汰掉 F 页面。
+可以发现，LRU 更新和插入新页面都发生在链表首，删除页面都发生在链表尾。
+解法一 Get O(1) / Put O(1) #  LRU 要求查询尽量高效，O(1) 内查询。那肯定选用 map 查询。修改，删除也要尽量 O(1) 完成。搜寻常见的数据结构，链表，栈，队列，树，图。树和图排除，栈和队列无法任意查询中间的元素，也排除。所以选用链表来实现。但是如果选用单链表，删除这个结点，需要 O(n) 遍历一遍找到前驱结点。所以选用双向链表，在删除的时候也能 O(1) 完成。
+由于 Go 的 container 包中的 list 底层实现是双向链表，所以可以直接复用这个数据结构。定义 LRUCache 的数据结构如下：</description>
+    </item>
+    
+    <item>
+      <title>3.4 LFUCache</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterThree/LFUCache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterThree/LFUCache/</guid>
+      <description>最不经常最少使用 LFUCache #   LFU 是 Least Frequently Used 的缩写，即最不经常最少使用，也是一种常用的页面置换算法，选择访问计数器最小的页面予以淘汰。如下图，缓存中每个页面带一个访问计数器。
+ 根据 LFU 的策略，每访问一次都要更新访问计数器。当插入 B 的时候，发现缓存中有 B，所以增加访问计数器的计数，并把 B 移动到访问计数器从大到小排序的地方。再插入 D，同理先更新计数器，再移动到它排序以后的位置。当插入 F 的时候，缓存中不存在 F，所以淘汰计数器最小的页面的页面，所以淘汰 A 页面。此时 F 排在最下面，计数为 1。
+ 这里有一个比 LRU 特别的地方。如果淘汰的页面访问次数有多个相同的访问次数，选择最靠尾部的。如上图中，A、B、C 三者的访问次数相同，都是 1 次。要插入 F，F 不在缓存中，此时要淘汰 A 页面。F 是新插入的页面，访问次数为 1，排在 C 的前面。也就是说相同的访问次数，按照新旧顺序排列，淘汰掉最旧的页面。这一点是和 LRU 最大的不同的地方。
+可以发现，LFU 更新和插入新页面可以发生在链表中任意位置，删除页面都发生在表尾。
+解法一 Get O(1) / Put O(1) #  LFU 同样要求查询尽量高效，O(1) 内查询。依旧选用 map 查询。修改和删除也需要 O(1) 完成，依旧选用双向链表，继续复用 container 包中的 list 数据结构。LFU 需要记录访问次数，所以每个结点除了存储 key，value，需要再多存储 frequency 访问次数。</description>
+    </item>
+    
+    <item>
+      <title>3.5 Binary Indexed Tree</title>
+      <link>https://books.halfrost.com/leetcode/zh/ChapterThree/Binary_Indexed_Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/zh/ChapterThree/Binary_Indexed_Tree/</guid>
+      <description>树状数组 Binary Indexed Tree (二叉索引树) #  树状数组或二叉索引树（Binary Indexed Tree），又以其发明者命名为 Fenwick 树，最早由 Peter M. Fenwick 于 1994 年以 A New Data Structure for Cumulative Frequency Tables 为题发表在 SOFTWARE PRACTICE AND EXPERIENCE 上。其初衷是解决数据压缩里的累积频率（Cumulative Frequency）的计算问题，现多用于高效计算数列的前缀和，区间和。针对区间问题，除了常见的线段树解法，还可以考虑树状数组。它可以以 O(log n) 的时间得到任意前缀和   \( \sum_{i=1}^{j}A[i],1&amp;lt;=j&amp;lt;=N \)  ，并同时支持在 O(log n)时间内支持动态单点值的修改(增加或者减少)。空间复杂度 O(n)。
+ 利用数组实现前缀和，查询本来是 O(1)，但是对于频繁更新的数组，每次重新计算前缀和，时间复杂度 O(n)。此时树状数组的优势便立即显现。
+ 一. 一维树状数组概念 #   树状数组名字虽然又有树，又有数组，但是它实际上物理形式还是数组，不过每个节点的含义是树的关系，如上图。树状数组中父子节点下标关系是  \(parent = son &amp;#43; 2^{k}\)  ，其中 k 是子节点下标对应二进制末尾 0 的个数。
+例如上图中 A 和 B 都是数组。A 数组正常存储数据，B 数组是树状数组。B4，B6，B7 是 B8 的子节点。4 的二进制是 100，4 +  \(2^{2}\)  = 8，所以 8 是 4 的父节点。同理，7 的二进制 111，7 +  \(2^{0}\)  = 8，8 也是 7 的父节点。</description>
+    </item>
+    
+  </channel>
+</rss>

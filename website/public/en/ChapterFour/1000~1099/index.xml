@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1002.Find-Common-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1002.Find-Common-Characters/</guid>
+      <description>1002. Find Common Characters #  Problem #  Given an array A of strings made only from lowercase letters, return a list of all characters that show up in all strings within the list (including duplicates). For example, if a character occurs 3 times in all strings but not 4 times, you need to include that character three times in the final answer.
+You may return the answer in any order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1003.Check-If-Word-Is-Valid-After-Substitutions/</guid>
+      <description>1003. Check If Word Is Valid After Substitutions #  Problem #  We are given that the string &amp;ldquo;abc&amp;rdquo; is valid.
+From any valid string V, we may split V into two pieces X and Y such that X + Y (X concatenated with Y) is equal to V. (X or Y may be empty.) Then, X + &amp;ldquo;abc&amp;rdquo; + Y is also valid.
+If for example S = &amp;ldquo;abc&amp;rdquo;, then examples of valid strings are: &amp;ldquo;abc&amp;rdquo;, &amp;ldquo;aabcbc&amp;rdquo;, &amp;ldquo;abcabc&amp;rdquo;, &amp;ldquo;abcabcababcc&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1004.Max-Consecutive-Ones-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1004.Max-Consecutive-Ones-III/</guid>
+      <description>1004. Max Consecutive Ones III #  Problem #  Given an array A of 0s and 1s, we may change up to K values from 0 to 1.
+Return the length of the longest (contiguous) subarray that contains only 1s.
+Example 1:
+ Input: A = [1,1,1,0,0,0,1,1,1,1,0], K = 2 Output: 6 Explanation: [1,1,1,0,0,1,1,1,1,1,1] Bolded numbers were flipped from 0 to 1. The longest subarray is underlined. Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1005.Maximize-Sum-Of-Array-After-K-Negations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1005.Maximize-Sum-Of-Array-After-K-Negations/</guid>
+      <description>1005. Maximize Sum Of Array After K Negations #  Problem #  Given an array A of integers, we must modify the array in the following way: we choose an i and replace A[i] with -A[i], and we repeat this process K times in total. (We may choose the same index i multiple times.)
+Return the largest possible sum of the array after modifying it in this way.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1006.Clumsy-Factorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1006.Clumsy-Factorial/</guid>
+      <description>1006. Clumsy Factorial #  Problem #  Normally, the factorial of a positive integer n is the product of all positive integers less than or equal to n. For example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.
+We instead make a clumsy factorial: using the integers in decreasing order, we swap out the multiply operations for a fixed rotation of operations: multiply (*), divide (/), add (+) and subtract (-) in this order.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1009.Complement-of-Base-10-Integer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1009.Complement-of-Base-10-Integer/</guid>
+      <description>1009. Complement of Base 10 Integer #  Problem #  The complement of an integer is the integer you get when you flip all the 0&#39;s to 1&#39;s and all the 1&#39;s to 0&#39;s in its binary representation.
+ For example, The integer 5 is &amp;quot;101&amp;quot; in binary and its complement is &amp;quot;010&amp;quot; which is the integer 2.  Given an integer n, return its complement.
+Example 1:
+Input: n = 5 Output: 2 Explanation: 5 is &amp;quot;101&amp;quot; in binary, with complement &amp;quot;010&amp;quot; in binary, which is 2 in base-10.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1010.Pairs-of-Songs-With-Total-Durations-Divisible-by-60/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1010.Pairs-of-Songs-With-Total-Durations-Divisible-by-60/</guid>
+      <description>1010. Pairs of Songs With Total Durations Divisible by 60 #  Problem #  You are given a list of songs where the ith song has a duration of time[i] seconds.
+Return the number of pairs of songs for which their total duration in seconds is divisible by 60. Formally, we want the number of indices i, j such that i &amp;lt; j with (time[i] + time[j]) % 60 == 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1011.Capacity-To-Ship-Packages-Within-D-Days/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1011.Capacity-To-Ship-Packages-Within-D-Days/</guid>
+      <description>1011. Capacity To Ship Packages Within D Days #  Problem #  A conveyor belt has packages that must be shipped from one port to another within D days.
+The i-th package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by weights). We may not load more weight than the maximum weight capacity of the ship.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1017.Convert-to-Base-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1017.Convert-to-Base-2/</guid>
+      <description>1017. Convert to Base -2 #  Problem #  Given a number N, return a string consisting of &amp;quot;0&amp;quot;s and &amp;quot;1&amp;quot;s that represents its value in base -2 (negative two).
+The returned string must have no leading zeroes, unless the string is &amp;quot;0&amp;quot;.
+Example 1:
+Input: 2 Output: &amp;quot;110&amp;quot; Explantion: (-2) ^ 2 + (-2) ^ 1 = 2  Example 2:
+Input: 3 Output: &amp;quot;111&amp;quot; Explantion: (-2) ^ 2 + (-2) ^ 1 + (-2) ^ 0 = 3  Example 3:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1018.Binary-Prefix-Divisible-By-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1018.Binary-Prefix-Divisible-By-5/</guid>
+      <description>1018. Binary Prefix Divisible By 5 #  Problem #  Given an array A of 0s and 1s, consider N_i: the i-th subarray from A[0] to A[i] interpreted as a binary number (from most-significant-bit to least-significant-bit.)
+Return a list of booleans answer, where answer[i] is true if and only if N_i is divisible by 5.
+Example 1:
+Input: [0,1,1] Output: [true,false,false] Explanation: The input numbers in binary are 0, 01, 011; which are 0, 1, and 3 in base-10.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1019.Next-Greater-Node-In-Linked-List/</guid>
+      <description>1019. Next Greater Node In Linked List #  Problem #  We are given a linked list with head as the first node. Let&amp;rsquo;s number the nodes in the list: node_1, node_2, node_3, &amp;hellip; etc.
+Each node may have a next larger value: for node_i, next_larger(node_i) is the node_j.val such that j &amp;gt; i, node_j.val &amp;gt; node_i.val, and j is the smallest possible choice. If such a j does not exist, the next larger value is 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1020.Number-of-Enclaves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1020.Number-of-Enclaves/</guid>
+      <description>1020. Number of Enclaves #  Problem #  Given a 2D array A, each cell is 0 (representing sea) or 1 (representing land)
+A move consists of walking from one land square 4-directionally to another land square, or off the boundary of the grid.
+Return the number of land squares in the grid for which we cannot walk off the boundary of the grid in any number of moves.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1021.Remove-Outermost-Parentheses/</guid>
+      <description>1021. Remove Outermost Parentheses #  Problem #  A valid parentheses string is either empty (&amp;quot;&amp;quot;), &amp;ldquo;(&amp;rdquo; + A + &amp;ldquo;)&amp;rdquo;, or A + B, where A and B are valid parentheses strings, and + represents string concatenation. For example, &amp;ldquo;&amp;rdquo;, &amp;ldquo;()&amp;rdquo;, &amp;ldquo;(())()&amp;rdquo;, and &amp;ldquo;(()(()))&amp;rdquo; are all valid parentheses strings.
+A valid parentheses string S is primitive if it is nonempty, and there does not exist a way to split it into S = A+B, with A and B nonempty valid parentheses strings.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1022.Sum-of-Root-To-Leaf-Binary-Numbers/</guid>
+      <description>1022. Sum of Root To Leaf Binary Numbers #  Problem #  You are given the root of a binary tree where each node has a value 0 or 1. Each root-to-leaf path represents a binary number starting with the most significant bit.
+For example, if the path is 0 -&amp;gt; 1 -&amp;gt; 1 -&amp;gt; 0 -&amp;gt; 1, then this could represent 01101 in binary, which is 13. For all leaves in the tree, consider the numbers represented by the path from the root to that leaf.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1025.Divisor-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1025.Divisor-Game/</guid>
+      <description>1025. Divisor Game #  Problem #  Alice and Bob take turns playing a game, with Alice starting first.
+Initially, there is a number N on the chalkboard. On each player&amp;rsquo;s turn, that player makes a move consisting of:
+ Choosing any x with 0 &amp;lt; x &amp;lt; N and N % x == 0. Replacing the number N on the chalkboard with N - x.  Also, if a player cannot make a move, they lose the game.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1026.Maximum-Difference-Between-Node-and-Ancestor/</guid>
+      <description>1026. Maximum Difference Between Node and Ancestor #  Problem #  Given the root of a binary tree, find the maximum value V for which there exists different nodes A and B where V = |A.val - B.val| and A is an ancestor of B.
+(A node A is an ancestor of B if either: any child of A is equal to B, or any child of A is an ancestor of B.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1028.Recover-a-Tree-From-Preorder-Traversal/</guid>
+      <description>1028. Recover a Tree From Preorder Traversal #  Problem #  We run a preorder depth first search on the root of a binary tree.
+At each node in this traversal, we output D dashes (where D is the depth of this node), then we output the value of this node. (If the depth of a node is D, the depth of its immediate child is D+1. The depth of the root node is 0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1030.Matrix-Cells-in-Distance-Order/</guid>
+      <description>1030. Matrix Cells in Distance Order #  Problem #  We are given a matrix with R rows and C columns has cells with integer coordinates (r, c), where 0 &amp;lt;= r &amp;lt; R and 0 &amp;lt;= c &amp;lt; C.
+Additionally, we are given a cell in that matrix with coordinates (r0, c0).
+Return the coordinates of all cells in the matrix, sorted by their distance from (r0, c0) from smallest distance to largest distance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1034.Coloring-A-Border/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1034.Coloring-A-Border/</guid>
+      <description>1034. Coloring A Border #  Problem #  You are given an m x n integer matrix grid, and three integers row, col, and color. Each value in the grid represents the color of the grid square at that location.
+Two squares belong to the same connected component if they have the same color and are next to each other in any of the 4 directions.
+The border of a connected component is all the squares in the connected component that are either 4-directionally adjacent to a square not in the component, or on the boundary of the grid (the first or last row or column).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1037.Valid-Boomerang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1037.Valid-Boomerang/</guid>
+      <description>1037. Valid Boomerang #  Problem #  A boomerang is a set of 3 points that are all distinct and not in a straight line.
+Given a list of three points in the plane, return whether these points are a boomerang.
+Example 1:
+Input: [[1,1],[2,3],[3,2]] Output: true Example 2:
+Input: [[1,1],[2,2],[3,3]] Output: false Note:
+ points.length == 3 points[i].length == 2 0 &amp;lt;= points[i][j] &amp;lt;= 100  Problem Summary #  A boomerang is defined as a set of three points that are all distinct and not in a straight line.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1038.Binary-Search-Tree-to-Greater-Sum-Tree/</guid>
+      <description>1038. Binary Search Tree to Greater Sum Tree #  Problem #  Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.
+As a reminder, a binary search tree is a tree that satisfies these constraints:
+ The left subtree of a node contains only nodes with keys less than the node&amp;rsquo;s key.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1040.Moving-Stones-Until-Consecutive-II/</guid>
+      <description>1040. Moving Stones Until Consecutive II #  Problem #  On an infinite number line, the position of the i-th stone is given by stones[i]. Call a stone an endpoint stone if it has the smallest or largest position.
+Each turn, you pick up an endpoint stone and move it to an unoccupied position so that it is no longer an endpoint stone.
+In particular, if the stones are at say, stones = [1,2,5], you cannot move the endpoint stone at position 5, since moving it to any position (such as 0, or 3) will still keep that stone as an endpoint stone.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1044.Longest-Duplicate-Substring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1044.Longest-Duplicate-Substring/</guid>
+      <description>1044. Longest Duplicate Substring #  Problem #  Given a string s, consider all duplicated substrings : (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap.
+Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is &amp;quot;&amp;quot;.
+Example 1:
+Input: s = &amp;quot;banana&amp;quot; Output: &amp;quot;ana&amp;quot; Example 2:
+Input: s = &amp;quot;abcd&amp;quot; Output: &amp;quot;&amp;quot; Constraints:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1047.Remove-All-Adjacent-Duplicates-In-String/</guid>
+      <description>1047. Remove All Adjacent Duplicates In String #  Problem #  Given a string S of lowercase letters, a duplicate removal consists of choosing two adjacent and equal letters, and removing them.
+We repeatedly make duplicate removals on S until we no longer can.
+Return the final string after all such duplicate removals have been made. It is guaranteed the answer is unique.
+Example 1:
+ Input: &amp;quot;abbaca&amp;quot; Output: &amp;quot;ca&amp;quot; Explanation: For example, in &amp;quot;abbaca&amp;quot; we could remove &amp;quot;bb&amp;quot; since the letters are adjacent and equal, and this is the only possible move.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1048.Longest-String-Chain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1048.Longest-String-Chain/</guid>
+      <description>1048. Longest String Chain #  Problem #  Given a list of words, each word consists of English lowercase letters.
+Let&amp;rsquo;s say word1 is a predecessor of word2 if and only if we can add exactly one letter anywhere in word1 to make it equal to word2. For example, &amp;quot;abc&amp;quot; is a predecessor of &amp;quot;abac&amp;quot;.
+A word chain is a sequence of words [word_1, word_2, ..., word_k] with k &amp;gt;= 1, where word_1 is a predecessor of word_2, word_2 is a predecessor of word_3, and so on.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1049.Last-Stone-Weight-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1049.Last-Stone-Weight-II/</guid>
+      <description>1049. Last Stone Weight II #  Problem #  We have a collection of rocks, each rock has a positive integer weight.
+Each turn, we choose any two rocks and smash them together. Suppose the stones have weights x and y with x &amp;lt;= y. The result of this smash is:
+ If x == y, both stones are totally destroyed; If x != y, the stone of weight x is totally destroyed, and the stone of weight yhas new weight y-x.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1051.Height-Checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1051.Height-Checker/</guid>
+      <description>1051. Height Checker #  Problem #  Students are asked to stand in non-decreasing order of heights for an annual photo.
+Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height.
+Notice that when a group of students is selected they can reorder in any possible way between themselves and the non selected students remain on their seats.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1052.Grumpy-Bookstore-Owner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1052.Grumpy-Bookstore-Owner/</guid>
+      <description>1052. Grumpy Bookstore Owner #  Problem #  Today, the bookstore owner has a store open for customers.lengthminutes. Every minute, some number of customers (customers[i]) enter the store, and all those customers leave after the end of that minute.
+On some minutes, the bookstore owner is grumpy. If the bookstore owner is grumpy on the i-th minute, grumpy[i] = 1, otherwise grumpy[i] = 0. When the bookstore owner is grumpy, the customers of that minute are not satisfied, otherwise they are satisfied.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1054.Distant-Barcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1054.Distant-Barcodes/</guid>
+      <description>1054. Distant Barcodes #  Problem #  In a warehouse, there is a row of barcodes, where the i-th barcode is barcodes[i].
+Rearrange the barcodes so that no two adjacent barcodes are equal. You may return any answer, and it is guaranteed an answer exists.
+Example 1:
+Input: [1,1,1,2,2,2] Output: [2,1,2,1,2,1]  Example 2:
+Input: [1,1,1,1,2,2,3,3] Output: [1,3,1,3,2,1,2,1]  Note:
+ 1 &amp;lt;= barcodes.length &amp;lt;= 10000 1 &amp;lt;= barcodes[i] &amp;lt;= 10000  Problem Summary #  In a warehouse, there is a row of barcodes, where the i-th barcode is barcodes[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1073.Adding-Two-Negabinary-Numbers/</guid>
+      <description>1073. Adding Two Negabinary Numbers #  Problem #  Given two numbers arr1 and arr2 in base -2, return the result of adding them together.
+Each number is given in array format: as an array of 0s and 1s, from most significant bit to least significant bit. For example, arr = [1,1,0,1]represents the number (-2)^3 + (-2)^2 + (-2)^0 = -3. A number arr in array format is also guaranteed to have no leading zeros: either arr == [0] or arr[0] == 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1074.Number-of-Submatrices-That-Sum-to-Target/</guid>
+      <description>1074. Number of Submatrices That Sum to Target #  Problem #  Given a matrix, and a target, return the number of non-empty submatrices that sum to target.
+A submatrix x1, y1, x2, y2 is the set of all cells matrix[y] with x1 &amp;lt;= x &amp;lt;= x2 and y1 &amp;lt;= y &amp;lt;= y2.
+Two submatrices (x1, y1, x2, y2) and (x1&#39;, y1&#39;, x2&#39;, y2&#39;) are different if they have some coordinate that is different: for example, if x1 !</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1078.Occurrences-After-Bigram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1078.Occurrences-After-Bigram/</guid>
+      <description>1078. Occurrences After Bigram #  Problem #  Given words first and second, consider occurrences in some text of the form &amp;ldquo;first second third&amp;rdquo;, where second comes immediately after first, and thirdcomes immediately after second.
+For each such occurrence, add &amp;ldquo;third&amp;rdquo; to the answer, and return the answer.
+Example 1:
+Input: text = &amp;quot;alice is a good girl she is a good student&amp;quot;, first = &amp;quot;a&amp;quot;, second = &amp;quot;good&amp;quot; Output: [&amp;quot;girl&amp;quot;,&amp;quot;student&amp;quot;]  Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1079.Letter-Tile-Possibilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1079.Letter-Tile-Possibilities/</guid>
+      <description>1079. Letter Tile Possibilities #  Problem #  You have a set of tiles, where each tile has one letter tiles[i] printed on it. Return the number of possible non-empty sequences of letters you can make.
+Example 1:
+Input: &amp;quot;AAB&amp;quot; Output: 8 Explanation: The possible sequences are &amp;quot;A&amp;quot;, &amp;quot;B&amp;quot;, &amp;quot;AA&amp;quot;, &amp;quot;AB&amp;quot;, &amp;quot;BA&amp;quot;, &amp;quot;AAB&amp;quot;, &amp;quot;ABA&amp;quot;, &amp;quot;BAA&amp;quot;.  Example 2:
+Input: &amp;quot;AAABBC&amp;quot; Output: 188  Note:
+ 1 &amp;lt;= tiles.length &amp;lt;= 7 tiles consists of uppercase English letters.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1089.Duplicate-Zeros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1089.Duplicate-Zeros/</guid>
+      <description>1089. Duplicate Zeros #  Problem #  Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
+Note that elements beyond the length of the original array are not written.
+Do the above modifications to the input array in place, do not return anything from your function.
+Example 1:
+Input: [1,0,2,3,0,4,5,0] Output: null Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4] Example 2:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1091.Shortest-Path-in-Binary-Matrix/</guid>
+      <description>1091. Shortest Path in Binary Matrix #  Problem #  In an N by N square grid, each cell is either empty (0) or blocked (1).
+A clear path from top-left to bottom-right has length k if and only if it is composed of cells C_1, C_2, ..., C_k such that:
+ Adjacent cells C_i and C_{i+1} are connected 8-directionally (ie., they are different and share an edge or corner) C_1 is at location (0, 0) (ie.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1000~1099/1093.Statistics-from-a-Large-Sample/</guid>
+      <description>1093. Statistics from a Large Sample #  Problem #  We sampled integers between 0 and 255, and stored the results in an array count: count[k] is the number of integers we sampled equal to k.
+Return the minimum, maximum, mean, median, and mode of the sample respectively, as an array of floating point numbers. The mode is guaranteed to be unique.
+(Recall that the median of a sample is:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0605.Can-Place-Flowers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0605.Can-Place-Flowers/</guid>
+      <description>605. Can Place Flowers #  Problem #  You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
+Given an integer array flowerbed containing 0&#39;s and 1&#39;s, where 0 means empty and 1 means not empty, and an integer n, return if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0609.Find-Duplicate-File-in-System/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0609.Find-Duplicate-File-in-System/</guid>
+      <description>609. Find Duplicate File in System #  Problem #  Given a list paths of directory info, including the directory path, and all the files with contents in this directory, return all the duplicate files in the file system in terms of their paths. You may return the answer in any order.
+A group of duplicate files consists of at least two files that have the same content.
+A single directory info string in the input list has the following format:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0611.Valid-Triangle-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0611.Valid-Triangle-Number/</guid>
+      <description>611. Valid Triangle Number #  Problem #  Given an integer array nums, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+Problem Summary #  Given an array containing non-negative integers, your task is to count the number of triplets that can form the three sides of a triangle.
+Solution Approach #   The idea is very simple.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0617.Merge-Two-Binary-Trees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0617.Merge-Two-Binary-Trees/</guid>
+      <description>617. Merge Two Binary Trees #  Problem #  You are given two binary trees root1 and root2.
+Imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge the two trees into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0622.Design-Circular-Queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0622.Design-Circular-Queue/</guid>
+      <description>622. Design Circular Queue #  Problem #  Design your implementation of the circular queue. The circular queue is a linear data structure in which the operations are performed based on FIFO (First In First Out) principle and the last position is connected back to the first position to make a circle. It is also called &amp;ldquo;Ring Buffer&amp;rdquo;.
+One of the benefits of the circular queue is that we can make use of the spaces in front of the queue.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0623.Add-One-Row-to-Tree/</guid>
+      <description>623. Add One Row to Tree #  Problem #  Given the root of a binary tree, then value v and depth d, you need to add a row of nodes with value v at the given depth d. The root node is at depth 1.
+The adding rule is: given a positive integer depth d, for each NOT null tree nodes N in depth d-1, create two tree nodes with value v as N&#39;s left subtree root and right subtree root.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0628.Maximum-Product-of-Three-Numbers/</guid>
+      <description>628. Maximum Product of Three Numbers #  Problem #  Given an integer array, find three numbers whose product is maximum and output the maximum product.
+Example 1:
+Input: [1,2,3] Output: 6  Example 2:
+Input: [1,2,3,4] Output: 24  Note:
+ The length of the given array will be in range [3,10^4] and all elements are in the range [-1000, 1000]. Multiplication of any three numbers in the input won&amp;rsquo;t exceed the range of 32-bit signed integer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0630.Course-Schedule-III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0630.Course-Schedule-III/</guid>
+      <description>630. Course Schedule III #  Problem #  There are n different online courses numbered from 1 to n. You are given an array courses where courses[i] = [durationi, lastDayi] indicate that the ith course should be taken continuously for durationi days and must be finished before or on lastDayi.
+You will start on the 1st day and you cannot take two or more courses simultaneously.
+Return the maximum number of courses that you can take.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0632.Smallest-Range-Covering-Elements-from-K-Lists/</guid>
+      <description>632. Smallest Range Covering Elements from K Lists #  Problem #  You have k lists of sorted integers in ascending order. Find the smallest range that includes at least one number from each of the k lists.
+We define the range [a,b] is smaller than range [c,d] if b-a &amp;lt; d-c or a &amp;lt; c if b-a == d-c.
+Example 1:
+Input: [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]] Output: [20,24] Explanation: List 1: [4, 10, 15, 24,26], 24 is in range [20,24].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0633.Sum-of-Square-Numbers/</guid>
+      <description>633. Sum of Square Numbers #  Problem #  Given a non-negative integer c, your task is to decide whether there&amp;rsquo;re two integers a and b such that a^2 + b^2 = c.
+Example 1:
+Input: 5 Output: True Explanation: 1 * 1 + 2 * 2 = 5  Example 2:
+Input: 3 Output: False  Problem Summary #  Given a non-negative integer c, you need to determine whether there exist two integers a and b such that a^2 + b^2 = c.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0636.Exclusive-Time-of-Functions/</guid>
+      <description>636. Exclusive Time of Functions #  Problem #  On a single threaded CPU, we execute some functions. Each function has a unique id between 0 and N-1.
+We store logs in timestamp order that describe when a function is entered or exited.
+Each log is a string with this format: &amp;quot;{function_id}:{&amp;quot;start&amp;quot; | &amp;quot;end&amp;quot;}:{timestamp}&amp;quot;. For example, &amp;quot;0:start:3&amp;quot; means the function with id 0 started at the beginning of timestamp 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0637.Average-of-Levels-in-Binary-Tree/</guid>
+      <description>637. Average of Levels in Binary Tree #  Problem #  Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.
+Example 1:
+ Input: 3 / \ 9 20 / \ 15 7 Output: [3, 14.5, 11] Explanation: The average value of nodes on level 0 is 3, on level 1 is 14.5, and on level 2 is 11.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0638.Shopping-Offers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0638.Shopping-Offers/</guid>
+      <description>638. Shopping Offers #  Problem #  In LeetCode Store, there are some kinds of items to sell. Each item has a price.
+However, there are some special offers, and a special offer consists of one or more different kinds of items with a sale price.
+You are given the each item&amp;rsquo;s price, a set of special offers, and the number we need to buy for each item. The job is to output the lowest price you have to pay for exactly certain items as given, where you could make optimal use of the special offers.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0643.Maximum-Average-Subarray-I/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0643.Maximum-Average-Subarray-I/</guid>
+      <description>643. Maximum Average Subarray I #  Problem #  Given an array consisting of n integers, find the contiguous subarray of given length k that has the maximum average value. And you need to output the maximum average value.
+Example 1:
+Input: [1,12,-5,-6,50,3], k = 4 Output: 12.75 Explanation: Maximum average is (12-5-6+50)/4 = 51/4 = 12.75 Note:
+ 1 &amp;lt;= k &amp;lt;= n &amp;lt;= 30,000. Elements of the given array will be in the range [-10,000, 10,000].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0645.Set-Mismatch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0645.Set-Mismatch/</guid>
+      <description>645. Set Mismatch #  Problem #  The set S originally contains numbers from 1 to n. But unfortunately, due to the data error, one of the numbers in the set got duplicated to another number in the set, which results in repetition of one number and loss of another number.
+Given an array nums representing the data status of this set after the error. Your task is to firstly find the number occurs twice and then find the number that is missing.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0647.Palindromic-Substrings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0647.Palindromic-Substrings/</guid>
+      <description>647. Palindromic Substrings #  Problem #  Given a string, your task is to count how many palindromic substrings in this string.
+The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.
+Example 1:
+Input: &amp;quot;abc&amp;quot; Output: 3 Explanation: Three palindromic strings: &amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;. Example 2:
+Input: &amp;quot;aaa&amp;quot; Output: 6 Explanation: Six palindromic strings: &amp;quot;a&amp;quot;, &amp;quot;a&amp;quot;, &amp;quot;a&amp;quot;, &amp;quot;aa&amp;quot;, &amp;quot;aa&amp;quot;, &amp;quot;aaa&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0648.Replace-Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0648.Replace-Words/</guid>
+      <description>648. Replace Words #  Problem #  In English, we have a concept called root, which can be followed by some other words to form another longer word - let&amp;rsquo;s call this word successor. For example, the root an, followed by other, which can form another word another.
+Now, given a dictionary consisting of many roots and a sentence. You need to replace all the successor in the sentence with the root forming it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0653.Two-Sum-IV-Input-is-a-BST/</guid>
+      <description>653. Two Sum IV - Input is a BST #  Problem #  Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
+Example 1:
+Input: 5 / \ 3 6 / \ \ 2 4 7 Target = 9 Output: True  Example 2:
+Input: 5 / \ 3 6 / \ \ 2 4 7 Target = 28 Output: False  Problem Summary #  Given a binary search tree and a target result, if there exist two elements in the BST and their sum is equal to the given target result, return true.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0658.Find-K-Closest-Elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0658.Find-K-Closest-Elements/</guid>
+      <description>658. Find K Closest Elements #  Problem #  Given a sorted array, two integers k and x, find the k closest elements to x in the array. The result should also be sorted in ascending order. If there is a tie, the smaller elements are always preferred.
+Example 1:
+Input: [1,2,3,4,5], k=4, x=3 Output: [1,2,3,4]  Example 2:
+Input: [1,2,3,4,5], k=4, x=-1 Output: [1,2,3,4]  Note:
+ The value k is positive and will always be smaller than the length of the sorted array.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0661.Image-Smoother/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0661.Image-Smoother/</guid>
+      <description>661. Image Smoother #  Problem #  Given a 2D integer matrix M representing the gray scale of an image, you need to design a smoother to make the gray scale of each cell becomes the average gray scale (rounding down) of all the 8 surrounding cells and itself. If a cell has less than 8 surrounding cells, then use as many as you can.
+Example 1:
+Input: [[1,1,1], [1,0,1], [1,1,1]] Output: [[0, 0, 0], [0, 0, 0], [0, 0, 0]] Explanation: For the point (0,0), (0,2), (2,0), (2,2): floor(3/4) = floor(0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0662.Maximum-Width-of-Binary-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0662.Maximum-Width-of-Binary-Tree/</guid>
+      <description>662. Maximum Width of Binary Tree #  Problem #  Given a binary tree, write a function to get the maximum width of the given tree. The width of a tree is the maximum width among all levels. The binary tree has the same structure as a full binary tree, but some nodes are null.
+The width of one level is defined as the length between the end-nodes (the leftmost and right most non-null nodes in the level, where the null nodes between the end-nodes are also counted into the length calculation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0665.Non-decreasing-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0665.Non-decreasing-Array/</guid>
+      <description>665. Non-decreasing Array #  Problem #  Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most one element.
+We define an array is non-decreasing if nums[i] &amp;lt;= nums[i + 1] holds for every i (0-based) such that (0 &amp;lt;= i &amp;lt;= n - 2).
+Example 1:
+Input: nums = [4,2,3] Output: true Explanation: You could modify the first 4 to 1 to get a non-decreasing array.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0667.Beautiful-Arrangement-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0667.Beautiful-Arrangement-II/</guid>
+      <description>667. Beautiful Arrangement II #  Problem #  Given two integers n and k, you need to construct a list which contains n different positive integers ranging from 1 to n and obeys the following requirement:Suppose this list is [a1, a2, a3, &amp;hellip; , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, &amp;hellip; , |an-1 - an|] has exactly k distinct integers.
+If there are multiple answers, print any of them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0668.Kth-Smallest-Number-in-Multiplication-Table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0668.Kth-Smallest-Number-in-Multiplication-Table/</guid>
+      <description>668. Kth Smallest Number in Multiplication Table #  Problem #  Nearly every one have used the Multiplication Table. But could you find out the k-th smallest number quickly from the multiplication table?
+Given the height m and the length n of a m * n Multiplication Table, and a positive integer k, you need to return the k-th smallest number in this table.
+Example 1:
+Input: m = 3, n = 3, k = 5 Output: Explanation: The Multiplication Table: 1	2	3 2	4	6 3	6	9 The 5-th smallest number is 3 (1, 2, 2, 3, 3).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0669.Trim-a-Binary-Search-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0669.Trim-a-Binary-Search-Tree/</guid>
+      <description>669. Trim a Binary Search Tree #  Problem #  Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node&amp;rsquo;s descendant should remain a descendant). It can be proven that there is a unique answer.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0674.Longest-Continuous-Increasing-Subsequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0674.Longest-Continuous-Increasing-Subsequence/</guid>
+      <description>674. Longest Continuous Increasing Subsequence #  Problem #  Given an unsorted array of integers nums, return the length of the longest continuous increasing subsequence (i.e. subarray). The subsequence must be strictly increasing.
+A continuous increasing subsequence is defined by two indices l and r (l &amp;lt; r) such that it is [nums[l], nums[l + 1], ..., nums[r - 1], nums[r]] and for each l &amp;lt;= i &amp;lt; r, nums[i] &amp;lt; nums[i + 1].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0676.Implement-Magic-Dictionary/</guid>
+      <description>676. Implement Magic Dictionary #  Problem #  Implement a magic directory with buildDict, and search methods.
+For the method buildDict, you&amp;rsquo;ll be given a list of non-repetitive words to build a dictionary.
+For the method search, you&amp;rsquo;ll be given a word, and judge whether if you modify exactly one character into anothercharacter in this word, the modified word is in the dictionary you just built.
+Example 1:
+Input: buildDict([&amp;quot;hello&amp;quot;, &amp;quot;leetcode&amp;quot;]), Output: Null Input: search(&amp;quot;hello&amp;quot;), Output: False Input: search(&amp;quot;hhllo&amp;quot;), Output: True Input: search(&amp;quot;hell&amp;quot;), Output: False Input: search(&amp;quot;leetcoded&amp;quot;), Output: False  Note:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0677.Map-Sum-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0677.Map-Sum-Pairs/</guid>
+      <description>677. Map Sum Pairs #  Problem #  Design a map that allows you to do the following:
+ Maps a string key to a given value. Returns the sum of the values that have a key with a prefix equal to a given string.  Implement the MapSum class:
+ MapSum() Initializes the MapSum object. void insert(String key, int val) Inserts the key-val pair into the map. If the key already existed, the original key-value pair will be overridden to the new one.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0682.Baseball-Game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0682.Baseball-Game/</guid>
+      <description>682. Baseball Game #  Problem #  You&amp;rsquo;re now a baseball game point recorder.
+Given a list of strings, each string can be one of the 4 following types:
+ Integer (one round&amp;rsquo;s score): Directly represents the number of points you get in this round. &amp;ldquo;+&amp;rdquo; (one round&amp;rsquo;s score): Represents that the points you get in this round are the sum of the last two valid round&amp;rsquo;s points. &amp;ldquo;D&amp;rdquo; (one round&amp;rsquo;s score): Represents that the points you get in this round are the doubled data of the last valid round&amp;rsquo;s points.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0684.Redundant-Connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0684.Redundant-Connection/</guid>
+      <description>684. Redundant Connection #  Problem #  In this problem, a tree is an undirected graph that is connected and has no cycles.
+The given input is a graph that started as a tree with N nodes (with distinct values 1, 2, &amp;hellip;, N), with one additional edge added. The added edge has two different vertices chosen from 1 to N, and was not an edge that already existed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0685.Redundant-Connection-II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0685.Redundant-Connection-II/</guid>
+      <description>685. Redundant Connection II #  Problem #  In this problem, a rooted tree is a directed graph such that, there is exactly one node (the root) for which all other nodes are descendants of this node, plus every node has exactly one parent, except for the root node which has no parents.
+The given input is a directed graph that started as a rooted tree with N nodes (with distinct values 1, 2, &amp;hellip;, N), with one additional directed edge added.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0690.Employee-Importance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0690.Employee-Importance/</guid>
+      <description>690. Employee Importance #  Problem #  You are given a data structure of employee information, which includes the employee&amp;rsquo;s unique id, their importance value and their direct subordinates&amp;rsquo; id.
+For example, employee 1 is the leader of employee 2, and employee 2 is the leader of employee 3. They have importance value 15, 10 and 5, respectively. Then employee 1 has a data structure like [1, 15, [2]], and employee 2 has [2, 10, [3]], and employee 3 has [3, 5, []].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0692.Top-K-Frequent-Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0692.Top-K-Frequent-Words/</guid>
+      <description>692. Top K Frequent Words #  Problem #  Given a non-empty list of words, return the k most frequent elements.
+Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.
+Example 1:
+Input: [&amp;quot;i&amp;quot;, &amp;quot;love&amp;quot;, &amp;quot;leetcode&amp;quot;, &amp;quot;i&amp;quot;, &amp;quot;love&amp;quot;, &amp;quot;coding&amp;quot;], k = 2 Output: [&amp;quot;i&amp;quot;, &amp;quot;love&amp;quot;] Explanation: &amp;quot;i&amp;quot; and &amp;quot;love&amp;quot; are the two most frequent words.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0693.Binary-Number-with-Alternating-Bits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0693.Binary-Number-with-Alternating-Bits/</guid>
+      <description>693. Binary Number with Alternating Bits #  Problem #  Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
+Example 1:
+Input: 5 Output: True Explanation: The binary representation of 5 is: 101  Example 2:
+Input: 7 Output: False Explanation: The binary representation of 7 is: 111.  Example 3:
+Input: 11 Output: False Explanation: The binary representation of 11 is: 1011.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0695.Max-Area-of-Island/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0695.Max-Area-of-Island/</guid>
+      <description>695. Max Area of Island #  Problem #  Given a non-empty 2D array grid of 0&amp;rsquo;s and 1&amp;rsquo;s, an island is a group of 1&#39;s (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+Find the maximum area of an island in the given 2D array. (If there is no island, the maximum area is 0.)
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0696.Count-Binary-Substrings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0696.Count-Binary-Substrings/</guid>
+      <description>696. Count Binary Substrings #  Problem #  Give a string s, count the number of non-empty (contiguous) substrings that have the same number of 0&amp;rsquo;s and 1&amp;rsquo;s, and all the 0&amp;rsquo;s and all the 1&amp;rsquo;s in these substrings are grouped consecutively.
+Substrings that occur multiple times are counted the number of times they occur.
+Example 1:
+Input: &amp;quot;00110011&amp;quot; Output: 6 Explanation: There are 6 substrings that have equal number of consecutive 1&#39;s and 0&#39;s: &amp;quot;0011&amp;quot;, &amp;quot;01&amp;quot;, &amp;quot;1100&amp;quot;, &amp;quot;10&amp;quot;, &amp;quot;0011&amp;quot;, and &amp;quot;01&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0697.Degree-of-an-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0697.Degree-of-an-Array/</guid>
+      <description>697. Degree of an Array #  Problem #  Given a non-empty array of non-negative integers nums, the degree of this array is defined as the maximum frequency of any one of its elements.
+Your task is to find the smallest possible length of a (contiguous) subarray of nums, that has the same degree as nums.
+Example 1:
+Input: [1, 2, 2, 3, 1] Output: 2 Explanation: The input array has a degree of 2 because both elements 1 and 2 appear twice.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0699.Falling-Squares/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/0600~0699/0699.Falling-Squares/</guid>
+      <description>699. Falling Squares #  Problem #  On an infinite number line (x-axis), we drop given squares in the order they are given.
+The i-th square dropped (positions[i] = (left, side_length)) is a square with the left-most point being positions[i][0] and sidelength positions[i][1].
+The square is dropped with the bottom edge parallel to the number line, and from a higher height than all currently landed squares. We wait for each square to stick before dropping the next.</description>
+    </item>
+    
+  </channel>
+</rss>

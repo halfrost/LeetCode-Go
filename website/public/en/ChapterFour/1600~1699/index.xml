@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeetCode Cookbook</title>
+    <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/</link>
+    <description>Recent content on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1600.Throne-Inheritance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1600.Throne-Inheritance/</guid>
+      <description>1600. Throne Inheritance #  Problem #  A kingdom consists of a king, his children, his grandchildren, and so on. Every once in a while, someone in the family dies or a child is born.
+The kingdom has a well-defined order of inheritance that consists of the king as the first member. Let&amp;rsquo;s define the recursive function Successor(x, curOrder), which given a person x and the inheritance order so far, returns who should be the next person after x in the order of inheritance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1603.Design-Parking-System/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1603.Design-Parking-System/</guid>
+      <description>1603. Design Parking System #  Problem #  Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
+Implement the ParkingSystem class:
+ ParkingSystem(int big, int medium, int small) Initializes object of the ParkingSystem class. The number of slots for each parking space are given as part of the constructor.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X/</guid>
+      <description>1608. Special Array With X Elements Greater Than or Equal X #  Problem #  You are given an array nums of non-negative integers. nums is considered special if there exists a number x such that there are exactly x numbers in nums that are greater than or equal to x.
+Notice that x does not have to be an element in nums.
+Return x if the array is special, otherwise, return -1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1609.Even-Odd-Tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1609.Even-Odd-Tree/</guid>
+      <description>1609. Even Odd Tree #  Problem #  A binary tree is named Even-Odd if it meets the following conditions:
+ The root of the binary tree is at level index 0, its children are at level index 1, their children are at level index 2, etc. For every even-indexed level, all nodes at the level have odd integer values in strictly increasing order (from left to right). For every odd-indexed level, all nodes at the level have even integer values in strictly decreasing order (from left to right).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1614.Maximum-Nesting-Depth-of-the-Parentheses/</guid>
+      <description>1614. Maximum Nesting Depth of the Parentheses #  Problem #  A string is a valid parentheses string (denoted VPS) if it meets one of the following:
+ It is an empty string &amp;quot;&amp;quot;, or a single character not equal to &amp;quot;(&amp;quot; or &amp;quot;)&amp;quot;, It can be written as AB (A concatenated with B), where A and B are VPS&amp;rsquo;s, or It can be written as (A), where A is a VPS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1619.Mean-of-Array-After-Removing-Some-Elements/</guid>
+      <description>1619. Mean of Array After Removing Some Elements #  Problem #  Given an integer array arr, return the mean of the remaining integers after removing the smallest 5% and the largest 5% of the elements.
+Answers within 10-5 of the actual answer will be considered accepted.
+Example 1:
+Input: arr = [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3] Output: 2.00000 Explanation: After erasing the minimum and the maximum values of this array, all elements are equal to 2, so the mean is 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1624.Largest-Substring-Between-Two-Equal-Characters/</guid>
+      <description>1624. Largest Substring Between Two Equal Characters #  Problem #  Given a string s, return the length of the longest substring between two equal characters, excluding the two characters. If there is no such substring return -1.
+A substring is a contiguous sequence of characters within a string.
+Example 1:
+Input: s = &amp;quot;aa&amp;quot; Output: 0 Explanation: The optimal substring here is an empty substring between the two &#39;a&#39;s.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1629.Slowest-Key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1629.Slowest-Key/</guid>
+      <description>1629. Slowest Key #  Problem #  A newly designed keypad was tested, where a tester pressed a sequence of n keys, one at a time.
+You are given a string keysPressed of length n, where keysPressed[i] was the ith key pressed in the testing sequence, and a sorted list releaseTimes, where releaseTimes[i] was the time the ith key was released. Both arrays are 0-indexed. The 0th key was pressed at the time 0, and every subsequent key was pressed at the exact time the previous key was released.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1631.Path-With-Minimum-Effort/</guid>
+      <description>1631. Path With Minimum Effort #  Problem #  You are a hiker preparing for an upcoming hike. You are given heights, a 2D array of size rows x columns, where heights[row][col] represents the height of cell (row, col). You are situated in the top-left cell, (0, 0), and you hope to travel to the bottom-right cell, (rows-1, columns-1) (i.e., 0-indexed). You can move up, down, left, or right, and you wish to find a route that requires the minimum effort.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1636.Sort-Array-by-Increasing-Frequency/</guid>
+      <description>1636. Sort Array by Increasing Frequency #  Problem #  Given an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order.
+Return the sorted array.
+Example 1:
+Input: nums = [1,1,2,2,2,3] Output: [3,1,1,2,2,2] Explanation: &#39;3&#39; has a frequency of 1, &#39;1&#39; has a frequency of 2, and &#39;2&#39; has a frequency of 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1640.Check-Array-Formation-Through-Concatenation/</guid>
+      <description>1640. Check Array Formation Through Concatenation #  Problem #  You are given an array of distinct integers arr and an array of integer arrays pieces, where the integers in pieces are distinct. Your goal is to form arr by concatenating the arrays in pieces in any order. However, you are not allowed to reorder the integers in each array pieces[i].
+Return true if it is possible to form the array arr from pieces.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1641.Count-Sorted-Vowel-Strings/</guid>
+      <description>1641. Count Sorted Vowel Strings #  Problem #  Given an integer n, return the number of strings of length n that consist only of vowels (a, e*,* i*,* o*,* u*) and are **lexicographically sorted**.*
+A string s is lexicographically sorted if for all valid i, s[i] is the same as or comes before s[i+1] in the alphabet.
+Example 1:
+Input: n = 1 Output: 5 Explanation: The 5 sorted strings that consist of vowels only are [&amp;quot;a&amp;quot;,&amp;quot;e&amp;quot;,&amp;quot;i&amp;quot;,&amp;quot;o&amp;quot;,&amp;quot;u&amp;quot;].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1642.Furthest-Building-You-Can-Reach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1642.Furthest-Building-You-Can-Reach/</guid>
+      <description>1642. Furthest Building You Can Reach #  Problem #  You are given an integer array heights representing the heights of buildings, some bricks, and some ladders.
+You start your journey from building 0 and move to the next building by possibly using bricks or ladders.
+While moving from building i to building i+1 (0-indexed),
+ If the current building&amp;rsquo;s height is greater than or equal to the next building&amp;rsquo;s height, you do not need a ladder or bricks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1646.Get-Maximum-in-Generated-Array/</guid>
+      <description>1646. Get Maximum in Generated Array #  Problem #  You are given an integer n. An array nums of length n + 1 is generated in the following way:
+ nums[0] = 0 nums[1] = 1 nums[2 * i] = nums[i] when 2 &amp;lt;= 2 * i &amp;lt;= n nums[2 * i + 1] = nums[i] + nums[i + 1] when 2 &amp;lt;= 2 * i + 1 &amp;lt;= n  Return ****the maximum integer in the array nums.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1647.Minimum-Deletions-to-Make-Character-Frequencies-Unique/</guid>
+      <description>1647. Minimum Deletions to Make Character Frequencies Unique #  Problem #  A string s is called good if there are no two different characters in s that have the same frequency.
+Given a string s, return the minimum number of characters you need to delete to make s good.
+The frequency of a character in a string is the number of times it appears in the string. For example, in the string &amp;quot;aab&amp;quot;, the frequency of &#39;a&#39; is 2, while the frequency of &#39;b&#39; is 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1648.Sell-Diminishing-Valued-Colored-Balls/</guid>
+      <description>1648. Sell Diminishing-Valued Colored Balls #  Problem #  You have an inventory of different colored balls, and there is a customer that wants orders balls of any color.
+The customer weirdly values the colored balls. Each colored ball&amp;rsquo;s value is the number of balls of that color you currently have in your inventory. For example, if you own 6 yellow balls, the customer would pay 6 for the first yellow ball.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1649.Create-Sorted-Array-through-Instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1649.Create-Sorted-Array-through-Instructions/</guid>
+      <description>1649. Create Sorted Array through Instructions #  Problem #  Given an integer array instructions, you are asked to create a sorted array from the elements in instructions. You start with an empty container nums. For each element from left to right in instructions, insert it into nums. The cost of each insertion is the minimum of the following:
+ The number of elements currently in nums that are strictly less than instructions[i].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1652.Defuse-the-Bomb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1652.Defuse-the-Bomb/</guid>
+      <description>1652. Defuse the Bomb #  Problem #  You have a bomb to defuse, and your time is running out! Your informer will provide you with a circular array code of length of n and a key k.
+To decrypt the code, you must replace every number. All the numbers are replaced simultaneously.
+ If k &amp;gt; 0, replace the ith number with the sum of the next k numbers.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1653.Minimum-Deletions-to-Make-String-Balanced/</guid>
+      <description>1653. Minimum Deletions to Make String Balanced #  Problem #  You are given a string s consisting only of characters &#39;a&#39; and &#39;b&#39;.
+You can delete any number of characters in s to make s balanced. s is balanced if there is no pair of indices (i,j) such that i &amp;lt; j and s[i] = &#39;b&#39; and s[j]= &#39;a&#39;.
+Return the minimum number of deletions needed to make s balanced.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1654.Minimum-Jumps-to-Reach-Home/</guid>
+      <description>1654. Minimum Jumps to Reach Home #  Problem #  A certain bug&amp;rsquo;s home is on the x-axis at position x. Help them get there from position 0.
+The bug jumps according to the following rules:
+ It can jump exactly a positions forward (to the right). It can jump exactly b positions backward (to the left). It cannot jump backward twice in a row. It cannot jump to any forbidden positions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1655.Distribute-Repeating-Integers/</guid>
+      <description>1655. Distribute Repeating Integers #  Problem #  You are given an array of n integers, nums, where there are at most 50 unique values in the array. You are also given an array of m customer order quantities, quantity, where quantity[i] is the amount of integers the ith customer ordered. Determine if it is possible to distribute nums such that:
+ The ith customer gets exactly quantity[i] integers, The integers the ith customer gets are all equal, and Every customer is satisfied.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1656.Design-an-Ordered-Stream/</guid>
+      <description>1656. Design an Ordered Stream #  Problem #  There is a stream of n (id, value) pairs arriving in an arbitrary order, where id is an integer between 1 and n and value is a string. No two pairs have the same id.
+Design a stream that returns the values in increasing order of their IDs by returning a chunk (list) of values after each insertion. The concatenation of all the chunks should result in a list of the sorted values.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1657.Determine-if-Two-Strings-Are-Close/</guid>
+      <description>1657. Determine if Two Strings Are Close #  Problem #  Two strings are considered close if you can attain one from the other using the following operations:
+ Operation 1: Swap any two existing characters.  For example, abcde -&amp;gt; aecdb   Operation 2: Transform every occurrence of one existing character into another existing character, and do the same with the other character.  For example, aacabb -&amp;gt; bbcbaa (all a&#39;s turn into b&#39;s, and all b&#39;s turn into a&#39;s)    You can use the operations on either string as many times as necessary.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1658.Minimum-Operations-to-Reduce-X-to-Zero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1658.Minimum-Operations-to-Reduce-X-to-Zero/</guid>
+      <description>1658. Minimum Operations to Reduce X to Zero #  Problem #  You are given an integer array nums and an integer x. In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x. Note that this modifies the array for future operations.
+Return the minimum number of operations to reduce x to exactly 0 if it&amp;rsquo;s possible, otherwise, return 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1659.Maximize-Grid-Happiness/</guid>
+      <description>1659. Maximize Grid Happiness #  Problem #  You are given four integers, m, n, introvertsCount, and extrovertsCount. You have an m x n grid, and there are two types of people: introverts and extroverts. There are introvertsCount introverts and extrovertsCount extroverts.
+You should decide how many people you want to live in the grid and assign each of them one grid cell. Note that you do not have to have all the people living in the grid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1662.Check-If-Two-String-Arrays-are-Equivalent/</guid>
+      <description>1662. Check If Two String Arrays are Equivalent #  Problem #  Given two string arrays word1 and word2, return **true if the two arrays represent the same string, and false otherwise.
+A string is represented by an array if the array elements concatenated in order forms the string.
+Example 1:
+Input: word1 = [&amp;quot;ab&amp;quot;, &amp;quot;c&amp;quot;], word2 = [&amp;quot;a&amp;quot;, &amp;quot;bc&amp;quot;] Output: true Explanation: word1 represents string &amp;quot;ab&amp;quot; + &amp;quot;c&amp;quot; -&amp;gt; &amp;quot;abc&amp;quot; word2 represents string &amp;quot;a&amp;quot; + &amp;quot;bc&amp;quot; -&amp;gt; &amp;quot;abc&amp;quot; The strings are the same, so return true.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1663.Smallest-String-With-A-Given-Numeric-Value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1663.Smallest-String-With-A-Given-Numeric-Value/</guid>
+      <description>1663. Smallest String With A Given Numeric Value #  Problem #  The numeric value of a lowercase character is defined as its position (1-indexed) in the alphabet, so the numeric value of a is 1, the numeric value of b is 2, the numeric value of c is 3, and so on.
+The numeric value of a string consisting of lowercase characters is defined as the sum of its characters&amp;rsquo; numeric values.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1664.Ways-to-Make-a-Fair-Array/</guid>
+      <description>1664. Ways to Make a Fair Array #  Problem #  You are given an integer array nums. You can choose exactly one index (0-indexed) and remove the element. Notice that the index of the elements may change after the removal.
+For example, if nums = [6,1,7,4,1]:
+ Choosing to remove index 1 results in nums = [6,7,4,1]. Choosing to remove index 2 results in nums = [6,1,4,1]. Choosing to remove index 4 results in nums = [6,1,7,4].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1665.Minimum-Initial-Energy-to-Finish-Tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1665.Minimum-Initial-Energy-to-Finish-Tasks/</guid>
+      <description>1665. Minimum Initial Energy to Finish Tasks #  Problem #  You are given an array tasks where tasks[i] = [actuali, minimumi]:
+ actuali is the actual amount of energy you spend to finish the ith task. minimumi is the minimum amount of energy you require to begin the ith task.  For example, if the task is [10, 12] and your current energy is 11, you cannot start this task.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1668.Maximum-Repeating-Substring/</guid>
+      <description>1668. Maximum Repeating Substring #  Problem #  For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. The word&#39;s maximum k-repeating value is the highest value k where word is k-repeating in sequence. If word is not a substring of sequence, word&#39;s maximum k-repeating value is 0.
+Given strings sequence and word, return the maximum k-repeating value of word in sequence.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1669.Merge-In-Between-Linked-Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1669.Merge-In-Between-Linked-Lists/</guid>
+      <description>1669. Merge In Between Linked Lists #  Problem #  You are given two linked lists: list1 and list2 of sizes n and m respectively.
+Remove list1&#39;s nodes from the ath node to the bth node, and put list2 in their place.
+The blue edges and nodes in the following figure incidate the result:
+ Build the result list and return its head.
+Example 1:
+ Input: list1 = [0,1,2,3,4,5], a = 3, b = 4, list2 = [1000000,1000001,1000002] Output: [0,1,2,1000000,1000001,1000002,5] Explanation: We remove the nodes 3 and 4 and put the entire list2 in their place.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1670.Design-Front-Middle-Back-Queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1670.Design-Front-Middle-Back-Queue/</guid>
+      <description>1670. Design Front Middle Back Queue #  Problem #  Design a queue that supports push and pop operations in the front, middle, and back.
+Implement the FrontMiddleBack class:
+ FrontMiddleBack() Initializes the queue. void pushFront(int val) Adds val to the front of the queue. void pushMiddle(int val) Adds val to the middle of the queue. void pushBack(int val) Adds val to the back of the queue. int popFront() Removes the front element of the queue and returns it.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1672.Richest-Customer-Wealth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1672.Richest-Customer-Wealth/</guid>
+      <description>1672. Richest Customer Wealth #  Problem #  You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the ith customer has in the jth bank. Return the wealth that the richest customer has.
+A customer&amp;rsquo;s wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1673.Find-the-Most-Competitive-Subsequence/</guid>
+      <description>1673. Find the Most Competitive Subsequence #  Problem #  Given an integer array nums and a positive integer k, return the most competitive subsequence of nums of size k.
+An array&amp;rsquo;s subsequence is a resulting sequence obtained by erasing some (possibly zero) elements from the array.
+We define that a subsequence a is more competitive than a subsequence b (of the same length) if in the first position where a and b differ, subsequence a has a number less than the corresponding number in b.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1674.Minimum-Moves-to-Make-Array-Complementary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1674.Minimum-Moves-to-Make-Array-Complementary/</guid>
+      <description>1674. Minimum Moves to Make Array Complementary #  Problem #  You are given an integer array nums of even length n and an integer limit. In one move, you can replace any integer from nums with another integer between 1 and limit, inclusive.
+The array nums is complementary if for all indices i (0-indexed), nums[i] + nums[n - 1 - i] equals the same number. For example, the array [1,2,3,4] is complementary because for all indices i, nums[i] + nums[n - 1 - i] = 5.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1675.Minimize-Deviation-in-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1675.Minimize-Deviation-in-Array/</guid>
+      <description>1675. Minimize Deviation in Array #  Problem #  You are given an array nums of n positive integers.
+You can perform two types of operations on any element of the array any number of times:
+ If the element is even, divide it by 2.  For example, if the array is [1,2,3,4], then you can do this operation on the last element, and the array will be [1,2,3,2].</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1678.Goal-Parser-Interpretation/</guid>
+      <description>1678. Goal Parser Interpretation #  Problem #  You own a Goal Parser that can interpret a string command. The command consists of an alphabet of &amp;quot;G&amp;quot;, &amp;quot;()&amp;quot; and/or &amp;quot;(al)&amp;quot; in some order. The Goal Parser will interpret &amp;quot;G&amp;quot; as the string &amp;quot;G&amp;quot;, &amp;quot;()&amp;quot; as the string &amp;quot;o&amp;quot;, and &amp;quot;(al)&amp;quot; as the string &amp;quot;al&amp;quot;. The interpreted strings are then concatenated in the original order.
+Given the string command, return the Goal Parser&amp;rsquo;s interpretation of command.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1679.Max-Number-of-K-Sum-Pairs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1679.Max-Number-of-K-Sum-Pairs/</guid>
+      <description>1679. Max Number of K-Sum Pairs #  Problem #  You are given an integer array nums and an integer k.
+In one operation, you can pick two numbers from the array whose sum equals k and remove them from the array.
+Return the maximum number of operations you can perform on the array.
+Example 1:
+Input: nums = [1,2,3,4], k = 5 Output: 2 Explanation: Starting with nums = [1,2,3,4]: - Remove numbers 1 and 4, then nums = [2,3] - Remove numbers 2 and 3, then nums = [] There are no more pairs that sum up to 5, hence a total of 2 operations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1680.Concatenation-of-Consecutive-Binary-Numbers/</guid>
+      <description>1680. Concatenation of Consecutive Binary Numbers #  Problem #  Given an integer n, return the decimal value of the binary string formed by concatenating the binary representations of 1 to n in order, modulo 109 + 7.
+Example 1:
+Input: n = 1 Output: 1 Explanation: &amp;quot;1&amp;quot; in binary corresponds to the decimal value 1. Example 2:
+Input: n = 3 Output: 27 Explanation: In binary, 1, 2, and 3 corresponds to &amp;quot;1&amp;quot;, &amp;quot;10&amp;quot;, and &amp;quot;11&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1681.Minimum-Incompatibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1681.Minimum-Incompatibility/</guid>
+      <description>1681. Minimum Incompatibility #  Problem #  You are given an integer array nums and an integer k. You are asked to distribute this array into k subsets of equal size such that there are no two equal elements in the same subset.
+A subset&amp;rsquo;s incompatibility is the difference between the maximum and minimum elements in that array.
+Return the minimum possible sum of incompatibilities of the k subsets after distributing the array optimally, or return -1 if it is not possible.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1684.Count-the-Number-of-Consistent-Strings/</guid>
+      <description>1684. Count the Number of Consistent Strings #  Problem #  You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+Return the number of consistent strings in the array words.
+Example 1:
+Input: allowed = &amp;quot;ab&amp;quot;, words = [&amp;quot;ad&amp;quot;,&amp;quot;bd&amp;quot;,&amp;quot;aaab&amp;quot;,&amp;quot;baa&amp;quot;,&amp;quot;badab&amp;quot;] Output: 2 Explanation: Strings &amp;quot;aaab&amp;quot; and &amp;quot;baa&amp;quot; are consistent since they only contain characters &#39;a&#39; and &#39;b&#39;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array/</guid>
+      <description>1685. Sum of Absolute Differences in a Sorted Array #  Problem #  You are given an integer array nums sorted in non-decreasing order.
+Build and return an integer array result with the same length as nums such that result[i] is equal to the summation of absolute differences between nums[i] and all the other elements in the array.
+In other words, result[i] is equal to sum(|nums[i]-nums[j]|) where 0 &amp;lt;= j &amp;lt; nums.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1688.Count-of-Matches-in-Tournament/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1688.Count-of-Matches-in-Tournament/</guid>
+      <description>1688. Count of Matches in Tournament #  Problem #  You are given an integer n, the number of teams in a tournament that has strange rules:
+ If the current number of teams is even, each team gets paired with another team. A total of n / 2 matches are played, and n / 2 teams advance to the next round. If the current number of teams is odd, one team randomly advances in the tournament, and the rest gets paired.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1689.Partitioning-Into-Minimum-Number-Of-Deci-Binary-Numbers/</guid>
+      <description>1689. Partitioning Into Minimum Number Of Deci-Binary Numbers #  Problem #  A decimal number is called deci-binary if each of its digits is either 0 or 1 without any leading zeros. For example, 101 and 1100 are deci-binary, while 112 and 3001 are not.
+Given a string n that represents a positive decimal integer, return the minimum number of positive deci-binary numbers needed so that they sum up to n*.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1690.Stone-Game-VII/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1690.Stone-Game-VII/</guid>
+      <description>1690. Stone Game VII #  Problem #  Alice and Bob take turns playing a game, with Alice starting first.
+There are n stones arranged in a row. On each player&amp;rsquo;s turn, they can remove either the leftmost stone or the rightmost stone from the row and receive points equal to the sum of the remaining stones&amp;rsquo; values in the row. The winner is the one with the higher score when there are no stones left to remove.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1691.Maximum-Height-by-Stacking-Cuboids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1691.Maximum-Height-by-Stacking-Cuboids/</guid>
+      <description>1691. Maximum Height by Stacking Cuboids #  Problem #  Given n cuboids where the dimensions of the ith cuboid is cuboids[i] = [widthi, lengthi, heighti] (0-indexed). Choose a subset of cuboids and place them on each other.
+You can place cuboid i on cuboid j if widthi &amp;lt;= widthj and lengthi &amp;lt;= lengthj and heighti &amp;lt;= heightj. You can rearrange any cuboid&amp;rsquo;s dimensions by rotating it to put it on another cuboid.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1694.Reformat-Phone-Number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1694.Reformat-Phone-Number/</guid>
+      <description>1694. Reformat Phone Number #  Problem #  You are given a phone number as a string number. number consists of digits, spaces &#39; &#39;, and/or dashes &#39;-&#39;.
+You would like to reformat the phone number in a certain manner. Firstly, remove all spaces and dashes. Then, group the digits from left to right into blocks of length 3 until there are 4 or fewer digits. The final digits are then grouped as follows:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1695.Maximum-Erasure-Value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1695.Maximum-Erasure-Value/</guid>
+      <description>1695. Maximum Erasure Value #  Problem #  You are given an array of positive integers nums and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements.
+Return the maximum score you can get by erasing exactly one subarray.
+An array b is called to be a subarray of a if it forms a contiguous subsequence of a, that is, if it is equal to a[l],a[l+1],.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1696.Jump-Game-VI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://books.halfrost.com/leetcode/en/ChapterFour/1600~1699/1696.Jump-Game-VI/</guid>
+      <description>1696. Jump Game VI #  Problem #  You are given a 0-indexed integer array nums and an integer k.
+You are initially standing at index 0. In one move, you can jump at most k steps forward without going outside the boundaries of the array. That is, you can jump from index i to any index in the range [i + 1, min(n - 1, i + k)] inclusive.</description>
+    </item>
+    
+  </channel>
+</rss>
