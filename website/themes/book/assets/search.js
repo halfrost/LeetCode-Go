@@ -27,6 +27,15 @@
     // Don't hijack typing in other editable fields (e.g. the Gitalk comment box).
     // Otherwise a search hotkey ("s" / "/") typed there steals focus to the search
     // box, making it lose focus after every keystroke.
+    //
+    // Prefer event.target (the element that actually received the key) over
+    // document.activeElement — it is more reliable across frameworks/nesting.
+    // Bail out for any editable element or anything inside the Gitalk widget.
+    const target = event.target;
+    if (target && typeof target.closest === 'function' &&
+        target.closest('input, textarea, select, [contenteditable=""], [contenteditable="true"], #gitalk-container, .gt-container')) {
+      return;
+    }
     const active = document.activeElement;
     if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.tagName === 'SELECT' || active.isContentEditable)) {
       return;

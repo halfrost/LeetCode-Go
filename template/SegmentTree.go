@@ -81,10 +81,10 @@ func (st *SegmentTree) queryLazyInTree(treeIndex, left, right, queryLeft, queryR
 		return 0 // represents a null node
 	}
 	if st.lazy[treeIndex] != 0 { // this node is lazy
-		for i := 0; i < right-left+1; i++ {
-			st.tree[treeIndex] = st.merge(st.tree[treeIndex], st.lazy[treeIndex])
-			// st.tree[treeIndex] += (right - left + 1) * st.lazy[treeIndex] // normalize current node by removing lazinesss
-		}
+		// merge 为幂等操作（如 max/min）时，对整段套用一次即等价于对每个元素套用，
+		// 故 O(1) 下推即可；按区间长度循环会把下推退化成 O(区间)，失去 lazy 的意义。
+		// 若改用「区间求和 + 区间加」语义，这里应换成 st.tree[treeIndex] += (right-left+1) * st.lazy[treeIndex]。
+		st.tree[treeIndex] = st.merge(st.tree[treeIndex], st.lazy[treeIndex])
 		if left != right { // update lazy[] for children nodes
 			st.lazy[leftTreeIndex] = st.merge(st.lazy[leftTreeIndex], st.lazy[treeIndex])
 			st.lazy[rightTreeIndex] = st.merge(st.lazy[rightTreeIndex], st.lazy[treeIndex])
@@ -145,10 +145,8 @@ func (st *SegmentTree) UpdateLazy(updateLeft, updateRight, val int) {
 func (st *SegmentTree) updateLazyInTree(treeIndex, left, right, updateLeft, updateRight, val int) {
 	midTreeIndex, leftTreeIndex, rightTreeIndex := left+(right-left)>>1, st.leftChild(treeIndex), st.rightChild(treeIndex)
 	if st.lazy[treeIndex] != 0 { // this node is lazy
-		for i := 0; i < right-left+1; i++ {
-			st.tree[treeIndex] = st.merge(st.tree[treeIndex], st.lazy[treeIndex])
-			//st.tree[treeIndex] += (right - left + 1) * st.lazy[treeIndex] // normalize current node by removing laziness
-		}
+		// 幂等 merge（如 max/min）整段套用一次即可，O(1) 下推（求和语义则用 (right-left+1)*lazy）。
+		st.tree[treeIndex] = st.merge(st.tree[treeIndex], st.lazy[treeIndex])
 		if left != right { // update lazy[] for children nodes
 			st.lazy[leftTreeIndex] = st.merge(st.lazy[leftTreeIndex], st.lazy[treeIndex])
 			st.lazy[rightTreeIndex] = st.merge(st.lazy[rightTreeIndex], st.lazy[treeIndex])
@@ -163,10 +161,8 @@ func (st *SegmentTree) updateLazyInTree(treeIndex, left, right, updateLeft, upda
 	}
 
 	if updateLeft <= left && right <= updateRight { // segment is fully within update range
-		for i := 0; i < right-left+1; i++ {
-			st.tree[treeIndex] = st.merge(st.tree[treeIndex], val)
-			//st.tree[treeIndex] += (right - left + 1) * val // update segment
-		}
+		// 同理，幂等 merge 整段套用一次即可（求和语义则用 (right-left+1)*val）。
+		st.tree[treeIndex] = st.merge(st.tree[treeIndex], val)
 		if left != right { // update lazy[] for children
 			st.lazy[leftTreeIndex] = st.merge(st.lazy[leftTreeIndex], val)
 			st.lazy[rightTreeIndex] = st.merge(st.lazy[rightTreeIndex], val)
