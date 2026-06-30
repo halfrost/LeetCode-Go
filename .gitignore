@@ -1,2 +1,5 @@
 *.toml
 .idea
+
+# Workbox build tooling
+website/node_modules/

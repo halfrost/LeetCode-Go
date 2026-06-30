@@ -56,13 +56,13 @@
 {{- if .Site.Params.BookServiceWorker }}
 <!-- {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script> -->
-{{- /* 注意：SW 必须用稳定 URL 注册（不要 Fingerprint）。否则内容一变 URL 就变，
-       而老用户缓存里的旧 HTML 仍指向旧 URL，浏览器的更新检查永远命中旧文件，
-       用户被永久钉死在旧 SW 上。稳定 URL + updateViaCache:'none' 可保证每次都拿到最新 SW。 */ -}}
-{{- $swJS := resources.Get "serviceworker-v1.js" | resources.Minify }}
+{{- /* SW 用稳定 URL 注册（不要 Fingerprint）。否则内容一变 URL 就变，老用户缓存里的旧 HTML 仍指向旧 URL，
+       浏览器更新检查永远命中旧文件，被永久钉在旧 SW 上。稳定 URL + updateViaCache:'none' 保证每次都拿到最新。
+       这个文件不经 Hugo 资源管线，而是由 Workbox 的 injectManifest 直接写入 public/serviceworker-v1.min.js
+       （注入预缓存清单）。构建命令见 website/package.json：`npm run build`（= hugo && npm run sw）。 */ -}}
 <script async>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("{{ $swJS.RelPermalink }}", { updateViaCache: 'none' }).then(function() {
+      navigator.serviceWorker.register("{{ "serviceworker-v1.min.js" | relURL }}", { updateViaCache: 'none' }).then(function() {
           if (navigator.serviceWorker.controller) {
             console.log('Assets cached by the controlling service worker.');
           } else {

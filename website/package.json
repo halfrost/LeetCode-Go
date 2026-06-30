@@ -1,0 +1,13 @@
+{
+  "name": "leetcode-cookbook-website",
+  "private": true,
+  "description": "Build tooling for the Hugo site (Workbox service worker generation).",
+  "scripts": {
+    "hugo": "hugo",
+    "sw": "workbox injectManifest workbox-config.cjs",
+    "build": "hugo && npm run sw"
+  },
+  "devDependencies": {
+    "workbox-cli": "^7.3.0"
+  }
+}
