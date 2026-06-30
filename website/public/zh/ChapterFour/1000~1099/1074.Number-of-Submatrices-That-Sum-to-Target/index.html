@@ -48,7 +48,7 @@ Two submatrices (x1, y1, x2, y2) and (x1&#39;, y1&#39;, x2&#39;, y2&#39;) ar
 
 <script async>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.3b670f07e91c506468df879f46040abc66c3be76ba5dbb98ae3a4b3bf63913c0.js").then(function() {
+      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.js", { updateViaCache: 'none' }).then(function() {
           if (navigator.serviceWorker.controller) {
             console.log('Assets cached by the controlling service worker.');
           } else {

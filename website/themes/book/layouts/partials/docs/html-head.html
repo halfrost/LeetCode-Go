@@ -56,10 +56,13 @@
 {{- if .Site.Params.BookServiceWorker }}
 <!-- {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $swJS.RelPermalink }}" integrity="{{ $swJS.Data.Integrity }}"></script> -->
-{{- $swJS := resources.Get "serviceworker-v1.js" | resources.Minify | resources.Fingerprint }}
+{{- /* 注意：SW 必须用稳定 URL 注册（不要 Fingerprint）。否则内容一变 URL 就变，
+       而老用户缓存里的旧 HTML 仍指向旧 URL，浏览器的更新检查永远命中旧文件，
+       用户被永久钉死在旧 SW 上。稳定 URL + updateViaCache:'none' 可保证每次都拿到最新 SW。 */ -}}
+{{- $swJS := resources.Get "serviceworker-v1.js" | resources.Minify }}
 <script async>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("{{ $swJS.RelPermalink }}").then(function() {
+      navigator.serviceWorker.register("{{ $swJS.RelPermalink }}", { updateViaCache: 'none' }).then(function() {
           if (navigator.serviceWorker.controller) {
             console.log('Assets cached by the controlling service worker.');
           } else {

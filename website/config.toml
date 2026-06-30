@@ -180,6 +180,7 @@ defaultContentLanguageInSubdir = true
     # 登录代理：GitHub 的 /login/oauth/access_token 接口不返回 CORS 头，浏览器无法直接调用，必须经服务端中转。
     # 原来的 Heroku 免费应用已停服，故改为指向本站同源路径，由服务器反向代理到 GitHub。
     # 因为与站点同源(都是 books.halfrost.com)，浏览器不触发 CORS，最稳。
-    # 需要在服务器 web 配置里加一个反代到 https://github.com/login/oauth/access_token 的 location（见对话里的 nginx 片段）。
+    # 需要在服务器 web 配置里加一个反代到 https://github.com/login/oauth/access_token 的 location。
+    # 完整且修好 502(SNI) 的 nginx 配置见 website/deploy/nginx-gitalk-oauth.conf。
     proxy= "https://books.halfrost.com/gitalk-oauth"
 

@@ -50,7 +50,7 @@ Input: [[4,10,15,24,26], [0,9,12,20], [5,18,22,30]] Output: [20,24] Explanation:
 
 <script async>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.3b670f07e91c506468df879f46040abc66c3be76ba5dbb98ae3a4b3bf63913c0.js").then(function() {
+      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.js", { updateViaCache: 'none' }).then(function() {
           if (navigator.serviceWorker.controller) {
             console.log('Assets cached by the controlling service worker.');
           } else {

@@ -50,7 +50,7 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 <script async>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.3b670f07e91c506468df879f46040abc66c3be76ba5dbb98ae3a4b3bf63913c0.js").then(function() {
+      navigator.serviceWorker.register("\/leetcode\/serviceworker-v1.min.js", { updateViaCache: 'none' }).then(function() {
           if (navigator.serviceWorker.controller) {
             console.log('Assets cached by the controlling service worker.');
           } else {
