@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "workbox-cli": "^7.3.0"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.2.1"
   }
 }
