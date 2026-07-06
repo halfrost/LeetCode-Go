@@ -1,0 +1,21 @@
+# 让 GitHub Linguist 重新把本仓识别为 Go 项目。
+#
+# 本仓除了 Go 题解，还提交了「Hugo 构建产物」和一本双语「Markdown 书」，
+# 二者按字节数远大于 Go 源码（HTML ~476MB、Markdown ~10MB、Go ~1.5MB），
+# 导致语言被判成 HTML。这里按 Linguist 语义给非代码内容正确归类，
+# 使语言统计只反映真正的 Go 源码。
+#
+# 归类后计入统计的字节：Go ~1.5MB（第一） > JSON ~0.28MB > JS ~0.11MB。
+# 说明：Linguist 在【推送到默认分支】后重算，语言条可能需要几分钟刷新。
+
+# Hugo 构建产物（生成的静态站点）——排除出统计，diff 里折叠
+website/public/** linguist-generated=true
+
+# 第三方 Hugo 主题（含 flexsearch / workbox 等库）——vendored，排除出统计
+website/themes/** linguist-vendored=true
+
+# 所有 Markdown（题解讲解、书籍正文、README）都是文档/散文，非源码——排除出统计
+*.md linguist-documentation=true
+
+# ctl 工具生成的整本合并 Markdown 大文件——按生成物处理（顺带折叠其巨大 diff）
+PDF*.md linguist-generated=true
