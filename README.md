@@ -100,7 +100,6 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |Array-based heap|1. Max-heap and min-heap<br>2. Min-max heap<br>3. Double-ended heap (deap)<br>4. d-ary heap|||
 |Tree-based heap|1. Leftist heap<br>2. Skew heap<br>3. Binomial heap<br>4. Fibonacci heap<br>5. Pairing heap|||
 |Search|1. Hash table<br>2. Skip list<br>3. Binary search tree<br>4. AVL tree<br>5. B-tree / B+ tree / B* tree<br>6. AA tree<br>7. Red-black tree<br>8. Sorted binary heap<br>9. Splay tree<br>10. Double-chained tree<br>11. Trie<br>12. R-tree|||
-|--------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
 
 
 ## Algorithm
@@ -119,7 +118,6 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |Number theory||1. Greatest common divisor<br> 2. Least common multiple<br>3. Prime factorization<br>4. Primality testing<br>5. Base conversion<br>6. Arbitrary-precision arithmetic<br>7. Divisibility<br>8. Congruences<br>9. Euler's totient function<br>10. Extended Euclidean algorithm<br>11. Permutation groups<br>12. Generating functions<br>13. Discrete transforms<br>14. Cantor expansion<br>15. Matrices<br>16. Vectors<br>17. Systems of linear equations<br>18. Linear programming<br> ||
 |Geometry||1. Convex hull - gift wrapping<br>2. Convex hull - Graham scan<br>3. Line-segment problems<br> 4. Problems on polygons and polyhedra<br>||
 |NP-completeness|1. Computation models<br>2. Class-P and class-NP problems<br>3. NP-complete problems<br>4. Approximation algorithms for NP-complete problems<br>|1. Random-access machine (RAM)<br>2. Random-access stored-program machine (RASP)<br>3. Turing machine<br>4. Non-deterministic Turing machine<br>5. Class-P and class-NP languages<br>6. Polynomial-time verification<br>7. Polynomial-time reduction<br>8. Cook's theorem<br>9. CNF satisfiability (CNF-SAT)<br>10. 3-CNF satisfiability (3-SAT)<br>11. Clique problem (CLIQUE)<br>12. Vertex-cover problem (VERTEX-COVER)<br>13. Subset-sum problem (SUBSET-SUM)<br>14. Hamiltonian-cycle problem (HAM-CYCLE)<br>15. Traveling-salesman problem (TSP)<br>16. Approximation algorithm for vertex cover<br>17. Approximation algorithm for TSP<br>18. TSP with the triangle inequality<br>19. General TSP<br>20. Approximation algorithm for set cover<br>21. Approximation algorithm for subset sum<br>22. Exponential-time algorithm for subset sum<br>23. Polynomial-time approximation scheme for subset sum<br>||
-|------------|------------------------------------------------------------------|-----------------------------------------------------------------|--------------------|
 
 
 ## LeetCode Problems
@@ -133,7 +131,6 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |Total|600|1305|539|2444|
 |Perfection Rate|89.2%|83.9%|69.7%|83.4%|
 |Completion Rate|47.8%|37.1%|26.3%|37.4%|
-|------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 2. Directory
 
@@ -2585,7 +2582,6 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2442|Count Number of Distinct Integers After Reverse Operations||78.8%|Medium||
 |2443|Sum of Number and Its Reverse||40.6%|Medium||
 |2444|Count Subarrays With Fixed Bounds||38.4%|Hard||
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
 
@@ -3100,5 +3096,5 @@ The **code** in this repository (all Go solutions) is licensed under the [MIT Li
 
 Thanks for your Star！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=halfrost/LeetCode-Go&type=Date)](https://star-history.com/#halfrost/LeetCode-Go&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=halfrost/LeetCode-Go&type=date&legend=top-left&sealed_token=EQkNj9wWdqUge56cVafCkwjphuAeZuxwsNNiR0KstjGR4b5wfg5byc4GRkcJHWsW1L0oXyq9peCFb-COlsFW6k-WoKEZX6bA6tHyv0YGQl9qIl0GmgFo6movMRy7LzJhMwZW_zPMT0oXVZ2SQQdzSumyKiFE0lmZZy3dvlRPtTpg0pr2Uh13bYdXH_y7)](https://www.star-history.com/?type=date&repos=halfrost%2FLeetCode-Go)
 

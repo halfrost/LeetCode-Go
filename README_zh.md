@@ -100,7 +100,6 @@
 |数组实现的堆|1. 极大堆和极小堆<br>2. 极大极小堆<br>3. 双端堆<br>4. d 叉堆|||
 |树实现的堆|1. 左堆<br>2. 扁堆<br>3. 二项式堆<br>4. 斐波那契堆<br>5. 配对堆|||
 |查找|1. 哈希表<br>2. 跳跃表<br>3. 排序二叉树<br>4. AVL 树<br>5. B 树 / B+ 树 / B* 树<br>6. AA 树<br>7. 红黑树<br>8. 排序二叉堆<br>9. Splay 树<br>10. 双链树<br>11. Trie 树<br>12. R 树|||
-|--------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
 
 
 ## Algorithm
@@ -119,7 +118,6 @@
 |数论||1. 最大公约数<br> 2. 最小公倍数<br>3. 分解质因数<br>4. 素数判定<br>5. 进制转换<br>6. 高精度计算<br>7. 整除问题<br>8. 同余问题<br>9. 欧拉函数<br>10. 扩展欧几里得<br>11. 置换群<br>12. 母函数<br>13. 离散变换<br>14. 康托展开<br>15. 矩阵<br>16. 向量<br>17. 线性方程组<br>18. 线性规划<br> ||
 |几何||1. 凸包 - Gift wrapping<br>2. 凸包 - Graham scan<br>3. 线段问题<br> 4. 多边形和多面体相关问题<br>||
 |NP 完全|1. 计算模型<br>2. P 类与 NP 类问题<br>3. NP 完全问题<br>4. NP 完全问题的近似算法<br>|1. 随机存取机 RAM<br>2. 随机存取存储程序机 RASP<br>3. 图灵机<br>4. 非确定性图灵机<br>5. P 类与 NP 类语言<br>6. 多项式时间验证<br>7. 多项式时间变换<br>8. Cook定理<br>9. 合取范式的可满足性问题 CNF-SAT<br>10. 3 元合取范式的可满足性问题 3-SAT<br>11. 团问题 CLIQUE<br>12. 顶点覆盖问题 VERTEX-COVER<br>13. 子集和问题 SUBSET-SUM<br>14. 哈密顿回路问题 HAM-CYCLE<br>15. 旅行售货员问题 TSP<br>16. 顶点覆盖问题的近似算法<br>17. 旅行售货员问题近似算法<br>18. 具有三角不等式性质的旅行售货员问题<br>19. 一般的旅行售货员问题<br>20. 集合覆盖问题的近似算法<br>21. 子集和问题的近似算法<br>22. 子集和问题的指数时间算法<br>23. 子集和问题的多项式时间近似格式<br>||
-|------------|------------------------------------------------------------------|-----------------------------------------------------------------|--------------------|
 
 
 ## LeetCode Problems
@@ -133,7 +131,6 @@
 |Total|600|1305|539|2444|
 |Perfection Rate|89.2%|83.9%|69.7%|83.4%|
 |Completion Rate|47.8%|37.1%|26.3%|37.4%|
-|------------|----------------------------|----------------------------|----------------------------|----------------------------|
 
 ## 二. 目录
 
@@ -2585,7 +2582,6 @@
 |2442|Count Number of Distinct Integers After Reverse Operations||78.8%|Medium||
 |2443|Sum of Number and Its Reverse||40.6%|Medium||
 |2444|Count Subarrays With Fixed Bounds||38.4%|Hard||
-|------------|-------------------------------------------------------|-------| ----------------| ---------------|-------------|
 
 ------------------------------------------------------------------
 
@@ -3100,5 +3096,5 @@ The **code** in this repository (all Go solutions) is licensed under the [MIT Li
 
 Thanks for your Star！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=halfrost/LeetCode-Go&type=Date)](https://star-history.com/#halfrost/LeetCode-Go&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=halfrost/LeetCode-Go&type=date&legend=top-left&sealed_token=EQkNj9wWdqUge56cVafCkwjphuAeZuxwsNNiR0KstjGR4b5wfg5byc4GRkcJHWsW1L0oXyq9peCFb-COlsFW6k-WoKEZX6bA6tHyv0YGQl9qIl0GmgFo6movMRy7LzJhMwZW_zPMT0oXVZ2SQQdzSumyKiFE0lmZZy3dvlRPtTpg0pr2Uh13bYdXH_y7)](https://www.star-history.com/?type=date&repos=halfrost%2FLeetCode-Go)
 
