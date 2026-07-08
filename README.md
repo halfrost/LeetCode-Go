@@ -631,7 +631,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |0488|Zuma Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0488.Zuma-Game)|34.9%|Hard||
 |0489|Robot Room Cleaner||76.5%|Hard||
 |0490|The Maze||55.4%|Medium||
-|0491|Increasing Subsequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0491.Increasing-Subsequences)|52.0%|Medium||
+|0491|Increasing Subsequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0491.Non-decreasing-Subsequences)|52.0%|Medium||
 |0492|Construct the Rectangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0492.Construct-the-Rectangle)|53.6%|Easy||
 |0493|Reverse Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0493.Reverse-Pairs)|30.8%|Hard||
 |0494|Target Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0494.Target-Sum)|45.6%|Medium||
@@ -1427,7 +1427,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix||72.1%|Hard||
 |1285|Find the Start and End Number of Continuous Ranges||88.2%|Medium||
 |1286|Iterator for Combination||73.5%|Medium||
-|1287|Element Appearing More Than 25% In Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1287.Element-Appearing-More-Than-25-In-Sorted-Array)|59.5%|Easy||
+|1287|Element Appearing More Than 25% In Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1287.Element-Appearing-More-Than-In-Sorted-Array)|59.5%|Easy||
 |1288|Remove Covered Intervals||57.3%|Medium||
 |1289|Minimum Falling Path Sum II||59.6%|Hard||
 |1290|Convert Binary Number in a Linked List to Integer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer)|82.6%|Easy||
@@ -2601,13 +2601,13 @@ None
 ## Array
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Array/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Array/)
 
 
 
 ## String
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/String/)
 
 
 ## Two Pointers
@@ -2636,7 +2636,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
 - The SUM problem set. Problems 1, 15, 16, 18, 167, 923, 1074.
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Pointers/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Two_Pointers/)
 
 
 ## Linked List
@@ -2654,7 +2654,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Poin
 - Detecting whether a linked list has a cycle and, if so, outputting the index of the cycle's entry node; detecting whether two linked lists intersect and, if so, outputting the intersection node. Problems 141, 142, 160.
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_List/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Linked_List/)
 
 
 
@@ -2668,14 +2668,14 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_L
 - Using a stack for encoding/decoding problems. Problems 394, 682, 856, 880.
 - **Monotonic stack**. **Use a stack to maintain a monotonically increasing or decreasing array of indices**. Problems 84, 456, 496, 503, 739, 901, 907, 1019.
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Stack/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Stack/)
 
 
 
 ## Tree
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Tree/)
 
 
 
@@ -2683,7 +2683,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Tree/)
 
 ## Dynamic Programming
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Dynamic_Programming/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Dynamic_Programming/)
 
 
 
@@ -2782,13 +2782,13 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 ```
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Backtracking/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Backtracking/)
 
 
 ## Depth First Search
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Depth_First_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Depth_First_Search/)
 
 
 
@@ -2797,7 +2797,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Depth_Fi
 
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Breadth_First_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Breadth_First_Search/)
 
 
 
@@ -2929,14 +2929,14 @@ func peakIndexInMountainArray(A []int) int {
 
 - The max-min (minimize-the-maximum) problem: find the largest value while satisfying the constraint as tightly as possible. Problems 410, 875, 1011, 1283.
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Search/)
 
 
 
 ## Math
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Math/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Math/)
 
 
 
@@ -2944,7 +2944,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Math/)
 ## Hash Table
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Hash_Table/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Hash_Table/)
 
 
 
@@ -2959,7 +2959,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Hash_Tab
 - Reordering so that no two adjacent elements are equal. Problems 767, 1054.
 - "Pancake sorting". Problem 969.
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sort/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Sorting/)
 
 
 ## Bit Manipulation
@@ -2998,7 +2998,7 @@ X & -X isolates the lowest set bit (LSB)
 X & ~X = 0
 ```
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Manipulation/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Bit_Manipulation/)
 
 
 ## Union Find
@@ -3013,7 +3013,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Mani
 - Problems solvable with union-find can generally also be solved with DFS and BFS, just at a somewhat higher time complexity.
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Find/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Union_Find/)
 
 
 
@@ -3039,7 +3039,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Fi
 ```
 - Classic sliding-window problems. Problems 239, 480.
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Sliding_Window/)
 
 
 ## Segment Tree
@@ -3072,14 +3072,14 @@ Segment-tree [problem types](https://blog.csdn.net/xuechelingxiao/article/detail
 	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update: range add/subtract; query: read the root node's value directly
 	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update: range add/subtract; query: read the root node's value directly
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Segment_Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Segment_Tree/)
 
 
 ## Binary Indexed Tree
 
 ![](./topic/Binary_Indexed_Tree.png)
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_Indexed_Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/en/ChapterTwo/Binary_Indexed_Tree/)
 
 
 ----------------------------------------------------------------------------------------
@@ -3100,5 +3100,5 @@ The **code** in this repository (all Go solutions) is licensed under the [MIT Li
 
 Thanks for your Star！
 
-[![Stargazers over time](https://starchart.cc/halfrost/LeetCode-Go.svg)](https://starchart.cc/halfrost/LeetCode-Go)
+[![Star History Chart](https://api.star-history.com/svg?repos=halfrost/LeetCode-Go&type=Date)](https://star-history.com/#halfrost/LeetCode-Go&Date)
 

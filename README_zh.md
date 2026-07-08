@@ -631,7 +631,7 @@
 |0488|Zuma Game|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0488.Zuma-Game)|34.9%|Hard||
 |0489|Robot Room Cleaner||76.5%|Hard||
 |0490|The Maze||55.4%|Medium||
-|0491|Increasing Subsequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0491.Increasing-Subsequences)|52.0%|Medium||
+|0491|Increasing Subsequences|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0491.Non-decreasing-Subsequences)|52.0%|Medium||
 |0492|Construct the Rectangle|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0492.Construct-the-Rectangle)|53.6%|Easy||
 |0493|Reverse Pairs|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0493.Reverse-Pairs)|30.8%|Hard||
 |0494|Target Sum|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/0494.Target-Sum)|45.6%|Medium||
@@ -1427,7 +1427,7 @@
 |1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix||72.1%|Hard||
 |1285|Find the Start and End Number of Continuous Ranges||88.2%|Medium||
 |1286|Iterator for Combination||73.5%|Medium||
-|1287|Element Appearing More Than 25% In Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1287.Element-Appearing-More-Than-25-In-Sorted-Array)|59.5%|Easy||
+|1287|Element Appearing More Than 25% In Sorted Array|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1287.Element-Appearing-More-Than-In-Sorted-Array)|59.5%|Easy||
 |1288|Remove Covered Intervals||57.3%|Medium||
 |1289|Minimum Falling Path Sum II||59.6%|Hard||
 |1290|Convert Binary Number in a Linked List to Integer|[Go](https://github.com/halfrost/LeetCode-Go/tree/master/leetcode/1290.Convert-Binary-Number-in-a-Linked-List-to-Integer)|82.6%|Easy||
@@ -2601,13 +2601,13 @@
 ## Array
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Array/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Array/)
 
 
 
 ## String
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/String/)
 
 
 ## Two Pointers
@@ -2636,7 +2636,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/String/)
 - SUM 问题集。第 1 题，第 15 题，第 16 题，第 18 题，第 167 题，第 923 题，第 1074 题。
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Pointers/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Two_Pointers/)
 
 
 ## Linked List
@@ -2654,7 +2654,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Two_Poin
 - 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_List/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Linked_List/)
 
 
 
@@ -2668,14 +2668,14 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Linked_L
 - 利用栈进行编码问题。第 394 题，第 682 题，第 856 题，第 880 题。
 - **单调栈**。**利用栈维护一个单调递增或者递减的下标数组**。第 84 题，第 456 题，第 496 题，第 503 题，第 739 题，第 901 题，第 907 题，第 1019 题。
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Stack/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Stack/)
 
 
 
 ## Tree
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Tree/)
 
 
 
@@ -2683,7 +2683,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Tree/)
 
 ## Dynamic Programming
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Dynamic_Programming/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Dynamic_Programming/)
 
 
 
@@ -2782,13 +2782,13 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 ```
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Backtracking/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Backtracking/)
 
 
 ## Depth First Search
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Depth_First_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Depth_First_Search/)
 
 
 
@@ -2797,7 +2797,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Depth_Fi
 
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Breadth_First_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Breadth_First_Search/)
 
 
 
@@ -2929,14 +2929,14 @@ func peakIndexInMountainArray(A []int) int {
 
 - max-min 最大值最小化问题。求在最小满足条件的情况下的最大值。第 410 题，第 875 题，第 1011 题，第 1283 题。
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_Search/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Search/)
 
 
 
 ## Math
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Math/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Math/)
 
 
 
@@ -2944,7 +2944,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Math/)
 ## Hash Table
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Hash_Table/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Hash_Table/)
 
 
 
@@ -2959,7 +2959,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Hash_Tab
 - 两两不相邻的排序。第 767 题，第 1054 题。
 - "饼子排序"。第 969 题。
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sort/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Sorting/)
 
 
 ## Bit Manipulation
@@ -2998,7 +2998,7 @@ X & -X 得到最低位(LSB)的 1
 X & ~X = 0
 ```
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Manipulation/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Bit_Manipulation/)
 
 
 ## Union Find
@@ -3013,7 +3013,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Bit_Mani
 - 能用并查集的题目，一般也可以用 DFS 和 BFS 解答，只不过时间复杂度会高一点。
 
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Find/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Union_Find/)
 
 
 
@@ -3039,7 +3039,7 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Union_Fi
 ```
 - 滑动窗口经典题。第 239 题，第 480 题。
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sliding_Window/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Sliding_Window/)
 
 
 ## Segment Tree
@@ -3072,14 +3072,14 @@ Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Sliding_
 	[HDU 1542 Atlantis](http://acm.hdu.edu.cn/showproblem.php?pid=1542) update:区间增减 query:直接取根节点的值  
 	[HDU 1828 Picture](http://acm.hdu.edu.cn/showproblem.php?pid=1828) update:区间增减 query:直接取根节点的值
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Segment_Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Segment_Tree/)
 
 
 ## Binary Indexed Tree
 
 ![](./topic/Binary_Indexed_Tree.png)
 
-Problems List in [there](https://books.halfrost.com/leetcode/ChapterTwo/Binary_Indexed_Tree/)
+Problems List in [there](https://books.halfrost.com/leetcode/zh/ChapterTwo/Binary_Indexed_Tree/)
 
 
 ----------------------------------------------------------------------------------------
@@ -3100,5 +3100,5 @@ The **code** in this repository (all Go solutions) is licensed under the [MIT Li
 
 Thanks for your Star！
 
-[![Stargazers over time](https://starchart.cc/halfrost/LeetCode-Go.svg)](https://starchart.cc/halfrost/LeetCode-Go)
+[![Star History Chart](https://api.star-history.com/svg?repos=halfrost/LeetCode-Go&type=Date)](https://star-history.com/#halfrost/LeetCode-Go&Date)
 
